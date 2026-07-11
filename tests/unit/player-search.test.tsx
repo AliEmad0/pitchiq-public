@@ -15,9 +15,9 @@ const SAKA: PlayerSearchHit = {
   team: {
     id: 42,
     name: "Arsenal",
-    logo: "https://media.api-sports.io/football/teams/42.png",
+    logo: "https://media.example.test/football/teams/42.png",
   },
-  photo: "https://media.api-sports.io/football/players/1927.png",
+  photo: "https://media.example.test/football/players/1927.png",
 };
 
 const FERNANDES: PlayerSearchHit = {
@@ -26,9 +26,9 @@ const FERNANDES: PlayerSearchHit = {
   team: {
     id: 33,
     name: "Manchester United",
-    logo: "https://media.api-sports.io/football/teams/33.png",
+    logo: "https://media.example.test/football/teams/33.png",
   },
-  photo: "https://media.api-sports.io/football/players/1485.png",
+  photo: "https://media.example.test/football/players/1485.png",
 };
 
 function jsonResponse<T>(body: T, init?: ResponseInit): Response {

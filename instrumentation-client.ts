@@ -26,7 +26,7 @@ if (isSentryEnabled()) {
     // bundle size manageable on the client.
     replaysOnErrorSampleRate: 1.0,
     replaysSessionSampleRate: 0,
-    // Strip api-football's `x-apisports-key` header and any `?key=` query
+    // Strip the wire's `the auth header` header and any `?key=` query
     // strings from breadcrumbs before they leave the browser. See sentry-
     // sanitize.ts — same logic is reused by the server + edge configs so
     // there's exactly one definition of "what counts as sensitive".

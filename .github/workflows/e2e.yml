@@ -1,7 +1,7 @@
 name: E2E
 
 # Runs Playwright against a production build (pnpm build → pnpm start) with
-# MSW intercepting api-football outbound calls. Separate from `ci.yml` so the
+# MSW intercepting the wire outbound calls. Separate from `ci.yml` so the
 # two checks can be required independently (TASK-004).
 #
 # Pull-request only — push-to-main already triggers a Vercel preview/prod
@@ -64,7 +64,7 @@ jobs:
       # Dev server, not `pnpm build` + `pnpm start`. Reason: `instrumentation.ts`'s
       # MSW boot hook only fires reliably under Turbopack (`pnpm dev`) — in production
       # mode under webpack, `register()` runs without logging "[instrumentation] MSW
-      # Node server listening" and outbound api-football calls escape unintercepted.
+      # Node server listening" and outbound the wire calls escape unintercepted.
       # Discovered live on the first run of this workflow: `pnpm build` + `pnpm start`
       # with `TEST_MSW=1` resulted in 5 of 5 specs hitting real upstream and getting
       # 403s (the placeholder API_KEY rejected). `pnpm dev` mirrors the working

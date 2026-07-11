@@ -6,7 +6,7 @@ import { localizeDigits } from "@/utils/format";
 export type StatRowProps = {
   // Metric name shown below the bar (e.g. "Goals", "Pass accuracy").
   label: string;
-  // Left side's value. `null` for "not measured" — the api-football wire
+  // Left side's value. `null` for "not measured" — the the wire wire
   // convention `ComparisonMetrics` preserves; renders as "—".
   a: number | null;
   // Right side's value. Same semantics as `a`.

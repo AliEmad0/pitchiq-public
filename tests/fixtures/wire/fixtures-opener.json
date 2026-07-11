@@ -20,8 +20,8 @@
         "id": 39,
         "name": "Premier League",
         "country": "England",
-        "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
-        "flag": "https:\/\/media.api-sports.io\/flags\/gb-eng.svg",
+        "logo": "https:\/\/media.example.test\/football\/leagues\/39.png",
+        "flag": "https:\/\/media.example.test\/flags\/gb-eng.svg",
         "season": 2024,
         "round": "Regular Season - 1",
         "standings": true
@@ -30,13 +30,13 @@
         "home": {
           "id": 33,
           "name": "Manchester United",
-          "logo": "https:\/\/media.api-sports.io\/football\/teams\/33.png",
+          "logo": "https:\/\/media.example.test\/football\/teams\/33.png",
           "winner": true
         },
         "away": {
           "id": 36,
           "name": "Fulham",
-          "logo": "https:\/\/media.api-sports.io\/football\/teams\/36.png",
+          "logo": "https:\/\/media.example.test\/football\/teams\/36.png",
           "winner": false
         }
       },
@@ -63,8 +63,8 @@
         "id": 39,
         "name": "Premier League",
         "country": "England",
-        "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
-        "flag": "https:\/\/media.api-sports.io\/flags\/gb-eng.svg",
+        "logo": "https:\/\/media.example.test\/football\/leagues\/39.png",
+        "flag": "https:\/\/media.example.test\/flags\/gb-eng.svg",
         "season": 2024,
         "round": "Regular Season - 1",
         "standings": true
@@ -73,13 +73,13 @@
         "home": {
           "id": 57,
           "name": "Ipswich",
-          "logo": "https:\/\/media.api-sports.io\/football\/teams\/57.png",
+          "logo": "https:\/\/media.example.test\/football\/teams\/57.png",
           "winner": false
         },
         "away": {
           "id": 40,
           "name": "Liverpool",
-          "logo": "https:\/\/media.api-sports.io\/football\/teams\/40.png",
+          "logo": "https:\/\/media.example.test\/football\/teams\/40.png",
           "winner": true
         }
       },
@@ -106,8 +106,8 @@
         "id": 39,
         "name": "Premier League",
         "country": "England",
-        "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
-        "flag": "https:\/\/media.api-sports.io\/flags\/gb-eng.svg",
+        "logo": "https:\/\/media.example.test\/football\/leagues\/39.png",
+        "flag": "https:\/\/media.example.test\/flags\/gb-eng.svg",
         "season": 2024,
         "round": "Regular Season - 1",
         "standings": true
@@ -116,13 +116,13 @@
         "home": {
           "id": 34,
           "name": "Newcastle",
-          "logo": "https:\/\/media.api-sports.io\/football\/teams\/34.png",
+          "logo": "https:\/\/media.example.test\/football\/teams\/34.png",
           "winner": true
         },
         "away": {
           "id": 41,
           "name": "Southampton",
-          "logo": "https:\/\/media.api-sports.io\/football\/teams\/41.png",
+          "logo": "https:\/\/media.example.test\/football\/teams\/41.png",
           "winner": false
         }
       },
@@ -149,8 +149,8 @@
         "id": 39,
         "name": "Premier League",
         "country": "England",
-        "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
-        "flag": "https:\/\/media.api-sports.io\/flags\/gb-eng.svg",
+        "logo": "https:\/\/media.example.test\/football\/leagues\/39.png",
+        "flag": "https:\/\/media.example.test\/flags\/gb-eng.svg",
         "season": 2024,
         "round": "Regular Season - 1",
         "standings": true
@@ -159,13 +159,13 @@
         "home": {
           "id": 42,
           "name": "Arsenal",
-          "logo": "https:\/\/media.api-sports.io\/football\/teams\/42.png",
+          "logo": "https:\/\/media.example.test\/football\/teams\/42.png",
           "winner": true
         },
         "away": {
           "id": 39,
           "name": "Wolves",
-          "logo": "https:\/\/media.api-sports.io\/football\/teams\/39.png",
+          "logo": "https:\/\/media.example.test\/football\/teams\/39.png",
           "winner": false
         }
       },
@@ -192,8 +192,8 @@
         "id": 39,
         "name": "Premier League",
         "country": "England",
-        "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
-        "flag": "https:\/\/media.api-sports.io\/flags\/gb-eng.svg",
+        "logo": "https:\/\/media.example.test\/football\/leagues\/39.png",
+        "flag": "https:\/\/media.example.test\/flags\/gb-eng.svg",
         "season": 2024,
         "round": "Regular Season - 1",
         "standings": true
@@ -202,13 +202,13 @@
         "home": {
           "id": 45,
           "name": "Everton",
-          "logo": "https:\/\/media.api-sports.io\/football\/teams\/45.png",
+          "logo": "https:\/\/media.example.test\/football\/teams\/45.png",
           "winner": false
         },
         "away": {
           "id": 51,
           "name": "Brighton",
-          "logo": "https:\/\/media.api-sports.io\/football\/teams\/51.png",
+          "logo": "https:\/\/media.example.test\/football\/teams\/51.png",
           "winner": true
         }
       },
@@ -235,8 +235,8 @@
         "id": 39,
         "name": "Premier League",
         "country": "England",
-        "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
-        "flag": "https:\/\/media.api-sports.io\/flags\/gb-eng.svg",
+        "logo": "https:\/\/media.example.test\/football\/leagues\/39.png",
+        "flag": "https:\/\/media.example.test\/flags\/gb-eng.svg",
         "season": 2024,
         "round": "Regular Season - 1",
         "standings": true
@@ -245,13 +245,13 @@
         "home": {
           "id": 65,
           "name": "Nottingham Forest",
-          "logo": "https:\/\/media.api-sports.io\/football\/teams\/65.png",
+          "logo": "https:\/\/media.example.test\/football\/teams\/65.png",
           "winner": null
         },
         "away": {
           "id": 35,
           "name": "Bournemouth",
-          "logo": "https:\/\/media.api-sports.io\/football\/teams\/35.png",
+          "logo": "https:\/\/media.example.test\/football\/teams\/35.png",
           "winner": null
         }
       },
@@ -278,8 +278,8 @@
         "id": 39,
         "name": "Premier League",
         "country": "England",
-        "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
-        "flag": "https:\/\/media.api-sports.io\/flags\/gb-eng.svg",
+        "logo": "https:\/\/media.example.test\/football\/leagues\/39.png",
+        "flag": "https:\/\/media.example.test\/flags\/gb-eng.svg",
         "season": 2024,
         "round": "Regular Season - 1",
         "standings": true
@@ -288,13 +288,13 @@
         "home": {
           "id": 48,
           "name": "West Ham",
-          "logo": "https:\/\/media.api-sports.io\/football\/teams\/48.png",
+          "logo": "https:\/\/media.example.test\/football\/teams\/48.png",
           "winner": false
         },
         "away": {
           "id": 66,
           "name": "Aston Villa",
-          "logo": "https:\/\/media.api-sports.io\/football\/teams\/66.png",
+          "logo": "https:\/\/media.example.test\/football\/teams\/66.png",
           "winner": true
         }
       },

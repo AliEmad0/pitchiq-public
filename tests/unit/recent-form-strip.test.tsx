@@ -18,7 +18,7 @@ const TEAM_ID = 33;
 const OPP = (id: number, name: string) => ({
   id,
   name,
-  logo: `https://media.api-sports.io/football/teams/${id}.png`,
+  logo: `https://media.example.test/football/teams/${id}.png`,
 });
 
 function fx({

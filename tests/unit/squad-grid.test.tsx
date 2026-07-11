@@ -26,7 +26,7 @@ function p(
     age: 27,
     number: 10,
     position,
-    photo: `https://media.api-sports.io/football/players/${id}.png`,
+    photo: `https://media.example.test/football/players/${id}.png`,
     nationality: null,
     nationalityCode: null,
     birthDate: null,

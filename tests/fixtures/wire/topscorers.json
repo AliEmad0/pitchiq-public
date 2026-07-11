@@ -21,21 +21,21 @@
         "height": "175",
         "weight": "71",
         "injured": false,
-        "photo": "https:\/\/media.api-sports.io\/football\/players\/306.png"
+        "photo": "https:\/\/media.example.test\/football\/players\/306.png"
       },
       "statistics": [
         {
           "team": {
             "id": 40,
             "name": "Liverpool",
-            "logo": "https:\/\/media.api-sports.io\/football\/teams\/40.png"
+            "logo": "https:\/\/media.example.test\/football\/teams\/40.png"
           },
           "league": {
             "id": 39,
             "name": "Premier League",
             "country": "England",
-            "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
-            "flag": "https:\/\/media.api-sports.io\/flags\/gb-eng.svg",
+            "logo": "https:\/\/media.example.test\/football\/leagues\/39.png",
+            "flag": "https:\/\/media.example.test\/flags\/gb-eng.svg",
             "season": 2024
           },
           "games": {
@@ -72,21 +72,21 @@
         "height": "192",
         "weight": "77",
         "injured": false,
-        "photo": "https:\/\/media.api-sports.io\/football\/players\/2864.png"
+        "photo": "https:\/\/media.example.test\/football\/players\/2864.png"
       },
       "statistics": [
         {
           "team": {
             "id": 34,
             "name": "Newcastle",
-            "logo": "https:\/\/media.api-sports.io\/football\/teams\/34.png"
+            "logo": "https:\/\/media.example.test\/football\/teams\/34.png"
           },
           "league": {
             "id": 39,
             "name": "Premier League",
             "country": "England",
-            "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
-            "flag": "https:\/\/media.api-sports.io\/flags\/gb-eng.svg",
+            "logo": "https:\/\/media.example.test\/football\/leagues\/39.png",
+            "flag": "https:\/\/media.example.test\/flags\/gb-eng.svg",
             "season": 2024
           },
           "games": {
@@ -123,21 +123,21 @@
         "height": "195",
         "weight": "88",
         "injured": false,
-        "photo": "https:\/\/media.api-sports.io\/football\/players\/1100.png"
+        "photo": "https:\/\/media.example.test\/football\/players\/1100.png"
       },
       "statistics": [
         {
           "team": {
             "id": 50,
             "name": "Manchester City",
-            "logo": "https:\/\/media.api-sports.io\/football\/teams\/50.png"
+            "logo": "https:\/\/media.example.test\/football\/teams\/50.png"
           },
           "league": {
             "id": 39,
             "name": "Premier League",
             "country": "England",
-            "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
-            "flag": "https:\/\/media.api-sports.io\/flags\/gb-eng.svg",
+            "logo": "https:\/\/media.example.test\/football\/leagues\/39.png",
+            "flag": "https:\/\/media.example.test\/flags\/gb-eng.svg",
             "season": 2024
           },
           "games": {
@@ -174,21 +174,21 @@
         "height": "191",
         "weight": "81",
         "injured": false,
-        "photo": "https:\/\/media.api-sports.io\/football\/players\/18931.png"
+        "photo": "https:\/\/media.example.test\/football\/players\/18931.png"
       },
       "statistics": [
         {
           "team": {
             "id": 65,
             "name": "Nottingham Forest",
-            "logo": "https:\/\/media.api-sports.io\/football\/teams\/65.png"
+            "logo": "https:\/\/media.example.test\/football\/teams\/65.png"
           },
           "league": {
             "id": 39,
             "name": "Premier League",
             "country": "England",
-            "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
-            "flag": "https:\/\/media.api-sports.io\/flags\/gb-eng.svg",
+            "logo": "https:\/\/media.example.test\/football\/leagues\/39.png",
+            "flag": "https:\/\/media.example.test\/flags\/gb-eng.svg",
             "season": 2024
           },
           "games": {
@@ -225,21 +225,21 @@
         "height": "173",
         "weight": "64",
         "injured": false,
-        "photo": "https:\/\/media.api-sports.io\/football\/players\/20589.png"
+        "photo": "https:\/\/media.example.test\/football\/players\/20589.png"
       },
       "statistics": [
         {
           "team": {
             "id": 55,
             "name": "Brentford",
-            "logo": "https:\/\/media.api-sports.io\/football\/teams\/55.png"
+            "logo": "https:\/\/media.example.test\/football\/teams\/55.png"
           },
           "league": {
             "id": 39,
             "name": "Premier League",
             "country": "England",
-            "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
-            "flag": "https:\/\/media.api-sports.io\/flags\/gb-eng.svg",
+            "logo": "https:\/\/media.example.test\/football\/leagues\/39.png",
+            "flag": "https:\/\/media.example.test\/flags\/gb-eng.svg",
             "season": 2024
           },
           "games": {
@@ -276,21 +276,21 @@
         "height": "176",
         "weight": "74",
         "injured": false,
-        "photo": "https:\/\/media.api-sports.io\/football\/players\/20649.png"
+        "photo": "https:\/\/media.example.test\/football\/players\/20649.png"
       },
       "statistics": [
         {
           "team": {
             "id": 55,
             "name": "Brentford",
-            "logo": "https:\/\/media.api-sports.io\/football\/teams\/55.png"
+            "logo": "https:\/\/media.example.test\/football\/teams\/55.png"
           },
           "league": {
             "id": 39,
             "name": "Premier League",
             "country": "England",
-            "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
-            "flag": "https:\/\/media.api-sports.io\/flags\/gb-eng.svg",
+            "logo": "https:\/\/media.example.test\/football\/leagues\/39.png",
+            "flag": "https:\/\/media.example.test\/flags\/gb-eng.svg",
             "season": 2024
           },
           "games": {
@@ -327,21 +327,21 @@
         "height": "180",
         "weight": "75",
         "injured": false,
-        "photo": "https:\/\/media.api-sports.io\/football\/players\/19366.png"
+        "photo": "https:\/\/media.example.test\/football\/players\/19366.png"
       },
       "statistics": [
         {
           "team": {
             "id": 66,
             "name": "Aston Villa",
-            "logo": "https:\/\/media.api-sports.io\/football\/teams\/66.png"
+            "logo": "https:\/\/media.example.test\/football\/teams\/66.png"
           },
           "league": {
             "id": 39,
             "name": "Premier League",
             "country": "England",
-            "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
-            "flag": "https:\/\/media.api-sports.io\/flags\/gb-eng.svg",
+            "logo": "https:\/\/media.example.test\/football\/leagues\/39.png",
+            "flag": "https:\/\/media.example.test\/flags\/gb-eng.svg",
             "season": 2024
           },
           "games": {
@@ -378,21 +378,21 @@
         "height": "183",
         "weight": "76",
         "injured": false,
-        "photo": "https:\/\/media.api-sports.io\/football\/players\/1165.png"
+        "photo": "https:\/\/media.example.test\/football\/players\/1165.png"
       },
       "statistics": [
         {
           "team": {
             "id": 33,
             "name": "Manchester United",
-            "logo": "https:\/\/media.api-sports.io\/football\/teams\/33.png"
+            "logo": "https:\/\/media.example.test\/football\/teams\/33.png"
           },
           "league": {
             "id": 39,
             "name": "Premier League",
             "country": "England",
-            "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
-            "flag": "https:\/\/media.api-sports.io\/flags\/gb-eng.svg",
+            "logo": "https:\/\/media.example.test\/football\/leagues\/39.png",
+            "flag": "https:\/\/media.example.test\/flags\/gb-eng.svg",
             "season": 2024
           },
           "games": {
@@ -419,14 +419,14 @@
           "team": {
             "id": 39,
             "name": "Wolves",
-            "logo": "https:\/\/media.api-sports.io\/football\/teams\/39.png"
+            "logo": "https:\/\/media.example.test\/football\/teams\/39.png"
           },
           "league": {
             "id": 39,
             "name": "Premier League",
             "country": "England",
-            "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
-            "flag": "https:\/\/media.api-sports.io\/flags\/gb-eng.svg",
+            "logo": "https:\/\/media.example.test\/football\/leagues\/39.png",
+            "flag": "https:\/\/media.example.test\/flags\/gb-eng.svg",
             "season": 2024
           },
           "games": {
@@ -463,21 +463,21 @@
         "height": "189",
         "weight": "76",
         "injured": false,
-        "photo": "https:\/\/media.api-sports.io\/football\/players\/152982.png"
+        "photo": "https:\/\/media.example.test\/football\/players\/152982.png"
       },
       "statistics": [
         {
           "team": {
             "id": 49,
             "name": "Chelsea",
-            "logo": "https:\/\/media.api-sports.io\/football\/teams\/49.png"
+            "logo": "https:\/\/media.example.test\/football\/teams\/49.png"
           },
           "league": {
             "id": 39,
             "name": "Premier League",
             "country": "England",
-            "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
-            "flag": "https:\/\/media.api-sports.io\/flags\/gb-eng.svg",
+            "logo": "https:\/\/media.example.test\/football\/leagues\/39.png",
+            "flag": "https:\/\/media.example.test\/flags\/gb-eng.svg",
             "season": 2024
           },
           "games": {
@@ -514,21 +514,21 @@
         "height": "193",
         "weight": "79",
         "injured": false,
-        "photo": "https:\/\/media.api-sports.io\/football\/players\/2032.png"
+        "photo": "https:\/\/media.example.test\/football\/players\/2032.png"
       },
       "statistics": [
         {
           "team": {
             "id": 39,
             "name": "Wolves",
-            "logo": "https:\/\/media.api-sports.io\/football\/teams\/39.png"
+            "logo": "https:\/\/media.example.test\/football\/teams\/39.png"
           },
           "league": {
             "id": 39,
             "name": "Premier League",
             "country": "England",
-            "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
-            "flag": "https:\/\/media.api-sports.io\/flags\/gb-eng.svg",
+            "logo": "https:\/\/media.example.test\/football\/leagues\/39.png",
+            "flag": "https:\/\/media.example.test\/flags\/gb-eng.svg",
             "season": 2024
           },
           "games": {
@@ -565,21 +565,21 @@
         "height": "192",
         "weight": "88",
         "injured": false,
-        "photo": "https:\/\/media.api-sports.io\/football\/players\/25927.png"
+        "photo": "https:\/\/media.example.test\/football\/players\/25927.png"
       },
       "statistics": [
         {
           "team": {
             "id": 52,
             "name": "Crystal Palace",
-            "logo": "https:\/\/media.api-sports.io\/football\/teams\/52.png"
+            "logo": "https:\/\/media.example.test\/football\/teams\/52.png"
           },
           "league": {
             "id": 39,
             "name": "Premier League",
             "country": "England",
-            "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
-            "flag": "https:\/\/media.api-sports.io\/flags\/gb-eng.svg",
+            "logo": "https:\/\/media.example.test\/football\/leagues\/39.png",
+            "flag": "https:\/\/media.example.test\/flags\/gb-eng.svg",
             "season": 2024
           },
           "games": {
@@ -616,21 +616,21 @@
         "height": "178",
         "weight": "65",
         "injured": false,
-        "photo": "https:\/\/media.api-sports.io\/football\/players\/2489.png"
+        "photo": "https:\/\/media.example.test\/football\/players\/2489.png"
       },
       "statistics": [
         {
           "team": {
             "id": 40,
             "name": "Liverpool",
-            "logo": "https:\/\/media.api-sports.io\/football\/teams\/40.png"
+            "logo": "https:\/\/media.example.test\/football\/teams\/40.png"
           },
           "league": {
             "id": 39,
             "name": "Premier League",
             "country": "England",
-            "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
-            "flag": "https:\/\/media.api-sports.io\/flags\/gb-eng.svg",
+            "logo": "https:\/\/media.example.test\/football\/leagues\/39.png",
+            "flag": "https:\/\/media.example.test\/flags\/gb-eng.svg",
             "season": 2024
           },
           "games": {
@@ -667,21 +667,21 @@
         "height": "176",
         "weight": "70",
         "injured": false,
-        "photo": "https:\/\/media.api-sports.io\/football\/players\/19428.png"
+        "photo": "https:\/\/media.example.test\/football\/players\/19428.png"
       },
       "statistics": [
         {
           "team": {
             "id": 48,
             "name": "West Ham",
-            "logo": "https:\/\/media.api-sports.io\/football\/teams\/48.png"
+            "logo": "https:\/\/media.example.test\/football\/teams\/48.png"
           },
           "league": {
             "id": 39,
             "name": "Premier League",
             "country": "England",
-            "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
-            "flag": "https:\/\/media.api-sports.io\/flags\/gb-eng.svg",
+            "logo": "https:\/\/media.example.test\/football\/leagues\/39.png",
+            "flag": "https:\/\/media.example.test\/flags\/gb-eng.svg",
             "season": 2024
           },
           "games": {
@@ -718,21 +718,21 @@
         "height": "186",
         "weight": "72",
         "injured": false,
-        "photo": "https:\/\/media.api-sports.io\/football\/players\/161948.png"
+        "photo": "https:\/\/media.example.test\/football\/players\/161948.png"
       },
       "statistics": [
         {
           "team": {
             "id": 57,
             "name": "Ipswich",
-            "logo": "https:\/\/media.api-sports.io\/football\/teams\/57.png"
+            "logo": "https:\/\/media.example.test\/football\/teams\/57.png"
           },
           "league": {
             "id": 39,
             "name": "Premier League",
             "country": "England",
-            "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
-            "flag": "https:\/\/media.api-sports.io\/flags\/gb-eng.svg",
+            "logo": "https:\/\/media.example.test\/football\/leagues\/39.png",
+            "flag": "https:\/\/media.example.test\/flags\/gb-eng.svg",
             "season": 2024
           },
           "games": {
@@ -773,21 +773,21 @@
         "height": "190",
         "weight": "76",
         "injured": false,
-        "photo": "https:\/\/media.api-sports.io\/football\/players\/2887.png"
+        "photo": "https:\/\/media.example.test\/football\/players\/2887.png"
       },
       "statistics": [
         {
           "team": {
             "id": 36,
             "name": "Fulham",
-            "logo": "https:\/\/media.api-sports.io\/football\/teams\/36.png"
+            "logo": "https:\/\/media.example.test\/football\/teams\/36.png"
           },
           "league": {
             "id": 39,
             "name": "Premier League",
             "country": "England",
-            "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
-            "flag": "https:\/\/media.api-sports.io\/flags\/gb-eng.svg",
+            "logo": "https:\/\/media.example.test\/football\/leagues\/39.png",
+            "flag": "https:\/\/media.example.test\/flags\/gb-eng.svg",
             "season": 2024
           },
           "games": {
@@ -824,21 +824,21 @@
         "height": "171",
         "weight": "67",
         "injured": false,
-        "photo": "https:\/\/media.api-sports.io\/football\/players\/792.png"
+        "photo": "https:\/\/media.example.test\/football\/players\/792.png"
       },
       "statistics": [
         {
           "team": {
             "id": 35,
             "name": "Bournemouth",
-            "logo": "https:\/\/media.api-sports.io\/football\/teams\/35.png"
+            "logo": "https:\/\/media.example.test\/football\/teams\/35.png"
           },
           "league": {
             "id": 39,
             "name": "Premier League",
             "country": "England",
-            "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
-            "flag": "https:\/\/media.api-sports.io\/flags\/gb-eng.svg",
+            "logo": "https:\/\/media.example.test\/football\/leagues\/39.png",
+            "flag": "https:\/\/media.example.test\/flags\/gb-eng.svg",
             "season": 2024
           },
           "games": {
@@ -875,21 +875,21 @@
         "height": "185",
         "weight": "79",
         "injured": false,
-        "photo": "https:\/\/media.api-sports.io\/football\/players\/19281.png"
+        "photo": "https:\/\/media.example.test\/football\/players\/19281.png"
       },
       "statistics": [
         {
           "team": {
             "id": 35,
             "name": "Bournemouth",
-            "logo": "https:\/\/media.api-sports.io\/football\/teams\/35.png"
+            "logo": "https:\/\/media.example.test\/football\/teams\/35.png"
           },
           "league": {
             "id": 39,
             "name": "Premier League",
             "country": "England",
-            "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
-            "flag": "https:\/\/media.api-sports.io\/flags\/gb-eng.svg",
+            "logo": "https:\/\/media.example.test\/football\/leagues\/39.png",
+            "flag": "https:\/\/media.example.test\/flags\/gb-eng.svg",
             "season": 2024
           },
           "games": {
@@ -926,21 +926,21 @@
         "height": "186",
         "weight": "73",
         "injured": false,
-        "photo": "https:\/\/media.api-sports.io\/football\/players\/129711.png"
+        "photo": "https:\/\/media.example.test\/football\/players\/129711.png"
       },
       "statistics": [
         {
           "team": {
             "id": 47,
             "name": "Tottenham",
-            "logo": "https:\/\/media.api-sports.io\/football\/teams\/47.png"
+            "logo": "https:\/\/media.example.test\/football\/teams\/47.png"
           },
           "league": {
             "id": 39,
             "name": "Premier League",
             "country": "England",
-            "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
-            "flag": "https:\/\/media.api-sports.io\/flags\/gb-eng.svg",
+            "logo": "https:\/\/media.example.test\/football\/leagues\/39.png",
+            "flag": "https:\/\/media.example.test\/flags\/gb-eng.svg",
             "season": 2024
           },
           "games": {
@@ -977,21 +977,21 @@
         "height": "183",
         "weight": "74",
         "injured": false,
-        "photo": "https:\/\/media.api-sports.io\/football\/players\/178077.png"
+        "photo": "https:\/\/media.example.test\/football\/players\/178077.png"
       },
       "statistics": [
         {
           "team": {
             "id": 55,
             "name": "Brentford",
-            "logo": "https:\/\/media.api-sports.io\/football\/teams\/55.png"
+            "logo": "https:\/\/media.example.test\/football\/teams\/55.png"
           },
           "league": {
             "id": 39,
             "name": "Premier League",
             "country": "England",
-            "logo": "https:\/\/media.api-sports.io\/football\/leagues\/39.png",
-            "flag": "https:\/\/media.api-sports.io\/flags\/gb-eng.svg",
+            "logo": "https:\/\/media.example.test\/football\/leagues\/39.png",
+            "flag": "https:\/\/media.example.test\/flags\/gb-eng.svg",
             "season": 2024
           },
           "games": {

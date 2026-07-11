@@ -15,9 +15,9 @@ const STUB_HIT = {
   team: {
     id: 33,
     name: "Manchester United",
-    logo: "https://media.api-sports.io/football/teams/33.png",
+    logo: "https://media.example.test/football/teams/33.png",
   },
-  photo: "https://media.api-sports.io/football/players/1485.png",
+  photo: "https://media.example.test/football/players/1485.png",
 };
 
 describe("GET /api/players/[id]", () => {

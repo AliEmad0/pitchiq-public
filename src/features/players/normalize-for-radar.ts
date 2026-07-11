@@ -29,7 +29,7 @@ export type NormalizedRadar = {
 // library being installed.
 //
 // Three null-safe rules:
-//   - Null player value → 0 (api-football's "not measured" can't be
+//   - Null player value → 0 (the wire's "not measured" can't be
 //     represented on a radar; rendering 0 avoids biasing the visual
 //     comparison toward the other player).
 //   - Zero max → 0 (no divide-by-zero). Realistic against a brand-new

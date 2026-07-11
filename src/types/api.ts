@@ -1,10 +1,10 @@
-// api-football (api-sports.io) v3 response shapes.
+// the legacy wire (v3) response shapes.
 // Extend as endpoints get wired up.
 //
 // Nullability and the two API typos (`appearences`, `commited`) are modeled
 // from live PL 2024 payloads (topscorers/topassists/topyellowcards/
 // topredcards + fixtures opener and final-day). Do not "correct" the typos
-// — that would put the types out of sync with what api-football actually
+// — that would put the types out of sync with what the wire actually
 // returns over the wire.
 
 export type ApiResponse<T> = {
@@ -159,9 +159,9 @@ export type Fixture = {
 };
 
 // === Fixture detail (TASK-212 / TASK-213 consumers) =====================
-// Modeled from api-football v3 docs. Tighten against live captures when
+// Modeled from the wire v3 docs. Tighten against live captures when
 // TASK-213 ships and exercises real fixtures (`tests/unit/api-types.test.ts`
-// is the validation pattern). `null` allowed wherever api-football emits it
+// is the validation pattern). `null` allowed wherever the wire emits it
 // in the live wire format for the existing Fixture types.
 
 export type FixtureEventTime = {
@@ -254,7 +254,7 @@ export type Player = {
 // live payloads (the API uses null instead of 0 for "not measured"), and the
 // `appearences` / `commited` typos are present in the wire format.
 export type PlayerGames = {
-  appearences: number | null; // [sic] — api-football typo, preserve as-is
+  appearences: number | null; // [sic] — upstream typo, preserve as-is
   lineups: number | null;
   minutes: number | null;
   number: number | null;
@@ -311,13 +311,13 @@ export type PlayerCards = {
 
 export type PlayerPenalty = {
   won: number | null;
-  commited: number | null; // [sic] — api-football typo, preserve as-is
+  commited: number | null; // [sic] — upstream typo, preserve as-is
   scored: number | null;
   missed: number | null;
   saved: number | null;
 };
 
-// One entry in api-football's `response[0].statistics[]` array. The array
+// One entry in the wire's `response[0].statistics[]` array. The array
 // holds one entry per competition the player appeared in for the given
 // season; `/players/topscorers` etc. return a single-element array (the PL
 // row), while `/players?id=&season=` can return many.
@@ -404,7 +404,7 @@ export type ComparisonMetrics = {
 };
 
 // === Teams + venue (TASK-301 / Phase 3 consumer) ========================
-// `/teams?id={id}` returns a single `{ team, venue }` entry. api-football
+// `/teams?id={id}` returns a single `{ team, venue }` entry. the wire
 // emits `null` (not omission) for unknown fields — `founded`, `code`, and
 // every venue scalar except `id` can be null on the wire.
 
@@ -466,7 +466,7 @@ export type SquadEntry = {
 // consumes: `goals.for`, `goals.against`, `clean_sheet.total`,
 // `failed_to_score.total`, `biggest.streak`, `lineups`. Extra wire keys
 // are permitted by TS structural typing — fetchers will simply ignore
-// them. Numeric fields are nullable because api-football uses `null` for
+// them. Numeric fields are nullable because the wire uses `null` for
 // "not measured" (consistent with the `PlayerStatistics` precedent).
 
 export type TeamStatsHomeAwayTotal = {
@@ -482,7 +482,7 @@ export type TeamStatsGoals = {
 export type TeamStatsStreak = {
   wins: number | null;
   draws: number | null;
-  loses: number | null; // [sic] — api-football spelling, preserve as-is
+  loses: number | null; // [sic] — upstream spelling, preserve as-is
 };
 
 export type TeamStatsLineup = {

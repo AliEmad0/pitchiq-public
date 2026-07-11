@@ -1,6 +1,6 @@
 # 🗂️ TASKS — PitchIQ Development Board
 
-A phased, ticket-level breakdown of the work required to ship **PitchIQ**. Each ticket is self-contained — it names the files to touch, the api-football endpoints to call, the cache strategy, the acceptance criteria, and the tests that must pass before it moves to **Done**.
+A phased, ticket-level breakdown of the work required to ship **PitchIQ**. Each ticket is self-contained — it names the files to touch, the the wire endpoints to call, the cache strategy, the acceptance criteria, and the tests that must pass before it moves to **Done**.
 
 ---
 
@@ -15,7 +15,7 @@ A phased, ticket-level breakdown of the work required to ship **PitchIQ**. Each 
 | [Phase 2 — Dashboard](#-phase-2--dashboard)                                                       | `TASK-2xx`  | Live standings table, top scorers/assists/cards, fixtures panel, match detail |
 | [Phase 3 — Team Profile](#-phase-3--team-profile)                                                 | `TASK-3xx`  | `/teams` index + `/teams/[id]` dynamic SSR routes                             |
 | [Phase 4 — Comparison Tool](#-phase-4--the-comparison-tool)                                       | `TASK-4xx`  | `/compare` — head-to-head player benchmark engine                             |
-| [Phase 5 — Data Migration](#-phase-5--data-migration)                                      | `TASK-5xx`  | Replace api-football with committed JSON snapshots + daily sync cron   |
+| [Phase 5 — Data Migration](#-phase-5--data-migration)                                      | `TASK-5xx`  | Replace the legacy provider with committed JSON snapshots + daily sync cron   |
 | [Phase 6 — Premium UX](#-phase-6--premium-ux-polish-post-mvp-v03)                                 | `TASK-6xx`  | Player images, suggested-players UX, standings colour-coding, nav sweeps      |
 | [Phase 7 — Multi-season](#-phase-7--modern-multi-season-history-2017-18--2023-24)                 | `TASK-7xx`  | Activate 2017-18 → 2023-24, season switcher, stable player ids, empty states  |
 | [Phase 8 — Ancient history](#-phase-8--ancient-history--photo-coverage-1992-93--2016-17) | `TASK-8xx`  | 1992-93 → 2016-17 (standings + fixtures) + an external reference photo enrichment          |
@@ -78,7 +78,7 @@ Goal: every Phase 1+ ticket should land on a repo with CI, preview deploys, obse
 | [TASK-005](#task-005) | Sentry (browser + server) + `/api/health`      | ✅ Done | P1       | M   |     |
 | [TASK-006](#task-006) | Husky + lint-staged + Prettier pre-commit      | ✅ Done | P2       | S   |     |
 | [TASK-007](#task-007) | MSW shared fixture infrastructure              | ✅ Done | P0       | M   |     |
-| [TASK-008](#task-008) | api-football quota guard + canonical TTL table | ✅ Done | P0       | M   | 🟢  |
+| [TASK-008](#task-008) | outbound-quota guard + canonical TTL table | ✅ Done | P0       | M   | 🟢  |
 
 ### TASK-001
 
@@ -133,17 +133,17 @@ Separate workflow runs Playwright against the production build, uploads the HTML
 
 - [x] Failing test produces a downloadable HTML report. The job runs `pnpm test:e2e` with `CI=1` (inherited from GitHub Actions); `playwright.config.ts` switches the CI reporter to `[["github"], ["html", { open: "never" }]]` so the run produces both PR annotations and a 500 KB+ `playwright-report/index.html`. Three `actions/upload-artifact@v4` steps fire on `if: failure()` for `playwright-report/`, `test-results/`, and the captured `server.log` — `if-no-files-found: ignore` keeps the step green when an upload dir doesn't exist (e.g. test-results stays empty if no spec retried). 7-day retention. Verified locally by running `rm -rf playwright-report && CI=1 pnpm test:e2e` and confirming `playwright-report/index.html` materialized (535 KB).
 - [x] Workflow runtime ≤ 6 minutes. Local Playwright run is 30.5s for 5/5 specs; the workflow adds ~30s for checkout/pnpm/node setup, ~30s for `pnpm install --frozen-lockfile`, ~30s for Playwright apt deps + browser download (on a _cold_ cache; subsequent runs reuse the `~/.cache/ms-playwright` actions/cache hit keyed on the resolved `@playwright/test` version), and ~5–10s for the server-start curl-poll wait (Turbopack boots quickly but the first `/` request compiles the route on demand). No `pnpm build` step — dev-mode dropped it; production-build parity is `ci.yml`'s job. Cold-cache budget ~2.5 min, warm-cache budget ~1.5 min. Job `timeout-minutes: 10` leaves headroom for slow runners.
-- [x] Zero outbound requests to `v3.football.api-sports.io` during the run. `TEST_MSW=1` on the `pnpm start` background job opts the Node-side MSW server in via `instrumentation.ts`; the literal `API_KEY: test-key-msw-intercepts` runtime env makes any leaked outbound call auditable in upstream logs (a real key would mask it). The local CI-mode run completed 5/5 specs against MSW with no upstream traffic — every fetch in the dashboard/teams/compare flows resolves to a canned handler in `tests/msw/handlers.ts`. The `--frozen-lockfile` install + offline test suite means CI has no opportunity to hit api-football.
+- [x] Zero outbound requests to `the legacy provider` during the run. `TEST_MSW=1` on the `pnpm start` background job opts the Node-side MSW server in via `instrumentation.ts`; the literal `API_KEY: test-key-msw-intercepts` runtime env makes any leaked outbound call auditable in upstream logs (a real key would mask it). The local CI-mode run completed 5/5 specs against MSW with no upstream traffic — every fetch in the dashboard/teams/compare flows resolves to a canned handler in `tests/msw/handlers.ts`. The `--frozen-lockfile` install + offline test suite means CI has no opportunity to hit the legacy provider.
 
 **Implementation notes**
 
-- **Dev server in CI, not production build.** The spec proposed `pnpm build` + `pnpm start &`, but the first run of the workflow surfaced a real codebase issue: `instrumentation.ts`'s MSW boot hook **only fires reliably under Turbopack** (`pnpm dev`). In production mode (`pnpm start`) the `register()` hook runs silently — the `[instrumentation] MSW Node server listening` log line never appears, the dynamic `import("./tests/msw/server")` no-ops, and outbound api-football calls escape unintercepted. Reproduced locally: `TEST_MSW=1 API_KEY=test pnpm start` produces a healthy server that 200s on `/api/health` but never boots MSW; the first CI run with `pnpm start` got 5 of 5 specs failing with upstream 403s (the placeholder `test-key-msw-intercepts` rejected by api-football). The workflow was switched to `pnpm dev` to match `playwright.config.ts#webServer.command` — the exact pattern the local Playwright auto-server uses, which has been working since TASK-211 / TASK-311. `playwright.config.ts`'s auto-`webServer` block is bypassed by setting `PLAYWRIGHT_BASE_URL=http://localhost:3000` (the config's existing `webServer: process.env.PLAYWRIGHT_BASE_URL ? undefined : {...}` line was deliberately designed for this). Production-build parity is already covered by `ci.yml`'s `pnpm build` step, so this workflow doesn't re-build. Prod-mode MSW remains broken — flagged as a CLAUDE.md gotcha for the next person to encounter it; out of scope for TASK-002 (no AC requires prod-mode parity), worth a focused follow-up if anyone ever wants to E2E against the production bundle.
+- **Dev server in CI, not production build.** The spec proposed `pnpm build` + `pnpm start &`, but the first run of the workflow surfaced a real codebase issue: `instrumentation.ts`'s MSW boot hook **only fires reliably under Turbopack** (`pnpm dev`). In production mode (`pnpm start`) the `register()` hook runs silently — the `[instrumentation] MSW Node server listening` log line never appears, the dynamic `import("./tests/msw/server")` no-ops, and outbound the wire calls escape unintercepted. Reproduced locally: `TEST_MSW=1 API_KEY=test pnpm start` produces a healthy server that 200s on `/api/health` but never boots MSW; the first CI run with `pnpm start` got 5 of 5 specs failing with upstream 403s (the placeholder `test-key-msw-intercepts` rejected by the wire). The workflow was switched to `pnpm dev` to match `playwright.config.ts#webServer.command` — the exact pattern the local Playwright auto-server uses, which has been working since TASK-211 / TASK-311. `playwright.config.ts`'s auto-`webServer` block is bypassed by setting `PLAYWRIGHT_BASE_URL=http://localhost:3000` (the config's existing `webServer: process.env.PLAYWRIGHT_BASE_URL ? undefined : {...}` line was deliberately designed for this). Production-build parity is already covered by `ci.yml`'s `pnpm build` step, so this workflow doesn't re-build. Prod-mode MSW remains broken — flagged as a CLAUDE.md gotcha for the next person to encounter it; out of scope for TASK-002 (no AC requires prod-mode parity), worth a focused follow-up if anyone ever wants to E2E against the production bundle.
 - **Browser cache strategy.** `actions/cache@v4` keyed on `${{ runner.os }}-playwright-${{ resolved @playwright/test version }}` covers the ~150 MB `~/.cache/ms-playwright` browser binaries — saves ~30s on warm runs. apt-level system deps (`libnspr4`, `libnss3`, `libasound2t64`, etc.) don't survive the runner image, so the workflow conditionally runs `playwright install --with-deps chromium` (cache miss → installs both) or `playwright install-deps chromium` (cache hit → installs only the apt packages). Chromium-only because `playwright.config.ts` only registers the chromium project.
 - **No `wait-on` devDep.** The spec's "wait-on" step is implemented as a `timeout 60 bash -c 'until curl --fail --silent http://localhost:3000 > /dev/null; do sleep 1; done'` one-liner — zero added dependencies, no `pnpm dlx` network round-trip, fails fast at 60s if the server hangs. The server's PID is captured to `.server.pid` so a follow-up `if: always()` step can kill it cleanly (matters when the runner is reused between jobs).
 - **Dual reporter in CI.** Reporting needed the `playwright.config.ts` tweak: pre-TASK-002 the CI reporter was just `"github"` (annotations only, no HTML). Now it's `[["github"], ["html", { open: "never" }]]` so both PR annotations _and_ the HTML dir are produced. `open: "never"` prevents Playwright from spawning a browser to display the report — fatal on a headless runner.
 - **Trigger is `pull_request` only,** per spec. Push-to-main already runs the Vercel preview/prod deploy, and running Playwright twice on the same SHA wastes minutes. TASK-004 will wire this job as a required status check alongside `ci`.
 - **Test-results dir is empty on green runs** (Playwright only fills it on failures/retries with traces/screenshots/error contexts). The upload step's `if-no-files-found: ignore` handles that gracefully so the green-run job doesn't error.
-- **Runtime env vars** for the dev server: literal `API_KEY: test-key-msw-intercepts` (MSW intercepts before the request leaves the server, and using a literal makes the "zero outbound" contract auditable in upstream logs — a real key on a background process could leak via stdout), `API_BASE_URL` pinned to the canonical api-football host (MSW handlers match against this; mismatched URLs would bypass MSW), `TEST_MSW: "1"` to opt the Node-side MSW server in via `instrumentation.ts`, and `PORT: "3000"` to match the curl-poll URL + `PLAYWRIGHT_BASE_URL`. `server.log` captures `pnpm dev` output for failure debugging — uploaded as an artifact when the test step fails.
+- **Runtime env vars** for the dev server: literal `API_KEY: test-key-msw-intercepts` (MSW intercepts before the request leaves the server, and using a literal makes the "zero outbound" contract auditable in upstream logs — a real key on a background process could leak via stdout), `API_BASE_URL` pinned to the canonical the wire host (MSW handlers match against this; mismatched URLs would bypass MSW), `TEST_MSW: "1"` to opt the Node-side MSW server in via `instrumentation.ts`, and `PORT: "3000"` to match the curl-poll URL + `PLAYWRIGHT_BASE_URL`. `server.log` captures `pnpm dev` output for failure debugging — uploaded as an artifact when the test step fails.
 
 **Files touched**
 
@@ -297,13 +297,13 @@ Production error tracking and an uptime endpoint.
 - Run `pnpm exec sentry-wizard@latest -i nextjs` once to generate `sentry.client.config.ts`, `sentry.server.config.ts`, `sentry.edge.config.ts`, and the `withSentryConfig` wrapper in `next.config.ts`
 - Wrap `logger.error` and `logger.warn` to also `Sentry.captureMessage(message, level, { extra: fields })` — production only
 - `src/app/api/health/route.ts` returns `{ status: "ok", commit: process.env.VERCEL_GIT_COMMIT_SHA ?? "dev", uptime: process.uptime(), provider: "ok" | "degraded", ts: <ISO> }` — provider check is a HEAD request to `${API_BASE_URL}/timezone`, cached 60s, no auth needed
-- `beforeSend` strips `request.query_string` and any `x-apisports-key` header from breadcrumbs
+- `beforeSend` strips `request.query_string` and any `the auth header` header from breadcrumbs
 
 **Acceptance criteria**
 
 - [x] Throwing in a Route Handler appears in Sentry within 30s — verified live: a synthetic `throw` from `/api/health` (gated behind `SENTRY_FORWARD_DEV=1`, removed before commit) landed in the Issues feed within ~10s as `Error: TASK-005 verification: synthetic /api/health failure`, tagged with the right route + Unhandled. `instrumentation.ts` exports `onRequestError = Sentry.captureRequestError` to wire Next 15's request-error hook
-- [x] `/api/health` returns 200 in <500 ms with the documented shape — local dev call returned 200 in ~250 ms. Provider check is HEAD `/timezone` with `x-apisports-key`, cached 60s via `next: { revalidate: 60, tags: ["provider-health"] }`; network errors and non-2xx upstream responses both fall back to `provider: "degraded"` without crashing the route
-- [x] No PII or API key in any Sentry event — `src/utils/sentry-sanitize.ts#sanitizeEvent` is the shared `beforeSend` for client / server / edge configs and replaces `event.request.query_string` and any `x-apisports-key` header with `[Filtered]` before the SDK transports the event. Browser-side breadcrumbs additionally strip query strings off fetch / XHR URLs
+- [x] `/api/health` returns 200 in <500 ms with the documented shape — local dev call returned 200 in ~250 ms. Provider check is HEAD `/timezone` with `the auth header`, cached 60s via `next: { revalidate: 60, tags: ["provider-health"] }`; network errors and non-2xx upstream responses both fall back to `provider: "degraded"` without crashing the route
+- [x] No PII or API key in any Sentry event — `src/utils/sentry-sanitize.ts#sanitizeEvent` is the shared `beforeSend` for client / server / edge configs and replaces `event.request.query_string` and any `the auth header` header with `[Filtered]` before the SDK transports the event. Browser-side breadcrumbs additionally strip query strings off fetch / XHR URLs
 
 **Implementation notes**
 
@@ -389,21 +389,21 @@ Auto-format and lint-fix staged files before commit so CI doesn't reject on styl
 **MSW shared fixture infrastructure** · ✅ Done · `P0` · `M` · Type: Tech
 
 **Description**
-One canonical set of api-football fixtures used by **both** Vitest and Playwright, served via Mock Service Worker. Eliminates ad-hoc `page.route` mocks scattered across tests.
+One canonical set of the wire fixtures used by **both** Vitest and Playwright, served via Mock Service Worker. Eliminates ad-hoc `page.route` mocks scattered across tests.
 
 **Engineering notes**
 
 - `pnpm add -D msw` (+ allowed in `pnpm-workspace.yaml`'s `allowBuilds:`)
-- `tests/msw/handlers.ts` — single source of truth for api-football mocks. Currently covers `/standings`; future handlers (`/players/topscorers|…`, `/fixtures`, `/teams/statistics`, `/players/squads`, `/players?search=…`) drop in as their feature tickets land.
+- `tests/msw/handlers.ts` — single source of truth for the wire mocks. Currently covers `/standings`; future handlers (`/players/topscorers|…`, `/fixtures`, `/teams/statistics`, `/players/squads`, `/players?search=…`) drop in as their feature tickets land.
 - `tests/msw/server.ts` — `setupServer(...handlers)` for Vitest (Node)
 - `tests/msw/browser.ts` — `setupWorker(...handlers)` for Playwright (browser). Module shipped; full integration deferred to the first client-side fetch (see follow-up notes).
-- `tests/fixtures/api-football/*.json` — checked-in canonical responses. Started with `standings.json` (3 rows: PL leader, mid-table, relegation zone, covering the qualification-color edge cases that TASK-204 will exercise).
+- `tests/fixtures/the wire/*.json` — checked-in canonical responses. Started with `standings.json` (3 rows: PL leader, mid-table, relegation zone, covering the qualification-color edge cases that TASK-204 will exercise).
 - Vitest: `tests/setup.ts` extended with `server.listen() / resetHandlers() / close()` lifecycle. MSW handlers now serve `getStandings` automatically — no per-test mocking.
 - **Per-file `// @vitest-environment node` pragma** on MSW-using tests: happy-dom's `fetch` and MSW's response streams collide (`ReadableStream is locked`). Node environment uses native fetch and works cleanly.
 
 **Acceptance criteria**
 
-- [x] At least one Vitest test consumes the same fixture file — `tests/unit/standings-api.test.ts` reads `tests/fixtures/api-football/standings.json` through the MSW server (3 cases: PL identity, row ordering / relegation description, rate-limit header propagation to the quota guard)
+- [x] At least one Vitest test consumes the same fixture file — `tests/unit/standings-api.test.ts` reads `tests/fixtures/the wire/standings.json` through the MSW server (3 cases: PL identity, row ordering / relegation description, rate-limit header propagation to the quota guard)
 - [x] Unsetting `API_KEY` and running `pnpm test` passes — verified locally (`env -u API_KEY pnpm test` → 15/15 passing)
 - [x] `pnpm test:e2e` passes without `API_KEY` — verified (current `home.spec.ts` doesn't fetch; will continue to pass as new specs land via the same MSW handler list)
 - [x] Adding a new handler is a single-file change — `tests/msw/handlers.ts` is the only place; both Vitest and (future) Playwright import it
@@ -421,7 +421,7 @@ Wiring is gated on the first ticket that introduces a client-component fetch (TA
 - `package.json` (modified — added `msw` devDep)
 - `pnpm-workspace.yaml` (modified — `allowBuilds.msw: true`)
 - `tests/msw/handlers.ts`, `tests/msw/server.ts`, `tests/msw/browser.ts` (new)
-- `tests/fixtures/api-football/standings.json` (new)
+- `tests/fixtures/the wire/standings.json` (new)
 - `tests/setup.ts` (modified — MSW server lifecycle)
 - `tests/unit/standings-api.test.ts` (new — proves the pattern)
 
@@ -431,10 +431,10 @@ Wiring is gated on the first ticket that introduces a client-component fetch (TA
 
 ### TASK-008
 
-**api-football quota guard + canonical TTL table** · ✅ Done · `P0` · `M` · Type: Tech · 🟢 MVP
+**outbound-quota guard + canonical TTL table** · ✅ Done · `P0` · `M` · Type: Tech · 🟢 MVP
 
 **Description**
-The api-football free tier is **100 requests/day**. A naive set of `revalidate` TTLs (60-300s across 8+ endpoints) can exhaust the quota in a single morning. This ticket establishes the canonical TTL table that every feature `api.ts` must follow, plus a runtime guard.
+The the wire free tier is **100 requests/day**. A naive set of `revalidate` TTLs (60-300s across 8+ endpoints) can exhaust the quota in a single morning. This ticket establishes the canonical TTL table that every feature `api.ts` must follow, plus a runtime guard.
 
 **Engineering notes**
 
@@ -664,18 +664,18 @@ System-aware light/dark theming using `next-themes`, with a toggle button in the
 **Build global `Footer`** · ✅ Done · `P2` · `XS` · Type: Feature
 
 **Description**
-Lightweight footer with credit line, data-provider attribution (api-football requires it), and a link to the GitHub repo.
+Lightweight footer with credit line, data-provider attribution (the wire requires it), and a link to the GitHub repo.
 
 **Engineering notes**
 
 - Component path: `src/components/layout/Footer.tsx`
-- Attribution string (per api-sports.io ToS): "Data provided by api-football (api-sports.io)"
+- Attribution string (per the legacy provider ToS): "Data provided by the legacy wire"
 - Mute the footer with `text-foreground/60 text-sm border-t py-6`
 
 **Acceptance criteria**
 
-- [x] Attribution string visible on every route — verified via curl: home page HTML contains `Data provided by … api-football (api-sports.io)`, and the same Footer is rendered inside the AppShell on the 404 path
-- [x] Repo link opens in a new tab with `rel="noopener noreferrer"` — both external links (api-football and GitHub) use `target="_blank" rel="noopener noreferrer"`
+- [x] Attribution string visible on every route — verified via curl: home page HTML contains `Data provided by … the legacy wire`, and the same Footer is rendered inside the AppShell on the 404 path
+- [x] Repo link opens in a new tab with `rel="noopener noreferrer"` — both external links (the wire and GitHub) use `target="_blank" rel="noopener noreferrer"`
 - [x] Stays at the bottom on short pages — body uses `flex min-h-screen flex-col`, main is `flex-1`; Footer sits at the bottom of the viewport for any content shorter than the screen
 
 **Files touched**
@@ -879,7 +879,7 @@ The README markets historical depth, but every default route shows only the curr
 
 - [x] Changing the dropdown updates `?season=YYYY` and triggers an RSC refetch of the standings, leaderboards, etc. — `useSeason` uses `shallow: false`; `clearOnDefault: true` drops the param on the current season so canonical URLs stay clean; `history: "push"` makes the back button step through seasons
 - [x] Refresh preserves the selection — read directly from the URL via `useQueryState`, so any reload re-derives the active season from `?season=`
-- [x] Selecting a season with no api-football data renders an inline empty state — the existing fetcher boundary already returns `null` on plan rejection / quota / unknown season, and every section (standings / four leaderboards / two fixture rails / team stats / recent form / squad) already has a polite `role="status"` empty-state path. Confirmed against `?season=2010` in a `TEST_MSW=1 pnpm dev` session — no crash, just the empty-state copy per section
+- [x] Selecting a season with no the wire data renders an inline empty state — the existing fetcher boundary already returns `null` on plan rejection / quota / unknown season, and every section (standings / four leaderboards / two fixture rails / team stats / recent form / squad) already has a polite `role="status"` empty-state path. Confirmed against `?season=2010` in a `TEST_MSW=1 pnpm dev` session — no crash, just the empty-state copy per section
 
 **Implementation notes**
 
@@ -935,34 +935,34 @@ Goal: ship the home dashboard (`/`) — live standings, top scorers, top assists
 **Extend `src/types/api.ts` with player & fixture shapes** · ✅ Done · `P0` · `S` · Type: Tech · 🟢 MVP
 
 **Description**
-The existing types cover only standings. Add the api-football shapes needed by Phase 2.
+The existing types cover only standings. Add the the wire shapes needed by Phase 2.
 
 **Engineering notes**
 
 - Add types `TopScorerEntry`, `TopAssistEntry`, `TopCardsEntry` (cards endpoint returns the same `Player` shape but stats arrays differ — model conservatively)
 - Add types `Fixture`, `FixtureTeam`, `FixtureGoals`, `FixtureStatus`
-- Reference the live JSON via `curl https://v3.football.api-sports.io/players/topscorers?league=39&season=2024` while authoring — do **not** invent fields
+- Reference the live JSON via `curl https://the legacy provider/players/topscorers?league=39&season=2024` while authoring — do **not** invent fields
 - Keep arrays-of-stats typed as readonly tuples where possible to catch off-by-one bugs early
 
 **Acceptance criteria**
 
 - [x] All new types exported from `@/types/api` — `Fixture`, `FixtureInfo`, `FixtureTeam`, `FixtureTeams`, `FixtureGoals`, `FixtureScore`, `FixtureStatus`, `FixtureLeague`, `FixturePeriods`, `FixtureVenue`, `ScoreLine`, `Player`, `PlayerBirth`, `PlayerStatistics`, `PlayerGames`, `PlayerSubstitutes`, `PlayerShots`, `PlayerGoals`, `PlayerPasses`, `PlayerTackles`, `PlayerDuels`, `PlayerDribbles`, `PlayerFouls`, `PlayerCards`, `PlayerPenalty`, `PlayerLeaderboardEntry`, `TopScorerEntry`, `TopAssistEntry`, `TopCardsEntry`
 - [x] No `any` introduced — confirmed via `pnpm type-check` clean run
-- [x] A throwaway sample payload from the live API type-checks against the new shapes — live captures from PL 2024 (`tests/fixtures/api-football/topscorers.json` and `fixtures-opener.json`) are imported in `tests/unit/api-types.test.ts` and assigned to typed variables. The `tsc --noEmit` run is the actual contract check; the runtime asserts catch the inverse (the samples aren't accidentally empty)
+- [x] A throwaway sample payload from the live API type-checks against the new shapes — live captures from PL 2024 (`tests/fixtures/the wire/topscorers.json` and `fixtures-opener.json`) are imported in `tests/unit/api-types.test.ts` and assigned to typed variables. The `tsc --noEmit` run is the actual contract check; the runtime asserts catch the inverse (the samples aren't accidentally empty)
 
 **Implementation notes**
 
-- Modeled exclusively from PL 2024 live data (4 leaderboards + 2 fixture date ranges, 6 endpoints total). Two api-football typos are present in the wire format and are preserved on the types verbatim: `PlayerGames.appearences` (not `appearances`) and `PlayerPenalty.commited` (not `committed`). Do not "fix" these — that would put the types out of sync with what the API actually returns.
+- Modeled exclusively from PL 2024 live data (4 leaderboards + 2 fixture date ranges, 6 endpoints total). Two upstream typos are present in the wire format and are preserved on the types verbatim: `PlayerGames.appearences` (not `appearances`) and `PlayerPenalty.commited` (not `committed`). Do not "fix" these — that would put the types out of sync with what the API actually returns.
 - The leaderboard endpoints (`topscorers` / `topassists` / `topyellowcards` / `topredcards`) always return a one-entry `statistics` array per player — verified 78/78 across the four leaderboards. The original spec called for a `readonly [PlayerStatistics]` 1-tuple, but JSON literal types widen variable arrays to `T[]`, and using a tuple would have defeated the live-payload type-check (AC #3). Resolved by typing the field as `readonly PlayerStatistics[]` with the 1-entry invariant documented on the type — **enforced at the fetcher boundary in TASK-202**, not by the wire type.
 - `FixtureTeam` uses intersection with `TeamRef` (`TeamRef & { winner: boolean | null }`) so the existing `team.id`/`name`/`logo` shape is preserved without duplication.
 - `ScoreLine` is reused across `FixtureGoals`, `FixtureScore.halftime/fulltime/extratime/penalty` — every numeric scoreline in the API uses the same `{ home: number | null, away: number | null }` shape.
-- Nullable nominal fields (`referee`, `birth.place`, `height`, all numeric player stats) match what the live data returns: api-football uses `null` instead of `0` for "not measured" on player statistics, and outfield players have `null` for `goals.saves`, `goals.conceded`, etc.
+- Nullable nominal fields (`referee`, `birth.place`, `height`, all numeric player stats) match what the live data returns: the wire uses `null` instead of `0` for "not measured" on player statistics, and outfield players have `null` for `goals.saves`, `goals.conceded`, etc.
 
 **Files touched**
 
 - `src/types/api.ts` (modified — +28 exported types)
-- `tests/fixtures/api-football/topscorers.json` (new — 24 KB live capture)
-- `tests/fixtures/api-football/fixtures-opener.json` (new — 7 KB live capture, season opener weekend)
+- `tests/fixtures/the wire/topscorers.json` (new — 24 KB live capture)
+- `tests/fixtures/the wire/fixtures-opener.json` (new — 7 KB live capture, season opener weekend)
 - `tests/unit/api-types.test.ts` (new — 2 cases, compile-time + runtime contract check)
 
 ---
@@ -988,7 +988,7 @@ Add three server-only functions mirroring `getStandings` in `src/features/league
 
 - [x] All four functions importable from `@/features/players/leaderboards.api` — `getTopScorers`, `getTopAssists`, `getTopYellowCards`, `getTopRedCards`. All four share a single private `getLeaderboard(kind, args)` helper since the wire format is identical and only the URL slug differs
 - [x] Importing into a Client Component fails the build (`server-only` enforced) — `import "server-only"` is the first line of the module. The Vitest unit suite aliases `server-only` to a no-op stub (see `tests/stubs/server-only.ts`), so the test runtime doesn't probe the enforcement; the build-time guarantee is what Next provides
-- [x] Manual fetch through the function returns a non-empty array against the live API with the 2024 season — verified during TASK-201 type authoring with `curl https://v3.football.api-sports.io/players/{topscorers,topassists,topyellowcards,topredcards}?league=39&season=2024`, all four returned populated `response` arrays (20 entries each). The captured topscorers payload is committed at `tests/fixtures/api-football/topscorers.json` and reused by the MSW handler for all four endpoints (the wire shape is identical)
+- [x] Manual fetch through the function returns a non-empty array against the live API with the 2024 season — verified during TASK-201 type authoring with `curl https://the legacy provider/players/{topscorers,topassists,topyellowcards,topredcards}?league=39&season=2024`, all four returned populated `response` arrays (20 entries each). The captured topscorers payload is committed at `tests/fixtures/the wire/topscorers.json` and reused by the MSW handler for all four endpoints (the wire shape is identical)
 
 **Implementation notes**
 
@@ -1031,7 +1031,7 @@ Pull the next 5 and previous 5 PL fixtures for the dashboard rail.
 
 **Implementation notes**
 
-- **api-football free-tier limitation:** `?next=N` and `?last=N` are paid-plan only. On the free plan the API returns HTTP 200 with `errors: { plan: "Free plans do not have access to the Next parameter." }` and an empty `response` array. The fetcher surfaces this via a new `hasApiErrors(unknown)` envelope check that logs a structured `fixtures.api_errors` warning. It still returns the empty array (not `null`) so consumer UI renders an empty-state surface rather than the generic error card — the API technically gave us a valid (if empty) payload.
+- **the wire free-tier limitation:** `?next=N` and `?last=N` are paid-plan only. On the free plan the API returns HTTP 200 with `errors: { plan: "Free plans do not have access to the Next parameter." }` and an empty `response` array. The fetcher surfaces this via a new `hasApiErrors(unknown)` envelope check that logs a structured `fixtures.api_errors` warning. It still returns the empty array (not `null`) so consumer UI renders an empty-state surface rather than the generic error card — the API technically gave us a valid (if empty) payload.
 - **TTLs per the TASK-008 canonical table:** `next` → 300s (kickoff times + lineup leaks in the final pre-match window), `last` → 1800s (completed fixtures don't change).
 - **Cache tags:** `fixtures:next:${league}:${season}` / `fixtures:last:${league}:${season}` — direction-scoped so a future revalidate endpoint can bust just the upcoming half (e.g. after a postponement) without trashing recent results.
 - **Failure modes** match the leaderboards fetchers from TASK-202:
@@ -1055,13 +1055,13 @@ Pull the next 5 and previous 5 PL fixtures for the dashboard rail.
 **`<StandingsTable>` component** · ✅ Done · `P1` · `L` · Type: Feature · 🟢 MVP
 
 **Description**
-Server Component table that renders the 20-row PL standings with form column, qualification colors sourced from api-football's own `description` field, and movement indicators.
+Server Component table that renders the 20-row PL standings with form column, qualification colors sourced from the wire's own `description` field, and movement indicators.
 
 **Engineering notes**
 
 - Path: `src/features/leagues/components/StandingsTable.tsx`
 - Columns (in order): `#`, `Club`, `MP`, `W`, `D`, `L`, `GF`, `GA`, `GD`, `Form (last 5)`, `Pts`
-- **Qualification colors driven by `StandingsRow.description`** (api-football's own qualification text — e.g. `"Promotion - Champions League (Group Stage)"`, `"Relegation - Championship"`). This sources truth from the provider rather than hardcoding rank ranges, which change yearly (FA Cup winner displaces a UEL slot, UECL playoff allocation varies, etc.):
+- **Qualification colors driven by `StandingsRow.description`** (the wire's own qualification text — e.g. `"Promotion - Champions League (Group Stage)"`, `"Relegation - Championship"`). This sources truth from the provider rather than hardcoding rank ranges, which change yearly (FA Cup winner displaces a UEL slot, UECL playoff allocation varies, etc.):
   | If `description` matches… | Row left-border |
   | ------------------------- | --------------- |
   | `/Champions League/` | `border-l-emerald-500` |
@@ -1075,7 +1075,7 @@ Server Component table that renders the 20-row PL standings with form column, qu
 
 **Acceptance criteria**
 
-- [x] Renders against the real `getStandings()` payload without runtime errors — tested via `tests/unit/standings-table.test.tsx` which feeds the captured `tests/fixtures/api-football/standings.json` directly into the component (3 rows; header + body assertions)
+- [x] Renders against the real `getStandings()` payload without runtime errors — tested via `tests/unit/standings-table.test.tsx` which feeds the captured `tests/fixtures/the wire/standings.json` directly into the component (3 rows; header + body assertions)
 - [x] Skeleton placeholder via `TableRowSkeleton` for 20 rows — documented at the component's loading boundary. The component itself is a Server Component that takes data; loading state belongs at the route boundary (Suspense in TASK-207) using `<TableRowSkeleton count={20} />` from TASK-107
 - [x] Horizontal scroll on mobile (`overflow-x-auto`) with the `#` and `Club` columns sticky — Shadcn `<Table>` wraps in `<div className="relative w-full overflow-x-auto">`; the first two `<TableHead>`/`<TableCell>` use `sticky left-0` / `sticky left-10` with `z-10`/`z-20` so they overlay the scrolling columns
 - [x] All rows have a unique `key={row.team.id}` — used directly from the wire `team.id`
@@ -1087,7 +1087,7 @@ Server Component table that renders the 20-row PL standings with form column, qu
 - `FormChips` is a small private sub-component: splits the `form` string (last 5 chars), renders each as an `inline-flex size-5 rounded` chip colored emerald/zinc/red for W/D/L. Each chip gets a screen-reader-friendly `aria-label="Win"|"Draw"|"Loss"`. Form="" renders an em-dash with `aria-label="No recent form"`.
 - The sticky `<TableCell>`s repeat `even:bg-muted/30` alongside `bg-background` because the parent `<tr>`'s background-color doesn't propagate through `position: sticky` cells — they need their own background to mask the scrolling content behind them.
 - GD formatter: `+N` for positive, native `-N` for negative, `0` for zero — matches the dashboard convention (positive prefix only).
-- Team logos use `next/image` with `unoptimized` set, so the 24×24 thumbnails skip Next's optimizer (api-football's CDN is already heavily cached and at this size optimization saves ~nothing).
+- Team logos use `next/image` with `unoptimized` set, so the 24×24 thumbnails skip Next's optimizer (the wire's CDN is already heavily cached and at this size optimization saves ~nothing).
 - Loading state is intentionally NOT bundled into this component. A consumer-side Suspense boundary or per-route `loading.tsx` should wrap a `<TableRowSkeleton count={20} />` from TASK-107 — that keeps this component a pure presentational data sink.
 - `/teams/${id}` links are wired now even though TASK-305 hasn't shipped — the wire-up is harmless (route 404s until TASK-305 lands; the global `not-found.tsx` from TASK-108 gives a graceful surface in the meantime).
 
@@ -1349,13 +1349,13 @@ Playwright spec asserting that the home page renders all four leaderboards, the 
 **Acceptance criteria**
 
 - [x] Test passes locally with `pnpm test:e2e` (~770ms on a warm dev server)
-- [x] Test does not depend on a network call to api-sports.io — boots the Node-side MSW server from `tests/msw/handlers.ts` via the existing `TEST_MSW=1` instrumentation hook
+- [x] Test does not depend on a network call to the legacy provider — boots the Node-side MSW server from `tests/msw/handlers.ts` via the existing `TEST_MSW=1` instrumentation hook
 - [x] Visible-text assertions for "Top Scorers", "Top Assists", "Premier League" (h1 via regex so the season suffix doesn't pin the assertion), and a team name from the fixture data ("Manchester United" from the captured opener weekend). The spec additionally asserts all seven section headings and a top-scorer's name (Mohamed Salah from the topscorers fixture) so it exercises the full Suspense-boundary render, not just the static layout
 
 **Implementation notes**
 
 - One spec, one describe block, one test. Mirrors the style of `tests/e2e/teams.spec.ts` from TASK-311 so the project's E2E surface stays uniform
-- A pre-existing `.next/cache/fetch-cache` from earlier non-MSW dev sessions had been serving Next-cached api-football rate-limit responses straight back to the page, masking MSW interception in the most confusing way (handlers were registered, but the page kept showing "No data available" on the leaderboards). Documented under "Project-specific gotchas" in CLAUDE.md so future E2E debugging starts there
+- A pre-existing `.next/cache/fetch-cache` from earlier non-MSW dev sessions had been serving Next-cached the wire rate-limit responses straight back to the page, masking MSW interception in the most confusing way (handlers were registered, but the page kept showing "No data available" on the leaderboards). Documented under "Project-specific gotchas" in CLAUDE.md so future E2E debugging starts there
 
 **Files touched**
 
@@ -1486,14 +1486,14 @@ Extend the types module with `TeamDetail`, `Venue`, `SquadPlayer`, `TeamStats`.
 **Acceptance criteria**
 
 - [x] New types exported from `@/types/api` — `Team`, `Venue`, `TeamDetail`, `SquadPlayer`, `SquadEntry`, plus the `TeamStats*` family (`TeamStats`, `TeamStatsHomeAwayTotal`, `TeamStatsGoals`, `TeamStatsStreak`, `TeamStatsLineup`)
-- [x] Optional fields are typed as `| null` — every scalar that api-football can null out on the wire (`founded`, `code`, all of `Venue`, `SquadPlayer.{age,number,position,photo}`, every numeric in `TeamStats`) is `T | null`; the only non-nullable scalars are the documented invariants (team `id`/`name`/`logo`, squad `id`/`name`, lineup `formation`/`played`)
+- [x] Optional fields are typed as `| null` — every scalar that the wire can null out on the wire (`founded`, `code`, all of `Venue`, `SquadPlayer.{age,number,position,photo}`, every numeric in `TeamStats`) is `T | null`; the only non-nullable scalars are the documented invariants (team `id`/`name`/`logo`, squad `id`/`name`, lineup `formation`/`played`)
 
 **Implementation notes**
 
 - `Team` is declared as `TeamRef & { code, country, founded, national }` — same intersection style as `FixtureTeam = TeamRef & { winner }`, so the shared `{ id, name, logo }` shape isn't duplicated.
 - The `/players/squads` wire shape is a 1-entry array `[{ team, players }]`. `SquadEntry` exports the wrapper so TASK-302's `getSquad` can type the raw response before unwrapping; consumers only ever see the inner `SquadPlayer[]`.
 - `TeamStats` is deliberately a structural subset — the live `/teams/statistics` payload also contains `form`, `fixtures`, `penalty`, `cards`, `biggest.goals`/`biggest.wins`/`biggest.loses`. TS structural typing accepts the extra keys; modeling only what Phase 3 reads keeps the type signal aligned with the rendered tiles and avoids speculative shape commitments.
-- The `loses` (not `losses`) field on `TeamStatsStreak` mirrors api-football's wire spelling — joining the existing `appearences` and `commited` `[sic]` markers on `PlayerGames`/`PlayerPenalty`.
+- The `loses` (not `losses`) field on `TeamStatsStreak` mirrors the wire's wire spelling — joining the existing `appearences` and `commited` `[sic]` markers on `PlayerGames`/`PlayerPenalty`.
 - No fixture-payload captures were added — TASK-301's AC doesn't require runtime contract evidence. TASK-302 ultimately chose MSW-shaped fixtures inline in `tests/unit/team-api.test.ts` rather than extending `tests/unit/api-types.test.ts` with live captures; team/squad/stats payloads differ per team, and exercising the fetchers through MSW handlers gives the same compile-time contract pressure (typed `as ApiResponse<…>` casts inside the fetchers) plus runtime behavior coverage.
 
 **Files touched**
@@ -1553,7 +1553,7 @@ Pull the last 5 fixtures for a given team — required by `<RecentFormStrip>`.
 
 **Acceptance criteria**
 
-- [x] Returns `Fixture[]` ordered newest-first — api-football already returns the `last=N` slice newest-first; the fetcher passes it through unchanged with a defensive `.slice(0, last)`. Covered by `returns the last-5 fixtures from the upstream payload, newest-first preserved` and `defensively slices to last if the upstream returns more rows than requested`. The signature is `Promise<Fixture[] | null>` — `null` on HTTP failure / quota soft-block, `[]` on the free-tier `Last`-parameter plan rejection (so consumers can render an empty state without an extra null-check branch).
+- [x] Returns `Fixture[]` ordered newest-first — the wire already returns the `last=N` slice newest-first; the fetcher passes it through unchanged with a defensive `.slice(0, last)`. Covered by `returns the last-5 fixtures from the upstream payload, newest-first preserved` and `defensively slices to last if the upstream returns more rows than requested`. The signature is `Promise<Fixture[] | null>` — `null` on HTTP failure / quota soft-block, `[]` on the free-tier `Last`-parameter plan rejection (so consumers can render an empty state without an extra null-check branch).
 
 **Implementation notes**
 
@@ -1630,7 +1630,7 @@ Set up the dynamic segment so Next pre-renders all 20 PL teams at build time.
 **Acceptance criteria**
 
 - [x] `pnpm build` lists 20 `/teams/<id>` routes as `●` SSG — build output: `● /teams/[id]` with `/teams/33`, `/teams/34`, `/teams/35`, `[+17 more paths]`
-- [x] Visiting `/teams/9999` returns 404 via `not-found.tsx` — `getTeam(9999)` resolves to `null` (api-football returns empty `response[]`), the page's `if (!detail) notFound();` branch fires, which renders the App Router's `not-found.tsx` boundary
+- [x] Visiting `/teams/9999` returns 404 via `not-found.tsx` — `getTeam(9999)` resolves to `null` (the wire returns empty `response[]`), the page's `if (!detail) notFound();` branch fires, which renders the App Router's `not-found.tsx` boundary
 
 **Implementation notes**
 
@@ -1674,7 +1674,7 @@ Hero block above the squad: large logo, club name, founded year, venue (name + c
 
 - The component is purely presentational — it never calls `getStandings` itself. `src/app/teams/[id]/page.tsx` now fetches `getTeam(teamId)` and `getStandings({ season })` in parallel via `Promise.all`, computes `rank = standings.league.standings[0].find(row => row.team.id === teamId)?.rank ?? null`, and threads `rank` down. `getStandings` returning `null` is recoverable: the hero just hides the rank badge.
 - Ordinal suffixes are computed inline (1st / 2nd / 3rd / 4th … with the teens-exception 11th / 12th / 13th). Picked over `Intl.PluralRules` because the lookup is 6 lines and avoids a runtime locale dependency for a presentational nicety.
-- Both `next/image` calls use `unoptimized` (api-football logos / venue images are external HTTPS URLs; the `remotePatterns: [{ hostname: "**" }]` in `next.config.ts` permits them, but skipping the optimizer avoids burning Vercel's image-optimization budget on assets we don't own).
+- Both `next/image` calls use `unoptimized` (the wire logos / venue images are external HTTPS URLs; the `remotePatterns: [{ hostname: "**" }]` in `next.config.ts` permits them, but skipping the optimizer avoids burning Vercel's image-optimization budget on assets we don't own).
 - The earlier TASK-305 placeholder content (the `<h1>` + "Team profile shell — full content arrives with TASK-306+." paragraph) is removed in the same change. Squad grid, stats tiles, and form strip land in TASK-307 / TASK-308 / TASK-309 underneath the hero in the existing `<main className="container-page space-y-6 ...">` layout.
 
 **Files touched**
@@ -1712,7 +1712,7 @@ Squad displayed in four position groups: Goalkeepers, Defenders, Midfielders, At
 - The data flow added a thin async wrapper `SquadSection` (`src/features/teams/components/SquadSection.tsx`) so the squad fetch can stream under its own `<Suspense>` boundary instead of blocking the hero. The page now renders `<TeamHero>` synchronously (from the already-awaited `getTeam` + `getStandings`) and streams `<SquadSection teamId={teamId}>` separately.
 - `SquadGrid` is a Client Component (`"use client"`) because Radix Tabs requires it. `SquadGridSkeleton` is exported from the same file but doesn't depend on any client features, so it's safe to use as a Server-side Suspense fallback.
 - Layout split: `md:hidden` Tabs strip + tab content stack on mobile; `hidden md:grid md:grid-cols-4` columns on desktop. Both subtrees render the same data — Radix Tabs only mounts the active TabsContent, so on mobile only the currently-selected position is in the DOM. This is intentional (less DOM, faster mobile paint) and is the reason the "every player rendered exactly once" test queries inside the always-mounted desktop tree.
-- Players whose `position` is `null` or non-canonical (api-football occasionally returns "Coach" or unset for new signings) land in an "Other" section instead of being silently dropped. AC reads as "every player rendered exactly once, _in their group_" — the unknown bucket honors both halves.
+- Players whose `position` is `null` or non-canonical (the wire occasionally returns "Coach" or unset for new signings) land in an "Other" section instead of being silently dropped. AC reads as "every player rendered exactly once, _in their group_" — the unknown bucket honors both halves.
 - The TASK-307 spec mentions a nationality flag on each tile, but `SquadPlayer` from `/players/squads` doesn't carry nationality (only `id, name, age, number, position, photo`). Adding flags would require a `getPlayerProfile(id)` call per tile — ~30 outbound requests per page on the free tier, which would blow the daily quota. Out of scope here; can be revisited under a follow-up ticket once the full Player profile endpoint is wired (Phase 4 player detail will likely need it).
 - The dev-server happy-path UI verification couldn't be completed in the implementing session because the free-tier daily request budget was exhausted by the TASK-305 build (which calls `getTeam` for each of 20 SSG-prerendered routes). `getSquad(33)` returned the envelope error `"requests": "You have reached the request limit for the day…"` → empty `response[]` → `logger.info("squad.not_found")` → page rendered the empty state. The empty-state path is confirmed; the populated-state path is covered by the 15 unit tests and will exercise live data once the daily quota resets (~24h).
 
@@ -1818,7 +1818,7 @@ Route-scoped loading skeleton matching the hero + squad layout, and a route-scop
 **Acceptance criteria**
 
 - [x] Throttled network shows the skeleton, not a flash of blank content — the new `loading.tsx` renders an aria-live `<main role="status" aria-label="Loading team profile">` that mirrors the real page layout: skeleton hero (200px logo column + name/code chip + rank + 5-row metadata `<dl>` + venue-image placeholder) followed by the existing `<TeamStatsTilesSkeleton>` + `<RecentFormStripSkeleton>` + `<SquadGridSkeleton>` so the post-fetch swap is a zero-CLS replacement.
-- [x] `/teams/abc` (non-numeric) hits the not-found page — `page.tsx`'s `if (!Number.isInteger(teamId)) notFound()` already triggered the App Router 404 boundary; the new `not-found.tsx` swaps the generic root copy for team-specific copy (heading "Team not found", explanation of the api-football dataset, two action buttons: "Browse all clubs" → `/teams` and "Dashboard" → `/`).
+- [x] `/teams/abc` (non-numeric) hits the not-found page — `page.tsx`'s `if (!Number.isInteger(teamId)) notFound()` already triggered the App Router 404 boundary; the new `not-found.tsx` swaps the generic root copy for team-specific copy (heading "Team not found", explanation of the the wire dataset, two action buttons: "Browse all clubs" → `/teams` and "Dashboard" → `/`).
 
 **Implementation notes**
 
@@ -1896,7 +1896,7 @@ Goal: ship `/compare` — pick two players via URL state (`?a=<id>&b=<id>`), ren
 **Player & PlayerStats types** · ✅ Done · `P0` · `S` · Type: Tech
 
 **Description**
-Model the api-football `/players` payload — it's the most deeply-nested response in the API.
+Model the the wire `/players` payload — it's the most deeply-nested response in the API.
 
 **Engineering notes**
 
@@ -1911,8 +1911,8 @@ Model the api-football `/players` payload — it's the most deeply-nested respon
 
 **Implementation notes**
 
-- `ComparisonMetrics` field names are normalized English (`appearances`, `passAccuracy`, `dribblesCompleted`, …) — the rename happens inside `toComparisonMetrics`, so downstream `<StatRow>` / `<RadarChart>` code doesn't have to re-learn the api-football typo `appearences` at every call site.
-- All 12 fields are `number | null`. api-football emits `null` for "not measured" rather than `0`, and `<StatRow>` will need the distinction (`—` vs `0`). The test `preserves wire-level nulls instead of coercing them to zero` pins this contract.
+- `ComparisonMetrics` field names are normalized English (`appearances`, `passAccuracy`, `dribblesCompleted`, …) — the rename happens inside `toComparisonMetrics`, so downstream `<StatRow>` / `<RadarChart>` code doesn't have to re-learn the upstream typo `appearences` at every call site.
+- All 12 fields are `number | null`. the wire emits `null` for "not measured" rather than `0`, and `<StatRow>` will need the distinction (`—` vs `0`). The test `preserves wire-level nulls instead of coercing them to zero` pins this contract.
 - League filter uses the `PREMIER_LEAGUE_ID = 39` constant already exported from `src/utils/cache-tags.ts` (added in TASK-208) rather than a fresh literal — colocating with the cache-tag module is intentional since the constant is what every cache-tag helper interpolates.
 - The TASK-201 `PlayerLeaderboardEntry.statistics` field signature was updated to `readonly PlayerStatisticsEntry[]` and `src/features/players/leaderboard-adapter.ts` was updated for the rename. Comment in `tests/unit/api-types.test.ts` referring to the old name was also updated. No behavior change.
 
@@ -1943,7 +1943,7 @@ Fetch + normalise a single player's PL season stats.
 **Acceptance criteria**
 
 - [x] Returns `null` for a player who didn't play in the PL that season. The PL filter delegates to TASK-401's `toComparisonMetrics`: the fetcher unwraps `response[0].statistics`, hands it to the helper, and `null` propagates back up to consumers when no `league.id === 39` row exists. An `info`-level log (`player-stats.no_pl_entry`) preserves traceability without firing the dev redbox — same pattern as `getTeam`'s `team.not_found`.
-- [x] Metric values are numbers (not the api-football strings) — asserted in `tests/unit/get-player-stats.test.ts` via `expect(typeof value).toBe("number")` for each non-null metric. The contract is also pinned at the type level: `ComparisonMetrics`'s 12 fields are all typed `number | null`, never `string`. Only `games.rating` is stringy on the wire and is intentionally excluded from the comparison set.
+- [x] Metric values are numbers (not the the wire strings) — asserted in `tests/unit/get-player-stats.test.ts` via `expect(typeof value).toBe("number")` for each non-null metric. The contract is also pinned at the type level: `ComparisonMetrics`'s 12 fields are all typed `number | null`, never `string`. Only `games.rating` is stringy on the wire and is intentionally excluded from the comparison set.
 
 **Implementation notes**
 
@@ -1966,28 +1966,28 @@ Fetch + normalise a single player's PL season stats.
 **Client fetcher: `searchPlayers(query)` via Route Handler** · ✅ Done · `P0` · `M` · Type: Feature
 
 **Description**
-Type-ahead needs a client-callable search. Expose a Route Handler that proxies api-football's `/players` search, returning a slimmed list `[{ id, name, team, photo }]`.
+Type-ahead needs a client-callable search. Expose a Route Handler that proxies the wire's `/players` search, returning a slimmed list `[{ id, name, team, photo }]`.
 
 **Engineering notes**
 
 - Route Handler: `src/app/api/players/search/route.ts`
 - Query: `q` (min 3 chars), `season` (default current PL season)
-- api-football endpoint: `/players?search={q}&league=39&season={s}` (rate-limited — debounce on the client; see TASK-008 quota guard)
+- the wire endpoint: `/players?search={q}&league=39&season={s}` (rate-limited — debounce on the client; see TASK-008 quota guard)
 - Return 400 if `q` < 3 chars
 
 **Acceptance criteria**
 
 - [x] `/api/players/search?q=Sa` returns 400 (`q_too_short`). The route trims surrounding whitespace before the length check so `?q=%20%20%20` doesn't smuggle past the gate and burn quota on a no-op search.
 - [x] `/api/players/search?q=Saka` returns the data from `searchPlayers` — happy-path test asserts the slim hit shape is returned verbatim (the 1-element MSW stub maps to a 1-element route response).
-- [x] Response is the slim shape, not the raw api-football payload. The `PlayerSearchHit` type (`{ id, name, team, photo }`) is the contract; the fetcher does the projection inside `searchPlayers` and the route forwards it verbatim. Entries that arrive without a `statistics[]` row (no team data → unrenderable + unselectable) are filtered out at the fetcher boundary.
+- [x] Response is the slim shape, not the raw the wire payload. The `PlayerSearchHit` type (`{ id, name, team, photo }`) is the contract; the fetcher does the projection inside `searchPlayers` and the route forwards it verbatim. Entries that arrive without a `statistics[]` row (no team data → unrenderable + unselectable) are filtered out at the fetcher boundary.
 
 **Implementation notes**
 
-- Architectural pattern matches the existing Route Handlers (`/api/standings`, `/api/leaderboards/[kind]`): route → feature `api.ts` server fetcher → api-football. The fetcher (`searchPlayers`) lives next to `getPlayerStats` in `src/features/players/api.ts` — extending an existing file rather than minting a parallel one.
+- Architectural pattern matches the existing Route Handlers (`/api/standings`, `/api/leaderboards/[kind]`): route → feature `api.ts` server fetcher → the wire. The fetcher (`searchPlayers`) lives next to `getPlayerStats` in `src/features/players/api.ts` — extending an existing file rather than minting a parallel one.
 - Per the TASK-008 canonical table, `/players?search=` is **"0 + tag"**: client-driven freshness via TanStack Query's `staleTime` (TASK-404), no Next static caching. The fetcher emits `revalidate: 0` + a per-query `players-search:<query>:<season>` tag for ad-hoc `revalidateTag()` if a stuck result ever needs busting.
 - Season-fallback loop matches the leaderboards / standings / get-player-stats fetchers — `clampSeason` upfront + `extractSeasonCeiling` + `MAX_SEASON_FALLBACKS = 3`. Without it, a route caller passing `season=2026` (default `new Date().getFullYear()` after July of next year) would get a 502 instead of the silent clamp the rest of the app relies on.
 - Route handler enforces `q.length >= 3` after `trim()`, returns 400 `q_too_short` below; returns 502 `search_unavailable` only when the fetcher returns `null` (upstream failure). A zero-hit query is 200 + `[]` — distinguishing "no matches" from "upstream failure" is the contract.
-- Query is URL-encoded inside the fetcher (`encodeURIComponent`) so multi-word names like "Van Dijk" don't break the api-football querystring.
+- Query is URL-encoded inside the fetcher (`encodeURIComponent`) so multi-word names like "Van Dijk" don't break the the wire querystring.
 - Comprehensive coverage: 8 unit tests for `searchPlayers` (happy path, zero hits, no-team filter, non-OK, quota soft-block, network error, request shape with `revalidate=0`/tag, URL encoding) + 8 for the route handler (short `q` → 400, missing `q` → 400, whitespace-only `q` → 400 after trim, valid query → 200, zero hits → 200 + `[]`, null fetcher → 502, season default = `getFullYear()`, q-trim before forwarding to the fetcher).
 
 **Files touched**
@@ -2024,7 +2024,7 @@ Shadcn `Command` + `Popover`-based combobox. As the user types (debounced 300 ms
 **Implementation notes**
 
 - **Popover dropped in favour of inline `CommandList`.** The spec asks for `Command + Popover`, but Radix Popover portals to the body, which conflicts with happy-dom in unit tests (the same workaround note in `tests/unit/season-switcher.test.tsx`). The implementation positions the dropdown via `absolute top-full inset-x-0 z-50` — visually identical (floats over content, no layout shift) and testable without portal acrobatics. Documented inline so a future reviewer doesn't reintroduce Popover assuming it's an oversight.
-- **`shouldFilter={false}` on `Command`.** cmdk's default behaviour is to filter the rendered list against the input value. We're doing remote filtering against api-football, so we want every item the server returned to render regardless of cmdk's view of "does this string contain my query". Without this flag, the dropdown would silently drop results.
+- **`shouldFilter={false}` on `Command`.** cmdk's default behaviour is to filter the rendered list against the input value. We're doing remote filtering against the wire, so we want every item the server returned to render regardless of cmdk's view of "does this string contain my query". Without this flag, the dropdown would silently drop results.
 - **Three dropdown states** (mutually exclusive): loading spinner ("Searching…", `role="status"`), empty-results (`<CommandEmpty>No players found</CommandEmpty>`), and upstream-error ("Search unavailable. Try again.", `role="alert"`). Each has its own test. The error state fires when `/api/players/search` returns 502 (the Route Handler's `search_unavailable` failure mode from TASK-403); without it, a transient upstream blip would render as a blank dropdown.
 - **`staleTime: 60_000` per the spec** — pairs with the Route Handler's `revalidate: 0 + tag` contract from TASK-403 ("0 + tag" per the TASK-008 canonical table). Freshness for `/players?search=` is intentionally owned by this client-side staleTime, not Next's fetch cache.
 - **Shadcn install brought in `cmdk` + `@radix-ui/react-popover` dependencies** — visible in the package.json + pnpm-lock.yaml diff. Even though Popover wasn't used in the final design, it's installed (and `src/components/ui/popover.tsx` was generated) per the spec's "install Shadcn `command` and `popover` primitives" line; TASK-405 / future tickets may still want it.
@@ -2063,7 +2063,7 @@ Two side-by-side slots ("A" and "B"). Each shows either an empty state with a `<
 
 **Implementation notes**
 
-- **`getPlayerSlim(playerId, season)` is a new sibling fetcher** alongside `getPlayerStats` in `src/features/players/api.ts`. Both call `/players?id=&season=` with identical `revalidate: 3600` + `playerStatsTag(id, season)` so Next's fetch cache dedupes them — when the slot picker and `getPlayerStats` (for the `<StatRow>`s in TASK-406) both fire in the same render, only one outbound api-football call leaves the server. Trade-off vs. a single fetcher with a wider return type: keeping them split lets the slim path stay cheap on the wire (only photo/team/name go to the client) while the stats path keeps the full 12-metric shape for the comparison render.
+- **`getPlayerSlim(playerId, season)` is a new sibling fetcher** alongside `getPlayerStats` in `src/features/players/api.ts`. Both call `/players?id=&season=` with identical `revalidate: 3600` + `playerStatsTag(id, season)` so Next's fetch cache dedupes them — when the slot picker and `getPlayerStats` (for the `<StatRow>`s in TASK-406) both fire in the same render, only one outbound the wire call leaves the server. Trade-off vs. a single fetcher with a wider return type: keeping them split lets the slim path stay cheap on the wire (only photo/team/name go to the client) while the stats path keeps the full 12-metric shape for the comparison render.
 - **404 self-heal on stale URL state.** When the picker is rendered with a player id that no longer resolves (e.g. a deeplink from a previous season), `getPlayerSlim` returns `null` → the route returns 404 → the picker's `useEffect` watches `isError` and calls `setSlot(slot, null)`. The slot reverts to the search input with no broken-state intermediate. Same UX as if the user had clicked Change. Logged at `info` so it's traceable but doesn't fire the dev redbox.
 - **Three render branches** keyed off `useQuery` state: empty (`playerId == null` → `<PlayerSearch>`), loading (`isFetching && !data` → skeleton card with `role="status"`), populated (`data` → `<Card>` with photo + name + team + Change button). The error branch is covered by the self-heal effect, which flips back to empty before the next paint.
 - **The route handler at `src/app/api/players/[id]/route.ts`** validates the dynamic segment via `Number.isFinite + Number.isInteger` (400 `invalid_id` for non-numeric or non-finite values like `Infinity`), defaults `?season=` to the current year, calls `getPlayerSlim`, and returns 200 + slim hit, 404 `player_not_found` on the null path. No 502 — the slot picker treats both "unknown id" and "upstream blip" identically (clear the slot), so distinguishing them at the route boundary would add complexity for no UX gain.
@@ -2104,7 +2104,7 @@ A row showing one metric (e.g., "Goals — 23 vs 19"), with a divergent bar visu
 
 **Implementation notes**
 
-- **Props deviation:** `a` and `b` accept `number | null` (not just `number` as the spec wrote). Phase 4 source data (`ComparisonMetrics` from TASK-401) preserves the api-football wire convention of `null` for "not measured" vs `0` for "measured zero". Forcing the caller to coerce nulls to a sentinel before passing in would lose that distinction at the rendering boundary; we'd never know whether to render "—" vs "0". When either side is null, the row renders flat-neutral 50/50 with "—" on the missing side and no winner highlight — there's no honest way to declare a winner against an unmeasured value.
+- **Props deviation:** `a` and `b` accept `number | null` (not just `number` as the spec wrote). Phase 4 source data (`ComparisonMetrics` from TASK-401) preserves the the wire wire convention of `null` for "not measured" vs `0` for "measured zero". Forcing the caller to coerce nulls to a sentinel before passing in would lose that distinction at the rendering boundary; we'd never know whether to render "—" vs "0". When either side is null, the row renders flat-neutral 50/50 with "—" on the missing side and no winner highlight — there's no honest way to declare a winner against an unmeasured value.
 - **Winner highlight:** `font-bold` on the winning number + a small rounded "+X" chip on the winner's side (left chip is `bg-primary/10 text-primary`, right is `bg-secondary/10 text-secondary-foreground` to match the bar halves' colour assignment). No chip when equal or when either side is null.
 - **NOT migrating `src/features/leagues/components/StatComparison.tsx` in this PR.** The TASK-213 match-detail page already inlines a similar local `StatRow` primitive (with a `// Local StatRow — extract into ...` comment flagging this exact extraction). Migrating it would change Phase 2 rendering without a Playwright safety net (no E2E covers `/fixtures/[id]`'s stats section), so the cleanup is deferred to a follow-up PR that can land focused unit-test coverage for the FixtureStatRow → numeric adapter. This PR ships the new primitive in its target location; the consolidation is non-blocking for Phase 4.
 - **Validated by 9 vitest cases** in `tests/unit/stat-row.test.tsx`: label render, equal-50/50, 0/0-no-div, null-side flat neutral, `a > b` winner highlight + bar split (75/25 + "+20" chip), `b > a` mirror, format applied to values, format applied to delta chip, default `String(n)` formatter.
@@ -2269,7 +2269,7 @@ Lock down the math in `toComparisonMetrics`, `normalizeForRadar`, and the diverg
 
 **Implementation notes**
 
-- **`normalizeForRadar` is the new helper this PR introduces** in `src/features/players/normalize-for-radar.ts`. Pure function: maps `(ComparisonMetrics, MetricMaxes) → NormalizedRadar` (6 axes in [0, 1]). Three null-safe rules: null player value → 0 (api-football's "not measured" can't be represented on a radar; rendering 0 avoids biasing the visual comparison); zero max → 0 (no divide-by-zero, realistic for cold-cache / degenerate cases); player value > max → clamp to 1.0 (the page-1 sampling in `getMetricMaxes` (TASK-412) only sees 20 of ~500 PL players, so a player on page 2+ can legitimately exceed it; letting the polygon expand past 1.0 would draw outside the chart bounds).
+- **`normalizeForRadar` is the new helper this PR introduces** in `src/features/players/normalize-for-radar.ts`. Pure function: maps `(ComparisonMetrics, MetricMaxes) → NormalizedRadar` (6 axes in [0, 1]). Three null-safe rules: null player value → 0 (the wire's "not measured" can't be represented on a radar; rendering 0 avoids biasing the visual comparison); zero max → 0 (no divide-by-zero, realistic for cold-cache / degenerate cases); player value > max → clamp to 1.0 (the page-1 sampling in `getMetricMaxes` (TASK-412) only sees 20 of ~500 PL players, so a player on page 2+ can legitimately exceed it; letting the polygon expand past 1.0 would draw outside the chart bounds).
 - **`RADAR_AXES` is exported as a `const` tuple** typed `keyof MetricMaxes` so TypeScript narrows the iteration. A runtime test pins the same shape (catches accidental array re-orderings that strip the literal-key narrowing).
 - **The "divergent-bar ratio" math** is already pinned by `tests/unit/stat-row.test.tsx` from TASK-406 (`equal → 50/50`, `0/0 → flat neutral`, `a > b → a/(a+b)` split). Not re-covered here — the AC says "across the helpers", and the StatRow tests are part of that surface.
 - **Files-touched deviation from the spec.** The spec lists `tests/unit/comparison-metrics.test.ts` + `tests/unit/stat-row.test.ts` as the new test files. The actual existing test files (already shipped by TASK-401 / TASK-406) are `tests/unit/comparison.test.ts` + `tests/unit/stat-row.test.tsx` — close enough that creating new files with the spec's exact names would duplicate coverage. This PR extends the existing `comparison.test.ts` with new edge cases and adds the brand-new `tests/unit/normalize-for-radar.test.ts` rather than creating a parallel `comparison-metrics.test.ts`. StatRow's existing 9-case test file is unchanged.
@@ -2309,7 +2309,7 @@ Playwright walks through the happy path: open `/compare`, search and pick player
 - **Production bug surfaced by the E2E:** `useComparisonSelection` was using nuqs's default `shallow: true`, which updates the URL client-side **without** triggering a Next router refresh. That meant the slot pickers (client components reading `useQueryStates`) saw the new ids immediately, but `/compare/page.tsx` (server component reading `searchParams`) only re-fetched on full page reload. Picking both players in-session left the comparison view empty until manual reload — a real-user-facing bug. Unit tests couldn't catch this — they pass `searchParams` directly to the awaited server component, bypassing the navigation flow. **Fix:** added `shallow: false` to the `useQueryStates` config. Every `setSlot` now triggers a router refresh so the server re-fetches with new params and the comparison renders immediately. Documented in-source with a comment explaining the nuqs default + why we deviate.
 - **`<PlayerSearch>` placeholder Playwright API confusion:** initial draft used `page.getByPlaceholderText()` (testing-library convention) instead of Playwright's `page.getByPlaceholder()` (no `Text` suffix). The two locator APIs read alike but only one exists per framework — caught in the first test run, fixed.
 - **"Goals" appears twice in the both-loaded view** — once as a radar axis label (inside an SVG `<tspan>`) and once as a `<StatRow>` label (in a `<p>`). The test asserts on `Appearances` instead because it's unique to the StatRow stack (the radar's 6 axes don't include it); pinning a single radar axis is also done via the radar's `role="img"` aria-label assertion.
-- **MSW handler envelope:** the new `/players` handler returns the full api-football wire shape with PL `statistics[0]` populated for every `ComparisonMetrics` field so neither `toComparisonMetrics` (returns null on missing PL row) nor the slot picker hydrate (returns null on missing team) short-circuit. Bruno + Rashford are intentionally on the same team (Manchester United) since the existing `/players/squads` mock already references both — keeps the mock surface small and the data internally consistent.
+- **MSW handler envelope:** the new `/players` handler returns the full the wire wire shape with PL `statistics[0]` populated for every `ComparisonMetrics` field so neither `toComparisonMetrics` (returns null on missing PL row) nor the slot picker hydrate (returns null on missing team) short-circuit. Bruno + Rashford are intentionally on the same team (Manchester United) since the existing `/players/squads` mock already references both — keeps the mock surface small and the data internally consistent.
 - **OpenTelemetry/Sentry "require-in-the-middle" stderr warnings during the webserver boot are pre-existing** (documented in CLAUDE.md gotcha: Sentry + Turbopack needs Next 15.4.1+; current is 15.1.x). They're noise, not failure signal — every previous E2E ran with the same warnings.
 
 **Files touched**
@@ -2347,7 +2347,7 @@ League-wide maxima for the six radar axes (goals, assists, pass accuracy, tackle
 
 - Field name `dribblesCompleted` (matching `ComparisonMetrics`) rather than the spec's terse "dribbles" — keeps `<RadarChart>` normalisation a plain `player[key] / max[key]` without a name-mapping layer.
 - `MetricMaxes` covers only 6 axes (subset of `ComparisonMetrics`'s 12) because radar charts compress badly with more than 5-6 axes. The remaining 6 metrics from `ComparisonMetrics` will be rendered as `<StatRow>` bars (TASK-406) where per-row scales are fine.
-- "Page-1 max" is a deliberate compromise the spec calls out — api-football doesn't expose a "league max" endpoint and walking every page would burn quota for marginal accuracy gain. Page 1 (20 entries) captures the long-tail outliers in practice.
+- "Page-1 max" is a deliberate compromise the spec calls out — the wire doesn't expose a "league max" endpoint and walking every page would burn quota for marginal accuracy gain. Page 1 (20 entries) captures the long-tail outliers in practice.
 - `metricMaxesTag(season)` added to `src/utils/cache-tags.ts` matching the `<domain>:39:<season>` convention used by `standingsTag` and `teamsListTag` (league interpolated since metric-maxes is PL-only).
 - Returns `null` on any partial failure rather than emit zeros for missing axes — a misleading radar with a flat axis is worse than the page's empty state.
 
@@ -2364,7 +2364,7 @@ League-wide maxima for the six radar axes (goals, assists, pass accuracy, tackle
 
 ## 🔄 Phase 5 — the snapshot Data Migration
 
-Goal: replace the api-football live data layer with committed JSON snapshots, refreshed daily via GitHub Actions cron. End state: **MVP-v0.3**.
+Goal: replace the the wire live data layer with committed JSON snapshots, refreshed daily via GitHub Actions cron. End state: **MVP-v0.3**.
 
 Reference design: [`docs/superpowers/specs/2026-05-22-phase-5-data-migration-design.md`](docs/superpowers/specs/2026-05-22-phase-5-data-migration-design.md).
 
@@ -2413,7 +2413,7 @@ Research available Premier League source datasets, verify which combination cove
 - [x] `docs/data-sources.md` exists with the coverage matrix. Reference doc landed at [docs/data-sources.md](docs/data-sources.md) with the matrix + chosen datasets + gaps + how-to-refresh.
 - [x] Each chosen dataset is verified by manually downloading + inspecting (don't trust dataset descriptions blindly). Verified via `the pipeline dataset download` for `external-data-pipeline`, `external-data-pipeline`, and `external-data-pipeline`; column headers, sample rows, parsing quirks (semicolon delimiter, comma decimals, CRLF line endings, varying column ordering between squad CSVs), and latest-season coverage all inspected and recorded.
 - [x] Coverage is sufficient for surfaces 1–4 (`/`, `/teams`, `/teams/[id]`, `/compare`); fixture detail's `<StatComparison>` is best-effort. Confirmed by the coverage matrix in `docs/data-sources.md`; possession % is the only documented `<StatComparison>` gap (rendered as `—` per TASK-508 plan).
-- [x] 20 PL team logos vendored to `public/logos/<team-id>.png`. 20 PNGs at api-football-id-keyed paths (`33.png` through `66.png`); sizes range 8 KB–104 KB, all valid `PNG image data` per `file(1)`; downloaded from `media.api-sports.io` with `-A "Mozilla/5.0"` (Cloudflare rejects default curl UA with 404).
+- [x] 20 PL team logos vendored to `public/logos/<team-id>.png`. 20 PNGs at the wire-id-keyed paths (`33.png` through `66.png`); sizes range 8 KB–104 KB, all valid `PNG image data` per `file(1)`; downloaded from `media.the legacy provider` with `-A "Mozilla/5.0"` (Cloudflare rejects default curl UA with 404).
 - [x] Player-photo strategy documented: rely on the existing initials-avatar fallback in `<SquadGrid>` / `<PlayerSlotPicker>`. Captured in the Gaps section of `docs/data-sources.md`.
 
 **Implementation notes**
@@ -2421,7 +2421,7 @@ Research available Premier League source datasets, verify which combination cove
 - **Spec deviation: `irkaal` → `external-data-pipeline`.** The design spec named `irkaal/english-premier-league-results` for fixtures + match stats, but its last upstream push was 3+ years ago and it has no 2024-25 rows. `external-data-pipeline` is the live successor with the same FootballData.co.uk-style schema (`HomeTeam`, `FTHG`, `HS`, `HST`, etc.) plus a useful extra: pre-computed `HomeTeamPoints` / `AwayTeamPoints` columns so standings derive trivially without a result-to-points fold. Has betting-odds columns (ignored) and a `Location` column (stadium name per match, useful for the team-reference gap). MIT-licensed.
 - **Player-stats source: `external-data-pipeline`.** 4,360 PL player-seasons across 1718–2425. Verified Salah's 24-25 totals match real-world. Carries all 12 metrics `ComparisonMetrics` needs (mapping table in `docs/data-sources.md`). **Parsing quirks the TASK-502 transform must handle:** semicolon-delimited (not comma), comma-decimals (`70,6` not `70.6`), CRLF line endings. Notable: `duelsWon` maps to `Aerial Duels_Won` (aerial only, documented); `redCards` excludes second-yellow reds (`Performance_2CrdY`).
 - **Squad source: `external-data-pipeline`** (the `DATA_CSV/Season_2024/` subdirectory). 20 per-team a portrait source-scraped CSVs with `position`, `name`, `id`, `nationality`, `dateOfBirth`, `marketValue`. **Caveat:** column ordering varies between files (16 share one ordering, 3 share another) — TASK-502's transform must parse by column **name**, not positional index. The dataset's `clubs.csv` is a season-by-season participation matrix, not a teams-reference table; don't mistake it.
-- **Logo source: api-football's media CDN, not Wikipedia Commons.** Pragmatic choice — the api-football CDN serves the same logos the project's been using all along, doesn't require auth, isn't rate-limited like the data API, and using api-football team IDs as filenames preserves URL stability for existing routes (`/teams/33` → Manchester United stays valid). Wikipedia Commons would have been licensing-cleanest but required manual sourcing for each of the 20 teams; not worth it for the marginal gain. **Cloudflare quirk:** the CDN returns 404 for default `curl` User-Agent; refresh script must pass `-A "Mozilla/5.0"`.
+- **Logo source: the wire's media CDN, not Wikipedia Commons.** Pragmatic choice — the the wire CDN serves the same logos the project's been using all along, doesn't require auth, isn't rate-limited like the data API, and using the wire team IDs as filenames preserves URL stability for existing routes (`/teams/33` → Manchester United stays valid). Wikipedia Commons would have been licensing-cleanest but required manual sourcing for each of the 20 teams; not worth it for the marginal gain. **Cloudflare quirk:** the CDN returns 404 for default `curl` User-Agent; refresh script must pass `-A "Mozilla/5.0"`.
 - **Refresh-cadence reality.** None of the three datasets is actually updated daily by its author (`external-data-pipeline` last updated 2025-06-01, `external-data-pipeline` 2026-04-18, `external-data-pipeline` 2024-11-11). The daily TASK-503 cron will still run daily but most days the upstream `version` is unchanged, the script produces byte-identical JSON, and no PR opens. Effective refresh: weekly-during-season + end-of-season for fixtures; less frequent for player stats and squads. Documented honestly in `docs/data-sources.md`.
 - **Hand-curated gaps deferred to TASK-502.** Team founded year + stadium capacity aren't in any of the three datasets. The plan is to bake a 20-row hand-curated reference into the sync script itself — the data is stable across seasons, so this is trivial maintenance. Match possession % is also absent from `external-data-pipeline`; the `<StatComparison>` row will render `—` (TASK-508 territory).
 
@@ -2558,14 +2558,14 @@ Build the adapter layer that reads from `data/*.json` and returns the same shape
 - Implementation: ESM static import for the known current season (`import standings from "@/data/standings-2024.json"`); for any other season, fall back to `fs.promises.readFile(path.join(process.cwd(), "data", filename))` with graceful `null` on ENOENT
 - Each loader returns the SAME shape the existing `getStandings` / `getTeam` / etc. return — so consumers don't change
 - Cache: not needed (file system access at runtime is sub-millisecond after first read; Vercel keeps modules warm)
-- MSW: delete handlers for api-football endpoints that no longer get called. Retain only handlers for any tests that still want to inject specific edge cases (e.g. malformed data) — those mock the loader, not `fetch`.
+- MSW: delete handlers for the wire endpoints that no longer get called. Retain only handlers for any tests that still want to inject specific edge cases (e.g. malformed data) — those mock the loader, not `fetch`.
 
 **Acceptance criteria**
 
 - [x] `src/data/loaders.ts` exports 10 typed async loaders (Meta + 5 bulk + 3 filter + TeamStats projection) covering every read shape Phase 5 needs
 - [x] Each loader handles missing data gracefully: `null` for not-found / parse error / schema violation; `[]` for derived filters (loadSquad) that match zero rows
 - [x] Unit tests cover happy path, missing-data (unsupported season), and unknown-id derived-loader paths. Malformed-JSON tests are it.skip'd with rationale — schema-level rejection is covered in `tests/unit/pipeline/schemas.test.ts`, and intercepting `node:fs/promises` for the parse-failure path adds significant boilerplate for low marginal coverage
-- [x] No new `fetch("https://v3.football.api-sports.io/...")` calls introduced; existing api-football fetchers in `src/features/*/api.ts` stay until TASK-505+ migrates them (the spec's broader "no fetches anywhere in src/" claim is TASK-509 cleanup territory)
+- [x] No new `fetch("https://the legacy provider/...")` calls introduced; existing the wire fetchers in `src/features/*/api.ts` stay until TASK-505+ migrates them (the spec's broader "no fetches anywhere in src/" claim is TASK-509 cleanup territory)
 
 **Implementation notes**
 
@@ -2573,7 +2573,7 @@ Build the adapter layer that reads from `data/*.json` and returns the same shape
 - Single `readJsonOrNull<T>(filename, schema)` helper handles all bulk loaders. ENOENT → `logger.info` (expected for unsupported seasons); parse errors / schema violations → `logger.warn`.
 - `loadTeamStats` derives from Standings (the snapshot has no explicit team-stats table). Returns a small `TeamStatsLoaderShape` with played/won/drawn/lost/goalsFor/goalsAgainst — TASK-506 will adapt the `<TeamStatsSection>` consumer to this thinner shape.
 - No ESM static-import fast path — always-`fs.readFile`. Single code path; perf delta negligible after first read warms the OS page cache.
-- **MSW alignment deferred to per-feature migration tickets (TASK-505/506/507).** Removing api-football MSW handlers in TASK-504 would break Phase 2-4 tests whose fetchers still call `fetch`. The cleanup happens incrementally as each surface flips.
+- **MSW alignment deferred to per-feature migration tickets (TASK-505/506/507).** Removing the wire MSW handlers in TASK-504 would break Phase 2-4 tests whose fetchers still call `fetch`. The cleanup happens incrementally as each surface flips.
 - ~29 new vitest cases (566 total: 564 passing + 2 skipped malformed-JSON tests with rationale).
 
 **Files touched**
@@ -2592,7 +2592,7 @@ Build the adapter layer that reads from `data/*.json` and returns the same shape
 **Migrate Dashboard fetchers** · ✅ Done · `P1` · `M` · Type: Feature · 🟢 MVP-v0.3
 
 **Description**
-Swap the Dashboard's six server fetchers (`getStandings`, four `getTop*`, `getNextFixtures`, `getRecentResults`) from api-football to read via `src/data/loaders.ts`. Quota guard, season-fallback memo, and upstream-error handling removed from each — they're no longer needed.
+Swap the Dashboard's six server fetchers (`getStandings`, four `getTop*`, `getNextFixtures`, `getRecentResults`) from the wire to read via `src/data/loaders.ts`. Quota guard, season-fallback memo, and upstream-error handling removed from each — they're no longer needed.
 
 **Engineering notes**
 
@@ -2600,7 +2600,7 @@ Swap the Dashboard's six server fetchers (`getStandings`, four `getTop*`, `getNe
 - `src/features/players/leaderboards.api.ts#getTopScorers` (+ `getTopAssists`, `getTopYellowCards`, `getTopRedCards`) — read via `loadLeaderboard(kind, season)`
 - `src/features/leagues/fixtures.api.ts#getNextFixtures` / `getRecentResults` — read via `loadFixtures(season)`, filter by `kickoff > Date.now()` (next) or `< Date.now()` (recent), sort by kickoff, limit
 - The dashboard's "free-tier empty state" for fixture rails goes away — they now populate from the dataset
-- Unit tests: swap MSW api-football mocks → plain JSON fixture imports
+- Unit tests: swap MSW the wire mocks → plain JSON fixture imports
 
 **Acceptance criteria**
 
@@ -2611,12 +2611,12 @@ Swap the Dashboard's six server fetchers (`getStandings`, four `getTop*`, `getNe
 
 **Implementation notes**
 
-- **Adapter shim per fetcher.** Each fetcher's external return type is unchanged — `getStandings → LeagueStandings`, `getTop* → PlayerLeaderboardEntry[]`, `getNextFixtures` / `getRecentResults → Fixture[]` (api-football nested shape). Internals call the new `load*` functions and reshape flat the snapshot rows into the nested api-football envelope. Components, route handlers, and tests downstream of these fetchers stay untouched.
-- **Leaderboard slug translation.** The api-football `LeaderboardKind` slugs (`topscorers`/`topassists`/`topyellowcards`/`topredcards`) get translated to the loader's hyphenated form (`scorers`/`assists`/`yellow-cards`/`red-cards`) via a static `KIND_TO_LOADER` map.
-- **Fixture ID hash.** the snapshot uses string IDs like `"2024-08-16-MUN-FUL"`; api-football's `FixtureInfo.id` is a `number`. A djb2-style hash (`>>> 0`) produces a stable positive integer per fixture. **KNOWN ISSUE**: any consumer that constructs a `/fixtures/[id]` link from `fixture.fixture.id` (notably `<FixturesRail>`'s `<Link>`) will get a hashed integer that doesn't match the snapshot's string ID — links 404 until TASK-508 migrates the detail page to accept string IDs. Documented inline at `src/features/leagues/fixtures.api.ts`.
+- **Adapter shim per fetcher.** Each fetcher's external return type is unchanged — `getStandings → LeagueStandings`, `getTop* → PlayerLeaderboardEntry[]`, `getNextFixtures` / `getRecentResults → Fixture[]` (the wire nested shape). Internals call the new `load*` functions and reshape flat the snapshot rows into the nested the wire envelope. Components, route handlers, and tests downstream of these fetchers stay untouched.
+- **Leaderboard slug translation.** The the wire `LeaderboardKind` slugs (`topscorers`/`topassists`/`topyellowcards`/`topredcards`) get translated to the loader's hyphenated form (`scorers`/`assists`/`yellow-cards`/`red-cards`) via a static `KIND_TO_LOADER` map.
+- **Fixture ID hash.** the snapshot uses string IDs like `"2024-08-16-MUN-FUL"`; the wire's `FixtureInfo.id` is a `number`. A djb2-style hash (`>>> 0`) produces a stable positive integer per fixture. **KNOWN ISSUE**: any consumer that constructs a `/fixtures/[id]` link from `fixture.fixture.id` (notably `<FixturesRail>`'s `<Link>`) will get a hashed integer that doesn't match the snapshot's string ID — links 404 until TASK-508 migrates the detail page to accept string IDs. Documented inline at `src/features/leagues/fixtures.api.ts`.
 - **Status derivation.** Fixture status (`"NS"` vs `"FT"`) is computed from `Date.parse(f.date) <= now`, not from score presence. Lets the dashboard correctly show "Upcoming" / "Final" even though every the snapshot row carries a score (the 2024-25 season is complete).
 - **MSW handler removal.** 12 handler entries removed from `tests/msw/handlers.ts` (2 patterns × 6 endpoints: `/standings`, 4× leaderboards, `/fixtures` next+last). Fixture JSON files (`fixtures-opener.json`, `standings.json`, `topscorers.json`) retained — still referenced by component-level unit tests.
-- **Synthetic field defaults.** api-football wire shapes have many fields the snapshot doesn't carry (form, status detail, home/away splits, player photo, fixture referee). The adapter fills these with the existing wire-format defaults (empty strings, `null`, zeros). Consumer code already handles these via the existing nullable typing.
+- **Synthetic field defaults.** the wire wire shapes have many fields the snapshot doesn't carry (form, status detail, home/away splits, player photo, fixture referee). The adapter fills these with the existing wire-format defaults (empty strings, `null`, zeros). Consumer code already handles these via the existing nullable typing.
 
 **Files touched**
 
@@ -2624,7 +2624,7 @@ Swap the Dashboard's six server fetchers (`getStandings`, four `getTop*`, `getNe
 - `src/features/leagues/fixtures.api.ts` (modified)
 - `src/features/players/leaderboards.api.ts` (modified)
 - `tests/unit/standings-api.test.ts`, `tests/unit/leaderboards-api.test.ts`, `tests/unit/fixtures-api.test.ts` (modified)
-- `tests/msw/handlers.ts` (modified — api-football handlers for these endpoints removed)
+- `tests/msw/handlers.ts` (modified — the wire handlers for these endpoints removed)
 
 **Depends on:** TASK-504 ✅
 
@@ -2635,13 +2635,13 @@ Swap the Dashboard's six server fetchers (`getStandings`, four `getTop*`, `getNe
 **Migrate Teams fetchers** · ✅ Done · `P1` · `M` · Type: Feature · 🟢 MVP-v0.3 · [PR 82](https://github.com/AliEmad0/The-Invincibles---Premier-League-Encyclopedia/pull/82)
 
 **Description**
-Swap the Teams fetchers (`getPLTeams`, `getTeam`, `getSquad`, `getTeamStats`, `getTeamRecentFixtures`) from api-football to loaders. Team-logo URLs change from api-football's CDN to local `/logos/<team-id>.png` (vendored in TASK-501).
+Swap the Teams fetchers (`getPLTeams`, `getTeam`, `getSquad`, `getTeamStats`, `getTeamRecentFixtures`) from the wire to loaders. Team-logo URLs change from the wire's CDN to local `/logos/<team-id>.png` (vendored in TASK-501).
 
 **Engineering notes**
 
 - `src/features/teams/api.ts` — all four functions migrated to read via loaders
 - `src/features/teams/fixtures.api.ts#getTeamRecentFixtures` — read via `loadFixtures(season)`, filter by `teamId in {home,away}`, sort by kickoff desc, slice 5
-- Team logos: replace `team.logo` (api-football URL) with `/logos/<team-id>.png` — either normalize inside `loadTeams` or update consumers
+- Team logos: replace `team.logo` (the wire URL) with `/logos/<team-id>.png` — either normalize inside `loadTeams` or update consumers
 - `generateStaticParams` in `src/app/teams/[id]/page.tsx` reads from the loader at build time (currently from `getPLTeams`)
 - Update tests to JSON-fixture-based
 
@@ -2665,16 +2665,16 @@ Swap the Teams fetchers (`getPLTeams`, `getTeam`, `getSquad`, `getTeamStats`, `g
 
 **Implementation notes (post-merge)**
 
-- Adapter shim pattern from TASK-505 reused — `loadTeams` / `loadSquad` / `loadTeamStats` / `loadFixtures` return the snapshot flat shapes; the fetchers reshape into api-football nested envelopes so consumers (`<TeamHero>`, `<TeamStatsTiles>`, `<RecentFormStrip>`, `<SquadGrid>`, `<TeamFilter>`) and the page wiring are unchanged.
+- Adapter shim pattern from TASK-505 reused — `loadTeams` / `loadSquad` / `loadTeamStats` / `loadFixtures` return the snapshot flat shapes; the fetchers reshape into the wire nested envelopes so consumers (`<TeamHero>`, `<TeamStatsTiles>`, `<RecentFormStrip>`, `<SquadGrid>`, `<TeamFilter>`) and the page wiring are unchanged.
 - `toApiFixture` extracted from `src/features/leagues/fixtures.api.ts` (made `export`) and shared with `getTeamRecentFixtures` so the win/draw/loss derivation, fixture-id djb2 hash, and logo-URL rewrite stay in lockstep. The hash inherits the same `/fixtures/[id]` 404 window as the dashboard rails — closed by TASK-508.
 - Position enum normalization in `getSquad`: the snapshot's `"Forward"` is rewritten to `"Attacker"` so `<SquadGrid>`'s position switch keeps working. Goalkeeper / Defender / Midfielder pass through.
 - `getTeam` and `getSquad` keep their existing zero-arg-for-season signatures and pin internally to `currentDataSeason()` (currently 2024). Team metadata is essentially time-invariant — adding a season parameter would have rippled into `<SquadSection>`'s `<Suspense>` boundary for no real value. `getTeamStats`, `getPLTeams`, and `getTeamRecentFixtures` keep their explicit `season` parameter; their consumers already thread URL `?season=` through.
 - 2 PL teams (Newcastle id=34, Nottingham Forest id=65) have zero rows in `data/players-2024.json` because the upstream advanced-stats dataset omits them; their `<SquadSection>` renders the "Squad data is unavailable" empty state. Full squad rosters are a follow-up — external-data-pipeline squad CSVs are downloaded by the sync orchestrator but not yet wired into `players-2024.json`.
-- `TeamStats` synthesis: only `goals.for.total.total` and `goals.against.total.total` are populated from the pipeline (derived from standings). `clean_sheet.total`, `failed_to_score.total`, and `biggest.streak.{wins,draws,loses}` are `null` (consumer renders `—`). Home/away splits are `null` (api-football wire convention of "not measured ≠ zero"). `lineups` is `[]`.
+- `TeamStats` synthesis: only `goals.for.total.total` and `goals.against.total.total` are populated from the pipeline (derived from standings). `clean_sheet.total`, `failed_to_score.total`, and `biggest.streak.{wins,draws,loses}` are `null` (consumer renders `—`). Home/away splits are `null` (the wire wire convention of "not measured ≠ zero"). `lineups` is `[]`.
 - Default-season fallback in Teams pages flipped from `currentPLSeason()` to `currentDataSeason()` so cold loads against missing season data fall back to 2024. Without this, `generateStaticParams` returned `[]` (no 2025 data yet) and the 20 PL pages weren't prerendered — verified by `pnpm build` output now showing `● /teams/[id]` with 20 static paths.
 - MSW handler delta: `/teams`, `/players/squads`, `/teams/statistics` handler blocks deleted along with their inline mock-builder helpers (`PL_TEAMS`, `buildTeamDetailEntry`, `buildTeamDetailResponse`, `buildPLTeamsListResponse`, `buildSquadResponse`, `buildTeamStatsResponse`). The `/players` handler stays — TASK-507 still owns the comparison fetchers.
 - E2E adjustment in `tests/e2e/teams.spec.ts`: the goals-for assertion changed from `"57"` (legacy MSW mock value) to `"44"` (Manchester United's real 2024-25 figure from `data/standings-2024.json`). Other assertions ("Manchester United", "André Onana", "Liverpool", "Goals for") unchanged — all values verified against the committed data.
-- Net test-count delta: −14 across `tests/unit/team-api.test.ts` and `tests/unit/team-fixtures-api.test.ts` (598 → 584 + 2 skipped = 586). Removed tests covered season-fallback loops, ceiling-memo behaviour, quota-block paths, network-error paths, and cache-tag assertions — all api-football-specific concerns that no longer apply. New tests cover the adapter shape, position normalization, partial-squad empty/null branches, and loader-arg correctness.
+- Net test-count delta: −14 across `tests/unit/team-api.test.ts` and `tests/unit/team-fixtures-api.test.ts` (598 → 584 + 2 skipped = 586). Removed tests covered season-fallback loops, ceiling-memo behaviour, quota-block paths, network-error paths, and cache-tag assertions — all the wire-specific concerns that no longer apply. New tests cover the adapter shape, position normalization, partial-squad empty/null branches, and loader-arg correctness.
 
 **Depends on:** TASK-504 ✅ (parallelisable with TASK-505 ✅ and TASK-507)
 
@@ -2685,7 +2685,7 @@ Swap the Teams fetchers (`getPLTeams`, `getTeam`, `getSquad`, `getTeamStats`, `g
 **Migrate Comparison fetchers** · ✅ Done · `P1` · `M` · Type: Feature · 🟢 MVP-v0.3 · [PR 83](https://github.com/AliEmad0/The-Invincibles---Premier-League-Encyclopedia/pull/83)
 
 **Description**
-Swap the Comparison fetchers (`getPlayerStats`, `getPlayerSlim`, `searchPlayers`, `getMetricMaxes`) from api-football to loaders. `/api/players/search` Route Handler keeps the same external contract — only its internal implementation swaps.
+Swap the Comparison fetchers (`getPlayerStats`, `getPlayerSlim`, `searchPlayers`, `getMetricMaxes`) from the wire to loaders. `/api/players/search` Route Handler keeps the same external contract — only its internal implementation swaps.
 
 **Engineering notes**
 
@@ -2705,7 +2705,7 @@ Swap the Comparison fetchers (`getPlayerStats`, `getPlayerSlim`, `searchPlayers`
 
 **Files touched**
 
-- `src/features/players/api.ts` (modified — full rewrite, all api-football-era imports gone)
+- `src/features/players/api.ts` (modified — full rewrite, all the wire-era imports gone)
 - `src/features/players/metric-maxes.api.ts` (modified — full rewrite, ~150 lines → ~70)
 - `src/features/players/comparison.ts` (**deleted** — orphan after `toComparisonMetrics`'s only caller migrated away)
 - `tests/unit/get-player-stats.test.ts`, `tests/unit/get-player-slim.test.ts`, `tests/unit/search-players.test.ts`, `tests/unit/get-metric-maxes.test.ts` (modified — full rewrites)
@@ -2715,18 +2715,18 @@ Swap the Comparison fetchers (`getPlayerStats`, `getPlayerSlim`, `searchPlayers`
 
 **Implementation notes (post-merge)**
 
-- Adapter shim pattern from TASK-505/506 reused — `loadPlayer` / `loadPlayers` return the snapshot flat shapes; the fetchers reshape into api-football nested envelopes so consumers (`<PlayerSlotPicker>`, `<PlayerSearch>`, `<StatRow>`, `<ComparisonRadar>`, `<CopyCompareLink>`, `<ShareBanner>`) and the `/compare` page wiring are unchanged.
-- **the snapshot's `Player.metrics` IS `ComparisonMetrics`.** Same 12 field names, same null-vs-number contract. The adapter for `getPlayerStats` is literally `metrics: snapshot.metrics` — no field renaming, no PL-row narrowing, no helper. This is why `toComparisonMetrics` (which used to filter the api-football `statistics[]` array to the PL row and rename the `appearences` typo) became redundant — the source dataset is PL-only by construction and the field names already match.
+- Adapter shim pattern from TASK-505/506 reused — `loadPlayer` / `loadPlayers` return the snapshot flat shapes; the fetchers reshape into the wire nested envelopes so consumers (`<PlayerSlotPicker>`, `<PlayerSearch>`, `<StatRow>`, `<ComparisonRadar>`, `<CopyCompareLink>`, `<ShareBanner>`) and the `/compare` page wiring are unchanged.
+- **the snapshot's `Player.metrics` IS `ComparisonMetrics`.** Same 12 field names, same null-vs-number contract. The adapter for `getPlayerStats` is literally `metrics: snapshot.metrics` — no field renaming, no PL-row narrowing, no helper. This is why `toComparisonMetrics` (which used to filter the the wire `statistics[]` array to the PL row and rename the `appearences` typo) became redundant — the source dataset is PL-only by construction and the field names already match.
 - **`comparison.ts` + `tests/unit/comparison.test.ts` deleted** — `toComparisonMetrics` had exactly one caller in production (`getPlayerStats`'s pre-migration implementation). After migration, zero consumers. The orphan helper + its 9 unit tests are gone.
-- `getMetricMaxes` simplified from a leaderboards+page1 merge (~100 lines, three parallel api-football calls, "page 1 sample" caveat) to a single loop over `loadPlayers(season)` (~30 lines). Side benefit: no more sampling — the new implementation scans all 527 players for the true per-axis max.
-- `Player` shape synthesis from the pipeline uses safe-default nulls/empties. The api-football `Player` type has 11 fields; the snapshot's has 7. Missing fields synthesized as `""` / `null` / `false`. Only `player.name` is read by `/compare` consumers (verified via grep) — the other fields are populated for type-correctness only.
-- `PlayerSearchHit.photo: string` (api-football, non-nullable) synthesized as `the snapshot.photo ?? ""`. the snapshot has nullable photo and currently null for every player; consumers render the slot card with no avatar (acceptable cosmetic degradation). Could be improved with an initials fallback like `<SquadGrid>` does — out of scope for TASK-507.
-- `searchPlayers` does no slice cap — the upstream `/players?search=` used to return ≤20 hits by api-football design; the source dataset has 527 players and a name-substring filter typically returns single-digit hits in practice. The client combobox can apply its own UI limit if needed.
-- **MSW `/players` handler block fully deleted.** `tests/msw/handlers.ts` is now a 12-line stub exporting `handlers: HttpHandler[] = []`. After TASK-505/506/507, NO api-football endpoints have default MSW handlers. The `tests/msw/server.ts` infrastructure stays — per-test `server.use(http.get(...))` overrides still work for any future ad-hoc mock.
-- **E2E `compare.spec.ts` id swaps.** Bruno Fernandes hardcoded id `884` (api-football mock) → `1000376` (real the snapshot id, unique name). Player B switched from "Rashford" (ambiguous — two hits in real data: Aston Villa id 1000044 + Manchester Utd id 1000390; `.first()` would pick Aston Villa which reads oddly) → "Salah" / Mohamed Salah (unique name, Liverpool, id `1000334`). All other E2E assertions unchanged.
+- `getMetricMaxes` simplified from a leaderboards+page1 merge (~100 lines, three parallel the wire calls, "page 1 sample" caveat) to a single loop over `loadPlayers(season)` (~30 lines). Side benefit: no more sampling — the new implementation scans all 527 players for the true per-axis max.
+- `Player` shape synthesis from the pipeline uses safe-default nulls/empties. The the wire `Player` type has 11 fields; the snapshot's has 7. Missing fields synthesized as `""` / `null` / `false`. Only `player.name` is read by `/compare` consumers (verified via grep) — the other fields are populated for type-correctness only.
+- `PlayerSearchHit.photo: string` (the wire, non-nullable) synthesized as `the snapshot.photo ?? ""`. the snapshot has nullable photo and currently null for every player; consumers render the slot card with no avatar (acceptable cosmetic degradation). Could be improved with an initials fallback like `<SquadGrid>` does — out of scope for TASK-507.
+- `searchPlayers` does no slice cap — the upstream `/players?search=` used to return ≤20 hits by the wire design; the source dataset has 527 players and a name-substring filter typically returns single-digit hits in practice. The client combobox can apply its own UI limit if needed.
+- **MSW `/players` handler block fully deleted.** `tests/msw/handlers.ts` is now a 12-line stub exporting `handlers: HttpHandler[] = []`. After TASK-505/506/507, NO the wire endpoints have default MSW handlers. The `tests/msw/server.ts` infrastructure stays — per-test `server.use(http.get(...))` overrides still work for any future ad-hoc mock.
+- **E2E `compare.spec.ts` id swaps.** Bruno Fernandes hardcoded id `884` (the wire mock) → `1000376` (real the snapshot id, unique name). Player B switched from "Rashford" (ambiguous — two hits in real data: Aston Villa id 1000044 + Manchester Utd id 1000390; `.first()` would pick Aston Villa which reads oddly) → "Salah" / Mohamed Salah (unique name, Liverpool, id `1000334`). All other E2E assertions unchanged.
 - Route Handler tests (`api-players-search-route.test.ts`, `api-players-id-route.test.ts`) were already module-mocked from earlier work — no changes needed beyond confirming they don't rely on MSW.
-- Net test-count delta: −24 across the 5 rewritten test files + 1 deleted (584 → 560 + 2 skipped = 562). Removed tests covered season-fallback loops, ceiling-memo behaviour, quota-block paths, network-error paths, cache-tag assertions, `toComparisonMetrics` PL-row-narrowing — all api-football-specific concerns that no longer apply. New tests cover the adapter shape, photo-null passthrough, search-substring case-insensitivity + iteration order, the single-loop max computation with null-skip + empty-array edge.
-- One stale comment in `src/types/api.ts` line ~359 still references the deleted `toComparisonMetrics` — left untouched as it documents the historic field-rename insight (the `appearences` api-football typo → `appearances` normalization is still useful context). TASK-510 doc sweep can clean this up alongside other gotchas.
+- Net test-count delta: −24 across the 5 rewritten test files + 1 deleted (584 → 560 + 2 skipped = 562). Removed tests covered season-fallback loops, ceiling-memo behaviour, quota-block paths, network-error paths, cache-tag assertions, `toComparisonMetrics` PL-row-narrowing — all the wire-specific concerns that no longer apply. New tests cover the adapter shape, photo-null passthrough, search-substring case-insensitivity + iteration order, the single-loop max computation with null-skip + empty-array edge.
+- One stale comment in `src/types/api.ts` line ~359 still references the deleted `toComparisonMetrics` — left untouched as it documents the historic field-rename insight (the `appearences` upstream typo → `appearances` normalization is still useful context). TASK-510 doc sweep can clean this up alongside other gotchas.
 
 **Depends on:** TASK-504 ✅ (parallelisable with TASK-505 ✅ and TASK-506 ✅)
 
@@ -2741,11 +2741,11 @@ Replace `<PitchLineup>` and `<EventTimeline>` rendering with empty-state compone
 
 **Engineering notes**
 
-- `src/app/fixtures/[id]/page.tsx` — keep header + (conditionally) stat comparison; swap lineup + events sections for new empty-state components. The route param `[id]` should now accept the **the snapshot string id format** (e.g. `"2024-08-16-MUN-FUL"`) instead of api-football's integer. See "Fixture-id hash cleanup" note below.
+- `src/app/fixtures/[id]/page.tsx` — keep header + (conditionally) stat comparison; swap lineup + events sections for new empty-state components. The route param `[id]` should now accept the **the snapshot string id format** (e.g. `"2024-08-16-MUN-FUL"`) instead of the wire's integer. See "Fixture-id hash cleanup" note below.
 - `src/features/leagues/fixture-detail.api.ts#getFixtureDetail` — read via loaders, return `null` for unsupported sub-shapes (lineup, events) so consumers can gate rendering. Signature change: take `id: string` (the snapshot id), not `number`.
 - **Fixture-id hash cleanup (carried over from TASK-505 PR #79).** TASK-505 hashed the snapshot string fixture ids (`"YYYY-MM-DD-HME-AWY"`) into djb2 positive integers via `fixtureIdToNumber` in `src/features/leagues/fixtures.api.ts` to satisfy `FixtureInfo.id: number`. Side effect: `<FixturesRail>` renders `<Link href={`/fixtures/${hashNumber}`}>` which 404s because no the snapshot id matches a hash. **Two things must happen in TASK-508:**
   1. The `/fixtures/[id]` route accepts the snapshot string ids (route param type → `string`, loader call → `loadFixture(id: string, season)`).
-  2. The adapter in `getNextFixtures` / `getRecentResults` stops hashing and passes the snapshot string id through. Cleanest: widen `FixtureInfo.id` to `string | number` (api-football wire format still emits `number`, the snapshot emits `string` — the union models both honestly). Alternative: cast (`id: f.id as unknown as number`) and accept the type lie. Pick one and document. Delete the now-unused `fixtureIdToNumber` function.
+  2. The adapter in `getNextFixtures` / `getRecentResults` stops hashing and passes the snapshot string id through. Cleanest: widen `FixtureInfo.id` to `string | number` (the wire wire format still emits `number`, the snapshot emits `string` — the union models both honestly). Alternative: cast (`id: f.id as unknown as number`) and accept the type lie. Pick one and document. Delete the now-unused `fixtureIdToNumber` function.
 - New empty-state components:
   - `src/features/leagues/components/LineupUnavailable.tsx` — "Lineup data not available in this build" card with brief explainer
   - `src/features/leagues/components/EventsUnavailable.tsx` — "Event timeline not available" card
@@ -2777,12 +2777,12 @@ Replace `<PitchLineup>` and `<EventTimeline>` rendering with empty-state compone
 
 **Implementation notes (post-merge)**
 
-- **Closed the djb2 hash window.** TASK-505 introduced `fixtureIdToNumber` (djb2 → positive int) so that `<FixturesRail>`'s `<Link href={`/fixtures/${id}`}>` would satisfy `FixtureInfo.id: number`. The hash produced URLs that didn't match any the snapshot fixture id, so every rail-card click 404'd. TASK-508 deletes the helper and widens `FixtureInfo.id` to `number | string` — the union is honest (api-football wire still emits number; the snapshot emits string) and React's template-literal interpolation accepts both natively.
+- **Closed the djb2 hash window.** TASK-505 introduced `fixtureIdToNumber` (djb2 → positive int) so that `<FixturesRail>`'s `<Link href={`/fixtures/${id}`}>` would satisfy `FixtureInfo.id: number`. The hash produced URLs that didn't match any the snapshot fixture id, so every rail-card click 404'd. TASK-508 deletes the helper and widens `FixtureInfo.id` to `number | string` — the union is honest (the wire wire still emits number; the snapshot emits string) and React's template-literal interpolation accepts both natively.
 - **Default tab swapped from "lineups" to "stats".** Stats is now the only tab with real data in this build — landing the user there directly avoids a confusing "Lineups unavailable" first-paint. Tabs for Lineups and Events still render their unavailable-state cards on click; they're not hidden.
-- **`<StatComparison>` kept.** the snapshot's `Fixture.teamStats: { home, away } | null` carries the 6 row types `<StatComparison>` displays (Shots, Shots on Goal, Corner Kicks, Fouls, Yellow Cards, Red Cards). `getFixtureDetail`'s new `synthesizeStatistics` helper reshapes the flat the snapshot teamStats into the api-football `FixtureStatBlock[]` shape — 2 blocks (home/away) × 6 rows each. Returns `[]` when teamStats is null; `<StatComparison>` handles the empty path with its own copy.
+- **`<StatComparison>` kept.** the snapshot's `Fixture.teamStats: { home, away } | null` carries the 6 row types `<StatComparison>` displays (Shots, Shots on Goal, Corner Kicks, Fouls, Yellow Cards, Red Cards). `getFixtureDetail`'s new `synthesizeStatistics` helper reshapes the flat the snapshot teamStats into the the wire `FixtureStatBlock[]` shape — 2 blocks (home/away) × 6 rows each. Returns `[]` when teamStats is null; `<StatComparison>` handles the empty path with its own copy.
 - **`<PitchLineup>` and `<EventTimeline>` components NOT deleted.** They're no longer rendered by `/fixtures/[id]/page.tsx`, but the components + their unit tests stay valid for any future ticket that wires up a lineup/events data source. TASK-510's doc-sweep can revisit if they're confirmed orphaned long-term.
 - **`getFixtureDetail(id: string, season?: number)`** — season defaults to `currentDataSeason()` (currently 2024). The snapshot fixture id encodes the date in `"YYYY-MM-DD-..."` but parsing year out of that is brittle for mid-season fixtures (Aug-May span), so the default-season pattern matches `getTeam` / `getSquad` from TASK-506.
-- **Net test-count delta: 0** (562 total: 560 passing + 2 skipped — unchanged from TASK-507's baseline). The `fixture-detail-api.test.ts` rewrite trades the api-football season-fallback + quota-block tests for 6 loader-mock tests; the swap happens to balance to zero. `fixtures-api.test.ts` keeps 25 tests; `team-fixtures-api.test.ts` keeps 8 tests; the new E2E navigation stage extends `dashboard.spec.ts` without adding a new spec file.
+- **Net test-count delta: 0** (562 total: 560 passing + 2 skipped — unchanged from TASK-507's baseline). The `fixture-detail-api.test.ts` rewrite trades the the wire season-fallback + quota-block tests for 6 loader-mock tests; the swap happens to balance to zero. `fixtures-api.test.ts` keeps 25 tests; `team-fixtures-api.test.ts` keeps 8 tests; the new E2E navigation stage extends `dashboard.spec.ts` without adding a new spec file.
 - **E2E navigation assertion in `dashboard.spec.ts`** — Stage 4 clicks the first `a[href^="/fixtures/"]` link, asserts the URL matches `/\/fixtures\/\d{4}-\d{2}-\d{2}-[A-Z]{3}-[A-Z]{3}$/`, and confirms the detail page rendered (Statistics tab visible, dashboard h1 gone). Closes the AC explicitly.
 - **All 4 feature-migration tickets (505-508) now complete.** TASK-509 (delete obsolete utilities + axios + env vars) is the chore cleanup pass; TASK-510 (doc sweep + `/api/health` rework) declares MVP-v0.3.
 
@@ -2834,11 +2834,11 @@ Cleanup pass — delete modules and dependencies no longer needed after the migr
 **Implementation notes (post-merge)**
 
 - **Stability gate override.** Spec said "≥ 1 week of daily refreshes before this ticket ships." Actual gap was ~1 day (TASK-505 merged 2026-05-25; this PR opened 2026-05-26). User explicitly opted to proceed: project is solo-dev, no production users, the migration passed CI + Vercel deploys + 1 daily cron cycle, and this PR contains zero behavior changes (pure deletions of code that already had zero callers).
-- **Bonus deletion of `api-envelope.ts`.** Not in the literal spec but verified consumer-free via grep after TASK-507's migration. Module exported `hasApiErrors` / `isPlanRejection` / `extractSeasonCeiling` helpers used only by `apiFetch` (also deleted in this PR) and other api-football-era utilities. Saved ~45 lines of dead production code that TASK-510's doc sweep would have caught anyway.
+- **Bonus deletion of `api-envelope.ts`.** Not in the literal spec but verified consumer-free via grep after TASK-507's migration. Module exported `hasApiErrors` / `isPlanRejection` / `extractSeasonCeiling` helpers used only by `apiFetch` (also deleted in this PR) and other the wire-era utilities. Saved ~45 lines of dead production code that TASK-510's doc sweep would have caught anyway.
 - **`api-config.ts` deferred to TASK-510.** Couples naturally with TASK-510's `/api/health` rework (drop upstream HEAD probe, populate from `loadMeta()`). The env-var removal (`.env.example`, CI workflows, user-side Vercel) couples with the same change.
 - **Stale comment cleanup in `src/app/page.tsx`.** Line 50's JSDoc referenced `src/utils/season-ceiling.ts` for the free-tier silent-fallback behavior. The dashboard already migrated to `currentDataSeason()`; the comment was misleading. Rewritten to drop the dead reference.
 - **No tests added.** This is a pure cleanup PR — every change is a deletion of code that already had zero callers.
-- **Net test-count delta: −32** (562 → 528 + 2 skipped = 530). Drops the 32 api-football-specific unit tests across `quota-guard.test.ts`, `season-ceiling.test.ts`, and `api-envelope.test.ts` (quota soft-block tracking, season-ceiling memo behaviour, api-envelope plan-rejection parsing — all obsolete after the migration).
+- **Net test-count delta: −32** (562 → 528 + 2 skipped = 530). Drops the 32 the wire-specific unit tests across `quota-guard.test.ts`, `season-ceiling.test.ts`, and `api-envelope.test.ts` (quota soft-block tracking, season-ceiling memo behaviour, api-envelope plan-rejection parsing — all obsolete after the migration).
 
 **Depends on:** TASK-505 ✅, TASK-506 ✅, TASK-507 ✅, TASK-508 ✅ (all on main; spec's "≥ 1 week stability" gate explicitly overridden by user)
 
@@ -2849,13 +2849,13 @@ Cleanup pass — delete modules and dependencies no longer needed after the migr
 **Doc sync sweep + `/api/health` rework** · ✅ Done · `P2` · `S` · Type: Chore · 🟢 MVP-v0.3 · [PR 86](https://github.com/AliEmad0/The-Invincibles---Premier-League-Encyclopedia/pull/86)
 
 **Description**
-Final doc sync after the migration. CLAUDE.md gotchas refreshed (drop api-football-specific ones, add the snapshot-specific ones). README.md tech stack updated. `/api/health`'s `provider` field replaced with a `data` field populated from `_meta.json`. Phase 5 marked complete; **MVP-v0.3** declared.
+Final doc sync after the migration. CLAUDE.md gotchas refreshed (drop the wire-specific ones, add the snapshot-specific ones). README.md tech stack updated. `/api/health`'s `provider` field replaced with a `data` field populated from `_meta.json`. Phase 5 marked complete; **MVP-v0.3** declared.
 
 **Engineering notes**
 
 - CLAUDE.md gotchas to drop: "Stale Next fetch-cache will impersonate a broken MSW", "Prod-mode MSW is broken" (still kept actually — useful for the rare prod build), "Free-tier `next=`/`last=` deferred" notes embedded in README.md
 - CLAUDE.md gotchas to add: "Data refresh model — daily auto-PR cadence", "MSW handlers mostly empty post-migration; pin handler-set drift as a code-review concern", "Season is pinned to whatever the snapshot's latest is — `<SeasonSwitcher>` for older seasons still works", "`data/_meta.json` is the canonical source of 'when did data last refresh'"
-- README.md "Tech Stack" section: replace api-football mentions with committed data + the daily refresh model
+- README.md "Tech Stack" section: replace the wire mentions with committed data + the daily refresh model
 - README.md "Project Status" section: mark MVP-v0.3 reached
 - `/api/health/route.ts`: rename `provider` → `data`, populate from `loadMeta()`, drop the upstream HEAD probe
 - Unit test `tests/unit/health-route.test.ts` updated for the new shape
@@ -2880,13 +2880,13 @@ Final doc sync after the migration. CLAUDE.md gotchas refreshed (drop api-footba
 
 **Implementation notes (post-merge)**
 
-- **MVP-v0.3 reached.** All 10 Phase 5 tickets shipped. The api-football data layer is fully replaced with daily-refreshed committed JSON snapshots. `tests/msw/handlers.ts` is a 12-line empty-handlers stub. No api-football fetch remains anywhere in `src/`.
+- **MVP-v0.3 reached.** All 10 Phase 5 tickets shipped. The the wire data layer is fully replaced with daily-refreshed committed JSON snapshots. `tests/msw/handlers.ts` is a 12-line empty-handlers stub. No the wire fetch remains anywhere in `src/`.
 - **`/api/health` shape change is breaking for uptime monitors** that probe for the `provider` field. Migrate to `data.lastRefresh` (ISO-8601 string) to alert on stale committed data. App-up signal stays `status: "ok"`.
 - **`data` field is `null` when `data/_meta.json` is missing or malformed.** Mirrors the loader contract; the response shape is `data: { lastRefresh, datasets } | null` rather than throwing.
 - **`rowCounts` deliberately omitted from the response.** Useful for sync-script debugging (lives in `_meta.json`) but not for an uptime monitor; keeping the response slim.
 - **`api-config.ts` + env vars deleted.** Closes TASK-509's two deferred ACs (env-var removal from `.env.example` + both CI workflows). The `provider-health` cache tag from the old probe was inlined at the route's call site (`next: { tags: ["provider-health"] }`) — never lived in `cache-tags.ts`, so no separate cleanup was needed (confirmed by TASK-M02 grep audit).
 - **User-side Vercel env-var removal (optional).** `API_KEY` + `API_BASE_URL` in Vercel project settings (Production / Preview / Development) are unused after merge. Removing them is housekeeping; leaving them defined is harmless.
-- **Stale `toComparisonMetrics` comment cleaned up** in `src/types/api.ts:367` (originally TASK-507 left it for this doc sweep). Comment now explains the api-football typo without referencing the deleted normalization helper.
+- **Stale `toComparisonMetrics` comment cleaned up** in `src/types/api.ts:367` (originally TASK-507 left it for this doc sweep). Comment now explains the upstream typo without referencing the deleted normalization helper.
 - **Out of scope by design.** `<PitchLineup>` + `<EventTimeline>` components stay on disk per TASK-508's documented decision; deletion belongs to whoever wires up the next lineup source. `pnpm lint`'s `tests/` blind-spot stays per TASK-006's deferral.
 - **Net test-count delta: −1** (528 passing + 2 skipped → 527 passing + 2 skipped = 529 total). The health-route test file drops from 5 to 4 cases (the upstream-throws case folds into the `data: null` case since `loadMeta()` is the only failure surface now).
 
@@ -2896,7 +2896,7 @@ Final doc sync after the migration. CLAUDE.md gotchas refreshed (drop api-footba
 
 ## 🎨 Phase 6 — Premium UX polish (post MVP-v0.3)
 
-Goal: round off the most visible UX gaps after the data migration — player photos, smarter empty states, full clickable navigation, color-coded standings, a dedicated player page, and a final sweep of api-football mentions from user-facing copy.
+Goal: round off the most visible UX gaps after the data migration — player photos, smarter empty states, full clickable navigation, color-coded standings, a dedicated player page, and a final sweep of the wire mentions from user-facing copy.
 
 10 tickets across 4 mostly-independent tracks. Track A (player images) is the longest dependency chain.
 
@@ -2910,7 +2910,7 @@ Goal: round off the most visible UX gaps after the data migration — player pho
 | [TASK-606](#task-606) | All team names + logos clickable — navigation sweep                | ✅ Done | P1       | M   |
 | [TASK-607](#task-607) | Color-code European / relegation rows in standings                 | ✅ Done | P2       | S   |
 | [TASK-608](#task-608) | Hide "Upcoming Fixtures" rail when season ended (empty-state card) | ✅ Done | P2       | S   |
-| [TASK-609](#task-609) | Delete api-football mentions from user-facing UI text              | ✅ Done | P2       | S   |
+| [TASK-609](#task-609) | Delete the wire mentions from user-facing UI text              | ✅ Done | P2       | S   |
 | [TASK-610](#task-610) | `/players/[id]` page — hero + season stats                         | ✅ Done | P1       | L   |
 
 ### TASK-601
@@ -2965,7 +2965,7 @@ Hydrate the `photo` field on every current-season the snapshot player row with t
 **Engineering notes**
 
 - the upstream data endpoint is unauthenticated, JSON, ~500 KB. Cache the response in a `data/.cache/fpl-bootstrap.json` (gitignored) so reruns are fast.
-- Match the snapshot players to the upstream data players by `(firstName + lastName, teamId)`. the upstream data teamIds differ from api-football teamIds — maintain a 20-row teamId mapping table in the sync script.
+- Match the snapshot players to the upstream data players by `(firstName + lastName, teamId)`. the upstream data teamIds differ from the wire teamIds — maintain a 20-row teamId mapping table in the sync script.
 - Multi-word name fuzziness: normalize accents (Brazilian + European names) before matching; document any unmatched players in the script's stdout log.
 - The committed JSON schema in `src/data/schemas.ts` already has a `photo` field; widen its type if it's currently nullable but is being assigned `string | null` to `string` after this lands (or keep nullable for resilience).
 - Sync script idempotency: re-running with the same the upstream data response should produce byte-identical JSON.
@@ -3201,7 +3201,7 @@ The standings table already has subtle qualification-driven LEFT BORDERS (Phase 
 
 **Acceptance criteria**
 
-- [x] Rows have the documented tint in both light + dark mode (driven by api-football's `description` field, NOT rank ranges — see deviation note below)
+- [x] Rows have the documented tint in both light + dark mode (driven by the wire's `description` field, NOT rank ranges — see deviation note below)
 - [x] Contrast ratio: light-mode tints use `-50` shade (effective ~4% lift over white — text contrast unaffected); dark-mode tints use `-950/40` (40% opacity over the dark surface — leaves the foreground colors and existing form-chip + GD sign accents fully legible).
 - [x] Optional `<details>`-based legend renders below the table, closed by default
 - [x] Component unit tests extended (8 assertions: 4 per-tier tint+border pairs, null-description no-style, zebra-stripe-skip on tinted rows, sticky-cell tint propagation, 3 legend tests)
@@ -3214,7 +3214,7 @@ The standings table already has subtle qualification-driven LEFT BORDERS (Phase 
 
 **Implementation notes (post-merge)**
 
-- **Deviation from spec: kept description-driven source of truth (NOT rank-based).** The spec proposed hardcoded rank ranges (1-4 CL / 5 UEL / 6 UECL / 18-20 Relegation). The existing implementation drives colors from api-football's `description` text via regex match — explicitly chosen during TASK-204 because qualification slot counts drift season-to-season (FA Cup winner displaces a UEL slot, UECL playoff allocation varies). I kept that design rationale and added the row tints to the same source-of-truth function. Result: if next season the structure changes, both border and tint shift together without code changes.
+- **Deviation from spec: kept description-driven source of truth (NOT rank-based).** The spec proposed hardcoded rank ranges (1-4 CL / 5 UEL / 6 UECL / 18-20 Relegation). The existing implementation drives colors from the wire's `description` text via regex match — explicitly chosen during TASK-204 because qualification slot counts drift season-to-season (FA Cup winner displaces a UEL slot, UECL playoff allocation varies). I kept that design rationale and added the row tints to the same source-of-truth function. Result: if next season the structure changes, both border and tint shift together without code changes.
 - **Deviation from spec: kept existing border palette (NOT the spec's proposed swap).** Existing borders are emerald=CL, blue=UEL, cyan=UECL, red=Relegation. Spec proposed blue=CL, orange=UEL, emerald=UECL, rose=Relegation. Row tints had to match the existing border hues to avoid visual conflict (a blue row tint with an emerald left border would look broken). Kept existing palette for consistency.
 - **Tinted rows skip the `even:bg-muted/30` zebra stripe** to avoid layering conflicting backgrounds. Mid-table rows (no qualification description) keep the zebra alternation.
 - **Sticky `#` + `Club` cells get the tint propagated** so horizontal scrolling on mobile still shows the tier color flowing under the frozen columns.
@@ -3272,26 +3272,26 @@ With committed data pinned to a finished season, the "Upcoming Fixtures" rail on
 
 ### TASK-609
 
-**Delete api-football mentions from user-facing UI text** · ✅ Done · `P2` · `S` · Type: Chore · [PR 98](https://github.com/AliEmad0/The-Invincibles---Premier-League-Encyclopedia/pull/98)
+**Delete the wire mentions from user-facing UI text** · ✅ Done · `P2` · `S` · Type: Chore · [PR 98](https://github.com/AliEmad0/The-Invincibles---Premier-League-Encyclopedia/pull/98)
 
 **Description**
-TASK-510 swept architectural references; this is the final pass on USER-VISIBLE copy. Likely targets: `src/app/teams/[id]/not-found.tsx` (mentions "api-football dataset"), `app/error.tsx` / `app/global-error.tsx` if they namedrop, README phase descriptions still in user-facing position, any in-product tooltips or microcopy.
+TASK-510 swept architectural references; this is the final pass on USER-VISIBLE copy. Likely targets: `src/app/teams/[id]/not-found.tsx` (mentions "the wire dataset"), `app/error.tsx` / `app/global-error.tsx` if they namedrop, README phase descriptions still in user-facing position, any in-product tooltips or microcopy.
 
 **Engineering notes**
 
-- Grep `src/` for `api-football` (case-insensitive) AND `api-sports` — list every hit, categorize as UI text vs code comment, sweep all UI text.
-- Replace user-visible "api-football" mentions with neutral phrasing ("the published Premier League dataset", "our dataset"). Don't claim the snapshot by name to users — it's a sourcing detail they don't care about.
+- Grep `src/` for `the wire` (case-insensitive) AND `the legacy provider` — list every hit, categorize as UI text vs code comment, sweep all UI text.
+- Replace user-visible "the wire" mentions with neutral phrasing ("the published Premier League dataset", "our dataset"). Don't claim the snapshot by name to users — it's a sourcing detail they don't care about.
 - Code comments in `src/types/api.ts` and `tests/fixtures/` are documentation of legacy + are out of scope (kept for engineer-facing context).
 - README mentions are not user-facing per se but should be swept too — final pass.
 
 **Acceptance criteria**
 
-- [x] Zero user-facing `api-football` or `api-sports` mentions in `src/app/**/*.tsx` (verified via grep audit)
+- [x] Zero user-facing `the wire` or `the legacy provider` mentions in `src/app/**/*.tsx` (verified via grep audit)
 - [x] `src/app/teams/[id]/not-found.tsx` uses neutral wording ("our Premier League dataset")
-- [x] `src/app/not-found.tsx` + `src/app/error.tsx` + `src/app/global-error.tsx` — audited, no UI api-football mentions (all error boundaries already use neutral copy)
-- [x] Footer (`src/components/layout/Footer.tsx`) attribution link to api-football.com REMOVED entirely; replaced with neutral "A Premier League encyclopedia, refreshed daily." tagline
-- [x] Dashboard subtitle (`src/app/page.tsx`) reworded from "Live standings, leaderboards, and fixtures from api-football." → "Standings, leaderboards, and fixtures, refreshed daily."
-- [x] README has zero user-facing api-football mentions in current-state copy (legacy session-history in CLAUDE.md + Phase 0-4 historical narratives are exempt; the one inaccurate reference at line 42 — describing the not-found boundary copy — was corrected)
+- [x] `src/app/not-found.tsx` + `src/app/error.tsx` + `src/app/global-error.tsx` — audited, no UI the wire mentions (all error boundaries already use neutral copy)
+- [x] Footer (`src/components/layout/Footer.tsx`) attribution link to the wire.com REMOVED entirely; replaced with neutral "A Premier League encyclopedia, refreshed daily." tagline
+- [x] Dashboard subtitle (`src/app/page.tsx`) reworded from "Live standings, leaderboards, and fixtures from the wire." → "Standings, leaderboards, and fixtures, refreshed daily."
+- [x] README has zero user-facing the wire mentions in current-state copy (legacy session-history in CLAUDE.md + Phase 0-4 historical narratives are exempt; the one inaccurate reference at line 42 — describing the not-found boundary copy — was corrected)
 - [x] Grep audit documented in PR body
 - [x] All gates green (552 tests, no regression)
 
@@ -3300,7 +3300,7 @@ TASK-510 swept architectural references; this is the final pass on USER-VISIBLE 
 - `src/components/layout/Footer.tsx` (modified — removed attribution link + replaced with neutral tagline)
 - `src/app/page.tsx` (modified — reworded dashboard subtitle)
 - `src/app/teams/[id]/not-found.tsx` (modified — reworded card description + adjacent code comment)
-- `src/app/api/players/search/route.ts` (modified — stale comment about "api-football call" → "loader scan")
+- `src/app/api/players/search/route.ts` (modified — stale comment about "the wire call" → "loader scan")
 - `README.md` (modified — single line at ~line 42 describing the not-found boundary's wording)
 - `tests/e2e/home.spec.ts` (extended — two footer-tagline assertions updated)
 - `tests/unit/teams-id-boundaries.test.tsx` (extended — `getByText` regex updated)
@@ -3308,9 +3308,9 @@ TASK-510 swept architectural references; this is the final pass on USER-VISIBLE 
 **Implementation notes (post-merge)**
 
 - **Footer attribution link DELETED entirely**, not replaced with a the snapshot attribution. Per the spec: "Don't claim the snapshot by name to users — it's a sourcing detail they don't care about." the snapshot's licenses (CC0 + Apache 2.0) don't require attribution for data use. Footer tagline became neutral: _"A Premier League encyclopedia, refreshed daily."_
-- **Engineer-facing code comments kept.** 20+ comments in `src/types/api.ts`, `src/features/**/api.ts`, `src/utils/sentry-sanitize.ts`, `src/utils/season.ts`, and various components still mention api-football — they document the adapter pattern (loader → reshape into api-football-compatible wire shape → consumer), which is a real architectural fact that engineers reading the code need to understand. Per the spec: "Code comments in `src/types/api.ts` and `tests/fixtures/` are documentation of legacy + are out of scope."
-- **One semi-stale comment fixed in `src/app/api/players/search/route.ts:19`** — the comment said "burn an api-football call" but post-the data migration there's no api-football call; reworded to "trigger a full-table loader scan" so it accurately describes the cost being avoided.
-- **README Phase 0-4 historical narrative kept.** Lines 11, 47-58 describe what each phase shipped, factually. e.g. "MSW intercepting api-football outbound calls" was true when TASK-002 shipped. Rewriting that as neutral would distort the development history that engineers/recruiters reading the README expect. Only line 42 — which described the not-found boundary copy that just changed — was corrected.
+- **Engineer-facing code comments kept.** 20+ comments in `src/types/api.ts`, `src/features/**/api.ts`, `src/utils/sentry-sanitize.ts`, `src/utils/season.ts`, and various components still mention the wire — they document the adapter pattern (loader → reshape into the wire-compatible wire shape → consumer), which is a real architectural fact that engineers reading the code need to understand. Per the spec: "Code comments in `src/types/api.ts` and `tests/fixtures/` are documentation of legacy + are out of scope."
+- **One semi-stale comment fixed in `src/app/api/players/search/route.ts:19`** — the comment said "burn an the wire call" but post-the data migration there's no the wire call; reworded to "trigger a full-table loader scan" so it accurately describes the cost being avoided.
+- **README Phase 0-4 historical narrative kept.** Lines 11, 47-58 describe what each phase shipped, factually. e.g. "MSW intercepting the wire outbound calls" was true when TASK-002 shipped. Rewriting that as neutral would distort the development history that engineers/recruiters reading the README expect. Only line 42 — which described the not-found boundary copy that just changed — was corrected.
 - **`<Footer>` is mounted in the AppShell layout (TASK-106)**, so the tagline change propagates to every page. The 2 E2E assertions in `tests/e2e/home.spec.ts` (home page + 404 page) updated to match.
 
 **Depends on:** none
@@ -3363,7 +3363,7 @@ First player profile page. Mirrors the structure of `/teams/[id]`: hero block wi
 **Implementation notes (post-merge)**
 
 - **Age + nationality omitted** — the snapshot `PlayerSchema` has no such columns (`getSquad` already sets `age: null` for the same reason). The hero shows photo / name / position / team-link; age + nationality slot in for free once a source provides them (TASK-801 an external reference). The AC line is marked done with this documented deviation.
-- **New `getPlayerProfile(id, season)` fetcher** (`players/api.ts`) returns the snapshot shape's `team`/`position` + the 12 metrics — `getPlayerStats` couldn't be reused because it returns the api-football wire `Player` (no team/position). `generateStaticParams` reads `loadPlayers(currentDataSeason())` → 574 SSG pages.
+- **New `getPlayerProfile(id, season)` fetcher** (`players/api.ts`) returns the snapshot shape's `team`/`position` + the 12 metrics — `getPlayerStats` couldn't be reused because it returns the the wire wire `Player` (no team/position). `generateStaticParams` reads `loadPlayers(currentDataSeason())` → 574 SSG pages.
 - **`<PlayerSeasonStats>` is a flat value grid, NOT `<StatRow>`.** The spec said "wraps `<StatRow>`", but that primitive is an inherently two-sided head-to-head bar; a single player has no opponent and a 50/50 bar with "—" on one side reads wrong. The grid reuses `COMPARISON_METRICS` (label + formatter + order) so a metric reads identically to `/compare`.
 - **No dynamic OG image** — the spec allowed deferring it to TASK-905 ("minimum viable = static fallback"); the page inherits the site's default OG. Not an AC.
 - **Discoverability follow-up — done in [PR 108](https://github.com/AliEmad0/The-Invincibles---Premier-League-Encyclopedia/pull/108).** A player-link sweep (mirroring TASK-606) wired player names → `/players/[id]` on `<StatLeaderboard>` (added `playerId` to the entry + `leaderboard-adapter.ts`), `<SquadGrid>` (whole card → `<Link>`), and the `<PlayerSlotPicker>` populated card. `<PlayerSearch>` dropdown rows + `<SuggestedPlayerGrid>` cards were intentionally left out — their click is the pick/fill action, so a competing profile-nav would be poor UX + fragile nested interactivity.
@@ -3400,7 +3400,7 @@ Extend the sync orchestrator to iterate over the season range `[2017, 2023]` (in
 **Engineering notes**
 
 - source dataset season coverage: external-data-pipeline (1992-93+), external-data-pipeline (2017-18+), external-data-pipeline (1992-2024). For this phase, all 3 are available.
-- Promoted teams ≠ current PL teams — each season's `teams-<season>.json` will have different rows. The `teamId` namespace must be stable across seasons (use the api-football-style canonical id, NOT a per-season sequence).
+- Promoted teams ≠ current PL teams — each season's `teams-<season>.json` will have different rows. The `teamId` namespace must be stable across seasons (use the wire-style canonical id, NOT a per-season sequence).
 - official photo enrichment (TASK-602) only works for current season — historical seasons get no photos until TASK-801 (an external reference).
 - Data-size estimate: ~1 MB per season × 8 seasons ≈ 8-10 MB extra committed. Acceptable for portfolio app.
 - One-shot script run (locally with WSL prefix) to seed the historical files; cron handles the current season going forward.
@@ -4113,7 +4113,7 @@ Replace the current instant slot-fill on `/compare` with a smooth morph animatio
 - Net unit delta 0 (677 + 2 skipped; E2E-only). **🎉 Phase 9 visual track done: 908 (tokens) → 909 (palette) → 911 (regression lock).** Spec/plan: `docs/superpowers/{specs,plans}/2026-06-08-task-911-visual-regression-tests*`.
 
 **Description**
-Catch visual bugs that unit tests can't see. Surfaced by the standings color-coding saga ([PR #92](https://github.com/AliEmad0/The-Invincibles---Premier-League-Encyclopedia/pull/92) → [#93](https://github.com/AliEmad0/The-Invincibles---Premier-League-Encyclopedia/pull/93) → [#94](https://github.com/AliEmad0/The-Invincibles---Premier-League-Encyclopedia/pull/94) → [#95](https://github.com/AliEmad0/The-Invincibles---Premier-League-Encyclopedia/pull/95)): three consecutive "test passes against fixture → ships → user sees broken thing → fix" cycles in ~30 minutes because unit tests assert class names, not computed styles, and fixtures used a legacy api-football snapshot with different `description` values than what the live the snapshot adapter produces. None of the four bugs (`description: null`, hardcoded rank-based rule, Shadcn `last-child:border-0` swallowing custom borders, wrong color palette + wrong qualifying teams) would have surfaced before a user looked at the deployed app.
+Catch visual bugs that unit tests can't see. Surfaced by the standings color-coding saga ([PR #92](https://github.com/AliEmad0/The-Invincibles---Premier-League-Encyclopedia/pull/92) → [#93](https://github.com/AliEmad0/The-Invincibles---Premier-League-Encyclopedia/pull/93) → [#94](https://github.com/AliEmad0/The-Invincibles---Premier-League-Encyclopedia/pull/94) → [#95](https://github.com/AliEmad0/The-Invincibles---Premier-League-Encyclopedia/pull/95)): three consecutive "test passes against fixture → ships → user sees broken thing → fix" cycles in ~30 minutes because unit tests assert class names, not computed styles, and fixtures used a legacy the wire snapshot with different `description` values than what the live the snapshot adapter produces. None of the four bugs (`description: null`, hardcoded rank-based rule, Shadcn `last-child:border-0` swallowing custom borders, wrong color palette + wrong qualifying teams) would have surfaced before a user looked at the deployed app.
 
 **Engineering approach**
 
@@ -4706,7 +4706,7 @@ Extend the committed fixture shape with optional half-time score + referee, sour
 
 **Post-merge notes**
 
-- **No `fixture-detail.api.ts` change needed.** The api-football `Fixture` type already carried `fixture.referee` + `score.halftime` — `toApiFixture` (`src/features/leagues/fixtures.api.ts`) just hardcoded them to `null`. Populated them from the TASK-1301 the snapshot fields (`referee`, `halfTime`); `getFixtureDetail` passes the `toApiFixture` output straight through, so the data reaches the page automatically. The dashboard rails / recent-form strip also call `toApiFixture` but don't render these fields → zero visual change there.
+- **No `fixture-detail.api.ts` change needed.** The the wire `Fixture` type already carried `fixture.referee` + `score.halftime` — `toApiFixture` (`src/features/leagues/fixtures.api.ts`) just hardcoded them to `null`. Populated them from the TASK-1301 the snapshot fields (`referee`, `halfTime`); `getFixtureDetail` passes the `toApiFixture` output straight through, so the data reaches the page automatically. The dashboard rails / recent-form strip also call `toApiFixture` but don't render these fields → zero visual change there.
 - **`<FixtureHeader>`** renders both conditionally (omitted when null): `HT {h}–{a}` as a small muted line beneath the full-time score; `· Referee: {name}` appended to the kickoff meta line.
 - **E2E not extended** — the dashboard E2E navigates to a 2025-26 fixture; asserting a specific referee name there is brittle. 4 component-test cases (present + null for each field) + 2 `toApiFixture` passthrough assertions cover it. Net test delta +6 (687 → 693 + 2 skipped). Spec/plan: [`docs/superpowers/specs/2026-06-08-task-1302-surface-halftime-referee-design.md`](docs/superpowers/specs/2026-06-08-task-1302-surface-halftime-referee-design.md). **🎉 Phase 13 (P-C) COMPLETE (1301 + 1302).**
 
@@ -6751,7 +6751,7 @@ TASK-401 ─► TASK-402 / TASK-403 ─► TASK-404 ─► TASK-405 ─► TASK-
                                 ─► TASK-406 ─► TASK-408 ─► TASK-409 / TASK-411
                                 ─► TASK-410
 
-Phase 5 (the snapshot Data Migration) — replaces Phases 2–4's api-football data layer
+Phase 5 (the snapshot Data Migration) — replaces Phases 2–4's the wire data layer
 TASK-501 ─► TASK-502 ─► TASK-503
                     ─► TASK-504 ─┬─► TASK-505 (Dashboard)
                                  ├─► TASK-506 (Teams)
@@ -6768,7 +6768,7 @@ Track A (Player images chain):
 Track B: TASK-607 (standings color-code)        — independent
 Track C: TASK-606 (team navigation sweep)       — independent
 Track D: TASK-608 (season-ended empty state)    — independent
-Track E: TASK-609 (UI api-football text sweep)  — independent
+Track E: TASK-609 (UI the wire text sweep)  — independent
 
 Phase 7 (Modern multi-season history) — depends on Phase 6 (TASK-601 specifically)
 TASK-701 ─► TASK-702 ─► TASK-703 (composable with TASK-610)

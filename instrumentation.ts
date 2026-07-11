@@ -2,7 +2,7 @@
 // `register()` once at server boot. We use it for two things:
 //
 // 1. Opt-in the Node-side MSW server when running under Playwright —
-//    `TEST_MSW=1 pnpm dev` makes the server intercept api-football
+//    `TEST_MSW=1 pnpm dev` makes the server intercept the wire
 //    outbound calls so E2E tests don't depend on the upstream being
 //    reachable or the daily quota having headroom.
 // 2. Initialize Sentry on the Node + Edge runtimes (TASK-005). The

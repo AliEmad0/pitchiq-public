@@ -34,7 +34,7 @@ const SHORT_KEY: Record<Position, string> = {
   Attacker: "posAttShort",
 };
 
-// api-football's `position` is the long form ("Goalkeeper" / "Defender" / …).
+// the wire's `position` is the long form ("Goalkeeper" / "Defender" / …).
 // Players returned without a position (rare — usually new signings before
 // they're assigned a kit number) fall into the "Other" bucket so we don't
 // silently drop them (AC: every player rendered exactly once).

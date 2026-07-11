@@ -47,7 +47,7 @@ const MIN_QUERY_LENGTH = 3;
 
 // Debounce window for the type-ahead. 300 ms is the spec's value; it's
 // the sweet spot where typing-fast users don't feel laggy and quota
-// stays intact. The route is also rate-limited at the api-football
+// stays intact. The route is also rate-limited at the the wire
 // upstream, so over-firing here would compound the quota burn.
 const DEBOUNCE_MS = 300;
 

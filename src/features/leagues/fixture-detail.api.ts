@@ -117,7 +117,7 @@ export async function getFixtureDetail(
 
 /**
  * Reshape the committed `FixtureLineups` (home/away raw lineups) into the
- * api-football-shaped `FixtureLineup[]` the `<PitchLineup>` consumer expects.
+ * wire-shaped `FixtureLineup[]` the `<PitchLineup>` consumer expects.
  * The SDP source carries a manager (TASK-M21) → `coach.name`; legacy/older
  * matches have none → empty stub. Per-player `isCaptain` rides along on `player`.
  */
@@ -166,7 +166,7 @@ function toFixtureLineups(
   return [side(raw.home, home, "home"), side(raw.away, away, "away")];
 }
 
-/** Reshape committed `MatchEventRaw[]` into the api-football `FixtureEvent[]` shape. */
+/** Reshape committed `MatchEventRaw[]` into the the wire `FixtureEvent[]` shape. */
 function toFixtureEvents(
   raw: MatchEventRaw[],
   home: FixtureTeam,

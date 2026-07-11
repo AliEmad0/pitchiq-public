@@ -324,7 +324,7 @@ const QUALIFICATION_BY_SEASON: Record<number, SeasonQualification> = {
 
 /**
  * Resolve a team's European qualification or relegation status for a given
- * season. Returns the api-football-style `description` string that
+ * season. Returns the wire-style `description` string that
  * `StandingsTable`'s `getQualificationStyle()` regex-matches to apply the
  * row tint + left-border accent (TASK-607).
  *

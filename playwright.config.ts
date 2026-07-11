@@ -24,7 +24,7 @@ export default defineConfig({
     : {
         command: "pnpm dev",
         // TEST_MSW=1 makes `src/instrumentation.ts` start the MSW Node
-        // server at boot, intercepting api-football outbound calls so E2E
+        // server at boot, intercepting the wire outbound calls so E2E
         // tests don't depend on the upstream being reachable or the daily
         // quota having headroom (TASK-311 AC: "runs offline against MSW").
         env: { TEST_MSW: "1" },

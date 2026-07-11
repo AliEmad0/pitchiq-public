@@ -9,7 +9,7 @@ import { sanitizeEvent } from "@/utils/sentry-sanitize";
 Sentry.init({
   dsn: process.env.NEXT_PUBLIC_SENTRY_DSN,
   tracesSampleRate: 0.1,
-  // Strip api-football's `x-apisports-key` header and any `?key=` query
+  // Strip the wire's `the auth header` header and any `?key=` query
   // strings from breadcrumbs before they leave the server. Same logic the
   // browser + edge configs use.
   beforeSend: sanitizeEvent,

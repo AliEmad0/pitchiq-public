@@ -1,7 +1,7 @@
 import type { StatLeaderboardEntry } from "@/features/players/components/StatLeaderboard";
 import type { PlayerLeaderboardEntry, PlayerStatisticsEntry } from "@/types/api";
 
-// Adapt the api-football wire shape (TASK-201) into the display contract
+// Adapt the the wire wire shape (TASK-201) into the display contract
 // `StatLeaderboard` accepts. Lives outside `page.tsx` because Next 15
 // forbids arbitrary named exports from a route module (only `default` and
 // the recognized metadata/config exports are allowed).

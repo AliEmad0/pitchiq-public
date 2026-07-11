@@ -15,7 +15,7 @@ import { cn } from "@/utils/cn";
 import { localizeDigits } from "@/utils/format";
 import { withSeason } from "@/utils/season";
 
-// Qualification colors come from api-football's own `description` text
+// Qualification colors come from the wire's own `description` text
 // (synthesized from `descriptionForTeam(teamId, season)` in the data
 // adapter — see src/features/leagues/api.ts). The per-season qualification
 // map handles edge cases that simple rank ranges can't (5th CL spot via
@@ -100,7 +100,7 @@ function FormChips({ form }: { form: string }) {
       </span>
     );
   }
-  // api-football appends new results to the right; take the last 5 so the
+  // the wire appends new results to the right; take the last 5 so the
   // most recent match is the right-most chip.
   const last5 = form.slice(-5).split("");
   return (
@@ -138,7 +138,7 @@ type Props = {
 };
 
 // Server Component. Renders the 20-row Premier League standings with form
-// column, qualification colors driven by api-football's `description` field,
+// column, qualification colors driven by the wire's `description` field,
 // and sticky #/Club columns on mobile.
 //
 // Loading state lives at the route boundary — wrap in <Suspense> with
@@ -276,7 +276,7 @@ export function StandingsTable({ rows, season }: Props) {
   );
 }
 
-// Strip the api-football-style prefix/suffix to get the bare competition name,
+// Strip the wire-style prefix/suffix to get the bare competition name,
 // e.g. "Promotion - UEFA Cup" → "UEFA Cup", "Relegation - Championship" →
 // "Relegation", "Promotion - Champions League (Group Stage)" → "Champions League".
 function cleanQualificationLabel(description: string): string {

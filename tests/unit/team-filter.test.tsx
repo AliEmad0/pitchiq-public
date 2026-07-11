@@ -21,7 +21,7 @@ function makeEntry(
     team: {
       id,
       name,
-      logo: `https://media.api-sports.io/football/teams/${id}.png`,
+      logo: `https://media.example.test/football/teams/${id}.png`,
       code: name.slice(0, 3).toUpperCase(),
       country: "England",
       founded,

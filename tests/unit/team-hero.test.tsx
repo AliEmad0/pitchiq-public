@@ -14,7 +14,7 @@ function makeTeam(overrides: Partial<Team> = {}): Team {
   return {
     id: 33,
     name: "Manchester United",
-    logo: "https://media.api-sports.io/football/teams/33.png",
+    logo: "https://media.example.test/football/teams/33.png",
     code: "MUN",
     country: "England",
     founded: 1878,
@@ -31,7 +31,7 @@ function makeVenue(overrides: Partial<Venue> = {}): Venue {
     city: "Manchester",
     capacity: 76212,
     surface: "grass",
-    image: "https://media.api-sports.io/football/venues/556.png",
+    image: "https://media.example.test/football/venues/556.png",
     ...overrides,
   };
 }

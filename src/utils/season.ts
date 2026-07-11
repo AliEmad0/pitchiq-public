@@ -1,6 +1,6 @@
 import { bidiIsolate, isRtl, localizeDigits } from "@/utils/format";
 
-// Premier League runs Aug–May. api-football's `season` query param is the
+// Premier League runs Aug–May. the wire's `season` query param is the
 // start year — "2024" means the 2024-25 season.
 //
 // `now` is injectable so tests can pin a deterministic moment.
@@ -58,7 +58,7 @@ export function parseSeason(raw: string | string[] | undefined, fallback: number
 
 // Descending list of selectable seasons for the TASK-111 season switcher,
 // newest first. `now` is injectable so tests can pin the head of the list.
-// Free-tier api-football historical depth varies — anything between the
+// Free-tier the wire historical depth varies — anything between the
 // returned years and the current season will hit the season-fallback memo
 // or render the empty state, but the dropdown still offers them so the UX
 // is consistent across plan tiers.
