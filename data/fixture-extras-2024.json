@@ -1,0 +1,1522 @@
+{
+  "2024-08-16-MUN-FUL": {
+    "attendance": 73297,
+    "venue": "Old Trafford"
+  },
+  "2024-08-17-ARS-WOL": {
+    "attendance": 60261,
+    "venue": "Emirates Stadium"
+  },
+  "2024-08-17-EVE-BHA": {
+    "attendance": 39572,
+    "venue": "Goodison Park"
+  },
+  "2024-08-17-IPS-LIV": {
+    "attendance": 30014,
+    "venue": "Portman Road"
+  },
+  "2024-08-17-NEW-SOU": {
+    "attendance": 52196,
+    "venue": "St. James' Park"
+  },
+  "2024-08-17-NFO-BOU": {
+    "attendance": 29763,
+    "venue": "The City Ground"
+  },
+  "2024-08-17-WHU-AVL": {
+    "attendance": 62463,
+    "venue": "London Stadium"
+  },
+  "2024-08-18-BRE-CRY": {
+    "attendance": 16988,
+    "venue": "Gtech Community Stadium"
+  },
+  "2024-08-18-CHE-MCI": {
+    "attendance": 39818,
+    "venue": "Stamford Bridge"
+  },
+  "2024-08-19-LEI-TOT": {
+    "attendance": 31977,
+    "venue": "King Power Stadium"
+  },
+  "2024-08-24-AVL-ARS": {
+    "attendance": 41587,
+    "venue": "Villa Park"
+  },
+  "2024-08-24-BHA-MUN": {
+    "attendance": 31537,
+    "venue": "American Express Stadium"
+  },
+  "2024-08-24-CRY-WHU": {
+    "attendance": 25099,
+    "venue": "Selhurst Park"
+  },
+  "2024-08-24-FUL-LEI": {
+    "attendance": 25401,
+    "venue": "Craven Cottage"
+  },
+  "2024-08-24-MCI-IPS": {
+    "attendance": 53147,
+    "venue": "Etihad Stadium"
+  },
+  "2024-08-24-SOU-NFO": {
+    "attendance": 31150,
+    "venue": "St. Mary's Stadium"
+  },
+  "2024-08-24-TOT-EVE": {
+    "attendance": 61357,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2024-08-25-BOU-NEW": {
+    "attendance": 11161,
+    "venue": "Vitality Stadium"
+  },
+  "2024-08-25-LIV-BRE": {
+    "attendance": 60107,
+    "venue": "Anfield"
+  },
+  "2024-08-25-WOL-CHE": {
+    "attendance": 31235,
+    "venue": "Molineux Stadium"
+  },
+  "2024-08-31-ARS-BHA": {
+    "attendance": 60326,
+    "venue": "Emirates Stadium"
+  },
+  "2024-08-31-BRE-SOU": {
+    "attendance": 16955,
+    "venue": "Gtech Community Stadium"
+  },
+  "2024-08-31-EVE-BOU": {
+    "attendance": 38805,
+    "venue": "Goodison Park"
+  },
+  "2024-08-31-IPS-FUL": {
+    "attendance": 29517,
+    "venue": "Portman Road"
+  },
+  "2024-08-31-LEI-AVL": {
+    "attendance": 31725,
+    "venue": "King Power Stadium"
+  },
+  "2024-08-31-NFO-WOL": {
+    "attendance": 29918,
+    "venue": "The City Ground"
+  },
+  "2024-08-31-WHU-MCI": {
+    "attendance": 62469,
+    "venue": "London Stadium"
+  },
+  "2024-09-01-CHE-CRY": {
+    "attendance": 39298,
+    "venue": "Stamford Bridge"
+  },
+  "2024-09-01-MUN-LIV": {
+    "attendance": 73738,
+    "venue": "Old Trafford"
+  },
+  "2024-09-01-NEW-TOT": {
+    "attendance": 52211,
+    "venue": "St. James' Park"
+  },
+  "2024-09-14-AVL-EVE": {
+    "attendance": 41573,
+    "venue": "Villa Park"
+  },
+  "2024-09-14-BHA-IPS": {
+    "attendance": 41573,
+    "venue": "American Express Stadium"
+  },
+  "2024-09-14-BOU-CHE": {
+    "attendance": 11235,
+    "venue": "Vitality Stadium"
+  },
+  "2024-09-14-CRY-LEI": {
+    "attendance": 25124,
+    "venue": "Selhurst Park"
+  },
+  "2024-09-14-FUL-WHU": {
+    "attendance": 26528,
+    "venue": "Craven Cottage"
+  },
+  "2024-09-14-LIV-NFO": {
+    "attendance": 60344,
+    "venue": "Anfield"
+  },
+  "2024-09-14-MCI-BRE": {
+    "attendance": 52148,
+    "venue": "Etihad Stadium"
+  },
+  "2024-09-14-SOU-MUN": {
+    "attendance": 31144,
+    "venue": "St. Mary's Stadium"
+  },
+  "2024-09-15-TOT-ARS": {
+    "attendance": 61645,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2024-09-15-WOL-NEW": {
+    "attendance": 30255,
+    "venue": "Molineux Stadium"
+  },
+  "2024-09-21-AVL-WOL": {
+    "attendance": 39978,
+    "venue": "Villa Park"
+  },
+  "2024-09-21-CRY-MUN": {
+    "attendance": 25172,
+    "venue": "Selhurst Park"
+  },
+  "2024-09-21-FUL-NEW": {
+    "attendance": 25700,
+    "venue": "Craven Cottage"
+  },
+  "2024-09-21-LEI-EVE": {
+    "attendance": 31765,
+    "venue": "King Power Stadium"
+  },
+  "2024-09-21-LIV-BOU": {
+    "attendance": 60347,
+    "venue": "Anfield"
+  },
+  "2024-09-21-SOU-IPS": {
+    "attendance": 31117,
+    "venue": "St. Mary's Stadium"
+  },
+  "2024-09-21-TOT-BRE": {
+    "attendance": 61246,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2024-09-21-WHU-CHE": {
+    "attendance": 62473,
+    "venue": "London Stadium"
+  },
+  "2024-09-22-BHA-NFO": {
+    "attendance": 31444,
+    "venue": "American Express Stadium"
+  },
+  "2024-09-22-MCI-ARS": {
+    "attendance": 52846,
+    "venue": "Etihad Stadium"
+  },
+  "2024-09-28-ARS-LEI": {
+    "attendance": 60323,
+    "venue": "Emirates Stadium"
+  },
+  "2024-09-28-BRE-WHU": {
+    "attendance": 17050,
+    "venue": "Gtech Community Stadium"
+  },
+  "2024-09-28-CHE-BHA": {
+    "attendance": 39495,
+    "venue": "Stamford Bridge"
+  },
+  "2024-09-28-EVE-CRY": {
+    "attendance": 38954,
+    "venue": "Goodison Park"
+  },
+  "2024-09-28-NEW-MCI": {
+    "attendance": 52248,
+    "venue": "St. James' Park"
+  },
+  "2024-09-28-NFO-FUL": {
+    "attendance": 30139,
+    "venue": "The City Ground"
+  },
+  "2024-09-28-WOL-LIV": {
+    "attendance": 31413,
+    "venue": "Molineux Stadium"
+  },
+  "2024-09-29-IPS-AVL": {
+    "attendance": 29943,
+    "venue": "Portman Road"
+  },
+  "2024-09-29-MUN-TOT": {
+    "attendance": 73587,
+    "venue": "Old Trafford"
+  },
+  "2024-09-30-BOU-SOU": {
+    "attendance": 11243,
+    "venue": "Vitality Stadium"
+  },
+  "2024-10-05-ARS-SOU": {
+    "attendance": 60307,
+    "venue": "Emirates Stadium"
+  },
+  "2024-10-05-BRE-WOL": {
+    "attendance": 16960,
+    "venue": "Gtech Community Stadium"
+  },
+  "2024-10-05-CRY-LIV": {
+    "attendance": 25185,
+    "venue": "Selhurst Park"
+  },
+  "2024-10-05-EVE-NEW": {
+    "attendance": 39265,
+    "venue": "Goodison Park"
+  },
+  "2024-10-05-LEI-BOU": {
+    "attendance": 31706,
+    "venue": "King Power Stadium"
+  },
+  "2024-10-05-MCI-FUL": {
+    "attendance": 52719,
+    "venue": "Etihad Stadium"
+  },
+  "2024-10-05-WHU-IPS": {
+    "attendance": 62467,
+    "venue": "London Stadium"
+  },
+  "2024-10-06-AVL-MUN": {
+    "attendance": 42682,
+    "venue": "Villa Park"
+  },
+  "2024-10-06-BHA-TOT": {
+    "attendance": 31487,
+    "venue": "American Express Stadium"
+  },
+  "2024-10-06-CHE-NFO": {
+    "attendance": 39501,
+    "venue": "Stamford Bridge"
+  },
+  "2024-10-19-BOU-ARS": {
+    "attendance": 11235,
+    "venue": "Vitality Stadium"
+  },
+  "2024-10-19-FUL-AVL": {
+    "attendance": 26743,
+    "venue": "Craven Cottage"
+  },
+  "2024-10-19-IPS-EVE": {
+    "attendance": 29862,
+    "venue": "Portman Road"
+  },
+  "2024-10-19-MUN-BRE": {
+    "attendance": 73738,
+    "venue": "Old Trafford"
+  },
+  "2024-10-19-NEW-BHA": {
+    "attendance": 52220,
+    "venue": "St. James' Park"
+  },
+  "2024-10-19-SOU-LEI": {
+    "attendance": 31145,
+    "venue": "St. Mary's Stadium"
+  },
+  "2024-10-19-TOT-WHU": {
+    "attendance": 61381,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2024-10-20-LIV-CHE": {
+    "attendance": 60277,
+    "venue": "Anfield"
+  },
+  "2024-10-20-WOL-MCI": {
+    "attendance": 31319,
+    "venue": "Molineux Stadium"
+  },
+  "2024-10-21-NFO-CRY": {
+    "attendance": 29443,
+    "venue": "The City Ground"
+  },
+  "2024-10-25-LEI-NFO": {
+    "attendance": 31879,
+    "venue": "King Power Stadium"
+  },
+  "2024-10-26-AVL-BOU": {
+    "attendance": 42165,
+    "venue": "Villa Park"
+  },
+  "2024-10-26-BHA-WOL": {
+    "attendance": 31480,
+    "venue": "American Express Stadium"
+  },
+  "2024-10-26-BRE-IPS": {
+    "attendance": 17109,
+    "venue": "Gtech Community Stadium"
+  },
+  "2024-10-26-EVE-FUL": {
+    "attendance": 38742,
+    "venue": "Goodison Park"
+  },
+  "2024-10-26-MCI-SOU": {
+    "attendance": 52844,
+    "venue": "Etihad Stadium"
+  },
+  "2024-10-27-ARS-LIV": {
+    "attendance": 60383,
+    "venue": "Emirates Stadium"
+  },
+  "2024-10-27-CHE-NEW": {
+    "attendance": 39526,
+    "venue": "Stamford Bridge"
+  },
+  "2024-10-27-CRY-TOT": {
+    "attendance": 25180,
+    "venue": "Selhurst Park"
+  },
+  "2024-10-27-WHU-MUN": {
+    "attendance": 62474,
+    "venue": "London Stadium"
+  },
+  "2024-11-02-BOU-MCI": {
+    "attendance": 11231,
+    "venue": "Vitality Stadium"
+  },
+  "2024-11-02-IPS-LEI": {
+    "attendance": 29874,
+    "venue": "Portman Road"
+  },
+  "2024-11-02-LIV-BHA": {
+    "attendance": 60331,
+    "venue": "Anfield"
+  },
+  "2024-11-02-NEW-ARS": {
+    "attendance": 52249,
+    "venue": "St. James' Park"
+  },
+  "2024-11-02-NFO-WHU": {
+    "attendance": 30112,
+    "venue": "The City Ground"
+  },
+  "2024-11-02-SOU-EVE": {
+    "attendance": 31143,
+    "venue": "St. Mary's Stadium"
+  },
+  "2024-11-02-WOL-CRY": {
+    "attendance": 29505,
+    "venue": "Molineux Stadium"
+  },
+  "2024-11-03-MUN-CHE": {
+    "attendance": 73813,
+    "venue": "Old Trafford"
+  },
+  "2024-11-03-TOT-AVL": {
+    "attendance": 61253,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2024-11-04-FUL-BRE": {
+    "attendance": 24931,
+    "venue": "Craven Cottage"
+  },
+  "2024-11-09-BHA-MCI": {
+    "attendance": 31715,
+    "venue": "American Express Stadium"
+  },
+  "2024-11-09-BRE-BOU": {
+    "attendance": 16993,
+    "venue": "Gtech Community Stadium"
+  },
+  "2024-11-09-CRY-FUL": {
+    "attendance": 25142,
+    "venue": "Selhurst Park"
+  },
+  "2024-11-09-LIV-AVL": {
+    "attendance": 60292,
+    "venue": "Anfield"
+  },
+  "2024-11-09-WHU-EVE": {
+    "attendance": 62463,
+    "venue": "London Stadium"
+  },
+  "2024-11-09-WOL-SOU": {
+    "attendance": 31403,
+    "venue": "Molineux Stadium"
+  },
+  "2024-11-10-CHE-ARS": {
+    "attendance": 39780,
+    "venue": "Stamford Bridge"
+  },
+  "2024-11-10-MUN-LEI": {
+    "attendance": 73829,
+    "venue": "Old Trafford"
+  },
+  "2024-11-10-NFO-NEW": {
+    "attendance": 30145,
+    "venue": "The City Ground"
+  },
+  "2024-11-10-TOT-IPS": {
+    "attendance": 61505,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2024-11-23-ARS-NFO": {
+    "attendance": 60298,
+    "venue": "Emirates Stadium"
+  },
+  "2024-11-23-AVL-CRY": {
+    "attendance": 42175,
+    "venue": "Villa Park"
+  },
+  "2024-11-23-BOU-BHA": {
+    "attendance": 11196,
+    "venue": "Vitality Stadium"
+  },
+  "2024-11-23-EVE-BRE": {
+    "attendance": 38915,
+    "venue": "Goodison Park"
+  },
+  "2024-11-23-FUL-WOL": {
+    "attendance": 26685,
+    "venue": "Craven Cottage"
+  },
+  "2024-11-23-LEI-CHE": {
+    "attendance": 31880,
+    "venue": "King Power Stadium"
+  },
+  "2024-11-23-MCI-TOT": {
+    "attendance": 52478,
+    "venue": "Etihad Stadium"
+  },
+  "2024-11-24-IPS-MUN": {
+    "attendance": 30017,
+    "venue": "Portman Road"
+  },
+  "2024-11-24-SOU-LIV": {
+    "attendance": 31278,
+    "venue": "St. Mary's Stadium"
+  },
+  "2024-11-25-NEW-WHU": {
+    "attendance": 52094,
+    "venue": "St. James' Park"
+  },
+  "2024-11-29-BHA-SOU": {
+    "attendance": 31542,
+    "venue": "American Express Stadium"
+  },
+  "2024-11-30-BRE-LEI": {
+    "attendance": 17084,
+    "venue": "Gtech Community Stadium"
+  },
+  "2024-11-30-CRY-NEW": {
+    "attendance": 25101,
+    "venue": "Selhurst Park"
+  },
+  "2024-11-30-NFO-IPS": {
+    "attendance": 30237,
+    "venue": "The City Ground"
+  },
+  "2024-11-30-WHU-ARS": {
+    "attendance": 62475,
+    "venue": "London Stadium"
+  },
+  "2024-11-30-WOL-BOU": {
+    "attendance": 26685,
+    "venue": "Molineux Stadium"
+  },
+  "2024-12-01-CHE-AVL": {
+    "attendance": 39689,
+    "venue": "Stamford Bridge"
+  },
+  "2024-12-01-LIV-MCI": {
+    "attendance": 60248,
+    "venue": "Anfield"
+  },
+  "2024-12-01-MUN-EVE": {
+    "attendance": 73817,
+    "venue": "Old Trafford"
+  },
+  "2024-12-01-TOT-FUL": {
+    "attendance": 61141,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2024-12-03-IPS-CRY": {
+    "attendance": 29533,
+    "venue": "Portman Road"
+  },
+  "2024-12-03-LEI-WHU": {
+    "attendance": 30947,
+    "venue": "King Power Stadium"
+  },
+  "2024-12-04-ARS-MUN": {
+    "attendance": 60256,
+    "venue": "Emirates Stadium"
+  },
+  "2024-12-04-AVL-BRE": {
+    "attendance": 37890,
+    "venue": "Villa Park"
+  },
+  "2024-12-04-EVE-WOL": {
+    "attendance": 38820,
+    "venue": "Goodison Park"
+  },
+  "2024-12-04-MCI-NFO": {
+    "attendance": 51764,
+    "venue": "Etihad Stadium"
+  },
+  "2024-12-04-NEW-LIV": {
+    "attendance": 52237,
+    "venue": "St. James' Park"
+  },
+  "2024-12-04-SOU-CHE": {
+    "attendance": 31193,
+    "venue": "St. Mary's Stadium"
+  },
+  "2024-12-05-BOU-TOT": {
+    "attendance": 11234,
+    "venue": "Vitality Stadium"
+  },
+  "2024-12-05-FUL-BHA": {
+    "attendance": 26368,
+    "venue": "Craven Cottage"
+  },
+  "2024-12-07-AVL-SOU": {
+    "attendance": 42453,
+    "venue": "Villa Park"
+  },
+  "2024-12-07-BRE-NEW": {
+    "attendance": 17078,
+    "venue": "Gtech Community Stadium"
+  },
+  "2024-12-07-CRY-MCI": {
+    "attendance": 25142,
+    "venue": "Selhurst Park"
+  },
+  "2024-12-07-MUN-NFO": {
+    "attendance": 73778,
+    "venue": "Old Trafford"
+  },
+  "2024-12-08-FUL-ARS": {
+    "attendance": 26954,
+    "venue": "Craven Cottage"
+  },
+  "2024-12-08-IPS-BOU": {
+    "attendance": 29180,
+    "venue": "Portman Road"
+  },
+  "2024-12-08-LEI-BHA": {
+    "attendance": 31647,
+    "venue": "King Power Stadium"
+  },
+  "2024-12-08-TOT-CHE": {
+    "attendance": 61184,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2024-12-09-WHU-WOL": {
+    "attendance": 62435,
+    "venue": "London Stadium"
+  },
+  "2024-12-14-ARS-EVE": {
+    "attendance": 60176,
+    "venue": "Emirates Stadium"
+  },
+  "2024-12-14-LIV-FUL": {
+    "attendance": 60333,
+    "venue": "Anfield"
+  },
+  "2024-12-14-NEW-LEI": {
+    "attendance": 52235,
+    "venue": "St. James' Park"
+  },
+  "2024-12-14-NFO-AVL": {
+    "attendance": 30117,
+    "venue": "The City Ground"
+  },
+  "2024-12-14-WOL-IPS": {
+    "attendance": 30866,
+    "venue": "Molineux Stadium"
+  },
+  "2024-12-15-BHA-CRY": {
+    "attendance": 30893,
+    "venue": "American Express Stadium"
+  },
+  "2024-12-15-CHE-BRE": {
+    "attendance": 39751,
+    "venue": "Stamford Bridge"
+  },
+  "2024-12-15-MCI-MUN": {
+    "attendance": 52788,
+    "venue": "Etihad Stadium"
+  },
+  "2024-12-15-SOU-TOT": {
+    "attendance": 31090,
+    "venue": "St. Mary's Stadium"
+  },
+  "2024-12-16-BOU-WHU": {
+    "attendance": 11204,
+    "venue": "Vitality Stadium"
+  },
+  "2024-12-21-AVL-MCI": {
+    "attendance": 42345,
+    "venue": "Villa Park"
+  },
+  "2024-12-21-BRE-NFO": {
+    "attendance": 17115,
+    "venue": "Gtech Community Stadium"
+  },
+  "2024-12-21-CRY-ARS": {
+    "attendance": 25167,
+    "venue": "Selhurst Park"
+  },
+  "2024-12-21-IPS-NEW": {
+    "attendance": 29774,
+    "venue": "Portman Road"
+  },
+  "2024-12-21-WHU-BHA": {
+    "attendance": 62460,
+    "venue": "London Stadium"
+  },
+  "2024-12-22-EVE-CHE": {
+    "attendance": 39308,
+    "venue": "Goodison Park"
+  },
+  "2024-12-22-FUL-SOU": {
+    "attendance": 26819,
+    "venue": "Craven Cottage"
+  },
+  "2024-12-22-LEI-WOL": {
+    "attendance": 31818,
+    "venue": "King Power Stadium"
+  },
+  "2024-12-22-MUN-BOU": {
+    "attendance": 73720,
+    "venue": "Old Trafford"
+  },
+  "2024-12-22-TOT-LIV": {
+    "attendance": 61439,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2024-12-26-BOU-CRY": {
+    "attendance": 11129,
+    "venue": "Vitality Stadium"
+  },
+  "2024-12-26-CHE-FUL": {
+    "attendance": 39687,
+    "venue": "Stamford Bridge"
+  },
+  "2024-12-26-LIV-LEI": {
+    "attendance": 60300,
+    "venue": "Anfield"
+  },
+  "2024-12-26-MCI-EVE": {
+    "attendance": 52527,
+    "venue": "Etihad Stadium"
+  },
+  "2024-12-26-NEW-AVL": {
+    "attendance": 52168,
+    "venue": "St. James' Park"
+  },
+  "2024-12-26-NFO-TOT": {
+    "attendance": 30200,
+    "venue": "The City Ground"
+  },
+  "2024-12-26-SOU-WHU": {
+    "attendance": 31059,
+    "venue": "St. Mary's Stadium"
+  },
+  "2024-12-26-WOL-MUN": {
+    "attendance": 31407,
+    "venue": "Molineux Stadium"
+  },
+  "2024-12-27-ARS-IPS": {
+    "attendance": 60271,
+    "venue": "Emirates Stadium"
+  },
+  "2024-12-27-BHA-BRE": {
+    "attendance": 31548,
+    "venue": "American Express Stadium"
+  },
+  "2024-12-29-CRY-SOU": {
+    "attendance": 25130,
+    "venue": "Selhurst Park"
+  },
+  "2024-12-29-EVE-NFO": {
+    "attendance": 39352,
+    "venue": "Goodison Park"
+  },
+  "2024-12-29-FUL-BOU": {
+    "attendance": 27301,
+    "venue": "Craven Cottage"
+  },
+  "2024-12-29-LEI-MCI": {
+    "attendance": 32057,
+    "venue": "King Power Stadium"
+  },
+  "2024-12-29-TOT-WOL": {
+    "attendance": 61284,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2024-12-29-WHU-LIV": {
+    "attendance": 62476,
+    "venue": "London Stadium"
+  },
+  "2024-12-30-AVL-BHA": {
+    "attendance": 41414,
+    "venue": "Villa Park"
+  },
+  "2024-12-30-IPS-CHE": {
+    "attendance": 29968,
+    "venue": "Portman Road"
+  },
+  "2024-12-30-MUN-NEW": {
+    "attendance": 73809,
+    "venue": "Old Trafford"
+  },
+  "2025-01-01-BRE-ARS": {
+    "attendance": 17190,
+    "venue": "Gtech Community Stadium"
+  },
+  "2025-01-04-AVL-LEI": {
+    "attendance": 42386,
+    "venue": "Villa Park"
+  },
+  "2025-01-04-BHA-ARS": {
+    "attendance": 31714,
+    "venue": "American Express Stadium"
+  },
+  "2025-01-04-BOU-EVE": {
+    "attendance": 11223,
+    "venue": "Vitality Stadium"
+  },
+  "2025-01-04-CRY-CHE": {
+    "attendance": 25179,
+    "venue": "Selhurst Park"
+  },
+  "2025-01-04-MCI-WHU": {
+    "attendance": 52737,
+    "venue": "Etihad Stadium"
+  },
+  "2025-01-04-SOU-BRE": {
+    "attendance": 31001,
+    "venue": "St. Mary's Stadium"
+  },
+  "2025-01-04-TOT-NEW": {
+    "attendance": 61293,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2025-01-05-FUL-IPS": {
+    "attendance": 27042,
+    "venue": "Craven Cottage"
+  },
+  "2025-01-05-LIV-MUN": {
+    "attendance": 60275,
+    "venue": "Anfield"
+  },
+  "2025-01-06-WOL-NFO": {
+    "attendance": 29940,
+    "venue": "Molineux Stadium"
+  },
+  "2025-01-14-BRE-MCI": {
+    "attendance": 17048,
+    "venue": "Gtech Community Stadium"
+  },
+  "2025-01-14-CHE-BOU": {
+    "attendance": 39092,
+    "venue": "Stamford Bridge"
+  },
+  "2025-01-14-NFO-LIV": {
+    "attendance": 30249,
+    "venue": "The City Ground"
+  },
+  "2025-01-14-WHU-FUL": {
+    "attendance": 62456,
+    "venue": "London Stadium"
+  },
+  "2025-01-15-ARS-TOT": {
+    "attendance": 60287,
+    "venue": "Emirates Stadium"
+  },
+  "2025-01-15-EVE-AVL": {
+    "attendance": 39085,
+    "venue": "Goodison Park"
+  },
+  "2025-01-15-LEI-CRY": {
+    "attendance": 29766,
+    "venue": "King Power Stadium"
+  },
+  "2025-01-15-NEW-WOL": {
+    "attendance": 51975,
+    "venue": "St. James' Park"
+  },
+  "2025-01-16-IPS-BHA": {
+    "attendance": 29403,
+    "venue": "Portman Road"
+  },
+  "2025-01-16-MUN-SOU": {
+    "attendance": 73722,
+    "venue": "Old Trafford"
+  },
+  "2025-01-18-ARS-AVL": {
+    "attendance": 60067,
+    "venue": "Emirates Stadium"
+  },
+  "2025-01-18-BRE-LIV": {
+    "attendance": 17215,
+    "venue": "Gtech Community Stadium"
+  },
+  "2025-01-18-LEI-FUL": {
+    "attendance": 31500,
+    "venue": "King Power Stadium"
+  },
+  "2025-01-18-NEW-BOU": {
+    "attendance": 52227,
+    "venue": "St. James' Park"
+  },
+  "2025-01-18-WHU-CRY": {
+    "attendance": 62469,
+    "venue": "London Stadium"
+  },
+  "2025-01-19-EVE-TOT": {
+    "attendance": 39326,
+    "venue": "Goodison Park"
+  },
+  "2025-01-19-IPS-MCI": {
+    "attendance": 29841,
+    "venue": "Portman Road"
+  },
+  "2025-01-19-MUN-BHA": {
+    "attendance": 73758,
+    "venue": "Old Trafford"
+  },
+  "2025-01-19-NFO-SOU": {
+    "attendance": 30180,
+    "venue": "The City Ground"
+  },
+  "2025-01-20-CHE-WOL": {
+    "attendance": 39221,
+    "venue": "Stamford Bridge"
+  },
+  "2025-01-25-BHA-EVE": {
+    "attendance": 31567,
+    "venue": "American Express Stadium"
+  },
+  "2025-01-25-BOU-NFO": {
+    "attendance": 11228,
+    "venue": "Vitality Stadium"
+  },
+  "2025-01-25-LIV-IPS": {
+    "attendance": 60420,
+    "venue": "Anfield"
+  },
+  "2025-01-25-MCI-CHE": {
+    "attendance": 52793,
+    "venue": "Etihad Stadium"
+  },
+  "2025-01-25-SOU-NEW": {
+    "attendance": 31141,
+    "venue": "St. Mary's Stadium"
+  },
+  "2025-01-25-WOL-ARS": {
+    "attendance": 31503,
+    "venue": "Molineux Stadium"
+  },
+  "2025-01-26-AVL-WHU": {
+    "attendance": 41628,
+    "venue": "Villa Park"
+  },
+  "2025-01-26-CRY-BRE": {
+    "attendance": 25066,
+    "venue": "Selhurst Park"
+  },
+  "2025-01-26-FUL-MUN": {
+    "attendance": 27288,
+    "venue": "Craven Cottage"
+  },
+  "2025-01-26-TOT-LEI": {
+    "attendance": 61295,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2025-02-01-BOU-LIV": {
+    "attendance": 11239,
+    "venue": "Vitality Stadium"
+  },
+  "2025-02-01-EVE-LEI": {
+    "attendance": 39376,
+    "venue": "Goodison Park"
+  },
+  "2025-02-01-IPS-SOU": {
+    "attendance": 29902,
+    "venue": "Portman Road"
+  },
+  "2025-02-01-NEW-FUL": {
+    "attendance": 52173,
+    "venue": "St. James' Park"
+  },
+  "2025-02-01-NFO-BHA": {
+    "attendance": 30164,
+    "venue": "The City Ground"
+  },
+  "2025-02-01-WOL-AVL": {
+    "attendance": 31385,
+    "venue": "Molineux Stadium"
+  },
+  "2025-02-02-ARS-MCI": {
+    "attendance": 60355,
+    "venue": "Emirates Stadium"
+  },
+  "2025-02-02-BRE-TOT": {
+    "attendance": 17154,
+    "venue": "Gtech Community Stadium"
+  },
+  "2025-02-02-MUN-CRY": {
+    "attendance": 73751,
+    "venue": "Old Trafford"
+  },
+  "2025-02-03-CHE-WHU": {
+    "attendance": 39459,
+    "venue": "Stamford Bridge"
+  },
+  "2025-02-12-EVE-LIV": {
+    "attendance": 39280,
+    "venue": "Goodison Park"
+  },
+  "2025-02-14-BHA-CHE": {
+    "attendance": 31503,
+    "venue": "American Express Stadium"
+  },
+  "2025-02-15-AVL-IPS": {
+    "attendance": 42510,
+    "venue": "Villa Park"
+  },
+  "2025-02-15-CRY-EVE": {
+    "attendance": 25108,
+    "venue": "Selhurst Park"
+  },
+  "2025-02-15-FUL-NFO": {
+    "attendance": 27164,
+    "venue": "Craven Cottage"
+  },
+  "2025-02-15-LEI-ARS": {
+    "attendance": 31968,
+    "venue": "King Power Stadium"
+  },
+  "2025-02-15-MCI-NEW": {
+    "attendance": 52432,
+    "venue": "Etihad Stadium"
+  },
+  "2025-02-15-SOU-BOU": {
+    "attendance": 31037,
+    "venue": "St. Mary's Stadium"
+  },
+  "2025-02-15-WHU-BRE": {
+    "attendance": 62467,
+    "venue": "London Stadium"
+  },
+  "2025-02-16-LIV-WOL": {
+    "attendance": 60401,
+    "venue": "Anfield"
+  },
+  "2025-02-16-TOT-MUN": {
+    "attendance": 61383,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2025-02-19-AVL-LIV": {
+    "attendance": 41910,
+    "venue": "Villa Park"
+  },
+  "2025-02-21-LEI-BRE": {
+    "attendance": 31077,
+    "venue": "King Power Stadium"
+  },
+  "2025-02-22-ARS-WHU": {
+    "attendance": 60262,
+    "venue": "Emirates Stadium"
+  },
+  "2025-02-22-AVL-CHE": {
+    "attendance": 42423,
+    "venue": "Villa Park"
+  },
+  "2025-02-22-BOU-WOL": {
+    "attendance": 11206,
+    "venue": "Vitality Stadium"
+  },
+  "2025-02-22-EVE-MUN": {
+    "attendance": 39290,
+    "venue": "Goodison Park"
+  },
+  "2025-02-22-FUL-CRY": {
+    "attendance": 26777,
+    "venue": "Craven Cottage"
+  },
+  "2025-02-22-IPS-TOT": {
+    "attendance": 30003,
+    "venue": "Portman Road"
+  },
+  "2025-02-22-SOU-BHA": {
+    "attendance": 30775,
+    "venue": "St. Mary's Stadium"
+  },
+  "2025-02-23-MCI-LIV": {
+    "attendance": 52803,
+    "venue": "Etihad Stadium"
+  },
+  "2025-02-23-NEW-NFO": {
+    "attendance": 52223,
+    "venue": "St. James' Park"
+  },
+  "2025-02-25-BHA-BOU": {
+    "attendance": 31138,
+    "venue": "American Express Stadium"
+  },
+  "2025-02-25-CHE-SOU": {
+    "attendance": 39485,
+    "venue": "Stamford Bridge"
+  },
+  "2025-02-25-CRY-AVL": {
+    "attendance": 24712,
+    "venue": "Selhurst Park"
+  },
+  "2025-02-25-WOL-FUL": {
+    "attendance": 28708,
+    "venue": "Molineux Stadium"
+  },
+  "2025-02-26-BRE-EVE": {
+    "attendance": 17082,
+    "venue": "Gtech Community Stadium"
+  },
+  "2025-02-26-LIV-NEW": {
+    "attendance": 60374,
+    "venue": "Anfield"
+  },
+  "2025-02-26-MUN-IPS": {
+    "attendance": 73827,
+    "venue": "Old Trafford"
+  },
+  "2025-02-26-NFO-ARS": {
+    "attendance": 30200,
+    "venue": "The City Ground"
+  },
+  "2025-02-26-TOT-MCI": {
+    "attendance": 60820,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2025-02-27-WHU-LEI": {
+    "attendance": 62455,
+    "venue": "London Stadium"
+  },
+  "2025-03-08-BHA-FUL": {
+    "attendance": 31584,
+    "venue": "American Express Stadium"
+  },
+  "2025-03-08-BRE-AVL": {
+    "attendance": 17171,
+    "venue": "Gtech Community Stadium"
+  },
+  "2025-03-08-CRY-IPS": {
+    "attendance": 25155,
+    "venue": "Selhurst Park"
+  },
+  "2025-03-08-LIV-SOU": {
+    "attendance": 60399,
+    "venue": "Anfield"
+  },
+  "2025-03-08-NFO-MCI": {
+    "attendance": 30252,
+    "venue": "The City Ground"
+  },
+  "2025-03-08-WOL-EVE": {
+    "attendance": 30738,
+    "venue": "Molineux Stadium"
+  },
+  "2025-03-09-CHE-LEI": {
+    "attendance": 39750,
+    "venue": "Stamford Bridge"
+  },
+  "2025-03-09-MUN-ARS": {
+    "attendance": 73812,
+    "venue": "Old Trafford"
+  },
+  "2025-03-09-TOT-BOU": {
+    "attendance": 61178,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2025-03-10-WHU-NEW": {
+    "attendance": 62463,
+    "venue": "London Stadium"
+  },
+  "2025-03-15-BOU-BRE": {
+    "attendance": 11180,
+    "venue": "Vitality Stadium"
+  },
+  "2025-03-15-EVE-WHU": {
+    "attendance": 39343,
+    "venue": "Goodison Park"
+  },
+  "2025-03-15-IPS-NFO": {
+    "attendance": 29878,
+    "venue": "Portman Road"
+  },
+  "2025-03-15-MCI-BHA": {
+    "attendance": 52471,
+    "venue": "Etihad Stadium"
+  },
+  "2025-03-15-SOU-WOL": {
+    "attendance": 30950,
+    "venue": "St. Mary's Stadium"
+  },
+  "2025-03-16-ARS-CHE": {
+    "attendance": 60311,
+    "venue": "Emirates Stadium"
+  },
+  "2025-03-16-FUL-TOT": {
+    "attendance": 27182,
+    "venue": "Craven Cottage"
+  },
+  "2025-03-16-LEI-MUN": {
+    "attendance": 31773,
+    "venue": "King Power Stadium"
+  },
+  "2025-04-01-ARS-FUL": {
+    "attendance": 60256,
+    "venue": "Emirates Stadium"
+  },
+  "2025-04-01-NFO-MUN": {
+    "attendance": 30249,
+    "venue": "The City Ground"
+  },
+  "2025-04-01-WOL-WHU": {
+    "attendance": 30537,
+    "venue": "Molineux Stadium"
+  },
+  "2025-04-02-BHA-AVL": {
+    "attendance": 31230,
+    "venue": "American Express Stadium"
+  },
+  "2025-04-02-BOU-IPS": {
+    "attendance": 11192,
+    "venue": "Vitality Stadium"
+  },
+  "2025-04-02-LIV-EVE": {
+    "attendance": 60331,
+    "venue": "Anfield"
+  },
+  "2025-04-02-MCI-LEI": {
+    "attendance": 51983,
+    "venue": "Etihad Stadium"
+  },
+  "2025-04-02-NEW-BRE": {
+    "attendance": 52021,
+    "venue": "St. James' Park"
+  },
+  "2025-04-02-SOU-CRY": {
+    "attendance": 29366,
+    "venue": "St. Mary's Stadium"
+  },
+  "2025-04-03-CHE-TOT": {
+    "attendance": 39852,
+    "venue": "Stamford Bridge"
+  },
+  "2025-04-05-AVL-NFO": {
+    "attendance": 42743,
+    "venue": "Villa Park"
+  },
+  "2025-04-05-CRY-BHA": {
+    "attendance": 24564,
+    "venue": "Selhurst Park"
+  },
+  "2025-04-05-EVE-ARS": {
+    "attendance": 39316,
+    "venue": "Goodison Park"
+  },
+  "2025-04-05-IPS-WOL": {
+    "attendance": 29549,
+    "venue": "Portman Road"
+  },
+  "2025-04-05-WHU-BOU": {
+    "attendance": 62459,
+    "venue": "London Stadium"
+  },
+  "2025-04-06-BRE-CHE": {
+    "attendance": 17183,
+    "venue": "Gtech Community Stadium"
+  },
+  "2025-04-06-FUL-LIV": {
+    "attendance": 27770,
+    "venue": "Craven Cottage"
+  },
+  "2025-04-06-MUN-MCI": {
+    "attendance": 73738,
+    "venue": "Old Trafford"
+  },
+  "2025-04-06-TOT-SOU": {
+    "attendance": 60984,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2025-04-07-LEI-NEW": {
+    "attendance": 30403,
+    "venue": "King Power Stadium"
+  },
+  "2025-04-12-ARS-BRE": {
+    "attendance": 60184,
+    "venue": "Emirates Stadium"
+  },
+  "2025-04-12-BHA-LEI": {
+    "attendance": 31330,
+    "venue": "American Express Stadium"
+  },
+  "2025-04-12-MCI-CRY": {
+    "attendance": 52489,
+    "venue": "Etihad Stadium"
+  },
+  "2025-04-12-NFO-EVE": {
+    "attendance": 30199,
+    "venue": "The City Ground"
+  },
+  "2025-04-12-SOU-AVL": {
+    "attendance": 30673,
+    "venue": "St. Mary's Stadium"
+  },
+  "2025-04-13-CHE-IPS": {
+    "attendance": 39805,
+    "venue": "Stamford Bridge"
+  },
+  "2025-04-13-LIV-WHU": {
+    "attendance": 60376,
+    "venue": "Anfield"
+  },
+  "2025-04-13-NEW-MUN": {
+    "attendance": 52252,
+    "venue": "St. James' Park"
+  },
+  "2025-04-13-WOL-TOT": {
+    "attendance": 31463,
+    "venue": "Molineux Stadium"
+  },
+  "2025-04-14-BOU-FUL": {
+    "attendance": 11195,
+    "venue": "Vitality Stadium"
+  },
+  "2025-04-16-NEW-CRY": {
+    "attendance": 52197,
+    "venue": "St. James' Park"
+  },
+  "2025-04-19-AVL-NEW": {
+    "attendance": 42618,
+    "venue": "Villa Park"
+  },
+  "2025-04-19-BRE-BHA": {
+    "attendance": 17083,
+    "venue": "Gtech Community Stadium"
+  },
+  "2025-04-19-CRY-BOU": {
+    "attendance": 25185,
+    "venue": "Selhurst Park"
+  },
+  "2025-04-19-EVE-MCI": {
+    "attendance": 39332,
+    "venue": "Goodison Park"
+  },
+  "2025-04-19-WHU-SOU": {
+    "attendance": 62461,
+    "venue": "London Stadium"
+  },
+  "2025-04-20-FUL-CHE": {
+    "attendance": 27712,
+    "venue": "Craven Cottage"
+  },
+  "2025-04-20-IPS-ARS": {
+    "attendance": 29549,
+    "venue": "Portman Road"
+  },
+  "2025-04-20-LEI-LIV": {
+    "attendance": 30402,
+    "venue": "King Power Stadium"
+  },
+  "2025-04-20-MUN-WOL": {
+    "attendance": 73819,
+    "venue": "Old Trafford"
+  },
+  "2025-04-21-TOT-NFO": {
+    "attendance": 59314,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2025-04-22-MCI-AVL": {
+    "attendance": 52192,
+    "venue": "Etihad Stadium"
+  },
+  "2025-04-23-ARS-CRY": {
+    "attendance": 60167,
+    "venue": "Emirates Stadium"
+  },
+  "2025-04-26-BHA-WHU": {
+    "attendance": 31499,
+    "venue": "American Express Stadium"
+  },
+  "2025-04-26-CHE-EVE": {
+    "attendance": 39894,
+    "venue": "Stamford Bridge"
+  },
+  "2025-04-26-NEW-IPS": {
+    "attendance": 52171,
+    "venue": "St. James' Park"
+  },
+  "2025-04-26-SOU-FUL": {
+    "attendance": 28946,
+    "venue": "St. Mary's Stadium"
+  },
+  "2025-04-26-WOL-LEI": {
+    "attendance": 31518,
+    "venue": "Molineux Stadium"
+  },
+  "2025-04-27-BOU-MUN": {
+    "attendance": 11241,
+    "venue": "Vitality Stadium"
+  },
+  "2025-04-27-LIV-TOT": {
+    "attendance": 60415,
+    "venue": "Anfield"
+  },
+  "2025-05-01-NFO-BRE": {
+    "attendance": 29040,
+    "venue": "The City Ground"
+  },
+  "2025-05-02-MCI-WOL": {
+    "attendance": 53282,
+    "venue": "Etihad Stadium"
+  },
+  "2025-05-03-ARS-BOU": {
+    "attendance": 60110,
+    "venue": "Emirates Stadium"
+  },
+  "2025-05-03-AVL-FUL": {
+    "attendance": 42515,
+    "venue": "Villa Park"
+  },
+  "2025-05-03-EVE-IPS": {
+    "attendance": 39305,
+    "venue": "Goodison Park"
+  },
+  "2025-05-03-LEI-SOU": {
+    "attendance": 31240,
+    "venue": "King Power Stadium"
+  },
+  "2025-05-04-BHA-NEW": {
+    "attendance": 31580,
+    "venue": "American Express Stadium"
+  },
+  "2025-05-04-BRE-MUN": {
+    "attendance": 17190,
+    "venue": "Gtech Community Stadium"
+  },
+  "2025-05-04-CHE-LIV": {
+    "attendance": 39829,
+    "venue": "Stamford Bridge"
+  },
+  "2025-05-04-WHU-TOT": {
+    "attendance": 62468,
+    "venue": "London Stadium"
+  },
+  "2025-05-05-CRY-NFO": {
+    "attendance": 25096,
+    "venue": "Selhurst Park"
+  },
+  "2025-05-10-BOU-AVL": {
+    "attendance": 11248,
+    "venue": "Vitality Stadium"
+  },
+  "2025-05-10-FUL-EVE": {
+    "attendance": 27653,
+    "venue": "Craven Cottage"
+  },
+  "2025-05-10-IPS-BRE": {
+    "attendance": 29511,
+    "venue": "Portman Road"
+  },
+  "2025-05-10-SOU-MCI": {
+    "attendance": 30937,
+    "venue": "St. Mary's Stadium"
+  },
+  "2025-05-10-WOL-BHA": {
+    "attendance": 31279,
+    "venue": "Molineux Stadium"
+  },
+  "2025-05-11-LIV-ARS": {
+    "attendance": 60324,
+    "venue": "Anfield"
+  },
+  "2025-05-11-MUN-WHU": {
+    "attendance": 73804,
+    "venue": "Old Trafford"
+  },
+  "2025-05-11-NEW-CHE": {
+    "attendance": 52231,
+    "venue": "St. James' Park"
+  },
+  "2025-05-11-NFO-LEI": {
+    "attendance": 30245,
+    "venue": "The City Ground"
+  },
+  "2025-05-11-TOT-CRY": {
+    "attendance": 60254,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2025-05-16-AVL-TOT": {
+    "attendance": 42239,
+    "venue": "Villa Park"
+  },
+  "2025-05-16-CHE-MUN": {
+    "attendance": 39849,
+    "venue": "Stamford Bridge"
+  },
+  "2025-05-18-ARS-NEW": {
+    "attendance": 60160,
+    "venue": "Emirates Stadium"
+  },
+  "2025-05-18-BRE-FUL": {
+    "attendance": 17136,
+    "venue": "Gtech Community Stadium"
+  },
+  "2025-05-18-EVE-SOU": {
+    "attendance": 39201,
+    "venue": "Goodison Park"
+  },
+  "2025-05-18-LEI-IPS": {
+    "attendance": 31986,
+    "venue": "King Power Stadium"
+  },
+  "2025-05-18-WHU-NFO": {
+    "attendance": 62466,
+    "venue": "London Stadium"
+  },
+  "2025-05-19-BHA-LIV": {
+    "attendance": 31611,
+    "venue": "American Express Stadium"
+  },
+  "2025-05-20-CRY-WOL": {
+    "attendance": 24766,
+    "venue": "Selhurst Park"
+  },
+  "2025-05-20-MCI-BOU": {
+    "attendance": 52487,
+    "venue": "Etihad Stadium"
+  },
+  "2025-05-25-BOU-LEI": {
+    "attendance": 11238,
+    "venue": "Vitality Stadium"
+  },
+  "2025-05-25-FUL-MCI": {
+    "attendance": 27671,
+    "venue": "Craven Cottage"
+  },
+  "2025-05-25-IPS-WHU": {
+    "attendance": 29771,
+    "venue": "Portman Road"
+  },
+  "2025-05-25-LIV-CRY": {
+    "attendance": 60382,
+    "venue": "Anfield"
+  },
+  "2025-05-25-MUN-AVL": {
+    "attendance": 73839,
+    "venue": "Old Trafford"
+  },
+  "2025-05-25-NEW-EVE": {
+    "attendance": 52221,
+    "venue": "St. James' Park"
+  },
+  "2025-05-25-NFO-CHE": {
+    "attendance": 30263,
+    "venue": "The City Ground"
+  },
+  "2025-05-25-SOU-ARS": {
+    "attendance": 31289,
+    "venue": "St. Mary's Stadium"
+  },
+  "2025-05-25-TOT-BHA": {
+    "attendance": 61449,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2025-05-25-WOL-BRE": {
+    "attendance": 31382,
+    "venue": "Molineux Stadium"
+  }
+}

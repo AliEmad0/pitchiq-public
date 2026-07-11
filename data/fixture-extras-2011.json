@@ -1,0 +1,1522 @@
+{
+  "2011-08-13-BLB-WOL": {
+    "attendance": 21996,
+    "venue": "Ewood Park"
+  },
+  "2011-08-13-FUL-AVL": {
+    "attendance": 25700,
+    "venue": "Craven Cottage"
+  },
+  "2011-08-13-LIV-SUN": {
+    "attendance": 45018,
+    "venue": "Anfield"
+  },
+  "2011-08-13-NEW-ARS": {
+    "attendance": 46894,
+    "venue": "St James' Park"
+  },
+  "2011-08-13-QPR-BOL": {
+    "attendance": 15195,
+    "venue": "Kiyan Prince Foundation Stadium"
+  },
+  "2011-08-13-WIG-NOR": {
+    "attendance": 17454,
+    "venue": "DW Stadium"
+  },
+  "2011-08-14-STK-CHE": {
+    "attendance": 27421,
+    "venue": "bet365 Stadium"
+  },
+  "2011-08-14-WBA-MUN": {
+    "attendance": 25360,
+    "venue": "The Hawthorns"
+  },
+  "2011-08-15-MCI-SWA": {
+    "attendance": 46802,
+    "venue": "Etihad Stadium"
+  },
+  "2011-08-20-ARS-LIV": {
+    "attendance": 60090,
+    "venue": "Emirates Stadium"
+  },
+  "2011-08-20-AVL-BLB": {
+    "attendance": 32319,
+    "venue": "Villa Park"
+  },
+  "2011-08-20-CHE-WBA": {
+    "attendance": 41091,
+    "venue": "Stamford Bridge"
+  },
+  "2011-08-20-EVE-QPR": {
+    "attendance": 35008,
+    "venue": "Goodison Park"
+  },
+  "2011-08-20-SUN-NEW": {
+    "attendance": 47751,
+    "venue": "Stadium of Light"
+  },
+  "2011-08-20-SWA-WIG": {
+    "attendance": 19028,
+    "venue": "Liberty Stadium"
+  },
+  "2011-08-21-BOL-MCI": {
+    "attendance": 24273,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2011-08-21-NOR-STK": {
+    "attendance": 26272,
+    "venue": "Carrow Road"
+  },
+  "2011-08-21-WOL-FUL": {
+    "attendance": 22657,
+    "venue": "Molineux Stadium"
+  },
+  "2011-08-22-MUN-TOT": {
+    "attendance": 75498,
+    "venue": "Old Trafford"
+  },
+  "2011-08-27-AVL-WOL": {
+    "attendance": 30776,
+    "venue": "Villa Park"
+  },
+  "2011-08-27-BLB-EVE": {
+    "attendance": 22826,
+    "venue": "Ewood Park"
+  },
+  "2011-08-27-CHE-NOR": {
+    "attendance": 41765,
+    "venue": "Stamford Bridge"
+  },
+  "2011-08-27-LIV-BOL": {
+    "attendance": 44725,
+    "venue": "Anfield"
+  },
+  "2011-08-27-SWA-SUN": {
+    "attendance": 19938,
+    "venue": "Liberty Stadium"
+  },
+  "2011-08-27-WIG-QPR": {
+    "attendance": 17225,
+    "venue": "DW Stadium"
+  },
+  "2011-08-28-MUN-ARS": {
+    "attendance": 75448,
+    "venue": "Old Trafford"
+  },
+  "2011-08-28-NEW-FUL": {
+    "attendance": 42684,
+    "venue": "St James' Park"
+  },
+  "2011-08-28-TOT-MCI": {
+    "attendance": 36150,
+    "venue": "White Hart Lane"
+  },
+  "2011-08-28-WBA-STK": {
+    "attendance": 22909,
+    "venue": "The Hawthorns"
+  },
+  "2011-09-10-ARS-SWA": {
+    "attendance": 60087,
+    "venue": "Emirates Stadium"
+  },
+  "2011-09-10-BOL-MUN": {
+    "attendance": 25944,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2011-09-10-EVE-AVL": {
+    "attendance": 32736,
+    "venue": "Goodison Park"
+  },
+  "2011-09-10-MCI-WIG": {
+    "attendance": 46509,
+    "venue": "Etihad Stadium"
+  },
+  "2011-09-10-STK-LIV": {
+    "attendance": 27592,
+    "venue": "bet365 Stadium"
+  },
+  "2011-09-10-SUN-CHE": {
+    "attendance": 36699,
+    "venue": "Stadium of Light"
+  },
+  "2011-09-10-WOL-TOT": {
+    "attendance": 25274,
+    "venue": "Molineux Stadium"
+  },
+  "2011-09-11-FUL-BLB": {
+    "attendance": 24856,
+    "venue": "Craven Cottage"
+  },
+  "2011-09-11-NOR-WBA": {
+    "attendance": 26158,
+    "venue": "Carrow Road"
+  },
+  "2011-09-12-QPR-NEW": {
+    "attendance": 16211,
+    "venue": "Kiyan Prince Foundation Stadium"
+  },
+  "2011-09-17-AVL-NEW": {
+    "attendance": 34248,
+    "venue": "Villa Park"
+  },
+  "2011-09-17-BLB-ARS": {
+    "attendance": 22637,
+    "venue": "Ewood Park"
+  },
+  "2011-09-17-BOL-NOR": {
+    "attendance": 21223,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2011-09-17-EVE-WIG": {
+    "attendance": 31576,
+    "venue": "Goodison Park"
+  },
+  "2011-09-17-SWA-WBA": {
+    "attendance": 20341,
+    "venue": "Liberty Stadium"
+  },
+  "2011-09-17-WOL-QPR": {
+    "attendance": 24189,
+    "venue": "Molineux Stadium"
+  },
+  "2011-09-18-FUL-MCI": {
+    "attendance": 24750,
+    "venue": "Craven Cottage"
+  },
+  "2011-09-18-MUN-CHE": {
+    "attendance": 75455,
+    "venue": "Old Trafford"
+  },
+  "2011-09-18-SUN-STK": {
+    "attendance": 32296,
+    "venue": "Stadium of Light"
+  },
+  "2011-09-18-TOT-LIV": {
+    "attendance": 36129,
+    "venue": "White Hart Lane"
+  },
+  "2011-09-24-ARS-BOL": {
+    "attendance": 59727,
+    "venue": "Emirates Stadium"
+  },
+  "2011-09-24-CHE-SWA": {
+    "attendance": 41800,
+    "venue": "Stamford Bridge"
+  },
+  "2011-09-24-LIV-WOL": {
+    "attendance": 44922,
+    "venue": "Anfield"
+  },
+  "2011-09-24-MCI-EVE": {
+    "attendance": 47293,
+    "venue": "Etihad Stadium"
+  },
+  "2011-09-24-NEW-BLB": {
+    "attendance": 46236,
+    "venue": "St James' Park"
+  },
+  "2011-09-24-STK-MUN": {
+    "attendance": 27582,
+    "venue": "bet365 Stadium"
+  },
+  "2011-09-24-WBA-FUL": {
+    "attendance": 23835,
+    "venue": "The Hawthorns"
+  },
+  "2011-09-24-WIG-TOT": {
+    "attendance": 18788,
+    "venue": "DW Stadium"
+  },
+  "2011-09-25-QPR-AVL": {
+    "attendance": 16707,
+    "venue": "Kiyan Prince Foundation Stadium"
+  },
+  "2011-09-26-NOR-SUN": {
+    "attendance": 26107,
+    "venue": "Carrow Road"
+  },
+  "2011-10-01-AVL-WIG": {
+    "attendance": 30744,
+    "venue": "Villa Park"
+  },
+  "2011-10-01-BLB-MCI": {
+    "attendance": 24760,
+    "venue": "Ewood Park"
+  },
+  "2011-10-01-EVE-LIV": {
+    "attendance": 39510,
+    "venue": "Goodison Park"
+  },
+  "2011-10-01-MUN-NOR": {
+    "attendance": 75514,
+    "venue": "Old Trafford"
+  },
+  "2011-10-01-SUN-WBA": {
+    "attendance": 34815,
+    "venue": "Stadium of Light"
+  },
+  "2011-10-01-WOL-NEW": {
+    "attendance": 26561,
+    "venue": "Molineux Stadium"
+  },
+  "2011-10-02-BOL-CHE": {
+    "attendance": 24657,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2011-10-02-FUL-QPR": {
+    "attendance": 23766,
+    "venue": "Craven Cottage"
+  },
+  "2011-10-02-SWA-STK": {
+    "attendance": 19523,
+    "venue": "Liberty Stadium"
+  },
+  "2011-10-02-TOT-ARS": {
+    "attendance": 36274,
+    "venue": "White Hart Lane"
+  },
+  "2011-10-15-CHE-EVE": {
+    "attendance": 41789,
+    "venue": "Stamford Bridge"
+  },
+  "2011-10-15-LIV-MUN": {
+    "attendance": 45065,
+    "venue": "Anfield"
+  },
+  "2011-10-15-MCI-AVL": {
+    "attendance": 47019,
+    "venue": "Etihad Stadium"
+  },
+  "2011-10-15-NOR-SWA": {
+    "attendance": 26567,
+    "venue": "Carrow Road"
+  },
+  "2011-10-15-QPR-BLB": {
+    "attendance": 16487,
+    "venue": "Kiyan Prince Foundation Stadium"
+  },
+  "2011-10-15-STK-FUL": {
+    "attendance": 26890,
+    "venue": "bet365 Stadium"
+  },
+  "2011-10-15-WIG-BOL": {
+    "attendance": 17261,
+    "venue": "DW Stadium"
+  },
+  "2011-10-16-ARS-SUN": {
+    "attendance": 60078,
+    "venue": "Emirates Stadium"
+  },
+  "2011-10-16-NEW-TOT": {
+    "attendance": 46420,
+    "venue": "St James' Park"
+  },
+  "2011-10-16-WBA-WOL": {
+    "attendance": 24872,
+    "venue": "The Hawthorns"
+  },
+  "2011-10-22-AVL-WBA": {
+    "attendance": 34152,
+    "venue": "Villa Park"
+  },
+  "2011-10-22-BOL-SUN": {
+    "attendance": 24349,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2011-10-22-LIV-NOR": {
+    "attendance": 44931,
+    "venue": "Anfield"
+  },
+  "2011-10-22-NEW-WIG": {
+    "attendance": 48321,
+    "venue": "St James' Park"
+  },
+  "2011-10-22-WOL-SWA": {
+    "attendance": 25216,
+    "venue": "Molineux Stadium"
+  },
+  "2011-10-23-ARS-STK": {
+    "attendance": 59671,
+    "venue": "Emirates Stadium"
+  },
+  "2011-10-23-BLB-TOT": {
+    "attendance": 22786,
+    "venue": "Ewood Park"
+  },
+  "2011-10-23-FUL-EVE": {
+    "attendance": 25646,
+    "venue": "Craven Cottage"
+  },
+  "2011-10-23-MUN-MCI": {
+    "attendance": 75487,
+    "venue": "Old Trafford"
+  },
+  "2011-10-23-QPR-CHE": {
+    "attendance": 18050,
+    "venue": "Kiyan Prince Foundation Stadium"
+  },
+  "2011-10-29-CHE-ARS": {
+    "attendance": 41801,
+    "venue": "Stamford Bridge"
+  },
+  "2011-10-29-EVE-MUN": {
+    "attendance": 35494,
+    "venue": "Goodison Park"
+  },
+  "2011-10-29-MCI-WOL": {
+    "attendance": 47142,
+    "venue": "Etihad Stadium"
+  },
+  "2011-10-29-NOR-BLB": {
+    "attendance": 26440,
+    "venue": "Carrow Road"
+  },
+  "2011-10-29-SUN-AVL": {
+    "attendance": 37062,
+    "venue": "Stadium of Light"
+  },
+  "2011-10-29-SWA-BOL": {
+    "attendance": 19477,
+    "venue": "Liberty Stadium"
+  },
+  "2011-10-29-WBA-LIV": {
+    "attendance": 25522,
+    "venue": "The Hawthorns"
+  },
+  "2011-10-29-WIG-FUL": {
+    "attendance": 15796,
+    "venue": "DW Stadium"
+  },
+  "2011-10-30-TOT-QPR": {
+    "attendance": 36147,
+    "venue": "White Hart Lane"
+  },
+  "2011-10-31-STK-NEW": {
+    "attendance": 26564,
+    "venue": "bet365 Stadium"
+  },
+  "2011-11-05-ARS-WBA": {
+    "attendance": 60091,
+    "venue": "Emirates Stadium"
+  },
+  "2011-11-05-AVL-NOR": {
+    "attendance": 35290,
+    "venue": "Villa Park"
+  },
+  "2011-11-05-BLB-CHE": {
+    "attendance": 21985,
+    "venue": "Ewood Park"
+  },
+  "2011-11-05-LIV-SWA": {
+    "attendance": 45013,
+    "venue": "Anfield"
+  },
+  "2011-11-05-MUN-SUN": {
+    "attendance": 75570,
+    "venue": "Old Trafford"
+  },
+  "2011-11-05-NEW-EVE": {
+    "attendance": 50671,
+    "venue": "St James' Park"
+  },
+  "2011-11-05-QPR-MCI": {
+    "attendance": 18076,
+    "venue": "Kiyan Prince Foundation Stadium"
+  },
+  "2011-11-06-BOL-STK": {
+    "attendance": 20028,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2011-11-06-FUL-TOT": {
+    "attendance": 25698,
+    "venue": "Craven Cottage"
+  },
+  "2011-11-06-WOL-WIG": {
+    "attendance": 23536,
+    "venue": "Molineux Stadium"
+  },
+  "2011-11-19-EVE-WOL": {
+    "attendance": 33953,
+    "venue": "Goodison Park"
+  },
+  "2011-11-19-MCI-NEW": {
+    "attendance": 47408,
+    "venue": "Etihad Stadium"
+  },
+  "2011-11-19-NOR-ARS": {
+    "attendance": 26801,
+    "venue": "Carrow Road"
+  },
+  "2011-11-19-STK-QPR": {
+    "attendance": 27618,
+    "venue": "bet365 Stadium"
+  },
+  "2011-11-19-SUN-FUL": {
+    "attendance": 37688,
+    "venue": "Stadium of Light"
+  },
+  "2011-11-19-SWA-MUN": {
+    "attendance": 20295,
+    "venue": "Liberty Stadium"
+  },
+  "2011-11-19-WBA-BOL": {
+    "attendance": 26221,
+    "venue": "The Hawthorns"
+  },
+  "2011-11-19-WIG-BLB": {
+    "attendance": 17392,
+    "venue": "DW Stadium"
+  },
+  "2011-11-20-CHE-LIV": {
+    "attendance": 41820,
+    "venue": "Stamford Bridge"
+  },
+  "2011-11-21-TOT-AVL": {
+    "attendance": 35818,
+    "venue": "White Hart Lane"
+  },
+  "2011-11-26-ARS-FUL": {
+    "attendance": 60043,
+    "venue": "Emirates Stadium"
+  },
+  "2011-11-26-BOL-EVE": {
+    "attendance": 24058,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2011-11-26-CHE-WOL": {
+    "attendance": 41648,
+    "venue": "Stamford Bridge"
+  },
+  "2011-11-26-MUN-NEW": {
+    "attendance": 75594,
+    "venue": "Old Trafford"
+  },
+  "2011-11-26-NOR-QPR": {
+    "attendance": 26781,
+    "venue": "Carrow Road"
+  },
+  "2011-11-26-STK-BLB": {
+    "attendance": 26686,
+    "venue": "bet365 Stadium"
+  },
+  "2011-11-26-SUN-WIG": {
+    "attendance": 37883,
+    "venue": "Stadium of Light"
+  },
+  "2011-11-26-WBA-TOT": {
+    "attendance": 24801,
+    "venue": "The Hawthorns"
+  },
+  "2011-11-27-LIV-MCI": {
+    "attendance": 45071,
+    "venue": "Anfield"
+  },
+  "2011-11-27-SWA-AVL": {
+    "attendance": 20404,
+    "venue": "Liberty Stadium"
+  },
+  "2011-12-03-AVL-MUN": {
+    "attendance": 40053,
+    "venue": "Villa Park"
+  },
+  "2011-12-03-BLB-SWA": {
+    "attendance": 23080,
+    "venue": "Ewood Park"
+  },
+  "2011-12-03-MCI-NOR": {
+    "attendance": 47201,
+    "venue": "Etihad Stadium"
+  },
+  "2011-12-03-NEW-CHE": {
+    "attendance": 52305,
+    "venue": "St James' Park"
+  },
+  "2011-12-03-QPR-WBA": {
+    "attendance": 17290,
+    "venue": "Kiyan Prince Foundation Stadium"
+  },
+  "2011-12-03-TOT-BOL": {
+    "attendance": 35896,
+    "venue": "White Hart Lane"
+  },
+  "2011-12-03-WIG-ARS": {
+    "attendance": 19280,
+    "venue": "DW Stadium"
+  },
+  "2011-12-04-EVE-STK": {
+    "attendance": 33219,
+    "venue": "Goodison Park"
+  },
+  "2011-12-04-WOL-SUN": {
+    "attendance": 25145,
+    "venue": "Molineux Stadium"
+  },
+  "2011-12-05-FUL-LIV": {
+    "attendance": 25688,
+    "venue": "Craven Cottage"
+  },
+  "2011-12-10-ARS-EVE": {
+    "attendance": 60062,
+    "venue": "Emirates Stadium"
+  },
+  "2011-12-10-BOL-AVL": {
+    "attendance": 20285,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2011-12-10-LIV-QPR": {
+    "attendance": 45016,
+    "venue": "Anfield"
+  },
+  "2011-12-10-MUN-WOL": {
+    "attendance": 75627,
+    "venue": "Old Trafford"
+  },
+  "2011-12-10-NOR-NEW": {
+    "attendance": 26816,
+    "venue": "Carrow Road"
+  },
+  "2011-12-10-SWA-FUL": {
+    "attendance": 19296,
+    "venue": "Liberty Stadium"
+  },
+  "2011-12-10-WBA-WIG": {
+    "attendance": 25446,
+    "venue": "The Hawthorns"
+  },
+  "2011-12-11-STK-TOT": {
+    "attendance": 27529,
+    "venue": "bet365 Stadium"
+  },
+  "2011-12-11-SUN-BLB": {
+    "attendance": 39863,
+    "venue": "Stadium of Light"
+  },
+  "2011-12-12-CHE-MCI": {
+    "attendance": 41730,
+    "venue": "Stamford Bridge"
+  },
+  "2011-12-17-BLB-WBA": {
+    "attendance": 22909,
+    "venue": "Ewood Park"
+  },
+  "2011-12-17-EVE-NOR": {
+    "attendance": 31004,
+    "venue": "Goodison Park"
+  },
+  "2011-12-17-FUL-BOL": {
+    "attendance": 25643,
+    "venue": "Craven Cottage"
+  },
+  "2011-12-17-NEW-SWA": {
+    "attendance": 51767,
+    "venue": "St James' Park"
+  },
+  "2011-12-17-WIG-CHE": {
+    "attendance": 18320,
+    "venue": "DW Stadium"
+  },
+  "2011-12-17-WOL-STK": {
+    "attendance": 24684,
+    "venue": "Molineux Stadium"
+  },
+  "2011-12-18-AVL-LIV": {
+    "attendance": 37460,
+    "venue": "Villa Park"
+  },
+  "2011-12-18-MCI-ARS": {
+    "attendance": 47303,
+    "venue": "Etihad Stadium"
+  },
+  "2011-12-18-QPR-MUN": {
+    "attendance": 18033,
+    "venue": "Kiyan Prince Foundation Stadium"
+  },
+  "2011-12-18-TOT-SUN": {
+    "attendance": 36021,
+    "venue": "White Hart Lane"
+  },
+  "2011-12-20-BLB-BOL": {
+    "attendance": 25570,
+    "venue": "Ewood Park"
+  },
+  "2011-12-20-WOL-NOR": {
+    "attendance": 27067,
+    "venue": "Molineux Stadium"
+  },
+  "2011-12-21-AVL-ARS": {
+    "attendance": 35818,
+    "venue": "Villa Park"
+  },
+  "2011-12-21-EVE-SWA": {
+    "attendance": 32004,
+    "venue": "Goodison Park"
+  },
+  "2011-12-21-FUL-MUN": {
+    "attendance": 25700,
+    "venue": "Craven Cottage"
+  },
+  "2011-12-21-MCI-STK": {
+    "attendance": 46321,
+    "venue": "Etihad Stadium"
+  },
+  "2011-12-21-NEW-WBA": {
+    "attendance": 51060,
+    "venue": "St James' Park"
+  },
+  "2011-12-21-QPR-SUN": {
+    "attendance": 16167,
+    "venue": "Kiyan Prince Foundation Stadium"
+  },
+  "2011-12-21-WIG-LIV": {
+    "attendance": 19230,
+    "venue": "DW Stadium"
+  },
+  "2011-12-22-TOT-CHE": {
+    "attendance": 36141,
+    "venue": "White Hart Lane"
+  },
+  "2011-12-26-BOL-NEW": {
+    "attendance": 26080,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2011-12-26-CHE-FUL": {
+    "attendance": 41548,
+    "venue": "Stamford Bridge"
+  },
+  "2011-12-26-LIV-BLB": {
+    "attendance": 44441,
+    "venue": "Anfield"
+  },
+  "2011-12-26-MUN-WIG": {
+    "attendance": 75183,
+    "venue": "Old Trafford"
+  },
+  "2011-12-26-STK-AVL": {
+    "attendance": 27739,
+    "venue": "bet365 Stadium"
+  },
+  "2011-12-26-SUN-EVE": {
+    "attendance": 43619,
+    "venue": "Stadium of Light"
+  },
+  "2011-12-26-WBA-MCI": {
+    "attendance": 25938,
+    "venue": "The Hawthorns"
+  },
+  "2011-12-27-ARS-WOL": {
+    "attendance": 59686,
+    "venue": "Emirates Stadium"
+  },
+  "2011-12-27-NOR-TOT": {
+    "attendance": 26807,
+    "venue": "Carrow Road"
+  },
+  "2011-12-27-SWA-QPR": {
+    "attendance": 19530,
+    "venue": "Liberty Stadium"
+  },
+  "2011-12-30-LIV-NEW": {
+    "attendance": 44372,
+    "venue": "Anfield"
+  },
+  "2011-12-31-ARS-QPR": {
+    "attendance": 60067,
+    "venue": "Emirates Stadium"
+  },
+  "2011-12-31-BOL-WOL": {
+    "attendance": 20354,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2011-12-31-CHE-AVL": {
+    "attendance": 41332,
+    "venue": "Stamford Bridge"
+  },
+  "2011-12-31-MUN-BLB": {
+    "attendance": 75146,
+    "venue": "Old Trafford"
+  },
+  "2011-12-31-NOR-FUL": {
+    "attendance": 26406,
+    "venue": "Carrow Road"
+  },
+  "2011-12-31-STK-WIG": {
+    "attendance": 26595,
+    "venue": "bet365 Stadium"
+  },
+  "2011-12-31-SWA-TOT": {
+    "attendance": 20393,
+    "venue": "Liberty Stadium"
+  },
+  "2012-01-01-SUN-MCI": {
+    "attendance": 40625,
+    "venue": "Stadium of Light"
+  },
+  "2012-01-01-WBA-EVE": {
+    "attendance": 23038,
+    "venue": "The Hawthorns"
+  },
+  "2012-01-02-AVL-SWA": {
+    "attendance": 35642,
+    "venue": "Villa Park"
+  },
+  "2012-01-02-BLB-STK": {
+    "attendance": 20615,
+    "venue": "Ewood Park"
+  },
+  "2012-01-02-FUL-ARS": {
+    "attendance": 25700,
+    "venue": "Craven Cottage"
+  },
+  "2012-01-02-QPR-NOR": {
+    "attendance": 18033,
+    "venue": "Kiyan Prince Foundation Stadium"
+  },
+  "2012-01-02-WOL-CHE": {
+    "attendance": 27289,
+    "venue": "Molineux Stadium"
+  },
+  "2012-01-03-MCI-LIV": {
+    "attendance": 47131,
+    "venue": "Etihad Stadium"
+  },
+  "2012-01-03-TOT-WBA": {
+    "attendance": 36062,
+    "venue": "White Hart Lane"
+  },
+  "2012-01-03-WIG-SUN": {
+    "attendance": 15871,
+    "venue": "DW Stadium"
+  },
+  "2012-01-04-EVE-BOL": {
+    "attendance": 29561,
+    "venue": "Goodison Park"
+  },
+  "2012-01-04-NEW-MUN": {
+    "attendance": 52299,
+    "venue": "St James' Park"
+  },
+  "2012-01-11-TOT-EVE": {
+    "attendance": 36132,
+    "venue": "White Hart Lane"
+  },
+  "2012-01-14-AVL-EVE": {
+    "attendance": 31853,
+    "venue": "Villa Park"
+  },
+  "2012-01-14-BLB-FUL": {
+    "attendance": 18003,
+    "venue": "Ewood Park"
+  },
+  "2012-01-14-CHE-SUN": {
+    "attendance": 41696,
+    "venue": "Stamford Bridge"
+  },
+  "2012-01-14-LIV-STK": {
+    "attendance": 44691,
+    "venue": "Anfield"
+  },
+  "2012-01-14-MUN-BOL": {
+    "attendance": 75444,
+    "venue": "Old Trafford"
+  },
+  "2012-01-14-TOT-WOL": {
+    "attendance": 36194,
+    "venue": "White Hart Lane"
+  },
+  "2012-01-14-WBA-NOR": {
+    "attendance": 22474,
+    "venue": "The Hawthorns"
+  },
+  "2012-01-15-NEW-QPR": {
+    "attendance": 49865,
+    "venue": "St James' Park"
+  },
+  "2012-01-15-SWA-ARS": {
+    "attendance": 20409,
+    "venue": "Liberty Stadium"
+  },
+  "2012-01-16-WIG-MCI": {
+    "attendance": 16026,
+    "venue": "DW Stadium"
+  },
+  "2012-01-21-BOL-LIV": {
+    "attendance": 26854,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2012-01-21-EVE-BLB": {
+    "attendance": 32464,
+    "venue": "Goodison Park"
+  },
+  "2012-01-21-FUL-NEW": {
+    "attendance": 25692,
+    "venue": "Craven Cottage"
+  },
+  "2012-01-21-NOR-CHE": {
+    "attendance": 26792,
+    "venue": "Carrow Road"
+  },
+  "2012-01-21-QPR-WIG": {
+    "attendance": 16002,
+    "venue": "Kiyan Prince Foundation Stadium"
+  },
+  "2012-01-21-STK-WBA": {
+    "attendance": 26865,
+    "venue": "bet365 Stadium"
+  },
+  "2012-01-21-SUN-SWA": {
+    "attendance": 36904,
+    "venue": "Stadium of Light"
+  },
+  "2012-01-21-WOL-AVL": {
+    "attendance": 27084,
+    "venue": "Molineux Stadium"
+  },
+  "2012-01-22-ARS-MUN": {
+    "attendance": 60093,
+    "venue": "Emirates Stadium"
+  },
+  "2012-01-22-MCI-TOT": {
+    "attendance": 47422,
+    "venue": "Etihad Stadium"
+  },
+  "2012-01-31-EVE-MCI": {
+    "attendance": 29856,
+    "venue": "Goodison Park"
+  },
+  "2012-01-31-MUN-STK": {
+    "attendance": 74719,
+    "venue": "Old Trafford"
+  },
+  "2012-01-31-SWA-CHE": {
+    "attendance": 20526,
+    "venue": "Liberty Stadium"
+  },
+  "2012-01-31-TOT-WIG": {
+    "attendance": 35801,
+    "venue": "White Hart Lane"
+  },
+  "2012-01-31-WOL-LIV": {
+    "attendance": 27447,
+    "venue": "Molineux Stadium"
+  },
+  "2012-02-01-AVL-QPR": {
+    "attendance": 32063,
+    "venue": "Villa Park"
+  },
+  "2012-02-01-BLB-NEW": {
+    "attendance": 20817,
+    "venue": "Ewood Park"
+  },
+  "2012-02-01-BOL-ARS": {
+    "attendance": 24371,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2012-02-01-FUL-WBA": {
+    "attendance": 25689,
+    "venue": "Craven Cottage"
+  },
+  "2012-02-01-SUN-NOR": {
+    "attendance": 34476,
+    "venue": "Stadium of Light"
+  },
+  "2012-02-04-ARS-BLB": {
+    "attendance": 59643,
+    "venue": "Emirates Stadium"
+  },
+  "2012-02-04-MCI-FUL": {
+    "attendance": 46963,
+    "venue": "Etihad Stadium"
+  },
+  "2012-02-04-NOR-BOL": {
+    "attendance": 26358,
+    "venue": "Carrow Road"
+  },
+  "2012-02-04-QPR-WOL": {
+    "attendance": 17351,
+    "venue": "Kiyan Prince Foundation Stadium"
+  },
+  "2012-02-04-STK-SUN": {
+    "attendance": 27717,
+    "venue": "bet365 Stadium"
+  },
+  "2012-02-04-WBA-SWA": {
+    "attendance": 24274,
+    "venue": "The Hawthorns"
+  },
+  "2012-02-04-WIG-EVE": {
+    "attendance": 18340,
+    "venue": "DW Stadium"
+  },
+  "2012-02-05-CHE-MUN": {
+    "attendance": 41668,
+    "venue": "Stamford Bridge"
+  },
+  "2012-02-05-NEW-AVL": {
+    "attendance": 48569,
+    "venue": "St James' Park"
+  },
+  "2012-02-06-LIV-TOT": {
+    "attendance": 44461,
+    "venue": "Anfield"
+  },
+  "2012-02-11-BLB-QPR": {
+    "attendance": 20252,
+    "venue": "Ewood Park"
+  },
+  "2012-02-11-BOL-WIG": {
+    "attendance": 23450,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2012-02-11-EVE-CHE": {
+    "attendance": 33924,
+    "venue": "Goodison Park"
+  },
+  "2012-02-11-FUL-STK": {
+    "attendance": 23555,
+    "venue": "Craven Cottage"
+  },
+  "2012-02-11-MUN-LIV": {
+    "attendance": 74844,
+    "venue": "Old Trafford"
+  },
+  "2012-02-11-SUN-ARS": {
+    "attendance": 40312,
+    "venue": "Stadium of Light"
+  },
+  "2012-02-11-SWA-NOR": {
+    "attendance": 19927,
+    "venue": "Liberty Stadium"
+  },
+  "2012-02-11-TOT-NEW": {
+    "attendance": 36176,
+    "venue": "White Hart Lane"
+  },
+  "2012-02-12-AVL-MCI": {
+    "attendance": 35132,
+    "venue": "Villa Park"
+  },
+  "2012-02-12-WOL-WBA": {
+    "attendance": 27131,
+    "venue": "Molineux Stadium"
+  },
+  "2012-02-25-CHE-BOL": {
+    "attendance": 40999,
+    "venue": "Stamford Bridge"
+  },
+  "2012-02-25-MCI-BLB": {
+    "attendance": 46782,
+    "venue": "Etihad Stadium"
+  },
+  "2012-02-25-NEW-WOL": {
+    "attendance": 52287,
+    "venue": "St James' Park"
+  },
+  "2012-02-25-QPR-FUL": {
+    "attendance": 18015,
+    "venue": "Kiyan Prince Foundation Stadium"
+  },
+  "2012-02-25-WBA-SUN": {
+    "attendance": 25311,
+    "venue": "The Hawthorns"
+  },
+  "2012-02-25-WIG-AVL": {
+    "attendance": 20601,
+    "venue": "DW Stadium"
+  },
+  "2012-02-26-ARS-TOT": {
+    "attendance": 60106,
+    "venue": "Emirates Stadium"
+  },
+  "2012-02-26-NOR-MUN": {
+    "attendance": 26811,
+    "venue": "Carrow Road"
+  },
+  "2012-02-26-STK-SWA": {
+    "attendance": 26678,
+    "venue": "bet365 Stadium"
+  },
+  "2012-03-03-BLB-AVL": {
+    "attendance": 20717,
+    "venue": "Ewood Park"
+  },
+  "2012-03-03-LIV-ARS": {
+    "attendance": 44922,
+    "venue": "Anfield"
+  },
+  "2012-03-03-MCI-BOL": {
+    "attendance": 47219,
+    "venue": "Etihad Stadium"
+  },
+  "2012-03-03-QPR-EVE": {
+    "attendance": 18033,
+    "venue": "Kiyan Prince Foundation Stadium"
+  },
+  "2012-03-03-STK-NOR": {
+    "attendance": 27483,
+    "venue": "bet365 Stadium"
+  },
+  "2012-03-03-WBA-CHE": {
+    "attendance": 24838,
+    "venue": "The Hawthorns"
+  },
+  "2012-03-03-WIG-SWA": {
+    "attendance": 19001,
+    "venue": "DW Stadium"
+  },
+  "2012-03-04-FUL-WOL": {
+    "attendance": 24034,
+    "venue": "Craven Cottage"
+  },
+  "2012-03-04-NEW-SUN": {
+    "attendance": 52388,
+    "venue": "St James' Park"
+  },
+  "2012-03-04-TOT-MUN": {
+    "attendance": 36034,
+    "venue": "White Hart Lane"
+  },
+  "2012-03-10-AVL-FUL": {
+    "attendance": 32372,
+    "venue": "Villa Park"
+  },
+  "2012-03-10-BOL-QPR": {
+    "attendance": 21551,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2012-03-10-CHE-STK": {
+    "attendance": 40945,
+    "venue": "Stamford Bridge"
+  },
+  "2012-03-10-EVE-TOT": {
+    "attendance": 34992,
+    "venue": "Goodison Park"
+  },
+  "2012-03-10-SUN-LIV": {
+    "attendance": 41661,
+    "venue": "Stadium of Light"
+  },
+  "2012-03-10-WOL-BLB": {
+    "attendance": 26121,
+    "venue": "Molineux Stadium"
+  },
+  "2012-03-11-MUN-WBA": {
+    "attendance": 75598,
+    "venue": "Old Trafford"
+  },
+  "2012-03-11-NOR-WIG": {
+    "attendance": 26653,
+    "venue": "Carrow Road"
+  },
+  "2012-03-11-SWA-MCI": {
+    "attendance": 20510,
+    "venue": "Liberty Stadium"
+  },
+  "2012-03-12-ARS-NEW": {
+    "attendance": 60095,
+    "venue": "Emirates Stadium"
+  },
+  "2012-03-13-LIV-EVE": {
+    "attendance": 44921,
+    "venue": "Anfield"
+  },
+  "2012-03-17-FUL-SWA": {
+    "attendance": 25690,
+    "venue": "Craven Cottage"
+  },
+  "2012-03-17-WIG-WBA": {
+    "attendance": 21379,
+    "venue": "DW Stadium"
+  },
+  "2012-03-18-NEW-NOR": {
+    "attendance": 47833,
+    "venue": "St James' Park"
+  },
+  "2012-03-18-WOL-MUN": {
+    "attendance": 27494,
+    "venue": "Molineux Stadium"
+  },
+  "2012-03-20-BLB-SUN": {
+    "attendance": 20056,
+    "venue": "Ewood Park"
+  },
+  "2012-03-21-EVE-ARS": {
+    "attendance": 30330,
+    "venue": "Goodison Park"
+  },
+  "2012-03-21-MCI-CHE": {
+    "attendance": 46324,
+    "venue": "Etihad Stadium"
+  },
+  "2012-03-21-QPR-LIV": {
+    "attendance": 18033,
+    "venue": "Kiyan Prince Foundation Stadium"
+  },
+  "2012-03-21-TOT-STK": {
+    "attendance": 35172,
+    "venue": "White Hart Lane"
+  },
+  "2012-03-24-ARS-AVL": {
+    "attendance": 60108,
+    "venue": "Emirates Stadium"
+  },
+  "2012-03-24-BOL-BLB": {
+    "attendance": 26901,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2012-03-24-CHE-TOT": {
+    "attendance": 41830,
+    "venue": "Stamford Bridge"
+  },
+  "2012-03-24-LIV-WIG": {
+    "attendance": 44431,
+    "venue": "Anfield"
+  },
+  "2012-03-24-NOR-WOL": {
+    "attendance": 26752,
+    "venue": "Carrow Road"
+  },
+  "2012-03-24-STK-MCI": {
+    "attendance": 27535,
+    "venue": "bet365 Stadium"
+  },
+  "2012-03-24-SUN-QPR": {
+    "attendance": 37128,
+    "venue": "Stadium of Light"
+  },
+  "2012-03-24-SWA-EVE": {
+    "attendance": 20509,
+    "venue": "Liberty Stadium"
+  },
+  "2012-03-25-WBA-NEW": {
+    "attendance": 25049,
+    "venue": "The Hawthorns"
+  },
+  "2012-03-26-MUN-FUL": {
+    "attendance": 75570,
+    "venue": "Old Trafford"
+  },
+  "2012-03-31-AVL-CHE": {
+    "attendance": 34740,
+    "venue": "Villa Park"
+  },
+  "2012-03-31-EVE-WBA": {
+    "attendance": 32051,
+    "venue": "Goodison Park"
+  },
+  "2012-03-31-FUL-NOR": {
+    "attendance": 25700,
+    "venue": "Craven Cottage"
+  },
+  "2012-03-31-MCI-SUN": {
+    "attendance": 47007,
+    "venue": "Etihad Stadium"
+  },
+  "2012-03-31-QPR-ARS": {
+    "attendance": 18033,
+    "venue": "Kiyan Prince Foundation Stadium"
+  },
+  "2012-03-31-WIG-STK": {
+    "attendance": 19786,
+    "venue": "DW Stadium"
+  },
+  "2012-03-31-WOL-BOL": {
+    "attendance": 25215,
+    "venue": "Molineux Stadium"
+  },
+  "2012-04-01-NEW-LIV": {
+    "attendance": 52363,
+    "venue": "St James' Park"
+  },
+  "2012-04-01-TOT-SWA": {
+    "attendance": 36174,
+    "venue": "White Hart Lane"
+  },
+  "2012-04-02-BLB-MUN": {
+    "attendance": 26532,
+    "venue": "Ewood Park"
+  },
+  "2012-04-06-SWA-NEW": {
+    "attendance": 19874,
+    "venue": "Liberty Stadium"
+  },
+  "2012-04-07-BOL-FUL": {
+    "attendance": 21939,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2012-04-07-CHE-WIG": {
+    "attendance": 40651,
+    "venue": "Stamford Bridge"
+  },
+  "2012-04-07-LIV-AVL": {
+    "attendance": 44321,
+    "venue": "Anfield"
+  },
+  "2012-04-07-NOR-EVE": {
+    "attendance": 26554,
+    "venue": "Carrow Road"
+  },
+  "2012-04-07-STK-WOL": {
+    "attendance": 27005,
+    "venue": "bet365 Stadium"
+  },
+  "2012-04-07-SUN-TOT": {
+    "attendance": 39335,
+    "venue": "Stadium of Light"
+  },
+  "2012-04-07-WBA-BLB": {
+    "attendance": 23414,
+    "venue": "The Hawthorns"
+  },
+  "2012-04-08-ARS-MCI": {
+    "attendance": 60096,
+    "venue": "Emirates Stadium"
+  },
+  "2012-04-08-MUN-QPR": {
+    "attendance": 75505,
+    "venue": "Old Trafford"
+  },
+  "2012-04-09-AVL-STK": {
+    "attendance": 30100,
+    "venue": "Villa Park"
+  },
+  "2012-04-09-EVE-SUN": {
+    "attendance": 32249,
+    "venue": "Goodison Park"
+  },
+  "2012-04-09-FUL-CHE": {
+    "attendance": 25697,
+    "venue": "Craven Cottage"
+  },
+  "2012-04-09-NEW-BOL": {
+    "attendance": 52264,
+    "venue": "St James' Park"
+  },
+  "2012-04-09-TOT-NOR": {
+    "attendance": 36126,
+    "venue": "White Hart Lane"
+  },
+  "2012-04-10-BLB-LIV": {
+    "attendance": 23571,
+    "venue": "Ewood Park"
+  },
+  "2012-04-11-MCI-WBA": {
+    "attendance": 46746,
+    "venue": "Etihad Stadium"
+  },
+  "2012-04-11-QPR-SWA": {
+    "attendance": 17557,
+    "venue": "Kiyan Prince Foundation Stadium"
+  },
+  "2012-04-11-WIG-MUN": {
+    "attendance": 18115,
+    "venue": "DW Stadium"
+  },
+  "2012-04-11-WOL-ARS": {
+    "attendance": 25815,
+    "venue": "Molineux Stadium"
+  },
+  "2012-04-14-NOR-MCI": {
+    "attendance": 26812,
+    "venue": "Carrow Road"
+  },
+  "2012-04-14-SUN-WOL": {
+    "attendance": 37476,
+    "venue": "Stadium of Light"
+  },
+  "2012-04-14-SWA-BLB": {
+    "attendance": 18985,
+    "venue": "Liberty Stadium"
+  },
+  "2012-04-14-WBA-QPR": {
+    "attendance": 25521,
+    "venue": "The Hawthorns"
+  },
+  "2012-04-15-MUN-AVL": {
+    "attendance": 75138,
+    "venue": "Old Trafford"
+  },
+  "2012-04-16-ARS-WIG": {
+    "attendance": 60060,
+    "venue": "Emirates Stadium"
+  },
+  "2012-04-21-ARS-CHE": {
+    "attendance": 60111,
+    "venue": "Emirates Stadium"
+  },
+  "2012-04-21-AVL-SUN": {
+    "attendance": 32557,
+    "venue": "Villa Park"
+  },
+  "2012-04-21-BLB-NOR": {
+    "attendance": 23218,
+    "venue": "Ewood Park"
+  },
+  "2012-04-21-BOL-SWA": {
+    "attendance": 25401,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2012-04-21-FUL-WIG": {
+    "attendance": 25689,
+    "venue": "Craven Cottage"
+  },
+  "2012-04-21-NEW-STK": {
+    "attendance": 52162,
+    "venue": "St James' Park"
+  },
+  "2012-04-21-QPR-TOT": {
+    "attendance": 18021,
+    "venue": "Kiyan Prince Foundation Stadium"
+  },
+  "2012-04-22-LIV-WBA": {
+    "attendance": 43660,
+    "venue": "Anfield"
+  },
+  "2012-04-22-MUN-EVE": {
+    "attendance": 75522,
+    "venue": "Old Trafford"
+  },
+  "2012-04-22-WOL-MCI": {
+    "attendance": 24576,
+    "venue": "Molineux Stadium"
+  },
+  "2012-04-24-AVL-BOL": {
+    "attendance": 32263,
+    "venue": "Villa Park"
+  },
+  "2012-04-28-EVE-FUL": {
+    "attendance": 31885,
+    "venue": "Goodison Park"
+  },
+  "2012-04-28-NOR-LIV": {
+    "attendance": 26819,
+    "venue": "Carrow Road"
+  },
+  "2012-04-28-STK-ARS": {
+    "attendance": 27502,
+    "venue": "bet365 Stadium"
+  },
+  "2012-04-28-SUN-BOL": {
+    "attendance": 40768,
+    "venue": "Stadium of Light"
+  },
+  "2012-04-28-SWA-WOL": {
+    "attendance": 19408,
+    "venue": "Liberty Stadium"
+  },
+  "2012-04-28-WBA-AVL": {
+    "attendance": 25984,
+    "venue": "The Hawthorns"
+  },
+  "2012-04-28-WIG-NEW": {
+    "attendance": 22187,
+    "venue": "DW Stadium"
+  },
+  "2012-04-29-CHE-QPR": {
+    "attendance": 41675,
+    "venue": "Stamford Bridge"
+  },
+  "2012-04-29-TOT-BLB": {
+    "attendance": 35798,
+    "venue": "White Hart Lane"
+  },
+  "2012-04-30-MCI-MUN": {
+    "attendance": 47259,
+    "venue": "Etihad Stadium"
+  },
+  "2012-05-01-LIV-FUL": {
+    "attendance": 40106,
+    "venue": "Anfield"
+  },
+  "2012-05-01-STK-EVE": {
+    "attendance": 26500,
+    "venue": "bet365 Stadium"
+  },
+  "2012-05-02-BOL-TOT": {
+    "attendance": 22349,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2012-05-02-CHE-NEW": {
+    "attendance": 41559,
+    "venue": "Stamford Bridge"
+  },
+  "2012-05-05-ARS-NOR": {
+    "attendance": 60092,
+    "venue": "Emirates Stadium"
+  },
+  "2012-05-06-AVL-TOT": {
+    "attendance": 36008,
+    "venue": "Villa Park"
+  },
+  "2012-05-06-BOL-WBA": {
+    "attendance": 25662,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2012-05-06-FUL-SUN": {
+    "attendance": 25683,
+    "venue": "Craven Cottage"
+  },
+  "2012-05-06-MUN-SWA": {
+    "attendance": 75496,
+    "venue": "Old Trafford"
+  },
+  "2012-05-06-NEW-MCI": {
+    "attendance": 52389,
+    "venue": "St James' Park"
+  },
+  "2012-05-06-QPR-STK": {
+    "attendance": 17319,
+    "venue": "Kiyan Prince Foundation Stadium"
+  },
+  "2012-05-06-WOL-EVE": {
+    "attendance": 25466,
+    "venue": "Molineux Stadium"
+  },
+  "2012-05-07-BLB-WIG": {
+    "attendance": 26144,
+    "venue": "Ewood Park"
+  },
+  "2012-05-08-LIV-CHE": {
+    "attendance": 40721,
+    "venue": "Anfield"
+  },
+  "2012-05-13-CHE-BLB": {
+    "attendance": 40742,
+    "venue": "Stamford Bridge"
+  },
+  "2012-05-13-EVE-NEW": {
+    "attendance": 39517,
+    "venue": "Goodison Park"
+  },
+  "2012-05-13-MCI-QPR": {
+    "attendance": 48000,
+    "venue": "Etihad Stadium"
+  },
+  "2012-05-13-NOR-AVL": {
+    "attendance": 26803,
+    "venue": "Carrow Road"
+  },
+  "2012-05-13-STK-BOL": {
+    "attendance": 27789,
+    "venue": "bet365 Stadium"
+  },
+  "2012-05-13-SUN-MUN": {
+    "attendance": 46452,
+    "venue": "Stadium of Light"
+  },
+  "2012-05-13-SWA-LIV": {
+    "attendance": 20605,
+    "venue": "Liberty Stadium"
+  },
+  "2012-05-13-TOT-FUL": {
+    "attendance": 36256,
+    "venue": "White Hart Lane"
+  },
+  "2012-05-13-WBA-ARS": {
+    "attendance": 26358,
+    "venue": "The Hawthorns"
+  },
+  "2012-05-13-WIG-WOL": {
+    "attendance": 21986,
+    "venue": "DW Stadium"
+  }
+}

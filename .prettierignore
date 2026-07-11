@@ -1,0 +1,48 @@
+# Build outputs
+.next/
+out/
+
+# Dependencies
+node_modules/
+
+# Lockfiles — pnpm owns formatting
+pnpm-lock.yaml
+
+# Playwright artifacts
+playwright-report/
+test-results/
+
+# Sentry build artifacts
+.sentryclirc
+
+# Env files (keep raw)
+.env
+.env.local
+.env.*.local
+
+# Editor + OS noise
+.DS_Store
+.idea/
+.vscode/
+
+# Worktrees / Claude scratch
+.claude/
+
+# Phase 10 lineup/event blobs — large generated data, minified by the sync
+# writer (writeJsonStableMin). Prettier must NOT reformat them: it would inflate
+# the committed size ~2x AND break the cron's idempotent diff (sync writes
+# minified, prettier rewrites pretty → noise PR every run).
+data/lineups-*.json
+data/events-*.json
+
+# Cross-season search index — written by writeJsonStable (each array element on
+# its own line), but prettier inlines short arrays (e.g. "aliases": ["laca"]).
+# That format drift breaks the cron's idempotent diff (sync rewrites multi-line
+# → noise PR every run) and used to require a manual `git checkout` after every
+# commit. writeJsonStable owns this file's formatting; prettier must not touch it.
+data/search-index.json
+
+# TASK-1606 Arabic-name sidecar maps — written by the build/apply scripts via
+# writeJsonStable (sorted keys). Prettier must not reformat them (keep the cron's
+# idempotent diff stable).
+data/i18n/names-ar/*.json

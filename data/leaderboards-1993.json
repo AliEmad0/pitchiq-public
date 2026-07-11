@@ -1,0 +1,330 @@
+{
+  "topAssists": [
+    {
+      "playerId": 1003242,
+      "playerName": "Andrew Cole",
+      "rank": 1,
+      "teamId": 34,
+      "teamName": "Newcastle United",
+      "value": 13
+    },
+    {
+      "playerId": 1003744,
+      "playerName": "Eric Cantona",
+      "rank": 2,
+      "teamId": 33,
+      "teamName": "Manchester United",
+      "value": 12
+    },
+    {
+      "playerId": 1003360,
+      "playerName": "Brian Deane",
+      "rank": 3,
+      "teamId": 63,
+      "teamName": "Leeds United",
+      "value": 11
+    },
+    {
+      "playerId": 1003451,
+      "playerName": "Chris Sutton",
+      "rank": 4,
+      "teamId": 71,
+      "teamName": "Norwich City",
+      "value": 11
+    },
+    {
+      "playerId": 1004977,
+      "playerName": "Ruel Fox",
+      "rank": 5,
+      "teamId": 71,
+      "teamName": "Norwich City",
+      "value": 11
+    },
+    {
+      "playerId": 1004524,
+      "playerName": "Matt Holmes",
+      "rank": 6,
+      "teamId": 48,
+      "teamName": "West Ham United",
+      "value": 10
+    },
+    {
+      "playerId": 1004774,
+      "playerName": "Paul Ince",
+      "rank": 7,
+      "teamId": 33,
+      "teamName": "Manchester United",
+      "value": 10
+    },
+    {
+      "playerId": 1005023,
+      "playerName": "Scott Sellars",
+      "rank": 8,
+      "teamId": 34,
+      "teamName": "Newcastle United",
+      "value": 10
+    },
+    {
+      "playerId": 1003675,
+      "playerName": "Dennis Wise",
+      "rank": 9,
+      "teamId": 49,
+      "teamName": "Chelsea",
+      "value": 9
+    },
+    {
+      "playerId": 1004062,
+      "playerName": "Jason Wilcox",
+      "rank": 10,
+      "teamId": 67,
+      "teamName": "Blackburn Rovers",
+      "value": 9
+    }
+  ],
+  "topRedCards": [
+    {
+      "playerId": 1003442,
+      "playerName": "Chris Makin",
+      "rank": 1,
+      "teamId": 1349,
+      "teamName": "Oldham Athletic",
+      "value": 2
+    },
+    {
+      "playerId": 1003744,
+      "playerName": "Eric Cantona",
+      "rank": 2,
+      "teamId": 33,
+      "teamName": "Manchester United",
+      "value": 2
+    },
+    {
+      "playerId": 1003169,
+      "playerName": "Alan Cork",
+      "rank": 3,
+      "teamId": 62,
+      "teamName": "Sheffield United",
+      "value": 1
+    },
+    {
+      "playerId": 1003271,
+      "playerName": "Andy Mutch",
+      "rank": 4,
+      "teamId": 1353,
+      "teamName": "Swindon Town",
+      "value": 1
+    },
+    {
+      "playerId": 1003275,
+      "playerName": "Andy Pearce",
+      "rank": 5,
+      "teamId": 74,
+      "teamName": "Sheffield Wednesday",
+      "value": 1
+    },
+    {
+      "playerId": 1003381,
+      "playerName": "Bryan Gunn",
+      "rank": 6,
+      "teamId": 71,
+      "teamName": "Norwich City",
+      "value": 1
+    },
+    {
+      "playerId": 1003393,
+      "playerName": "Carl Bradshaw",
+      "rank": 7,
+      "teamId": 62,
+      "teamName": "Sheffield United",
+      "value": 1
+    },
+    {
+      "playerId": 1003409,
+      "playerName": "Carlton Palmer",
+      "rank": 8,
+      "teamId": 74,
+      "teamName": "Sheffield Wednesday",
+      "value": 1
+    },
+    {
+      "playerId": 1003492,
+      "playerName": "Colin Calderwood",
+      "rank": 9,
+      "teamId": 47,
+      "teamName": "Tottenham Hotspur",
+      "value": 1
+    },
+    {
+      "playerId": 1003630,
+      "playerName": "David Lee",
+      "rank": 10,
+      "teamId": 49,
+      "teamName": "Chelsea",
+      "value": 1
+    }
+  ],
+  "topScorers": [
+    {
+      "playerId": 1003242,
+      "playerName": "Andrew Cole",
+      "rank": 1,
+      "teamId": 34,
+      "teamName": "Newcastle United",
+      "value": 34
+    },
+    {
+      "playerId": 1003185,
+      "playerName": "Alan Shearer",
+      "rank": 2,
+      "teamId": 67,
+      "teamName": "Blackburn Rovers",
+      "value": 31
+    },
+    {
+      "playerId": 1003451,
+      "playerName": "Chris Sutton",
+      "rank": 3,
+      "teamId": 71,
+      "teamName": "Norwich City",
+      "value": 25
+    },
+    {
+      "playerId": 1004536,
+      "playerName": "Matthew Le Tissier",
+      "rank": 4,
+      "teamId": 41,
+      "teamName": "Southampton",
+      "value": 25
+    },
+    {
+      "playerId": 1003984,
+      "playerName": "Ian Wright",
+      "rank": 5,
+      "teamId": 42,
+      "teamName": "Arsenal",
+      "value": 23
+    },
+    {
+      "playerId": 1004826,
+      "playerName": "Peter Beardsley",
+      "rank": 6,
+      "teamId": 34,
+      "teamName": "Newcastle United",
+      "value": 21
+    },
+    {
+      "playerId": 1004442,
+      "playerName": "Mark Bright",
+      "rank": 7,
+      "teamId": 74,
+      "teamName": "Sheffield Wednesday",
+      "value": 19
+    },
+    {
+      "playerId": 1003744,
+      "playerName": "Eric Cantona",
+      "rank": 8,
+      "teamId": 33,
+      "teamName": "Manchester United",
+      "value": 18
+    },
+    {
+      "playerId": 1003661,
+      "playerName": "Dean Holdsworth",
+      "rank": 9,
+      "teamId": 1333,
+      "teamName": "Wimbledon",
+      "value": 17
+    },
+    {
+      "playerId": 1004954,
+      "playerName": "Rod Wallace",
+      "rank": 10,
+      "teamId": 63,
+      "teamName": "Leeds United",
+      "value": 17
+    }
+  ],
+  "topYellowCards": [
+    {
+      "playerId": 1003531,
+      "playerName": "Dane Whitehouse",
+      "rank": 1,
+      "teamId": 62,
+      "teamName": "Sheffield United",
+      "value": 10
+    },
+    {
+      "playerId": 1005291,
+      "playerName": "Vinnie Jones",
+      "rank": 2,
+      "teamId": 1333,
+      "teamName": "Wimbledon",
+      "value": 8
+    },
+    {
+      "playerId": 1003957,
+      "playerName": "Iain Dowie",
+      "rank": 3,
+      "teamId": 41,
+      "teamName": "Southampton",
+      "value": 7
+    },
+    {
+      "playerId": 1004123,
+      "playerName": "John Ebbrell",
+      "rank": 4,
+      "teamId": 45,
+      "teamName": "Everton",
+      "value": 7
+    },
+    {
+      "playerId": 1005292,
+      "playerName": "Vinny Samways",
+      "rank": 5,
+      "teamId": 47,
+      "teamName": "Tottenham Hotspur",
+      "value": 7
+    },
+    {
+      "playerId": 1003792,
+      "playerName": "Frank Sinclair",
+      "rank": 6,
+      "teamId": 49,
+      "teamName": "Chelsea",
+      "value": 6
+    },
+    {
+      "playerId": 1003904,
+      "playerName": "Graeme Le Saux",
+      "rank": 7,
+      "teamId": 67,
+      "teamName": "Blackburn Rovers",
+      "value": 6
+    },
+    {
+      "playerId": 1003984,
+      "playerName": "Ian Wright",
+      "rank": 8,
+      "teamId": 42,
+      "teamName": "Arsenal",
+      "value": 6
+    },
+    {
+      "playerId": 1004168,
+      "playerName": "Jon Newsome",
+      "rank": 9,
+      "teamId": 63,
+      "teamName": "Leeds United",
+      "value": 6
+    },
+    {
+      "playerId": 1004581,
+      "playerName": "Michel Vonk",
+      "rank": 10,
+      "teamId": 50,
+      "teamName": "Manchester City",
+      "value": 6
+    }
+  ]
+}

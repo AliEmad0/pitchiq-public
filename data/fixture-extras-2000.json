@@ -1,0 +1,1522 @@
+{
+  "2000-08-19-CHA-MCI": {
+    "attendance": 20043,
+    "venue": "The Valley"
+  },
+  "2000-08-19-CHE-WHU": {
+    "attendance": 34914,
+    "venue": "Stamford Bridge"
+  },
+  "2000-08-19-COV-MID": {
+    "attendance": 20624,
+    "venue": "Highfield Road"
+  },
+  "2000-08-19-DER-SOU": {
+    "attendance": 27223,
+    "venue": "Pride Park"
+  },
+  "2000-08-19-LEE-EVE": {
+    "attendance": 40010,
+    "venue": "Elland Road"
+  },
+  "2000-08-19-LEI-AVL": {
+    "attendance": 21455,
+    "venue": "Filbert Street"
+  },
+  "2000-08-19-LIV-BRA": {
+    "attendance": 44183,
+    "venue": "Anfield"
+  },
+  "2000-08-19-SUN-ARS": {
+    "attendance": 47121,
+    "venue": "Stadium of Light"
+  },
+  "2000-08-19-TOT-IPS": {
+    "attendance": 36148,
+    "venue": "White Hart Lane"
+  },
+  "2000-08-20-MUN-NEW": {
+    "attendance": 67477,
+    "venue": "Old Trafford"
+  },
+  "2000-08-21-ARS-LIV": {
+    "attendance": 38014,
+    "venue": "Highbury"
+  },
+  "2000-08-22-BRA-CHE": {
+    "attendance": 17872,
+    "venue": "Valley Parade"
+  },
+  "2000-08-22-IPS-MUN": {
+    "attendance": 22007,
+    "venue": "Portman Road"
+  },
+  "2000-08-22-MID-TOT": {
+    "attendance": 31254,
+    "venue": "Riverside Stadium"
+  },
+  "2000-08-23-EVE-CHA": {
+    "attendance": 36300,
+    "venue": "Goodison Park"
+  },
+  "2000-08-23-MCI-SUN": {
+    "attendance": 34410,
+    "venue": "Maine Road"
+  },
+  "2000-08-23-NEW-DER": {
+    "attendance": 51327,
+    "venue": "St. James' Park"
+  },
+  "2000-08-23-SOU-COV": {
+    "attendance": 14801,
+    "venue": "The Dell"
+  },
+  "2000-08-23-WHU-LEI": {
+    "attendance": 25195,
+    "venue": "Boleyn Ground"
+  },
+  "2000-08-26-ARS-CHA": {
+    "attendance": 38025,
+    "venue": "Highbury"
+  },
+  "2000-08-26-BRA-LEI": {
+    "attendance": 16766,
+    "venue": "Valley Parade"
+  },
+  "2000-08-26-EVE-DER": {
+    "attendance": 34840,
+    "venue": "Goodison Park"
+  },
+  "2000-08-26-IPS-SUN": {
+    "attendance": 21830,
+    "venue": "Portman Road"
+  },
+  "2000-08-26-MCI-COV": {
+    "attendance": 34140,
+    "venue": "Maine Road"
+  },
+  "2000-08-26-MID-LEE": {
+    "attendance": 31626,
+    "venue": "Riverside Stadium"
+  },
+  "2000-08-26-NEW-TOT": {
+    "attendance": 51573,
+    "venue": "St. James' Park"
+  },
+  "2000-08-26-SOU-LIV": {
+    "attendance": 15202,
+    "venue": "The Dell"
+  },
+  "2000-08-26-WHU-MUN": {
+    "attendance": 25988,
+    "venue": "Boleyn Ground"
+  },
+  "2000-08-27-AVL-CHE": {
+    "attendance": 27057,
+    "venue": "Villa Park"
+  },
+  "2000-09-05-LEE-MCI": {
+    "attendance": 40055,
+    "venue": "Elland Road"
+  },
+  "2000-09-05-MUN-BRA": {
+    "attendance": 66447,
+    "venue": "Old Trafford"
+  },
+  "2000-09-05-SUN-WHU": {
+    "attendance": 46605,
+    "venue": "Stadium of Light"
+  },
+  "2000-09-05-TOT-EVE": {
+    "attendance": 35316,
+    "venue": "White Hart Lane"
+  },
+  "2000-09-06-CHA-SOU": {
+    "attendance": 20043,
+    "venue": "The Valley"
+  },
+  "2000-09-06-CHE-ARS": {
+    "attendance": 34923,
+    "venue": "Stamford Bridge"
+  },
+  "2000-09-06-COV-NEW": {
+    "attendance": 22109,
+    "venue": "Highfield Road"
+  },
+  "2000-09-06-DER-MID": {
+    "attendance": 24290,
+    "venue": "Pride Park"
+  },
+  "2000-09-06-LEI-IPS": {
+    "attendance": 19598,
+    "venue": "Filbert Street"
+  },
+  "2000-09-06-LIV-AVL": {
+    "attendance": 43360,
+    "venue": "Anfield"
+  },
+  "2000-09-09-BRA-ARS": {
+    "attendance": 17160,
+    "venue": "Valley Parade"
+  },
+  "2000-09-09-COV-LEE": {
+    "attendance": 20377,
+    "venue": "Highfield Road"
+  },
+  "2000-09-09-IPS-AVL": {
+    "attendance": 20665,
+    "venue": "Portman Road"
+  },
+  "2000-09-09-LEI-SOU": {
+    "attendance": 18366,
+    "venue": "Filbert Street"
+  },
+  "2000-09-09-LIV-MCI": {
+    "attendance": 44692,
+    "venue": "Anfield"
+  },
+  "2000-09-09-MID-EVE": {
+    "attendance": 30885,
+    "venue": "Riverside Stadium"
+  },
+  "2000-09-09-MUN-SUN": {
+    "attendance": 67503,
+    "venue": "Old Trafford"
+  },
+  "2000-09-09-NEW-CHE": {
+    "attendance": 51687,
+    "venue": "St. James' Park"
+  },
+  "2000-09-10-DER-CHA": {
+    "attendance": 22310,
+    "venue": "Pride Park"
+  },
+  "2000-09-11-TOT-WHU": {
+    "attendance": 33282,
+    "venue": "White Hart Lane"
+  },
+  "2000-09-16-ARS-COV": {
+    "attendance": 37794,
+    "venue": "Highbury"
+  },
+  "2000-09-16-AVL-BRA": {
+    "attendance": 27849,
+    "venue": "Villa Park"
+  },
+  "2000-09-16-CHA-TOT": {
+    "attendance": 20043,
+    "venue": "The Valley"
+  },
+  "2000-09-16-EVE-MUN": {
+    "attendance": 38541,
+    "venue": "Goodison Park"
+  },
+  "2000-09-16-LEE-IPS": {
+    "attendance": 35552,
+    "venue": "Elland Road"
+  },
+  "2000-09-16-SOU-NEW": {
+    "attendance": 15221,
+    "venue": "The Dell"
+  },
+  "2000-09-16-SUN-DER": {
+    "attendance": 45343,
+    "venue": "Stadium of Light"
+  },
+  "2000-09-17-CHE-LEI": {
+    "attendance": 33697,
+    "venue": "Stamford Bridge"
+  },
+  "2000-09-17-MCI-MID": {
+    "attendance": 32053,
+    "venue": "Maine Road"
+  },
+  "2000-09-17-WHU-LIV": {
+    "attendance": 25998,
+    "venue": "Boleyn Ground"
+  },
+  "2000-09-23-BRA-SOU": {
+    "attendance": 16163,
+    "venue": "Valley Parade"
+  },
+  "2000-09-23-COV-WHU": {
+    "attendance": 21020,
+    "venue": "Highfield Road"
+  },
+  "2000-09-23-DER-LEE": {
+    "attendance": 26248,
+    "venue": "Pride Park"
+  },
+  "2000-09-23-IPS-ARS": {
+    "attendance": 22030,
+    "venue": "Portman Road"
+  },
+  "2000-09-23-LIV-SUN": {
+    "attendance": 44713,
+    "venue": "Anfield"
+  },
+  "2000-09-23-MID-AVL": {
+    "attendance": 27556,
+    "venue": "Riverside Stadium"
+  },
+  "2000-09-23-MUN-CHE": {
+    "attendance": 67568,
+    "venue": "Old Trafford"
+  },
+  "2000-09-23-NEW-CHA": {
+    "attendance": 50866,
+    "venue": "St. James' Park"
+  },
+  "2000-09-23-TOT-MCI": {
+    "attendance": 36069,
+    "venue": "White Hart Lane"
+  },
+  "2000-09-24-LEI-EVE": {
+    "attendance": 18084,
+    "venue": "Filbert Street"
+  },
+  "2000-09-30-AVL-DER": {
+    "attendance": 26534,
+    "venue": "Villa Park"
+  },
+  "2000-09-30-CHA-COV": {
+    "attendance": 20043,
+    "venue": "The Valley"
+  },
+  "2000-09-30-EVE-IPS": {
+    "attendance": 32597,
+    "venue": "Goodison Park"
+  },
+  "2000-09-30-LEE-TOT": {
+    "attendance": 37562,
+    "venue": "Elland Road"
+  },
+  "2000-09-30-MCI-NEW": {
+    "attendance": 34497,
+    "venue": "Maine Road"
+  },
+  "2000-09-30-SOU-MID": {
+    "attendance": 14903,
+    "venue": "The Dell"
+  },
+  "2000-09-30-WHU-BRA": {
+    "attendance": 25407,
+    "venue": "Boleyn Ground"
+  },
+  "2000-10-01-ARS-MUN": {
+    "attendance": 38146,
+    "venue": "Highbury"
+  },
+  "2000-10-01-CHE-LIV": {
+    "attendance": 34966,
+    "venue": "Stamford Bridge"
+  },
+  "2000-10-01-SUN-LEI": {
+    "attendance": 45338,
+    "venue": "Stadium of Light"
+  },
+  "2000-10-14-ARS-AVL": {
+    "attendance": 38042,
+    "venue": "Highbury"
+  },
+  "2000-10-14-COV-TOT": {
+    "attendance": 21435,
+    "venue": "Highfield Road"
+  },
+  "2000-10-14-EVE-SOU": {
+    "attendance": 29491,
+    "venue": "Goodison Park"
+  },
+  "2000-10-14-IPS-WHU": {
+    "attendance": 22243,
+    "venue": "Portman Road"
+  },
+  "2000-10-14-LEE-CHA": {
+    "attendance": 38837,
+    "venue": "Elland Road"
+  },
+  "2000-10-14-LEI-MUN": {
+    "attendance": 22132,
+    "venue": "Filbert Street"
+  },
+  "2000-10-14-MCI-BRA": {
+    "attendance": 34229,
+    "venue": "Maine Road"
+  },
+  "2000-10-14-SUN-CHE": {
+    "attendance": 45078,
+    "venue": "Stadium of Light"
+  },
+  "2000-10-15-DER-LIV": {
+    "attendance": 30532,
+    "venue": "Pride Park"
+  },
+  "2000-10-16-MID-NEW": {
+    "attendance": 31436,
+    "venue": "Riverside Stadium"
+  },
+  "2000-10-21-BRA-IPS": {
+    "attendance": 17045,
+    "venue": "Valley Parade"
+  },
+  "2000-10-21-CHA-MID": {
+    "attendance": 20043,
+    "venue": "The Valley"
+  },
+  "2000-10-21-CHE-COV": {
+    "attendance": 34646,
+    "venue": "Stamford Bridge"
+  },
+  "2000-10-21-LIV-LEI": {
+    "attendance": 44395,
+    "venue": "Anfield"
+  },
+  "2000-10-21-MUN-LEE": {
+    "attendance": 67525,
+    "venue": "Old Trafford"
+  },
+  "2000-10-21-NEW-EVE": {
+    "attendance": 51625,
+    "venue": "St. James' Park"
+  },
+  "2000-10-21-TOT-DER": {
+    "attendance": 34483,
+    "venue": "White Hart Lane"
+  },
+  "2000-10-21-WHU-ARS": {
+    "attendance": 26034,
+    "venue": "Boleyn Ground"
+  },
+  "2000-10-22-AVL-SUN": {
+    "attendance": 27215,
+    "venue": "Villa Park"
+  },
+  "2000-10-23-SOU-MCI": {
+    "attendance": 15056,
+    "venue": "The Dell"
+  },
+  "2000-10-28-ARS-MCI": {
+    "attendance": 38049,
+    "venue": "Highbury"
+  },
+  "2000-10-28-AVL-CHA": {
+    "attendance": 27461,
+    "venue": "Villa Park"
+  },
+  "2000-10-28-CHE-TOT": {
+    "attendance": 34966,
+    "venue": "Stamford Bridge"
+  },
+  "2000-10-28-IPS-MID": {
+    "attendance": 21771,
+    "venue": "Portman Road"
+  },
+  "2000-10-28-LEI-DER": {
+    "attendance": 20525,
+    "venue": "Filbert Street"
+  },
+  "2000-10-28-MUN-SOU": {
+    "attendance": 67581,
+    "venue": "Old Trafford"
+  },
+  "2000-10-28-SUN-COV": {
+    "attendance": 44526,
+    "venue": "Stadium of Light"
+  },
+  "2000-10-28-WHU-NEW": {
+    "attendance": 26044,
+    "venue": "Boleyn Ground"
+  },
+  "2000-10-29-BRA-LEE": {
+    "attendance": 17364,
+    "venue": "Valley Parade"
+  },
+  "2000-10-29-LIV-EVE": {
+    "attendance": 44718,
+    "venue": "Anfield"
+  },
+  "2000-11-04-CHA-BRA": {
+    "attendance": 19633,
+    "venue": "The Valley"
+  },
+  "2000-11-04-COV-MUN": {
+    "attendance": 21079,
+    "venue": "Highfield Road"
+  },
+  "2000-11-04-LEE-LIV": {
+    "attendance": 40055,
+    "venue": "Elland Road"
+  },
+  "2000-11-04-MCI-LEI": {
+    "attendance": 34279,
+    "venue": "Maine Road"
+  },
+  "2000-11-04-MID-ARS": {
+    "attendance": 29541,
+    "venue": "Riverside Stadium"
+  },
+  "2000-11-04-NEW-IPS": {
+    "attendance": 50922,
+    "venue": "St. James' Park"
+  },
+  "2000-11-04-SOU-CHE": {
+    "attendance": 15236,
+    "venue": "The Dell"
+  },
+  "2000-11-04-TOT-SUN": {
+    "attendance": 36016,
+    "venue": "White Hart Lane"
+  },
+  "2000-11-05-EVE-AVL": {
+    "attendance": 27670,
+    "venue": "Goodison Park"
+  },
+  "2000-11-06-DER-WHU": {
+    "attendance": 24621,
+    "venue": "Pride Park"
+  },
+  "2000-11-11-ARS-DER": {
+    "attendance": 37679,
+    "venue": "Highbury"
+  },
+  "2000-11-11-AVL-TOT": {
+    "attendance": 33608,
+    "venue": "Villa Park"
+  },
+  "2000-11-11-BRA-EVE": {
+    "attendance": 17276,
+    "venue": "Valley Parade"
+  },
+  "2000-11-11-IPS-CHA": {
+    "attendance": 22263,
+    "venue": "Portman Road"
+  },
+  "2000-11-11-LEI-NEW": {
+    "attendance": 21406,
+    "venue": "Filbert Street"
+  },
+  "2000-11-11-MUN-MID": {
+    "attendance": 67576,
+    "venue": "Old Trafford"
+  },
+  "2000-11-11-SUN-SOU": {
+    "attendance": 45064,
+    "venue": "Stadium of Light"
+  },
+  "2000-11-11-WHU-MCI": {
+    "attendance": 26022,
+    "venue": "Boleyn Ground"
+  },
+  "2000-11-12-CHE-LEE": {
+    "attendance": 35121,
+    "venue": "Stamford Bridge"
+  },
+  "2000-11-12-LIV-COV": {
+    "attendance": 43701,
+    "venue": "Anfield"
+  },
+  "2000-11-18-CHA-CHE": {
+    "attendance": 20043,
+    "venue": "The Valley"
+  },
+  "2000-11-18-DER-BRA": {
+    "attendance": 31614,
+    "venue": "Pride Park"
+  },
+  "2000-11-18-EVE-ARS": {
+    "attendance": 33106,
+    "venue": "Goodison Park"
+  },
+  "2000-11-18-LEE-WHU": {
+    "attendance": 40005,
+    "venue": "Elland Road"
+  },
+  "2000-11-18-MCI-MUN": {
+    "attendance": 34429,
+    "venue": "Maine Road"
+  },
+  "2000-11-18-MID-LEI": {
+    "attendance": 27965,
+    "venue": "Riverside Stadium"
+  },
+  "2000-11-18-NEW-SUN": {
+    "attendance": 52030,
+    "venue": "St. James' Park"
+  },
+  "2000-11-18-SOU-AVL": {
+    "attendance": 14979,
+    "venue": "The Dell"
+  },
+  "2000-11-19-TOT-LIV": {
+    "attendance": 36036,
+    "venue": "White Hart Lane"
+  },
+  "2000-11-20-COV-IPS": {
+    "attendance": 19324,
+    "venue": "Highfield Road"
+  },
+  "2000-11-25-CHA-SUN": {
+    "attendance": 20043,
+    "venue": "The Valley"
+  },
+  "2000-11-25-COV-AVL": {
+    "attendance": 21464,
+    "venue": "Highfield Road"
+  },
+  "2000-11-25-DER-MUN": {
+    "attendance": 32910,
+    "venue": "Pride Park"
+  },
+  "2000-11-25-EVE-CHE": {
+    "attendance": 33515,
+    "venue": "Goodison Park"
+  },
+  "2000-11-25-MCI-IPS": {
+    "attendance": 33741,
+    "venue": "Maine Road"
+  },
+  "2000-11-25-MID-BRA": {
+    "attendance": 28526,
+    "venue": "Riverside Stadium"
+  },
+  "2000-11-25-SOU-WHU": {
+    "attendance": 15232,
+    "venue": "The Dell"
+  },
+  "2000-11-25-TOT-LEI": {
+    "attendance": 35636,
+    "venue": "White Hart Lane"
+  },
+  "2000-11-26-LEE-ARS": {
+    "attendance": 38084,
+    "venue": "Elland Road"
+  },
+  "2000-11-26-NEW-LIV": {
+    "attendance": 51949,
+    "venue": "St. James' Park"
+  },
+  "2000-12-02-ARS-SOU": {
+    "attendance": 38036,
+    "venue": "Highbury"
+  },
+  "2000-12-02-AVL-NEW": {
+    "attendance": 34225,
+    "venue": "Villa Park"
+  },
+  "2000-12-02-BRA-COV": {
+    "attendance": 15523,
+    "venue": "Valley Parade"
+  },
+  "2000-12-02-IPS-DER": {
+    "attendance": 22003,
+    "venue": "Portman Road"
+  },
+  "2000-12-02-LEI-LEE": {
+    "attendance": 21486,
+    "venue": "Filbert Street"
+  },
+  "2000-12-02-LIV-CHA": {
+    "attendance": 43515,
+    "venue": "Anfield"
+  },
+  "2000-12-02-MUN-TOT": {
+    "attendance": 67583,
+    "venue": "Old Trafford"
+  },
+  "2000-12-02-WHU-MID": {
+    "attendance": 25459,
+    "venue": "Boleyn Ground"
+  },
+  "2000-12-03-CHE-MCI": {
+    "attendance": 34971,
+    "venue": "Stamford Bridge"
+  },
+  "2000-12-04-SUN-EVE": {
+    "attendance": 46372,
+    "venue": "Stadium of Light"
+  },
+  "2000-12-09-ARS-NEW": {
+    "attendance": 38052,
+    "venue": "Highbury"
+  },
+  "2000-12-09-BRA-TOT": {
+    "attendance": 17225,
+    "venue": "Valley Parade"
+  },
+  "2000-12-09-CHA-MUN": {
+    "attendance": 20043,
+    "venue": "The Valley"
+  },
+  "2000-12-09-CHE-DER": {
+    "attendance": 34317,
+    "venue": "Stamford Bridge"
+  },
+  "2000-12-09-MCI-EVE": {
+    "attendance": 34516,
+    "venue": "Maine Road"
+  },
+  "2000-12-09-SOU-LEE": {
+    "attendance": 15225,
+    "venue": "The Dell"
+  },
+  "2000-12-09-SUN-MID": {
+    "attendance": 47742,
+    "venue": "Stadium of Light"
+  },
+  "2000-12-09-WHU-AVL": {
+    "attendance": 25888,
+    "venue": "Boleyn Ground"
+  },
+  "2000-12-10-COV-LEI": {
+    "attendance": 17283,
+    "venue": "Highfield Road"
+  },
+  "2000-12-10-LIV-IPS": {
+    "attendance": 43509,
+    "venue": "Anfield"
+  },
+  "2000-12-16-AVL-MCI": {
+    "attendance": 29281,
+    "venue": "Villa Park"
+  },
+  "2000-12-16-DER-COV": {
+    "attendance": 27869,
+    "venue": "Pride Park"
+  },
+  "2000-12-16-EVE-WHU": {
+    "attendance": 31260,
+    "venue": "Goodison Park"
+  },
+  "2000-12-16-IPS-SOU": {
+    "attendance": 22228,
+    "venue": "Portman Road"
+  },
+  "2000-12-16-LEE-SUN": {
+    "attendance": 40053,
+    "venue": "Elland Road"
+  },
+  "2000-12-16-LEI-CHA": {
+    "attendance": 19371,
+    "venue": "Filbert Street"
+  },
+  "2000-12-16-MID-CHE": {
+    "attendance": 29442,
+    "venue": "Riverside Stadium"
+  },
+  "2000-12-16-NEW-BRA": {
+    "attendance": 50470,
+    "venue": "St. James' Park"
+  },
+  "2000-12-17-MUN-LIV": {
+    "attendance": 67533,
+    "venue": "Old Trafford"
+  },
+  "2000-12-18-TOT-ARS": {
+    "attendance": 36062,
+    "venue": "White Hart Lane"
+  },
+  "2000-12-22-COV-SOU": {
+    "attendance": 18090,
+    "venue": "Highfield Road"
+  },
+  "2000-12-23-CHA-EVE": {
+    "attendance": 20043,
+    "venue": "The Valley"
+  },
+  "2000-12-23-CHE-BRA": {
+    "attendance": 33377,
+    "venue": "Stamford Bridge"
+  },
+  "2000-12-23-DER-NEW": {
+    "attendance": 29978,
+    "venue": "Pride Park"
+  },
+  "2000-12-23-LEE-AVL": {
+    "attendance": 39714,
+    "venue": "Elland Road"
+  },
+  "2000-12-23-LEI-WHU": {
+    "attendance": 21524,
+    "venue": "Filbert Street"
+  },
+  "2000-12-23-LIV-ARS": {
+    "attendance": 44144,
+    "venue": "Anfield"
+  },
+  "2000-12-23-MUN-IPS": {
+    "attendance": 67597,
+    "venue": "Old Trafford"
+  },
+  "2000-12-23-SUN-MCI": {
+    "attendance": 47475,
+    "venue": "Stadium of Light"
+  },
+  "2000-12-23-TOT-MID": {
+    "attendance": 35638,
+    "venue": "White Hart Lane"
+  },
+  "2000-12-26-ARS-LEI": {
+    "attendance": 38007,
+    "venue": "Highbury"
+  },
+  "2000-12-26-AVL-MUN": {
+    "attendance": 40889,
+    "venue": "Villa Park"
+  },
+  "2000-12-26-BRA-SUN": {
+    "attendance": 20370,
+    "venue": "Valley Parade"
+  },
+  "2000-12-26-EVE-COV": {
+    "attendance": 35704,
+    "venue": "Goodison Park"
+  },
+  "2000-12-26-IPS-CHE": {
+    "attendance": 22237,
+    "venue": "Portman Road"
+  },
+  "2000-12-26-MCI-DER": {
+    "attendance": 34321,
+    "venue": "Maine Road"
+  },
+  "2000-12-26-MID-LIV": {
+    "attendance": 34696,
+    "venue": "Riverside Stadium"
+  },
+  "2000-12-26-NEW-LEE": {
+    "attendance": 52118,
+    "venue": "St. James' Park"
+  },
+  "2000-12-26-WHU-CHA": {
+    "attendance": 26046,
+    "venue": "Boleyn Ground"
+  },
+  "2000-12-27-SOU-TOT": {
+    "attendance": 15237,
+    "venue": "The Dell"
+  },
+  "2000-12-30-ARS-SUN": {
+    "attendance": 38026,
+    "venue": "Highbury"
+  },
+  "2000-12-30-IPS-TOT": {
+    "attendance": 22234,
+    "venue": "Portman Road"
+  },
+  "2000-12-30-MCI-CHA": {
+    "attendance": 33280,
+    "venue": "Maine Road"
+  },
+  "2000-12-30-MID-COV": {
+    "attendance": 30499,
+    "venue": "Riverside Stadium"
+  },
+  "2000-12-30-NEW-MUN": {
+    "attendance": 52134,
+    "venue": "St. James' Park"
+  },
+  "2000-12-30-SOU-DER": {
+    "attendance": 15075,
+    "venue": "The Dell"
+  },
+  "2001-01-01-CHA-ARS": {
+    "attendance": 20043,
+    "venue": "The Valley"
+  },
+  "2001-01-01-CHE-AVL": {
+    "attendance": 33159,
+    "venue": "Stamford Bridge"
+  },
+  "2001-01-01-COV-MCI": {
+    "attendance": 21999,
+    "venue": "Highfield Road"
+  },
+  "2001-01-01-DER-EVE": {
+    "attendance": 27358,
+    "venue": "Pride Park"
+  },
+  "2001-01-01-LEE-MID": {
+    "attendance": 39251,
+    "venue": "Elland Road"
+  },
+  "2001-01-01-LEI-BRA": {
+    "attendance": 19278,
+    "venue": "Filbert Street"
+  },
+  "2001-01-01-LIV-SOU": {
+    "attendance": 38474,
+    "venue": "Anfield"
+  },
+  "2001-01-01-MUN-WHU": {
+    "attendance": 67603,
+    "venue": "Old Trafford"
+  },
+  "2001-01-01-SUN-IPS": {
+    "attendance": 46053,
+    "venue": "Stadium of Light"
+  },
+  "2001-01-02-TOT-NEW": {
+    "attendance": 34324,
+    "venue": "White Hart Lane"
+  },
+  "2001-01-13-ARS-CHE": {
+    "attendance": 38071,
+    "venue": "Highbury"
+  },
+  "2001-01-13-AVL-LIV": {
+    "attendance": 41366,
+    "venue": "Villa Park"
+  },
+  "2001-01-13-BRA-MUN": {
+    "attendance": 20551,
+    "venue": "Valley Parade"
+  },
+  "2001-01-13-EVE-TOT": {
+    "attendance": 32290,
+    "venue": "Goodison Park"
+  },
+  "2001-01-13-MCI-LEE": {
+    "attendance": 34288,
+    "venue": "Maine Road"
+  },
+  "2001-01-13-MID-DER": {
+    "attendance": 29041,
+    "venue": "Riverside Stadium"
+  },
+  "2001-01-13-NEW-COV": {
+    "attendance": 50159,
+    "venue": "St. James' Park"
+  },
+  "2001-01-13-SOU-CHA": {
+    "attendance": 15220,
+    "venue": "The Dell"
+  },
+  "2001-01-13-WHU-SUN": {
+    "attendance": 26014,
+    "venue": "Boleyn Ground"
+  },
+  "2001-01-14-IPS-LEI": {
+    "attendance": 22002,
+    "venue": "Portman Road"
+  },
+  "2001-01-20-CHE-IPS": {
+    "attendance": 34948,
+    "venue": "Stamford Bridge"
+  },
+  "2001-01-20-COV-EVE": {
+    "attendance": 19174,
+    "venue": "Highfield Road"
+  },
+  "2001-01-20-DER-MCI": {
+    "attendance": 31174,
+    "venue": "Pride Park"
+  },
+  "2001-01-20-LEE-NEW": {
+    "attendance": 40005,
+    "venue": "Elland Road"
+  },
+  "2001-01-20-LEI-ARS": {
+    "attendance": 21872,
+    "venue": "Filbert Street"
+  },
+  "2001-01-20-LIV-MID": {
+    "attendance": 43042,
+    "venue": "Anfield"
+  },
+  "2001-01-20-MUN-AVL": {
+    "attendance": 67533,
+    "venue": "Old Trafford"
+  },
+  "2001-01-20-TOT-SOU": {
+    "attendance": 36095,
+    "venue": "White Hart Lane"
+  },
+  "2001-01-21-SUN-BRA": {
+    "attendance": 47812,
+    "venue": "Stadium of Light"
+  },
+  "2001-01-22-CHA-WHU": {
+    "attendance": 20043,
+    "venue": "The Valley"
+  },
+  "2001-01-24-AVL-LEE": {
+    "attendance": 29335,
+    "venue": "Villa Park"
+  },
+  "2001-01-30-ARS-BRA": {
+    "attendance": 37318,
+    "venue": "Highbury"
+  },
+  "2001-01-30-CHA-DER": {
+    "attendance": 20043,
+    "venue": "The Valley"
+  },
+  "2001-01-31-CHE-NEW": {
+    "attendance": 35108,
+    "venue": "Stamford Bridge"
+  },
+  "2001-01-31-EVE-MID": {
+    "attendance": 34244,
+    "venue": "Goodison Park"
+  },
+  "2001-01-31-LEE-COV": {
+    "attendance": 36555,
+    "venue": "Elland Road"
+  },
+  "2001-01-31-MCI-LIV": {
+    "attendance": 34629,
+    "venue": "Maine Road"
+  },
+  "2001-01-31-SOU-LEI": {
+    "attendance": 14909,
+    "venue": "The Dell"
+  },
+  "2001-01-31-SUN-MUN": {
+    "attendance": 48260,
+    "venue": "Stadium of Light"
+  },
+  "2001-01-31-WHU-TOT": {
+    "attendance": 26048,
+    "venue": "Boleyn Ground"
+  },
+  "2001-02-03-BRA-AVL": {
+    "attendance": 19591,
+    "venue": "Valley Parade"
+  },
+  "2001-02-03-COV-ARS": {
+    "attendance": 22035,
+    "venue": "Highfield Road"
+  },
+  "2001-02-03-DER-SUN": {
+    "attendance": 29129,
+    "venue": "Pride Park"
+  },
+  "2001-02-03-IPS-LEE": {
+    "attendance": 22015,
+    "venue": "Portman Road"
+  },
+  "2001-02-03-LEI-CHE": {
+    "attendance": 21502,
+    "venue": "Filbert Street"
+  },
+  "2001-02-03-LIV-WHU": {
+    "attendance": 44045,
+    "venue": "Anfield"
+  },
+  "2001-02-03-MID-MCI": {
+    "attendance": 31794,
+    "venue": "Riverside Stadium"
+  },
+  "2001-02-03-MUN-EVE": {
+    "attendance": 67528,
+    "venue": "Old Trafford"
+  },
+  "2001-02-03-TOT-CHA": {
+    "attendance": 35368,
+    "venue": "White Hart Lane"
+  },
+  "2001-02-07-EVE-LEE": {
+    "attendance": 34224,
+    "venue": "Goodison Park"
+  },
+  "2001-02-10-ARS-IPS": {
+    "attendance": 38011,
+    "venue": "Highbury"
+  },
+  "2001-02-10-AVL-MID": {
+    "attendance": 28912,
+    "venue": "Villa Park"
+  },
+  "2001-02-10-CHE-MUN": {
+    "attendance": 34960,
+    "venue": "Stamford Bridge"
+  },
+  "2001-02-10-EVE-LEI": {
+    "attendance": 30409,
+    "venue": "Goodison Park"
+  },
+  "2001-02-10-LEE-DER": {
+    "attendance": 38789,
+    "venue": "Elland Road"
+  },
+  "2001-02-10-MCI-TOT": {
+    "attendance": 34399,
+    "venue": "Maine Road"
+  },
+  "2001-02-10-SOU-BRA": {
+    "attendance": 14651,
+    "venue": "The Dell"
+  },
+  "2001-02-10-SUN-LIV": {
+    "attendance": 47533,
+    "venue": "Stadium of Light"
+  },
+  "2001-02-11-CHA-NEW": {
+    "attendance": 20043,
+    "venue": "The Valley"
+  },
+  "2001-02-12-WHU-COV": {
+    "attendance": 22586,
+    "venue": "Boleyn Ground"
+  },
+  "2001-02-24-BRA-WHU": {
+    "attendance": 20469,
+    "venue": "Valley Parade"
+  },
+  "2001-02-24-COV-CHA": {
+    "attendance": 19480,
+    "venue": "Highfield Road"
+  },
+  "2001-02-24-DER-AVL": {
+    "attendance": 27289,
+    "venue": "Pride Park"
+  },
+  "2001-02-24-IPS-EVE": {
+    "attendance": 22220,
+    "venue": "Portman Road"
+  },
+  "2001-02-24-LEI-SUN": {
+    "attendance": 21086,
+    "venue": "Filbert Street"
+  },
+  "2001-02-24-MID-SOU": {
+    "attendance": 28725,
+    "venue": "Riverside Stadium"
+  },
+  "2001-02-24-NEW-MCI": {
+    "attendance": 51981,
+    "venue": "St. James' Park"
+  },
+  "2001-02-24-TOT-LEE": {
+    "attendance": 36070,
+    "venue": "White Hart Lane"
+  },
+  "2001-02-25-MUN-ARS": {
+    "attendance": 67535,
+    "venue": "Old Trafford"
+  },
+  "2001-03-03-ARS-WHU": {
+    "attendance": 38071,
+    "venue": "Highbury"
+  },
+  "2001-03-03-COV-CHE": {
+    "attendance": 21609,
+    "venue": "Highfield Road"
+  },
+  "2001-03-03-DER-TOT": {
+    "attendance": 29410,
+    "venue": "Pride Park"
+  },
+  "2001-03-03-EVE-NEW": {
+    "attendance": 35779,
+    "venue": "Goodison Park"
+  },
+  "2001-03-03-LEE-MUN": {
+    "attendance": 40055,
+    "venue": "Elland Road"
+  },
+  "2001-03-03-LEI-LIV": {
+    "attendance": 21924,
+    "venue": "Filbert Street"
+  },
+  "2001-03-03-MCI-SOU": {
+    "attendance": 33990,
+    "venue": "Maine Road"
+  },
+  "2001-03-03-MID-CHA": {
+    "attendance": 28177,
+    "venue": "Riverside Stadium"
+  },
+  "2001-03-04-IPS-BRA": {
+    "attendance": 21820,
+    "venue": "Portman Road"
+  },
+  "2001-03-05-SUN-AVL": {
+    "attendance": 47196,
+    "venue": "Stadium of Light"
+  },
+  "2001-03-07-WHU-CHE": {
+    "attendance": 26016,
+    "venue": "Boleyn Ground"
+  },
+  "2001-03-10-AVL-IPS": {
+    "attendance": 28213,
+    "venue": "Villa Park"
+  },
+  "2001-03-17-BRA-MCI": {
+    "attendance": 19117,
+    "venue": "Valley Parade"
+  },
+  "2001-03-17-CHA-LEE": {
+    "attendance": 20043,
+    "venue": "The Valley"
+  },
+  "2001-03-17-CHE-SUN": {
+    "attendance": 34981,
+    "venue": "Stamford Bridge"
+  },
+  "2001-03-17-MUN-LEI": {
+    "attendance": 67516,
+    "venue": "Old Trafford"
+  },
+  "2001-03-17-NEW-MID": {
+    "attendance": 51751,
+    "venue": "St. James' Park"
+  },
+  "2001-03-17-SOU-EVE": {
+    "attendance": 15251,
+    "venue": "The Dell"
+  },
+  "2001-03-17-TOT-COV": {
+    "attendance": 35606,
+    "venue": "White Hart Lane"
+  },
+  "2001-03-17-WHU-IPS": {
+    "attendance": 26046,
+    "venue": "Boleyn Ground"
+  },
+  "2001-03-18-AVL-ARS": {
+    "attendance": 36111,
+    "venue": "Villa Park"
+  },
+  "2001-03-18-LIV-DER": {
+    "attendance": 43362,
+    "venue": "Anfield"
+  },
+  "2001-03-31-ARS-TOT": {
+    "attendance": 38121,
+    "venue": "Highbury"
+  },
+  "2001-03-31-BRA-NEW": {
+    "attendance": 20160,
+    "venue": "Valley Parade"
+  },
+  "2001-03-31-CHE-MID": {
+    "attendance": 34933,
+    "venue": "Stamford Bridge"
+  },
+  "2001-03-31-COV-DER": {
+    "attendance": 19654,
+    "venue": "Highfield Road"
+  },
+  "2001-03-31-LIV-MUN": {
+    "attendance": 44806,
+    "venue": "Anfield"
+  },
+  "2001-03-31-MCI-AVL": {
+    "attendance": 34247,
+    "venue": "Maine Road"
+  },
+  "2001-03-31-SUN-LEE": {
+    "attendance": 48285,
+    "venue": "Stadium of Light"
+  },
+  "2001-03-31-WHU-EVE": {
+    "attendance": 26044,
+    "venue": "Boleyn Ground"
+  },
+  "2001-04-01-CHA-LEI": {
+    "attendance": 20043,
+    "venue": "The Valley"
+  },
+  "2001-04-02-SOU-IPS": {
+    "attendance": 15244,
+    "venue": "The Dell"
+  },
+  "2001-04-04-AVL-LEI": {
+    "attendance": 29043,
+    "venue": "Villa Park"
+  },
+  "2001-04-07-AVL-WHU": {
+    "attendance": 31432,
+    "venue": "Villa Park"
+  },
+  "2001-04-07-DER-CHE": {
+    "attendance": 29320,
+    "venue": "Pride Park"
+  },
+  "2001-04-07-LEE-SOU": {
+    "attendance": 39267,
+    "venue": "Elland Road"
+  },
+  "2001-04-07-LEI-COV": {
+    "attendance": 19545,
+    "venue": "Filbert Street"
+  },
+  "2001-04-08-EVE-MCI": {
+    "attendance": 36561,
+    "venue": "Goodison Park"
+  },
+  "2001-04-09-MID-SUN": {
+    "attendance": 31284,
+    "venue": "Riverside Stadium"
+  },
+  "2001-04-10-IPS-LIV": {
+    "attendance": 23504,
+    "venue": "Portman Road"
+  },
+  "2001-04-10-MUN-CHA": {
+    "attendance": 67505,
+    "venue": "Old Trafford"
+  },
+  "2001-04-10-TOT-BRA": {
+    "attendance": 28306,
+    "venue": "White Hart Lane"
+  },
+  "2001-04-11-MCI-ARS": {
+    "attendance": 33444,
+    "venue": "Maine Road"
+  },
+  "2001-04-13-BRA-CHA": {
+    "attendance": 17511,
+    "venue": "Valley Parade"
+  },
+  "2001-04-13-LIV-LEE": {
+    "attendance": 44116,
+    "venue": "Anfield"
+  },
+  "2001-04-14-ARS-MID": {
+    "attendance": 37879,
+    "venue": "Highbury"
+  },
+  "2001-04-14-AVL-EVE": {
+    "attendance": 31272,
+    "venue": "Villa Park"
+  },
+  "2001-04-14-CHE-SOU": {
+    "attendance": 35136,
+    "venue": "Stamford Bridge"
+  },
+  "2001-04-14-IPS-NEW": {
+    "attendance": 24028,
+    "venue": "Portman Road"
+  },
+  "2001-04-14-LEI-MCI": {
+    "attendance": 20224,
+    "venue": "Filbert Street"
+  },
+  "2001-04-14-MUN-COV": {
+    "attendance": 67637,
+    "venue": "Old Trafford"
+  },
+  "2001-04-14-SUN-TOT": {
+    "attendance": 48029,
+    "venue": "Stadium of Light"
+  },
+  "2001-04-14-WHU-DER": {
+    "attendance": 35319,
+    "venue": "Boleyn Ground"
+  },
+  "2001-04-16-COV-SUN": {
+    "attendance": 20946,
+    "venue": "Highfield Road"
+  },
+  "2001-04-16-DER-LEI": {
+    "attendance": 28387,
+    "venue": "Pride Park"
+  },
+  "2001-04-16-EVE-LIV": {
+    "attendance": 40260,
+    "venue": "Goodison Park"
+  },
+  "2001-04-16-MID-IPS": {
+    "attendance": 34294,
+    "venue": "Riverside Stadium"
+  },
+  "2001-04-16-NEW-WHU": {
+    "attendance": 51107,
+    "venue": "St. James' Park"
+  },
+  "2001-04-17-CHA-AVL": {
+    "attendance": 20043,
+    "venue": "The Valley"
+  },
+  "2001-04-17-TOT-CHE": {
+    "attendance": 36074,
+    "venue": "White Hart Lane"
+  },
+  "2001-04-21-ARS-EVE": {
+    "attendance": 38029,
+    "venue": "Highbury"
+  },
+  "2001-04-21-AVL-SOU": {
+    "attendance": 29336,
+    "venue": "Villa Park"
+  },
+  "2001-04-21-BRA-DER": {
+    "attendance": 18564,
+    "venue": "Valley Parade"
+  },
+  "2001-04-21-CHE-CHA": {
+    "attendance": 34983,
+    "venue": "Stamford Bridge"
+  },
+  "2001-04-21-IPS-COV": {
+    "attendance": 24612,
+    "venue": "Portman Road"
+  },
+  "2001-04-21-LEI-MID": {
+    "attendance": 18162,
+    "venue": "Filbert Street"
+  },
+  "2001-04-21-MUN-MCI": {
+    "attendance": 67535,
+    "venue": "Old Trafford"
+  },
+  "2001-04-21-SUN-NEW": {
+    "attendance": 48277,
+    "venue": "Stadium of Light"
+  },
+  "2001-04-21-WHU-LEE": {
+    "attendance": 26041,
+    "venue": "Boleyn Ground"
+  },
+  "2001-04-22-LIV-TOT": {
+    "attendance": 43547,
+    "venue": "Anfield"
+  },
+  "2001-04-28-COV-LIV": {
+    "attendance": 23063,
+    "venue": "Highfield Road"
+  },
+  "2001-04-28-DER-ARS": {
+    "attendance": 29567,
+    "venue": "Pride Park"
+  },
+  "2001-04-28-EVE-BRA": {
+    "attendance": 34256,
+    "venue": "Goodison Park"
+  },
+  "2001-04-28-LEE-CHE": {
+    "attendance": 39253,
+    "venue": "Elland Road"
+  },
+  "2001-04-28-MCI-WHU": {
+    "attendance": 33737,
+    "venue": "Maine Road"
+  },
+  "2001-04-28-MID-MUN": {
+    "attendance": 34417,
+    "venue": "Riverside Stadium"
+  },
+  "2001-04-28-NEW-LEI": {
+    "attendance": 50501,
+    "venue": "St. James' Park"
+  },
+  "2001-04-28-SOU-SUN": {
+    "attendance": 15249,
+    "venue": "The Dell"
+  },
+  "2001-04-28-TOT-AVL": {
+    "attendance": 36096,
+    "venue": "White Hart Lane"
+  },
+  "2001-04-30-CHA-IPS": {
+    "attendance": 20043,
+    "venue": "The Valley"
+  },
+  "2001-05-01-BRA-LIV": {
+    "attendance": 22057,
+    "venue": "Valley Parade"
+  },
+  "2001-05-01-NEW-SOU": {
+    "attendance": 50439,
+    "venue": "St. James' Park"
+  },
+  "2001-05-05-ARS-LEE": {
+    "attendance": 38142,
+    "venue": "Highbury"
+  },
+  "2001-05-05-AVL-COV": {
+    "attendance": 39761,
+    "venue": "Villa Park"
+  },
+  "2001-05-05-BRA-MID": {
+    "attendance": 20921,
+    "venue": "Valley Parade"
+  },
+  "2001-05-05-CHE-EVE": {
+    "attendance": 35196,
+    "venue": "Stamford Bridge"
+  },
+  "2001-05-05-LEI-TOT": {
+    "attendance": 21056,
+    "venue": "Filbert Street"
+  },
+  "2001-05-05-LIV-NEW": {
+    "attendance": 44363,
+    "venue": "Anfield"
+  },
+  "2001-05-05-MUN-DER": {
+    "attendance": 67526,
+    "venue": "Old Trafford"
+  },
+  "2001-05-05-SUN-CHA": {
+    "attendance": 47671,
+    "venue": "Stadium of Light"
+  },
+  "2001-05-05-WHU-SOU": {
+    "attendance": 26041,
+    "venue": "Boleyn Ground"
+  },
+  "2001-05-07-IPS-MCI": {
+    "attendance": 25004,
+    "venue": "Portman Road"
+  },
+  "2001-05-08-LIV-CHE": {
+    "attendance": 43588,
+    "venue": "Anfield"
+  },
+  "2001-05-13-LEE-BRA": {
+    "attendance": 38300,
+    "venue": "Elland Road"
+  },
+  "2001-05-13-SOU-MUN": {
+    "attendance": 15246,
+    "venue": "The Dell"
+  },
+  "2001-05-15-NEW-ARS": {
+    "attendance": 50729,
+    "venue": "St. James' Park"
+  },
+  "2001-05-19-CHA-LIV": {
+    "attendance": 20043,
+    "venue": "The Valley"
+  },
+  "2001-05-19-COV-BRA": {
+    "attendance": 20299,
+    "venue": "Highfield Road"
+  },
+  "2001-05-19-DER-IPS": {
+    "attendance": 33239,
+    "venue": "Pride Park"
+  },
+  "2001-05-19-EVE-SUN": {
+    "attendance": 37444,
+    "venue": "Goodison Park"
+  },
+  "2001-05-19-LEE-LEI": {
+    "attendance": 39105,
+    "venue": "Elland Road"
+  },
+  "2001-05-19-MCI-CHE": {
+    "attendance": 34479,
+    "venue": "Maine Road"
+  },
+  "2001-05-19-MID-WHU": {
+    "attendance": 33057,
+    "venue": "Riverside Stadium"
+  },
+  "2001-05-19-NEW-AVL": {
+    "attendance": 51506,
+    "venue": "St. James' Park"
+  },
+  "2001-05-19-SOU-ARS": {
+    "attendance": 15252,
+    "venue": "The Dell"
+  },
+  "2001-05-19-TOT-MUN": {
+    "attendance": 36072,
+    "venue": "White Hart Lane"
+  }
+}

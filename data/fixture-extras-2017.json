@@ -1,0 +1,1522 @@
+{
+  "2017-08-11-ARS-LEI": {
+    "attendance": 59387,
+    "venue": "Emirates Stadium"
+  },
+  "2017-08-12-BHA-MCI": {
+    "attendance": 30415,
+    "venue": "Amex Stadium"
+  },
+  "2017-08-12-CHE-BUR": {
+    "attendance": 41616,
+    "venue": "Stamford Bridge"
+  },
+  "2017-08-12-CRY-HUD": {
+    "attendance": 25448,
+    "venue": "Selhurst Park"
+  },
+  "2017-08-12-EVE-STK": {
+    "attendance": 39045,
+    "venue": "Goodison Park"
+  },
+  "2017-08-12-SOU-SWA": {
+    "attendance": 31447,
+    "venue": "St. Mary's Stadium"
+  },
+  "2017-08-12-WAT-LIV": {
+    "attendance": 20407,
+    "venue": "Vicarage Road"
+  },
+  "2017-08-12-WBA-BOU": {
+    "attendance": 25011,
+    "venue": "The Hawthorns"
+  },
+  "2017-08-13-MUN-WHU": {
+    "attendance": 74928,
+    "venue": "Old Trafford"
+  },
+  "2017-08-13-NEW-TOT": {
+    "attendance": 52077,
+    "venue": "St. James' Park"
+  },
+  "2017-08-19-BOU-WAT": {
+    "attendance": 10501,
+    "venue": "Vitality Stadium"
+  },
+  "2017-08-19-BUR-WBA": {
+    "attendance": 19619,
+    "venue": "Turf Moor"
+  },
+  "2017-08-19-LEI-BHA": {
+    "attendance": 31902,
+    "venue": "King Power Stadium"
+  },
+  "2017-08-19-LIV-CRY": {
+    "attendance": 53138,
+    "venue": "Anfield"
+  },
+  "2017-08-19-SOU-WHU": {
+    "attendance": 31424,
+    "venue": "St. Mary's Stadium"
+  },
+  "2017-08-19-STK-ARS": {
+    "attendance": 29459,
+    "venue": "bet365 Stadium"
+  },
+  "2017-08-19-SWA-MUN": {
+    "attendance": 20862,
+    "venue": "Liberty Stadium"
+  },
+  "2017-08-20-HUD-NEW": {
+    "attendance": 24128,
+    "venue": "John Smith's Stadium"
+  },
+  "2017-08-20-TOT-CHE": {
+    "attendance": 73587,
+    "venue": "Wembley Stadium"
+  },
+  "2017-08-21-MCI-EVE": {
+    "attendance": 54009,
+    "venue": "Etihad Stadium"
+  },
+  "2017-08-26-BOU-MCI": {
+    "attendance": 10419,
+    "venue": "Vitality Stadium"
+  },
+  "2017-08-26-CRY-SWA": {
+    "attendance": 23477,
+    "venue": "Selhurst Park"
+  },
+  "2017-08-26-HUD-SOU": {
+    "attendance": 23548,
+    "venue": "John Smith's Stadium"
+  },
+  "2017-08-26-MUN-LEI": {
+    "attendance": 75021,
+    "venue": "Old Trafford"
+  },
+  "2017-08-26-NEW-WHU": {
+    "attendance": 52093,
+    "venue": "St. James' Park"
+  },
+  "2017-08-26-WAT-BHA": {
+    "attendance": 20181,
+    "venue": "Vicarage Road"
+  },
+  "2017-08-27-CHE-EVE": {
+    "attendance": 41382,
+    "venue": "Stamford Bridge"
+  },
+  "2017-08-27-LIV-ARS": {
+    "attendance": 53206,
+    "venue": "Anfield"
+  },
+  "2017-08-27-TOT-BUR": {
+    "attendance": 67862,
+    "venue": "Wembley Stadium"
+  },
+  "2017-08-27-WBA-STK": {
+    "attendance": 22704,
+    "venue": "The Hawthorns"
+  },
+  "2017-09-09-ARS-BOU": {
+    "attendance": 59262,
+    "venue": "Emirates Stadium"
+  },
+  "2017-09-09-BHA-WBA": {
+    "attendance": 30381,
+    "venue": "Amex Stadium"
+  },
+  "2017-09-09-EVE-TOT": {
+    "attendance": 38835,
+    "venue": "Goodison Park"
+  },
+  "2017-09-09-LEI-CHE": {
+    "attendance": 31923,
+    "venue": "King Power Stadium"
+  },
+  "2017-09-09-MCI-LIV": {
+    "attendance": 54172,
+    "venue": "Etihad Stadium"
+  },
+  "2017-09-09-SOU-WAT": {
+    "attendance": 31435,
+    "venue": "St. Mary's Stadium"
+  },
+  "2017-09-09-STK-MUN": {
+    "attendance": 29320,
+    "venue": "bet365 Stadium"
+  },
+  "2017-09-10-BUR-CRY": {
+    "attendance": 18862,
+    "venue": "Turf Moor"
+  },
+  "2017-09-10-SWA-NEW": {
+    "attendance": 20872,
+    "venue": "Liberty Stadium"
+  },
+  "2017-09-11-WHU-HUD": {
+    "attendance": 56977,
+    "venue": "London Stadium"
+  },
+  "2017-09-15-BOU-BHA": {
+    "attendance": 10369,
+    "venue": "Vitality Stadium"
+  },
+  "2017-09-16-CRY-SOU": {
+    "attendance": 24199,
+    "venue": "Selhurst Park"
+  },
+  "2017-09-16-HUD-LEI": {
+    "attendance": 24169,
+    "venue": "John Smith's Stadium"
+  },
+  "2017-09-16-LIV-BUR": {
+    "attendance": 53231,
+    "venue": "Anfield"
+  },
+  "2017-09-16-NEW-STK": {
+    "attendance": 51795,
+    "venue": "St. James' Park"
+  },
+  "2017-09-16-TOT-SWA": {
+    "attendance": 65366,
+    "venue": "Wembley Stadium"
+  },
+  "2017-09-16-WAT-MCI": {
+    "attendance": 20305,
+    "venue": "Vicarage Road"
+  },
+  "2017-09-16-WBA-WHU": {
+    "attendance": 24942,
+    "venue": "The Hawthorns"
+  },
+  "2017-09-17-CHE-ARS": {
+    "attendance": 41478,
+    "venue": "Stamford Bridge"
+  },
+  "2017-09-17-MUN-EVE": {
+    "attendance": 75042,
+    "venue": "Old Trafford"
+  },
+  "2017-09-23-BUR-HUD": {
+    "attendance": 20759,
+    "venue": "Turf Moor"
+  },
+  "2017-09-23-EVE-BOU": {
+    "attendance": 38133,
+    "venue": "Goodison Park"
+  },
+  "2017-09-23-LEI-LIV": {
+    "attendance": 32004,
+    "venue": "King Power Stadium"
+  },
+  "2017-09-23-MCI-CRY": {
+    "attendance": 53526,
+    "venue": "Etihad Stadium"
+  },
+  "2017-09-23-SOU-MUN": {
+    "attendance": 31930,
+    "venue": "St. Mary's Stadium"
+  },
+  "2017-09-23-STK-CHE": {
+    "attendance": 29661,
+    "venue": "bet365 Stadium"
+  },
+  "2017-09-23-SWA-WAT": {
+    "attendance": 20372,
+    "venue": "Liberty Stadium"
+  },
+  "2017-09-23-WHU-TOT": {
+    "attendance": 56988,
+    "venue": "London Stadium"
+  },
+  "2017-09-24-BHA-NEW": {
+    "attendance": 30468,
+    "venue": "Amex Stadium"
+  },
+  "2017-09-25-ARS-WBA": {
+    "attendance": 59134,
+    "venue": "Emirates Stadium"
+  },
+  "2017-09-30-BOU-LEI": {
+    "attendance": 10444,
+    "venue": "Vitality Stadium"
+  },
+  "2017-09-30-CHE-MCI": {
+    "attendance": 41530,
+    "venue": "Stamford Bridge"
+  },
+  "2017-09-30-HUD-TOT": {
+    "attendance": 24169,
+    "venue": "John Smith's Stadium"
+  },
+  "2017-09-30-MUN-CRY": {
+    "attendance": 75118,
+    "venue": "Old Trafford"
+  },
+  "2017-09-30-STK-SOU": {
+    "attendance": 29285,
+    "venue": "bet365 Stadium"
+  },
+  "2017-09-30-WBA-WAT": {
+    "attendance": 24606,
+    "venue": "The Hawthorns"
+  },
+  "2017-09-30-WHU-SWA": {
+    "attendance": 56922,
+    "venue": "London Stadium"
+  },
+  "2017-10-01-ARS-BHA": {
+    "attendance": 59378,
+    "venue": "Emirates Stadium"
+  },
+  "2017-10-01-EVE-BUR": {
+    "attendance": 38448,
+    "venue": "Goodison Park"
+  },
+  "2017-10-01-NEW-LIV": {
+    "attendance": 52303,
+    "venue": "St. James' Park"
+  },
+  "2017-10-14-BUR-WHU": {
+    "attendance": 20945,
+    "venue": "Turf Moor"
+  },
+  "2017-10-14-CRY-CHE": {
+    "attendance": 25480,
+    "venue": "Selhurst Park"
+  },
+  "2017-10-14-LIV-MUN": {
+    "attendance": 52912,
+    "venue": "Anfield"
+  },
+  "2017-10-14-MCI-STK": {
+    "attendance": 54128,
+    "venue": "Etihad Stadium"
+  },
+  "2017-10-14-SWA-HUD": {
+    "attendance": 20657,
+    "venue": "Liberty Stadium"
+  },
+  "2017-10-14-TOT-BOU": {
+    "attendance": 73502,
+    "venue": "Wembley Stadium"
+  },
+  "2017-10-14-WAT-ARS": {
+    "attendance": 20384,
+    "venue": "Vicarage Road"
+  },
+  "2017-10-15-BHA-EVE": {
+    "attendance": 30565,
+    "venue": "Amex Stadium"
+  },
+  "2017-10-15-SOU-NEW": {
+    "attendance": 31437,
+    "venue": "St. Mary's Stadium"
+  },
+  "2017-10-16-LEI-WBA": {
+    "attendance": 30203,
+    "venue": "King Power Stadium"
+  },
+  "2017-10-20-WHU-BHA": {
+    "attendance": 56977,
+    "venue": "London Stadium"
+  },
+  "2017-10-21-CHE-WAT": {
+    "attendance": 41467,
+    "venue": "Stamford Bridge"
+  },
+  "2017-10-21-HUD-MUN": {
+    "attendance": 24169,
+    "venue": "John Smith's Stadium"
+  },
+  "2017-10-21-MCI-BUR": {
+    "attendance": 54118,
+    "venue": "Etihad Stadium"
+  },
+  "2017-10-21-NEW-CRY": {
+    "attendance": 52251,
+    "venue": "St. James' Park"
+  },
+  "2017-10-21-SOU-WBA": {
+    "attendance": 29947,
+    "venue": "St. Mary's Stadium"
+  },
+  "2017-10-21-STK-BOU": {
+    "attendance": 29500,
+    "venue": "bet365 Stadium"
+  },
+  "2017-10-21-SWA-LEI": {
+    "attendance": 20521,
+    "venue": "Liberty Stadium"
+  },
+  "2017-10-22-EVE-ARS": {
+    "attendance": 39189,
+    "venue": "Goodison Park"
+  },
+  "2017-10-22-TOT-LIV": {
+    "attendance": 80827,
+    "venue": "Wembley Stadium"
+  },
+  "2017-10-28-ARS-SWA": {
+    "attendance": 59493,
+    "venue": "Emirates Stadium"
+  },
+  "2017-10-28-BOU-CHE": {
+    "attendance": 10998,
+    "venue": "Vitality Stadium"
+  },
+  "2017-10-28-CRY-WHU": {
+    "attendance": 25242,
+    "venue": "Selhurst Park"
+  },
+  "2017-10-28-LIV-HUD": {
+    "attendance": 53268,
+    "venue": "Anfield"
+  },
+  "2017-10-28-MUN-TOT": {
+    "attendance": 75034,
+    "venue": "Old Trafford"
+  },
+  "2017-10-28-WAT-STK": {
+    "attendance": 20087,
+    "venue": "Vicarage Road"
+  },
+  "2017-10-28-WBA-MCI": {
+    "attendance": 24003,
+    "venue": "The Hawthorns"
+  },
+  "2017-10-29-BHA-SOU": {
+    "attendance": 30564,
+    "venue": "Amex Stadium"
+  },
+  "2017-10-29-LEI-EVE": {
+    "attendance": 31891,
+    "venue": "King Power Stadium"
+  },
+  "2017-10-30-BUR-NEW": {
+    "attendance": 21031,
+    "venue": "Turf Moor"
+  },
+  "2017-11-04-HUD-WBA": {
+    "attendance": 24169,
+    "venue": "John Smith's Stadium"
+  },
+  "2017-11-04-NEW-BOU": {
+    "attendance": 52237,
+    "venue": "St. James' Park"
+  },
+  "2017-11-04-SOU-BUR": {
+    "attendance": 30491,
+    "venue": "St. Mary's Stadium"
+  },
+  "2017-11-04-STK-LEI": {
+    "attendance": 29602,
+    "venue": "bet365 Stadium"
+  },
+  "2017-11-04-SWA-BHA": {
+    "attendance": 20822,
+    "venue": "Liberty Stadium"
+  },
+  "2017-11-04-WHU-LIV": {
+    "attendance": 56961,
+    "venue": "London Stadium"
+  },
+  "2017-11-05-CHE-MUN": {
+    "attendance": 41615,
+    "venue": "Stamford Bridge"
+  },
+  "2017-11-05-EVE-WAT": {
+    "attendance": 38609,
+    "venue": "Goodison Park"
+  },
+  "2017-11-05-MCI-ARS": {
+    "attendance": 54286,
+    "venue": "Etihad Stadium"
+  },
+  "2017-11-05-TOT-CRY": {
+    "attendance": 65270,
+    "venue": "Wembley Stadium"
+  },
+  "2017-11-18-ARS-TOT": {
+    "attendance": 59530,
+    "venue": "Emirates Stadium"
+  },
+  "2017-11-18-BOU-HUD": {
+    "attendance": 10879,
+    "venue": "Vitality Stadium"
+  },
+  "2017-11-18-BUR-SWA": {
+    "attendance": 18895,
+    "venue": "Turf Moor"
+  },
+  "2017-11-18-CRY-EVE": {
+    "attendance": 25526,
+    "venue": "Selhurst Park"
+  },
+  "2017-11-18-LEI-MCI": {
+    "attendance": 31908,
+    "venue": "King Power Stadium"
+  },
+  "2017-11-18-LIV-SOU": {
+    "attendance": 53256,
+    "venue": "Anfield"
+  },
+  "2017-11-18-MUN-NEW": {
+    "attendance": 75035,
+    "venue": "Old Trafford"
+  },
+  "2017-11-18-WBA-CHE": {
+    "attendance": 23592,
+    "venue": "The Hawthorns"
+  },
+  "2017-11-19-WAT-WHU": {
+    "attendance": 20018,
+    "venue": "Vicarage Road"
+  },
+  "2017-11-20-BHA-STK": {
+    "attendance": 29676,
+    "venue": "Amex Stadium"
+  },
+  "2017-11-24-WHU-LEI": {
+    "attendance": 56897,
+    "venue": "London Stadium"
+  },
+  "2017-11-25-CRY-STK": {
+    "attendance": 23723,
+    "venue": "Selhurst Park"
+  },
+  "2017-11-25-LIV-CHE": {
+    "attendance": 53225,
+    "venue": "Anfield"
+  },
+  "2017-11-25-MUN-BHA": {
+    "attendance": 75018,
+    "venue": "Old Trafford"
+  },
+  "2017-11-25-NEW-WAT": {
+    "attendance": 52188,
+    "venue": "St. James' Park"
+  },
+  "2017-11-25-SWA-BOU": {
+    "attendance": 20228,
+    "venue": "Liberty Stadium"
+  },
+  "2017-11-25-TOT-WBA": {
+    "attendance": 65905,
+    "venue": "Wembley Stadium"
+  },
+  "2017-11-26-BUR-ARS": {
+    "attendance": 21722,
+    "venue": "Turf Moor"
+  },
+  "2017-11-26-HUD-MCI": {
+    "attendance": 24121,
+    "venue": "John Smith's Stadium"
+  },
+  "2017-11-26-SOU-EVE": {
+    "attendance": 30461,
+    "venue": "St. Mary's Stadium"
+  },
+  "2017-11-28-BHA-CRY": {
+    "attendance": 29889,
+    "venue": "Amex Stadium"
+  },
+  "2017-11-28-LEI-TOT": {
+    "attendance": 31950,
+    "venue": "King Power Stadium"
+  },
+  "2017-11-28-WAT-MUN": {
+    "attendance": 20552,
+    "venue": "Vicarage Road"
+  },
+  "2017-11-28-WBA-NEW": {
+    "attendance": 25534,
+    "venue": "The Hawthorns"
+  },
+  "2017-11-29-ARS-HUD": {
+    "attendance": 59285,
+    "venue": "Emirates Stadium"
+  },
+  "2017-11-29-BOU-BUR": {
+    "attendance": 10302,
+    "venue": "Vitality Stadium"
+  },
+  "2017-11-29-CHE-SWA": {
+    "attendance": 41365,
+    "venue": "Stamford Bridge"
+  },
+  "2017-11-29-EVE-WHU": {
+    "attendance": 38242,
+    "venue": "Goodison Park"
+  },
+  "2017-11-29-MCI-SOU": {
+    "attendance": 53407,
+    "venue": "Etihad Stadium"
+  },
+  "2017-11-29-STK-LIV": {
+    "attendance": 29423,
+    "venue": "bet365 Stadium"
+  },
+  "2017-12-02-ARS-MUN": {
+    "attendance": 59547,
+    "venue": "Emirates Stadium"
+  },
+  "2017-12-02-BHA-LIV": {
+    "attendance": 30634,
+    "venue": "Amex Stadium"
+  },
+  "2017-12-02-CHE-NEW": {
+    "attendance": 41538,
+    "venue": "Stamford Bridge"
+  },
+  "2017-12-02-EVE-HUD": {
+    "attendance": 39167,
+    "venue": "Goodison Park"
+  },
+  "2017-12-02-LEI-BUR": {
+    "attendance": 30714,
+    "venue": "King Power Stadium"
+  },
+  "2017-12-02-STK-SWA": {
+    "attendance": 28261,
+    "venue": "bet365 Stadium"
+  },
+  "2017-12-02-WAT-TOT": {
+    "attendance": 20278,
+    "venue": "Vicarage Road"
+  },
+  "2017-12-02-WBA-CRY": {
+    "attendance": 23531,
+    "venue": "The Hawthorns"
+  },
+  "2017-12-03-BOU-SOU": {
+    "attendance": 10764,
+    "venue": "Vitality Stadium"
+  },
+  "2017-12-03-MCI-WHU": {
+    "attendance": 54203,
+    "venue": "Etihad Stadium"
+  },
+  "2017-12-09-BUR-WAT": {
+    "attendance": 19479,
+    "venue": "Turf Moor"
+  },
+  "2017-12-09-CRY-BOU": {
+    "attendance": 24823,
+    "venue": "Selhurst Park"
+  },
+  "2017-12-09-HUD-BHA": {
+    "attendance": 24018,
+    "venue": "John Smith's Stadium"
+  },
+  "2017-12-09-NEW-LEI": {
+    "attendance": 52117,
+    "venue": "St. James' Park"
+  },
+  "2017-12-09-SWA-WBA": {
+    "attendance": 19580,
+    "venue": "Liberty Stadium"
+  },
+  "2017-12-09-TOT-STK": {
+    "attendance": 62202,
+    "venue": "Wembley Stadium"
+  },
+  "2017-12-09-WHU-CHE": {
+    "attendance": 56953,
+    "venue": "London Stadium"
+  },
+  "2017-12-10-LIV-EVE": {
+    "attendance": 53082,
+    "venue": "Anfield"
+  },
+  "2017-12-10-MUN-MCI": {
+    "attendance": 74847,
+    "venue": "Old Trafford"
+  },
+  "2017-12-10-SOU-ARS": {
+    "attendance": 31643,
+    "venue": "St. Mary's Stadium"
+  },
+  "2017-12-12-BUR-STK": {
+    "attendance": 19909,
+    "venue": "Turf Moor"
+  },
+  "2017-12-12-CRY-WAT": {
+    "attendance": 23566,
+    "venue": "Selhurst Park"
+  },
+  "2017-12-12-HUD-CHE": {
+    "attendance": 24169,
+    "venue": "John Smith's Stadium"
+  },
+  "2017-12-13-LIV-WBA": {
+    "attendance": 53243,
+    "venue": "Anfield"
+  },
+  "2017-12-13-MUN-BOU": {
+    "attendance": 74798,
+    "venue": "Old Trafford"
+  },
+  "2017-12-13-NEW-EVE": {
+    "attendance": 51042,
+    "venue": "St. James' Park"
+  },
+  "2017-12-13-SOU-LEI": {
+    "attendance": 27714,
+    "venue": "St. Mary's Stadium"
+  },
+  "2017-12-13-SWA-MCI": {
+    "attendance": 20870,
+    "venue": "Liberty Stadium"
+  },
+  "2017-12-13-TOT-BHA": {
+    "attendance": 55124,
+    "venue": "Wembley Stadium"
+  },
+  "2017-12-13-WHU-ARS": {
+    "attendance": 56921,
+    "venue": "London Stadium"
+  },
+  "2017-12-16-ARS-NEW": {
+    "attendance": 59379,
+    "venue": "Emirates Stadium"
+  },
+  "2017-12-16-BHA-BUR": {
+    "attendance": 29921,
+    "venue": "Amex Stadium"
+  },
+  "2017-12-16-CHE-SOU": {
+    "attendance": 41562,
+    "venue": "Stamford Bridge"
+  },
+  "2017-12-16-LEI-CRY": {
+    "attendance": 31081,
+    "venue": "King Power Stadium"
+  },
+  "2017-12-16-MCI-TOT": {
+    "attendance": 54214,
+    "venue": "Etihad Stadium"
+  },
+  "2017-12-16-STK-WHU": {
+    "attendance": 29265,
+    "venue": "bet365 Stadium"
+  },
+  "2017-12-16-WAT-HUD": {
+    "attendance": 20026,
+    "venue": "Vicarage Road"
+  },
+  "2017-12-17-BOU-LIV": {
+    "attendance": 10780,
+    "venue": "Vitality Stadium"
+  },
+  "2017-12-17-WBA-MUN": {
+    "attendance": 24782,
+    "venue": "The Hawthorns"
+  },
+  "2017-12-18-EVE-SWA": {
+    "attendance": 37580,
+    "venue": "Goodison Park"
+  },
+  "2017-12-22-ARS-LIV": {
+    "attendance": 59409,
+    "venue": "Emirates Stadium"
+  },
+  "2017-12-23-BHA-WAT": {
+    "attendance": 30473,
+    "venue": "Amex Stadium"
+  },
+  "2017-12-23-BUR-TOT": {
+    "attendance": 21650,
+    "venue": "Turf Moor"
+  },
+  "2017-12-23-EVE-CHE": {
+    "attendance": 39191,
+    "venue": "Goodison Park"
+  },
+  "2017-12-23-LEI-MUN": {
+    "attendance": 32202,
+    "venue": "King Power Stadium"
+  },
+  "2017-12-23-MCI-BOU": {
+    "attendance": 54270,
+    "venue": "Etihad Stadium"
+  },
+  "2017-12-23-SOU-HUD": {
+    "attendance": 29675,
+    "venue": "St. Mary's Stadium"
+  },
+  "2017-12-23-STK-WBA": {
+    "attendance": 29057,
+    "venue": "bet365 Stadium"
+  },
+  "2017-12-23-SWA-CRY": {
+    "attendance": 20354,
+    "venue": "Liberty Stadium"
+  },
+  "2017-12-23-WHU-NEW": {
+    "attendance": 56955,
+    "venue": "London Stadium"
+  },
+  "2017-12-26-BOU-WHU": {
+    "attendance": 10596,
+    "venue": "Vitality Stadium"
+  },
+  "2017-12-26-CHE-BHA": {
+    "attendance": 41568,
+    "venue": "Stamford Bridge"
+  },
+  "2017-12-26-HUD-STK": {
+    "attendance": 24047,
+    "venue": "John Smith's Stadium"
+  },
+  "2017-12-26-LIV-SWA": {
+    "attendance": 52850,
+    "venue": "Anfield"
+  },
+  "2017-12-26-MUN-BUR": {
+    "attendance": 75046,
+    "venue": "Old Trafford"
+  },
+  "2017-12-26-TOT-SOU": {
+    "attendance": 57297,
+    "venue": "Wembley Stadium"
+  },
+  "2017-12-26-WAT-LEI": {
+    "attendance": 20308,
+    "venue": "Vicarage Road"
+  },
+  "2017-12-26-WBA-EVE": {
+    "attendance": 25364,
+    "venue": "The Hawthorns"
+  },
+  "2017-12-27-NEW-MCI": {
+    "attendance": 52311,
+    "venue": "St. James' Park"
+  },
+  "2017-12-28-CRY-ARS": {
+    "attendance": 25762,
+    "venue": "Selhurst Park"
+  },
+  "2017-12-30-BOU-EVE": {
+    "attendance": 10497,
+    "venue": "Vitality Stadium"
+  },
+  "2017-12-30-CHE-STK": {
+    "attendance": 41433,
+    "venue": "Stamford Bridge"
+  },
+  "2017-12-30-HUD-BUR": {
+    "attendance": 24095,
+    "venue": "John Smith's Stadium"
+  },
+  "2017-12-30-LIV-LEI": {
+    "attendance": 53226,
+    "venue": "Anfield"
+  },
+  "2017-12-30-MUN-SOU": {
+    "attendance": 75051,
+    "venue": "Old Trafford"
+  },
+  "2017-12-30-NEW-BHA": {
+    "attendance": 52209,
+    "venue": "St. James' Park"
+  },
+  "2017-12-30-WAT-SWA": {
+    "attendance": 20002,
+    "venue": "Vicarage Road"
+  },
+  "2017-12-31-CRY-MCI": {
+    "attendance": 25804,
+    "venue": "Selhurst Park"
+  },
+  "2017-12-31-WBA-ARS": {
+    "attendance": 26223,
+    "venue": "The Hawthorns"
+  },
+  "2018-01-01-BHA-BOU": {
+    "attendance": 30152,
+    "venue": "Amex Stadium"
+  },
+  "2018-01-01-BUR-LIV": {
+    "attendance": 21756,
+    "venue": "Turf Moor"
+  },
+  "2018-01-01-EVE-MUN": {
+    "attendance": 39188,
+    "venue": "Goodison Park"
+  },
+  "2018-01-01-LEI-HUD": {
+    "attendance": 31748,
+    "venue": "King Power Stadium"
+  },
+  "2018-01-01-STK-NEW": {
+    "attendance": 28471,
+    "venue": "bet365 Stadium"
+  },
+  "2018-01-02-MCI-WAT": {
+    "attendance": 53556,
+    "venue": "Etihad Stadium"
+  },
+  "2018-01-02-SOU-CRY": {
+    "attendance": 28411,
+    "venue": "St. Mary's Stadium"
+  },
+  "2018-01-02-SWA-TOT": {
+    "attendance": 20615,
+    "venue": "Liberty Stadium"
+  },
+  "2018-01-02-WHU-WBA": {
+    "attendance": 56888,
+    "venue": "London Stadium"
+  },
+  "2018-01-03-ARS-CHE": {
+    "attendance": 59379,
+    "venue": "Emirates Stadium"
+  },
+  "2018-01-04-TOT-WHU": {
+    "attendance": 50034,
+    "venue": "Wembley Stadium"
+  },
+  "2018-01-13-CHE-LEI": {
+    "attendance": 41552,
+    "venue": "Stamford Bridge"
+  },
+  "2018-01-13-CRY-BUR": {
+    "attendance": 24696,
+    "venue": "Selhurst Park"
+  },
+  "2018-01-13-HUD-WHU": {
+    "attendance": 24105,
+    "venue": "John Smith's Stadium"
+  },
+  "2018-01-13-NEW-SWA": {
+    "attendance": 51444,
+    "venue": "St. James' Park"
+  },
+  "2018-01-13-TOT-EVE": {
+    "attendance": 76251,
+    "venue": "Wembley Stadium"
+  },
+  "2018-01-13-WAT-SOU": {
+    "attendance": 20018,
+    "venue": "Vicarage Road"
+  },
+  "2018-01-13-WBA-BHA": {
+    "attendance": 25240,
+    "venue": "The Hawthorns"
+  },
+  "2018-01-14-BOU-ARS": {
+    "attendance": 10836,
+    "venue": "Vitality Stadium"
+  },
+  "2018-01-14-LIV-MCI": {
+    "attendance": 53285,
+    "venue": "Anfield"
+  },
+  "2018-01-15-MUN-STK": {
+    "attendance": 74726,
+    "venue": "Old Trafford"
+  },
+  "2018-01-20-ARS-CRY": {
+    "attendance": 59386,
+    "venue": "Emirates Stadium"
+  },
+  "2018-01-20-BHA-CHE": {
+    "attendance": 30600,
+    "venue": "Amex Stadium"
+  },
+  "2018-01-20-BUR-MUN": {
+    "attendance": 21841,
+    "venue": "Turf Moor"
+  },
+  "2018-01-20-EVE-WBA": {
+    "attendance": 39061,
+    "venue": "Goodison Park"
+  },
+  "2018-01-20-LEI-WAT": {
+    "attendance": 31891,
+    "venue": "King Power Stadium"
+  },
+  "2018-01-20-MCI-NEW": {
+    "attendance": 54452,
+    "venue": "Etihad Stadium"
+  },
+  "2018-01-20-STK-HUD": {
+    "attendance": 29785,
+    "venue": "bet365 Stadium"
+  },
+  "2018-01-20-WHU-BOU": {
+    "attendance": 56948,
+    "venue": "London Stadium"
+  },
+  "2018-01-21-SOU-TOT": {
+    "attendance": 31361,
+    "venue": "St. Mary's Stadium"
+  },
+  "2018-01-22-SWA-LIV": {
+    "attendance": 20886,
+    "venue": "Liberty Stadium"
+  },
+  "2018-01-30-HUD-LIV": {
+    "attendance": 24121,
+    "venue": "John Smith's Stadium"
+  },
+  "2018-01-30-SWA-ARS": {
+    "attendance": 20819,
+    "venue": "Liberty Stadium"
+  },
+  "2018-01-30-WHU-CRY": {
+    "attendance": 56911,
+    "venue": "London Stadium"
+  },
+  "2018-01-31-CHE-BOU": {
+    "attendance": 41464,
+    "venue": "Stamford Bridge"
+  },
+  "2018-01-31-EVE-LEI": {
+    "attendance": 38390,
+    "venue": "Goodison Park"
+  },
+  "2018-01-31-MCI-WBA": {
+    "attendance": 53241,
+    "venue": "Etihad Stadium"
+  },
+  "2018-01-31-NEW-BUR": {
+    "attendance": 50174,
+    "venue": "St. James' Park"
+  },
+  "2018-01-31-SOU-BHA": {
+    "attendance": 30034,
+    "venue": "St. Mary's Stadium"
+  },
+  "2018-01-31-STK-WAT": {
+    "attendance": 27458,
+    "venue": "bet365 Stadium"
+  },
+  "2018-01-31-TOT-MUN": {
+    "attendance": 81978,
+    "venue": "Wembley Stadium"
+  },
+  "2018-02-03-ARS-EVE": {
+    "attendance": 59306,
+    "venue": "Emirates Stadium"
+  },
+  "2018-02-03-BHA-WHU": {
+    "attendance": 30589,
+    "venue": "Amex Stadium"
+  },
+  "2018-02-03-BOU-STK": {
+    "attendance": 10614,
+    "venue": "Vitality Stadium"
+  },
+  "2018-02-03-BUR-MCI": {
+    "attendance": 21658,
+    "venue": "Turf Moor"
+  },
+  "2018-02-03-LEI-SWA": {
+    "attendance": 31179,
+    "venue": "King Power Stadium"
+  },
+  "2018-02-03-MUN-HUD": {
+    "attendance": 74742,
+    "venue": "Old Trafford"
+  },
+  "2018-02-03-WBA-SOU": {
+    "attendance": 25911,
+    "venue": "The Hawthorns"
+  },
+  "2018-02-04-CRY-NEW": {
+    "attendance": 25746,
+    "venue": "Selhurst Park"
+  },
+  "2018-02-04-LIV-TOT": {
+    "attendance": 53213,
+    "venue": "Anfield"
+  },
+  "2018-02-05-WAT-CHE": {
+    "attendance": 20157,
+    "venue": "Vicarage Road"
+  },
+  "2018-02-10-EVE-CRY": {
+    "attendance": 39139,
+    "venue": "Goodison Park"
+  },
+  "2018-02-10-MCI-LEI": {
+    "attendance": 54416,
+    "venue": "Etihad Stadium"
+  },
+  "2018-02-10-STK-BHA": {
+    "attendance": 29876,
+    "venue": "bet365 Stadium"
+  },
+  "2018-02-10-SWA-BUR": {
+    "attendance": 20179,
+    "venue": "Liberty Stadium"
+  },
+  "2018-02-10-TOT-ARS": {
+    "attendance": 83222,
+    "venue": "Wembley Stadium"
+  },
+  "2018-02-10-WHU-WAT": {
+    "attendance": 56197,
+    "venue": "London Stadium"
+  },
+  "2018-02-11-HUD-BOU": {
+    "attendance": 23823,
+    "venue": "John Smith's Stadium"
+  },
+  "2018-02-11-NEW-MUN": {
+    "attendance": 52309,
+    "venue": "St. James' Park"
+  },
+  "2018-02-11-SOU-LIV": {
+    "attendance": 31915,
+    "venue": "St. Mary's Stadium"
+  },
+  "2018-02-12-CHE-WBA": {
+    "attendance": 41071,
+    "venue": "Stamford Bridge"
+  },
+  "2018-02-24-BHA-SWA": {
+    "attendance": 30523,
+    "venue": "Amex Stadium"
+  },
+  "2018-02-24-BOU-NEW": {
+    "attendance": 10808,
+    "venue": "Vitality Stadium"
+  },
+  "2018-02-24-BUR-SOU": {
+    "attendance": 20982,
+    "venue": "Turf Moor"
+  },
+  "2018-02-24-LEI-STK": {
+    "attendance": 31769,
+    "venue": "King Power Stadium"
+  },
+  "2018-02-24-LIV-WHU": {
+    "attendance": 53256,
+    "venue": "Anfield"
+  },
+  "2018-02-24-WAT-EVE": {
+    "attendance": 20430,
+    "venue": "Vicarage Road"
+  },
+  "2018-02-24-WBA-HUD": {
+    "attendance": 25920,
+    "venue": "The Hawthorns"
+  },
+  "2018-02-25-CRY-TOT": {
+    "attendance": 25287,
+    "venue": "Selhurst Park"
+  },
+  "2018-02-25-MUN-CHE": {
+    "attendance": 75060,
+    "venue": "Old Trafford"
+  },
+  "2018-03-01-ARS-MCI": {
+    "attendance": 58420,
+    "venue": "Emirates Stadium"
+  },
+  "2018-03-03-BUR-EVE": {
+    "attendance": 20802,
+    "venue": "Turf Moor"
+  },
+  "2018-03-03-LEI-BOU": {
+    "attendance": 31384,
+    "venue": "King Power Stadium"
+  },
+  "2018-03-03-LIV-NEW": {
+    "attendance": 53287,
+    "venue": "Anfield"
+  },
+  "2018-03-03-SOU-STK": {
+    "attendance": 30335,
+    "venue": "St. Mary's Stadium"
+  },
+  "2018-03-03-SWA-WHU": {
+    "attendance": 20829,
+    "venue": "Liberty Stadium"
+  },
+  "2018-03-03-TOT-HUD": {
+    "attendance": 68311,
+    "venue": "Wembley Stadium"
+  },
+  "2018-03-03-WAT-WBA": {
+    "attendance": 20022,
+    "venue": "Vicarage Road"
+  },
+  "2018-03-04-BHA-ARS": {
+    "attendance": 30620,
+    "venue": "Amex Stadium"
+  },
+  "2018-03-04-MCI-CHE": {
+    "attendance": 54328,
+    "venue": "Etihad Stadium"
+  },
+  "2018-03-05-CRY-MUN": {
+    "attendance": 25840,
+    "venue": "Selhurst Park"
+  },
+  "2018-03-10-CHE-CRY": {
+    "attendance": 40800,
+    "venue": "Stamford Bridge"
+  },
+  "2018-03-10-EVE-BHA": {
+    "attendance": 39199,
+    "venue": "Goodison Park"
+  },
+  "2018-03-10-HUD-SWA": {
+    "attendance": 23567,
+    "venue": "John Smith's Stadium"
+  },
+  "2018-03-10-MUN-LIV": {
+    "attendance": 74855,
+    "venue": "Old Trafford"
+  },
+  "2018-03-10-NEW-SOU": {
+    "attendance": 52246,
+    "venue": "St. James' Park"
+  },
+  "2018-03-10-WBA-LEI": {
+    "attendance": 23558,
+    "venue": "The Hawthorns"
+  },
+  "2018-03-10-WHU-BUR": {
+    "attendance": 56904,
+    "venue": "London Stadium"
+  },
+  "2018-03-11-ARS-WAT": {
+    "attendance": 59131,
+    "venue": "Emirates Stadium"
+  },
+  "2018-03-11-BOU-TOT": {
+    "attendance": 10623,
+    "venue": "Vitality Stadium"
+  },
+  "2018-03-12-STK-MCI": {
+    "attendance": 29138,
+    "venue": "bet365 Stadium"
+  },
+  "2018-03-17-BOU-WBA": {
+    "attendance": 10242,
+    "venue": "Vitality Stadium"
+  },
+  "2018-03-17-HUD-CRY": {
+    "attendance": 23980,
+    "venue": "John Smith's Stadium"
+  },
+  "2018-03-17-LIV-WAT": {
+    "attendance": 53287,
+    "venue": "Anfield"
+  },
+  "2018-03-17-STK-EVE": {
+    "attendance": 30022,
+    "venue": "bet365 Stadium"
+  },
+  "2018-03-31-BHA-LEI": {
+    "attendance": 30629,
+    "venue": "Amex Stadium"
+  },
+  "2018-03-31-CRY-LIV": {
+    "attendance": 25807,
+    "venue": "Selhurst Park"
+  },
+  "2018-03-31-EVE-MCI": {
+    "attendance": 39221,
+    "venue": "Goodison Park"
+  },
+  "2018-03-31-MUN-SWA": {
+    "attendance": 75038,
+    "venue": "Old Trafford"
+  },
+  "2018-03-31-NEW-HUD": {
+    "attendance": 52261,
+    "venue": "St. James' Park"
+  },
+  "2018-03-31-WAT-BOU": {
+    "attendance": 20393,
+    "venue": "Vicarage Road"
+  },
+  "2018-03-31-WBA-BUR": {
+    "attendance": 23455,
+    "venue": "The Hawthorns"
+  },
+  "2018-03-31-WHU-SOU": {
+    "attendance": 56882,
+    "venue": "London Stadium"
+  },
+  "2018-04-01-ARS-STK": {
+    "attendance": 59371,
+    "venue": "Emirates Stadium"
+  },
+  "2018-04-01-CHE-TOT": {
+    "attendance": 41364,
+    "venue": "Stamford Bridge"
+  },
+  "2018-04-07-BHA-HUD": {
+    "attendance": 30501,
+    "venue": "Amex Stadium"
+  },
+  "2018-04-07-BOU-CRY": {
+    "attendance": 10730,
+    "venue": "Vitality Stadium"
+  },
+  "2018-04-07-EVE-LIV": {
+    "attendance": 39220,
+    "venue": "Goodison Park"
+  },
+  "2018-04-07-LEI-NEW": {
+    "attendance": 32066,
+    "venue": "King Power Stadium"
+  },
+  "2018-04-07-MCI-MUN": {
+    "attendance": 54259,
+    "venue": "Etihad Stadium"
+  },
+  "2018-04-07-STK-TOT": {
+    "attendance": 29515,
+    "venue": "bet365 Stadium"
+  },
+  "2018-04-07-WAT-BUR": {
+    "attendance": 20044,
+    "venue": "Vicarage Road"
+  },
+  "2018-04-07-WBA-SWA": {
+    "attendance": 23297,
+    "venue": "The Hawthorns"
+  },
+  "2018-04-08-ARS-SOU": {
+    "attendance": 59374,
+    "venue": "Emirates Stadium"
+  },
+  "2018-04-08-CHE-WHU": {
+    "attendance": 41324,
+    "venue": "Stamford Bridge"
+  },
+  "2018-04-14-BUR-LEI": {
+    "attendance": 21727,
+    "venue": "Turf Moor"
+  },
+  "2018-04-14-CRY-BHA": {
+    "attendance": 24656,
+    "venue": "Selhurst Park"
+  },
+  "2018-04-14-HUD-WAT": {
+    "attendance": 23961,
+    "venue": "John Smith's Stadium"
+  },
+  "2018-04-14-LIV-BOU": {
+    "attendance": 52959,
+    "venue": "Anfield"
+  },
+  "2018-04-14-SOU-CHE": {
+    "attendance": 31764,
+    "venue": "St. Mary's Stadium"
+  },
+  "2018-04-14-SWA-EVE": {
+    "attendance": 20933,
+    "venue": "Liberty Stadium"
+  },
+  "2018-04-14-TOT-MCI": {
+    "attendance": 80811,
+    "venue": "Wembley Stadium"
+  },
+  "2018-04-15-MUN-WBA": {
+    "attendance": 75095,
+    "venue": "Old Trafford"
+  },
+  "2018-04-15-NEW-ARS": {
+    "attendance": 52210,
+    "venue": "St. James' Park"
+  },
+  "2018-04-16-WHU-STK": {
+    "attendance": 56795,
+    "venue": "London Stadium"
+  },
+  "2018-04-17-BHA-TOT": {
+    "attendance": 30440,
+    "venue": "Amex Stadium"
+  },
+  "2018-04-18-BOU-MUN": {
+    "attendance": 10952,
+    "venue": "Vitality Stadium"
+  },
+  "2018-04-19-BUR-CHE": {
+    "attendance": 21264,
+    "venue": "Turf Moor"
+  },
+  "2018-04-19-LEI-SOU": {
+    "attendance": 31160,
+    "venue": "King Power Stadium"
+  },
+  "2018-04-21-WAT-CRY": {
+    "attendance": 20401,
+    "venue": "Vicarage Road"
+  },
+  "2018-04-21-WBA-LIV": {
+    "attendance": 24520,
+    "venue": "The Hawthorns"
+  },
+  "2018-04-22-ARS-WHU": {
+    "attendance": 59422,
+    "venue": "Emirates Stadium"
+  },
+  "2018-04-22-MCI-SWA": {
+    "attendance": 54387,
+    "venue": "Etihad Stadium"
+  },
+  "2018-04-22-STK-BUR": {
+    "attendance": 29532,
+    "venue": "bet365 Stadium"
+  },
+  "2018-04-23-EVE-NEW": {
+    "attendance": 39061,
+    "venue": "Goodison Park"
+  },
+  "2018-04-28-BUR-BHA": {
+    "attendance": 19459,
+    "venue": "Turf Moor"
+  },
+  "2018-04-28-CRY-LEI": {
+    "attendance": 25750,
+    "venue": "Selhurst Park"
+  },
+  "2018-04-28-HUD-EVE": {
+    "attendance": 24121,
+    "venue": "John Smith's Stadium"
+  },
+  "2018-04-28-LIV-STK": {
+    "attendance": 53255,
+    "venue": "Anfield"
+  },
+  "2018-04-28-NEW-WBA": {
+    "attendance": 52283,
+    "venue": "St. James' Park"
+  },
+  "2018-04-28-SOU-BOU": {
+    "attendance": 31778,
+    "venue": "St. Mary's Stadium"
+  },
+  "2018-04-28-SWA-CHE": {
+    "attendance": 20900,
+    "venue": "Liberty Stadium"
+  },
+  "2018-04-29-MUN-ARS": {
+    "attendance": 75035,
+    "venue": "Old Trafford"
+  },
+  "2018-04-29-WHU-MCI": {
+    "attendance": 56904,
+    "venue": "London Stadium"
+  },
+  "2018-04-30-TOT-WAT": {
+    "attendance": 52675,
+    "venue": "Wembley Stadium"
+  },
+  "2018-05-04-BHA-MUN": {
+    "attendance": 30611,
+    "venue": "Amex Stadium"
+  },
+  "2018-05-05-BOU-SWA": {
+    "attendance": 10820,
+    "venue": "Vitality Stadium"
+  },
+  "2018-05-05-EVE-SOU": {
+    "attendance": 38225,
+    "venue": "Goodison Park"
+  },
+  "2018-05-05-LEI-WHU": {
+    "attendance": 32013,
+    "venue": "King Power Stadium"
+  },
+  "2018-05-05-STK-CRY": {
+    "attendance": 29687,
+    "venue": "bet365 Stadium"
+  },
+  "2018-05-05-WAT-NEW": {
+    "attendance": 20375,
+    "venue": "Vicarage Road"
+  },
+  "2018-05-05-WBA-TOT": {
+    "attendance": 23685,
+    "venue": "The Hawthorns"
+  },
+  "2018-05-06-ARS-BUR": {
+    "attendance": 59540,
+    "venue": "Emirates Stadium"
+  },
+  "2018-05-06-CHE-LIV": {
+    "attendance": 41314,
+    "venue": "Stamford Bridge"
+  },
+  "2018-05-06-MCI-HUD": {
+    "attendance": 54350,
+    "venue": "Etihad Stadium"
+  },
+  "2018-05-08-SWA-SOU": {
+    "attendance": 20858,
+    "venue": "Liberty Stadium"
+  },
+  "2018-05-09-CHE-HUD": {
+    "attendance": 38910,
+    "venue": "Stamford Bridge"
+  },
+  "2018-05-09-LEI-ARS": {
+    "attendance": 32095,
+    "venue": "King Power Stadium"
+  },
+  "2018-05-09-MCI-BHA": {
+    "attendance": 54013,
+    "venue": "Etihad Stadium"
+  },
+  "2018-05-09-TOT-NEW": {
+    "attendance": 54923,
+    "venue": "Wembley Stadium"
+  },
+  "2018-05-10-WHU-MUN": {
+    "attendance": 56902,
+    "venue": "London Stadium"
+  },
+  "2018-05-13-BUR-BOU": {
+    "attendance": 20720,
+    "venue": "Turf Moor"
+  },
+  "2018-05-13-CRY-WBA": {
+    "attendance": 25357,
+    "venue": "Selhurst Park"
+  },
+  "2018-05-13-HUD-ARS": {
+    "attendance": 24122,
+    "venue": "John Smith's Stadium"
+  },
+  "2018-05-13-LIV-BHA": {
+    "attendance": 50752,
+    "venue": "Anfield"
+  },
+  "2018-05-13-MUN-WAT": {
+    "attendance": 75049,
+    "venue": "Old Trafford"
+  },
+  "2018-05-13-NEW-CHE": {
+    "attendance": 52294,
+    "venue": "St. James' Park"
+  },
+  "2018-05-13-SOU-MCI": {
+    "attendance": 31882,
+    "venue": "St. Mary's Stadium"
+  },
+  "2018-05-13-SWA-STK": {
+    "attendance": 20673,
+    "venue": "Liberty Stadium"
+  },
+  "2018-05-13-TOT-LEI": {
+    "attendance": 77841,
+    "venue": "Wembley Stadium"
+  },
+  "2018-05-13-WHU-EVE": {
+    "attendance": 56926,
+    "venue": "London Stadium"
+  }
+}

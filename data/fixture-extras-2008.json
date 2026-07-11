@@ -1,0 +1,1522 @@
+{
+  "2008-08-16-ARS-WBA": {
+    "attendance": null,
+    "venue": "Emirates Stadium"
+  },
+  "2008-08-16-BOL-STK": {
+    "attendance": 22232,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2008-08-16-EVE-BLB": {
+    "attendance": null,
+    "venue": "Goodison Park"
+  },
+  "2008-08-16-HUL-FUL": {
+    "attendance": null,
+    "venue": "MKM Stadium"
+  },
+  "2008-08-16-MID-TOT": {
+    "attendance": null,
+    "venue": "Riverside Stadium"
+  },
+  "2008-08-16-SUN-LIV": {
+    "attendance": null,
+    "venue": "Stadium of Light"
+  },
+  "2008-08-16-WHU-WIG": {
+    "attendance": 32758,
+    "venue": "Boleyn Ground"
+  },
+  "2008-08-17-AVL-MCI": {
+    "attendance": 39955,
+    "venue": "Villa Park"
+  },
+  "2008-08-17-CHE-POR": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2008-08-17-MUN-NEW": {
+    "attendance": null,
+    "venue": "Old Trafford"
+  },
+  "2008-08-23-BLB-HUL": {
+    "attendance": 23432,
+    "venue": "Ewood Park"
+  },
+  "2008-08-23-FUL-ARS": {
+    "attendance": null,
+    "venue": "Craven Cottage"
+  },
+  "2008-08-23-LIV-MID": {
+    "attendance": null,
+    "venue": "Anfield"
+  },
+  "2008-08-23-NEW-BOL": {
+    "attendance": null,
+    "venue": "Sports Direct Arena"
+  },
+  "2008-08-23-STK-AVL": {
+    "attendance": null,
+    "venue": "Britannia Stadium"
+  },
+  "2008-08-23-TOT-SUN": {
+    "attendance": null,
+    "venue": "White Hart Lane"
+  },
+  "2008-08-23-WBA-EVE": {
+    "attendance": null,
+    "venue": "The Hawthorns"
+  },
+  "2008-08-24-MCI-WHU": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2008-08-24-WIG-CHE": {
+    "attendance": null,
+    "venue": "The Brick Community Stadium"
+  },
+  "2008-08-25-POR-MUN": {
+    "attendance": null,
+    "venue": "Fratton Park"
+  },
+  "2008-08-30-ARS-NEW": {
+    "attendance": null,
+    "venue": "Emirates Stadium"
+  },
+  "2008-08-30-BOL-WBA": {
+    "attendance": null,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2008-08-30-EVE-POR": {
+    "attendance": null,
+    "venue": "Goodison Park"
+  },
+  "2008-08-30-HUL-WIG": {
+    "attendance": 24282,
+    "venue": "MKM Stadium"
+  },
+  "2008-08-30-MID-STK": {
+    "attendance": null,
+    "venue": "Riverside Stadium"
+  },
+  "2008-08-30-WHU-BLB": {
+    "attendance": null,
+    "venue": "Boleyn Ground"
+  },
+  "2008-08-31-AVL-LIV": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2008-08-31-CHE-TOT": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2008-08-31-SUN-MCI": {
+    "attendance": null,
+    "venue": "Stadium of Light"
+  },
+  "2008-09-13-BLB-ARS": {
+    "attendance": null,
+    "venue": "Ewood Park"
+  },
+  "2008-09-13-FUL-BOL": {
+    "attendance": null,
+    "venue": "Craven Cottage"
+  },
+  "2008-09-13-LIV-MUN": {
+    "attendance": null,
+    "venue": "Anfield"
+  },
+  "2008-09-13-MCI-CHE": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2008-09-13-NEW-HUL": {
+    "attendance": null,
+    "venue": "Sports Direct Arena"
+  },
+  "2008-09-13-POR-MID": {
+    "attendance": null,
+    "venue": "Fratton Park"
+  },
+  "2008-09-13-WBA-WHU": {
+    "attendance": null,
+    "venue": "The Hawthorns"
+  },
+  "2008-09-13-WIG-SUN": {
+    "attendance": null,
+    "venue": "The Brick Community Stadium"
+  },
+  "2008-09-14-STK-EVE": {
+    "attendance": null,
+    "venue": "Britannia Stadium"
+  },
+  "2008-09-15-TOT-AVL": {
+    "attendance": null,
+    "venue": "White Hart Lane"
+  },
+  "2008-09-20-BLB-FUL": {
+    "attendance": null,
+    "venue": "Ewood Park"
+  },
+  "2008-09-20-BOL-ARS": {
+    "attendance": null,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2008-09-20-LIV-STK": {
+    "attendance": null,
+    "venue": "Anfield"
+  },
+  "2008-09-20-SUN-MID": {
+    "attendance": null,
+    "venue": "Stadium of Light"
+  },
+  "2008-09-20-WHU-NEW": {
+    "attendance": null,
+    "venue": "Boleyn Ground"
+  },
+  "2008-09-21-CHE-MUN": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2008-09-21-HUL-EVE": {
+    "attendance": null,
+    "venue": "MKM Stadium"
+  },
+  "2008-09-21-MCI-POR": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2008-09-21-TOT-WIG": {
+    "attendance": null,
+    "venue": "White Hart Lane"
+  },
+  "2008-09-21-WBA-AVL": {
+    "attendance": null,
+    "venue": "The Hawthorns"
+  },
+  "2008-09-27-ARS-HUL": {
+    "attendance": null,
+    "venue": "Emirates Stadium"
+  },
+  "2008-09-27-AVL-SUN": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2008-09-27-EVE-LIV": {
+    "attendance": null,
+    "venue": "Goodison Park"
+  },
+  "2008-09-27-FUL-WHU": {
+    "attendance": null,
+    "venue": "Craven Cottage"
+  },
+  "2008-09-27-MID-WBA": {
+    "attendance": null,
+    "venue": "Riverside Stadium"
+  },
+  "2008-09-27-MUN-BOL": {
+    "attendance": null,
+    "venue": "Old Trafford"
+  },
+  "2008-09-27-NEW-BLB": {
+    "attendance": null,
+    "venue": "Sports Direct Arena"
+  },
+  "2008-09-27-STK-CHE": {
+    "attendance": null,
+    "venue": "Britannia Stadium"
+  },
+  "2008-09-28-POR-TOT": {
+    "attendance": null,
+    "venue": "Fratton Park"
+  },
+  "2008-09-28-WIG-MCI": {
+    "attendance": null,
+    "venue": "The Brick Community Stadium"
+  },
+  "2008-10-04-BLB-MUN": {
+    "attendance": null,
+    "venue": "Ewood Park"
+  },
+  "2008-10-04-SUN-ARS": {
+    "attendance": null,
+    "venue": "Stadium of Light"
+  },
+  "2008-10-04-WBA-FUL": {
+    "attendance": null,
+    "venue": "The Hawthorns"
+  },
+  "2008-10-04-WIG-MID": {
+    "attendance": null,
+    "venue": "The Brick Community Stadium"
+  },
+  "2008-10-05-CHE-AVL": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2008-10-05-EVE-NEW": {
+    "attendance": null,
+    "venue": "Goodison Park"
+  },
+  "2008-10-05-MCI-LIV": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2008-10-05-POR-STK": {
+    "attendance": null,
+    "venue": "Fratton Park"
+  },
+  "2008-10-05-TOT-HUL": {
+    "attendance": null,
+    "venue": "White Hart Lane"
+  },
+  "2008-10-05-WHU-BOL": {
+    "attendance": null,
+    "venue": "Boleyn Ground"
+  },
+  "2008-10-18-ARS-EVE": {
+    "attendance": null,
+    "venue": "Emirates Stadium"
+  },
+  "2008-10-18-AVL-POR": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2008-10-18-BOL-BLB": {
+    "attendance": 26450,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2008-10-18-FUL-SUN": {
+    "attendance": null,
+    "venue": "Craven Cottage"
+  },
+  "2008-10-18-LIV-WIG": {
+    "attendance": null,
+    "venue": "Anfield"
+  },
+  "2008-10-18-MID-CHE": {
+    "attendance": null,
+    "venue": "Riverside Stadium"
+  },
+  "2008-10-18-MUN-WBA": {
+    "attendance": 75451,
+    "venue": "Old Trafford"
+  },
+  "2008-10-19-HUL-WHU": {
+    "attendance": null,
+    "venue": "MKM Stadium"
+  },
+  "2008-10-19-STK-TOT": {
+    "attendance": null,
+    "venue": "Britannia Stadium"
+  },
+  "2008-10-20-NEW-MCI": {
+    "attendance": null,
+    "venue": "Sports Direct Arena"
+  },
+  "2008-10-25-BLB-MID": {
+    "attendance": 17606,
+    "venue": "Ewood Park"
+  },
+  "2008-10-25-EVE-MUN": {
+    "attendance": null,
+    "venue": "Goodison Park"
+  },
+  "2008-10-25-SUN-NEW": {
+    "attendance": null,
+    "venue": "Stadium of Light"
+  },
+  "2008-10-25-WBA-HUL": {
+    "attendance": null,
+    "venue": "The Hawthorns"
+  },
+  "2008-10-26-CHE-LIV": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2008-10-26-MCI-STK": {
+    "attendance": 44624,
+    "venue": "Etihad Stadium"
+  },
+  "2008-10-26-POR-FUL": {
+    "attendance": null,
+    "venue": "Fratton Park"
+  },
+  "2008-10-26-TOT-BOL": {
+    "attendance": null,
+    "venue": "White Hart Lane"
+  },
+  "2008-10-26-WHU-ARS": {
+    "attendance": null,
+    "venue": "Boleyn Ground"
+  },
+  "2008-10-26-WIG-AVL": {
+    "attendance": null,
+    "venue": "The Brick Community Stadium"
+  },
+  "2008-10-28-NEW-WBA": {
+    "attendance": null,
+    "venue": "Sports Direct Arena"
+  },
+  "2008-10-29-ARS-TOT": {
+    "attendance": null,
+    "venue": "Emirates Stadium"
+  },
+  "2008-10-29-AVL-BLB": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2008-10-29-BOL-EVE": {
+    "attendance": 24467,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2008-10-29-FUL-WIG": {
+    "attendance": null,
+    "venue": "Craven Cottage"
+  },
+  "2008-10-29-HUL-CHE": {
+    "attendance": null,
+    "venue": "MKM Stadium"
+  },
+  "2008-10-29-LIV-POR": {
+    "attendance": null,
+    "venue": "Anfield"
+  },
+  "2008-10-29-MID-MCI": {
+    "attendance": null,
+    "venue": "Riverside Stadium"
+  },
+  "2008-10-29-MUN-WHU": {
+    "attendance": 75397,
+    "venue": "Old Trafford"
+  },
+  "2008-10-29-STK-SUN": {
+    "attendance": 26731,
+    "venue": "Britannia Stadium"
+  },
+  "2008-11-01-CHE-SUN": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2008-11-01-EVE-FUL": {
+    "attendance": 31278,
+    "venue": "Goodison Park"
+  },
+  "2008-11-01-MID-WHU": {
+    "attendance": 25164,
+    "venue": "Riverside Stadium"
+  },
+  "2008-11-01-MUN-HUL": {
+    "attendance": null,
+    "venue": "Old Trafford"
+  },
+  "2008-11-01-POR-WIG": {
+    "attendance": null,
+    "venue": "Fratton Park"
+  },
+  "2008-11-01-STK-ARS": {
+    "attendance": 26731,
+    "venue": "Britannia Stadium"
+  },
+  "2008-11-01-TOT-LIV": {
+    "attendance": null,
+    "venue": "White Hart Lane"
+  },
+  "2008-11-01-WBA-BLB": {
+    "attendance": null,
+    "venue": "The Hawthorns"
+  },
+  "2008-11-02-BOL-MCI": {
+    "attendance": null,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2008-11-03-NEW-AVL": {
+    "attendance": null,
+    "venue": "Sports Direct Arena"
+  },
+  "2008-11-08-ARS-MUN": {
+    "attendance": null,
+    "venue": "Emirates Stadium"
+  },
+  "2008-11-08-HUL-BOL": {
+    "attendance": null,
+    "venue": "MKM Stadium"
+  },
+  "2008-11-08-LIV-WBA": {
+    "attendance": null,
+    "venue": "Anfield"
+  },
+  "2008-11-08-SUN-POR": {
+    "attendance": null,
+    "venue": "Stadium of Light"
+  },
+  "2008-11-08-WHU-EVE": {
+    "attendance": 33961,
+    "venue": "Boleyn Ground"
+  },
+  "2008-11-08-WIG-STK": {
+    "attendance": null,
+    "venue": "The Brick Community Stadium"
+  },
+  "2008-11-09-AVL-MID": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2008-11-09-BLB-CHE": {
+    "attendance": 20672,
+    "venue": "Ewood Park"
+  },
+  "2008-11-09-FUL-NEW": {
+    "attendance": null,
+    "venue": "Craven Cottage"
+  },
+  "2008-11-09-MCI-TOT": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2008-11-15-ARS-AVL": {
+    "attendance": null,
+    "venue": "Emirates Stadium"
+  },
+  "2008-11-15-BLB-SUN": {
+    "attendance": 21798,
+    "venue": "Ewood Park"
+  },
+  "2008-11-15-BOL-LIV": {
+    "attendance": null,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2008-11-15-FUL-TOT": {
+    "attendance": null,
+    "venue": "Craven Cottage"
+  },
+  "2008-11-15-MUN-STK": {
+    "attendance": null,
+    "venue": "Old Trafford"
+  },
+  "2008-11-15-NEW-WIG": {
+    "attendance": null,
+    "venue": "Sports Direct Arena"
+  },
+  "2008-11-15-WBA-CHE": {
+    "attendance": null,
+    "venue": "The Hawthorns"
+  },
+  "2008-11-15-WHU-POR": {
+    "attendance": null,
+    "venue": "Boleyn Ground"
+  },
+  "2008-11-16-EVE-MID": {
+    "attendance": null,
+    "venue": "Goodison Park"
+  },
+  "2008-11-16-HUL-MCI": {
+    "attendance": null,
+    "venue": "MKM Stadium"
+  },
+  "2008-11-22-AVL-MUN": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2008-11-22-CHE-NEW": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2008-11-22-LIV-FUL": {
+    "attendance": 44066,
+    "venue": "Anfield"
+  },
+  "2008-11-22-MCI-ARS": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2008-11-22-MID-BOL": {
+    "attendance": null,
+    "venue": "Riverside Stadium"
+  },
+  "2008-11-22-POR-HUL": {
+    "attendance": null,
+    "venue": "Fratton Park"
+  },
+  "2008-11-22-STK-WBA": {
+    "attendance": null,
+    "venue": "Britannia Stadium"
+  },
+  "2008-11-23-SUN-WHU": {
+    "attendance": null,
+    "venue": "Stadium of Light"
+  },
+  "2008-11-23-TOT-BLB": {
+    "attendance": null,
+    "venue": "White Hart Lane"
+  },
+  "2008-11-24-WIG-EVE": {
+    "attendance": 18399,
+    "venue": "The Brick Community Stadium"
+  },
+  "2008-11-29-AVL-FUL": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2008-11-29-MID-NEW": {
+    "attendance": null,
+    "venue": "Riverside Stadium"
+  },
+  "2008-11-29-STK-HUL": {
+    "attendance": null,
+    "venue": "Britannia Stadium"
+  },
+  "2008-11-29-SUN-BOL": {
+    "attendance": null,
+    "venue": "Stadium of Light"
+  },
+  "2008-11-29-WIG-WBA": {
+    "attendance": null,
+    "venue": "The Brick Community Stadium"
+  },
+  "2008-11-30-CHE-ARS": {
+    "attendance": 41775,
+    "venue": "Stamford Bridge"
+  },
+  "2008-11-30-MCI-MUN": {
+    "attendance": 47320,
+    "venue": "Etihad Stadium"
+  },
+  "2008-11-30-POR-BLB": {
+    "attendance": 18063,
+    "venue": "Fratton Park"
+  },
+  "2008-11-30-TOT-EVE": {
+    "attendance": null,
+    "venue": "White Hart Lane"
+  },
+  "2008-12-01-LIV-WHU": {
+    "attendance": null,
+    "venue": "Anfield"
+  },
+  "2008-12-06-ARS-WIG": {
+    "attendance": 59317,
+    "venue": "Emirates Stadium"
+  },
+  "2008-12-06-BLB-LIV": {
+    "attendance": 26920,
+    "venue": "Ewood Park"
+  },
+  "2008-12-06-BOL-CHE": {
+    "attendance": 22023,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2008-12-06-FUL-MCI": {
+    "attendance": 24012,
+    "venue": "Craven Cottage"
+  },
+  "2008-12-06-HUL-MID": {
+    "attendance": 24912,
+    "venue": "MKM Stadium"
+  },
+  "2008-12-06-MUN-SUN": {
+    "attendance": 75400,
+    "venue": "Old Trafford"
+  },
+  "2008-12-06-NEW-STK": {
+    "attendance": 47422,
+    "venue": "Sports Direct Arena"
+  },
+  "2008-12-07-EVE-AVL": {
+    "attendance": null,
+    "venue": "Goodison Park"
+  },
+  "2008-12-07-WBA-POR": {
+    "attendance": 24964,
+    "venue": "The Hawthorns"
+  },
+  "2008-12-08-WHU-TOT": {
+    "attendance": 34277,
+    "venue": "Boleyn Ground"
+  },
+  "2008-12-13-AVL-BOL": {
+    "attendance": 35134,
+    "venue": "Villa Park"
+  },
+  "2008-12-13-LIV-HUL": {
+    "attendance": 43835,
+    "venue": "Anfield"
+  },
+  "2008-12-13-MCI-EVE": {
+    "attendance": 41344,
+    "venue": "Etihad Stadium"
+  },
+  "2008-12-13-MID-ARS": {
+    "attendance": 27320,
+    "venue": "Riverside Stadium"
+  },
+  "2008-12-13-STK-FUL": {
+    "attendance": 25287,
+    "venue": "Britannia Stadium"
+  },
+  "2008-12-13-SUN-WBA": {
+    "attendance": 36280,
+    "venue": "Stadium of Light"
+  },
+  "2008-12-13-TOT-MUN": {
+    "attendance": 35882,
+    "venue": "White Hart Lane"
+  },
+  "2008-12-13-WIG-BLB": {
+    "attendance": 18003,
+    "venue": "The Brick Community Stadium"
+  },
+  "2008-12-14-CHE-WHU": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2008-12-14-POR-NEW": {
+    "attendance": null,
+    "venue": "Fratton Park"
+  },
+  "2008-12-20-BLB-STK": {
+    "attendance": 23004,
+    "venue": "Ewood Park"
+  },
+  "2008-12-20-BOL-POR": {
+    "attendance": 19884,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2008-12-20-FUL-MID": {
+    "attendance": 23722,
+    "venue": "Craven Cottage"
+  },
+  "2008-12-20-HUL-SUN": {
+    "attendance": 24917,
+    "venue": "MKM Stadium"
+  },
+  "2008-12-20-WHU-AVL": {
+    "attendance": 31353,
+    "venue": "Boleyn Ground"
+  },
+  "2008-12-21-ARS-LIV": {
+    "attendance": 60094,
+    "venue": "Emirates Stadium"
+  },
+  "2008-12-21-NEW-TOT": {
+    "attendance": 47982,
+    "venue": "Sports Direct Arena"
+  },
+  "2008-12-21-WBA-MCI": {
+    "attendance": 25010,
+    "venue": "The Hawthorns"
+  },
+  "2008-12-22-EVE-CHE": {
+    "attendance": 35655,
+    "venue": "Goodison Park"
+  },
+  "2008-12-26-AVL-ARS": {
+    "attendance": 42585,
+    "venue": "Villa Park"
+  },
+  "2008-12-26-CHE-WBA": {
+    "attendance": 43417,
+    "venue": "Stamford Bridge"
+  },
+  "2008-12-26-LIV-BOL": {
+    "attendance": 43548,
+    "venue": "Anfield"
+  },
+  "2008-12-26-MCI-HUL": {
+    "attendance": 45196,
+    "venue": "Etihad Stadium"
+  },
+  "2008-12-26-MID-EVE": {
+    "attendance": 30253,
+    "venue": "Riverside Stadium"
+  },
+  "2008-12-26-POR-WHU": {
+    "attendance": 20102,
+    "venue": "Fratton Park"
+  },
+  "2008-12-26-STK-MUN": {
+    "attendance": 27500,
+    "venue": "Britannia Stadium"
+  },
+  "2008-12-26-SUN-BLB": {
+    "attendance": 44680,
+    "venue": "Stadium of Light"
+  },
+  "2008-12-26-TOT-FUL": {
+    "attendance": 35866,
+    "venue": "White Hart Lane"
+  },
+  "2008-12-26-WIG-NEW": {
+    "attendance": 20266,
+    "venue": "The Brick Community Stadium"
+  },
+  "2008-12-28-ARS-POR": {
+    "attendance": 60092,
+    "venue": "Emirates Stadium"
+  },
+  "2008-12-28-BLB-MCI": {
+    "attendance": 25200,
+    "venue": "Ewood Park"
+  },
+  "2008-12-28-BOL-WIG": {
+    "attendance": 23726,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2008-12-28-EVE-SUN": {
+    "attendance": 39146,
+    "venue": "Goodison Park"
+  },
+  "2008-12-28-FUL-CHE": {
+    "attendance": 25462,
+    "venue": "Craven Cottage"
+  },
+  "2008-12-28-NEW-LIV": {
+    "attendance": 52114,
+    "venue": "Sports Direct Arena"
+  },
+  "2008-12-28-WBA-TOT": {
+    "attendance": 26344,
+    "venue": "The Hawthorns"
+  },
+  "2008-12-28-WHU-STK": {
+    "attendance": 34477,
+    "venue": "Boleyn Ground"
+  },
+  "2008-12-29-MUN-MID": {
+    "attendance": 75294,
+    "venue": "Old Trafford"
+  },
+  "2008-12-30-HUL-AVL": {
+    "attendance": 24727,
+    "venue": "MKM Stadium"
+  },
+  "2009-01-10-ARS-BOL": {
+    "attendance": 60068,
+    "venue": "Emirates Stadium"
+  },
+  "2009-01-10-AVL-WBA": {
+    "attendance": 41757,
+    "venue": "Villa Park"
+  },
+  "2009-01-10-EVE-HUL": {
+    "attendance": 37527,
+    "venue": "Goodison Park"
+  },
+  "2009-01-10-MID-SUN": {
+    "attendance": 29310,
+    "venue": "Riverside Stadium"
+  },
+  "2009-01-10-NEW-WHU": {
+    "attendance": 47571,
+    "venue": "Sports Direct Arena"
+  },
+  "2009-01-10-STK-LIV": {
+    "attendance": 27500,
+    "venue": "Britannia Stadium"
+  },
+  "2009-01-11-MUN-CHE": {
+    "attendance": 75455,
+    "venue": "Old Trafford"
+  },
+  "2009-01-11-WIG-TOT": {
+    "attendance": 17500,
+    "venue": "The Brick Community Stadium"
+  },
+  "2009-01-14-MUN-WIG": {
+    "attendance": 73917,
+    "venue": "Old Trafford"
+  },
+  "2009-01-17-BLB-NEW": {
+    "attendance": 25583,
+    "venue": "Ewood Park"
+  },
+  "2009-01-17-BOL-MUN": {
+    "attendance": 26021,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2009-01-17-CHE-STK": {
+    "attendance": 41788,
+    "venue": "Stamford Bridge"
+  },
+  "2009-01-17-HUL-ARS": {
+    "attendance": 24924,
+    "venue": "MKM Stadium"
+  },
+  "2009-01-17-MCI-WIG": {
+    "attendance": 41262,
+    "venue": "Etihad Stadium"
+  },
+  "2009-01-17-SUN-AVL": {
+    "attendance": 40350,
+    "venue": "Stadium of Light"
+  },
+  "2009-01-17-WBA-MID": {
+    "attendance": 25557,
+    "venue": "The Hawthorns"
+  },
+  "2009-01-18-TOT-POR": {
+    "attendance": 36011,
+    "venue": "White Hart Lane"
+  },
+  "2009-01-18-WHU-FUL": {
+    "attendance": 31818,
+    "venue": "Boleyn Ground"
+  },
+  "2009-01-19-LIV-EVE": {
+    "attendance": 44382,
+    "venue": "Anfield"
+  },
+  "2009-01-27-POR-AVL": {
+    "attendance": 19073,
+    "venue": "Fratton Park"
+  },
+  "2009-01-27-SUN-FUL": {
+    "attendance": 36539,
+    "venue": "Stadium of Light"
+  },
+  "2009-01-27-TOT-STK": {
+    "attendance": 36072,
+    "venue": "White Hart Lane"
+  },
+  "2009-01-27-WBA-MUN": {
+    "attendance": 26105,
+    "venue": "The Hawthorns"
+  },
+  "2009-01-28-BLB-BOL": {
+    "attendance": 25205,
+    "venue": "Ewood Park"
+  },
+  "2009-01-28-CHE-MID": {
+    "attendance": 40280,
+    "venue": "Stamford Bridge"
+  },
+  "2009-01-28-EVE-ARS": {
+    "attendance": 37097,
+    "venue": "Goodison Park"
+  },
+  "2009-01-28-MCI-NEW": {
+    "attendance": 42280,
+    "venue": "Etihad Stadium"
+  },
+  "2009-01-28-WHU-HUL": {
+    "attendance": 34340,
+    "venue": "Boleyn Ground"
+  },
+  "2009-01-28-WIG-LIV": {
+    "attendance": 21237,
+    "venue": "The Brick Community Stadium"
+  },
+  "2009-01-31-ARS-WHU": {
+    "attendance": 60109,
+    "venue": "Emirates Stadium"
+  },
+  "2009-01-31-AVL-WIG": {
+    "attendance": 41766,
+    "venue": "Villa Park"
+  },
+  "2009-01-31-BOL-TOT": {
+    "attendance": 21575,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2009-01-31-FUL-POR": {
+    "attendance": 23722,
+    "venue": "Craven Cottage"
+  },
+  "2009-01-31-HUL-WBA": {
+    "attendance": 24879,
+    "venue": "MKM Stadium"
+  },
+  "2009-01-31-MID-BLB": {
+    "attendance": 24303,
+    "venue": "Riverside Stadium"
+  },
+  "2009-01-31-MUN-EVE": {
+    "attendance": 75399,
+    "venue": "Old Trafford"
+  },
+  "2009-01-31-STK-MCI": {
+    "attendance": 27236,
+    "venue": "Britannia Stadium"
+  },
+  "2009-02-01-LIV-CHE": {
+    "attendance": 44174,
+    "venue": "Anfield"
+  },
+  "2009-02-01-NEW-SUN": {
+    "attendance": 52084,
+    "venue": "Sports Direct Arena"
+  },
+  "2009-02-07-BLB-AVL": {
+    "attendance": 24267,
+    "venue": "Ewood Park"
+  },
+  "2009-02-07-CHE-HUL": {
+    "attendance": 41802,
+    "venue": "Stamford Bridge"
+  },
+  "2009-02-07-EVE-BOL": {
+    "attendance": 33791,
+    "venue": "Goodison Park"
+  },
+  "2009-02-07-MCI-MID": {
+    "attendance": 40588,
+    "venue": "Etihad Stadium"
+  },
+  "2009-02-07-POR-LIV": {
+    "attendance": 20524,
+    "venue": "Fratton Park"
+  },
+  "2009-02-07-SUN-STK": {
+    "attendance": 38350,
+    "venue": "Stadium of Light"
+  },
+  "2009-02-07-WBA-NEW": {
+    "attendance": 25817,
+    "venue": "The Hawthorns"
+  },
+  "2009-02-07-WIG-FUL": {
+    "attendance": 16504,
+    "venue": "The Brick Community Stadium"
+  },
+  "2009-02-08-TOT-ARS": {
+    "attendance": 36021,
+    "venue": "White Hart Lane"
+  },
+  "2009-02-08-WHU-MUN": {
+    "attendance": 34958,
+    "venue": "Boleyn Ground"
+  },
+  "2009-02-14-POR-MCI": {
+    "attendance": 20018,
+    "venue": "Fratton Park"
+  },
+  "2009-02-18-MUN-FUL": {
+    "attendance": 75437,
+    "venue": "Old Trafford"
+  },
+  "2009-02-21-ARS-SUN": {
+    "attendance": 60104,
+    "venue": "Emirates Stadium"
+  },
+  "2009-02-21-AVL-CHE": {
+    "attendance": 42585,
+    "venue": "Villa Park"
+  },
+  "2009-02-21-BOL-WHU": {
+    "attendance": 21245,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2009-02-21-MID-WIG": {
+    "attendance": 24020,
+    "venue": "Riverside Stadium"
+  },
+  "2009-02-21-MUN-BLB": {
+    "attendance": 75000,
+    "venue": "Old Trafford"
+  },
+  "2009-02-21-STK-POR": {
+    "attendance": null,
+    "venue": "Britannia Stadium"
+  },
+  "2009-02-22-FUL-WBA": {
+    "attendance": 22394,
+    "venue": "Craven Cottage"
+  },
+  "2009-02-22-LIV-MCI": {
+    "attendance": 44259,
+    "venue": "Anfield"
+  },
+  "2009-02-22-NEW-EVE": {
+    "attendance": 47683,
+    "venue": "Sports Direct Arena"
+  },
+  "2009-02-23-HUL-TOT": {
+    "attendance": null,
+    "venue": "MKM Stadium"
+  },
+  "2009-02-28-ARS-FUL": {
+    "attendance": 60102,
+    "venue": "Emirates Stadium"
+  },
+  "2009-02-28-CHE-WIG": {
+    "attendance": 40714,
+    "venue": "Stamford Bridge"
+  },
+  "2009-02-28-EVE-WBA": {
+    "attendance": 33898,
+    "venue": "Goodison Park"
+  },
+  "2009-02-28-MID-LIV": {
+    "attendance": 33724,
+    "venue": "Riverside Stadium"
+  },
+  "2009-03-01-AVL-STK": {
+    "attendance": 39641,
+    "venue": "Villa Park"
+  },
+  "2009-03-01-BOL-NEW": {
+    "attendance": 20763,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2009-03-01-HUL-BLB": {
+    "attendance": 24612,
+    "venue": "MKM Stadium"
+  },
+  "2009-03-01-WHU-MCI": {
+    "attendance": 34562,
+    "venue": "Boleyn Ground"
+  },
+  "2009-03-03-LIV-SUN": {
+    "attendance": null,
+    "venue": "Anfield"
+  },
+  "2009-03-03-POR-CHE": {
+    "attendance": null,
+    "venue": "Fratton Park"
+  },
+  "2009-03-03-WBA-ARS": {
+    "attendance": null,
+    "venue": "The Hawthorns"
+  },
+  "2009-03-04-BLB-EVE": {
+    "attendance": 21445,
+    "venue": "Ewood Park"
+  },
+  "2009-03-04-FUL-HUL": {
+    "attendance": 23051,
+    "venue": "Craven Cottage"
+  },
+  "2009-03-04-MCI-AVL": {
+    "attendance": 40137,
+    "venue": "Etihad Stadium"
+  },
+  "2009-03-04-NEW-MUN": {
+    "attendance": 51636,
+    "venue": "Sports Direct Arena"
+  },
+  "2009-03-04-STK-BOL": {
+    "attendance": 26319,
+    "venue": "Britannia Stadium"
+  },
+  "2009-03-04-TOT-MID": {
+    "attendance": 35761,
+    "venue": "White Hart Lane"
+  },
+  "2009-03-04-WIG-WHU": {
+    "attendance": 14169,
+    "venue": "The Brick Community Stadium"
+  },
+  "2009-03-07-SUN-TOT": {
+    "attendance": 37894,
+    "venue": "Stadium of Light"
+  },
+  "2009-03-11-FUL-BLB": {
+    "attendance": null,
+    "venue": "Craven Cottage"
+  },
+  "2009-03-14-ARS-BLB": {
+    "attendance": 60091,
+    "venue": "Emirates Stadium"
+  },
+  "2009-03-14-BOL-FUL": {
+    "attendance": 22117,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2009-03-14-EVE-STK": {
+    "attendance": 36396,
+    "venue": "Goodison Park"
+  },
+  "2009-03-14-HUL-NEW": {
+    "attendance": 24914,
+    "venue": "MKM Stadium"
+  },
+  "2009-03-14-MID-POR": {
+    "attendance": 24281,
+    "venue": "Riverside Stadium"
+  },
+  "2009-03-14-MUN-LIV": {
+    "attendance": 75569,
+    "venue": "Old Trafford"
+  },
+  "2009-03-14-SUN-WIG": {
+    "attendance": 39266,
+    "venue": "Stadium of Light"
+  },
+  "2009-03-15-AVL-TOT": {
+    "attendance": 41205,
+    "venue": "Villa Park"
+  },
+  "2009-03-15-CHE-MCI": {
+    "attendance": 41810,
+    "venue": "Stamford Bridge"
+  },
+  "2009-03-16-WHU-WBA": {
+    "attendance": 40842,
+    "venue": "Boleyn Ground"
+  },
+  "2009-03-21-BLB-WHU": {
+    "attendance": 21672,
+    "venue": "Ewood Park"
+  },
+  "2009-03-21-FUL-MUN": {
+    "attendance": 25652,
+    "venue": "Craven Cottage"
+  },
+  "2009-03-21-NEW-ARS": {
+    "attendance": 49972,
+    "venue": "Sports Direct Arena"
+  },
+  "2009-03-21-POR-EVE": {
+    "attendance": 20388,
+    "venue": "Fratton Park"
+  },
+  "2009-03-21-STK-MID": {
+    "attendance": 26442,
+    "venue": "Britannia Stadium"
+  },
+  "2009-03-21-TOT-CHE": {
+    "attendance": 36034,
+    "venue": "White Hart Lane"
+  },
+  "2009-03-21-WBA-BOL": {
+    "attendance": 25530,
+    "venue": "The Hawthorns"
+  },
+  "2009-03-22-LIV-AVL": {
+    "attendance": 44131,
+    "venue": "Anfield"
+  },
+  "2009-03-22-MCI-SUN": {
+    "attendance": 43017,
+    "venue": "Etihad Stadium"
+  },
+  "2009-03-22-WIG-HUL": {
+    "attendance": 17689,
+    "venue": "The Brick Community Stadium"
+  },
+  "2009-04-04-ARS-MCI": {
+    "attendance": 60097,
+    "venue": "Emirates Stadium"
+  },
+  "2009-04-04-BLB-TOT": {
+    "attendance": 21891,
+    "venue": "Ewood Park"
+  },
+  "2009-04-04-BOL-MID": {
+    "attendance": 20819,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2009-04-04-FUL-LIV": {
+    "attendance": 25661,
+    "venue": "Craven Cottage"
+  },
+  "2009-04-04-HUL-POR": {
+    "attendance": 24802,
+    "venue": "MKM Stadium"
+  },
+  "2009-04-04-NEW-CHE": {
+    "attendance": 52112,
+    "venue": "Sports Direct Arena"
+  },
+  "2009-04-04-WBA-STK": {
+    "attendance": 26277,
+    "venue": "The Hawthorns"
+  },
+  "2009-04-04-WHU-SUN": {
+    "attendance": 34761,
+    "venue": "Boleyn Ground"
+  },
+  "2009-04-05-EVE-WIG": {
+    "attendance": 34427,
+    "venue": "Goodison Park"
+  },
+  "2009-04-05-MUN-AVL": {
+    "attendance": 75409,
+    "venue": "Old Trafford"
+  },
+  "2009-04-11-CHE-BOL": {
+    "attendance": 41096,
+    "venue": "Stamford Bridge"
+  },
+  "2009-04-11-LIV-BLB": {
+    "attendance": 43466,
+    "venue": "Anfield"
+  },
+  "2009-04-11-MID-HUL": {
+    "attendance": 32255,
+    "venue": "Riverside Stadium"
+  },
+  "2009-04-11-POR-WBA": {
+    "attendance": 20376,
+    "venue": "Fratton Park"
+  },
+  "2009-04-11-STK-NEW": {
+    "attendance": 27500,
+    "venue": "Britannia Stadium"
+  },
+  "2009-04-11-SUN-MUN": {
+    "attendance": 45408,
+    "venue": "Stadium of Light"
+  },
+  "2009-04-11-TOT-WHU": {
+    "attendance": 35969,
+    "venue": "White Hart Lane"
+  },
+  "2009-04-11-WIG-ARS": {
+    "attendance": 22954,
+    "venue": "The Brick Community Stadium"
+  },
+  "2009-04-12-AVL-EVE": {
+    "attendance": 40188,
+    "venue": "Villa Park"
+  },
+  "2009-04-12-MCI-FUL": {
+    "attendance": 39841,
+    "venue": "Etihad Stadium"
+  },
+  "2009-04-18-AVL-WHU": {
+    "attendance": 39534,
+    "venue": "Villa Park"
+  },
+  "2009-04-18-MID-FUL": {
+    "attendance": 30389,
+    "venue": "Riverside Stadium"
+  },
+  "2009-04-18-POR-BOL": {
+    "attendance": 20158,
+    "venue": "Fratton Park"
+  },
+  "2009-04-18-STK-BLB": {
+    "attendance": 27500,
+    "venue": "Britannia Stadium"
+  },
+  "2009-04-18-SUN-HUL": {
+    "attendance": 42855,
+    "venue": "Stadium of Light"
+  },
+  "2009-04-19-MCI-WBA": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2009-04-19-TOT-NEW": {
+    "attendance": null,
+    "venue": "White Hart Lane"
+  },
+  "2009-04-21-LIV-ARS": {
+    "attendance": 44424,
+    "venue": "Anfield"
+  },
+  "2009-04-22-CHE-EVE": {
+    "attendance": 41556,
+    "venue": "Stamford Bridge"
+  },
+  "2009-04-22-MUN-POR": {
+    "attendance": 74895,
+    "venue": "Old Trafford"
+  },
+  "2009-04-25-BOL-AVL": {
+    "attendance": 21709,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2009-04-25-EVE-MCI": {
+    "attendance": 37791,
+    "venue": "Goodison Park"
+  },
+  "2009-04-25-FUL-STK": {
+    "attendance": 24997,
+    "venue": "Craven Cottage"
+  },
+  "2009-04-25-HUL-LIV": {
+    "attendance": 24942,
+    "venue": "MKM Stadium"
+  },
+  "2009-04-25-MUN-TOT": {
+    "attendance": 75458,
+    "venue": "Old Trafford"
+  },
+  "2009-04-25-WBA-SUN": {
+    "attendance": 26256,
+    "venue": "The Hawthorns"
+  },
+  "2009-04-25-WHU-CHE": {
+    "attendance": 34749,
+    "venue": "Boleyn Ground"
+  },
+  "2009-04-26-ARS-MID": {
+    "attendance": 60089,
+    "venue": "Emirates Stadium"
+  },
+  "2009-04-26-BLB-WIG": {
+    "attendance": 25019,
+    "venue": "Ewood Park"
+  },
+  "2009-04-27-NEW-POR": {
+    "attendance": null,
+    "venue": "Sports Direct Arena"
+  },
+  "2009-05-02-CHE-FUL": {
+    "attendance": 41801,
+    "venue": "Stamford Bridge"
+  },
+  "2009-05-02-MCI-BLB": {
+    "attendance": 43967,
+    "venue": "Etihad Stadium"
+  },
+  "2009-05-02-MID-MUN": {
+    "attendance": 33767,
+    "venue": "Riverside Stadium"
+  },
+  "2009-05-02-POR-ARS": {
+    "attendance": 20418,
+    "venue": "Fratton Park"
+  },
+  "2009-05-02-STK-WHU": {
+    "attendance": 27500,
+    "venue": "Britannia Stadium"
+  },
+  "2009-05-02-TOT-WBA": {
+    "attendance": 35836,
+    "venue": "White Hart Lane"
+  },
+  "2009-05-02-WIG-BOL": {
+    "attendance": 18655,
+    "venue": "The Brick Community Stadium"
+  },
+  "2009-05-03-LIV-NEW": {
+    "attendance": 44121,
+    "venue": "Anfield"
+  },
+  "2009-05-03-SUN-EVE": {
+    "attendance": 41313,
+    "venue": "Stadium of Light"
+  },
+  "2009-05-04-AVL-HUL": {
+    "attendance": 39607,
+    "venue": "Villa Park"
+  },
+  "2009-05-09-BLB-POR": {
+    "attendance": 24234,
+    "venue": "Ewood Park"
+  },
+  "2009-05-09-BOL-SUN": {
+    "attendance": 24005,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2009-05-09-EVE-TOT": {
+    "attendance": 36646,
+    "venue": "Goodison Park"
+  },
+  "2009-05-09-FUL-AVL": {
+    "attendance": 25660,
+    "venue": "Craven Cottage"
+  },
+  "2009-05-09-HUL-STK": {
+    "attendance": 24932,
+    "venue": "MKM Stadium"
+  },
+  "2009-05-09-WBA-WIG": {
+    "attendance": 24741,
+    "venue": "The Hawthorns"
+  },
+  "2009-05-09-WHU-LIV": {
+    "attendance": 34951,
+    "venue": "Boleyn Ground"
+  },
+  "2009-05-10-ARS-CHE": {
+    "attendance": 60075,
+    "venue": "Emirates Stadium"
+  },
+  "2009-05-10-MUN-MCI": {
+    "attendance": 75464,
+    "venue": "Old Trafford"
+  },
+  "2009-05-11-NEW-MID": {
+    "attendance": 51252,
+    "venue": "Sports Direct Arena"
+  },
+  "2009-05-13-WIG-MUN": {
+    "attendance": 21286,
+    "venue": "The Brick Community Stadium"
+  },
+  "2009-05-16-BOL-HUL": {
+    "attendance": 25085,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2009-05-16-EVE-WHU": {
+    "attendance": 38501,
+    "venue": "Goodison Park"
+  },
+  "2009-05-16-MID-AVL": {
+    "attendance": 27261,
+    "venue": "Riverside Stadium"
+  },
+  "2009-05-16-MUN-ARS": {
+    "attendance": 75468,
+    "venue": "Old Trafford"
+  },
+  "2009-05-16-NEW-FUL": {
+    "attendance": 52114,
+    "venue": "Sports Direct Arena"
+  },
+  "2009-05-16-STK-WIG": {
+    "attendance": 25641,
+    "venue": "Britannia Stadium"
+  },
+  "2009-05-16-TOT-MCI": {
+    "attendance": 36000,
+    "venue": "White Hart Lane"
+  },
+  "2009-05-17-CHE-BLB": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2009-05-17-WBA-LIV": {
+    "attendance": 26138,
+    "venue": "The Hawthorns"
+  },
+  "2009-05-18-POR-SUN": {
+    "attendance": 20398,
+    "venue": "Fratton Park"
+  },
+  "2009-05-24-ARS-STK": {
+    "attendance": 60082,
+    "venue": "Emirates Stadium"
+  },
+  "2009-05-24-AVL-NEW": {
+    "attendance": 42585,
+    "venue": "Villa Park"
+  },
+  "2009-05-24-BLB-WBA": {
+    "attendance": 28389,
+    "venue": "Ewood Park"
+  },
+  "2009-05-24-FUL-EVE": {
+    "attendance": 25497,
+    "venue": "Craven Cottage"
+  },
+  "2009-05-24-HUL-MUN": {
+    "attendance": 24945,
+    "venue": "MKM Stadium"
+  },
+  "2009-05-24-LIV-TOT": {
+    "attendance": 43937,
+    "venue": "Anfield"
+  },
+  "2009-05-24-MCI-BOL": {
+    "attendance": 47202,
+    "venue": "Etihad Stadium"
+  },
+  "2009-05-24-SUN-CHE": {
+    "attendance": 42468,
+    "venue": "Stadium of Light"
+  },
+  "2009-05-24-WHU-MID": {
+    "attendance": 34007,
+    "venue": "Boleyn Ground"
+  },
+  "2009-05-24-WIG-POR": {
+    "attendance": 17696,
+    "venue": "The Brick Community Stadium"
+  }
+}

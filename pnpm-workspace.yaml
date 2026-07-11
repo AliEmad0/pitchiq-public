@@ -1,0 +1,10 @@
+allowBuilds:
+  # next-intl (TASK-1601) pulled these in as deep optional native transitives;
+  # their JS fallbacks are fine, so we intentionally skip their native builds.
+  "@parcel/watcher": false
+  "@sentry/cli": true
+  "@swc/core": false
+  esbuild: true
+  msw: true
+  sharp: true
+  unrs-resolver: true

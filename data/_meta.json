@@ -1,0 +1,293 @@
+{
+  "datasets": [
+    {
+      "downloadedAt": "2026-06-30T06:11:35.872Z",
+      "slug": "external-data-pipeline"
+    },
+    {
+      "downloadedAt": "2026-06-30T06:11:36.981Z",
+      "slug": "external-data-pipeline"
+    },
+    {
+      "downloadedAt": "2026-06-30T06:11:38.041Z",
+      "slug": "external-data-pipeline"
+    }
+  ],
+  "lastRefresh": "2026-06-30T06:12:02.075Z",
+  "rowCounts": {
+    "1992": {
+      "fixtures": 462,
+      "leaderboards": 40,
+      "players": 544,
+      "standings": 22,
+      "teams": 22
+    },
+    "1993": {
+      "fixtures": 462,
+      "leaderboards": 40,
+      "players": 539,
+      "standings": 22,
+      "teams": 22
+    },
+    "1994": {
+      "fixtures": 462,
+      "leaderboards": 40,
+      "players": 526,
+      "standings": 22,
+      "teams": 22
+    },
+    "1995": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 502,
+      "standings": 20,
+      "teams": 20
+    },
+    "1996": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 515,
+      "standings": 20,
+      "teams": 20
+    },
+    "1997": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 534,
+      "standings": 20,
+      "teams": 20
+    },
+    "1998": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 539,
+      "standings": 20,
+      "teams": 20
+    },
+    "1999": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 542,
+      "standings": 20,
+      "teams": 20
+    },
+    "2000": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 544,
+      "standings": 20,
+      "teams": 20
+    },
+    "2001": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 528,
+      "standings": 20,
+      "teams": 20
+    },
+    "2002": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 530,
+      "standings": 20,
+      "teams": 20
+    },
+    "2003": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 517,
+      "standings": 20,
+      "teams": 20
+    },
+    "2004": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 515,
+      "standings": 20,
+      "teams": 20
+    },
+    "2005": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 536,
+      "standings": 20,
+      "teams": 20
+    },
+    "2006": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 534,
+      "standings": 20,
+      "teams": 20
+    },
+    "2007": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 532,
+      "standings": 20,
+      "teams": 20
+    },
+    "2008": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 530,
+      "standings": 20,
+      "teams": 20
+    },
+    "2009": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 545,
+      "standings": 20,
+      "teams": 20
+    },
+    "2010": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 544,
+      "standings": 20,
+      "teams": 20
+    },
+    "2011": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 539,
+      "standings": 20,
+      "teams": 20
+    },
+    "2012": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 523,
+      "standings": 20,
+      "teams": 20
+    },
+    "2013": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 544,
+      "standings": 20,
+      "teams": 20
+    },
+    "2014": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 531,
+      "standings": 20,
+      "teams": 20
+    },
+    "2015": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 550,
+      "standings": 20,
+      "teams": 20
+    },
+    "2016": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 524,
+      "standings": 20,
+      "teams": 20
+    },
+    "2017": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 515,
+      "standings": 20,
+      "teams": 20
+    },
+    "2018": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 505,
+      "standings": 20,
+      "teams": 20
+    },
+    "2019": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 515,
+      "standings": 20,
+      "teams": 20
+    },
+    "2020": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 524,
+      "standings": 20,
+      "teams": 20
+    },
+    "2021": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 537,
+      "standings": 20,
+      "teams": 20
+    },
+    "2022": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 554,
+      "standings": 20,
+      "teams": 20
+    },
+    "2023": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 570,
+      "standings": 20,
+      "teams": 20
+    },
+    "2024": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 562,
+      "standings": 20,
+      "teams": 20
+    },
+    "2025": {
+      "fixtures": 380,
+      "leaderboards": 40,
+      "players": 537,
+      "standings": 20,
+      "teams": 20
+    }
+  },
+  "seasons": [
+    2025,
+    2024,
+    2023,
+    2022,
+    2021,
+    2020,
+    2019,
+    2018,
+    2017,
+    2016,
+    2015,
+    2014,
+    2013,
+    2012,
+    2011,
+    2010,
+    2009,
+    2008,
+    2007,
+    2006,
+    2005,
+    2004,
+    2003,
+    2002,
+    2001,
+    2000,
+    1999,
+    1998,
+    1997,
+    1996,
+    1995,
+    1994,
+    1993,
+    1992
+  ]
+}

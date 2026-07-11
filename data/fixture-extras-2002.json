@@ -1,0 +1,1522 @@
+{
+  "2002-08-17-BLB-SUN": {
+    "attendance": 27122,
+    "venue": "Ewood Park"
+  },
+  "2002-08-17-CHA-CHE": {
+    "attendance": 25640,
+    "venue": "The Valley"
+  },
+  "2002-08-17-EVE-TOT": {
+    "attendance": 40120,
+    "venue": "Goodison Park"
+  },
+  "2002-08-17-FUL-BOL": {
+    "attendance": 16338,
+    "venue": "Loftus Road"
+  },
+  "2002-08-17-LEE-MCI": {
+    "attendance": 40195,
+    "venue": "Elland Road"
+  },
+  "2002-08-17-MUN-WBA": {
+    "attendance": 67645,
+    "venue": "Old Trafford"
+  },
+  "2002-08-17-SOU-MID": {
+    "attendance": 28341,
+    "venue": "St. Mary's Stadium"
+  },
+  "2002-08-18-ARS-BIR": {
+    "attendance": 38018,
+    "venue": "Highbury"
+  },
+  "2002-08-18-AVL-LIV": {
+    "attendance": 41183,
+    "venue": "Villa Park"
+  },
+  "2002-08-19-NEW-WHU": {
+    "attendance": 51072,
+    "venue": "St. James' Park"
+  },
+  "2002-08-23-CHE-MUN": {
+    "attendance": 41541,
+    "venue": "Stamford Bridge"
+  },
+  "2002-08-24-BIR-BLB": {
+    "attendance": 27563,
+    "venue": "St. Andrew's Stadium"
+  },
+  "2002-08-24-BOL-CHA": {
+    "attendance": 21753,
+    "venue": "Macron Stadium"
+  },
+  "2002-08-24-LIV-SOU": {
+    "attendance": 43058,
+    "venue": "Anfield"
+  },
+  "2002-08-24-MCI-NEW": {
+    "attendance": 34776,
+    "venue": "Maine Road"
+  },
+  "2002-08-24-MID-FUL": {
+    "attendance": 28588,
+    "venue": "Riverside Stadium"
+  },
+  "2002-08-24-SUN-EVE": {
+    "attendance": 37698,
+    "venue": "Stadium of Light"
+  },
+  "2002-08-24-TOT-AVL": {
+    "attendance": 35384,
+    "venue": "White Hart Lane"
+  },
+  "2002-08-24-WBA-LEE": {
+    "attendance": 26618,
+    "venue": "The Hawthorns"
+  },
+  "2002-08-24-WHU-ARS": {
+    "attendance": 35048,
+    "venue": "Boleyn Ground"
+  },
+  "2002-08-27-ARS-WBA": {
+    "attendance": 37920,
+    "venue": "Highbury"
+  },
+  "2002-08-27-CHA-TOT": {
+    "attendance": 26461,
+    "venue": "The Valley"
+  },
+  "2002-08-28-AVL-MCI": {
+    "attendance": 33494,
+    "venue": "Villa Park"
+  },
+  "2002-08-28-BLB-LIV": {
+    "attendance": 29207,
+    "venue": "Ewood Park"
+  },
+  "2002-08-28-EVE-BIR": {
+    "attendance": 37197,
+    "venue": "Goodison Park"
+  },
+  "2002-08-28-LEE-SUN": {
+    "attendance": 39929,
+    "venue": "Elland Road"
+  },
+  "2002-08-28-SOU-CHE": {
+    "attendance": 31208,
+    "venue": "St. Mary's Stadium"
+  },
+  "2002-08-31-BIR-LEE": {
+    "attendance": 27164,
+    "venue": "St. Andrew's Stadium"
+  },
+  "2002-08-31-MCI-EVE": {
+    "attendance": 34835,
+    "venue": "Maine Road"
+  },
+  "2002-08-31-MID-BLB": {
+    "attendance": 28270,
+    "venue": "Riverside Stadium"
+  },
+  "2002-08-31-SUN-MUN": {
+    "attendance": 47586,
+    "venue": "Stadium of Light"
+  },
+  "2002-08-31-TOT-SOU": {
+    "attendance": 35573,
+    "venue": "White Hart Lane"
+  },
+  "2002-08-31-WBA-FUL": {
+    "attendance": 25461,
+    "venue": "The Hawthorns"
+  },
+  "2002-08-31-WHU-CHA": {
+    "attendance": 32424,
+    "venue": "Boleyn Ground"
+  },
+  "2002-09-01-BOL-AVL": {
+    "attendance": 22500,
+    "venue": "Macron Stadium"
+  },
+  "2002-09-01-CHE-ARS": {
+    "attendance": 40037,
+    "venue": "Stamford Bridge"
+  },
+  "2002-09-02-LIV-NEW": {
+    "attendance": 43241,
+    "venue": "Anfield"
+  },
+  "2002-09-03-MUN-MID": {
+    "attendance": 67464,
+    "venue": "Old Trafford"
+  },
+  "2002-09-10-ARS-MCI": {
+    "attendance": 37878,
+    "venue": "Highbury"
+  },
+  "2002-09-10-MID-SUN": {
+    "attendance": 32155,
+    "venue": "Riverside Stadium"
+  },
+  "2002-09-11-AVL-CHA": {
+    "attendance": 26483,
+    "venue": "Villa Park"
+  },
+  "2002-09-11-BLB-CHE": {
+    "attendance": 22999,
+    "venue": "Ewood Park"
+  },
+  "2002-09-11-FUL-TOT": {
+    "attendance": 16757,
+    "venue": "Loftus Road"
+  },
+  "2002-09-11-LIV-BIR": {
+    "attendance": 43113,
+    "venue": "Anfield"
+  },
+  "2002-09-11-MUN-BOL": {
+    "attendance": 67623,
+    "venue": "Old Trafford"
+  },
+  "2002-09-11-NEW-LEE": {
+    "attendance": 51730,
+    "venue": "St. James' Park"
+  },
+  "2002-09-11-SOU-EVE": {
+    "attendance": 29190,
+    "venue": "St. Mary's Stadium"
+  },
+  "2002-09-11-WHU-WBA": {
+    "attendance": 34957,
+    "venue": "Boleyn Ground"
+  },
+  "2002-09-14-BOL-LIV": {
+    "attendance": 27238,
+    "venue": "Macron Stadium"
+  },
+  "2002-09-14-CHA-ARS": {
+    "attendance": 26080,
+    "venue": "The Valley"
+  },
+  "2002-09-14-CHE-NEW": {
+    "attendance": 39746,
+    "venue": "Stamford Bridge"
+  },
+  "2002-09-14-EVE-MID": {
+    "attendance": 32240,
+    "venue": "Goodison Park"
+  },
+  "2002-09-14-LEE-MUN": {
+    "attendance": 39622,
+    "venue": "Elland Road"
+  },
+  "2002-09-14-SUN-FUL": {
+    "attendance": 35432,
+    "venue": "Stadium of Light"
+  },
+  "2002-09-14-WBA-SOU": {
+    "attendance": 26383,
+    "venue": "The Hawthorns"
+  },
+  "2002-09-15-MCI-BLB": {
+    "attendance": 34130,
+    "venue": "Maine Road"
+  },
+  "2002-09-15-TOT-WHU": {
+    "attendance": 36005,
+    "venue": "White Hart Lane"
+  },
+  "2002-09-16-BIR-AVL": {
+    "attendance": 29505,
+    "venue": "St. Andrew's Stadium"
+  },
+  "2002-09-21-ARS-BOL": {
+    "attendance": 37974,
+    "venue": "Highbury"
+  },
+  "2002-09-21-LIV-WBA": {
+    "attendance": 43830,
+    "venue": "Anfield"
+  },
+  "2002-09-21-MID-BIR": {
+    "attendance": 29869,
+    "venue": "Riverside Stadium"
+  },
+  "2002-09-21-MUN-TOT": {
+    "attendance": 67611,
+    "venue": "Old Trafford"
+  },
+  "2002-09-21-NEW-SUN": {
+    "attendance": 52181,
+    "venue": "St. James' Park"
+  },
+  "2002-09-21-SOU-CHA": {
+    "attendance": 25714,
+    "venue": "St. Mary's Stadium"
+  },
+  "2002-09-21-WHU-MCI": {
+    "attendance": 35550,
+    "venue": "Boleyn Ground"
+  },
+  "2002-09-22-AVL-EVE": {
+    "attendance": 30023,
+    "venue": "Villa Park"
+  },
+  "2002-09-22-BLB-LEE": {
+    "attendance": 25415,
+    "venue": "Ewood Park"
+  },
+  "2002-09-23-FUL-CHE": {
+    "attendance": 16503,
+    "venue": "Loftus Road"
+  },
+  "2002-09-28-BIR-NEW": {
+    "attendance": 29072,
+    "venue": "St. Andrew's Stadium"
+  },
+  "2002-09-28-BOL-SOU": {
+    "attendance": 22692,
+    "venue": "Macron Stadium"
+  },
+  "2002-09-28-CHA-MUN": {
+    "attendance": 26630,
+    "venue": "The Valley"
+  },
+  "2002-09-28-CHE-WHU": {
+    "attendance": 38929,
+    "venue": "Stamford Bridge"
+  },
+  "2002-09-28-EVE-FUL": {
+    "attendance": 34371,
+    "venue": "Goodison Park"
+  },
+  "2002-09-28-LEE-ARS": {
+    "attendance": 40199,
+    "venue": "Elland Road"
+  },
+  "2002-09-28-MCI-LIV": {
+    "attendance": 35131,
+    "venue": "Maine Road"
+  },
+  "2002-09-28-SUN-AVL": {
+    "attendance": 40492,
+    "venue": "Stadium of Light"
+  },
+  "2002-09-28-TOT-MID": {
+    "attendance": 36082,
+    "venue": "White Hart Lane"
+  },
+  "2002-09-30-WBA-BLB": {
+    "attendance": 25170,
+    "venue": "The Hawthorns"
+  },
+  "2002-10-05-MID-BOL": {
+    "attendance": 31005,
+    "venue": "Riverside Stadium"
+  },
+  "2002-10-05-NEW-WBA": {
+    "attendance": 52142,
+    "venue": "St. James' Park"
+  },
+  "2002-10-05-SOU-MCI": {
+    "attendance": 31009,
+    "venue": "St. Mary's Stadium"
+  },
+  "2002-10-05-WHU-BIR": {
+    "attendance": 35010,
+    "venue": "Boleyn Ground"
+  },
+  "2002-10-06-ARS-SUN": {
+    "attendance": 37902,
+    "venue": "Highbury"
+  },
+  "2002-10-06-AVL-LEE": {
+    "attendance": 33505,
+    "venue": "Villa Park"
+  },
+  "2002-10-06-BLB-TOT": {
+    "attendance": 26203,
+    "venue": "Ewood Park"
+  },
+  "2002-10-06-FUL-CHA": {
+    "attendance": 14775,
+    "venue": "Loftus Road"
+  },
+  "2002-10-06-LIV-CHE": {
+    "attendance": 43856,
+    "venue": "Anfield"
+  },
+  "2002-10-07-MUN-EVE": {
+    "attendance": 67629,
+    "venue": "Old Trafford"
+  },
+  "2002-10-19-BLB-NEW": {
+    "attendance": 27307,
+    "venue": "Ewood Park"
+  },
+  "2002-10-19-EVE-ARS": {
+    "attendance": 39038,
+    "venue": "Goodison Park"
+  },
+  "2002-10-19-FUL-MUN": {
+    "attendance": 18103,
+    "venue": "Loftus Road"
+  },
+  "2002-10-19-LEE-LIV": {
+    "attendance": 40187,
+    "venue": "Elland Road"
+  },
+  "2002-10-19-MCI-CHE": {
+    "attendance": 34953,
+    "venue": "Maine Road"
+  },
+  "2002-10-19-SUN-WHU": {
+    "attendance": 44352,
+    "venue": "Stadium of Light"
+  },
+  "2002-10-19-WBA-BIR": {
+    "attendance": 27021,
+    "venue": "The Hawthorns"
+  },
+  "2002-10-20-CHA-MID": {
+    "attendance": 26271,
+    "venue": "The Valley"
+  },
+  "2002-10-20-TOT-BOL": {
+    "attendance": 35909,
+    "venue": "White Hart Lane"
+  },
+  "2002-10-21-AVL-SOU": {
+    "attendance": 25817,
+    "venue": "Villa Park"
+  },
+  "2002-10-23-FUL-WHU": {
+    "attendance": 15858,
+    "venue": "Loftus Road"
+  },
+  "2002-10-26-ARS-BLB": {
+    "attendance": 38064,
+    "venue": "Highbury"
+  },
+  "2002-10-26-BIR-MCI": {
+    "attendance": 29316,
+    "venue": "St. Andrew's Stadium"
+  },
+  "2002-10-26-CHE-WBA": {
+    "attendance": 40893,
+    "venue": "Stamford Bridge"
+  },
+  "2002-10-26-LIV-TOT": {
+    "attendance": 44084,
+    "venue": "Anfield"
+  },
+  "2002-10-26-MID-LEE": {
+    "attendance": 34723,
+    "venue": "Riverside Stadium"
+  },
+  "2002-10-26-MUN-AVL": {
+    "attendance": 67619,
+    "venue": "Old Trafford"
+  },
+  "2002-10-26-NEW-CHA": {
+    "attendance": 51670,
+    "venue": "St. James' Park"
+  },
+  "2002-10-27-SOU-FUL": {
+    "attendance": 26188,
+    "venue": "St. Mary's Stadium"
+  },
+  "2002-10-27-WHU-EVE": {
+    "attendance": 34117,
+    "venue": "Boleyn Ground"
+  },
+  "2002-10-28-BOL-SUN": {
+    "attendance": 23036,
+    "venue": "Macron Stadium"
+  },
+  "2002-11-02-BIR-BOL": {
+    "attendance": 27224,
+    "venue": "St. Andrew's Stadium"
+  },
+  "2002-11-02-LIV-WHU": {
+    "attendance": 44048,
+    "venue": "Anfield"
+  },
+  "2002-11-02-MUN-SOU": {
+    "attendance": 67691,
+    "venue": "Old Trafford"
+  },
+  "2002-11-02-WBA-MCI": {
+    "attendance": 27044,
+    "venue": "The Hawthorns"
+  },
+  "2002-11-03-BLB-AVL": {
+    "attendance": 23004,
+    "venue": "Ewood Park"
+  },
+  "2002-11-03-CHA-SUN": {
+    "attendance": 26284,
+    "venue": "The Valley"
+  },
+  "2002-11-03-FUL-ARS": {
+    "attendance": 18800,
+    "venue": "Loftus Road"
+  },
+  "2002-11-03-LEE-EVE": {
+    "attendance": 40161,
+    "venue": "Elland Road"
+  },
+  "2002-11-03-TOT-CHE": {
+    "attendance": 36049,
+    "venue": "White Hart Lane"
+  },
+  "2002-11-04-NEW-MID": {
+    "attendance": 51558,
+    "venue": "St. James' Park"
+  },
+  "2002-11-09-ARS-NEW": {
+    "attendance": 38121,
+    "venue": "Highbury"
+  },
+  "2002-11-09-AVL-FUL": {
+    "attendance": 29563,
+    "venue": "Villa Park"
+  },
+  "2002-11-09-BOL-WBA": {
+    "attendance": 23630,
+    "venue": "Macron Stadium"
+  },
+  "2002-11-09-CHE-BIR": {
+    "attendance": 35237,
+    "venue": "Stamford Bridge"
+  },
+  "2002-11-09-EVE-CHA": {
+    "attendance": 37621,
+    "venue": "Goodison Park"
+  },
+  "2002-11-09-MCI-MUN": {
+    "attendance": 34649,
+    "venue": "Maine Road"
+  },
+  "2002-11-09-MID-LIV": {
+    "attendance": 34747,
+    "venue": "Riverside Stadium"
+  },
+  "2002-11-09-SOU-BLB": {
+    "attendance": 30059,
+    "venue": "St. Mary's Stadium"
+  },
+  "2002-11-10-SUN-TOT": {
+    "attendance": 40024,
+    "venue": "Stadium of Light"
+  },
+  "2002-11-10-WHU-LEE": {
+    "attendance": 33297,
+    "venue": "Boleyn Ground"
+  },
+  "2002-11-16-ARS-TOT": {
+    "attendance": 38152,
+    "venue": "Highbury"
+  },
+  "2002-11-16-CHE-MID": {
+    "attendance": 39064,
+    "venue": "Stamford Bridge"
+  },
+  "2002-11-16-MCI-CHA": {
+    "attendance": 33455,
+    "venue": "Maine Road"
+  },
+  "2002-11-16-NEW-SOU": {
+    "attendance": 51812,
+    "venue": "St. James' Park"
+  },
+  "2002-11-16-WBA-AVL": {
+    "attendance": 27091,
+    "venue": "The Hawthorns"
+  },
+  "2002-11-17-BIR-FUL": {
+    "attendance": 26164,
+    "venue": "St. Andrew's Stadium"
+  },
+  "2002-11-17-BLB-EVE": {
+    "attendance": 26496,
+    "venue": "Ewood Park"
+  },
+  "2002-11-17-LEE-BOL": {
+    "attendance": 36627,
+    "venue": "Elland Road"
+  },
+  "2002-11-17-LIV-SUN": {
+    "attendance": 43074,
+    "venue": "Anfield"
+  },
+  "2002-11-17-WHU-MUN": {
+    "attendance": 35049,
+    "venue": "Boleyn Ground"
+  },
+  "2002-11-23-AVL-WHU": {
+    "attendance": 33279,
+    "venue": "Villa Park"
+  },
+  "2002-11-23-BOL-CHE": {
+    "attendance": 25476,
+    "venue": "Macron Stadium"
+  },
+  "2002-11-23-EVE-WBA": {
+    "attendance": 40113,
+    "venue": "Goodison Park"
+  },
+  "2002-11-23-FUL-LIV": {
+    "attendance": 18144,
+    "venue": "Loftus Road"
+  },
+  "2002-11-23-MID-MCI": {
+    "attendance": 31510,
+    "venue": "Riverside Stadium"
+  },
+  "2002-11-23-MUN-NEW": {
+    "attendance": 67619,
+    "venue": "Old Trafford"
+  },
+  "2002-11-23-SOU-ARS": {
+    "attendance": 31797,
+    "venue": "St. Mary's Stadium"
+  },
+  "2002-11-23-SUN-BIR": {
+    "attendance": 38803,
+    "venue": "Stadium of Light"
+  },
+  "2002-11-24-CHA-BLB": {
+    "attendance": 26152,
+    "venue": "The Valley"
+  },
+  "2002-11-24-TOT-LEE": {
+    "attendance": 35718,
+    "venue": "White Hart Lane"
+  },
+  "2002-11-30-ARS-AVL": {
+    "attendance": 38090,
+    "venue": "Highbury"
+  },
+  "2002-11-30-BIR-TOT": {
+    "attendance": 29505,
+    "venue": "St. Andrew's Stadium"
+  },
+  "2002-11-30-BLB-FUL": {
+    "attendance": 21096,
+    "venue": "Ewood Park"
+  },
+  "2002-11-30-CHE-SUN": {
+    "attendance": 38946,
+    "venue": "Stamford Bridge"
+  },
+  "2002-11-30-MCI-BOL": {
+    "attendance": 34860,
+    "venue": "Maine Road"
+  },
+  "2002-11-30-WBA-MID": {
+    "attendance": 27029,
+    "venue": "The Hawthorns"
+  },
+  "2002-12-01-LEE-CHA": {
+    "attendance": 35537,
+    "venue": "Elland Road"
+  },
+  "2002-12-01-LIV-MUN": {
+    "attendance": 44250,
+    "venue": "Anfield"
+  },
+  "2002-12-01-NEW-EVE": {
+    "attendance": 51607,
+    "venue": "St. James' Park"
+  },
+  "2002-12-02-WHU-SOU": {
+    "attendance": 28844,
+    "venue": "Boleyn Ground"
+  },
+  "2002-12-07-AVL-NEW": {
+    "attendance": 33446,
+    "venue": "Villa Park"
+  },
+  "2002-12-07-BOL-BLB": {
+    "attendance": 24556,
+    "venue": "Macron Stadium"
+  },
+  "2002-12-07-CHA-LIV": {
+    "attendance": 26694,
+    "venue": "The Valley"
+  },
+  "2002-12-07-EVE-CHE": {
+    "attendance": 39396,
+    "venue": "Goodison Park"
+  },
+  "2002-12-07-FUL-LEE": {
+    "attendance": 17499,
+    "venue": "Loftus Road"
+  },
+  "2002-12-07-MID-WHU": {
+    "attendance": 28283,
+    "venue": "Riverside Stadium"
+  },
+  "2002-12-07-MUN-ARS": {
+    "attendance": 67650,
+    "venue": "Old Trafford"
+  },
+  "2002-12-07-SOU-BIR": {
+    "attendance": 31132,
+    "venue": "St. Mary's Stadium"
+  },
+  "2002-12-08-TOT-WBA": {
+    "attendance": 35958,
+    "venue": "White Hart Lane"
+  },
+  "2002-12-09-SUN-MCI": {
+    "attendance": 36511,
+    "venue": "Stadium of Light"
+  },
+  "2002-12-14-AVL-WBA": {
+    "attendance": 40391,
+    "venue": "Villa Park"
+  },
+  "2002-12-14-CHA-MCI": {
+    "attendance": 26484,
+    "venue": "The Valley"
+  },
+  "2002-12-14-EVE-BLB": {
+    "attendance": 36578,
+    "venue": "Goodison Park"
+  },
+  "2002-12-14-MID-CHE": {
+    "attendance": 29160,
+    "venue": "Riverside Stadium"
+  },
+  "2002-12-14-MUN-WHU": {
+    "attendance": 67555,
+    "venue": "Old Trafford"
+  },
+  "2002-12-14-SOU-NEW": {
+    "attendance": 32061,
+    "venue": "St. Mary's Stadium"
+  },
+  "2002-12-15-FUL-BIR": {
+    "attendance": 14962,
+    "venue": "Loftus Road"
+  },
+  "2002-12-15-SUN-LIV": {
+    "attendance": 37118,
+    "venue": "Stadium of Light"
+  },
+  "2002-12-15-TOT-ARS": {
+    "attendance": 36076,
+    "venue": "White Hart Lane"
+  },
+  "2002-12-16-BOL-LEE": {
+    "attendance": 23378,
+    "venue": "Macron Stadium"
+  },
+  "2002-12-21-ARS-MID": {
+    "attendance": 38003,
+    "venue": "Highbury"
+  },
+  "2002-12-21-BIR-CHA": {
+    "attendance": 28837,
+    "venue": "St. Andrew's Stadium"
+  },
+  "2002-12-21-CHE-AVL": {
+    "attendance": 38284,
+    "venue": "Stamford Bridge"
+  },
+  "2002-12-21-LEE-SOU": {
+    "attendance": 36687,
+    "venue": "Elland Road"
+  },
+  "2002-12-21-NEW-FUL": {
+    "attendance": 51576,
+    "venue": "St. James' Park"
+  },
+  "2002-12-21-WBA-SUN": {
+    "attendance": 26703,
+    "venue": "The Hawthorns"
+  },
+  "2002-12-21-WHU-BOL": {
+    "attendance": 34892,
+    "venue": "Boleyn Ground"
+  },
+  "2002-12-22-BLB-MUN": {
+    "attendance": 30475,
+    "venue": "Ewood Park"
+  },
+  "2002-12-22-LIV-EVE": {
+    "attendance": 44025,
+    "venue": "Anfield"
+  },
+  "2002-12-23-MCI-TOT": {
+    "attendance": 34563,
+    "venue": "Maine Road"
+  },
+  "2002-12-26-BIR-EVE": {
+    "attendance": 29505,
+    "venue": "St. Andrew's Stadium"
+  },
+  "2002-12-26-BOL-NEW": {
+    "attendance": 27314,
+    "venue": "Macron Stadium"
+  },
+  "2002-12-26-CHE-SOU": {
+    "attendance": 39428,
+    "venue": "Stamford Bridge"
+  },
+  "2002-12-26-LIV-BLB": {
+    "attendance": 43075,
+    "venue": "Anfield"
+  },
+  "2002-12-26-MCI-AVL": {
+    "attendance": 33991,
+    "venue": "Maine Road"
+  },
+  "2002-12-26-MID-MUN": {
+    "attendance": 34673,
+    "venue": "Riverside Stadium"
+  },
+  "2002-12-26-SUN-LEE": {
+    "attendance": 44029,
+    "venue": "Stadium of Light"
+  },
+  "2002-12-26-TOT-CHA": {
+    "attendance": 36043,
+    "venue": "White Hart Lane"
+  },
+  "2002-12-26-WBA-ARS": {
+    "attendance": 27025,
+    "venue": "The Hawthorns"
+  },
+  "2002-12-26-WHU-FUL": {
+    "attendance": 35025,
+    "venue": "Boleyn Ground"
+  },
+  "2002-12-28-AVL-MID": {
+    "attendance": 33637,
+    "venue": "Villa Park"
+  },
+  "2002-12-28-BLB-WHU": {
+    "attendance": 24998,
+    "venue": "Ewood Park"
+  },
+  "2002-12-28-CHA-WBA": {
+    "attendance": 26196,
+    "venue": "The Valley"
+  },
+  "2002-12-28-EVE-BOL": {
+    "attendance": 39480,
+    "venue": "Goodison Park"
+  },
+  "2002-12-28-FUL-MCI": {
+    "attendance": 17937,
+    "venue": "Loftus Road"
+  },
+  "2002-12-28-LEE-CHE": {
+    "attendance": 40122,
+    "venue": "Elland Road"
+  },
+  "2002-12-28-MUN-BIR": {
+    "attendance": 67640,
+    "venue": "Old Trafford"
+  },
+  "2002-12-28-SOU-SUN": {
+    "attendance": 31423,
+    "venue": "St. Mary's Stadium"
+  },
+  "2002-12-29-ARS-LIV": {
+    "attendance": 38074,
+    "venue": "Highbury"
+  },
+  "2002-12-29-NEW-TOT": {
+    "attendance": 52145,
+    "venue": "St. James' Park"
+  },
+  "2003-01-01-ARS-CHE": {
+    "attendance": 38096,
+    "venue": "Highbury"
+  },
+  "2003-01-01-AVL-BOL": {
+    "attendance": 31838,
+    "venue": "Villa Park"
+  },
+  "2003-01-01-BLB-MID": {
+    "attendance": 23413,
+    "venue": "Ewood Park"
+  },
+  "2003-01-01-EVE-MCI": {
+    "attendance": 40163,
+    "venue": "Goodison Park"
+  },
+  "2003-01-01-LEE-BIR": {
+    "attendance": 40034,
+    "venue": "Elland Road"
+  },
+  "2003-01-01-MUN-SUN": {
+    "attendance": 67609,
+    "venue": "Old Trafford"
+  },
+  "2003-01-01-NEW-LIV": {
+    "attendance": 52147,
+    "venue": "St. James' Park"
+  },
+  "2003-01-01-SOU-TOT": {
+    "attendance": 31890,
+    "venue": "St. Mary's Stadium"
+  },
+  "2003-01-11-BOL-FUL": {
+    "attendance": 25156,
+    "venue": "Macron Stadium"
+  },
+  "2003-01-11-CHE-CHA": {
+    "attendance": 37284,
+    "venue": "Stamford Bridge"
+  },
+  "2003-01-11-LIV-AVL": {
+    "attendance": 43210,
+    "venue": "Anfield"
+  },
+  "2003-01-11-MCI-LEE": {
+    "attendance": 34884,
+    "venue": "Maine Road"
+  },
+  "2003-01-11-MID-SOU": {
+    "attendance": 27443,
+    "venue": "Riverside Stadium"
+  },
+  "2003-01-11-SUN-BLB": {
+    "attendance": 36529,
+    "venue": "Stadium of Light"
+  },
+  "2003-01-11-WBA-MUN": {
+    "attendance": 27129,
+    "venue": "The Hawthorns"
+  },
+  "2003-01-11-WHU-NEW": {
+    "attendance": 35048,
+    "venue": "Boleyn Ground"
+  },
+  "2003-01-12-BIR-ARS": {
+    "attendance": 29505,
+    "venue": "St. Andrew's Stadium"
+  },
+  "2003-01-12-TOT-EVE": {
+    "attendance": 36070,
+    "venue": "White Hart Lane"
+  },
+  "2003-01-18-AVL-TOT": {
+    "attendance": 38576,
+    "venue": "Villa Park"
+  },
+  "2003-01-18-BLB-BIR": {
+    "attendance": 23331,
+    "venue": "Ewood Park"
+  },
+  "2003-01-18-CHA-BOL": {
+    "attendance": 26057,
+    "venue": "The Valley"
+  },
+  "2003-01-18-EVE-SUN": {
+    "attendance": 37409,
+    "venue": "Goodison Park"
+  },
+  "2003-01-18-LEE-WBA": {
+    "attendance": 39708,
+    "venue": "Elland Road"
+  },
+  "2003-01-18-MUN-CHE": {
+    "attendance": 67606,
+    "venue": "Old Trafford"
+  },
+  "2003-01-18-NEW-MCI": {
+    "attendance": 52152,
+    "venue": "St. James' Park"
+  },
+  "2003-01-18-SOU-LIV": {
+    "attendance": 32104,
+    "venue": "St. Mary's Stadium"
+  },
+  "2003-01-19-ARS-WHU": {
+    "attendance": 38053,
+    "venue": "Highbury"
+  },
+  "2003-01-19-FUL-MID": {
+    "attendance": 14253,
+    "venue": "Loftus Road"
+  },
+  "2003-01-22-CHA-WHU": {
+    "attendance": 26340,
+    "venue": "The Valley"
+  },
+  "2003-01-22-NEW-BOL": {
+    "attendance": 52005,
+    "venue": "St. James' Park"
+  },
+  "2003-01-28-BOL-EVE": {
+    "attendance": 25119,
+    "venue": "Macron Stadium"
+  },
+  "2003-01-28-CHE-LEE": {
+    "attendance": 39738,
+    "venue": "Stamford Bridge"
+  },
+  "2003-01-28-MID-AVL": {
+    "attendance": 27546,
+    "venue": "Riverside Stadium"
+  },
+  "2003-01-28-SUN-SOU": {
+    "attendance": 34102,
+    "venue": "Stadium of Light"
+  },
+  "2003-01-29-LIV-ARS": {
+    "attendance": 43668,
+    "venue": "Anfield"
+  },
+  "2003-01-29-MCI-FUL": {
+    "attendance": 33260,
+    "venue": "Maine Road"
+  },
+  "2003-01-29-TOT-NEW": {
+    "attendance": 36084,
+    "venue": "White Hart Lane"
+  },
+  "2003-01-29-WBA-CHA": {
+    "attendance": 26113,
+    "venue": "The Hawthorns"
+  },
+  "2003-01-29-WHU-BLB": {
+    "attendance": 34743,
+    "venue": "Boleyn Ground"
+  },
+  "2003-02-01-ARS-FUL": {
+    "attendance": 38050,
+    "venue": "Highbury"
+  },
+  "2003-02-01-BOL-BIR": {
+    "attendance": 24288,
+    "venue": "Macron Stadium"
+  },
+  "2003-02-01-CHE-TOT": {
+    "attendance": 41384,
+    "venue": "Stamford Bridge"
+  },
+  "2003-02-01-EVE-LEE": {
+    "attendance": 40153,
+    "venue": "Goodison Park"
+  },
+  "2003-02-01-MCI-WBA": {
+    "attendance": 34765,
+    "venue": "Maine Road"
+  },
+  "2003-02-01-SOU-MUN": {
+    "attendance": 32085,
+    "venue": "St. Mary's Stadium"
+  },
+  "2003-02-01-SUN-CHA": {
+    "attendance": 36042,
+    "venue": "Stadium of Light"
+  },
+  "2003-02-02-AVL-BLB": {
+    "attendance": 29171,
+    "venue": "Villa Park"
+  },
+  "2003-02-02-WHU-LIV": {
+    "attendance": 35033,
+    "venue": "Boleyn Ground"
+  },
+  "2003-02-04-BIR-MUN": {
+    "attendance": 29475,
+    "venue": "St. Andrew's Stadium"
+  },
+  "2003-02-08-BIR-CHE": {
+    "attendance": 29475,
+    "venue": "St. Andrew's Stadium"
+  },
+  "2003-02-08-BLB-SOU": {
+    "attendance": 24896,
+    "venue": "Ewood Park"
+  },
+  "2003-02-08-CHA-EVE": {
+    "attendance": 26623,
+    "venue": "The Valley"
+  },
+  "2003-02-08-FUL-AVL": {
+    "attendance": 17092,
+    "venue": "Loftus Road"
+  },
+  "2003-02-08-LEE-WHU": {
+    "attendance": 40126,
+    "venue": "Elland Road"
+  },
+  "2003-02-08-LIV-MID": {
+    "attendance": 42247,
+    "venue": "Anfield"
+  },
+  "2003-02-08-TOT-SUN": {
+    "attendance": 36075,
+    "venue": "White Hart Lane"
+  },
+  "2003-02-08-WBA-BOL": {
+    "attendance": 26933,
+    "venue": "The Hawthorns"
+  },
+  "2003-02-09-MUN-MCI": {
+    "attendance": 67646,
+    "venue": "Old Trafford"
+  },
+  "2003-02-09-NEW-ARS": {
+    "attendance": 52157,
+    "venue": "St. James' Park"
+  },
+  "2003-02-19-FUL-WBA": {
+    "attendance": 15799,
+    "venue": "Loftus Road"
+  },
+  "2003-02-22-BOL-MUN": {
+    "attendance": 27409,
+    "venue": "Macron Stadium"
+  },
+  "2003-02-22-CHA-AVL": {
+    "attendance": 26257,
+    "venue": "The Valley"
+  },
+  "2003-02-22-CHE-BLB": {
+    "attendance": 40850,
+    "venue": "Stamford Bridge"
+  },
+  "2003-02-22-EVE-SOU": {
+    "attendance": 36569,
+    "venue": "Goodison Park"
+  },
+  "2003-02-22-LEE-NEW": {
+    "attendance": 40025,
+    "venue": "Elland Road"
+  },
+  "2003-02-22-MCI-ARS": {
+    "attendance": 34960,
+    "venue": "Maine Road"
+  },
+  "2003-02-22-SUN-MID": {
+    "attendance": 42134,
+    "venue": "Stadium of Light"
+  },
+  "2003-02-23-BIR-LIV": {
+    "attendance": 29449,
+    "venue": "St. Andrew's Stadium"
+  },
+  "2003-02-23-WBA-WHU": {
+    "attendance": 27042,
+    "venue": "The Hawthorns"
+  },
+  "2003-02-24-TOT-FUL": {
+    "attendance": 34704,
+    "venue": "White Hart Lane"
+  },
+  "2003-03-01-BLB-MCI": {
+    "attendance": 28647,
+    "venue": "Ewood Park"
+  },
+  "2003-03-01-FUL-SUN": {
+    "attendance": 16286,
+    "venue": "Loftus Road"
+  },
+  "2003-03-01-MID-EVE": {
+    "attendance": 32473,
+    "venue": "Riverside Stadium"
+  },
+  "2003-03-01-NEW-CHE": {
+    "attendance": 52157,
+    "venue": "St. James' Park"
+  },
+  "2003-03-01-SOU-WBA": {
+    "attendance": 31915,
+    "venue": "St. Mary's Stadium"
+  },
+  "2003-03-01-WHU-TOT": {
+    "attendance": 35049,
+    "venue": "Boleyn Ground"
+  },
+  "2003-03-02-ARS-CHA": {
+    "attendance": 38015,
+    "venue": "Highbury"
+  },
+  "2003-03-03-AVL-BIR": {
+    "attendance": 42602,
+    "venue": "Villa Park"
+  },
+  "2003-03-05-MID-NEW": {
+    "attendance": 34814,
+    "venue": "Riverside Stadium"
+  },
+  "2003-03-05-MUN-LEE": {
+    "attendance": 67135,
+    "venue": "Old Trafford"
+  },
+  "2003-03-08-LIV-BOL": {
+    "attendance": 41462,
+    "venue": "Anfield"
+  },
+  "2003-03-15-AVL-MUN": {
+    "attendance": 42602,
+    "venue": "Villa Park"
+  },
+  "2003-03-15-BLB-ARS": {
+    "attendance": 29840,
+    "venue": "Ewood Park"
+  },
+  "2003-03-15-CHA-NEW": {
+    "attendance": 26728,
+    "venue": "The Valley"
+  },
+  "2003-03-15-EVE-WHU": {
+    "attendance": 40158,
+    "venue": "Goodison Park"
+  },
+  "2003-03-15-FUL-SOU": {
+    "attendance": 18031,
+    "venue": "Loftus Road"
+  },
+  "2003-03-15-LEE-MID": {
+    "attendance": 39073,
+    "venue": "Elland Road"
+  },
+  "2003-03-15-SUN-BOL": {
+    "attendance": 42124,
+    "venue": "Stadium of Light"
+  },
+  "2003-03-16-MCI-BIR": {
+    "attendance": 34596,
+    "venue": "Maine Road"
+  },
+  "2003-03-16-TOT-LIV": {
+    "attendance": 36077,
+    "venue": "White Hart Lane"
+  },
+  "2003-03-16-WBA-CHE": {
+    "attendance": 27024,
+    "venue": "The Hawthorns"
+  },
+  "2003-03-22-BIR-WBA": {
+    "attendance": 29449,
+    "venue": "St. Andrew's Stadium"
+  },
+  "2003-03-22-CHE-MCI": {
+    "attendance": 41105,
+    "venue": "Stamford Bridge"
+  },
+  "2003-03-22-MID-CHA": {
+    "attendance": 29080,
+    "venue": "Riverside Stadium"
+  },
+  "2003-03-22-MUN-FUL": {
+    "attendance": 67706,
+    "venue": "Old Trafford"
+  },
+  "2003-03-22-NEW-BLB": {
+    "attendance": 52106,
+    "venue": "St. James' Park"
+  },
+  "2003-03-22-SOU-AVL": {
+    "attendance": 31888,
+    "venue": "St. Mary's Stadium"
+  },
+  "2003-03-22-WHU-SUN": {
+    "attendance": 35033,
+    "venue": "Boleyn Ground"
+  },
+  "2003-03-23-ARS-EVE": {
+    "attendance": 38042,
+    "venue": "Highbury"
+  },
+  "2003-03-23-LIV-LEE": {
+    "attendance": 43021,
+    "venue": "Anfield"
+  },
+  "2003-03-24-BOL-TOT": {
+    "attendance": 23084,
+    "venue": "Macron Stadium"
+  },
+  "2003-04-05-AVL-ARS": {
+    "attendance": 42602,
+    "venue": "Villa Park"
+  },
+  "2003-04-05-BOL-MCI": {
+    "attendance": 26949,
+    "venue": "Macron Stadium"
+  },
+  "2003-04-05-CHA-LEE": {
+    "attendance": 26274,
+    "venue": "The Valley"
+  },
+  "2003-04-05-MID-WBA": {
+    "attendance": 30187,
+    "venue": "Riverside Stadium"
+  },
+  "2003-04-05-MUN-LIV": {
+    "attendance": 67639,
+    "venue": "Old Trafford"
+  },
+  "2003-04-05-SOU-WHU": {
+    "attendance": 31941,
+    "venue": "St. Mary's Stadium"
+  },
+  "2003-04-05-SUN-CHE": {
+    "attendance": 40011,
+    "venue": "Stadium of Light"
+  },
+  "2003-04-05-TOT-BIR": {
+    "attendance": 36058,
+    "venue": "White Hart Lane"
+  },
+  "2003-04-06-EVE-NEW": {
+    "attendance": 40031,
+    "venue": "Goodison Park"
+  },
+  "2003-04-07-FUL-BLB": {
+    "attendance": 14017,
+    "venue": "Loftus Road"
+  },
+  "2003-04-12-BIR-SUN": {
+    "attendance": 29132,
+    "venue": "St. Andrew's Stadium"
+  },
+  "2003-04-12-BLB-CHA": {
+    "attendance": 27506,
+    "venue": "Ewood Park"
+  },
+  "2003-04-12-CHE-BOL": {
+    "attendance": 39852,
+    "venue": "Stamford Bridge"
+  },
+  "2003-04-12-LEE-TOT": {
+    "attendance": 39560,
+    "venue": "Elland Road"
+  },
+  "2003-04-12-LIV-FUL": {
+    "attendance": 42120,
+    "venue": "Anfield"
+  },
+  "2003-04-12-MCI-MID": {
+    "attendance": 34793,
+    "venue": "Maine Road"
+  },
+  "2003-04-12-NEW-MUN": {
+    "attendance": 52164,
+    "venue": "St. James' Park"
+  },
+  "2003-04-12-WBA-EVE": {
+    "attendance": 27039,
+    "venue": "The Hawthorns"
+  },
+  "2003-04-12-WHU-AVL": {
+    "attendance": 35029,
+    "venue": "Boleyn Ground"
+  },
+  "2003-04-16-ARS-MUN": {
+    "attendance": 38164,
+    "venue": "Highbury"
+  },
+  "2003-04-18-TOT-MCI": {
+    "attendance": 36075,
+    "venue": "White Hart Lane"
+  },
+  "2003-04-19-AVL-CHE": {
+    "attendance": 39358,
+    "venue": "Villa Park"
+  },
+  "2003-04-19-BOL-WHU": {
+    "attendance": 27160,
+    "venue": "Macron Stadium"
+  },
+  "2003-04-19-CHA-BIR": {
+    "attendance": 25732,
+    "venue": "The Valley"
+  },
+  "2003-04-19-EVE-LIV": {
+    "attendance": 40162,
+    "venue": "Goodison Park"
+  },
+  "2003-04-19-FUL-NEW": {
+    "attendance": 17900,
+    "venue": "Loftus Road"
+  },
+  "2003-04-19-MID-ARS": {
+    "attendance": 34724,
+    "venue": "Riverside Stadium"
+  },
+  "2003-04-19-MUN-BLB": {
+    "attendance": 67626,
+    "venue": "Old Trafford"
+  },
+  "2003-04-19-SOU-LEE": {
+    "attendance": 32032,
+    "venue": "St. Mary's Stadium"
+  },
+  "2003-04-19-SUN-WBA": {
+    "attendance": 36025,
+    "venue": "Stadium of Light"
+  },
+  "2003-04-21-BIR-SOU": {
+    "attendance": 29115,
+    "venue": "St. Andrew's Stadium"
+  },
+  "2003-04-21-BLB-BOL": {
+    "attendance": 28862,
+    "venue": "Ewood Park"
+  },
+  "2003-04-21-CHE-EVE": {
+    "attendance": 40875,
+    "venue": "Stamford Bridge"
+  },
+  "2003-04-21-LIV-CHA": {
+    "attendance": 42010,
+    "venue": "Anfield"
+  },
+  "2003-04-21-MCI-SUN": {
+    "attendance": 34357,
+    "venue": "Maine Road"
+  },
+  "2003-04-21-NEW-AVL": {
+    "attendance": 52015,
+    "venue": "St. James' Park"
+  },
+  "2003-04-21-WBA-TOT": {
+    "attendance": 26899,
+    "venue": "The Hawthorns"
+  },
+  "2003-04-21-WHU-MID": {
+    "attendance": 35019,
+    "venue": "Boleyn Ground"
+  },
+  "2003-04-22-LEE-FUL": {
+    "attendance": 37220,
+    "venue": "Elland Road"
+  },
+  "2003-04-26-BIR-MID": {
+    "attendance": 28821,
+    "venue": "St. Andrew's Stadium"
+  },
+  "2003-04-26-BOL-ARS": {
+    "attendance": 27253,
+    "venue": "Macron Stadium"
+  },
+  "2003-04-26-CHA-SOU": {
+    "attendance": 25894,
+    "venue": "The Valley"
+  },
+  "2003-04-26-CHE-FUL": {
+    "attendance": 40792,
+    "venue": "Stamford Bridge"
+  },
+  "2003-04-26-EVE-AVL": {
+    "attendance": 40167,
+    "venue": "Goodison Park"
+  },
+  "2003-04-26-LEE-BLB": {
+    "attendance": 38062,
+    "venue": "Elland Road"
+  },
+  "2003-04-26-SUN-NEW": {
+    "attendance": 45067,
+    "venue": "Stadium of Light"
+  },
+  "2003-04-26-WBA-LIV": {
+    "attendance": 27128,
+    "venue": "The Hawthorns"
+  },
+  "2003-04-27-MCI-WHU": {
+    "attendance": 34815,
+    "venue": "Maine Road"
+  },
+  "2003-04-27-TOT-MUN": {
+    "attendance": 36073,
+    "venue": "White Hart Lane"
+  },
+  "2003-05-03-AVL-SUN": {
+    "attendance": 36963,
+    "venue": "Villa Park"
+  },
+  "2003-05-03-BLB-WBA": {
+    "attendance": 27470,
+    "venue": "Ewood Park"
+  },
+  "2003-05-03-FUL-EVE": {
+    "attendance": 18385,
+    "venue": "Loftus Road"
+  },
+  "2003-05-03-LIV-MCI": {
+    "attendance": 44220,
+    "venue": "Anfield"
+  },
+  "2003-05-03-MID-TOT": {
+    "attendance": 30230,
+    "venue": "Riverside Stadium"
+  },
+  "2003-05-03-MUN-CHA": {
+    "attendance": 67721,
+    "venue": "Old Trafford"
+  },
+  "2003-05-03-NEW-BIR": {
+    "attendance": 52146,
+    "venue": "St. James' Park"
+  },
+  "2003-05-03-SOU-BOL": {
+    "attendance": 30951,
+    "venue": "St. Mary's Stadium"
+  },
+  "2003-05-03-WHU-CHE": {
+    "attendance": 35042,
+    "venue": "Boleyn Ground"
+  },
+  "2003-05-04-ARS-LEE": {
+    "attendance": 38127,
+    "venue": "Highbury"
+  },
+  "2003-05-07-ARS-SOU": {
+    "attendance": 38052,
+    "venue": "Highbury"
+  },
+  "2003-05-11-BIR-WHU": {
+    "attendance": 29505,
+    "venue": "St. Andrew's Stadium"
+  },
+  "2003-05-11-BOL-MID": {
+    "attendance": 27241,
+    "venue": "Macron Stadium"
+  },
+  "2003-05-11-CHA-FUL": {
+    "attendance": 26108,
+    "venue": "The Valley"
+  },
+  "2003-05-11-CHE-LIV": {
+    "attendance": 41911,
+    "venue": "Stamford Bridge"
+  },
+  "2003-05-11-EVE-MUN": {
+    "attendance": 40618,
+    "venue": "Goodison Park"
+  },
+  "2003-05-11-LEE-AVL": {
+    "attendance": 40205,
+    "venue": "Elland Road"
+  },
+  "2003-05-11-MCI-SOU": {
+    "attendance": 34957,
+    "venue": "Maine Road"
+  },
+  "2003-05-11-SUN-ARS": {
+    "attendance": 40188,
+    "venue": "Stadium of Light"
+  },
+  "2003-05-11-TOT-BLB": {
+    "attendance": 36036,
+    "venue": "White Hart Lane"
+  },
+  "2003-05-11-WBA-NEW": {
+    "attendance": 27036,
+    "venue": "The Hawthorns"
+  }
+}

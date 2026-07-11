@@ -1,0 +1,1850 @@
+{
+  "1992-08-15-ARS-NOR": {
+    "attendance": 24030,
+    "venue": "Highbury"
+  },
+  "1992-08-15-CHE-OLD": {
+    "attendance": 20699,
+    "venue": "Stamford Bridge"
+  },
+  "1992-08-15-COV-MID": {
+    "attendance": 12681,
+    "venue": "Highfield Road"
+  },
+  "1992-08-15-CRY-BLB": {
+    "attendance": 17086,
+    "venue": "Selhurst Park"
+  },
+  "1992-08-15-EVE-SHW": {
+    "attendance": 27687,
+    "venue": "Goodison Park"
+  },
+  "1992-08-15-IPS-AVL": {
+    "attendance": 16818,
+    "venue": "Portman Road"
+  },
+  "1992-08-15-LEE-WIM": {
+    "attendance": 25795,
+    "venue": "Elland Road"
+  },
+  "1992-08-15-SHU-MUN": {
+    "attendance": 28070,
+    "venue": "Bramall Lane"
+  },
+  "1992-08-15-SOU-TOT": {
+    "attendance": 19654,
+    "venue": "The Dell"
+  },
+  "1992-08-16-NFO-LIV": {
+    "attendance": 20038,
+    "venue": "City Ground"
+  },
+  "1992-08-17-MCI-QPR": {
+    "attendance": 24471,
+    "venue": "Maine Road"
+  },
+  "1992-08-18-BLB-ARS": {
+    "attendance": 16454,
+    "venue": "Ewood Park"
+  },
+  "1992-08-18-WIM-IPS": {
+    "attendance": 4954,
+    "venue": "Selhurst Park"
+  },
+  "1992-08-19-AVL-LEE": {
+    "attendance": 29151,
+    "venue": "Villa Park"
+  },
+  "1992-08-19-LIV-SHU": {
+    "attendance": 33107,
+    "venue": "Anfield"
+  },
+  "1992-08-19-MID-MCI": {
+    "attendance": 15369,
+    "venue": "Ayresome Park"
+  },
+  "1992-08-19-MUN-EVE": {
+    "attendance": 31901,
+    "venue": "Old Trafford"
+  },
+  "1992-08-19-NOR-CHE": {
+    "attendance": 15164,
+    "venue": "Carrow Road"
+  },
+  "1992-08-19-OLD-CRY": {
+    "attendance": 11063,
+    "venue": "Boundary Park"
+  },
+  "1992-08-19-QPR-SOU": {
+    "attendance": 10639,
+    "venue": "Loftus Road"
+  },
+  "1992-08-19-SHW-NFO": {
+    "attendance": 29623,
+    "venue": "Hillsborough"
+  },
+  "1992-08-19-TOT-COV": {
+    "attendance": 24388,
+    "venue": "White Hart Lane"
+  },
+  "1992-08-22-AVL-SOU": {
+    "attendance": 17894,
+    "venue": "Villa Park"
+  },
+  "1992-08-22-BLB-MCI": {
+    "attendance": 19433,
+    "venue": "Ewood Park"
+  },
+  "1992-08-22-MID-LEE": {
+    "attendance": 18649,
+    "venue": "Ayresome Park"
+  },
+  "1992-08-22-MUN-IPS": {
+    "attendance": 31704,
+    "venue": "Old Trafford"
+  },
+  "1992-08-22-NOR-EVE": {
+    "attendance": 14150,
+    "venue": "Carrow Road"
+  },
+  "1992-08-22-OLD-NFO": {
+    "attendance": 11632,
+    "venue": "Boundary Park"
+  },
+  "1992-08-22-QPR-SHU": {
+    "attendance": 10932,
+    "venue": "Loftus Road"
+  },
+  "1992-08-22-SHW-CHE": {
+    "attendance": 26338,
+    "venue": "Hillsborough"
+  },
+  "1992-08-22-TOT-CRY": {
+    "attendance": 25237,
+    "venue": "White Hart Lane"
+  },
+  "1992-08-22-WIM-COV": {
+    "attendance": 2759,
+    "venue": "Selhurst Park"
+  },
+  "1992-08-23-LIV-ARS": {
+    "attendance": 34961,
+    "venue": "Anfield"
+  },
+  "1992-08-24-SOU-MUN": {
+    "attendance": 15623,
+    "venue": "The Dell"
+  },
+  "1992-08-25-CRY-SHW": {
+    "attendance": 14005,
+    "venue": "Selhurst Park"
+  },
+  "1992-08-25-EVE-AVL": {
+    "attendance": 22372,
+    "venue": "Goodison Park"
+  },
+  "1992-08-25-IPS-LIV": {
+    "attendance": 20109,
+    "venue": "Portman Road"
+  },
+  "1992-08-25-LEE-TOT": {
+    "attendance": 28218,
+    "venue": "Elland Road"
+  },
+  "1992-08-25-SHU-WIM": {
+    "attendance": 15463,
+    "venue": "Bramall Lane"
+  },
+  "1992-08-26-ARS-OLD": {
+    "attendance": 20796,
+    "venue": "Highbury"
+  },
+  "1992-08-26-CHE-BLB": {
+    "attendance": 19575,
+    "venue": "Stamford Bridge"
+  },
+  "1992-08-26-COV-QPR": {
+    "attendance": 13563,
+    "venue": "Highfield Road"
+  },
+  "1992-08-26-MCI-NOR": {
+    "attendance": 23182,
+    "venue": "Maine Road"
+  },
+  "1992-08-29-ARS-SHW": {
+    "attendance": 23389,
+    "venue": "Highbury"
+  },
+  "1992-08-29-CHE-QPR": {
+    "attendance": 22910,
+    "venue": "Stamford Bridge"
+  },
+  "1992-08-29-COV-BLB": {
+    "attendance": 14541,
+    "venue": "Highfield Road"
+  },
+  "1992-08-29-CRY-NOR": {
+    "attendance": 12033,
+    "venue": "Selhurst Park"
+  },
+  "1992-08-29-EVE-WIM": {
+    "attendance": 18118,
+    "venue": "Goodison Park"
+  },
+  "1992-08-29-LEE-LIV": {
+    "attendance": 29597,
+    "venue": "Elland Road"
+  },
+  "1992-08-29-MCI-OLD": {
+    "attendance": 27288,
+    "venue": "Maine Road"
+  },
+  "1992-08-29-NFO-MUN": {
+    "attendance": 19694,
+    "venue": "City Ground"
+  },
+  "1992-08-29-SHU-AVL": {
+    "attendance": 18733,
+    "venue": "Bramall Lane"
+  },
+  "1992-08-29-SOU-MID": {
+    "attendance": 13003,
+    "venue": "The Dell"
+  },
+  "1992-08-30-IPS-TOT": {
+    "attendance": 20100,
+    "venue": "Portman Road"
+  },
+  "1992-08-31-NOR-NFO": {
+    "attendance": 14104,
+    "venue": "Carrow Road"
+  },
+  "1992-09-01-LIV-SOU": {
+    "attendance": 30024,
+    "venue": "Anfield"
+  },
+  "1992-09-01-MID-IPS": {
+    "attendance": 14255,
+    "venue": "Ayresome Park"
+  },
+  "1992-09-01-OLD-LEE": {
+    "attendance": 13848,
+    "venue": "Boundary Park"
+  },
+  "1992-09-01-WIM-MCI": {
+    "attendance": 4714,
+    "venue": "Selhurst Park"
+  },
+  "1992-09-02-AVL-CHE": {
+    "attendance": 19125,
+    "venue": "Villa Park"
+  },
+  "1992-09-02-MUN-CRY": {
+    "attendance": 29736,
+    "venue": "Old Trafford"
+  },
+  "1992-09-02-QPR-ARS": {
+    "attendance": 20868,
+    "venue": "Loftus Road"
+  },
+  "1992-09-02-SHW-COV": {
+    "attendance": 22874,
+    "venue": "Hillsborough"
+  },
+  "1992-09-02-TOT-SHU": {
+    "attendance": 21322,
+    "venue": "White Hart Lane"
+  },
+  "1992-09-05-AVL-CRY": {
+    "attendance": 17120,
+    "venue": "Villa Park"
+  },
+  "1992-09-05-BLB-NFO": {
+    "attendance": 16180,
+    "venue": "Ewood Park"
+  },
+  "1992-09-05-LIV-CHE": {
+    "attendance": 34199,
+    "venue": "Anfield"
+  },
+  "1992-09-05-MID-SHU": {
+    "attendance": 15179,
+    "venue": "Ayresome Park"
+  },
+  "1992-09-05-NOR-SOU": {
+    "attendance": 12452,
+    "venue": "Carrow Road"
+  },
+  "1992-09-05-OLD-COV": {
+    "attendance": 11254,
+    "venue": "Boundary Park"
+  },
+  "1992-09-05-QPR-IPS": {
+    "attendance": 12806,
+    "venue": "Loftus Road"
+  },
+  "1992-09-05-SHW-MCI": {
+    "attendance": 27169,
+    "venue": "Hillsborough"
+  },
+  "1992-09-05-TOT-EVE": {
+    "attendance": 26503,
+    "venue": "White Hart Lane"
+  },
+  "1992-09-05-WIM-ARS": {
+    "attendance": 12906,
+    "venue": "Selhurst Park"
+  },
+  "1992-09-06-MUN-LEE": {
+    "attendance": 31296,
+    "venue": "Old Trafford"
+  },
+  "1992-09-12-ARS-BLB": {
+    "attendance": 28643,
+    "venue": "Highbury"
+  },
+  "1992-09-12-CHE-NOR": {
+    "attendance": 16880,
+    "venue": "Stamford Bridge"
+  },
+  "1992-09-12-CRY-OLD": {
+    "attendance": 11224,
+    "venue": "Selhurst Park"
+  },
+  "1992-09-12-EVE-MUN": {
+    "attendance": 30002,
+    "venue": "Goodison Park"
+  },
+  "1992-09-12-IPS-WIM": {
+    "attendance": 13333,
+    "venue": "Portman Road"
+  },
+  "1992-09-12-MCI-MID": {
+    "attendance": 25244,
+    "venue": "Maine Road"
+  },
+  "1992-09-12-NFO-SHW": {
+    "attendance": 19420,
+    "venue": "City Ground"
+  },
+  "1992-09-12-SHU-LIV": {
+    "attendance": 20632,
+    "venue": "Bramall Lane"
+  },
+  "1992-09-12-SOU-QPR": {
+    "attendance": 14125,
+    "venue": "The Dell"
+  },
+  "1992-09-13-LEE-AVL": {
+    "attendance": 27817,
+    "venue": "Elland Road"
+  },
+  "1992-09-14-COV-TOT": {
+    "attendance": 15348,
+    "venue": "Highfield Road"
+  },
+  "1992-09-15-BLB-EVE": {
+    "attendance": 19563,
+    "venue": "Ewood Park"
+  },
+  "1992-09-19-AVL-LIV": {
+    "attendance": 37863,
+    "venue": "Villa Park"
+  },
+  "1992-09-19-EVE-CRY": {
+    "attendance": 18080,
+    "venue": "Goodison Park"
+  },
+  "1992-09-19-NOR-SHW": {
+    "attendance": 13367,
+    "venue": "Carrow Road"
+  },
+  "1992-09-19-OLD-IPS": {
+    "attendance": 11150,
+    "venue": "Boundary Park"
+  },
+  "1992-09-19-QPR-MID": {
+    "attendance": 12272,
+    "venue": "Loftus Road"
+  },
+  "1992-09-19-SHU-ARS": {
+    "attendance": 19105,
+    "venue": "Bramall Lane"
+  },
+  "1992-09-19-SOU-LEE": {
+    "attendance": 27815,
+    "venue": "The Dell"
+  },
+  "1992-09-19-TOT-MUN": {
+    "attendance": 33296,
+    "venue": "White Hart Lane"
+  },
+  "1992-09-19-WIM-BLB": {
+    "attendance": 6117,
+    "venue": "Selhurst Park"
+  },
+  "1992-09-20-MCI-CHE": {
+    "attendance": 22420,
+    "venue": "Maine Road"
+  },
+  "1992-09-21-NFO-COV": {
+    "attendance": 17553,
+    "venue": "City Ground"
+  },
+  "1992-09-26-BLB-OLD": {
+    "attendance": 18383,
+    "venue": "Ewood Park"
+  },
+  "1992-09-26-CHE-NFO": {
+    "attendance": 19760,
+    "venue": "Stamford Bridge"
+  },
+  "1992-09-26-COV-NOR": {
+    "attendance": 16436,
+    "venue": "Highfield Road"
+  },
+  "1992-09-26-CRY-SOU": {
+    "attendance": 13829,
+    "venue": "Selhurst Park"
+  },
+  "1992-09-26-IPS-SHU": {
+    "attendance": 16353,
+    "venue": "Portman Road"
+  },
+  "1992-09-26-LEE-EVE": {
+    "attendance": 27915,
+    "venue": "Elland Road"
+  },
+  "1992-09-26-LIV-WIM": {
+    "attendance": 29574,
+    "venue": "Anfield"
+  },
+  "1992-09-26-MID-AVL": {
+    "attendance": 20905,
+    "venue": "Ayresome Park"
+  },
+  "1992-09-26-MUN-QPR": {
+    "attendance": 33287,
+    "venue": "Old Trafford"
+  },
+  "1992-09-27-SHW-TOT": {
+    "attendance": 24895,
+    "venue": "Hillsborough"
+  },
+  "1992-09-28-ARS-MCI": {
+    "attendance": 21504,
+    "venue": "Highbury"
+  },
+  "1992-10-03-ARS-CHE": {
+    "attendance": 27780,
+    "venue": "Highbury"
+  },
+  "1992-10-03-BLB-NOR": {
+    "attendance": 16312,
+    "venue": "Ewood Park"
+  },
+  "1992-10-03-COV-CRY": {
+    "attendance": 11808,
+    "venue": "Highfield Road"
+  },
+  "1992-10-03-IPS-LEE": {
+    "attendance": 21200,
+    "venue": "Portman Road"
+  },
+  "1992-10-03-LIV-SHW": {
+    "attendance": 35785,
+    "venue": "Anfield"
+  },
+  "1992-10-03-MCI-NFO": {
+    "attendance": 22571,
+    "venue": "Maine Road"
+  },
+  "1992-10-03-MID-MUN": {
+    "attendance": 24172,
+    "venue": "Ayresome Park"
+  },
+  "1992-10-03-QPR-TOT": {
+    "attendance": 19845,
+    "venue": "Loftus Road"
+  },
+  "1992-10-03-SHU-SOU": {
+    "attendance": 15842,
+    "venue": "Bramall Lane"
+  },
+  "1992-10-03-WIM-AVL": {
+    "attendance": 6849,
+    "venue": "Selhurst Park"
+  },
+  "1992-10-04-OLD-EVE": {
+    "attendance": 13013,
+    "venue": "Boundary Park"
+  },
+  "1992-10-17-CHE-IPS": {
+    "attendance": 16707,
+    "venue": "Stamford Bridge"
+  },
+  "1992-10-17-CRY-MCI": {
+    "attendance": 14005,
+    "venue": "Selhurst Park"
+  },
+  "1992-10-17-EVE-COV": {
+    "attendance": 17587,
+    "venue": "Goodison Park"
+  },
+  "1992-10-17-LEE-SHU": {
+    "attendance": 29706,
+    "venue": "Elland Road"
+  },
+  "1992-10-17-NFO-ARS": {
+    "attendance": 24862,
+    "venue": "City Ground"
+  },
+  "1992-10-17-NOR-QPR": {
+    "attendance": 16009,
+    "venue": "Carrow Road"
+  },
+  "1992-10-17-SHW-OLD": {
+    "attendance": 24485,
+    "venue": "Hillsborough"
+  },
+  "1992-10-17-SOU-WIM": {
+    "attendance": 11221,
+    "venue": "The Dell"
+  },
+  "1992-10-17-TOT-MID": {
+    "attendance": 24735,
+    "venue": "White Hart Lane"
+  },
+  "1992-10-18-MUN-LIV": {
+    "attendance": 33243,
+    "venue": "Old Trafford"
+  },
+  "1992-10-19-AVL-BLB": {
+    "attendance": 30398,
+    "venue": "Villa Park"
+  },
+  "1992-10-21-NFO-MID": {
+    "attendance": 18846,
+    "venue": "City Ground"
+  },
+  "1992-10-24-ARS-EVE": {
+    "attendance": 28052,
+    "venue": "Highbury"
+  },
+  "1992-10-24-BLB-MUN": {
+    "attendance": 20305,
+    "venue": "Ewood Park"
+  },
+  "1992-10-24-COV-CHE": {
+    "attendance": 15626,
+    "venue": "Highfield Road"
+  },
+  "1992-10-24-IPS-CRY": {
+    "attendance": 17861,
+    "venue": "Portman Road"
+  },
+  "1992-10-24-MCI-SOU": {
+    "attendance": 20089,
+    "venue": "Maine Road"
+  },
+  "1992-10-24-MID-SHW": {
+    "attendance": 18414,
+    "venue": "Ayresome Park"
+  },
+  "1992-10-24-OLD-AVL": {
+    "attendance": 13457,
+    "venue": "Boundary Park"
+  },
+  "1992-10-24-QPR-LEE": {
+    "attendance": 19326,
+    "venue": "Loftus Road"
+  },
+  "1992-10-24-SHU-NFO": {
+    "attendance": 19152,
+    "venue": "Bramall Lane"
+  },
+  "1992-10-25-LIV-NOR": {
+    "attendance": 36318,
+    "venue": "Anfield"
+  },
+  "1992-10-25-WIM-TOT": {
+    "attendance": 8628,
+    "venue": "Selhurst Park"
+  },
+  "1992-10-31-CHE-SHU": {
+    "attendance": 13753,
+    "venue": "Stamford Bridge"
+  },
+  "1992-10-31-EVE-MCI": {
+    "attendance": 20242,
+    "venue": "Goodison Park"
+  },
+  "1992-10-31-LEE-COV": {
+    "attendance": 28018,
+    "venue": "Elland Road"
+  },
+  "1992-10-31-MUN-WIM": {
+    "attendance": 32622,
+    "venue": "Old Trafford"
+  },
+  "1992-10-31-NFO-IPS": {
+    "attendance": 21411,
+    "venue": "City Ground"
+  },
+  "1992-10-31-NOR-MID": {
+    "attendance": 14499,
+    "venue": "Carrow Road"
+  },
+  "1992-10-31-SHW-BLB": {
+    "attendance": 31044,
+    "venue": "Hillsborough"
+  },
+  "1992-10-31-SOU-OLD": {
+    "attendance": 10827,
+    "venue": "The Dell"
+  },
+  "1992-10-31-TOT-LIV": {
+    "attendance": 32917,
+    "venue": "White Hart Lane"
+  },
+  "1992-11-01-AVL-QPR": {
+    "attendance": 20140,
+    "venue": "Villa Park"
+  },
+  "1992-11-02-CRY-ARS": {
+    "attendance": 20287,
+    "venue": "Selhurst Park"
+  },
+  "1992-11-07-ARS-COV": {
+    "attendance": 27693,
+    "venue": "Highbury"
+  },
+  "1992-11-07-AVL-MUN": {
+    "attendance": 39063,
+    "venue": "Villa Park"
+  },
+  "1992-11-07-BLB-TOT": {
+    "attendance": 17305,
+    "venue": "Ewood Park"
+  },
+  "1992-11-07-CHE-CRY": {
+    "attendance": 17141,
+    "venue": "Stamford Bridge"
+  },
+  "1992-11-07-IPS-SOU": {
+    "attendance": 15722,
+    "venue": "Portman Road"
+  },
+  "1992-11-07-LIV-MID": {
+    "attendance": 34974,
+    "venue": "Anfield"
+  },
+  "1992-11-07-MCI-LEE": {
+    "attendance": 27255,
+    "venue": "Maine Road"
+  },
+  "1992-11-07-NFO-EVE": {
+    "attendance": 20941,
+    "venue": "City Ground"
+  },
+  "1992-11-07-WIM-QPR": {
+    "attendance": 6671,
+    "venue": "Selhurst Park"
+  },
+  "1992-11-08-SHU-SHW": {
+    "attendance": 30039,
+    "venue": "Bramall Lane"
+  },
+  "1992-11-09-OLD-NOR": {
+    "attendance": 11081,
+    "venue": "Boundary Park"
+  },
+  "1992-11-21-COV-MCI": {
+    "attendance": 14590,
+    "venue": "Highfield Road"
+  },
+  "1992-11-21-CRY-NFO": {
+    "attendance": 15330,
+    "venue": "Selhurst Park"
+  },
+  "1992-11-21-EVE-CHE": {
+    "attendance": 17418,
+    "venue": "Goodison Park"
+  },
+  "1992-11-21-LEE-ARS": {
+    "attendance": 30516,
+    "venue": "Elland Road"
+  },
+  "1992-11-21-MID-WIM": {
+    "attendance": 14524,
+    "venue": "Ayresome Park"
+  },
+  "1992-11-21-MUN-OLD": {
+    "attendance": 33497,
+    "venue": "Old Trafford"
+  },
+  "1992-11-21-NOR-SHU": {
+    "attendance": 14874,
+    "venue": "Carrow Road"
+  },
+  "1992-11-21-SHW-IPS": {
+    "attendance": 24270,
+    "venue": "Hillsborough"
+  },
+  "1992-11-21-TOT-AVL": {
+    "attendance": 32852,
+    "venue": "White Hart Lane"
+  },
+  "1992-11-22-SOU-BLB": {
+    "attendance": 16626,
+    "venue": "The Dell"
+  },
+  "1992-11-23-QPR-LIV": {
+    "attendance": 21056,
+    "venue": "Loftus Road"
+  },
+  "1992-11-28-ARS-MUN": {
+    "attendance": 29739,
+    "venue": "Highbury"
+  },
+  "1992-11-28-AVL-NOR": {
+    "attendance": 28837,
+    "venue": "Villa Park"
+  },
+  "1992-11-28-BLB-QPR": {
+    "attendance": 15850,
+    "venue": "Ewood Park"
+  },
+  "1992-11-28-IPS-EVE": {
+    "attendance": 18034,
+    "venue": "Portman Road"
+  },
+  "1992-11-28-LIV-CRY": {
+    "attendance": 36380,
+    "venue": "Anfield"
+  },
+  "1992-11-28-MCI-TOT": {
+    "attendance": 25496,
+    "venue": "Maine Road"
+  },
+  "1992-11-28-NFO-SOU": {
+    "attendance": 19942,
+    "venue": "City Ground"
+  },
+  "1992-11-28-OLD-MID": {
+    "attendance": 12401,
+    "venue": "Boundary Park"
+  },
+  "1992-11-28-SHU-COV": {
+    "attendance": 15625,
+    "venue": "Bramall Lane"
+  },
+  "1992-11-28-WIM-SHW": {
+    "attendance": 5740,
+    "venue": "Selhurst Park"
+  },
+  "1992-11-29-CHE-LEE": {
+    "attendance": 24345,
+    "venue": "Stamford Bridge"
+  },
+  "1992-12-05-COV-IPS": {
+    "attendance": 11294,
+    "venue": "Highfield Road"
+  },
+  "1992-12-05-CRY-SHU": {
+    "attendance": 12361,
+    "venue": "Selhurst Park"
+  },
+  "1992-12-05-LEE-NFO": {
+    "attendance": 29364,
+    "venue": "Elland Road"
+  },
+  "1992-12-05-MID-BLB": {
+    "attendance": 20096,
+    "venue": "Ayresome Park"
+  },
+  "1992-12-05-NOR-WIM": {
+    "attendance": 14161,
+    "venue": "Carrow Road"
+  },
+  "1992-12-05-QPR-OLD": {
+    "attendance": 11804,
+    "venue": "Loftus Road"
+  },
+  "1992-12-05-SHW-AVL": {
+    "attendance": 29964,
+    "venue": "Hillsborough"
+  },
+  "1992-12-05-SOU-ARS": {
+    "attendance": 17286,
+    "venue": "The Dell"
+  },
+  "1992-12-05-TOT-CHE": {
+    "attendance": 31540,
+    "venue": "White Hart Lane"
+  },
+  "1992-12-06-MUN-MCI": {
+    "attendance": 35408,
+    "venue": "Old Trafford"
+  },
+  "1992-12-07-EVE-LIV": {
+    "attendance": 35826,
+    "venue": "Goodison Park"
+  },
+  "1992-12-11-MID-CHE": {
+    "attendance": 15559,
+    "venue": "Ayresome Park"
+  },
+  "1992-12-12-AVL-NFO": {
+    "attendance": 29015,
+    "venue": "Villa Park"
+  },
+  "1992-12-12-IPS-MCI": {
+    "attendance": 16833,
+    "venue": "Portman Road"
+  },
+  "1992-12-12-LEE-SHW": {
+    "attendance": 29770,
+    "venue": "Elland Road"
+  },
+  "1992-12-12-MUN-NOR": {
+    "attendance": 34500,
+    "venue": "Old Trafford"
+  },
+  "1992-12-12-QPR-CRY": {
+    "attendance": 14571,
+    "venue": "Loftus Road"
+  },
+  "1992-12-12-SHU-EVE": {
+    "attendance": 16266,
+    "venue": "Bramall Lane"
+  },
+  "1992-12-12-SOU-COV": {
+    "attendance": 12306,
+    "venue": "The Dell"
+  },
+  "1992-12-12-TOT-ARS": {
+    "attendance": 33707,
+    "venue": "White Hart Lane"
+  },
+  "1992-12-12-WIM-OLD": {
+    "attendance": 3386,
+    "venue": "Selhurst Park"
+  },
+  "1992-12-13-LIV-BLB": {
+    "attendance": 43668,
+    "venue": "Anfield"
+  },
+  "1992-12-19-ARS-MID": {
+    "attendance": 23197,
+    "venue": "Highbury"
+  },
+  "1992-12-19-BLB-SHU": {
+    "attendance": 16057,
+    "venue": "Ewood Park"
+  },
+  "1992-12-19-CHE-MUN": {
+    "attendance": 34464,
+    "venue": "Stamford Bridge"
+  },
+  "1992-12-19-COV-LIV": {
+    "attendance": 19779,
+    "venue": "Highfield Road"
+  },
+  "1992-12-19-EVE-SOU": {
+    "attendance": 14051,
+    "venue": "Goodison Park"
+  },
+  "1992-12-19-MCI-AVL": {
+    "attendance": 23525,
+    "venue": "Maine Road"
+  },
+  "1992-12-19-OLD-TOT": {
+    "attendance": 11735,
+    "venue": "Boundary Park"
+  },
+  "1992-12-19-SHW-QPR": {
+    "attendance": 23164,
+    "venue": "Hillsborough"
+  },
+  "1992-12-20-CRY-LEE": {
+    "attendance": 14462,
+    "venue": "Selhurst Park"
+  },
+  "1992-12-20-NFO-WIM": {
+    "attendance": 19326,
+    "venue": "City Ground"
+  },
+  "1992-12-21-NOR-IPS": {
+    "attendance": 20032,
+    "venue": "Carrow Road"
+  },
+  "1992-12-26-ARS-IPS": {
+    "attendance": 26198,
+    "venue": "Highbury"
+  },
+  "1992-12-26-BLB-LEE": {
+    "attendance": 19910,
+    "venue": "Ewood Park"
+  },
+  "1992-12-26-CHE-SOU": {
+    "attendance": 18344,
+    "venue": "Stamford Bridge"
+  },
+  "1992-12-26-COV-AVL": {
+    "attendance": 24245,
+    "venue": "Highfield Road"
+  },
+  "1992-12-26-CRY-WIM": {
+    "attendance": 16825,
+    "venue": "Selhurst Park"
+  },
+  "1992-12-26-EVE-MID": {
+    "attendance": 24391,
+    "venue": "Goodison Park"
+  },
+  "1992-12-26-MCI-SHU": {
+    "attendance": 27455,
+    "venue": "Maine Road"
+  },
+  "1992-12-26-NOR-TOT": {
+    "attendance": 19413,
+    "venue": "Carrow Road"
+  },
+  "1992-12-26-SHW-MUN": {
+    "attendance": 37708,
+    "venue": "Hillsborough"
+  },
+  "1992-12-28-AVL-ARS": {
+    "attendance": 35170,
+    "venue": "Villa Park"
+  },
+  "1992-12-28-IPS-BLB": {
+    "attendance": 21431,
+    "venue": "Portman Road"
+  },
+  "1992-12-28-LEE-NOR": {
+    "attendance": 30282,
+    "venue": "Elland Road"
+  },
+  "1992-12-28-LIV-MCI": {
+    "attendance": 43037,
+    "venue": "Anfield"
+  },
+  "1992-12-28-MID-CRY": {
+    "attendance": 21123,
+    "venue": "Ayresome Park"
+  },
+  "1992-12-28-MUN-COV": {
+    "attendance": 36025,
+    "venue": "Old Trafford"
+  },
+  "1992-12-28-QPR-EVE": {
+    "attendance": 14802,
+    "venue": "Loftus Road"
+  },
+  "1992-12-28-SOU-SHW": {
+    "attendance": 17426,
+    "venue": "The Dell"
+  },
+  "1992-12-28-TOT-NFO": {
+    "attendance": 32118,
+    "venue": "White Hart Lane"
+  },
+  "1992-12-28-WIM-CHE": {
+    "attendance": 14687,
+    "venue": "Selhurst Park"
+  },
+  "1993-01-09-ARS-SHU": {
+    "attendance": 23818,
+    "venue": "Highbury"
+  },
+  "1993-01-09-BLB-WIM": {
+    "attendance": 14504,
+    "venue": "Ewood Park"
+  },
+  "1993-01-09-CHE-MCI": {
+    "attendance": 15939,
+    "venue": "Stamford Bridge"
+  },
+  "1993-01-09-COV-NFO": {
+    "attendance": 15264,
+    "venue": "Highfield Road"
+  },
+  "1993-01-09-CRY-EVE": {
+    "attendance": 13227,
+    "venue": "Selhurst Park"
+  },
+  "1993-01-09-IPS-OLD": {
+    "attendance": 15025,
+    "venue": "Portman Road"
+  },
+  "1993-01-09-LEE-SOU": {
+    "attendance": 26071,
+    "venue": "Elland Road"
+  },
+  "1993-01-09-LIV-AVL": {
+    "attendance": 40826,
+    "venue": "Anfield"
+  },
+  "1993-01-09-MID-QPR": {
+    "attendance": 15616,
+    "venue": "Ayresome Park"
+  },
+  "1993-01-09-MUN-TOT": {
+    "attendance": 35648,
+    "venue": "Old Trafford"
+  },
+  "1993-01-10-SHW-NOR": {
+    "attendance": 23360,
+    "venue": "Hillsborough"
+  },
+  "1993-01-16-EVE-LEE": {
+    "attendance": 21031,
+    "venue": "Goodison Park"
+  },
+  "1993-01-16-MCI-ARS": {
+    "attendance": 25041,
+    "venue": "Maine Road"
+  },
+  "1993-01-16-NFO-CHE": {
+    "attendance": 23249,
+    "venue": "City Ground"
+  },
+  "1993-01-16-NOR-COV": {
+    "attendance": 13613,
+    "venue": "Carrow Road"
+  },
+  "1993-01-16-OLD-BLB": {
+    "attendance": 13742,
+    "venue": "Boundary Park"
+  },
+  "1993-01-16-SHU-IPS": {
+    "attendance": 16758,
+    "venue": "Bramall Lane"
+  },
+  "1993-01-16-SOU-CRY": {
+    "attendance": 13397,
+    "venue": "The Dell"
+  },
+  "1993-01-16-TOT-SHW": {
+    "attendance": 25702,
+    "venue": "White Hart Lane"
+  },
+  "1993-01-16-WIM-LIV": {
+    "attendance": 11294,
+    "venue": "Selhurst Park"
+  },
+  "1993-01-17-AVL-MID": {
+    "attendance": 19977,
+    "venue": "Villa Park"
+  },
+  "1993-01-18-QPR-MUN": {
+    "attendance": 21117,
+    "venue": "Loftus Road"
+  },
+  "1993-01-23-COV-OLD": {
+    "attendance": 10544,
+    "venue": "Highfield Road"
+  },
+  "1993-01-26-BLB-COV": {
+    "attendance": 15215,
+    "venue": "Ewood Park"
+  },
+  "1993-01-26-MID-SOU": {
+    "attendance": 13918,
+    "venue": "Ayresome Park"
+  },
+  "1993-01-26-OLD-MCI": {
+    "attendance": 14903,
+    "venue": "Boundary Park"
+  },
+  "1993-01-26-WIM-EVE": {
+    "attendance": 3039,
+    "venue": "Selhurst Park"
+  },
+  "1993-01-27-AVL-SHU": {
+    "attendance": 20266,
+    "venue": "Villa Park"
+  },
+  "1993-01-27-MUN-NFO": {
+    "attendance": 36085,
+    "venue": "Old Trafford"
+  },
+  "1993-01-27-NOR-CRY": {
+    "attendance": 13543,
+    "venue": "Carrow Road"
+  },
+  "1993-01-27-QPR-CHE": {
+    "attendance": 15806,
+    "venue": "Loftus Road"
+  },
+  "1993-01-27-TOT-IPS": {
+    "attendance": 23738,
+    "venue": "White Hart Lane"
+  },
+  "1993-01-30-CHE-SHW": {
+    "attendance": 16261,
+    "venue": "Stamford Bridge"
+  },
+  "1993-01-30-COV-WIM": {
+    "attendance": 11774,
+    "venue": "Highfield Road"
+  },
+  "1993-01-30-CRY-TOT": {
+    "attendance": 20937,
+    "venue": "Selhurst Park"
+  },
+  "1993-01-30-EVE-NOR": {
+    "attendance": 20301,
+    "venue": "Goodison Park"
+  },
+  "1993-01-30-IPS-MUN": {
+    "attendance": 22068,
+    "venue": "Portman Road"
+  },
+  "1993-01-30-LEE-MID": {
+    "attendance": 30344,
+    "venue": "Elland Road"
+  },
+  "1993-01-30-MCI-BLB": {
+    "attendance": 29122,
+    "venue": "Maine Road"
+  },
+  "1993-01-30-NFO-OLD": {
+    "attendance": 21240,
+    "venue": "City Ground"
+  },
+  "1993-01-30-SHU-QPR": {
+    "attendance": 16366,
+    "venue": "Bramall Lane"
+  },
+  "1993-01-30-SOU-AVL": {
+    "attendance": 19087,
+    "venue": "The Dell"
+  },
+  "1993-01-31-ARS-LIV": {
+    "attendance": 27580,
+    "venue": "Highbury"
+  },
+  "1993-02-02-BLB-CRY": {
+    "attendance": 14163,
+    "venue": "Ewood Park"
+  },
+  "1993-02-06-AVL-IPS": {
+    "attendance": 25395,
+    "venue": "Villa Park"
+  },
+  "1993-02-06-LIV-NFO": {
+    "attendance": 40463,
+    "venue": "Anfield"
+  },
+  "1993-02-06-MID-COV": {
+    "attendance": 14008,
+    "venue": "Ayresome Park"
+  },
+  "1993-02-06-MUN-SHU": {
+    "attendance": 36156,
+    "venue": "Old Trafford"
+  },
+  "1993-02-06-OLD-CHE": {
+    "attendance": 11762,
+    "venue": "Boundary Park"
+  },
+  "1993-02-06-QPR-MCI": {
+    "attendance": 13003,
+    "venue": "Loftus Road"
+  },
+  "1993-02-06-SHW-EVE": {
+    "attendance": 24979,
+    "venue": "Hillsborough"
+  },
+  "1993-02-06-WIM-LEE": {
+    "attendance": 6704,
+    "venue": "Selhurst Park"
+  },
+  "1993-02-07-TOT-SOU": {
+    "attendance": 20089,
+    "venue": "White Hart Lane"
+  },
+  "1993-02-08-LEE-MUN": {
+    "attendance": 34166,
+    "venue": "Elland Road"
+  },
+  "1993-02-09-IPS-QPR": {
+    "attendance": 17354,
+    "venue": "Portman Road"
+  },
+  "1993-02-09-SHU-MID": {
+    "attendance": 15184,
+    "venue": "Bramall Lane"
+  },
+  "1993-02-10-ARS-WIM": {
+    "attendance": 18253,
+    "venue": "Highbury"
+  },
+  "1993-02-10-CHE-LIV": {
+    "attendance": 20981,
+    "venue": "Stamford Bridge"
+  },
+  "1993-02-10-CRY-AVL": {
+    "attendance": 12270,
+    "venue": "Selhurst Park"
+  },
+  "1993-02-10-EVE-TOT": {
+    "attendance": 16164,
+    "venue": "Goodison Park"
+  },
+  "1993-02-10-SOU-NOR": {
+    "attendance": 12969,
+    "venue": "The Dell"
+  },
+  "1993-02-13-CHE-AVL": {
+    "attendance": 20081,
+    "venue": "Stamford Bridge"
+  },
+  "1993-02-13-LEE-OLD": {
+    "attendance": 27654,
+    "venue": "Elland Road"
+  },
+  "1993-02-13-SOU-LIV": {
+    "attendance": 17216,
+    "venue": "The Dell"
+  },
+  "1993-02-20-AVL-EVE": {
+    "attendance": 32913,
+    "venue": "Villa Park"
+  },
+  "1993-02-20-LIV-IPS": {
+    "attendance": 36680,
+    "venue": "Anfield"
+  },
+  "1993-02-20-MID-NFO": {
+    "attendance": 15639,
+    "venue": "Ayresome Park"
+  },
+  "1993-02-20-MUN-SOU": {
+    "attendance": 36257,
+    "venue": "Old Trafford"
+  },
+  "1993-02-20-NOR-MCI": {
+    "attendance": 16386,
+    "venue": "Carrow Road"
+  },
+  "1993-02-20-OLD-ARS": {
+    "attendance": 12311,
+    "venue": "Boundary Park"
+  },
+  "1993-02-20-QPR-COV": {
+    "attendance": 12453,
+    "venue": "Loftus Road"
+  },
+  "1993-02-20-SHW-CRY": {
+    "attendance": 26459,
+    "venue": "Hillsborough"
+  },
+  "1993-02-20-TOT-LEE": {
+    "attendance": 32040,
+    "venue": "White Hart Lane"
+  },
+  "1993-02-20-WIM-SHU": {
+    "attendance": 3979,
+    "venue": "Selhurst Park"
+  },
+  "1993-02-21-BLB-CHE": {
+    "attendance": 14780,
+    "venue": "Ewood Park"
+  },
+  "1993-02-22-SHU-OLD": {
+    "attendance": 14628,
+    "venue": "Bramall Lane"
+  },
+  "1993-02-23-MCI-SHW": {
+    "attendance": 23619,
+    "venue": "Maine Road"
+  },
+  "1993-02-24-ARS-LEE": {
+    "attendance": 21061,
+    "venue": "Highbury"
+  },
+  "1993-02-24-NFO-QPR": {
+    "attendance": 22436,
+    "venue": "City Ground"
+  },
+  "1993-02-27-AVL-WIM": {
+    "attendance": 34496,
+    "venue": "Villa Park"
+  },
+  "1993-02-27-CRY-COV": {
+    "attendance": 12248,
+    "venue": "Selhurst Park"
+  },
+  "1993-02-27-EVE-OLD": {
+    "attendance": 18025,
+    "venue": "Goodison Park"
+  },
+  "1993-02-27-LEE-IPS": {
+    "attendance": 28848,
+    "venue": "Elland Road"
+  },
+  "1993-02-27-MUN-MID": {
+    "attendance": 36251,
+    "venue": "Old Trafford"
+  },
+  "1993-02-27-NFO-MCI": {
+    "attendance": 25956,
+    "venue": "City Ground"
+  },
+  "1993-02-27-SHW-LIV": {
+    "attendance": 33964,
+    "venue": "Hillsborough"
+  },
+  "1993-02-27-SOU-SHU": {
+    "attendance": 13814,
+    "venue": "The Dell"
+  },
+  "1993-02-27-TOT-QPR": {
+    "attendance": 32341,
+    "venue": "White Hart Lane"
+  },
+  "1993-02-28-NOR-BLB": {
+    "attendance": 15821,
+    "venue": "Carrow Road"
+  },
+  "1993-03-01-CHE-ARS": {
+    "attendance": 17725,
+    "venue": "Stamford Bridge"
+  },
+  "1993-03-02-IPS-MID": {
+    "attendance": 15430,
+    "venue": "Portman Road"
+  },
+  "1993-03-02-SHU-TOT": {
+    "attendance": 16654,
+    "venue": "Bramall Lane"
+  },
+  "1993-03-03-COV-SHW": {
+    "attendance": 13806,
+    "venue": "Highfield Road"
+  },
+  "1993-03-03-EVE-BLB": {
+    "attendance": 18086,
+    "venue": "Goodison Park"
+  },
+  "1993-03-03-NFO-CRY": {
+    "attendance": 20603,
+    "venue": "City Ground"
+  },
+  "1993-03-03-NOR-ARS": {
+    "attendance": 14802,
+    "venue": "Carrow Road"
+  },
+  "1993-03-06-LIV-MUN": {
+    "attendance": 44374,
+    "venue": "Anfield"
+  },
+  "1993-03-06-QPR-NOR": {
+    "attendance": 13892,
+    "venue": "Loftus Road"
+  },
+  "1993-03-06-WIM-SOU": {
+    "attendance": 4534,
+    "venue": "Selhurst Park"
+  },
+  "1993-03-07-COV-EVE": {
+    "attendance": 11285,
+    "venue": "Highfield Road"
+  },
+  "1993-03-09-BLB-SOU": {
+    "attendance": 13556,
+    "venue": "Ewood Park"
+  },
+  "1993-03-09-OLD-MUN": {
+    "attendance": 17106,
+    "venue": "Boundary Park"
+  },
+  "1993-03-09-WIM-MID": {
+    "attendance": 5821,
+    "venue": "Selhurst Park"
+  },
+  "1993-03-10-AVL-TOT": {
+    "attendance": 37727,
+    "venue": "Villa Park"
+  },
+  "1993-03-10-CHE-EVE": {
+    "attendance": 12739,
+    "venue": "Stamford Bridge"
+  },
+  "1993-03-10-IPS-SHW": {
+    "attendance": 16538,
+    "venue": "Portman Road"
+  },
+  "1993-03-10-LIV-QPR": {
+    "attendance": 30370,
+    "venue": "Anfield"
+  },
+  "1993-03-10-MCI-COV": {
+    "attendance": 20092,
+    "venue": "Maine Road"
+  },
+  "1993-03-10-SHU-NOR": {
+    "attendance": 15583,
+    "venue": "Bramall Lane"
+  },
+  "1993-03-13-COV-ARS": {
+    "attendance": 15437,
+    "venue": "Highfield Road"
+  },
+  "1993-03-13-EVE-NFO": {
+    "attendance": 21271,
+    "venue": "Goodison Park"
+  },
+  "1993-03-13-LEE-MCI": {
+    "attendance": 30840,
+    "venue": "Elland Road"
+  },
+  "1993-03-13-MID-LIV": {
+    "attendance": 22463,
+    "venue": "Ayresome Park"
+  },
+  "1993-03-13-NOR-OLD": {
+    "attendance": 19597,
+    "venue": "Carrow Road"
+  },
+  "1993-03-13-QPR-WIM": {
+    "attendance": 12217,
+    "venue": "Loftus Road"
+  },
+  "1993-03-13-SOU-IPS": {
+    "attendance": 15428,
+    "venue": "The Dell"
+  },
+  "1993-03-14-MUN-AVL": {
+    "attendance": 36163,
+    "venue": "Old Trafford"
+  },
+  "1993-03-15-CRY-CHE": {
+    "attendance": 12610,
+    "venue": "Selhurst Park"
+  },
+  "1993-03-17-NFO-NOR": {
+    "attendance": 20799,
+    "venue": "City Ground"
+  },
+  "1993-03-20-ARS-SOU": {
+    "attendance": 24149,
+    "venue": "Highbury"
+  },
+  "1993-03-20-AVL-SHW": {
+    "attendance": 38024,
+    "venue": "Villa Park"
+  },
+  "1993-03-20-BLB-MID": {
+    "attendance": 14041,
+    "venue": "Ewood Park"
+  },
+  "1993-03-20-CHE-TOT": {
+    "attendance": 25157,
+    "venue": "Stamford Bridge"
+  },
+  "1993-03-20-IPS-COV": {
+    "attendance": 16698,
+    "venue": "Portman Road"
+  },
+  "1993-03-20-LIV-EVE": {
+    "attendance": 44619,
+    "venue": "Anfield"
+  },
+  "1993-03-20-MCI-MUN": {
+    "attendance": 37136,
+    "venue": "Maine Road"
+  },
+  "1993-03-20-OLD-QPR": {
+    "attendance": 10946,
+    "venue": "Boundary Park"
+  },
+  "1993-03-20-SHU-CRY": {
+    "attendance": 18857,
+    "venue": "Bramall Lane"
+  },
+  "1993-03-20-WIM-NOR": {
+    "attendance": 10875,
+    "venue": "Selhurst Park"
+  },
+  "1993-03-21-NFO-LEE": {
+    "attendance": 25148,
+    "venue": "City Ground"
+  },
+  "1993-03-22-MID-OLD": {
+    "attendance": 12290,
+    "venue": "Ayresome Park"
+  },
+  "1993-03-23-CRY-LIV": {
+    "attendance": 18688,
+    "venue": "Selhurst Park"
+  },
+  "1993-03-24-COV-SHU": {
+    "attendance": 12993,
+    "venue": "Highfield Road"
+  },
+  "1993-03-24-EVE-IPS": {
+    "attendance": 15638,
+    "venue": "Goodison Park"
+  },
+  "1993-03-24-LEE-CHE": {
+    "attendance": 28135,
+    "venue": "Elland Road"
+  },
+  "1993-03-24-MUN-ARS": {
+    "attendance": 37301,
+    "venue": "Old Trafford"
+  },
+  "1993-03-24-NOR-AVL": {
+    "attendance": 19528,
+    "venue": "Carrow Road"
+  },
+  "1993-03-24-QPR-BLB": {
+    "attendance": 10677,
+    "venue": "Loftus Road"
+  },
+  "1993-03-24-SHW-WIM": {
+    "attendance": 20918,
+    "venue": "Hillsborough"
+  },
+  "1993-03-24-SOU-NFO": {
+    "attendance": 18005,
+    "venue": "The Dell"
+  },
+  "1993-03-24-TOT-MCI": {
+    "attendance": 27247,
+    "venue": "White Hart Lane"
+  },
+  "1993-04-03-BLB-LIV": {
+    "attendance": 15032,
+    "venue": "Ewood Park"
+  },
+  "1993-04-03-CHE-MID": {
+    "attendance": 13043,
+    "venue": "Stamford Bridge"
+  },
+  "1993-04-03-COV-SOU": {
+    "attendance": 10463,
+    "venue": "Highfield Road"
+  },
+  "1993-04-03-CRY-QPR": {
+    "attendance": 14705,
+    "venue": "Selhurst Park"
+  },
+  "1993-04-03-MCI-IPS": {
+    "attendance": 20680,
+    "venue": "Maine Road"
+  },
+  "1993-04-03-OLD-WIM": {
+    "attendance": 11606,
+    "venue": "Boundary Park"
+  },
+  "1993-04-04-NFO-AVL": {
+    "attendance": 26742,
+    "venue": "City Ground"
+  },
+  "1993-04-05-NOR-MUN": {
+    "attendance": 20582,
+    "venue": "Carrow Road"
+  },
+  "1993-04-06-IPS-CHE": {
+    "attendance": 17444,
+    "venue": "Portman Road"
+  },
+  "1993-04-06-MID-ARS": {
+    "attendance": 12726,
+    "venue": "Ayresome Park"
+  },
+  "1993-04-06-SHU-LEE": {
+    "attendance": 20562,
+    "venue": "Bramall Lane"
+  },
+  "1993-04-07-NFO-BLB": {
+    "attendance": 20467,
+    "venue": "City Ground"
+  },
+  "1993-04-07-OLD-SHW": {
+    "attendance": 12312,
+    "venue": "Boundary Park"
+  },
+  "1993-04-09-SHU-MCI": {
+    "attendance": 18231,
+    "venue": "Bramall Lane"
+  },
+  "1993-04-09-TOT-NOR": {
+    "attendance": 31425,
+    "venue": "White Hart Lane"
+  },
+  "1993-04-09-WIM-CRY": {
+    "attendance": 12275,
+    "venue": "Selhurst Park"
+  },
+  "1993-04-10-AVL-COV": {
+    "attendance": 38543,
+    "venue": "Villa Park"
+  },
+  "1993-04-10-IPS-ARS": {
+    "attendance": 20358,
+    "venue": "Portman Road"
+  },
+  "1993-04-10-LEE-BLB": {
+    "attendance": 31791,
+    "venue": "Elland Road"
+  },
+  "1993-04-10-LIV-OLD": {
+    "attendance": 36129,
+    "venue": "Anfield"
+  },
+  "1993-04-10-MID-EVE": {
+    "attendance": 16627,
+    "venue": "Ayresome Park"
+  },
+  "1993-04-10-MUN-SHW": {
+    "attendance": 40102,
+    "venue": "Old Trafford"
+  },
+  "1993-04-10-QPR-NFO": {
+    "attendance": 15815,
+    "venue": "Loftus Road"
+  },
+  "1993-04-10-SOU-CHE": {
+    "attendance": 15135,
+    "venue": "The Dell"
+  },
+  "1993-04-12-ARS-AVL": {
+    "attendance": 27123,
+    "venue": "Highbury"
+  },
+  "1993-04-12-BLB-IPS": {
+    "attendance": 14071,
+    "venue": "Ewood Park"
+  },
+  "1993-04-12-CHE-WIM": {
+    "attendance": 13138,
+    "venue": "Stamford Bridge"
+  },
+  "1993-04-12-COV-MUN": {
+    "attendance": 24429,
+    "venue": "Highfield Road"
+  },
+  "1993-04-12-CRY-MID": {
+    "attendance": 15123,
+    "venue": "Selhurst Park"
+  },
+  "1993-04-12-EVE-QPR": {
+    "attendance": 19057,
+    "venue": "Goodison Park"
+  },
+  "1993-04-12-MCI-LIV": {
+    "attendance": 28098,
+    "venue": "Maine Road"
+  },
+  "1993-04-12-NFO-TOT": {
+    "attendance": 25682,
+    "venue": "City Ground"
+  },
+  "1993-04-12-SHW-SOU": {
+    "attendance": 26183,
+    "venue": "Hillsborough"
+  },
+  "1993-04-13-OLD-SHU": {
+    "attendance": 14795,
+    "venue": "Boundary Park"
+  },
+  "1993-04-14-NOR-LEE": {
+    "attendance": 18613,
+    "venue": "Carrow Road"
+  },
+  "1993-04-17-LEE-CRY": {
+    "attendance": 27545,
+    "venue": "Elland Road"
+  },
+  "1993-04-17-LIV-COV": {
+    "attendance": 33328,
+    "venue": "Anfield"
+  },
+  "1993-04-17-MUN-CHE": {
+    "attendance": 40139,
+    "venue": "Old Trafford"
+  },
+  "1993-04-17-SHU-BLB": {
+    "attendance": 18186,
+    "venue": "Bramall Lane"
+  },
+  "1993-04-17-SOU-EVE": {
+    "attendance": 16911,
+    "venue": "The Dell"
+  },
+  "1993-04-17-TOT-OLD": {
+    "attendance": 26663,
+    "venue": "White Hart Lane"
+  },
+  "1993-04-17-WIM-NFO": {
+    "attendance": 9358,
+    "venue": "Selhurst Park"
+  },
+  "1993-04-18-AVL-MCI": {
+    "attendance": 33108,
+    "venue": "Villa Park"
+  },
+  "1993-04-19-IPS-NOR": {
+    "attendance": 21081,
+    "venue": "Portman Road"
+  },
+  "1993-04-20-MID-TOT": {
+    "attendance": 14472,
+    "venue": "Ayresome Park"
+  },
+  "1993-04-21-ARS-NFO": {
+    "attendance": 19024,
+    "venue": "Highbury"
+  },
+  "1993-04-21-BLB-AVL": {
+    "attendance": 15127,
+    "venue": "Ewood Park"
+  },
+  "1993-04-21-CRY-MUN": {
+    "attendance": 30115,
+    "venue": "Selhurst Park"
+  },
+  "1993-04-21-LIV-LEE": {
+    "attendance": 34992,
+    "venue": "Anfield"
+  },
+  "1993-04-21-MCI-WIM": {
+    "attendance": 19524,
+    "venue": "Maine Road"
+  },
+  "1993-04-21-SHW-SHU": {
+    "attendance": 38688,
+    "venue": "Hillsborough"
+  },
+  "1993-05-01-CHE-COV": {
+    "attendance": 14186,
+    "venue": "Stamford Bridge"
+  },
+  "1993-05-01-CRY-IPS": {
+    "attendance": 18881,
+    "venue": "Selhurst Park"
+  },
+  "1993-05-01-EVE-ARS": {
+    "attendance": 19044,
+    "venue": "Goodison Park"
+  },
+  "1993-05-01-LEE-QPR": {
+    "attendance": 31408,
+    "venue": "Elland Road"
+  },
+  "1993-05-01-NFO-SHU": {
+    "attendance": 26752,
+    "venue": "City Ground"
+  },
+  "1993-05-01-NOR-LIV": {
+    "attendance": 20610,
+    "venue": "Carrow Road"
+  },
+  "1993-05-01-SHW-MID": {
+    "attendance": 25949,
+    "venue": "Hillsborough"
+  },
+  "1993-05-01-SOU-MCI": {
+    "attendance": 16730,
+    "venue": "The Dell"
+  },
+  "1993-05-01-TOT-WIM": {
+    "attendance": 24473,
+    "venue": "White Hart Lane"
+  },
+  "1993-05-02-AVL-OLD": {
+    "attendance": 37247,
+    "venue": "Villa Park"
+  },
+  "1993-05-03-MUN-BLB": {
+    "attendance": 40447,
+    "venue": "Old Trafford"
+  },
+  "1993-05-04-ARS-QPR": {
+    "attendance": 18817,
+    "venue": "Highbury"
+  },
+  "1993-05-04-EVE-SHU": {
+    "attendance": 15197,
+    "venue": "Goodison Park"
+  },
+  "1993-05-04-SHW-LEE": {
+    "attendance": 26855,
+    "venue": "Hillsborough"
+  },
+  "1993-05-05-MCI-CRY": {
+    "attendance": 21167,
+    "venue": "Maine Road"
+  },
+  "1993-05-05-OLD-LIV": {
+    "attendance": 15381,
+    "venue": "Boundary Park"
+  },
+  "1993-05-05-TOT-BLB": {
+    "attendance": 23097,
+    "venue": "White Hart Lane"
+  },
+  "1993-05-06-SHW-ARS": {
+    "attendance": 23645,
+    "venue": "Hillsborough"
+  },
+  "1993-05-08-ARS-CRY": {
+    "attendance": 25225,
+    "venue": "Highbury"
+  },
+  "1993-05-08-BLB-SHW": {
+    "attendance": 14956,
+    "venue": "Ewood Park"
+  },
+  "1993-05-08-COV-LEE": {
+    "attendance": 19591,
+    "venue": "Highfield Road"
+  },
+  "1993-05-08-IPS-NFO": {
+    "attendance": 22093,
+    "venue": "Portman Road"
+  },
+  "1993-05-08-LIV-TOT": {
+    "attendance": 43385,
+    "venue": "Anfield"
+  },
+  "1993-05-08-MCI-EVE": {
+    "attendance": 25180,
+    "venue": "Maine Road"
+  },
+  "1993-05-08-MID-NOR": {
+    "attendance": 15155,
+    "venue": "Ayresome Park"
+  },
+  "1993-05-08-OLD-SOU": {
+    "attendance": 14597,
+    "venue": "Boundary Park"
+  },
+  "1993-05-08-SHU-CHE": {
+    "attendance": 24850,
+    "venue": "Bramall Lane"
+  },
+  "1993-05-09-QPR-AVL": {
+    "attendance": 18904,
+    "venue": "Loftus Road"
+  },
+  "1993-05-09-WIM-MUN": {
+    "attendance": 30115,
+    "venue": "Selhurst Park"
+  },
+  "1993-05-11-ARS-TOT": {
+    "attendance": 26393,
+    "venue": "Highbury"
+  },
+  "1993-05-11-QPR-SHW": {
+    "attendance": 12177,
+    "venue": "Loftus Road"
+  }
+}

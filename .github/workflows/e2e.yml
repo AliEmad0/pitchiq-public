@@ -1,0 +1,125 @@
+name: E2E
+
+# Runs Playwright against a production build (pnpm build → pnpm start) with
+# MSW intercepting api-football outbound calls. Separate from `ci.yml` so the
+# two checks can be required independently (TASK-004).
+#
+# Pull-request only — push-to-main already triggers a Vercel preview/prod
+# deploy, and running Playwright twice on the same SHA wastes minutes.
+
+on:
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  e2e:
+    name: Playwright (chromium · MSW)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        # Version is read from `packageManager` in package.json (mirrors ci.yml)
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      # Cache the ~150 MB browser binary in ~/.cache/ms-playwright keyed on the
+      # installed @playwright/test version. apt-level system deps (libnss3,
+      # libnspr4, libasound2t64, ...) don't cache, so they're installed each
+      # run via either `install --with-deps` (cache miss) or `install-deps`
+      # (cache hit) below.
+      - name: Resolve Playwright version
+        id: pw
+        run: echo "version=$(node -p "require('./node_modules/@playwright/test/package.json').version")" >> "$GITHUB_OUTPUT"
+
+      - name: Cache Playwright browsers
+        id: playwright-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ steps.pw.outputs.version }}
+
+      - name: Install Playwright (browsers + system deps)
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
+        run: pnpm exec playwright install --with-deps chromium
+
+      - name: Install Playwright system deps only (cache hit)
+        if: steps.playwright-cache.outputs.cache-hit == 'true'
+        run: pnpm exec playwright install-deps chromium
+
+      # Dev server, not `pnpm build` + `pnpm start`. Reason: `instrumentation.ts`'s
+      # MSW boot hook only fires reliably under Turbopack (`pnpm dev`) — in production
+      # mode under webpack, `register()` runs without logging "[instrumentation] MSW
+      # Node server listening" and outbound api-football calls escape unintercepted.
+      # Discovered live on the first run of this workflow: `pnpm build` + `pnpm start`
+      # with `TEST_MSW=1` resulted in 5 of 5 specs hitting real upstream and getting
+      # 403s (the placeholder API_KEY rejected). `pnpm dev` mirrors the working
+      # local pattern in playwright.config.ts#webServer.command. Production-build
+      # parity is already covered by `ci.yml`'s `pnpm build` step.
+      - name: Start dev server (MSW intercepting via instrumentation.ts)
+        env:
+          TEST_MSW: "1"
+          PORT: "3000"
+        run: |
+          pnpm dev > server.log 2>&1 &
+          echo $! > .server.pid
+
+      - name: Wait for server
+        run: |
+          timeout 60 bash -c 'until curl --fail --silent http://localhost:3000 > /dev/null; do sleep 1; done'
+
+      # `PLAYWRIGHT_BASE_URL` short-circuits playwright.config.ts's auto
+      # `webServer` block — we're managing the server lifecycle from the
+      # workflow so Playwright doesn't try to spawn a second one.
+      - name: Run Playwright tests
+        env:
+          PLAYWRIGHT_BASE_URL: http://localhost:3000
+        run: pnpm test:e2e
+
+      - name: Stop server
+        if: always()
+        run: |
+          if [ -f .server.pid ]; then
+            kill "$(cat .server.pid)" 2>/dev/null || true
+          fi
+
+      - name: Upload server log on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: server-log
+          path: server.log
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Upload Playwright HTML report
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Upload Playwright test results (traces, screenshots)
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-test-results
+          path: test-results/
+          retention-days: 7
+          if-no-files-found: ignore

@@ -1,0 +1,1522 @@
+{
+  "2013-08-17-ARS-AVL": {
+    "attendance": 60003,
+    "venue": "Emirates Stadium"
+  },
+  "2013-08-17-LIV-STK": {
+    "attendance": 44822,
+    "venue": "Anfield"
+  },
+  "2013-08-17-NOR-EVE": {
+    "attendance": 26824,
+    "venue": "Carrow Road"
+  },
+  "2013-08-17-SUN-FUL": {
+    "attendance": 43905,
+    "venue": "Stadium of Light"
+  },
+  "2013-08-17-SWA-MUN": {
+    "attendance": 20733,
+    "venue": "Liberty Stadium"
+  },
+  "2013-08-17-WBA-SOU": {
+    "attendance": 25927,
+    "venue": "The Hawthorns"
+  },
+  "2013-08-17-WHU-CAR": {
+    "attendance": 34977,
+    "venue": "Boleyn Ground"
+  },
+  "2013-08-18-CHE-HUL": {
+    "attendance": 41374,
+    "venue": "Stamford Bridge"
+  },
+  "2013-08-18-CRY-TOT": {
+    "attendance": 23285,
+    "venue": "Selhurst Park"
+  },
+  "2013-08-19-MCI-NEW": {
+    "attendance": 46842,
+    "venue": "Etihad Stadium"
+  },
+  "2013-08-21-CHE-AVL": {
+    "attendance": 41527,
+    "venue": "Stamford Bridge"
+  },
+  "2013-08-24-AVL-LIV": {
+    "attendance": 42098,
+    "venue": "Villa Park"
+  },
+  "2013-08-24-EVE-WBA": {
+    "attendance": 36410,
+    "venue": "Goodison Park"
+  },
+  "2013-08-24-FUL-ARS": {
+    "attendance": 25622,
+    "venue": "Craven Cottage"
+  },
+  "2013-08-24-HUL-NOR": {
+    "attendance": 23682,
+    "venue": "MKM Stadium"
+  },
+  "2013-08-24-NEW-WHU": {
+    "attendance": 49622,
+    "venue": "St. James' Park"
+  },
+  "2013-08-24-SOU-SUN": {
+    "attendance": 29596,
+    "venue": "St. Mary's Stadium"
+  },
+  "2013-08-24-STK-CRY": {
+    "attendance": 25270,
+    "venue": "Britannia Stadium"
+  },
+  "2013-08-25-CAR-MCI": {
+    "attendance": 27068,
+    "venue": "Cardiff City Stadium"
+  },
+  "2013-08-25-TOT-SWA": {
+    "attendance": 36005,
+    "venue": "White Hart Lane"
+  },
+  "2013-08-26-MUN-CHE": {
+    "attendance": 75032,
+    "venue": "Old Trafford"
+  },
+  "2013-08-31-CAR-EVE": {
+    "attendance": 27344,
+    "venue": "Cardiff City Stadium"
+  },
+  "2013-08-31-CRY-SUN": {
+    "attendance": 22671,
+    "venue": "Selhurst Park"
+  },
+  "2013-08-31-MCI-HUL": {
+    "attendance": 46903,
+    "venue": "Etihad Stadium"
+  },
+  "2013-08-31-NEW-FUL": {
+    "attendance": 46402,
+    "venue": "St. James' Park"
+  },
+  "2013-08-31-NOR-SOU": {
+    "attendance": 26819,
+    "venue": "Carrow Road"
+  },
+  "2013-08-31-WHU-STK": {
+    "attendance": 34946,
+    "venue": "Boleyn Ground"
+  },
+  "2013-09-01-ARS-TOT": {
+    "attendance": 60071,
+    "venue": "Emirates Stadium"
+  },
+  "2013-09-01-LIV-MUN": {
+    "attendance": 44411,
+    "venue": "Anfield"
+  },
+  "2013-09-01-WBA-SWA": {
+    "attendance": 23395,
+    "venue": "The Hawthorns"
+  },
+  "2013-09-14-AVL-NEW": {
+    "attendance": 37554,
+    "venue": "Villa Park"
+  },
+  "2013-09-14-EVE-CHE": {
+    "attendance": 36034,
+    "venue": "Goodison Park"
+  },
+  "2013-09-14-FUL-WBA": {
+    "attendance": 25560,
+    "venue": "Craven Cottage"
+  },
+  "2013-09-14-HUL-CAR": {
+    "attendance": 21949,
+    "venue": "MKM Stadium"
+  },
+  "2013-09-14-MUN-CRY": {
+    "attendance": 75170,
+    "venue": "Old Trafford"
+  },
+  "2013-09-14-STK-MCI": {
+    "attendance": 25052,
+    "venue": "Britannia Stadium"
+  },
+  "2013-09-14-SUN-ARS": {
+    "attendance": 39055,
+    "venue": "Stadium of Light"
+  },
+  "2013-09-14-TOT-NOR": {
+    "attendance": 35952,
+    "venue": "White Hart Lane"
+  },
+  "2013-09-15-SOU-WHU": {
+    "attendance": 28794,
+    "venue": "St. Mary's Stadium"
+  },
+  "2013-09-16-SWA-LIV": {
+    "attendance": 20752,
+    "venue": "Liberty Stadium"
+  },
+  "2013-09-21-CHE-FUL": {
+    "attendance": 41608,
+    "venue": "Stamford Bridge"
+  },
+  "2013-09-21-LIV-SOU": {
+    "attendance": 44755,
+    "venue": "Anfield"
+  },
+  "2013-09-21-NEW-HUL": {
+    "attendance": 51523,
+    "venue": "St. James' Park"
+  },
+  "2013-09-21-NOR-AVL": {
+    "attendance": 26813,
+    "venue": "Carrow Road"
+  },
+  "2013-09-21-WBA-SUN": {
+    "attendance": 24595,
+    "venue": "The Hawthorns"
+  },
+  "2013-09-21-WHU-EVE": {
+    "attendance": 34952,
+    "venue": "Boleyn Ground"
+  },
+  "2013-09-22-ARS-STK": {
+    "attendance": 60002,
+    "venue": "Emirates Stadium"
+  },
+  "2013-09-22-CAR-TOT": {
+    "attendance": 27815,
+    "venue": "Cardiff City Stadium"
+  },
+  "2013-09-22-CRY-SWA": {
+    "attendance": 22466,
+    "venue": "Selhurst Park"
+  },
+  "2013-09-22-MCI-MUN": {
+    "attendance": 47156,
+    "venue": "Etihad Stadium"
+  },
+  "2013-09-28-AVL-MCI": {
+    "attendance": 34063,
+    "venue": "Villa Park"
+  },
+  "2013-09-28-FUL-CAR": {
+    "attendance": 23020,
+    "venue": "Craven Cottage"
+  },
+  "2013-09-28-HUL-WHU": {
+    "attendance": 24291,
+    "venue": "MKM Stadium"
+  },
+  "2013-09-28-MUN-WBA": {
+    "attendance": 75042,
+    "venue": "Old Trafford"
+  },
+  "2013-09-28-SOU-CRY": {
+    "attendance": 30699,
+    "venue": "St. Mary's Stadium"
+  },
+  "2013-09-28-SWA-ARS": {
+    "attendance": 20712,
+    "venue": "Liberty Stadium"
+  },
+  "2013-09-28-TOT-CHE": {
+    "attendance": 35857,
+    "venue": "White Hart Lane"
+  },
+  "2013-09-29-STK-NOR": {
+    "attendance": 26184,
+    "venue": "Britannia Stadium"
+  },
+  "2013-09-29-SUN-LIV": {
+    "attendance": 41415,
+    "venue": "Stadium of Light"
+  },
+  "2013-09-30-EVE-NEW": {
+    "attendance": 33495,
+    "venue": "Goodison Park"
+  },
+  "2013-10-05-CAR-NEW": {
+    "attendance": 27538,
+    "venue": "Cardiff City Stadium"
+  },
+  "2013-10-05-FUL-STK": {
+    "attendance": 24634,
+    "venue": "Craven Cottage"
+  },
+  "2013-10-05-HUL-AVL": {
+    "attendance": 24396,
+    "venue": "MKM Stadium"
+  },
+  "2013-10-05-LIV-CRY": {
+    "attendance": 44721,
+    "venue": "Anfield"
+  },
+  "2013-10-05-MCI-EVE": {
+    "attendance": 47267,
+    "venue": "Etihad Stadium"
+  },
+  "2013-10-05-SUN-MUN": {
+    "attendance": 45426,
+    "venue": "Stadium of Light"
+  },
+  "2013-10-06-NOR-CHE": {
+    "attendance": 26840,
+    "venue": "Carrow Road"
+  },
+  "2013-10-06-SOU-SWA": {
+    "attendance": 28570,
+    "venue": "St. Mary's Stadium"
+  },
+  "2013-10-06-TOT-WHU": {
+    "attendance": 35977,
+    "venue": "White Hart Lane"
+  },
+  "2013-10-06-WBA-ARS": {
+    "attendance": 24839,
+    "venue": "The Hawthorns"
+  },
+  "2013-10-19-ARS-NOR": {
+    "attendance": 60009,
+    "venue": "Emirates Stadium"
+  },
+  "2013-10-19-CHE-CAR": {
+    "attendance": 41475,
+    "venue": "Stamford Bridge"
+  },
+  "2013-10-19-EVE-HUL": {
+    "attendance": 38828,
+    "venue": "Goodison Park"
+  },
+  "2013-10-19-MUN-SOU": {
+    "attendance": 75220,
+    "venue": "Old Trafford"
+  },
+  "2013-10-19-NEW-LIV": {
+    "attendance": 51703,
+    "venue": "St. James' Park"
+  },
+  "2013-10-19-STK-WBA": {
+    "attendance": 25904,
+    "venue": "Britannia Stadium"
+  },
+  "2013-10-19-SWA-SUN": {
+    "attendance": 20245,
+    "venue": "Liberty Stadium"
+  },
+  "2013-10-19-WHU-MCI": {
+    "attendance": 34507,
+    "venue": "Boleyn Ground"
+  },
+  "2013-10-20-AVL-TOT": {
+    "attendance": 35391,
+    "venue": "Villa Park"
+  },
+  "2013-10-21-CRY-FUL": {
+    "attendance": 24881,
+    "venue": "Selhurst Park"
+  },
+  "2013-10-26-AVL-EVE": {
+    "attendance": 35154,
+    "venue": "Villa Park"
+  },
+  "2013-10-26-CRY-ARS": {
+    "attendance": 20050,
+    "venue": "Selhurst Park"
+  },
+  "2013-10-26-LIV-WBA": {
+    "attendance": 44747,
+    "venue": "Anfield"
+  },
+  "2013-10-26-MUN-STK": {
+    "attendance": 75274,
+    "venue": "Old Trafford"
+  },
+  "2013-10-26-NOR-CAR": {
+    "attendance": 26846,
+    "venue": "Carrow Road"
+  },
+  "2013-10-26-SOU-FUL": {
+    "attendance": 28631,
+    "venue": "St. Mary's Stadium"
+  },
+  "2013-10-27-CHE-MCI": {
+    "attendance": 41495,
+    "venue": "Stamford Bridge"
+  },
+  "2013-10-27-SUN-NEW": {
+    "attendance": 46313,
+    "venue": "Stadium of Light"
+  },
+  "2013-10-27-SWA-WHU": {
+    "attendance": 20455,
+    "venue": "Liberty Stadium"
+  },
+  "2013-10-27-TOT-HUL": {
+    "attendance": 36080,
+    "venue": "White Hart Lane"
+  },
+  "2013-11-02-ARS-LIV": {
+    "attendance": 60042,
+    "venue": "Emirates Stadium"
+  },
+  "2013-11-02-FUL-MUN": {
+    "attendance": 25700,
+    "venue": "Craven Cottage"
+  },
+  "2013-11-02-HUL-SUN": {
+    "attendance": 24677,
+    "venue": "MKM Stadium"
+  },
+  "2013-11-02-MCI-NOR": {
+    "attendance": 47066,
+    "venue": "Etihad Stadium"
+  },
+  "2013-11-02-NEW-CHE": {
+    "attendance": 51674,
+    "venue": "St. James' Park"
+  },
+  "2013-11-02-STK-SOU": {
+    "attendance": 26053,
+    "venue": "Britannia Stadium"
+  },
+  "2013-11-02-WBA-CRY": {
+    "attendance": 26397,
+    "venue": "The Hawthorns"
+  },
+  "2013-11-02-WHU-AVL": {
+    "attendance": 34977,
+    "venue": "Boleyn Ground"
+  },
+  "2013-11-03-CAR-SWA": {
+    "attendance": 27463,
+    "venue": "Cardiff City Stadium"
+  },
+  "2013-11-03-EVE-TOT": {
+    "attendance": 38378,
+    "venue": "Goodison Park"
+  },
+  "2013-11-09-AVL-CAR": {
+    "attendance": 35809,
+    "venue": "Villa Park"
+  },
+  "2013-11-09-CHE-WBA": {
+    "attendance": 41623,
+    "venue": "Stamford Bridge"
+  },
+  "2013-11-09-CRY-EVE": {
+    "attendance": 25231,
+    "venue": "Selhurst Park"
+  },
+  "2013-11-09-LIV-FUL": {
+    "attendance": 44768,
+    "venue": "Anfield"
+  },
+  "2013-11-09-NOR-WHU": {
+    "attendance": 26824,
+    "venue": "Carrow Road"
+  },
+  "2013-11-09-SOU-HUL": {
+    "attendance": 30022,
+    "venue": "St. Mary's Stadium"
+  },
+  "2013-11-10-MUN-ARS": {
+    "attendance": 75138,
+    "venue": "Old Trafford"
+  },
+  "2013-11-10-SUN-MCI": {
+    "attendance": 40137,
+    "venue": "Stadium of Light"
+  },
+  "2013-11-10-SWA-STK": {
+    "attendance": 19242,
+    "venue": "Liberty Stadium"
+  },
+  "2013-11-10-TOT-NEW": {
+    "attendance": 36042,
+    "venue": "White Hart Lane"
+  },
+  "2013-11-23-ARS-SOU": {
+    "attendance": 60007,
+    "venue": "Emirates Stadium"
+  },
+  "2013-11-23-EVE-LIV": {
+    "attendance": 39576,
+    "venue": "Goodison Park"
+  },
+  "2013-11-23-FUL-SWA": {
+    "attendance": 25258,
+    "venue": "Craven Cottage"
+  },
+  "2013-11-23-HUL-CRY": {
+    "attendance": 23043,
+    "venue": "MKM Stadium"
+  },
+  "2013-11-23-NEW-NOR": {
+    "attendance": 51328,
+    "venue": "St. James' Park"
+  },
+  "2013-11-23-STK-SUN": {
+    "attendance": 26007,
+    "venue": "Britannia Stadium"
+  },
+  "2013-11-23-WHU-CHE": {
+    "attendance": 34977,
+    "venue": "Boleyn Ground"
+  },
+  "2013-11-24-CAR-MUN": {
+    "attendance": 28016,
+    "venue": "Cardiff City Stadium"
+  },
+  "2013-11-24-MCI-TOT": {
+    "attendance": 47228,
+    "venue": "Etihad Stadium"
+  },
+  "2013-11-25-WBA-AVL": {
+    "attendance": 24902,
+    "venue": "The Hawthorns"
+  },
+  "2013-11-30-AVL-SUN": {
+    "attendance": 33036,
+    "venue": "Villa Park"
+  },
+  "2013-11-30-CAR-ARS": {
+    "attendance": 27948,
+    "venue": "Cardiff City Stadium"
+  },
+  "2013-11-30-EVE-STK": {
+    "attendance": 35513,
+    "venue": "Goodison Park"
+  },
+  "2013-11-30-NEW-WBA": {
+    "attendance": 49298,
+    "venue": "St. James' Park"
+  },
+  "2013-11-30-NOR-CRY": {
+    "attendance": 26851,
+    "venue": "Carrow Road"
+  },
+  "2013-11-30-WHU-FUL": {
+    "attendance": 34946,
+    "venue": "Boleyn Ground"
+  },
+  "2013-12-01-CHE-SOU": {
+    "attendance": 41568,
+    "venue": "Stamford Bridge"
+  },
+  "2013-12-01-HUL-LIV": {
+    "attendance": 24940,
+    "venue": "MKM Stadium"
+  },
+  "2013-12-01-MCI-SWA": {
+    "attendance": 46559,
+    "venue": "Etihad Stadium"
+  },
+  "2013-12-01-TOT-MUN": {
+    "attendance": 35884,
+    "venue": "White Hart Lane"
+  },
+  "2013-12-03-CRY-WHU": {
+    "attendance": 23891,
+    "venue": "Selhurst Park"
+  },
+  "2013-12-04-ARS-HUL": {
+    "attendance": 60017,
+    "venue": "Emirates Stadium"
+  },
+  "2013-12-04-FUL-TOT": {
+    "attendance": 24128,
+    "venue": "Craven Cottage"
+  },
+  "2013-12-04-LIV-NOR": {
+    "attendance": 44541,
+    "venue": "Anfield"
+  },
+  "2013-12-04-MUN-EVE": {
+    "attendance": 75210,
+    "venue": "Old Trafford"
+  },
+  "2013-12-04-SOU-AVL": {
+    "attendance": 29814,
+    "venue": "St. Mary's Stadium"
+  },
+  "2013-12-04-STK-CAR": {
+    "attendance": 25014,
+    "venue": "Britannia Stadium"
+  },
+  "2013-12-04-SUN-CHE": {
+    "attendance": 40652,
+    "venue": "Stadium of Light"
+  },
+  "2013-12-04-SWA-NEW": {
+    "attendance": 20457,
+    "venue": "Liberty Stadium"
+  },
+  "2013-12-04-WBA-MCI": {
+    "attendance": 22943,
+    "venue": "The Hawthorns"
+  },
+  "2013-12-07-CRY-CAR": {
+    "attendance": 23705,
+    "venue": "Selhurst Park"
+  },
+  "2013-12-07-LIV-WHU": {
+    "attendance": 44781,
+    "venue": "Anfield"
+  },
+  "2013-12-07-MUN-NEW": {
+    "attendance": 75233,
+    "venue": "Old Trafford"
+  },
+  "2013-12-07-SOU-MCI": {
+    "attendance": 31229,
+    "venue": "St. Mary's Stadium"
+  },
+  "2013-12-07-STK-CHE": {
+    "attendance": 25154,
+    "venue": "Britannia Stadium"
+  },
+  "2013-12-07-SUN-TOT": {
+    "attendance": 37963,
+    "venue": "Stadium of Light"
+  },
+  "2013-12-07-WBA-NOR": {
+    "attendance": 23675,
+    "venue": "The Hawthorns"
+  },
+  "2013-12-08-ARS-EVE": {
+    "attendance": 60001,
+    "venue": "Emirates Stadium"
+  },
+  "2013-12-08-FUL-AVL": {
+    "attendance": 22288,
+    "venue": "Craven Cottage"
+  },
+  "2013-12-09-SWA-HUL": {
+    "attendance": 19303,
+    "venue": "Liberty Stadium"
+  },
+  "2013-12-14-CAR-WBA": {
+    "attendance": 26632,
+    "venue": "Cardiff City Stadium"
+  },
+  "2013-12-14-CHE-CRY": {
+    "attendance": 41608,
+    "venue": "Stamford Bridge"
+  },
+  "2013-12-14-EVE-FUL": {
+    "attendance": 33796,
+    "venue": "Goodison Park"
+  },
+  "2013-12-14-HUL-STK": {
+    "attendance": 23324,
+    "venue": "MKM Stadium"
+  },
+  "2013-12-14-MCI-ARS": {
+    "attendance": 47229,
+    "venue": "Etihad Stadium"
+  },
+  "2013-12-14-NEW-SOU": {
+    "attendance": 49164,
+    "venue": "St. James' Park"
+  },
+  "2013-12-14-WHU-SUN": {
+    "attendance": 31843,
+    "venue": "Boleyn Ground"
+  },
+  "2013-12-15-AVL-MUN": {
+    "attendance": 42682,
+    "venue": "Villa Park"
+  },
+  "2013-12-15-NOR-SWA": {
+    "attendance": 26876,
+    "venue": "Carrow Road"
+  },
+  "2013-12-15-TOT-LIV": {
+    "attendance": 36069,
+    "venue": "White Hart Lane"
+  },
+  "2013-12-21-CRY-NEW": {
+    "attendance": 24936,
+    "venue": "Selhurst Park"
+  },
+  "2013-12-21-FUL-MCI": {
+    "attendance": 25509,
+    "venue": "Craven Cottage"
+  },
+  "2013-12-21-LIV-CAR": {
+    "attendance": 44621,
+    "venue": "Anfield"
+  },
+  "2013-12-21-MUN-WHU": {
+    "attendance": 75350,
+    "venue": "Old Trafford"
+  },
+  "2013-12-21-STK-AVL": {
+    "attendance": 26003,
+    "venue": "Britannia Stadium"
+  },
+  "2013-12-21-SUN-NOR": {
+    "attendance": 37778,
+    "venue": "Stadium of Light"
+  },
+  "2013-12-21-WBA-HUL": {
+    "attendance": 24753,
+    "venue": "The Hawthorns"
+  },
+  "2013-12-22-SOU-TOT": {
+    "attendance": 31455,
+    "venue": "St. Mary's Stadium"
+  },
+  "2013-12-22-SWA-EVE": {
+    "attendance": 20695,
+    "venue": "Liberty Stadium"
+  },
+  "2013-12-23-ARS-CHE": {
+    "attendance": 60039,
+    "venue": "Emirates Stadium"
+  },
+  "2013-12-26-AVL-CRY": {
+    "attendance": 37752,
+    "venue": "Villa Park"
+  },
+  "2013-12-26-CAR-SOU": {
+    "attendance": 27929,
+    "venue": "Cardiff City Stadium"
+  },
+  "2013-12-26-CHE-SWA": {
+    "attendance": 41111,
+    "venue": "Stamford Bridge"
+  },
+  "2013-12-26-EVE-SUN": {
+    "attendance": 39193,
+    "venue": "Goodison Park"
+  },
+  "2013-12-26-HUL-MUN": {
+    "attendance": 24826,
+    "venue": "MKM Stadium"
+  },
+  "2013-12-26-MCI-LIV": {
+    "attendance": 47351,
+    "venue": "Etihad Stadium"
+  },
+  "2013-12-26-NEW-STK": {
+    "attendance": 51665,
+    "venue": "St. James' Park"
+  },
+  "2013-12-26-NOR-FUL": {
+    "attendance": 26811,
+    "venue": "Carrow Road"
+  },
+  "2013-12-26-TOT-WBA": {
+    "attendance": 35545,
+    "venue": "White Hart Lane"
+  },
+  "2013-12-26-WHU-ARS": {
+    "attendance": 34977,
+    "venue": "Boleyn Ground"
+  },
+  "2013-12-28-AVL-SWA": {
+    "attendance": 37028,
+    "venue": "Villa Park"
+  },
+  "2013-12-28-CAR-SUN": {
+    "attendance": 27247,
+    "venue": "Cardiff City Stadium"
+  },
+  "2013-12-28-HUL-FUL": {
+    "attendance": 23925,
+    "venue": "MKM Stadium"
+  },
+  "2013-12-28-MCI-CRY": {
+    "attendance": 47107,
+    "venue": "Etihad Stadium"
+  },
+  "2013-12-28-NOR-MUN": {
+    "attendance": 26851,
+    "venue": "Carrow Road"
+  },
+  "2013-12-28-WHU-WBA": {
+    "attendance": 34946,
+    "venue": "Boleyn Ground"
+  },
+  "2013-12-29-CHE-LIV": {
+    "attendance": 41614,
+    "venue": "Stamford Bridge"
+  },
+  "2013-12-29-EVE-SOU": {
+    "attendance": 39092,
+    "venue": "Goodison Park"
+  },
+  "2013-12-29-NEW-ARS": {
+    "attendance": 52161,
+    "venue": "St. James' Park"
+  },
+  "2013-12-29-TOT-STK": {
+    "attendance": 36072,
+    "venue": "White Hart Lane"
+  },
+  "2014-01-01-ARS-CAR": {
+    "attendance": 60004,
+    "venue": "Emirates Stadium"
+  },
+  "2014-01-01-CRY-NOR": {
+    "attendance": 25189,
+    "venue": "Selhurst Park"
+  },
+  "2014-01-01-FUL-WHU": {
+    "attendance": 25335,
+    "venue": "Craven Cottage"
+  },
+  "2014-01-01-LIV-HUL": {
+    "attendance": 44627,
+    "venue": "Anfield"
+  },
+  "2014-01-01-MUN-TOT": {
+    "attendance": 75265,
+    "venue": "Old Trafford"
+  },
+  "2014-01-01-SOU-CHE": {
+    "attendance": 31271,
+    "venue": "St. Mary's Stadium"
+  },
+  "2014-01-01-STK-EVE": {
+    "attendance": 25832,
+    "venue": "Britannia Stadium"
+  },
+  "2014-01-01-SUN-AVL": {
+    "attendance": 39757,
+    "venue": "Stadium of Light"
+  },
+  "2014-01-01-SWA-MCI": {
+    "attendance": 20498,
+    "venue": "Liberty Stadium"
+  },
+  "2014-01-01-WBA-NEW": {
+    "attendance": 26430,
+    "venue": "The Hawthorns"
+  },
+  "2014-01-11-CAR-WHU": {
+    "attendance": 27750,
+    "venue": "Cardiff City Stadium"
+  },
+  "2014-01-11-EVE-NOR": {
+    "attendance": 36827,
+    "venue": "Goodison Park"
+  },
+  "2014-01-11-FUL-SUN": {
+    "attendance": 25564,
+    "venue": "Craven Cottage"
+  },
+  "2014-01-11-HUL-CHE": {
+    "attendance": 24924,
+    "venue": "MKM Stadium"
+  },
+  "2014-01-11-MUN-SWA": {
+    "attendance": 75035,
+    "venue": "Old Trafford"
+  },
+  "2014-01-11-SOU-WBA": {
+    "attendance": 28610,
+    "venue": "St. Mary's Stadium"
+  },
+  "2014-01-11-TOT-CRY": {
+    "attendance": 36102,
+    "venue": "White Hart Lane"
+  },
+  "2014-01-12-NEW-MCI": {
+    "attendance": 49423,
+    "venue": "St. James' Park"
+  },
+  "2014-01-12-STK-LIV": {
+    "attendance": 27160,
+    "venue": "Britannia Stadium"
+  },
+  "2014-01-13-AVL-ARS": {
+    "attendance": 36097,
+    "venue": "Villa Park"
+  },
+  "2014-01-18-ARS-FUL": {
+    "attendance": 60000,
+    "venue": "Emirates Stadium"
+  },
+  "2014-01-18-CRY-STK": {
+    "attendance": 24440,
+    "venue": "Selhurst Park"
+  },
+  "2014-01-18-LIV-AVL": {
+    "attendance": 44737,
+    "venue": "Anfield"
+  },
+  "2014-01-18-MCI-CAR": {
+    "attendance": 47213,
+    "venue": "Etihad Stadium"
+  },
+  "2014-01-18-NOR-HUL": {
+    "attendance": 26655,
+    "venue": "Carrow Road"
+  },
+  "2014-01-18-SUN-SOU": {
+    "attendance": 38115,
+    "venue": "Stadium of Light"
+  },
+  "2014-01-18-WHU-NEW": {
+    "attendance": 33343,
+    "venue": "Boleyn Ground"
+  },
+  "2014-01-19-CHE-MUN": {
+    "attendance": 41615,
+    "venue": "Stamford Bridge"
+  },
+  "2014-01-19-SWA-TOT": {
+    "attendance": 20769,
+    "venue": "Liberty Stadium"
+  },
+  "2014-01-20-WBA-EVE": {
+    "attendance": 24184,
+    "venue": "The Hawthorns"
+  },
+  "2014-01-28-CRY-HUL": {
+    "attendance": 22519,
+    "venue": "Selhurst Park"
+  },
+  "2014-01-28-LIV-EVE": {
+    "attendance": 44450,
+    "venue": "Anfield"
+  },
+  "2014-01-28-MUN-CAR": {
+    "attendance": 75301,
+    "venue": "Old Trafford"
+  },
+  "2014-01-28-NOR-NEW": {
+    "attendance": 26762,
+    "venue": "Carrow Road"
+  },
+  "2014-01-28-SOU-ARS": {
+    "attendance": 31284,
+    "venue": "St. Mary's Stadium"
+  },
+  "2014-01-28-SWA-FUL": {
+    "attendance": 20004,
+    "venue": "Liberty Stadium"
+  },
+  "2014-01-29-AVL-WBA": {
+    "attendance": 36083,
+    "venue": "Villa Park"
+  },
+  "2014-01-29-CHE-WHU": {
+    "attendance": 41376,
+    "venue": "Stamford Bridge"
+  },
+  "2014-01-29-SUN-STK": {
+    "attendance": 34745,
+    "venue": "Stadium of Light"
+  },
+  "2014-01-29-TOT-MCI": {
+    "attendance": 36071,
+    "venue": "White Hart Lane"
+  },
+  "2014-02-01-CAR-NOR": {
+    "attendance": 26748,
+    "venue": "Cardiff City Stadium"
+  },
+  "2014-02-01-EVE-AVL": {
+    "attendance": 39469,
+    "venue": "Goodison Park"
+  },
+  "2014-02-01-FUL-SOU": {
+    "attendance": 25700,
+    "venue": "Craven Cottage"
+  },
+  "2014-02-01-HUL-TOT": {
+    "attendance": 24932,
+    "venue": "MKM Stadium"
+  },
+  "2014-02-01-NEW-SUN": {
+    "attendance": 52280,
+    "venue": "St. James' Park"
+  },
+  "2014-02-01-STK-MUN": {
+    "attendance": 26547,
+    "venue": "Britannia Stadium"
+  },
+  "2014-02-01-WHU-SWA": {
+    "attendance": 31848,
+    "venue": "Boleyn Ground"
+  },
+  "2014-02-02-ARS-CRY": {
+    "attendance": 60005,
+    "venue": "Emirates Stadium"
+  },
+  "2014-02-02-WBA-LIV": {
+    "attendance": 26132,
+    "venue": "The Hawthorns"
+  },
+  "2014-02-03-MCI-CHE": {
+    "attendance": 47364,
+    "venue": "Etihad Stadium"
+  },
+  "2014-02-08-AVL-WHU": {
+    "attendance": 36261,
+    "venue": "Villa Park"
+  },
+  "2014-02-08-CHE-NEW": {
+    "attendance": 41387,
+    "venue": "Stamford Bridge"
+  },
+  "2014-02-08-CRY-WBA": {
+    "attendance": 24501,
+    "venue": "Selhurst Park"
+  },
+  "2014-02-08-LIV-ARS": {
+    "attendance": 44701,
+    "venue": "Anfield"
+  },
+  "2014-02-08-NOR-MCI": {
+    "attendance": 26832,
+    "venue": "Carrow Road"
+  },
+  "2014-02-08-SOU-STK": {
+    "attendance": 27987,
+    "venue": "St. Mary's Stadium"
+  },
+  "2014-02-08-SUN-HUL": {
+    "attendance": 42810,
+    "venue": "Stadium of Light"
+  },
+  "2014-02-08-SWA-CAR": {
+    "attendance": 20402,
+    "venue": "Liberty Stadium"
+  },
+  "2014-02-09-MUN-FUL": {
+    "attendance": 74966,
+    "venue": "Old Trafford"
+  },
+  "2014-02-09-TOT-EVE": {
+    "attendance": 35944,
+    "venue": "White Hart Lane"
+  },
+  "2014-02-11-CAR-AVL": {
+    "attendance": 27597,
+    "venue": "Cardiff City Stadium"
+  },
+  "2014-02-11-HUL-SOU": {
+    "attendance": 23670,
+    "venue": "MKM Stadium"
+  },
+  "2014-02-11-WBA-CHE": {
+    "attendance": 24327,
+    "venue": "The Hawthorns"
+  },
+  "2014-02-11-WHU-NOR": {
+    "attendance": 35153,
+    "venue": "Boleyn Ground"
+  },
+  "2014-02-12-ARS-MUN": {
+    "attendance": 60021,
+    "venue": "Emirates Stadium"
+  },
+  "2014-02-12-FUL-LIV": {
+    "attendance": 25375,
+    "venue": "Craven Cottage"
+  },
+  "2014-02-12-NEW-TOT": {
+    "attendance": 48264,
+    "venue": "St. James' Park"
+  },
+  "2014-02-12-STK-SWA": {
+    "attendance": 24822,
+    "venue": "Britannia Stadium"
+  },
+  "2014-02-22-ARS-SUN": {
+    "attendance": 60012,
+    "venue": "Emirates Stadium"
+  },
+  "2014-02-22-CAR-HUL": {
+    "attendance": 26167,
+    "venue": "Cardiff City Stadium"
+  },
+  "2014-02-22-CHE-EVE": {
+    "attendance": 41580,
+    "venue": "Stamford Bridge"
+  },
+  "2014-02-22-CRY-MUN": {
+    "attendance": 24571,
+    "venue": "Selhurst Park"
+  },
+  "2014-02-22-MCI-STK": {
+    "attendance": 47038,
+    "venue": "Etihad Stadium"
+  },
+  "2014-02-22-WBA-FUL": {
+    "attendance": 25782,
+    "venue": "The Hawthorns"
+  },
+  "2014-02-22-WHU-SOU": {
+    "attendance": 33148,
+    "venue": "Boleyn Ground"
+  },
+  "2014-02-23-LIV-SWA": {
+    "attendance": 44731,
+    "venue": "Anfield"
+  },
+  "2014-02-23-NEW-AVL": {
+    "attendance": 50417,
+    "venue": "St. James' Park"
+  },
+  "2014-02-23-NOR-TOT": {
+    "attendance": 26834,
+    "venue": "Carrow Road"
+  },
+  "2014-03-01-EVE-WHU": {
+    "attendance": 38286,
+    "venue": "Goodison Park"
+  },
+  "2014-03-01-FUL-CHE": {
+    "attendance": 24577,
+    "venue": "Craven Cottage"
+  },
+  "2014-03-01-HUL-NEW": {
+    "attendance": 24903,
+    "venue": "MKM Stadium"
+  },
+  "2014-03-01-SOU-LIV": {
+    "attendance": 31659,
+    "venue": "St. Mary's Stadium"
+  },
+  "2014-03-01-STK-ARS": {
+    "attendance": 26711,
+    "venue": "Britannia Stadium"
+  },
+  "2014-03-02-AVL-NOR": {
+    "attendance": 30303,
+    "venue": "Villa Park"
+  },
+  "2014-03-02-SWA-CRY": {
+    "attendance": 20240,
+    "venue": "Liberty Stadium"
+  },
+  "2014-03-02-TOT-CAR": {
+    "attendance": 35512,
+    "venue": "White Hart Lane"
+  },
+  "2014-03-08-CAR-FUL": {
+    "attendance": 26796,
+    "venue": "Cardiff City Stadium"
+  },
+  "2014-03-08-CHE-TOT": {
+    "attendance": 41598,
+    "venue": "Stamford Bridge"
+  },
+  "2014-03-08-CRY-SOU": {
+    "attendance": 25073,
+    "venue": "Selhurst Park"
+  },
+  "2014-03-08-NOR-STK": {
+    "attendance": 26646,
+    "venue": "Carrow Road"
+  },
+  "2014-03-08-WBA-MUN": {
+    "attendance": 26184,
+    "venue": "The Hawthorns"
+  },
+  "2014-03-15-AVL-CHE": {
+    "attendance": 40084,
+    "venue": "Villa Park"
+  },
+  "2014-03-15-EVE-CAR": {
+    "attendance": 38018,
+    "venue": "Goodison Park"
+  },
+  "2014-03-15-FUL-NEW": {
+    "attendance": 25664,
+    "venue": "Craven Cottage"
+  },
+  "2014-03-15-HUL-MCI": {
+    "attendance": 24895,
+    "venue": "MKM Stadium"
+  },
+  "2014-03-15-SOU-NOR": {
+    "attendance": 29828,
+    "venue": "St. Mary's Stadium"
+  },
+  "2014-03-15-STK-WHU": {
+    "attendance": 27015,
+    "venue": "Britannia Stadium"
+  },
+  "2014-03-15-SUN-CRY": {
+    "attendance": 43636,
+    "venue": "Stadium of Light"
+  },
+  "2014-03-15-SWA-WBA": {
+    "attendance": 20703,
+    "venue": "Liberty Stadium"
+  },
+  "2014-03-16-MUN-LIV": {
+    "attendance": 75225,
+    "venue": "Old Trafford"
+  },
+  "2014-03-16-TOT-ARS": {
+    "attendance": 35711,
+    "venue": "White Hart Lane"
+  },
+  "2014-03-22-CAR-LIV": {
+    "attendance": 28018,
+    "venue": "Cardiff City Stadium"
+  },
+  "2014-03-22-CHE-ARS": {
+    "attendance": 41614,
+    "venue": "Stamford Bridge"
+  },
+  "2014-03-22-EVE-SWA": {
+    "attendance": 36260,
+    "venue": "Goodison Park"
+  },
+  "2014-03-22-HUL-WBA": {
+    "attendance": 23486,
+    "venue": "MKM Stadium"
+  },
+  "2014-03-22-MCI-FUL": {
+    "attendance": 47262,
+    "venue": "Etihad Stadium"
+  },
+  "2014-03-22-NEW-CRY": {
+    "attendance": 51588,
+    "venue": "St. James' Park"
+  },
+  "2014-03-22-NOR-SUN": {
+    "attendance": 26654,
+    "venue": "Carrow Road"
+  },
+  "2014-03-22-WHU-MUN": {
+    "attendance": 34237,
+    "venue": "Boleyn Ground"
+  },
+  "2014-03-23-AVL-STK": {
+    "attendance": 30292,
+    "venue": "Villa Park"
+  },
+  "2014-03-23-TOT-SOU": {
+    "attendance": 35460,
+    "venue": "White Hart Lane"
+  },
+  "2014-03-25-ARS-SWA": {
+    "attendance": 59937,
+    "venue": "Emirates Stadium"
+  },
+  "2014-03-25-MUN-MCI": {
+    "attendance": 75203,
+    "venue": "Old Trafford"
+  },
+  "2014-03-25-NEW-EVE": {
+    "attendance": 47622,
+    "venue": "St. James' Park"
+  },
+  "2014-03-26-LIV-SUN": {
+    "attendance": 44524,
+    "venue": "Anfield"
+  },
+  "2014-03-26-WHU-HUL": {
+    "attendance": 31033,
+    "venue": "Boleyn Ground"
+  },
+  "2014-03-29-ARS-MCI": {
+    "attendance": 60060,
+    "venue": "Emirates Stadium"
+  },
+  "2014-03-29-CRY-CHE": {
+    "attendance": 25166,
+    "venue": "Selhurst Park"
+  },
+  "2014-03-29-MUN-AVL": {
+    "attendance": 75368,
+    "venue": "Old Trafford"
+  },
+  "2014-03-29-SOU-NEW": {
+    "attendance": 31360,
+    "venue": "St. Mary's Stadium"
+  },
+  "2014-03-29-STK-HUL": {
+    "attendance": 27029,
+    "venue": "Britannia Stadium"
+  },
+  "2014-03-29-SWA-NOR": {
+    "attendance": 20371,
+    "venue": "Liberty Stadium"
+  },
+  "2014-03-29-WBA-CAR": {
+    "attendance": 25661,
+    "venue": "The Hawthorns"
+  },
+  "2014-03-30-FUL-EVE": {
+    "attendance": 25454,
+    "venue": "Craven Cottage"
+  },
+  "2014-03-30-LIV-TOT": {
+    "attendance": 44762,
+    "venue": "Anfield"
+  },
+  "2014-03-31-SUN-WHU": {
+    "attendance": 37396,
+    "venue": "Stadium of Light"
+  },
+  "2014-04-05-AVL-FUL": {
+    "attendance": 33532,
+    "venue": "Villa Park"
+  },
+  "2014-04-05-CAR-CRY": {
+    "attendance": 27687,
+    "venue": "Cardiff City Stadium"
+  },
+  "2014-04-05-CHE-STK": {
+    "attendance": 41168,
+    "venue": "Stamford Bridge"
+  },
+  "2014-04-05-HUL-SWA": {
+    "attendance": 22744,
+    "venue": "MKM Stadium"
+  },
+  "2014-04-05-MCI-SOU": {
+    "attendance": 47009,
+    "venue": "Etihad Stadium"
+  },
+  "2014-04-05-NEW-MUN": {
+    "attendance": 52081,
+    "venue": "St. James' Park"
+  },
+  "2014-04-05-NOR-WBA": {
+    "attendance": 26859,
+    "venue": "Carrow Road"
+  },
+  "2014-04-06-EVE-ARS": {
+    "attendance": 39504,
+    "venue": "Goodison Park"
+  },
+  "2014-04-06-WHU-LIV": {
+    "attendance": 34977,
+    "venue": "Boleyn Ground"
+  },
+  "2014-04-07-TOT-SUN": {
+    "attendance": 34410,
+    "venue": "White Hart Lane"
+  },
+  "2014-04-12-CRY-AVL": {
+    "attendance": 25564,
+    "venue": "Selhurst Park"
+  },
+  "2014-04-12-FUL-NOR": {
+    "attendance": 25028,
+    "venue": "Craven Cottage"
+  },
+  "2014-04-12-SOU-CAR": {
+    "attendance": 30526,
+    "venue": "St. Mary's Stadium"
+  },
+  "2014-04-12-STK-NEW": {
+    "attendance": 27400,
+    "venue": "Britannia Stadium"
+  },
+  "2014-04-12-SUN-EVE": {
+    "attendance": 38445,
+    "venue": "Stadium of Light"
+  },
+  "2014-04-12-WBA-TOT": {
+    "attendance": 25398,
+    "venue": "The Hawthorns"
+  },
+  "2014-04-13-LIV-MCI": {
+    "attendance": 44601,
+    "venue": "Anfield"
+  },
+  "2014-04-13-SWA-CHE": {
+    "attendance": 20761,
+    "venue": "Liberty Stadium"
+  },
+  "2014-04-15-ARS-WHU": {
+    "attendance": 59977,
+    "venue": "Emirates Stadium"
+  },
+  "2014-04-16-EVE-CRY": {
+    "attendance": 39333,
+    "venue": "Goodison Park"
+  },
+  "2014-04-16-MCI-SUN": {
+    "attendance": 47046,
+    "venue": "Etihad Stadium"
+  },
+  "2014-04-19-AVL-SOU": {
+    "attendance": 35134,
+    "venue": "Villa Park"
+  },
+  "2014-04-19-CAR-STK": {
+    "attendance": 27686,
+    "venue": "Cardiff City Stadium"
+  },
+  "2014-04-19-CHE-SUN": {
+    "attendance": 41210,
+    "venue": "Stamford Bridge"
+  },
+  "2014-04-19-NEW-SWA": {
+    "attendance": 51057,
+    "venue": "St. James' Park"
+  },
+  "2014-04-19-TOT-FUL": {
+    "attendance": 35841,
+    "venue": "White Hart Lane"
+  },
+  "2014-04-19-WHU-CRY": {
+    "attendance": 34977,
+    "venue": "Boleyn Ground"
+  },
+  "2014-04-20-EVE-MUN": {
+    "attendance": 39436,
+    "venue": "Goodison Park"
+  },
+  "2014-04-20-HUL-ARS": {
+    "attendance": 24762,
+    "venue": "MKM Stadium"
+  },
+  "2014-04-20-NOR-LIV": {
+    "attendance": 26857,
+    "venue": "Carrow Road"
+  },
+  "2014-04-21-MCI-WBA": {
+    "attendance": 46564,
+    "venue": "Etihad Stadium"
+  },
+  "2014-04-26-FUL-HUL": {
+    "attendance": 25700,
+    "venue": "Craven Cottage"
+  },
+  "2014-04-26-MUN-NOR": {
+    "attendance": 75208,
+    "venue": "Old Trafford"
+  },
+  "2014-04-26-SOU-EVE": {
+    "attendance": 31313,
+    "venue": "St. Mary's Stadium"
+  },
+  "2014-04-26-STK-TOT": {
+    "attendance": 26021,
+    "venue": "Britannia Stadium"
+  },
+  "2014-04-26-SWA-AVL": {
+    "attendance": 20701,
+    "venue": "Liberty Stadium"
+  },
+  "2014-04-26-WBA-WHU": {
+    "attendance": 26541,
+    "venue": "The Hawthorns"
+  },
+  "2014-04-27-CRY-MCI": {
+    "attendance": 24769,
+    "venue": "Selhurst Park"
+  },
+  "2014-04-27-LIV-CHE": {
+    "attendance": 44726,
+    "venue": "Anfield"
+  },
+  "2014-04-27-SUN-CAR": {
+    "attendance": 42397,
+    "venue": "Stadium of Light"
+  },
+  "2014-04-28-ARS-NEW": {
+    "attendance": 60023,
+    "venue": "Emirates Stadium"
+  },
+  "2014-05-03-AVL-HUL": {
+    "attendance": 37182,
+    "venue": "Villa Park"
+  },
+  "2014-05-03-EVE-MCI": {
+    "attendance": 39454,
+    "venue": "Goodison Park"
+  },
+  "2014-05-03-MUN-SUN": {
+    "attendance": 75347,
+    "venue": "Old Trafford"
+  },
+  "2014-05-03-NEW-CAR": {
+    "attendance": 50239,
+    "venue": "St. James' Park"
+  },
+  "2014-05-03-STK-FUL": {
+    "attendance": 27429,
+    "venue": "Britannia Stadium"
+  },
+  "2014-05-03-SWA-SOU": {
+    "attendance": 20682,
+    "venue": "Liberty Stadium"
+  },
+  "2014-05-03-WHU-TOT": {
+    "attendance": 34977,
+    "venue": "Boleyn Ground"
+  },
+  "2014-05-04-ARS-WBA": {
+    "attendance": 60021,
+    "venue": "Emirates Stadium"
+  },
+  "2014-05-04-CHE-NOR": {
+    "attendance": 41602,
+    "venue": "Stamford Bridge"
+  },
+  "2014-05-05-CRY-LIV": {
+    "attendance": 25261,
+    "venue": "Selhurst Park"
+  },
+  "2014-05-06-MUN-HUL": {
+    "attendance": 75341,
+    "venue": "Old Trafford"
+  },
+  "2014-05-07-MCI-AVL": {
+    "attendance": 47023,
+    "venue": "Etihad Stadium"
+  },
+  "2014-05-07-SUN-WBA": {
+    "attendance": 45181,
+    "venue": "Stadium of Light"
+  },
+  "2014-05-11-CAR-CHE": {
+    "attendance": 27716,
+    "venue": "Cardiff City Stadium"
+  },
+  "2014-05-11-FUL-CRY": {
+    "attendance": 24447,
+    "venue": "Craven Cottage"
+  },
+  "2014-05-11-HUL-EVE": {
+    "attendance": 24848,
+    "venue": "MKM Stadium"
+  },
+  "2014-05-11-LIV-NEW": {
+    "attendance": 44724,
+    "venue": "Anfield"
+  },
+  "2014-05-11-MCI-WHU": {
+    "attendance": 47300,
+    "venue": "Etihad Stadium"
+  },
+  "2014-05-11-NOR-ARS": {
+    "attendance": 26848,
+    "venue": "Carrow Road"
+  },
+  "2014-05-11-SOU-MUN": {
+    "attendance": 31372,
+    "venue": "St. Mary's Stadium"
+  },
+  "2014-05-11-SUN-SWA": {
+    "attendance": 45580,
+    "venue": "Stadium of Light"
+  },
+  "2014-05-11-TOT-AVL": {
+    "attendance": 35826,
+    "venue": "White Hart Lane"
+  },
+  "2014-05-11-WBA-STK": {
+    "attendance": 26613,
+    "venue": "The Hawthorns"
+  }
+}

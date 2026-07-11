@@ -1,0 +1,1522 @@
+{
+  "2010-08-14-AVL-WHU": {
+    "attendance": 36604,
+    "venue": "Villa Park"
+  },
+  "2010-08-14-BLB-EVE": {
+    "attendance": 25869,
+    "venue": "Ewood Park"
+  },
+  "2010-08-14-BOL-FUL": {
+    "attendance": 20352,
+    "venue": "Macron Stadium"
+  },
+  "2010-08-14-CHE-WBA": {
+    "attendance": 41589,
+    "venue": "Stamford Bridge"
+  },
+  "2010-08-14-SUN-BIR": {
+    "attendance": 38390,
+    "venue": "Stadium of Light"
+  },
+  "2010-08-14-TOT-MCI": {
+    "attendance": 35928,
+    "venue": "White Hart Lane"
+  },
+  "2010-08-14-WIG-BLP": {
+    "attendance": 16152,
+    "venue": "DW Stadium"
+  },
+  "2010-08-14-WOL-STK": {
+    "attendance": 27850,
+    "venue": "Molineux Stadium"
+  },
+  "2010-08-15-LIV-ARS": {
+    "attendance": 44722,
+    "venue": "Anfield"
+  },
+  "2010-08-16-MUN-NEW": {
+    "attendance": 75221,
+    "venue": "Old Trafford"
+  },
+  "2010-08-21-ARS-BLP": {
+    "attendance": 60032,
+    "venue": "Emirates Stadium"
+  },
+  "2010-08-21-BIR-BLB": {
+    "attendance": 21394,
+    "venue": "St Andrews"
+  },
+  "2010-08-21-EVE-WOL": {
+    "attendance": 37767,
+    "venue": "Goodison Park"
+  },
+  "2010-08-21-STK-TOT": {
+    "attendance": 27243,
+    "venue": "Britannia Stadium"
+  },
+  "2010-08-21-WBA-SUN": {
+    "attendance": 23624,
+    "venue": "The Hawthorns"
+  },
+  "2010-08-21-WHU-BOL": {
+    "attendance": 32533,
+    "venue": "Boleyn Ground"
+  },
+  "2010-08-21-WIG-CHE": {
+    "attendance": 14476,
+    "venue": "DW Stadium"
+  },
+  "2010-08-22-FUL-MUN": {
+    "attendance": 25643,
+    "venue": "Craven Cottage"
+  },
+  "2010-08-22-NEW-AVL": {
+    "attendance": 43546,
+    "venue": "Sports Direct Arena"
+  },
+  "2010-08-23-MCI-LIV": {
+    "attendance": 47087,
+    "venue": "Etihad Stadium"
+  },
+  "2010-08-28-BLB-ARS": {
+    "attendance": 25059,
+    "venue": "Ewood Park"
+  },
+  "2010-08-28-BLP-FUL": {
+    "attendance": 15529,
+    "venue": "Bloomfield Road"
+  },
+  "2010-08-28-CHE-STK": {
+    "attendance": 40931,
+    "venue": "Stamford Bridge"
+  },
+  "2010-08-28-MUN-WHU": {
+    "attendance": 75061,
+    "venue": "Old Trafford"
+  },
+  "2010-08-28-TOT-WIG": {
+    "attendance": 35101,
+    "venue": "White Hart Lane"
+  },
+  "2010-08-28-WOL-NEW": {
+    "attendance": 27745,
+    "venue": "Molineux Stadium"
+  },
+  "2010-08-29-AVL-EVE": {
+    "attendance": 34725,
+    "venue": "Villa Park"
+  },
+  "2010-08-29-BOL-BIR": {
+    "attendance": 18139,
+    "venue": "Macron Stadium"
+  },
+  "2010-08-29-LIV-WBA": {
+    "attendance": 41194,
+    "venue": "Anfield"
+  },
+  "2010-08-29-SUN-MCI": {
+    "attendance": 38610,
+    "venue": "Stadium of Light"
+  },
+  "2010-09-11-ARS-BOL": {
+    "attendance": 59876,
+    "venue": "Emirates Stadium"
+  },
+  "2010-09-11-EVE-MUN": {
+    "attendance": 36556,
+    "venue": "Goodison Park"
+  },
+  "2010-09-11-FUL-WOL": {
+    "attendance": 25280,
+    "venue": "Craven Cottage"
+  },
+  "2010-09-11-MCI-BLB": {
+    "attendance": 44246,
+    "venue": "Etihad Stadium"
+  },
+  "2010-09-11-NEW-BLP": {
+    "attendance": 49597,
+    "venue": "Sports Direct Arena"
+  },
+  "2010-09-11-WBA-TOT": {
+    "attendance": 23642,
+    "venue": "The Hawthorns"
+  },
+  "2010-09-11-WHU-CHE": {
+    "attendance": 33014,
+    "venue": "Boleyn Ground"
+  },
+  "2010-09-11-WIG-SUN": {
+    "attendance": 15844,
+    "venue": "DW Stadium"
+  },
+  "2010-09-12-BIR-LIV": {
+    "attendance": 27333,
+    "venue": "St Andrews"
+  },
+  "2010-09-13-STK-AVL": {
+    "attendance": 25899,
+    "venue": "Britannia Stadium"
+  },
+  "2010-09-18-AVL-BOL": {
+    "attendance": 34655,
+    "venue": "Villa Park"
+  },
+  "2010-09-18-BLB-FUL": {
+    "attendance": 23759,
+    "venue": "Ewood Park"
+  },
+  "2010-09-18-EVE-NEW": {
+    "attendance": 38019,
+    "venue": "Goodison Park"
+  },
+  "2010-09-18-STK-WHU": {
+    "attendance": 27028,
+    "venue": "Britannia Stadium"
+  },
+  "2010-09-18-SUN-ARS": {
+    "attendance": 38950,
+    "venue": "Stadium of Light"
+  },
+  "2010-09-18-TOT-WOL": {
+    "attendance": 35940,
+    "venue": "White Hart Lane"
+  },
+  "2010-09-18-WBA-BIR": {
+    "attendance": 23062,
+    "venue": "The Hawthorns"
+  },
+  "2010-09-19-CHE-BLP": {
+    "attendance": 41761,
+    "venue": "Stamford Bridge"
+  },
+  "2010-09-19-MUN-LIV": {
+    "attendance": 75213,
+    "venue": "Old Trafford"
+  },
+  "2010-09-19-WIG-MCI": {
+    "attendance": 15525,
+    "venue": "DW Stadium"
+  },
+  "2010-09-25-ARS-WBA": {
+    "attendance": 60025,
+    "venue": "Emirates Stadium"
+  },
+  "2010-09-25-BIR-WIG": {
+    "attendance": 22186,
+    "venue": "St Andrews"
+  },
+  "2010-09-25-BLP-BLB": {
+    "attendance": 15901,
+    "venue": "Bloomfield Road"
+  },
+  "2010-09-25-FUL-EVE": {
+    "attendance": 25598,
+    "venue": "Craven Cottage"
+  },
+  "2010-09-25-LIV-SUN": {
+    "attendance": 43626,
+    "venue": "Anfield"
+  },
+  "2010-09-25-MCI-CHE": {
+    "attendance": 47203,
+    "venue": "Etihad Stadium"
+  },
+  "2010-09-25-WHU-TOT": {
+    "attendance": 34190,
+    "venue": "Boleyn Ground"
+  },
+  "2010-09-26-BOL-MUN": {
+    "attendance": 23926,
+    "venue": "Macron Stadium"
+  },
+  "2010-09-26-NEW-STK": {
+    "attendance": 41915,
+    "venue": "Sports Direct Arena"
+  },
+  "2010-09-26-WOL-AVL": {
+    "attendance": 27511,
+    "venue": "Molineux Stadium"
+  },
+  "2010-10-02-BIR-EVE": {
+    "attendance": 23138,
+    "venue": "St Andrews"
+  },
+  "2010-10-02-STK-BLB": {
+    "attendance": 25515,
+    "venue": "Britannia Stadium"
+  },
+  "2010-10-02-SUN-MUN": {
+    "attendance": 41709,
+    "venue": "Stadium of Light"
+  },
+  "2010-10-02-TOT-AVL": {
+    "attendance": 35871,
+    "venue": "White Hart Lane"
+  },
+  "2010-10-02-WBA-BOL": {
+    "attendance": 22846,
+    "venue": "The Hawthorns"
+  },
+  "2010-10-02-WHU-FUL": {
+    "attendance": 34589,
+    "venue": "Boleyn Ground"
+  },
+  "2010-10-02-WIG-WOL": {
+    "attendance": 14042,
+    "venue": "DW Stadium"
+  },
+  "2010-10-03-CHE-ARS": {
+    "attendance": 41828,
+    "venue": "Stamford Bridge"
+  },
+  "2010-10-03-LIV-BLP": {
+    "attendance": 43156,
+    "venue": "Anfield"
+  },
+  "2010-10-03-MCI-NEW": {
+    "attendance": 46067,
+    "venue": "Etihad Stadium"
+  },
+  "2010-10-16-ARS-BIR": {
+    "attendance": 60070,
+    "venue": "Emirates Stadium"
+  },
+  "2010-10-16-AVL-CHE": {
+    "attendance": 40122,
+    "venue": "Villa Park"
+  },
+  "2010-10-16-BOL-STK": {
+    "attendance": 22975,
+    "venue": "Macron Stadium"
+  },
+  "2010-10-16-FUL-TOT": {
+    "attendance": 25615,
+    "venue": "Craven Cottage"
+  },
+  "2010-10-16-MUN-WBA": {
+    "attendance": 75272,
+    "venue": "Old Trafford"
+  },
+  "2010-10-16-NEW-WIG": {
+    "attendance": 44415,
+    "venue": "Sports Direct Arena"
+  },
+  "2010-10-16-WOL-WHU": {
+    "attendance": 28582,
+    "venue": "Molineux Stadium"
+  },
+  "2010-10-17-BLP-MCI": {
+    "attendance": 16116,
+    "venue": "Bloomfield Road"
+  },
+  "2010-10-17-EVE-LIV": {
+    "attendance": 39673,
+    "venue": "Goodison Park"
+  },
+  "2010-10-18-BLB-SUN": {
+    "attendance": 21894,
+    "venue": "Ewood Park"
+  },
+  "2010-10-23-BIR-BLP": {
+    "attendance": 26850,
+    "venue": "St Andrews"
+  },
+  "2010-10-23-CHE-WOL": {
+    "attendance": 41752,
+    "venue": "Stamford Bridge"
+  },
+  "2010-10-23-SUN-AVL": {
+    "attendance": 41506,
+    "venue": "Stadium of Light"
+  },
+  "2010-10-23-TOT-EVE": {
+    "attendance": 35967,
+    "venue": "White Hart Lane"
+  },
+  "2010-10-23-WBA-FUL": {
+    "attendance": 25625,
+    "venue": "The Hawthorns"
+  },
+  "2010-10-23-WHU-NEW": {
+    "attendance": 34486,
+    "venue": "Boleyn Ground"
+  },
+  "2010-10-23-WIG-BOL": {
+    "attendance": 17100,
+    "venue": "DW Stadium"
+  },
+  "2010-10-24-LIV-BLB": {
+    "attendance": 43328,
+    "venue": "Anfield"
+  },
+  "2010-10-24-MCI-ARS": {
+    "attendance": 47393,
+    "venue": "Etihad Stadium"
+  },
+  "2010-10-24-STK-MUN": {
+    "attendance": 27372,
+    "venue": "Britannia Stadium"
+  },
+  "2010-10-30-ARS-WHU": {
+    "attendance": 60086,
+    "venue": "Emirates Stadium"
+  },
+  "2010-10-30-BLB-CHE": {
+    "attendance": 25836,
+    "venue": "Ewood Park"
+  },
+  "2010-10-30-EVE-STK": {
+    "attendance": 35513,
+    "venue": "Goodison Park"
+  },
+  "2010-10-30-FUL-WIG": {
+    "attendance": 25448,
+    "venue": "Craven Cottage"
+  },
+  "2010-10-30-MUN-TOT": {
+    "attendance": 75223,
+    "venue": "Old Trafford"
+  },
+  "2010-10-30-WOL-MCI": {
+    "attendance": 25971,
+    "venue": "Molineux Stadium"
+  },
+  "2010-10-31-AVL-BIR": {
+    "attendance": 40688,
+    "venue": "Villa Park"
+  },
+  "2010-10-31-BOL-LIV": {
+    "attendance": 25171,
+    "venue": "Macron Stadium"
+  },
+  "2010-10-31-NEW-SUN": {
+    "attendance": 51988,
+    "venue": "Sports Direct Arena"
+  },
+  "2010-11-01-BLP-WBA": {
+    "attendance": 15210,
+    "venue": "Bloomfield Road"
+  },
+  "2010-11-06-BIR-WHU": {
+    "attendance": 26474,
+    "venue": "St Andrews"
+  },
+  "2010-11-06-BLB-WIG": {
+    "attendance": 24413,
+    "venue": "Ewood Park"
+  },
+  "2010-11-06-BLP-EVE": {
+    "attendance": 16094,
+    "venue": "Bloomfield Road"
+  },
+  "2010-11-06-BOL-TOT": {
+    "attendance": 20255,
+    "venue": "Macron Stadium"
+  },
+  "2010-11-06-FUL-AVL": {
+    "attendance": 23654,
+    "venue": "Craven Cottage"
+  },
+  "2010-11-06-MUN-WOL": {
+    "attendance": 75285,
+    "venue": "Old Trafford"
+  },
+  "2010-11-06-SUN-STK": {
+    "attendance": 36541,
+    "venue": "Stadium of Light"
+  },
+  "2010-11-07-ARS-NEW": {
+    "attendance": 60059,
+    "venue": "Emirates Stadium"
+  },
+  "2010-11-07-LIV-CHE": {
+    "attendance": 44238,
+    "venue": "Anfield"
+  },
+  "2010-11-07-WBA-MCI": {
+    "attendance": 23013,
+    "venue": "The Hawthorns"
+  },
+  "2010-11-09-STK-BIR": {
+    "attendance": 26381,
+    "venue": "Britannia Stadium"
+  },
+  "2010-11-09-TOT-SUN": {
+    "attendance": 35843,
+    "venue": "White Hart Lane"
+  },
+  "2010-11-10-AVL-BLP": {
+    "attendance": 34330,
+    "venue": "Villa Park"
+  },
+  "2010-11-10-CHE-FUL": {
+    "attendance": 41593,
+    "venue": "Stamford Bridge"
+  },
+  "2010-11-10-EVE-BOL": {
+    "attendance": 31808,
+    "venue": "Goodison Park"
+  },
+  "2010-11-10-MCI-MUN": {
+    "attendance": 47210,
+    "venue": "Etihad Stadium"
+  },
+  "2010-11-10-NEW-BLB": {
+    "attendance": 41053,
+    "venue": "Sports Direct Arena"
+  },
+  "2010-11-10-WHU-WBA": {
+    "attendance": 33023,
+    "venue": "Boleyn Ground"
+  },
+  "2010-11-10-WIG-LIV": {
+    "attendance": 16754,
+    "venue": "DW Stadium"
+  },
+  "2010-11-10-WOL-ARS": {
+    "attendance": 27329,
+    "venue": "Molineux Stadium"
+  },
+  "2010-11-13-AVL-MUN": {
+    "attendance": 40073,
+    "venue": "Villa Park"
+  },
+  "2010-11-13-MCI-BIR": {
+    "attendance": 44321,
+    "venue": "Etihad Stadium"
+  },
+  "2010-11-13-NEW-FUL": {
+    "attendance": 44686,
+    "venue": "Sports Direct Arena"
+  },
+  "2010-11-13-STK-LIV": {
+    "attendance": 27286,
+    "venue": "Britannia Stadium"
+  },
+  "2010-11-13-TOT-BLB": {
+    "attendance": 35700,
+    "venue": "White Hart Lane"
+  },
+  "2010-11-13-WHU-BLP": {
+    "attendance": 31194,
+    "venue": "Boleyn Ground"
+  },
+  "2010-11-13-WIG-WBA": {
+    "attendance": 16085,
+    "venue": "DW Stadium"
+  },
+  "2010-11-13-WOL-BOL": {
+    "attendance": 27508,
+    "venue": "Molineux Stadium"
+  },
+  "2010-11-14-CHE-SUN": {
+    "attendance": 41072,
+    "venue": "Stamford Bridge"
+  },
+  "2010-11-14-EVE-ARS": {
+    "attendance": 36279,
+    "venue": "Goodison Park"
+  },
+  "2010-11-20-ARS-TOT": {
+    "attendance": 60102,
+    "venue": "Emirates Stadium"
+  },
+  "2010-11-20-BIR-CHE": {
+    "attendance": 24357,
+    "venue": "St Andrews"
+  },
+  "2010-11-20-BLP-WOL": {
+    "attendance": 15922,
+    "venue": "Bloomfield Road"
+  },
+  "2010-11-20-BOL-NEW": {
+    "attendance": 22203,
+    "venue": "Macron Stadium"
+  },
+  "2010-11-20-LIV-WHU": {
+    "attendance": 43024,
+    "venue": "Anfield"
+  },
+  "2010-11-20-MUN-WIG": {
+    "attendance": 74181,
+    "venue": "Old Trafford"
+  },
+  "2010-11-20-WBA-STK": {
+    "attendance": 24164,
+    "venue": "The Hawthorns"
+  },
+  "2010-11-21-BLB-AVL": {
+    "attendance": 21848,
+    "venue": "Ewood Park"
+  },
+  "2010-11-21-FUL-MCI": {
+    "attendance": 25694,
+    "venue": "Craven Cottage"
+  },
+  "2010-11-22-SUN-EVE": {
+    "attendance": 37331,
+    "venue": "Stadium of Light"
+  },
+  "2010-11-27-AVL-ARS": {
+    "attendance": 38544,
+    "venue": "Villa Park"
+  },
+  "2010-11-27-BOL-BLP": {
+    "attendance": 25851,
+    "venue": "Macron Stadium"
+  },
+  "2010-11-27-EVE-WBA": {
+    "attendance": 35237,
+    "venue": "Goodison Park"
+  },
+  "2010-11-27-FUL-BIR": {
+    "attendance": 24391,
+    "venue": "Craven Cottage"
+  },
+  "2010-11-27-MUN-BLB": {
+    "attendance": 74850,
+    "venue": "Old Trafford"
+  },
+  "2010-11-27-STK-MCI": {
+    "attendance": 27405,
+    "venue": "Britannia Stadium"
+  },
+  "2010-11-27-WHU-WIG": {
+    "attendance": 34178,
+    "venue": "Boleyn Ground"
+  },
+  "2010-11-27-WOL-SUN": {
+    "attendance": 25112,
+    "venue": "Molineux Stadium"
+  },
+  "2010-11-28-NEW-CHE": {
+    "attendance": 46469,
+    "venue": "Sports Direct Arena"
+  },
+  "2010-11-28-TOT-LIV": {
+    "attendance": 35962,
+    "venue": "White Hart Lane"
+  },
+  "2010-12-04-ARS-FUL": {
+    "attendance": 60049,
+    "venue": "Emirates Stadium"
+  },
+  "2010-12-04-BIR-TOT": {
+    "attendance": 25770,
+    "venue": "St Andrews"
+  },
+  "2010-12-04-BLB-WOL": {
+    "attendance": 22314,
+    "venue": "Ewood Park"
+  },
+  "2010-12-04-CHE-EVE": {
+    "attendance": 41642,
+    "venue": "Stamford Bridge"
+  },
+  "2010-12-04-MCI-BOL": {
+    "attendance": 46860,
+    "venue": "Etihad Stadium"
+  },
+  "2010-12-04-WIG-STK": {
+    "attendance": 15100,
+    "venue": "DW Stadium"
+  },
+  "2010-12-05-SUN-WHU": {
+    "attendance": 36940,
+    "venue": "Stadium of Light"
+  },
+  "2010-12-05-WBA-NEW": {
+    "attendance": 23486,
+    "venue": "The Hawthorns"
+  },
+  "2010-12-06-LIV-AVL": {
+    "attendance": 39079,
+    "venue": "Anfield"
+  },
+  "2010-12-11-AVL-WBA": {
+    "attendance": 37015,
+    "venue": "Villa Park"
+  },
+  "2010-12-11-EVE-WIG": {
+    "attendance": 32853,
+    "venue": "Goodison Park"
+  },
+  "2010-12-11-FUL-SUN": {
+    "attendance": 24462,
+    "venue": "Craven Cottage"
+  },
+  "2010-12-11-NEW-LIV": {
+    "attendance": 50137,
+    "venue": "Sports Direct Arena"
+  },
+  "2010-12-11-STK-BLP": {
+    "attendance": 26879,
+    "venue": "Britannia Stadium"
+  },
+  "2010-12-11-WHU-MCI": {
+    "attendance": 32813,
+    "venue": "Boleyn Ground"
+  },
+  "2010-12-12-BOL-BLB": {
+    "attendance": 24471,
+    "venue": "Macron Stadium"
+  },
+  "2010-12-12-TOT-CHE": {
+    "attendance": 35787,
+    "venue": "White Hart Lane"
+  },
+  "2010-12-12-WOL-BIR": {
+    "attendance": 25150,
+    "venue": "Molineux Stadium"
+  },
+  "2010-12-13-MUN-ARS": {
+    "attendance": 75227,
+    "venue": "Old Trafford"
+  },
+  "2010-12-18-BLB-WHU": {
+    "attendance": 21934,
+    "venue": "Ewood Park"
+  },
+  "2010-12-18-SUN-BOL": {
+    "attendance": 35101,
+    "venue": "Stadium of Light"
+  },
+  "2010-12-20-MCI-EVE": {
+    "attendance": 45028,
+    "venue": "Etihad Stadium"
+  },
+  "2010-12-26-AVL-TOT": {
+    "attendance": 39411,
+    "venue": "Villa Park"
+  },
+  "2010-12-26-BLB-STK": {
+    "attendance": 25440,
+    "venue": "Ewood Park"
+  },
+  "2010-12-26-BOL-WBA": {
+    "attendance": 23413,
+    "venue": "Macron Stadium"
+  },
+  "2010-12-26-FUL-WHU": {
+    "attendance": 25332,
+    "venue": "Craven Cottage"
+  },
+  "2010-12-26-MUN-SUN": {
+    "attendance": 75269,
+    "venue": "Old Trafford"
+  },
+  "2010-12-26-NEW-MCI": {
+    "attendance": 51635,
+    "venue": "Sports Direct Arena"
+  },
+  "2010-12-26-WOL-WIG": {
+    "attendance": 26901,
+    "venue": "Molineux Stadium"
+  },
+  "2010-12-27-ARS-CHE": {
+    "attendance": 60112,
+    "venue": "Emirates Stadium"
+  },
+  "2010-12-28-BIR-MUN": {
+    "attendance": 28242,
+    "venue": "St Andrews"
+  },
+  "2010-12-28-MCI-AVL": {
+    "attendance": 46716,
+    "venue": "Etihad Stadium"
+  },
+  "2010-12-28-STK-FUL": {
+    "attendance": 26954,
+    "venue": "Britannia Stadium"
+  },
+  "2010-12-28-SUN-BLP": {
+    "attendance": 42892,
+    "venue": "Stadium of Light"
+  },
+  "2010-12-28-TOT-NEW": {
+    "attendance": 35927,
+    "venue": "White Hart Lane"
+  },
+  "2010-12-28-WBA-BLB": {
+    "attendance": 24440,
+    "venue": "The Hawthorns"
+  },
+  "2010-12-28-WHU-EVE": {
+    "attendance": 33422,
+    "venue": "Boleyn Ground"
+  },
+  "2010-12-29-CHE-BOL": {
+    "attendance": 40982,
+    "venue": "Stamford Bridge"
+  },
+  "2010-12-29-LIV-WOL": {
+    "attendance": 41614,
+    "venue": "Anfield"
+  },
+  "2010-12-29-WIG-ARS": {
+    "attendance": 17014,
+    "venue": "DW Stadium"
+  },
+  "2011-01-01-BIR-ARS": {
+    "attendance": 24341,
+    "venue": "St Andrews"
+  },
+  "2011-01-01-LIV-BOL": {
+    "attendance": 35400,
+    "venue": "Anfield"
+  },
+  "2011-01-01-MCI-BLP": {
+    "attendance": 47296,
+    "venue": "Etihad Stadium"
+  },
+  "2011-01-01-STK-EVE": {
+    "attendance": 27418,
+    "venue": "Britannia Stadium"
+  },
+  "2011-01-01-SUN-BLB": {
+    "attendance": 36242,
+    "venue": "Stadium of Light"
+  },
+  "2011-01-01-TOT-FUL": {
+    "attendance": 35603,
+    "venue": "White Hart Lane"
+  },
+  "2011-01-01-WBA-MUN": {
+    "attendance": 25499,
+    "venue": "The Hawthorns"
+  },
+  "2011-01-01-WHU-WOL": {
+    "attendance": 33500,
+    "venue": "Boleyn Ground"
+  },
+  "2011-01-02-CHE-AVL": {
+    "attendance": 41222,
+    "venue": "Stamford Bridge"
+  },
+  "2011-01-02-WIG-NEW": {
+    "attendance": 15277,
+    "venue": "DW Stadium"
+  },
+  "2011-01-04-BLP-BIR": {
+    "attendance": 14550,
+    "venue": "Bloomfield Road"
+  },
+  "2011-01-04-FUL-WBA": {
+    "attendance": 23654,
+    "venue": "Craven Cottage"
+  },
+  "2011-01-04-MUN-STK": {
+    "attendance": 73401,
+    "venue": "Old Trafford"
+  },
+  "2011-01-05-ARS-MCI": {
+    "attendance": 60085,
+    "venue": "Emirates Stadium"
+  },
+  "2011-01-05-AVL-SUN": {
+    "attendance": 32627,
+    "venue": "Villa Park"
+  },
+  "2011-01-05-BLB-LIV": {
+    "attendance": 24522,
+    "venue": "Ewood Park"
+  },
+  "2011-01-05-BOL-WIG": {
+    "attendance": 18852,
+    "venue": "Macron Stadium"
+  },
+  "2011-01-05-EVE-TOT": {
+    "attendance": 34124,
+    "venue": "Goodison Park"
+  },
+  "2011-01-05-NEW-WHU": {
+    "attendance": 42387,
+    "venue": "Sports Direct Arena"
+  },
+  "2011-01-05-WOL-CHE": {
+    "attendance": 26432,
+    "venue": "Molineux Stadium"
+  },
+  "2011-01-12-BLP-LIV": {
+    "attendance": 16089,
+    "venue": "Bloomfield Road"
+  },
+  "2011-01-15-CHE-BLB": {
+    "attendance": 40846,
+    "venue": "Stamford Bridge"
+  },
+  "2011-01-15-MCI-WOL": {
+    "attendance": 46672,
+    "venue": "Etihad Stadium"
+  },
+  "2011-01-15-STK-BOL": {
+    "attendance": 26809,
+    "venue": "Britannia Stadium"
+  },
+  "2011-01-15-WBA-BLP": {
+    "attendance": 25316,
+    "venue": "The Hawthorns"
+  },
+  "2011-01-15-WHU-ARS": {
+    "attendance": 32682,
+    "venue": "Boleyn Ground"
+  },
+  "2011-01-15-WIG-FUL": {
+    "attendance": 18820,
+    "venue": "DW Stadium"
+  },
+  "2011-01-16-BIR-AVL": {
+    "attendance": 22287,
+    "venue": "St Andrews"
+  },
+  "2011-01-16-LIV-EVE": {
+    "attendance": 44795,
+    "venue": "Anfield"
+  },
+  "2011-01-16-SUN-NEW": {
+    "attendance": 47864,
+    "venue": "Stadium of Light"
+  },
+  "2011-01-16-TOT-MUN": {
+    "attendance": 35828,
+    "venue": "White Hart Lane"
+  },
+  "2011-01-22-ARS-WIG": {
+    "attendance": 59552,
+    "venue": "Emirates Stadium"
+  },
+  "2011-01-22-AVL-MCI": {
+    "attendance": 37315,
+    "venue": "Villa Park"
+  },
+  "2011-01-22-BLP-SUN": {
+    "attendance": 16037,
+    "venue": "Bloomfield Road"
+  },
+  "2011-01-22-EVE-WHU": {
+    "attendance": 34179,
+    "venue": "Goodison Park"
+  },
+  "2011-01-22-FUL-STK": {
+    "attendance": 23766,
+    "venue": "Craven Cottage"
+  },
+  "2011-01-22-MUN-BIR": {
+    "attendance": 75326,
+    "venue": "Old Trafford"
+  },
+  "2011-01-22-NEW-TOT": {
+    "attendance": 51010,
+    "venue": "Sports Direct Arena"
+  },
+  "2011-01-22-WOL-LIV": {
+    "attendance": 28869,
+    "venue": "Molineux Stadium"
+  },
+  "2011-01-23-BLB-WBA": {
+    "attendance": 24057,
+    "venue": "Ewood Park"
+  },
+  "2011-01-24-BOL-CHE": {
+    "attendance": 22837,
+    "venue": "Macron Stadium"
+  },
+  "2011-01-25-BLP-MUN": {
+    "attendance": 15574,
+    "venue": "Bloomfield Road"
+  },
+  "2011-01-25-WIG-AVL": {
+    "attendance": 16442,
+    "venue": "DW Stadium"
+  },
+  "2011-01-26-LIV-FUL": {
+    "attendance": 40466,
+    "venue": "Anfield"
+  },
+  "2011-02-01-ARS-EVE": {
+    "attendance": 60014,
+    "venue": "Emirates Stadium"
+  },
+  "2011-02-01-MUN-AVL": {
+    "attendance": 75256,
+    "venue": "Old Trafford"
+  },
+  "2011-02-01-SUN-CHE": {
+    "attendance": 37855,
+    "venue": "Stadium of Light"
+  },
+  "2011-02-01-WBA-WIG": {
+    "attendance": 25358,
+    "venue": "The Hawthorns"
+  },
+  "2011-02-02-BIR-MCI": {
+    "attendance": 24379,
+    "venue": "St Andrews"
+  },
+  "2011-02-02-BLB-TOT": {
+    "attendance": 23253,
+    "venue": "Ewood Park"
+  },
+  "2011-02-02-BLP-WHU": {
+    "attendance": 15095,
+    "venue": "Bloomfield Road"
+  },
+  "2011-02-02-BOL-WOL": {
+    "attendance": 18944,
+    "venue": "Macron Stadium"
+  },
+  "2011-02-02-FUL-NEW": {
+    "attendance": 25620,
+    "venue": "Craven Cottage"
+  },
+  "2011-02-02-LIV-STK": {
+    "attendance": 40254,
+    "venue": "Anfield"
+  },
+  "2011-02-05-AVL-FUL": {
+    "attendance": 35899,
+    "venue": "Villa Park"
+  },
+  "2011-02-05-EVE-BLP": {
+    "attendance": 38202,
+    "venue": "Goodison Park"
+  },
+  "2011-02-05-MCI-WBA": {
+    "attendance": 46846,
+    "venue": "Etihad Stadium"
+  },
+  "2011-02-05-NEW-ARS": {
+    "attendance": 51561,
+    "venue": "Sports Direct Arena"
+  },
+  "2011-02-05-STK-SUN": {
+    "attendance": 26008,
+    "venue": "Britannia Stadium"
+  },
+  "2011-02-05-TOT-BOL": {
+    "attendance": 36197,
+    "venue": "White Hart Lane"
+  },
+  "2011-02-05-WIG-BLB": {
+    "attendance": 18567,
+    "venue": "DW Stadium"
+  },
+  "2011-02-05-WOL-MUN": {
+    "attendance": 28811,
+    "venue": "Molineux Stadium"
+  },
+  "2011-02-06-CHE-LIV": {
+    "attendance": 41829,
+    "venue": "Stamford Bridge"
+  },
+  "2011-02-06-WHU-BIR": {
+    "attendance": 32927,
+    "venue": "Boleyn Ground"
+  },
+  "2011-02-12-ARS-WOL": {
+    "attendance": 60050,
+    "venue": "Emirates Stadium"
+  },
+  "2011-02-12-BIR-STK": {
+    "attendance": 23660,
+    "venue": "St Andrews"
+  },
+  "2011-02-12-BLB-NEW": {
+    "attendance": 26781,
+    "venue": "Ewood Park"
+  },
+  "2011-02-12-BLP-AVL": {
+    "attendance": 16000,
+    "venue": "Bloomfield Road"
+  },
+  "2011-02-12-LIV-WIG": {
+    "attendance": 44609,
+    "venue": "Anfield"
+  },
+  "2011-02-12-MUN-MCI": {
+    "attendance": 75322,
+    "venue": "Old Trafford"
+  },
+  "2011-02-12-SUN-TOT": {
+    "attendance": 40986,
+    "venue": "Stadium of Light"
+  },
+  "2011-02-12-WBA-WHU": {
+    "attendance": 23916,
+    "venue": "The Hawthorns"
+  },
+  "2011-02-13-BOL-EVE": {
+    "attendance": 22986,
+    "venue": "Macron Stadium"
+  },
+  "2011-02-14-FUL-CHE": {
+    "attendance": 25685,
+    "venue": "Craven Cottage"
+  },
+  "2011-02-15-BIR-NEW": {
+    "attendance": 28270,
+    "venue": "St Andrews"
+  },
+  "2011-02-20-WBA-WOL": {
+    "attendance": 26170,
+    "venue": "The Hawthorns"
+  },
+  "2011-02-22-BLP-TOT": {
+    "attendance": 16069,
+    "venue": "Bloomfield Road"
+  },
+  "2011-02-23-ARS-STK": {
+    "attendance": 60041,
+    "venue": "Emirates Stadium"
+  },
+  "2011-02-26-AVL-BLB": {
+    "attendance": 34309,
+    "venue": "Villa Park"
+  },
+  "2011-02-26-EVE-SUN": {
+    "attendance": 37776,
+    "venue": "Goodison Park"
+  },
+  "2011-02-26-NEW-BOL": {
+    "attendance": 48062,
+    "venue": "Sports Direct Arena"
+  },
+  "2011-02-26-WIG-MUN": {
+    "attendance": 18140,
+    "venue": "DW Stadium"
+  },
+  "2011-02-26-WOL-BLP": {
+    "attendance": 29086,
+    "venue": "Molineux Stadium"
+  },
+  "2011-02-27-MCI-FUL": {
+    "attendance": 43077,
+    "venue": "Etihad Stadium"
+  },
+  "2011-02-27-WHU-LIV": {
+    "attendance": 34941,
+    "venue": "Boleyn Ground"
+  },
+  "2011-02-28-STK-WBA": {
+    "attendance": 25019,
+    "venue": "Britannia Stadium"
+  },
+  "2011-03-01-CHE-MUN": {
+    "attendance": 41825,
+    "venue": "Stamford Bridge"
+  },
+  "2011-03-05-ARS-SUN": {
+    "attendance": 60081,
+    "venue": "Emirates Stadium"
+  },
+  "2011-03-05-BIR-WBA": {
+    "attendance": 27013,
+    "venue": "St Andrews"
+  },
+  "2011-03-05-BOL-AVL": {
+    "attendance": 22533,
+    "venue": "Macron Stadium"
+  },
+  "2011-03-05-FUL-BLB": {
+    "attendance": 25687,
+    "venue": "Craven Cottage"
+  },
+  "2011-03-05-MCI-WIG": {
+    "attendance": 44864,
+    "venue": "Etihad Stadium"
+  },
+  "2011-03-05-NEW-EVE": {
+    "attendance": 50128,
+    "venue": "Sports Direct Arena"
+  },
+  "2011-03-05-WHU-STK": {
+    "attendance": 33066,
+    "venue": "Boleyn Ground"
+  },
+  "2011-03-06-LIV-MUN": {
+    "attendance": 44753,
+    "venue": "Anfield"
+  },
+  "2011-03-06-WOL-TOT": {
+    "attendance": 28669,
+    "venue": "Molineux Stadium"
+  },
+  "2011-03-07-BLP-CHE": {
+    "attendance": 15584,
+    "venue": "Bloomfield Road"
+  },
+  "2011-03-09-EVE-BIR": {
+    "attendance": 33974,
+    "venue": "Goodison Park"
+  },
+  "2011-03-19-AVL-WOL": {
+    "attendance": 38965,
+    "venue": "Villa Park"
+  },
+  "2011-03-19-BLB-BLP": {
+    "attendance": 27209,
+    "venue": "Ewood Park"
+  },
+  "2011-03-19-EVE-FUL": {
+    "attendance": 33239,
+    "venue": "Goodison Park"
+  },
+  "2011-03-19-MUN-BOL": {
+    "attendance": 75486,
+    "venue": "Old Trafford"
+  },
+  "2011-03-19-STK-NEW": {
+    "attendance": 27505,
+    "venue": "Britannia Stadium"
+  },
+  "2011-03-19-TOT-WHU": {
+    "attendance": 36010,
+    "venue": "White Hart Lane"
+  },
+  "2011-03-19-WBA-ARS": {
+    "attendance": 25729,
+    "venue": "The Hawthorns"
+  },
+  "2011-03-19-WIG-BIR": {
+    "attendance": 16421,
+    "venue": "DW Stadium"
+  },
+  "2011-03-20-CHE-MCI": {
+    "attendance": 41741,
+    "venue": "Stamford Bridge"
+  },
+  "2011-03-20-SUN-LIV": {
+    "attendance": 47207,
+    "venue": "Stadium of Light"
+  },
+  "2011-04-02-ARS-BLB": {
+    "attendance": 60087,
+    "venue": "Emirates Stadium"
+  },
+  "2011-04-02-BIR-BOL": {
+    "attendance": 26142,
+    "venue": "St Andrews"
+  },
+  "2011-04-02-EVE-AVL": {
+    "attendance": 37619,
+    "venue": "Goodison Park"
+  },
+  "2011-04-02-NEW-WOL": {
+    "attendance": 49939,
+    "venue": "Sports Direct Arena"
+  },
+  "2011-04-02-STK-CHE": {
+    "attendance": 27508,
+    "venue": "Britannia Stadium"
+  },
+  "2011-04-02-WBA-LIV": {
+    "attendance": 26196,
+    "venue": "The Hawthorns"
+  },
+  "2011-04-02-WHU-MUN": {
+    "attendance": 34546,
+    "venue": "Boleyn Ground"
+  },
+  "2011-04-02-WIG-TOT": {
+    "attendance": 18578,
+    "venue": "DW Stadium"
+  },
+  "2011-04-03-FUL-BLP": {
+    "attendance": 25692,
+    "venue": "Craven Cottage"
+  },
+  "2011-04-03-MCI-SUN": {
+    "attendance": 44197,
+    "venue": "Etihad Stadium"
+  },
+  "2011-04-09-BLB-BIR": {
+    "attendance": 28426,
+    "venue": "Ewood Park"
+  },
+  "2011-04-09-BOL-WHU": {
+    "attendance": 25857,
+    "venue": "Macron Stadium"
+  },
+  "2011-04-09-CHE-WIG": {
+    "attendance": 40734,
+    "venue": "Stamford Bridge"
+  },
+  "2011-04-09-MUN-FUL": {
+    "attendance": 75339,
+    "venue": "Old Trafford"
+  },
+  "2011-04-09-SUN-WBA": {
+    "attendance": 41586,
+    "venue": "Stadium of Light"
+  },
+  "2011-04-09-TOT-STK": {
+    "attendance": 32702,
+    "venue": "White Hart Lane"
+  },
+  "2011-04-09-WOL-EVE": {
+    "attendance": 28352,
+    "venue": "Molineux Stadium"
+  },
+  "2011-04-10-AVL-NEW": {
+    "attendance": 37090,
+    "venue": "Villa Park"
+  },
+  "2011-04-10-BLP-ARS": {
+    "attendance": 16030,
+    "venue": "Bloomfield Road"
+  },
+  "2011-04-11-LIV-MCI": {
+    "attendance": 44776,
+    "venue": "Anfield"
+  },
+  "2011-04-16-BIR-SUN": {
+    "attendance": 28108,
+    "venue": "St Andrews"
+  },
+  "2011-04-16-BLP-WIG": {
+    "attendance": 16030,
+    "venue": "Bloomfield Road"
+  },
+  "2011-04-16-EVE-BLB": {
+    "attendance": 35857,
+    "venue": "Goodison Park"
+  },
+  "2011-04-16-WBA-CHE": {
+    "attendance": 25163,
+    "venue": "The Hawthorns"
+  },
+  "2011-04-16-WHU-AVL": {
+    "attendance": null,
+    "venue": "Boleyn Ground"
+  },
+  "2011-04-17-ARS-LIV": {
+    "attendance": 60029,
+    "venue": "Emirates Stadium"
+  },
+  "2011-04-19-NEW-MUN": {
+    "attendance": 49025,
+    "venue": "Sports Direct Arena"
+  },
+  "2011-04-20-CHE-BIR": {
+    "attendance": 40848,
+    "venue": "Stamford Bridge"
+  },
+  "2011-04-20-TOT-ARS": {
+    "attendance": 36138,
+    "venue": "White Hart Lane"
+  },
+  "2011-04-23-AVL-STK": {
+    "attendance": 35235,
+    "venue": "Villa Park"
+  },
+  "2011-04-23-BLP-NEW": {
+    "attendance": 16003,
+    "venue": "Bloomfield Road"
+  },
+  "2011-04-23-CHE-WHU": {
+    "attendance": 41656,
+    "venue": "Stamford Bridge"
+  },
+  "2011-04-23-LIV-BIR": {
+    "attendance": 44734,
+    "venue": "Anfield"
+  },
+  "2011-04-23-MUN-EVE": {
+    "attendance": 75300,
+    "venue": "Old Trafford"
+  },
+  "2011-04-23-SUN-WIG": {
+    "attendance": 39650,
+    "venue": "Stadium of Light"
+  },
+  "2011-04-23-TOT-WBA": {
+    "attendance": 36160,
+    "venue": "White Hart Lane"
+  },
+  "2011-04-23-WOL-FUL": {
+    "attendance": 28825,
+    "venue": "Molineux Stadium"
+  },
+  "2011-04-24-BOL-ARS": {
+    "attendance": 26881,
+    "venue": "Macron Stadium"
+  },
+  "2011-04-25-BLB-MCI": {
+    "attendance": 23529,
+    "venue": "Ewood Park"
+  },
+  "2011-04-26-STK-WOL": {
+    "attendance": 27030,
+    "venue": "Britannia Stadium"
+  },
+  "2011-04-27-FUL-BOL": {
+    "attendance": 23222,
+    "venue": "Craven Cottage"
+  },
+  "2011-04-30-BLB-BOL": {
+    "attendance": 28985,
+    "venue": "Ewood Park"
+  },
+  "2011-04-30-BLP-STK": {
+    "attendance": 16003,
+    "venue": "Bloomfield Road"
+  },
+  "2011-04-30-CHE-TOT": {
+    "attendance": 41681,
+    "venue": "Stamford Bridge"
+  },
+  "2011-04-30-SUN-FUL": {
+    "attendance": 39576,
+    "venue": "Stadium of Light"
+  },
+  "2011-04-30-WBA-AVL": {
+    "attendance": 25889,
+    "venue": "The Hawthorns"
+  },
+  "2011-04-30-WIG-EVE": {
+    "attendance": 17051,
+    "venue": "DW Stadium"
+  },
+  "2011-05-01-ARS-MUN": {
+    "attendance": 60107,
+    "venue": "Emirates Stadium"
+  },
+  "2011-05-01-BIR-WOL": {
+    "attendance": 26072,
+    "venue": "St Andrews"
+  },
+  "2011-05-01-LIV-NEW": {
+    "attendance": 44923,
+    "venue": "Anfield"
+  },
+  "2011-05-01-MCI-WHU": {
+    "attendance": 44511,
+    "venue": "Etihad Stadium"
+  },
+  "2011-05-07-AVL-WIG": {
+    "attendance": 36293,
+    "venue": "Villa Park"
+  },
+  "2011-05-07-BOL-SUN": {
+    "attendance": 22597,
+    "venue": "Macron Stadium"
+  },
+  "2011-05-07-EVE-MCI": {
+    "attendance": 37351,
+    "venue": "Goodison Park"
+  },
+  "2011-05-07-NEW-BIR": {
+    "attendance": 47409,
+    "venue": "Sports Direct Arena"
+  },
+  "2011-05-07-TOT-BLP": {
+    "attendance": 35585,
+    "venue": "White Hart Lane"
+  },
+  "2011-05-07-WHU-BLB": {
+    "attendance": 33789,
+    "venue": "Boleyn Ground"
+  },
+  "2011-05-08-MUN-CHE": {
+    "attendance": 75445,
+    "venue": "Old Trafford"
+  },
+  "2011-05-08-STK-ARS": {
+    "attendance": 27478,
+    "venue": "Britannia Stadium"
+  },
+  "2011-05-08-WOL-WBA": {
+    "attendance": 28510,
+    "venue": "Molineux Stadium"
+  },
+  "2011-05-09-FUL-LIV": {
+    "attendance": 25693,
+    "venue": "Craven Cottage"
+  },
+  "2011-05-10-MCI-TOT": {
+    "attendance": 47029,
+    "venue": "Etihad Stadium"
+  },
+  "2011-05-14-BLB-MUN": {
+    "attendance": 29867,
+    "venue": "Ewood Park"
+  },
+  "2011-05-14-BLP-BOL": {
+    "attendance": 15979,
+    "venue": "Bloomfield Road"
+  },
+  "2011-05-14-SUN-WOL": {
+    "attendance": 41273,
+    "venue": "Stadium of Light"
+  },
+  "2011-05-14-WBA-EVE": {
+    "attendance": 25838,
+    "venue": "The Hawthorns"
+  },
+  "2011-05-15-ARS-AVL": {
+    "attendance": 60023,
+    "venue": "Emirates Stadium"
+  },
+  "2011-05-15-BIR-FUL": {
+    "attendance": 27759,
+    "venue": "St Andrews"
+  },
+  "2011-05-15-CHE-NEW": {
+    "attendance": 41739,
+    "venue": "Stamford Bridge"
+  },
+  "2011-05-15-LIV-TOT": {
+    "attendance": 44893,
+    "venue": "Anfield"
+  },
+  "2011-05-15-WIG-WHU": {
+    "attendance": 22043,
+    "venue": "DW Stadium"
+  },
+  "2011-05-17-MCI-STK": {
+    "attendance": 45103,
+    "venue": "Etihad Stadium"
+  },
+  "2011-05-22-AVL-LIV": {
+    "attendance": 42785,
+    "venue": "Villa Park"
+  },
+  "2011-05-22-BOL-MCI": {
+    "attendance": 26285,
+    "venue": "Macron Stadium"
+  },
+  "2011-05-22-EVE-CHE": {
+    "attendance": 38712,
+    "venue": "Goodison Park"
+  },
+  "2011-05-22-FUL-ARS": {
+    "attendance": 25674,
+    "venue": "Craven Cottage"
+  },
+  "2011-05-22-MUN-BLP": {
+    "attendance": 75400,
+    "venue": "Old Trafford"
+  },
+  "2011-05-22-NEW-WBA": {
+    "attendance": 51678,
+    "venue": "Sports Direct Arena"
+  },
+  "2011-05-22-STK-WIG": {
+    "attendance": 27566,
+    "venue": "Britannia Stadium"
+  },
+  "2011-05-22-TOT-BIR": {
+    "attendance": 36119,
+    "venue": "White Hart Lane"
+  },
+  "2011-05-22-WHU-SUN": {
+    "attendance": 32792,
+    "venue": "Boleyn Ground"
+  },
+  "2011-05-22-WOL-BLB": {
+    "attendance": 29009,
+    "venue": "Molineux Stadium"
+  }
+}

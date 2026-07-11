@@ -1,0 +1,1522 @@
+{
+  "2020-09-12-CRY-SOU": {
+    "attendance": null,
+    "venue": "Selhurst Park"
+  },
+  "2020-09-12-FUL-ARS": {
+    "attendance": null,
+    "venue": "Craven Cottage"
+  },
+  "2020-09-12-LIV-LEE": {
+    "attendance": null,
+    "venue": "Anfield"
+  },
+  "2020-09-12-WHU-NEW": {
+    "attendance": null,
+    "venue": "London Stadium"
+  },
+  "2020-09-13-TOT-EVE": {
+    "attendance": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2020-09-13-WBA-LEI": {
+    "attendance": null,
+    "venue": "The Hawthorns"
+  },
+  "2020-09-14-BHA-CHE": {
+    "attendance": null,
+    "venue": "American Express Stadium"
+  },
+  "2020-09-14-SHU-WOL": {
+    "attendance": null,
+    "venue": "Bramall Lane"
+  },
+  "2020-09-19-ARS-WHU": {
+    "attendance": null,
+    "venue": "Emirates Stadium"
+  },
+  "2020-09-19-EVE-WBA": {
+    "attendance": null,
+    "venue": "Goodison Park"
+  },
+  "2020-09-19-LEE-FUL": {
+    "attendance": null,
+    "venue": "Elland Road"
+  },
+  "2020-09-19-MUN-CRY": {
+    "attendance": null,
+    "venue": "Old Trafford"
+  },
+  "2020-09-20-CHE-LIV": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2020-09-20-LEI-BUR": {
+    "attendance": null,
+    "venue": "King Power Stadium"
+  },
+  "2020-09-20-NEW-BHA": {
+    "attendance": null,
+    "venue": "St. James' Park"
+  },
+  "2020-09-20-SOU-TOT": {
+    "attendance": null,
+    "venue": "St. Mary's Stadium"
+  },
+  "2020-09-21-AVL-SHU": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2020-09-21-WOL-MCI": {
+    "attendance": null,
+    "venue": "Molineux Stadium"
+  },
+  "2020-09-26-BHA-MUN": {
+    "attendance": null,
+    "venue": "American Express Stadium"
+  },
+  "2020-09-26-BUR-SOU": {
+    "attendance": null,
+    "venue": "Turf Moor"
+  },
+  "2020-09-26-CRY-EVE": {
+    "attendance": null,
+    "venue": "Selhurst Park"
+  },
+  "2020-09-26-WBA-CHE": {
+    "attendance": null,
+    "venue": "The Hawthorns"
+  },
+  "2020-09-27-MCI-LEI": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2020-09-27-SHU-LEE": {
+    "attendance": null,
+    "venue": "Bramall Lane"
+  },
+  "2020-09-27-TOT-NEW": {
+    "attendance": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2020-09-27-WHU-WOL": {
+    "attendance": null,
+    "venue": "London Stadium"
+  },
+  "2020-09-28-FUL-AVL": {
+    "attendance": null,
+    "venue": "Craven Cottage"
+  },
+  "2020-09-28-LIV-ARS": {
+    "attendance": null,
+    "venue": "Anfield"
+  },
+  "2020-10-03-CHE-CRY": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2020-10-03-EVE-BHA": {
+    "attendance": null,
+    "venue": "Goodison Park"
+  },
+  "2020-10-03-LEE-MCI": {
+    "attendance": null,
+    "venue": "Elland Road"
+  },
+  "2020-10-03-NEW-BUR": {
+    "attendance": null,
+    "venue": "St. James' Park"
+  },
+  "2020-10-04-ARS-SHU": {
+    "attendance": null,
+    "venue": "Emirates Stadium"
+  },
+  "2020-10-04-AVL-LIV": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2020-10-04-LEI-WHU": {
+    "attendance": null,
+    "venue": "King Power Stadium"
+  },
+  "2020-10-04-MUN-TOT": {
+    "attendance": null,
+    "venue": "Old Trafford"
+  },
+  "2020-10-04-SOU-WBA": {
+    "attendance": null,
+    "venue": "St. Mary's Stadium"
+  },
+  "2020-10-04-WOL-FUL": {
+    "attendance": null,
+    "venue": "Molineux Stadium"
+  },
+  "2020-10-17-CHE-SOU": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2020-10-17-EVE-LIV": {
+    "attendance": null,
+    "venue": "Goodison Park"
+  },
+  "2020-10-17-MCI-ARS": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2020-10-17-NEW-MUN": {
+    "attendance": null,
+    "venue": "St. James' Park"
+  },
+  "2020-10-18-CRY-BHA": {
+    "attendance": null,
+    "venue": "Selhurst Park"
+  },
+  "2020-10-18-LEI-AVL": {
+    "attendance": null,
+    "venue": "King Power Stadium"
+  },
+  "2020-10-18-SHU-FUL": {
+    "attendance": null,
+    "venue": "Bramall Lane"
+  },
+  "2020-10-18-TOT-WHU": {
+    "attendance": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2020-10-19-LEE-WOL": {
+    "attendance": null,
+    "venue": "Elland Road"
+  },
+  "2020-10-19-WBA-BUR": {
+    "attendance": null,
+    "venue": "The Hawthorns"
+  },
+  "2020-10-23-AVL-LEE": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2020-10-24-FUL-CRY": {
+    "attendance": null,
+    "venue": "Craven Cottage"
+  },
+  "2020-10-24-LIV-SHU": {
+    "attendance": null,
+    "venue": "Anfield"
+  },
+  "2020-10-24-MUN-CHE": {
+    "attendance": null,
+    "venue": "Old Trafford"
+  },
+  "2020-10-24-WHU-MCI": {
+    "attendance": null,
+    "venue": "London Stadium"
+  },
+  "2020-10-25-ARS-LEI": {
+    "attendance": null,
+    "venue": "Emirates Stadium"
+  },
+  "2020-10-25-SOU-EVE": {
+    "attendance": null,
+    "venue": "St. Mary's Stadium"
+  },
+  "2020-10-25-WOL-NEW": {
+    "attendance": null,
+    "venue": "Molineux Stadium"
+  },
+  "2020-10-26-BHA-WBA": {
+    "attendance": null,
+    "venue": "American Express Stadium"
+  },
+  "2020-10-26-BUR-TOT": {
+    "attendance": null,
+    "venue": "Turf Moor"
+  },
+  "2020-10-30-WOL-CRY": {
+    "attendance": null,
+    "venue": "Molineux Stadium"
+  },
+  "2020-10-31-BUR-CHE": {
+    "attendance": null,
+    "venue": "Turf Moor"
+  },
+  "2020-10-31-LIV-WHU": {
+    "attendance": null,
+    "venue": "Anfield"
+  },
+  "2020-10-31-SHU-MCI": {
+    "attendance": null,
+    "venue": "Bramall Lane"
+  },
+  "2020-11-01-AVL-SOU": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2020-11-01-MUN-ARS": {
+    "attendance": null,
+    "venue": "Old Trafford"
+  },
+  "2020-11-01-NEW-EVE": {
+    "attendance": null,
+    "venue": "St. James' Park"
+  },
+  "2020-11-01-TOT-BHA": {
+    "attendance": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2020-11-02-FUL-WBA": {
+    "attendance": null,
+    "venue": "Craven Cottage"
+  },
+  "2020-11-02-LEE-LEI": {
+    "attendance": null,
+    "venue": "Elland Road"
+  },
+  "2020-11-06-BHA-BUR": {
+    "attendance": null,
+    "venue": "American Express Stadium"
+  },
+  "2020-11-06-SOU-NEW": {
+    "attendance": null,
+    "venue": "St. Mary's Stadium"
+  },
+  "2020-11-07-CHE-SHU": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2020-11-07-CRY-LEE": {
+    "attendance": null,
+    "venue": "Selhurst Park"
+  },
+  "2020-11-07-EVE-MUN": {
+    "attendance": null,
+    "venue": "Goodison Park"
+  },
+  "2020-11-07-WHU-FUL": {
+    "attendance": null,
+    "venue": "London Stadium"
+  },
+  "2020-11-08-ARS-AVL": {
+    "attendance": null,
+    "venue": "Emirates Stadium"
+  },
+  "2020-11-08-LEI-WOL": {
+    "attendance": null,
+    "venue": "King Power Stadium"
+  },
+  "2020-11-08-MCI-LIV": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2020-11-08-WBA-TOT": {
+    "attendance": null,
+    "venue": "The Hawthorns"
+  },
+  "2020-11-21-AVL-BHA": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2020-11-21-MUN-WBA": {
+    "attendance": null,
+    "venue": "Old Trafford"
+  },
+  "2020-11-21-NEW-CHE": {
+    "attendance": null,
+    "venue": "St. James' Park"
+  },
+  "2020-11-21-TOT-MCI": {
+    "attendance": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2020-11-22-FUL-EVE": {
+    "attendance": null,
+    "venue": "Craven Cottage"
+  },
+  "2020-11-22-LEE-ARS": {
+    "attendance": null,
+    "venue": "Elland Road"
+  },
+  "2020-11-22-LIV-LEI": {
+    "attendance": null,
+    "venue": "Anfield"
+  },
+  "2020-11-22-SHU-WHU": {
+    "attendance": null,
+    "venue": "Bramall Lane"
+  },
+  "2020-11-23-BUR-CRY": {
+    "attendance": null,
+    "venue": "Turf Moor"
+  },
+  "2020-11-23-WOL-SOU": {
+    "attendance": null,
+    "venue": "Molineux Stadium"
+  },
+  "2020-11-27-CRY-NEW": {
+    "attendance": null,
+    "venue": "Selhurst Park"
+  },
+  "2020-11-28-BHA-LIV": {
+    "attendance": null,
+    "venue": "American Express Stadium"
+  },
+  "2020-11-28-EVE-LEE": {
+    "attendance": null,
+    "venue": "Goodison Park"
+  },
+  "2020-11-28-MCI-BUR": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2020-11-28-WBA-SHU": {
+    "attendance": null,
+    "venue": "The Hawthorns"
+  },
+  "2020-11-29-ARS-WOL": {
+    "attendance": null,
+    "venue": "Emirates Stadium"
+  },
+  "2020-11-29-CHE-TOT": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2020-11-29-SOU-MUN": {
+    "attendance": null,
+    "venue": "St. Mary's Stadium"
+  },
+  "2020-11-30-LEI-FUL": {
+    "attendance": null,
+    "venue": "King Power Stadium"
+  },
+  "2020-11-30-WHU-AVL": {
+    "attendance": null,
+    "venue": "London Stadium"
+  },
+  "2020-12-05-BUR-EVE": {
+    "attendance": null,
+    "venue": "Turf Moor"
+  },
+  "2020-12-05-CHE-LEE": {
+    "attendance": 2000,
+    "venue": "Stamford Bridge"
+  },
+  "2020-12-05-MCI-FUL": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2020-12-05-WHU-MUN": {
+    "attendance": 2000,
+    "venue": "London Stadium"
+  },
+  "2020-12-06-LIV-WOL": {
+    "attendance": 2000,
+    "venue": "Anfield"
+  },
+  "2020-12-06-SHU-LEI": {
+    "attendance": null,
+    "venue": "Bramall Lane"
+  },
+  "2020-12-06-TOT-ARS": {
+    "attendance": 2000,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2020-12-06-WBA-CRY": {
+    "attendance": null,
+    "venue": "The Hawthorns"
+  },
+  "2020-12-07-BHA-SOU": {
+    "attendance": 2000,
+    "venue": "American Express Stadium"
+  },
+  "2020-12-11-LEE-WHU": {
+    "attendance": null,
+    "venue": "Elland Road"
+  },
+  "2020-12-12-EVE-CHE": {
+    "attendance": 2000,
+    "venue": "Goodison Park"
+  },
+  "2020-12-12-MUN-MCI": {
+    "attendance": null,
+    "venue": "Old Trafford"
+  },
+  "2020-12-12-NEW-WBA": {
+    "attendance": null,
+    "venue": "St. James' Park"
+  },
+  "2020-12-12-WOL-AVL": {
+    "attendance": null,
+    "venue": "Molineux Stadium"
+  },
+  "2020-12-13-ARS-BUR": {
+    "attendance": 2000,
+    "venue": "Emirates Stadium"
+  },
+  "2020-12-13-CRY-TOT": {
+    "attendance": 2000,
+    "venue": "Selhurst Park"
+  },
+  "2020-12-13-FUL-LIV": {
+    "attendance": 2000,
+    "venue": "Craven Cottage"
+  },
+  "2020-12-13-LEI-BHA": {
+    "attendance": null,
+    "venue": "King Power Stadium"
+  },
+  "2020-12-13-SOU-SHU": {
+    "attendance": 2000,
+    "venue": "St. Mary's Stadium"
+  },
+  "2020-12-15-MCI-WBA": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2020-12-15-WOL-CHE": {
+    "attendance": null,
+    "venue": "Molineux Stadium"
+  },
+  "2020-12-16-ARS-SOU": {
+    "attendance": null,
+    "venue": "Emirates Stadium"
+  },
+  "2020-12-16-FUL-BHA": {
+    "attendance": null,
+    "venue": "Craven Cottage"
+  },
+  "2020-12-16-LEE-NEW": {
+    "attendance": null,
+    "venue": "Elland Road"
+  },
+  "2020-12-16-LEI-EVE": {
+    "attendance": null,
+    "venue": "King Power Stadium"
+  },
+  "2020-12-16-LIV-TOT": {
+    "attendance": 2000,
+    "venue": "Anfield"
+  },
+  "2020-12-16-WHU-CRY": {
+    "attendance": null,
+    "venue": "London Stadium"
+  },
+  "2020-12-17-AVL-BUR": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2020-12-17-SHU-MUN": {
+    "attendance": null,
+    "venue": "Bramall Lane"
+  },
+  "2020-12-19-CRY-LIV": {
+    "attendance": null,
+    "venue": "Selhurst Park"
+  },
+  "2020-12-19-EVE-ARS": {
+    "attendance": 2000,
+    "venue": "Goodison Park"
+  },
+  "2020-12-19-NEW-FUL": {
+    "attendance": null,
+    "venue": "St. James' Park"
+  },
+  "2020-12-19-SOU-MCI": {
+    "attendance": 2000,
+    "venue": "St. Mary's Stadium"
+  },
+  "2020-12-20-BHA-SHU": {
+    "attendance": 2000,
+    "venue": "American Express Stadium"
+  },
+  "2020-12-20-MUN-LEE": {
+    "attendance": null,
+    "venue": "Old Trafford"
+  },
+  "2020-12-20-TOT-LEI": {
+    "attendance": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2020-12-20-WBA-AVL": {
+    "attendance": null,
+    "venue": "The Hawthorns"
+  },
+  "2020-12-21-BUR-WOL": {
+    "attendance": null,
+    "venue": "Turf Moor"
+  },
+  "2020-12-21-CHE-WHU": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2020-12-26-ARS-CHE": {
+    "attendance": null,
+    "venue": "Emirates Stadium"
+  },
+  "2020-12-26-AVL-CRY": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2020-12-26-FUL-SOU": {
+    "attendance": null,
+    "venue": "Craven Cottage"
+  },
+  "2020-12-26-LEI-MUN": {
+    "attendance": null,
+    "venue": "King Power Stadium"
+  },
+  "2020-12-26-MCI-NEW": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2020-12-26-SHU-EVE": {
+    "attendance": null,
+    "venue": "Bramall Lane"
+  },
+  "2020-12-27-LEE-BUR": {
+    "attendance": null,
+    "venue": "Elland Road"
+  },
+  "2020-12-27-LIV-WBA": {
+    "attendance": 2000,
+    "venue": "Anfield"
+  },
+  "2020-12-27-WHU-BHA": {
+    "attendance": null,
+    "venue": "London Stadium"
+  },
+  "2020-12-27-WOL-TOT": {
+    "attendance": null,
+    "venue": "Molineux Stadium"
+  },
+  "2020-12-28-CHE-AVL": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2020-12-28-CRY-LEI": {
+    "attendance": null,
+    "venue": "Selhurst Park"
+  },
+  "2020-12-29-BHA-ARS": {
+    "attendance": null,
+    "venue": "American Express Stadium"
+  },
+  "2020-12-29-BUR-SHU": {
+    "attendance": null,
+    "venue": "Turf Moor"
+  },
+  "2020-12-29-MUN-WOL": {
+    "attendance": null,
+    "venue": "Old Trafford"
+  },
+  "2020-12-29-SOU-WHU": {
+    "attendance": null,
+    "venue": "St. Mary's Stadium"
+  },
+  "2020-12-29-WBA-LEE": {
+    "attendance": null,
+    "venue": "The Hawthorns"
+  },
+  "2020-12-30-NEW-LIV": {
+    "attendance": null,
+    "venue": "St. James' Park"
+  },
+  "2021-01-01-EVE-WHU": {
+    "attendance": null,
+    "venue": "Goodison Park"
+  },
+  "2021-01-01-MUN-AVL": {
+    "attendance": null,
+    "venue": "Old Trafford"
+  },
+  "2021-01-02-BHA-WOL": {
+    "attendance": null,
+    "venue": "American Express Stadium"
+  },
+  "2021-01-02-CRY-SHU": {
+    "attendance": null,
+    "venue": "Selhurst Park"
+  },
+  "2021-01-02-TOT-LEE": {
+    "attendance": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2021-01-02-WBA-ARS": {
+    "attendance": null,
+    "venue": "The Hawthorns"
+  },
+  "2021-01-03-CHE-MCI": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2021-01-03-NEW-LEI": {
+    "attendance": null,
+    "venue": "St. James' Park"
+  },
+  "2021-01-04-SOU-LIV": {
+    "attendance": null,
+    "venue": "St. Mary's Stadium"
+  },
+  "2021-01-12-BUR-MUN": {
+    "attendance": null,
+    "venue": "Turf Moor"
+  },
+  "2021-01-12-SHU-NEW": {
+    "attendance": null,
+    "venue": "Bramall Lane"
+  },
+  "2021-01-12-WOL-EVE": {
+    "attendance": null,
+    "venue": "Molineux Stadium"
+  },
+  "2021-01-13-MCI-BHA": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2021-01-13-TOT-FUL": {
+    "attendance": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2021-01-14-ARS-CRY": {
+    "attendance": null,
+    "venue": "Emirates Stadium"
+  },
+  "2021-01-16-FUL-CHE": {
+    "attendance": null,
+    "venue": "Craven Cottage"
+  },
+  "2021-01-16-LEE-BHA": {
+    "attendance": null,
+    "venue": "Elland Road"
+  },
+  "2021-01-16-LEI-SOU": {
+    "attendance": null,
+    "venue": "King Power Stadium"
+  },
+  "2021-01-16-WHU-BUR": {
+    "attendance": null,
+    "venue": "London Stadium"
+  },
+  "2021-01-16-WOL-WBA": {
+    "attendance": null,
+    "venue": "Molineux Stadium"
+  },
+  "2021-01-17-LIV-MUN": {
+    "attendance": null,
+    "venue": "Anfield"
+  },
+  "2021-01-17-MCI-CRY": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2021-01-17-SHU-TOT": {
+    "attendance": null,
+    "venue": "Bramall Lane"
+  },
+  "2021-01-18-ARS-NEW": {
+    "attendance": null,
+    "venue": "Emirates Stadium"
+  },
+  "2021-01-19-LEI-CHE": {
+    "attendance": null,
+    "venue": "King Power Stadium"
+  },
+  "2021-01-19-WHU-WBA": {
+    "attendance": null,
+    "venue": "London Stadium"
+  },
+  "2021-01-20-FUL-MUN": {
+    "attendance": null,
+    "venue": "Craven Cottage"
+  },
+  "2021-01-20-MCI-AVL": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2021-01-21-LIV-BUR": {
+    "attendance": null,
+    "venue": "Anfield"
+  },
+  "2021-01-23-AVL-NEW": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2021-01-26-CRY-WHU": {
+    "attendance": null,
+    "venue": "Selhurst Park"
+  },
+  "2021-01-26-NEW-LEE": {
+    "attendance": null,
+    "venue": "St. James' Park"
+  },
+  "2021-01-26-SOU-ARS": {
+    "attendance": null,
+    "venue": "St. Mary's Stadium"
+  },
+  "2021-01-26-WBA-MCI": {
+    "attendance": null,
+    "venue": "The Hawthorns"
+  },
+  "2021-01-27-BHA-FUL": {
+    "attendance": null,
+    "venue": "American Express Stadium"
+  },
+  "2021-01-27-BUR-AVL": {
+    "attendance": null,
+    "venue": "Turf Moor"
+  },
+  "2021-01-27-CHE-WOL": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2021-01-27-EVE-LEI": {
+    "attendance": null,
+    "venue": "Goodison Park"
+  },
+  "2021-01-27-MUN-SHU": {
+    "attendance": null,
+    "venue": "Old Trafford"
+  },
+  "2021-01-28-TOT-LIV": {
+    "attendance": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2021-01-30-ARS-MUN": {
+    "attendance": null,
+    "venue": "Emirates Stadium"
+  },
+  "2021-01-30-CRY-WOL": {
+    "attendance": null,
+    "venue": "Selhurst Park"
+  },
+  "2021-01-30-EVE-NEW": {
+    "attendance": null,
+    "venue": "Goodison Park"
+  },
+  "2021-01-30-MCI-SHU": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2021-01-30-SOU-AVL": {
+    "attendance": null,
+    "venue": "St. Mary's Stadium"
+  },
+  "2021-01-30-WBA-FUL": {
+    "attendance": null,
+    "venue": "The Hawthorns"
+  },
+  "2021-01-31-BHA-TOT": {
+    "attendance": null,
+    "venue": "American Express Stadium"
+  },
+  "2021-01-31-CHE-BUR": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2021-01-31-LEI-LEE": {
+    "attendance": null,
+    "venue": "King Power Stadium"
+  },
+  "2021-01-31-WHU-LIV": {
+    "attendance": null,
+    "venue": "London Stadium"
+  },
+  "2021-02-02-MUN-SOU": {
+    "attendance": null,
+    "venue": "Old Trafford"
+  },
+  "2021-02-02-NEW-CRY": {
+    "attendance": null,
+    "venue": "St. James' Park"
+  },
+  "2021-02-02-SHU-WBA": {
+    "attendance": null,
+    "venue": "Bramall Lane"
+  },
+  "2021-02-02-WOL-ARS": {
+    "attendance": null,
+    "venue": "Molineux Stadium"
+  },
+  "2021-02-03-AVL-WHU": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2021-02-03-BUR-MCI": {
+    "attendance": null,
+    "venue": "Turf Moor"
+  },
+  "2021-02-03-FUL-LEI": {
+    "attendance": null,
+    "venue": "Craven Cottage"
+  },
+  "2021-02-03-LEE-EVE": {
+    "attendance": null,
+    "venue": "Elland Road"
+  },
+  "2021-02-03-LIV-BHA": {
+    "attendance": null,
+    "venue": "Anfield"
+  },
+  "2021-02-04-TOT-CHE": {
+    "attendance": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2021-02-06-AVL-ARS": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2021-02-06-BUR-BHA": {
+    "attendance": null,
+    "venue": "Turf Moor"
+  },
+  "2021-02-06-FUL-WHU": {
+    "attendance": null,
+    "venue": "Craven Cottage"
+  },
+  "2021-02-06-MUN-EVE": {
+    "attendance": null,
+    "venue": "Old Trafford"
+  },
+  "2021-02-06-NEW-SOU": {
+    "attendance": null,
+    "venue": "St. James' Park"
+  },
+  "2021-02-07-LIV-MCI": {
+    "attendance": null,
+    "venue": "Anfield"
+  },
+  "2021-02-07-SHU-CHE": {
+    "attendance": null,
+    "venue": "Bramall Lane"
+  },
+  "2021-02-07-TOT-WBA": {
+    "attendance": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2021-02-07-WOL-LEI": {
+    "attendance": null,
+    "venue": "Molineux Stadium"
+  },
+  "2021-02-08-LEE-CRY": {
+    "attendance": null,
+    "venue": "Elland Road"
+  },
+  "2021-02-13-BHA-AVL": {
+    "attendance": null,
+    "venue": "American Express Stadium"
+  },
+  "2021-02-13-CRY-BUR": {
+    "attendance": null,
+    "venue": "Selhurst Park"
+  },
+  "2021-02-13-LEI-LIV": {
+    "attendance": null,
+    "venue": "King Power Stadium"
+  },
+  "2021-02-13-MCI-TOT": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2021-02-14-ARS-LEE": {
+    "attendance": null,
+    "venue": "Emirates Stadium"
+  },
+  "2021-02-14-EVE-FUL": {
+    "attendance": null,
+    "venue": "Goodison Park"
+  },
+  "2021-02-14-SOU-WOL": {
+    "attendance": null,
+    "venue": "St. Mary's Stadium"
+  },
+  "2021-02-14-WBA-MUN": {
+    "attendance": null,
+    "venue": "The Hawthorns"
+  },
+  "2021-02-15-CHE-NEW": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2021-02-15-WHU-SHU": {
+    "attendance": null,
+    "venue": "London Stadium"
+  },
+  "2021-02-17-BUR-FUL": {
+    "attendance": null,
+    "venue": "Turf Moor"
+  },
+  "2021-02-17-EVE-MCI": {
+    "attendance": null,
+    "venue": "Goodison Park"
+  },
+  "2021-02-19-WOL-LEE": {
+    "attendance": null,
+    "venue": "Molineux Stadium"
+  },
+  "2021-02-20-BUR-WBA": {
+    "attendance": null,
+    "venue": "Turf Moor"
+  },
+  "2021-02-20-FUL-SHU": {
+    "attendance": null,
+    "venue": "Craven Cottage"
+  },
+  "2021-02-20-LIV-EVE": {
+    "attendance": null,
+    "venue": "Anfield"
+  },
+  "2021-02-20-SOU-CHE": {
+    "attendance": null,
+    "venue": "St. Mary's Stadium"
+  },
+  "2021-02-21-ARS-MCI": {
+    "attendance": null,
+    "venue": "Emirates Stadium"
+  },
+  "2021-02-21-AVL-LEI": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2021-02-21-MUN-NEW": {
+    "attendance": null,
+    "venue": "Old Trafford"
+  },
+  "2021-02-21-WHU-TOT": {
+    "attendance": null,
+    "venue": "London Stadium"
+  },
+  "2021-02-22-BHA-CRY": {
+    "attendance": null,
+    "venue": "American Express Stadium"
+  },
+  "2021-02-23-LEE-SOU": {
+    "attendance": null,
+    "venue": "Elland Road"
+  },
+  "2021-02-27-LEE-AVL": {
+    "attendance": null,
+    "venue": "Elland Road"
+  },
+  "2021-02-27-MCI-WHU": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2021-02-27-NEW-WOL": {
+    "attendance": null,
+    "venue": "St. James' Park"
+  },
+  "2021-02-27-WBA-BHA": {
+    "attendance": null,
+    "venue": "The Hawthorns"
+  },
+  "2021-02-28-CHE-MUN": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2021-02-28-CRY-FUL": {
+    "attendance": null,
+    "venue": "Selhurst Park"
+  },
+  "2021-02-28-LEI-ARS": {
+    "attendance": null,
+    "venue": "King Power Stadium"
+  },
+  "2021-02-28-SHU-LIV": {
+    "attendance": null,
+    "venue": "Bramall Lane"
+  },
+  "2021-02-28-TOT-BUR": {
+    "attendance": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2021-03-01-EVE-SOU": {
+    "attendance": null,
+    "venue": "Goodison Park"
+  },
+  "2021-03-02-MCI-WOL": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2021-03-03-BUR-LEI": {
+    "attendance": null,
+    "venue": "Turf Moor"
+  },
+  "2021-03-03-CRY-MUN": {
+    "attendance": null,
+    "venue": "Selhurst Park"
+  },
+  "2021-03-03-SHU-AVL": {
+    "attendance": null,
+    "venue": "Bramall Lane"
+  },
+  "2021-03-04-FUL-TOT": {
+    "attendance": null,
+    "venue": "Craven Cottage"
+  },
+  "2021-03-04-LIV-CHE": {
+    "attendance": null,
+    "venue": "Anfield"
+  },
+  "2021-03-04-WBA-EVE": {
+    "attendance": null,
+    "venue": "The Hawthorns"
+  },
+  "2021-03-06-AVL-WOL": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2021-03-06-BHA-LEI": {
+    "attendance": null,
+    "venue": "American Express Stadium"
+  },
+  "2021-03-06-BUR-ARS": {
+    "attendance": null,
+    "venue": "Turf Moor"
+  },
+  "2021-03-06-SHU-SOU": {
+    "attendance": null,
+    "venue": "Bramall Lane"
+  },
+  "2021-03-07-LIV-FUL": {
+    "attendance": null,
+    "venue": "Anfield"
+  },
+  "2021-03-07-MCI-MUN": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2021-03-07-TOT-CRY": {
+    "attendance": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2021-03-07-WBA-NEW": {
+    "attendance": null,
+    "venue": "The Hawthorns"
+  },
+  "2021-03-08-CHE-EVE": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2021-03-08-WHU-LEE": {
+    "attendance": null,
+    "venue": "London Stadium"
+  },
+  "2021-03-10-MCI-SOU": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2021-03-12-NEW-AVL": {
+    "attendance": null,
+    "venue": "St. James' Park"
+  },
+  "2021-03-13-CRY-WBA": {
+    "attendance": null,
+    "venue": "Selhurst Park"
+  },
+  "2021-03-13-EVE-BUR": {
+    "attendance": null,
+    "venue": "Goodison Park"
+  },
+  "2021-03-13-FUL-MCI": {
+    "attendance": null,
+    "venue": "Craven Cottage"
+  },
+  "2021-03-13-LEE-CHE": {
+    "attendance": null,
+    "venue": "Elland Road"
+  },
+  "2021-03-14-ARS-TOT": {
+    "attendance": null,
+    "venue": "Emirates Stadium"
+  },
+  "2021-03-14-LEI-SHU": {
+    "attendance": null,
+    "venue": "King Power Stadium"
+  },
+  "2021-03-14-MUN-WHU": {
+    "attendance": null,
+    "venue": "Old Trafford"
+  },
+  "2021-03-14-SOU-BHA": {
+    "attendance": null,
+    "venue": "St. Mary's Stadium"
+  },
+  "2021-03-15-WOL-LIV": {
+    "attendance": null,
+    "venue": "Molineux Stadium"
+  },
+  "2021-03-19-FUL-LEE": {
+    "attendance": null,
+    "venue": "Craven Cottage"
+  },
+  "2021-03-20-BHA-NEW": {
+    "attendance": null,
+    "venue": "American Express Stadium"
+  },
+  "2021-03-21-AVL-TOT": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2021-03-21-WHU-ARS": {
+    "attendance": null,
+    "venue": "London Stadium"
+  },
+  "2021-04-03-ARS-LIV": {
+    "attendance": null,
+    "venue": "Emirates Stadium"
+  },
+  "2021-04-03-CHE-WBA": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2021-04-03-LEE-SHU": {
+    "attendance": null,
+    "venue": "Elland Road"
+  },
+  "2021-04-03-LEI-MCI": {
+    "attendance": null,
+    "venue": "King Power Stadium"
+  },
+  "2021-04-04-AVL-FUL": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2021-04-04-MUN-BHA": {
+    "attendance": null,
+    "venue": "Old Trafford"
+  },
+  "2021-04-04-NEW-TOT": {
+    "attendance": null,
+    "venue": "St. James' Park"
+  },
+  "2021-04-04-SOU-BUR": {
+    "attendance": null,
+    "venue": "St. Mary's Stadium"
+  },
+  "2021-04-05-EVE-CRY": {
+    "attendance": null,
+    "venue": "Goodison Park"
+  },
+  "2021-04-05-WOL-WHU": {
+    "attendance": null,
+    "venue": "Molineux Stadium"
+  },
+  "2021-04-09-FUL-WOL": {
+    "attendance": null,
+    "venue": "Craven Cottage"
+  },
+  "2021-04-10-CRY-CHE": {
+    "attendance": null,
+    "venue": "Selhurst Park"
+  },
+  "2021-04-10-LIV-AVL": {
+    "attendance": null,
+    "venue": "Anfield"
+  },
+  "2021-04-10-MCI-LEE": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2021-04-11-BUR-NEW": {
+    "attendance": null,
+    "venue": "Turf Moor"
+  },
+  "2021-04-11-SHU-ARS": {
+    "attendance": null,
+    "venue": "Bramall Lane"
+  },
+  "2021-04-11-TOT-MUN": {
+    "attendance": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2021-04-11-WHU-LEI": {
+    "attendance": null,
+    "venue": "London Stadium"
+  },
+  "2021-04-12-BHA-EVE": {
+    "attendance": null,
+    "venue": "American Express Stadium"
+  },
+  "2021-04-12-WBA-SOU": {
+    "attendance": null,
+    "venue": "The Hawthorns"
+  },
+  "2021-04-16-EVE-TOT": {
+    "attendance": null,
+    "venue": "Goodison Park"
+  },
+  "2021-04-17-NEW-WHU": {
+    "attendance": null,
+    "venue": "St. James' Park"
+  },
+  "2021-04-17-WOL-SHU": {
+    "attendance": null,
+    "venue": "Molineux Stadium"
+  },
+  "2021-04-18-ARS-FUL": {
+    "attendance": null,
+    "venue": "Emirates Stadium"
+  },
+  "2021-04-18-MUN-BUR": {
+    "attendance": null,
+    "venue": "Old Trafford"
+  },
+  "2021-04-19-LEE-LIV": {
+    "attendance": null,
+    "venue": "Elland Road"
+  },
+  "2021-04-20-CHE-BHA": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2021-04-21-AVL-MCI": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2021-04-21-TOT-SOU": {
+    "attendance": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2021-04-22-LEI-WBA": {
+    "attendance": null,
+    "venue": "King Power Stadium"
+  },
+  "2021-04-23-ARS-EVE": {
+    "attendance": null,
+    "venue": "Emirates Stadium"
+  },
+  "2021-04-24-LIV-NEW": {
+    "attendance": null,
+    "venue": "Anfield"
+  },
+  "2021-04-24-SHU-BHA": {
+    "attendance": null,
+    "venue": "Bramall Lane"
+  },
+  "2021-04-24-WHU-CHE": {
+    "attendance": null,
+    "venue": "London Stadium"
+  },
+  "2021-04-25-AVL-WBA": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2021-04-25-LEE-MUN": {
+    "attendance": null,
+    "venue": "Elland Road"
+  },
+  "2021-04-25-WOL-BUR": {
+    "attendance": null,
+    "venue": "Molineux Stadium"
+  },
+  "2021-04-26-LEI-CRY": {
+    "attendance": null,
+    "venue": "King Power Stadium"
+  },
+  "2021-04-30-SOU-LEI": {
+    "attendance": null,
+    "venue": "St. Mary's Stadium"
+  },
+  "2021-05-01-BHA-LEE": {
+    "attendance": null,
+    "venue": "American Express Stadium"
+  },
+  "2021-05-01-CHE-FUL": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2021-05-01-CRY-MCI": {
+    "attendance": null,
+    "venue": "Selhurst Park"
+  },
+  "2021-05-01-EVE-AVL": {
+    "attendance": null,
+    "venue": "Goodison Park"
+  },
+  "2021-05-02-NEW-ARS": {
+    "attendance": null,
+    "venue": "St. James' Park"
+  },
+  "2021-05-02-TOT-SHU": {
+    "attendance": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2021-05-03-BUR-WHU": {
+    "attendance": null,
+    "venue": "Turf Moor"
+  },
+  "2021-05-03-WBA-WOL": {
+    "attendance": null,
+    "venue": "The Hawthorns"
+  },
+  "2021-05-07-LEI-NEW": {
+    "attendance": null,
+    "venue": "King Power Stadium"
+  },
+  "2021-05-08-LEE-TOT": {
+    "attendance": null,
+    "venue": "Elland Road"
+  },
+  "2021-05-08-LIV-SOU": {
+    "attendance": null,
+    "venue": "Anfield"
+  },
+  "2021-05-08-MCI-CHE": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2021-05-08-SHU-CRY": {
+    "attendance": null,
+    "venue": "Bramall Lane"
+  },
+  "2021-05-09-ARS-WBA": {
+    "attendance": null,
+    "venue": "Emirates Stadium"
+  },
+  "2021-05-09-AVL-MUN": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2021-05-09-WHU-EVE": {
+    "attendance": null,
+    "venue": "London Stadium"
+  },
+  "2021-05-09-WOL-BHA": {
+    "attendance": null,
+    "venue": "Molineux Stadium"
+  },
+  "2021-05-10-FUL-BUR": {
+    "attendance": null,
+    "venue": "Craven Cottage"
+  },
+  "2021-05-11-MUN-LEI": {
+    "attendance": null,
+    "venue": "Old Trafford"
+  },
+  "2021-05-11-SOU-CRY": {
+    "attendance": null,
+    "venue": "St. Mary's Stadium"
+  },
+  "2021-05-12-CHE-ARS": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2021-05-13-AVL-EVE": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2021-05-13-MUN-LIV": {
+    "attendance": null,
+    "venue": "Old Trafford"
+  },
+  "2021-05-14-NEW-MCI": {
+    "attendance": null,
+    "venue": "St. James' Park"
+  },
+  "2021-05-15-BHA-WHU": {
+    "attendance": null,
+    "venue": "American Express Stadium"
+  },
+  "2021-05-15-BUR-LEE": {
+    "attendance": null,
+    "venue": "Turf Moor"
+  },
+  "2021-05-15-SOU-FUL": {
+    "attendance": null,
+    "venue": "St. Mary's Stadium"
+  },
+  "2021-05-16-CRY-AVL": {
+    "attendance": null,
+    "venue": "Selhurst Park"
+  },
+  "2021-05-16-EVE-SHU": {
+    "attendance": null,
+    "venue": "Goodison Park"
+  },
+  "2021-05-16-TOT-WOL": {
+    "attendance": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2021-05-16-WBA-LIV": {
+    "attendance": null,
+    "venue": "The Hawthorns"
+  },
+  "2021-05-18-BHA-MCI": {
+    "attendance": 7945,
+    "venue": "American Express Stadium"
+  },
+  "2021-05-18-CHE-LEI": {
+    "attendance": 7195,
+    "venue": "Stamford Bridge"
+  },
+  "2021-05-18-MUN-FUL": {
+    "attendance": 9347,
+    "venue": "Old Trafford"
+  },
+  "2021-05-18-SOU-LEE": {
+    "attendance": 7291,
+    "venue": "St. Mary's Stadium"
+  },
+  "2021-05-19-BUR-LIV": {
+    "attendance": 3387,
+    "venue": "Turf Moor"
+  },
+  "2021-05-19-CRY-ARS": {
+    "attendance": 6500,
+    "venue": "Selhurst Park"
+  },
+  "2021-05-19-EVE-WOL": {
+    "attendance": 6068,
+    "venue": "Goodison Park"
+  },
+  "2021-05-19-NEW-SHU": {
+    "attendance": 10000,
+    "venue": "St. James' Park"
+  },
+  "2021-05-19-TOT-AVL": {
+    "attendance": 10000,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2021-05-19-WBA-WHU": {
+    "attendance": 5371,
+    "venue": "The Hawthorns"
+  },
+  "2021-05-23-ARS-BHA": {
+    "attendance": 10000,
+    "venue": "Emirates Stadium"
+  },
+  "2021-05-23-AVL-CHE": {
+    "attendance": 10000,
+    "venue": "Villa Park"
+  },
+  "2021-05-23-FUL-NEW": {
+    "attendance": 2000,
+    "venue": "Craven Cottage"
+  },
+  "2021-05-23-LEE-WBA": {
+    "attendance": 8000,
+    "venue": "Elland Road"
+  },
+  "2021-05-23-LEI-TOT": {
+    "attendance": 8000,
+    "venue": "King Power Stadium"
+  },
+  "2021-05-23-LIV-CRY": {
+    "attendance": 9901,
+    "venue": "Anfield"
+  },
+  "2021-05-23-MCI-EVE": {
+    "attendance": 10000,
+    "venue": "Etihad Stadium"
+  },
+  "2021-05-23-SHU-BUR": {
+    "attendance": 5096,
+    "venue": "Bramall Lane"
+  },
+  "2021-05-23-WHU-SOU": {
+    "attendance": 10000,
+    "venue": "London Stadium"
+  },
+  "2021-05-23-WOL-MUN": {
+    "attendance": 4500,
+    "venue": "Molineux Stadium"
+  }
+}

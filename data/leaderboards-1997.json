@@ -1,0 +1,330 @@
+{
+  "topAssists": [
+    {
+      "playerId": 1003603,
+      "playerName": "David Beckham",
+      "rank": 1,
+      "teamId": 33,
+      "teamName": "Manchester United",
+      "value": 13
+    },
+    {
+      "playerId": 1003673,
+      "playerName": "Dennis Bergkamp",
+      "rank": 2,
+      "teamId": 42,
+      "teamName": "Arsenal",
+      "value": 11
+    },
+    {
+      "playerId": 1002746,
+      "playerName": "Michael Owen",
+      "rank": 3,
+      "teamId": 40,
+      "teamName": "Liverpool",
+      "value": 10
+    },
+    {
+      "playerId": 1003698,
+      "playerName": "Dion Dublin",
+      "rank": 4,
+      "teamId": 1346,
+      "teamName": "Coventry City",
+      "value": 10
+    },
+    {
+      "playerId": 1003757,
+      "playerName": "Eyal Berkovic",
+      "rank": 5,
+      "teamId": 48,
+      "teamName": "West Ham United",
+      "value": 10
+    },
+    {
+      "playerId": 1005132,
+      "playerName": "Steve Guppy",
+      "rank": 6,
+      "teamId": 46,
+      "teamName": "Leicester City",
+      "value": 10
+    },
+    {
+      "playerId": 1005199,
+      "playerName": "Teddy Sheringham",
+      "rank": 7,
+      "teamId": 33,
+      "teamName": "Manchester United",
+      "value": 10
+    },
+    {
+      "playerId": 1002939,
+      "playerName": "Ryan Giggs",
+      "rank": 8,
+      "teamId": 33,
+      "teamName": "Manchester United",
+      "value": 9
+    },
+    {
+      "playerId": 1003615,
+      "playerName": "David Ginola",
+      "rank": 9,
+      "teamId": 47,
+      "teamName": "Tottenham Hotspur",
+      "value": 9
+    },
+    {
+      "playerId": 1004536,
+      "playerName": "Matthew Le Tissier",
+      "rank": 10,
+      "teamId": 41,
+      "teamName": "Southampton",
+      "value": 9
+    }
+  ],
+  "topRedCards": [
+    {
+      "playerId": 1003602,
+      "playerName": "David Batty",
+      "rank": 1,
+      "teamId": 34,
+      "teamName": "Newcastle United",
+      "value": 3
+    },
+    {
+      "playerId": 1005075,
+      "playerName": "Slaven Bilic",
+      "rank": 2,
+      "teamId": 45,
+      "teamName": "Everton",
+      "value": 3
+    },
+    {
+      "playerId": 1003322,
+      "playerName": "Ben Thatcher",
+      "rank": 3,
+      "teamId": 1333,
+      "teamName": "Wimbledon",
+      "value": 2
+    },
+    {
+      "playerId": 1003783,
+      "playerName": "Francis Benali",
+      "rank": 4,
+      "teamId": 41,
+      "teamName": "Southampton",
+      "value": 2
+    },
+    {
+      "playerId": 1004062,
+      "playerName": "Jason Wilcox",
+      "rank": 5,
+      "teamId": 67,
+      "teamName": "Blackburn Rovers",
+      "value": 2
+    },
+    {
+      "playerId": 1004133,
+      "playerName": "John Hartson",
+      "rank": 6,
+      "teamId": 48,
+      "teamName": "West Ham United",
+      "value": 2
+    },
+    {
+      "playerId": 1004813,
+      "playerName": "Paul Williams",
+      "rank": 7,
+      "teamId": 1346,
+      "teamName": "Coventry City",
+      "value": 2
+    },
+    {
+      "playerId": 1005093,
+      "playerName": "Stefano Eranio",
+      "rank": 8,
+      "teamId": 69,
+      "teamName": "Derby County",
+      "value": 2
+    },
+    {
+      "playerId": 1002239,
+      "playerName": "Emile Heskey",
+      "rank": 9,
+      "teamId": 46,
+      "teamName": "Leicester City",
+      "value": 1
+    },
+    {
+      "playerId": 1002746,
+      "playerName": "Michael Owen",
+      "rank": 10,
+      "teamId": 40,
+      "teamName": "Liverpool",
+      "value": 1
+    }
+  ],
+  "topScorers": [
+    {
+      "playerId": 1002746,
+      "playerName": "Michael Owen",
+      "rank": 1,
+      "teamId": 40,
+      "teamName": "Liverpool",
+      "value": 18
+    },
+    {
+      "playerId": 1003451,
+      "playerName": "Chris Sutton",
+      "rank": 2,
+      "teamId": 67,
+      "teamName": "Blackburn Rovers",
+      "value": 18
+    },
+    {
+      "playerId": 1003698,
+      "playerName": "Dion Dublin",
+      "rank": 3,
+      "teamId": 1346,
+      "teamName": "Coventry City",
+      "value": 18
+    },
+    {
+      "playerId": 1003673,
+      "playerName": "Dennis Bergkamp",
+      "rank": 4,
+      "teamId": 42,
+      "teamName": "Arsenal",
+      "value": 16
+    },
+    {
+      "playerId": 1004096,
+      "playerName": "Jimmy Floyd Hasselbaink",
+      "rank": 5,
+      "teamId": 63,
+      "teamName": "Leeds United",
+      "value": 16
+    },
+    {
+      "playerId": 1004264,
+      "playerName": "Kevin Gallacher",
+      "rank": 6,
+      "teamId": 67,
+      "teamName": "Blackburn Rovers",
+      "value": 16
+    },
+    {
+      "playerId": 1003242,
+      "playerName": "Andrew Cole",
+      "rank": 7,
+      "teamId": 33,
+      "teamName": "Manchester United",
+      "value": 15
+    },
+    {
+      "playerId": 1004133,
+      "playerName": "John Hartson",
+      "rank": 8,
+      "teamId": 48,
+      "teamName": "West Ham United",
+      "value": 15
+    },
+    {
+      "playerId": 1003580,
+      "playerName": "Darren Huckerby",
+      "rank": 9,
+      "teamId": 1346,
+      "teamName": "Coventry City",
+      "value": 14
+    },
+    {
+      "playerId": 1004816,
+      "playerName": "Paulo Wanchope",
+      "rank": 10,
+      "teamId": 69,
+      "teamName": "Derby County",
+      "value": 13
+    }
+  ],
+  "topYellowCards": [
+    {
+      "playerId": 1004029,
+      "playerName": "Jamie Fullarton",
+      "rank": 1,
+      "teamId": 52,
+      "teamName": "Crystal Palace",
+      "value": 11
+    },
+    {
+      "playerId": 1003675,
+      "playerName": "Dennis Wise",
+      "rank": 2,
+      "teamId": 49,
+      "teamName": "Chelsea",
+      "value": 10
+    },
+    {
+      "playerId": 1004318,
+      "playerName": "Lee Carsley",
+      "rank": 3,
+      "teamId": 69,
+      "teamName": "Derby County",
+      "value": 10
+    },
+    {
+      "playerId": 1004732,
+      "playerName": "Paolo Di Canio",
+      "rank": 4,
+      "teamId": 74,
+      "teamName": "Sheffield Wednesday",
+      "value": 10
+    },
+    {
+      "playerId": 1003580,
+      "playerName": "Darren Huckerby",
+      "rank": 5,
+      "teamId": 1346,
+      "teamName": "Coventry City",
+      "value": 9
+    },
+    {
+      "playerId": 1004145,
+      "playerName": "John Moncur",
+      "rank": 6,
+      "teamId": 48,
+      "teamName": "West Ham United",
+      "value": 9
+    },
+    {
+      "playerId": 1004386,
+      "playerName": "Lucas Radebe",
+      "rank": 7,
+      "teamId": 63,
+      "teamName": "Leeds United",
+      "value": 9
+    },
+    {
+      "playerId": 1004429,
+      "playerName": "Marcus Hall",
+      "rank": 8,
+      "teamId": 1346,
+      "teamName": "Coventry City",
+      "value": 9
+    },
+    {
+      "playerId": 1004453,
+      "playerName": "Mark Hughes",
+      "rank": 9,
+      "teamId": 49,
+      "teamName": "Chelsea",
+      "value": 9
+    },
+    {
+      "playerId": 1004804,
+      "playerName": "Paul Telfer",
+      "rank": 10,
+      "teamId": 1346,
+      "teamName": "Coventry City",
+      "value": 9
+    }
+  ]
+}

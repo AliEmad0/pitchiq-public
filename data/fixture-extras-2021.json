@@ -1,0 +1,1522 @@
+{
+  "2021-08-13-BRE-ARS": {
+    "attendance": 16479,
+    "venue": "Gtech Community Stadium"
+  },
+  "2021-08-14-BUR-BHA": {
+    "attendance": 16910,
+    "venue": "Turf Moor"
+  },
+  "2021-08-14-CHE-CRY": {
+    "attendance": 38965,
+    "venue": "Stamford Bridge"
+  },
+  "2021-08-14-EVE-SOU": {
+    "attendance": 38487,
+    "venue": "Goodison Park"
+  },
+  "2021-08-14-LEI-WOL": {
+    "attendance": 31983,
+    "venue": "King Power Stadium"
+  },
+  "2021-08-14-MUN-LEE": {
+    "attendance": 72732,
+    "venue": "Old Trafford"
+  },
+  "2021-08-14-NOR-LIV": {
+    "attendance": 27023,
+    "venue": "Carrow Road"
+  },
+  "2021-08-14-WAT-AVL": {
+    "attendance": 20051,
+    "venue": "Vicarage Road"
+  },
+  "2021-08-15-NEW-WHU": {
+    "attendance": 50673,
+    "venue": "St. James' Park"
+  },
+  "2021-08-15-TOT-MCI": {
+    "attendance": 58262,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2021-08-21-AVL-NEW": {
+    "attendance": 41964,
+    "venue": "Villa Park"
+  },
+  "2021-08-21-BHA-WAT": {
+    "attendance": 29485,
+    "venue": "American Express Stadium"
+  },
+  "2021-08-21-CRY-BRE": {
+    "attendance": 23091,
+    "venue": "Selhurst Park"
+  },
+  "2021-08-21-LEE-EVE": {
+    "attendance": 36293,
+    "venue": "Elland Road"
+  },
+  "2021-08-21-LIV-BUR": {
+    "attendance": 52591,
+    "venue": "Anfield"
+  },
+  "2021-08-21-MCI-NOR": {
+    "attendance": 51437,
+    "venue": "Etihad Stadium"
+  },
+  "2021-08-22-ARS-CHE": {
+    "attendance": 58729,
+    "venue": "Emirates Stadium"
+  },
+  "2021-08-22-SOU-MUN": {
+    "attendance": 29485,
+    "venue": "St. Mary's Stadium"
+  },
+  "2021-08-22-WOL-TOT": {
+    "attendance": 30368,
+    "venue": "Molineux Stadium"
+  },
+  "2021-08-23-WHU-LEI": {
+    "attendance": 59901,
+    "venue": "London Stadium"
+  },
+  "2021-08-28-AVL-BRE": {
+    "attendance": 42045,
+    "venue": "Villa Park"
+  },
+  "2021-08-28-BHA-EVE": {
+    "attendance": 30548,
+    "venue": "American Express Stadium"
+  },
+  "2021-08-28-LIV-CHE": {
+    "attendance": null,
+    "venue": "Anfield"
+  },
+  "2021-08-28-MCI-ARS": {
+    "attendance": 52276,
+    "venue": "Etihad Stadium"
+  },
+  "2021-08-28-NEW-SOU": {
+    "attendance": 44017,
+    "venue": "St. James' Park"
+  },
+  "2021-08-28-NOR-LEI": {
+    "attendance": 26765,
+    "venue": "Carrow Road"
+  },
+  "2021-08-28-WHU-CRY": {
+    "attendance": 59751,
+    "venue": "London Stadium"
+  },
+  "2021-08-29-BUR-LEE": {
+    "attendance": 18665,
+    "venue": "Turf Moor"
+  },
+  "2021-08-29-TOT-WAT": {
+    "attendance": 57672,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2021-08-29-WOL-MUN": {
+    "attendance": 30621,
+    "venue": "Molineux Stadium"
+  },
+  "2021-09-11-ARS-NOR": {
+    "attendance": 59337,
+    "venue": "Emirates Stadium"
+  },
+  "2021-09-11-BRE-BHA": {
+    "attendance": 16518,
+    "venue": "Gtech Community Stadium"
+  },
+  "2021-09-11-CHE-AVL": {
+    "attendance": 39969,
+    "venue": "Stamford Bridge"
+  },
+  "2021-09-11-CRY-TOT": {
+    "attendance": 22740,
+    "venue": "Selhurst Park"
+  },
+  "2021-09-11-LEI-MCI": {
+    "attendance": 32087,
+    "venue": "King Power Stadium"
+  },
+  "2021-09-11-MUN-NEW": {
+    "attendance": 72732,
+    "venue": "Old Trafford"
+  },
+  "2021-09-11-SOU-WHU": {
+    "attendance": null,
+    "venue": "St. Mary's Stadium"
+  },
+  "2021-09-11-WAT-WOL": {
+    "attendance": 20019,
+    "venue": "Vicarage Road"
+  },
+  "2021-09-12-LEE-LIV": {
+    "attendance": 36507,
+    "venue": "Elland Road"
+  },
+  "2021-09-13-EVE-BUR": {
+    "attendance": 38354,
+    "venue": "Goodison Park"
+  },
+  "2021-09-17-NEW-LEE": {
+    "attendance": 50407,
+    "venue": "St. James' Park"
+  },
+  "2021-09-18-AVL-EVE": {
+    "attendance": 41888,
+    "venue": "Villa Park"
+  },
+  "2021-09-18-BUR-ARS": {
+    "attendance": 21944,
+    "venue": "Turf Moor"
+  },
+  "2021-09-18-LIV-CRY": {
+    "attendance": 52985,
+    "venue": "Anfield"
+  },
+  "2021-09-18-MCI-SOU": {
+    "attendance": 52698,
+    "venue": "Etihad Stadium"
+  },
+  "2021-09-18-NOR-WAT": {
+    "attendance": 26649,
+    "venue": "Carrow Road"
+  },
+  "2021-09-18-WOL-BRE": {
+    "attendance": 29724,
+    "venue": "Molineux Stadium"
+  },
+  "2021-09-19-BHA-LEI": {
+    "attendance": 31078,
+    "venue": "American Express Stadium"
+  },
+  "2021-09-19-TOT-CHE": {
+    "attendance": 60059,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2021-09-19-WHU-MUN": {
+    "attendance": 59958,
+    "venue": "London Stadium"
+  },
+  "2021-09-25-BRE-LIV": {
+    "attendance": 16876,
+    "venue": "Gtech Community Stadium"
+  },
+  "2021-09-25-CHE-MCI": {
+    "attendance": 40036,
+    "venue": "Stamford Bridge"
+  },
+  "2021-09-25-EVE-NOR": {
+    "attendance": 38821,
+    "venue": "Goodison Park"
+  },
+  "2021-09-25-LEE-WHU": {
+    "attendance": 36417,
+    "venue": "Elland Road"
+  },
+  "2021-09-25-LEI-BUR": {
+    "attendance": 31650,
+    "venue": "King Power Stadium"
+  },
+  "2021-09-25-MUN-AVL": {
+    "attendance": 72922,
+    "venue": "Old Trafford"
+  },
+  "2021-09-25-WAT-NEW": {
+    "attendance": 20650,
+    "venue": "Vicarage Road"
+  },
+  "2021-09-26-ARS-TOT": {
+    "attendance": 59919,
+    "venue": "Emirates Stadium"
+  },
+  "2021-09-26-SOU-WOL": {
+    "attendance": 28002,
+    "venue": "St. Mary's Stadium"
+  },
+  "2021-09-27-CRY-BHA": {
+    "attendance": 22975,
+    "venue": "Selhurst Park"
+  },
+  "2021-10-02-BHA-ARS": {
+    "attendance": 31266,
+    "venue": "American Express Stadium"
+  },
+  "2021-10-02-BUR-NOR": {
+    "attendance": 17427,
+    "venue": "Turf Moor"
+  },
+  "2021-10-02-CHE-SOU": {
+    "attendance": 40109,
+    "venue": "Stamford Bridge"
+  },
+  "2021-10-02-LEE-WAT": {
+    "attendance": 36261,
+    "venue": "Elland Road"
+  },
+  "2021-10-02-MUN-EVE": {
+    "attendance": 73128,
+    "venue": "Old Trafford"
+  },
+  "2021-10-02-WOL-NEW": {
+    "attendance": 30483,
+    "venue": "Molineux Stadium"
+  },
+  "2021-10-03-CRY-LEI": {
+    "attendance": 22445,
+    "venue": "Selhurst Park"
+  },
+  "2021-10-03-LIV-MCI": {
+    "attendance": 53102,
+    "venue": "Anfield"
+  },
+  "2021-10-03-TOT-AVL": {
+    "attendance": 53076,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2021-10-03-WHU-BRE": {
+    "attendance": 49940,
+    "venue": "London Stadium"
+  },
+  "2021-10-16-AVL-WOL": {
+    "attendance": 41951,
+    "venue": "Villa Park"
+  },
+  "2021-10-16-BRE-CHE": {
+    "attendance": 16940,
+    "venue": "Gtech Community Stadium"
+  },
+  "2021-10-16-LEI-MUN": {
+    "attendance": 32219,
+    "venue": "King Power Stadium"
+  },
+  "2021-10-16-MCI-BUR": {
+    "attendance": 52711,
+    "venue": "Etihad Stadium"
+  },
+  "2021-10-16-NOR-BHA": {
+    "attendance": 26777,
+    "venue": "Carrow Road"
+  },
+  "2021-10-16-SOU-LEE": {
+    "attendance": 30506,
+    "venue": "St. Mary's Stadium"
+  },
+  "2021-10-16-WAT-LIV": {
+    "attendance": 21085,
+    "venue": "Vicarage Road"
+  },
+  "2021-10-17-EVE-WHU": {
+    "attendance": 39132,
+    "venue": "Goodison Park"
+  },
+  "2021-10-17-NEW-TOT": {
+    "attendance": 52214,
+    "venue": "St. James' Park"
+  },
+  "2021-10-18-ARS-CRY": {
+    "attendance": 59475,
+    "venue": "Emirates Stadium"
+  },
+  "2021-10-22-ARS-AVL": {
+    "attendance": 59496,
+    "venue": "Emirates Stadium"
+  },
+  "2021-10-23-BHA-MCI": {
+    "attendance": 31215,
+    "venue": "American Express Stadium"
+  },
+  "2021-10-23-CHE-NOR": {
+    "attendance": 40113,
+    "venue": "Stamford Bridge"
+  },
+  "2021-10-23-CRY-NEW": {
+    "attendance": 24609,
+    "venue": "Selhurst Park"
+  },
+  "2021-10-23-EVE-WAT": {
+    "attendance": 38834,
+    "venue": "Goodison Park"
+  },
+  "2021-10-23-LEE-WOL": {
+    "attendance": 36475,
+    "venue": "Elland Road"
+  },
+  "2021-10-23-SOU-BUR": {
+    "attendance": 29145,
+    "venue": "St. Mary's Stadium"
+  },
+  "2021-10-24-BRE-LEI": {
+    "attendance": 16814,
+    "venue": "Gtech Community Stadium"
+  },
+  "2021-10-24-MUN-LIV": {
+    "attendance": 73088,
+    "venue": "Old Trafford"
+  },
+  "2021-10-24-WHU-TOT": {
+    "attendance": 59924,
+    "venue": "London Stadium"
+  },
+  "2021-10-30-BUR-BRE": {
+    "attendance": 18821,
+    "venue": "Turf Moor"
+  },
+  "2021-10-30-LEI-ARS": {
+    "attendance": 32209,
+    "venue": "King Power Stadium"
+  },
+  "2021-10-30-LIV-BHA": {
+    "attendance": 53197,
+    "venue": "Anfield"
+  },
+  "2021-10-30-MCI-CRY": {
+    "attendance": 53014,
+    "venue": "Etihad Stadium"
+  },
+  "2021-10-30-NEW-CHE": {
+    "attendance": 52208,
+    "venue": "St. James' Park"
+  },
+  "2021-10-30-TOT-MUN": {
+    "attendance": 60356,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2021-10-30-WAT-SOU": {
+    "attendance": 20869,
+    "venue": "Vicarage Road"
+  },
+  "2021-10-31-AVL-WHU": {
+    "attendance": 41874,
+    "venue": "Villa Park"
+  },
+  "2021-10-31-NOR-LEE": {
+    "attendance": 26913,
+    "venue": "Carrow Road"
+  },
+  "2021-11-01-WOL-EVE": {
+    "attendance": 30617,
+    "venue": "Molineux Stadium"
+  },
+  "2021-11-05-SOU-AVL": {
+    "attendance": 30178,
+    "venue": "St. Mary's Stadium"
+  },
+  "2021-11-06-BHA-NEW": {
+    "attendance": 31267,
+    "venue": "American Express Stadium"
+  },
+  "2021-11-06-BRE-NOR": {
+    "attendance": 16837,
+    "venue": "Gtech Community Stadium"
+  },
+  "2021-11-06-CHE-BUR": {
+    "attendance": 39798,
+    "venue": "Stamford Bridge"
+  },
+  "2021-11-06-CRY-WOL": {
+    "attendance": 24390,
+    "venue": "Selhurst Park"
+  },
+  "2021-11-06-MUN-MCI": {
+    "attendance": 73086,
+    "venue": "Old Trafford"
+  },
+  "2021-11-07-ARS-WAT": {
+    "attendance": 59833,
+    "venue": "Emirates Stadium"
+  },
+  "2021-11-07-EVE-TOT": {
+    "attendance": 39059,
+    "venue": "Goodison Park"
+  },
+  "2021-11-07-LEE-LEI": {
+    "attendance": 36478,
+    "venue": "Elland Road"
+  },
+  "2021-11-07-WHU-LIV": {
+    "attendance": 59909,
+    "venue": "London Stadium"
+  },
+  "2021-11-20-AVL-BHA": {
+    "attendance": 41925,
+    "venue": "Villa Park"
+  },
+  "2021-11-20-BUR-CRY": {
+    "attendance": 18028,
+    "venue": "Turf Moor"
+  },
+  "2021-11-20-LEI-CHE": {
+    "attendance": 32192,
+    "venue": "King Power Stadium"
+  },
+  "2021-11-20-LIV-ARS": {
+    "attendance": 53092,
+    "venue": "Anfield"
+  },
+  "2021-11-20-NEW-BRE": {
+    "attendance": 52131,
+    "venue": "St. James' Park"
+  },
+  "2021-11-20-NOR-SOU": {
+    "attendance": 26885,
+    "venue": "Carrow Road"
+  },
+  "2021-11-20-WAT-MUN": {
+    "attendance": 21087,
+    "venue": "Vicarage Road"
+  },
+  "2021-11-20-WOL-WHU": {
+    "attendance": 30667,
+    "venue": "Molineux Stadium"
+  },
+  "2021-11-21-MCI-EVE": {
+    "attendance": 52571,
+    "venue": "Etihad Stadium"
+  },
+  "2021-11-21-TOT-LEE": {
+    "attendance": 58989,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2021-11-27-ARS-NEW": {
+    "attendance": 59886,
+    "venue": "Emirates Stadium"
+  },
+  "2021-11-27-BHA-LEE": {
+    "attendance": 31166,
+    "venue": "American Express Stadium"
+  },
+  "2021-11-27-CRY-AVL": {
+    "attendance": 25203,
+    "venue": "Selhurst Park"
+  },
+  "2021-11-27-LIV-SOU": {
+    "attendance": 53040,
+    "venue": "Anfield"
+  },
+  "2021-11-27-NOR-WOL": {
+    "attendance": 26911,
+    "venue": "Carrow Road"
+  },
+  "2021-11-28-BRE-EVE": {
+    "attendance": 16957,
+    "venue": "Gtech Community Stadium"
+  },
+  "2021-11-28-CHE-MUN": {
+    "attendance": 40041,
+    "venue": "Stamford Bridge"
+  },
+  "2021-11-28-LEI-WAT": {
+    "attendance": 32020,
+    "venue": "King Power Stadium"
+  },
+  "2021-11-28-MCI-WHU": {
+    "attendance": 53245,
+    "venue": "Etihad Stadium"
+  },
+  "2021-11-30-LEE-CRY": {
+    "attendance": 35558,
+    "venue": "Elland Road"
+  },
+  "2021-11-30-NEW-NOR": {
+    "attendance": 50757,
+    "venue": "St. James' Park"
+  },
+  "2021-12-01-AVL-MCI": {
+    "attendance": 41400,
+    "venue": "Villa Park"
+  },
+  "2021-12-01-EVE-LIV": {
+    "attendance": 39641,
+    "venue": "Goodison Park"
+  },
+  "2021-12-01-SOU-LEI": {
+    "attendance": 26951,
+    "venue": "St. Mary's Stadium"
+  },
+  "2021-12-01-WAT-CHE": {
+    "attendance": 20388,
+    "venue": "Vicarage Road"
+  },
+  "2021-12-01-WHU-BHA": {
+    "attendance": 59626,
+    "venue": "London Stadium"
+  },
+  "2021-12-01-WOL-BUR": {
+    "attendance": 30328,
+    "venue": "Molineux Stadium"
+  },
+  "2021-12-02-MUN-ARS": {
+    "attendance": 73123,
+    "venue": "Old Trafford"
+  },
+  "2021-12-02-TOT-BRE": {
+    "attendance": 54202,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2021-12-04-NEW-BUR": {
+    "attendance": 51948,
+    "venue": "St. James' Park"
+  },
+  "2021-12-04-SOU-BHA": {
+    "attendance": 28706,
+    "venue": "St. Mary's Stadium"
+  },
+  "2021-12-04-WAT-MCI": {
+    "attendance": 20673,
+    "venue": "Vicarage Road"
+  },
+  "2021-12-04-WHU-CHE": {
+    "attendance": 59942,
+    "venue": "London Stadium"
+  },
+  "2021-12-04-WOL-LIV": {
+    "attendance": 30729,
+    "venue": "Molineux Stadium"
+  },
+  "2021-12-05-AVL-LEI": {
+    "attendance": 41572,
+    "venue": "Villa Park"
+  },
+  "2021-12-05-LEE-BRE": {
+    "attendance": 35639,
+    "venue": "Elland Road"
+  },
+  "2021-12-05-MUN-CRY": {
+    "attendance": 73172,
+    "venue": "Old Trafford"
+  },
+  "2021-12-05-TOT-NOR": {
+    "attendance": 57088,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2021-12-06-EVE-ARS": {
+    "attendance": 38906,
+    "venue": "Goodison Park"
+  },
+  "2021-12-10-BRE-WAT": {
+    "attendance": 16861,
+    "venue": "Gtech Community Stadium"
+  },
+  "2021-12-11-ARS-SOU": {
+    "attendance": 59653,
+    "venue": "Emirates Stadium"
+  },
+  "2021-12-11-CHE-LEE": {
+    "attendance": 39959,
+    "venue": "Stamford Bridge"
+  },
+  "2021-12-11-LIV-AVL": {
+    "attendance": 53093,
+    "venue": "Anfield"
+  },
+  "2021-12-11-MCI-WOL": {
+    "attendance": 52613,
+    "venue": "Etihad Stadium"
+  },
+  "2021-12-11-NOR-MUN": {
+    "attendance": 27066,
+    "venue": "Carrow Road"
+  },
+  "2021-12-12-BUR-WHU": {
+    "attendance": 18065,
+    "venue": "Turf Moor"
+  },
+  "2021-12-12-CRY-EVE": {
+    "attendance": 24066,
+    "venue": "Selhurst Park"
+  },
+  "2021-12-12-LEI-NEW": {
+    "attendance": 31959,
+    "venue": "King Power Stadium"
+  },
+  "2021-12-14-MCI-LEE": {
+    "attendance": 52401,
+    "venue": "Etihad Stadium"
+  },
+  "2021-12-14-NOR-AVL": {
+    "attendance": 26836,
+    "venue": "Carrow Road"
+  },
+  "2021-12-15-ARS-WHU": {
+    "attendance": 59777,
+    "venue": "Emirates Stadium"
+  },
+  "2021-12-15-BHA-WOL": {
+    "attendance": 30362,
+    "venue": "American Express Stadium"
+  },
+  "2021-12-15-CRY-SOU": {
+    "attendance": 22861,
+    "venue": "Selhurst Park"
+  },
+  "2021-12-16-CHE-EVE": {
+    "attendance": 39933,
+    "venue": "Stamford Bridge"
+  },
+  "2021-12-16-LIV-NEW": {
+    "attendance": 52951,
+    "venue": "Anfield"
+  },
+  "2021-12-18-LEE-ARS": {
+    "attendance": 36166,
+    "venue": "Elland Road"
+  },
+  "2021-12-19-NEW-MCI": {
+    "attendance": 52127,
+    "venue": "St. James' Park"
+  },
+  "2021-12-19-TOT-LIV": {
+    "attendance": 45421,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2021-12-19-WOL-CHE": {
+    "attendance": 30631,
+    "venue": "Molineux Stadium"
+  },
+  "2021-12-26-AVL-CHE": {
+    "attendance": 41907,
+    "venue": "Villa Park"
+  },
+  "2021-12-26-BHA-BRE": {
+    "attendance": 30141,
+    "venue": "American Express Stadium"
+  },
+  "2021-12-26-MCI-LEI": {
+    "attendance": 53226,
+    "venue": "Etihad Stadium"
+  },
+  "2021-12-26-NOR-ARS": {
+    "attendance": 26940,
+    "venue": "Carrow Road"
+  },
+  "2021-12-26-TOT-CRY": {
+    "attendance": 40539,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2021-12-26-WHU-SOU": {
+    "attendance": 41027,
+    "venue": "London Stadium"
+  },
+  "2021-12-27-NEW-MUN": {
+    "attendance": 52178,
+    "venue": "St. James' Park"
+  },
+  "2021-12-28-CRY-NOR": {
+    "attendance": 24433,
+    "venue": "Selhurst Park"
+  },
+  "2021-12-28-LEI-LIV": {
+    "attendance": 32230,
+    "venue": "King Power Stadium"
+  },
+  "2021-12-28-SOU-TOT": {
+    "attendance": 31304,
+    "venue": "St. Mary's Stadium"
+  },
+  "2021-12-28-WAT-WHU": {
+    "attendance": 20073,
+    "venue": "Vicarage Road"
+  },
+  "2021-12-29-BRE-MCI": {
+    "attendance": 17009,
+    "venue": "Gtech Community Stadium"
+  },
+  "2021-12-29-CHE-BHA": {
+    "attendance": 40080,
+    "venue": "Stamford Bridge"
+  },
+  "2021-12-30-MUN-BUR": {
+    "attendance": 73121,
+    "venue": "Old Trafford"
+  },
+  "2022-01-01-ARS-MCI": {
+    "attendance": 59757,
+    "venue": "Emirates Stadium"
+  },
+  "2022-01-01-CRY-WHU": {
+    "attendance": 24351,
+    "venue": "Selhurst Park"
+  },
+  "2022-01-01-WAT-TOT": {
+    "attendance": 20391,
+    "venue": "Vicarage Road"
+  },
+  "2022-01-02-BRE-AVL": {
+    "attendance": 16876,
+    "venue": "Gtech Community Stadium"
+  },
+  "2022-01-02-CHE-LIV": {
+    "attendance": 40072,
+    "venue": "Stamford Bridge"
+  },
+  "2022-01-02-EVE-BHA": {
+    "attendance": 38203,
+    "venue": "Goodison Park"
+  },
+  "2022-01-02-LEE-BUR": {
+    "attendance": 36083,
+    "venue": "Elland Road"
+  },
+  "2022-01-03-MUN-WOL": {
+    "attendance": 73045,
+    "venue": "Old Trafford"
+  },
+  "2022-01-11-SOU-BRE": {
+    "attendance": 27383,
+    "venue": "St. Mary's Stadium"
+  },
+  "2022-01-12-WHU-NOR": {
+    "attendance": 59775,
+    "venue": "London Stadium"
+  },
+  "2022-01-14-BHA-CRY": {
+    "attendance": 30675,
+    "venue": "American Express Stadium"
+  },
+  "2022-01-15-AVL-MUN": {
+    "attendance": 41968,
+    "venue": "Villa Park"
+  },
+  "2022-01-15-MCI-CHE": {
+    "attendance": 53319,
+    "venue": "Etihad Stadium"
+  },
+  "2022-01-15-NEW-WAT": {
+    "attendance": 52223,
+    "venue": "St. James' Park"
+  },
+  "2022-01-15-NOR-EVE": {
+    "attendance": 26629,
+    "venue": "Carrow Road"
+  },
+  "2022-01-15-WOL-SOU": {
+    "attendance": 30057,
+    "venue": "Molineux Stadium"
+  },
+  "2022-01-16-LIV-BRE": {
+    "attendance": 52824,
+    "venue": "Anfield"
+  },
+  "2022-01-16-WHU-LEE": {
+    "attendance": 59951,
+    "venue": "London Stadium"
+  },
+  "2022-01-18-BHA-CHE": {
+    "attendance": 30880,
+    "venue": "American Express Stadium"
+  },
+  "2022-01-19-BRE-MUN": {
+    "attendance": 17094,
+    "venue": "Gtech Community Stadium"
+  },
+  "2022-01-19-LEI-TOT": {
+    "attendance": 31986,
+    "venue": "King Power Stadium"
+  },
+  "2022-01-21-WAT-NOR": {
+    "attendance": 20782,
+    "venue": "Vicarage Road"
+  },
+  "2022-01-22-BRE-WOL": {
+    "attendance": 16982,
+    "venue": "Gtech Community Stadium"
+  },
+  "2022-01-22-EVE-AVL": {
+    "attendance": 38203,
+    "venue": "Goodison Park"
+  },
+  "2022-01-22-LEE-NEW": {
+    "attendance": 36405,
+    "venue": "Elland Road"
+  },
+  "2022-01-22-MUN-WHU": {
+    "attendance": 73130,
+    "venue": "Old Trafford"
+  },
+  "2022-01-22-SOU-MCI": {
+    "attendance": 31178,
+    "venue": "St. Mary's Stadium"
+  },
+  "2022-01-23-ARS-BUR": {
+    "attendance": 59255,
+    "venue": "Emirates Stadium"
+  },
+  "2022-01-23-CHE-TOT": {
+    "attendance": 40020,
+    "venue": "Stamford Bridge"
+  },
+  "2022-01-23-CRY-LIV": {
+    "attendance": 25002,
+    "venue": "Selhurst Park"
+  },
+  "2022-01-23-LEI-BHA": {
+    "attendance": 31231,
+    "venue": "King Power Stadium"
+  },
+  "2022-02-05-BUR-WAT": {
+    "attendance": 19527,
+    "venue": "Turf Moor"
+  },
+  "2022-02-08-BUR-MUN": {
+    "attendance": 21233,
+    "venue": "Turf Moor"
+  },
+  "2022-02-08-NEW-EVE": {
+    "attendance": 52186,
+    "venue": "St. James' Park"
+  },
+  "2022-02-08-WHU-WAT": {
+    "attendance": 59581,
+    "venue": "London Stadium"
+  },
+  "2022-02-09-AVL-LEE": {
+    "attendance": 41927,
+    "venue": "Villa Park"
+  },
+  "2022-02-09-MCI-BRE": {
+    "attendance": 51658,
+    "venue": "Etihad Stadium"
+  },
+  "2022-02-09-NOR-CRY": {
+    "attendance": 26652,
+    "venue": "Carrow Road"
+  },
+  "2022-02-09-TOT-SOU": {
+    "attendance": 54012,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2022-02-10-LIV-LEI": {
+    "attendance": 53050,
+    "venue": "Anfield"
+  },
+  "2022-02-10-WOL-ARS": {
+    "attendance": 31523,
+    "venue": "Molineux Stadium"
+  },
+  "2022-02-12-BRE-CRY": {
+    "attendance": 16958,
+    "venue": "Gtech Community Stadium"
+  },
+  "2022-02-12-EVE-LEE": {
+    "attendance": 39150,
+    "venue": "Goodison Park"
+  },
+  "2022-02-12-MUN-SOU": {
+    "attendance": 73084,
+    "venue": "Old Trafford"
+  },
+  "2022-02-12-NOR-MCI": {
+    "attendance": 27010,
+    "venue": "Carrow Road"
+  },
+  "2022-02-12-WAT-BHA": {
+    "attendance": 20795,
+    "venue": "Vicarage Road"
+  },
+  "2022-02-13-BUR-LIV": {
+    "attendance": 21239,
+    "venue": "Turf Moor"
+  },
+  "2022-02-13-LEI-WHU": {
+    "attendance": 32061,
+    "venue": "King Power Stadium"
+  },
+  "2022-02-13-NEW-AVL": {
+    "attendance": 52207,
+    "venue": "St. James' Park"
+  },
+  "2022-02-13-TOT-WOL": {
+    "attendance": 56452,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2022-02-15-MUN-BHA": {
+    "attendance": 73012,
+    "venue": "Old Trafford"
+  },
+  "2022-02-19-ARS-BRE": {
+    "attendance": 60015,
+    "venue": "Emirates Stadium"
+  },
+  "2022-02-19-AVL-WAT": {
+    "attendance": 41936,
+    "venue": "Villa Park"
+  },
+  "2022-02-19-BHA-BUR": {
+    "attendance": 29921,
+    "venue": "American Express Stadium"
+  },
+  "2022-02-19-CRY-CHE": {
+    "attendance": 25109,
+    "venue": "Selhurst Park"
+  },
+  "2022-02-19-LIV-NOR": {
+    "attendance": 53135,
+    "venue": "Anfield"
+  },
+  "2022-02-19-MCI-TOT": {
+    "attendance": 53201,
+    "venue": "Etihad Stadium"
+  },
+  "2022-02-19-SOU-EVE": {
+    "attendance": 31312,
+    "venue": "St. Mary's Stadium"
+  },
+  "2022-02-19-WHU-NEW": {
+    "attendance": 59949,
+    "venue": "London Stadium"
+  },
+  "2022-02-20-LEE-MUN": {
+    "attendance": 36715,
+    "venue": "Elland Road"
+  },
+  "2022-02-20-WOL-LEI": {
+    "attendance": 31497,
+    "venue": "Molineux Stadium"
+  },
+  "2022-02-23-BUR-TOT": {
+    "attendance": 19488,
+    "venue": "Turf Moor"
+  },
+  "2022-02-23-LIV-LEE": {
+    "attendance": 53018,
+    "venue": "Anfield"
+  },
+  "2022-02-23-WAT-CRY": {
+    "attendance": 20012,
+    "venue": "Vicarage Road"
+  },
+  "2022-02-24-ARS-WOL": {
+    "attendance": 59888,
+    "venue": "Emirates Stadium"
+  },
+  "2022-02-25-SOU-NOR": {
+    "attendance": 31182,
+    "venue": "St. Mary's Stadium"
+  },
+  "2022-02-26-BHA-AVL": {
+    "attendance": 31475,
+    "venue": "American Express Stadium"
+  },
+  "2022-02-26-BRE-NEW": {
+    "attendance": 17039,
+    "venue": "Gtech Community Stadium"
+  },
+  "2022-02-26-CRY-BUR": {
+    "attendance": 24203,
+    "venue": "Selhurst Park"
+  },
+  "2022-02-26-EVE-MCI": {
+    "attendance": 39105,
+    "venue": "Goodison Park"
+  },
+  "2022-02-26-LEE-TOT": {
+    "attendance": 36599,
+    "venue": "Elland Road"
+  },
+  "2022-02-26-MUN-WAT": {
+    "attendance": 73152,
+    "venue": "Old Trafford"
+  },
+  "2022-02-27-WHU-WOL": {
+    "attendance": 59946,
+    "venue": "London Stadium"
+  },
+  "2022-03-01-BUR-LEI": {
+    "attendance": 17825,
+    "venue": "Turf Moor"
+  },
+  "2022-03-05-AVL-SOU": {
+    "attendance": 41855,
+    "venue": "Villa Park"
+  },
+  "2022-03-05-BUR-CHE": {
+    "attendance": 19439,
+    "venue": "Turf Moor"
+  },
+  "2022-03-05-LEI-LEE": {
+    "attendance": 32236,
+    "venue": "King Power Stadium"
+  },
+  "2022-03-05-LIV-WHU": {
+    "attendance": 53059,
+    "venue": "Anfield"
+  },
+  "2022-03-05-NEW-BHA": {
+    "attendance": 52214,
+    "venue": "St. James' Park"
+  },
+  "2022-03-05-NOR-BRE": {
+    "attendance": 26887,
+    "venue": "Carrow Road"
+  },
+  "2022-03-05-WOL-CRY": {
+    "attendance": 31395,
+    "venue": "Molineux Stadium"
+  },
+  "2022-03-06-MCI-MUN": {
+    "attendance": 53165,
+    "venue": "Etihad Stadium"
+  },
+  "2022-03-06-WAT-ARS": {
+    "attendance": 21142,
+    "venue": "Vicarage Road"
+  },
+  "2022-03-07-TOT-EVE": {
+    "attendance": 59647,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2022-03-10-LEE-AVL": {
+    "attendance": 36400,
+    "venue": "Elland Road"
+  },
+  "2022-03-10-NOR-CHE": {
+    "attendance": 26722,
+    "venue": "Carrow Road"
+  },
+  "2022-03-10-SOU-NEW": {
+    "attendance": 31016,
+    "venue": "St. Mary's Stadium"
+  },
+  "2022-03-10-WOL-WAT": {
+    "attendance": 29658,
+    "venue": "Molineux Stadium"
+  },
+  "2022-03-12-BHA-LIV": {
+    "attendance": 31474,
+    "venue": "American Express Stadium"
+  },
+  "2022-03-12-BRE-BUR": {
+    "attendance": 16984,
+    "venue": "Gtech Community Stadium"
+  },
+  "2022-03-12-MUN-TOT": {
+    "attendance": 73458,
+    "venue": "Old Trafford"
+  },
+  "2022-03-13-ARS-LEI": {
+    "attendance": 60111,
+    "venue": "Emirates Stadium"
+  },
+  "2022-03-13-CHE-NEW": {
+    "attendance": 40026,
+    "venue": "Stamford Bridge"
+  },
+  "2022-03-13-EVE-WOL": {
+    "attendance": 39112,
+    "venue": "Goodison Park"
+  },
+  "2022-03-13-LEE-NOR": {
+    "attendance": 36321,
+    "venue": "Elland Road"
+  },
+  "2022-03-13-SOU-WAT": {
+    "attendance": 28863,
+    "venue": "St. Mary's Stadium"
+  },
+  "2022-03-13-WHU-AVL": {
+    "attendance": 59957,
+    "venue": "London Stadium"
+  },
+  "2022-03-14-CRY-MCI": {
+    "attendance": 25309,
+    "venue": "Selhurst Park"
+  },
+  "2022-03-16-ARS-LIV": {
+    "attendance": 59968,
+    "venue": "Emirates Stadium"
+  },
+  "2022-03-16-BHA-TOT": {
+    "attendance": 31144,
+    "venue": "American Express Stadium"
+  },
+  "2022-03-17-EVE-NEW": {
+    "attendance": 39068,
+    "venue": "Goodison Park"
+  },
+  "2022-03-18-WOL-LEE": {
+    "attendance": 31842,
+    "venue": "Molineux Stadium"
+  },
+  "2022-03-19-AVL-ARS": {
+    "attendance": 41956,
+    "venue": "Villa Park"
+  },
+  "2022-03-20-LEI-BRE": {
+    "attendance": 31830,
+    "venue": "King Power Stadium"
+  },
+  "2022-03-20-TOT-WHU": {
+    "attendance": 58685,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2022-04-02-BHA-NOR": {
+    "attendance": 31245,
+    "venue": "American Express Stadium"
+  },
+  "2022-04-02-BUR-MCI": {
+    "attendance": 20388,
+    "venue": "Turf Moor"
+  },
+  "2022-04-02-CHE-BRE": {
+    "attendance": 39061,
+    "venue": "Stamford Bridge"
+  },
+  "2022-04-02-LEE-SOU": {
+    "attendance": 36580,
+    "venue": "Elland Road"
+  },
+  "2022-04-02-LIV-WAT": {
+    "attendance": 53104,
+    "venue": "Anfield"
+  },
+  "2022-04-02-MUN-LEI": {
+    "attendance": 73444,
+    "venue": "Old Trafford"
+  },
+  "2022-04-02-WOL-AVL": {
+    "attendance": 31012,
+    "venue": "Molineux Stadium"
+  },
+  "2022-04-03-TOT-NEW": {
+    "attendance": 57553,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2022-04-03-WHU-EVE": {
+    "attendance": 59953,
+    "venue": "London Stadium"
+  },
+  "2022-04-04-CRY-ARS": {
+    "attendance": 25149,
+    "venue": "Selhurst Park"
+  },
+  "2022-04-06-BUR-EVE": {
+    "attendance": 19830,
+    "venue": "Turf Moor"
+  },
+  "2022-04-08-NEW-WOL": {
+    "attendance": 52164,
+    "venue": "St. James' Park"
+  },
+  "2022-04-09-ARS-BHA": {
+    "attendance": 60112,
+    "venue": "Emirates Stadium"
+  },
+  "2022-04-09-AVL-TOT": {
+    "attendance": 41949,
+    "venue": "Villa Park"
+  },
+  "2022-04-09-EVE-MUN": {
+    "attendance": 39080,
+    "venue": "Goodison Park"
+  },
+  "2022-04-09-SOU-CHE": {
+    "attendance": 31359,
+    "venue": "St. Mary's Stadium"
+  },
+  "2022-04-09-WAT-LEE": {
+    "attendance": 20957,
+    "venue": "Vicarage Road"
+  },
+  "2022-04-10-BRE-WHU": {
+    "attendance": 17032,
+    "venue": "Gtech Community Stadium"
+  },
+  "2022-04-10-LEI-CRY": {
+    "attendance": 31896,
+    "venue": "King Power Stadium"
+  },
+  "2022-04-10-MCI-LIV": {
+    "attendance": 53197,
+    "venue": "Etihad Stadium"
+  },
+  "2022-04-10-NOR-BUR": {
+    "attendance": 26361,
+    "venue": "Carrow Road"
+  },
+  "2022-04-16-MUN-NOR": {
+    "attendance": 73381,
+    "venue": "Old Trafford"
+  },
+  "2022-04-16-SOU-ARS": {
+    "attendance": 31465,
+    "venue": "St. Mary's Stadium"
+  },
+  "2022-04-16-TOT-BHA": {
+    "attendance": 58685,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2022-04-16-WAT-BRE": {
+    "attendance": 20747,
+    "venue": "Vicarage Road"
+  },
+  "2022-04-17-NEW-LEI": {
+    "attendance": 52104,
+    "venue": "St. James' Park"
+  },
+  "2022-04-17-WHU-BUR": {
+    "attendance": 59958,
+    "venue": "London Stadium"
+  },
+  "2022-04-19-LIV-MUN": {
+    "attendance": 52686,
+    "venue": "Anfield"
+  },
+  "2022-04-20-CHE-ARS": {
+    "attendance": 32249,
+    "venue": "Stamford Bridge"
+  },
+  "2022-04-20-EVE-LEI": {
+    "attendance": 39153,
+    "venue": "Goodison Park"
+  },
+  "2022-04-20-MCI-BHA": {
+    "attendance": 52226,
+    "venue": "Etihad Stadium"
+  },
+  "2022-04-20-NEW-CRY": {
+    "attendance": 51938,
+    "venue": "St. James' Park"
+  },
+  "2022-04-21-BUR-SOU": {
+    "attendance": 17384,
+    "venue": "Turf Moor"
+  },
+  "2022-04-23-ARS-MUN": {
+    "attendance": 60223,
+    "venue": "Emirates Stadium"
+  },
+  "2022-04-23-BRE-TOT": {
+    "attendance": 17072,
+    "venue": "Gtech Community Stadium"
+  },
+  "2022-04-23-LEI-AVL": {
+    "attendance": 32185,
+    "venue": "King Power Stadium"
+  },
+  "2022-04-23-MCI-WAT": {
+    "attendance": 53013,
+    "venue": "Etihad Stadium"
+  },
+  "2022-04-23-NOR-NEW": {
+    "attendance": 26910,
+    "venue": "Carrow Road"
+  },
+  "2022-04-24-BHA-SOU": {
+    "attendance": 31335,
+    "venue": "American Express Stadium"
+  },
+  "2022-04-24-BUR-WOL": {
+    "attendance": 19246,
+    "venue": "Turf Moor"
+  },
+  "2022-04-24-CHE-WHU": {
+    "attendance": 32231,
+    "venue": "Stamford Bridge"
+  },
+  "2022-04-24-LIV-EVE": {
+    "attendance": 53213,
+    "venue": "Anfield"
+  },
+  "2022-04-25-CRY-LEE": {
+    "attendance": 25357,
+    "venue": "Selhurst Park"
+  },
+  "2022-04-28-MUN-CHE": {
+    "attendance": 73564,
+    "venue": "Old Trafford"
+  },
+  "2022-04-30-AVL-NOR": {
+    "attendance": 40290,
+    "venue": "Villa Park"
+  },
+  "2022-04-30-LEE-MCI": {
+    "attendance": 35771,
+    "venue": "Elland Road"
+  },
+  "2022-04-30-NEW-LIV": {
+    "attendance": 52281,
+    "venue": "St. James' Park"
+  },
+  "2022-04-30-SOU-CRY": {
+    "attendance": 31359,
+    "venue": "St. Mary's Stadium"
+  },
+  "2022-04-30-WAT-BUR": {
+    "attendance": 20738,
+    "venue": "Vicarage Road"
+  },
+  "2022-04-30-WOL-BHA": {
+    "attendance": 31243,
+    "venue": "Molineux Stadium"
+  },
+  "2022-05-01-EVE-CHE": {
+    "attendance": 39256,
+    "venue": "Goodison Park"
+  },
+  "2022-05-01-TOT-LEI": {
+    "attendance": 59482,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2022-05-01-WHU-ARS": {
+    "attendance": 59959,
+    "venue": "London Stadium"
+  },
+  "2022-05-02-MUN-BRE": {
+    "attendance": 73482,
+    "venue": "Old Trafford"
+  },
+  "2022-05-07-BHA-MUN": {
+    "attendance": 31637,
+    "venue": "American Express Stadium"
+  },
+  "2022-05-07-BRE-SOU": {
+    "attendance": 17051,
+    "venue": "Gtech Community Stadium"
+  },
+  "2022-05-07-BUR-AVL": {
+    "attendance": 20891,
+    "venue": "Turf Moor"
+  },
+  "2022-05-07-CHE-WOL": {
+    "attendance": 32190,
+    "venue": "Stamford Bridge"
+  },
+  "2022-05-07-CRY-WAT": {
+    "attendance": 24622,
+    "venue": "Selhurst Park"
+  },
+  "2022-05-07-LIV-TOT": {
+    "attendance": 53177,
+    "venue": "Anfield"
+  },
+  "2022-05-08-ARS-LEE": {
+    "attendance": 60108,
+    "venue": "Emirates Stadium"
+  },
+  "2022-05-08-LEI-EVE": {
+    "attendance": 32001,
+    "venue": "King Power Stadium"
+  },
+  "2022-05-08-MCI-NEW": {
+    "attendance": 53336,
+    "venue": "Etihad Stadium"
+  },
+  "2022-05-08-NOR-WHU": {
+    "attendance": 26428,
+    "venue": "Carrow Road"
+  },
+  "2022-05-10-AVL-LIV": {
+    "attendance": 41919,
+    "venue": "Villa Park"
+  },
+  "2022-05-11-LEE-CHE": {
+    "attendance": 36549,
+    "venue": "Elland Road"
+  },
+  "2022-05-11-LEI-NOR": {
+    "attendance": 30892,
+    "venue": "King Power Stadium"
+  },
+  "2022-05-11-WAT-EVE": {
+    "attendance": 20653,
+    "venue": "Vicarage Road"
+  },
+  "2022-05-11-WOL-MCI": {
+    "attendance": null,
+    "venue": "Molineux Stadium"
+  },
+  "2022-05-12-TOT-ARS": {
+    "attendance": 62027,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2022-05-15-AVL-CRY": {
+    "attendance": 41136,
+    "venue": "Villa Park"
+  },
+  "2022-05-15-EVE-BRE": {
+    "attendance": 38819,
+    "venue": "Goodison Park"
+  },
+  "2022-05-15-LEE-BHA": {
+    "attendance": 36638,
+    "venue": "Elland Road"
+  },
+  "2022-05-15-TOT-BUR": {
+    "attendance": 61729,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2022-05-15-WAT-LEI": {
+    "attendance": 20257,
+    "venue": "Vicarage Road"
+  },
+  "2022-05-15-WHU-MCI": {
+    "attendance": 59972,
+    "venue": "London Stadium"
+  },
+  "2022-05-15-WOL-NOR": {
+    "attendance": 31219,
+    "venue": "Molineux Stadium"
+  },
+  "2022-05-16-NEW-ARS": {
+    "attendance": 52274,
+    "venue": "St. James' Park"
+  },
+  "2022-05-17-SOU-LIV": {
+    "attendance": 31588,
+    "venue": "St. Mary's Stadium"
+  },
+  "2022-05-19-AVL-BUR": {
+    "attendance": 40468,
+    "venue": "Villa Park"
+  },
+  "2022-05-19-CHE-LEI": {
+    "attendance": 31478,
+    "venue": "Stamford Bridge"
+  },
+  "2022-05-19-EVE-CRY": {
+    "attendance": 38448,
+    "venue": "Goodison Park"
+  },
+  "2022-05-22-ARS-EVE": {
+    "attendance": 60201,
+    "venue": "Emirates Stadium"
+  },
+  "2022-05-22-BHA-WHU": {
+    "attendance": 31604,
+    "venue": "American Express Stadium"
+  },
+  "2022-05-22-BRE-LEE": {
+    "attendance": 16957,
+    "venue": "Gtech Community Stadium"
+  },
+  "2022-05-22-BUR-NEW": {
+    "attendance": 21361,
+    "venue": "Turf Moor"
+  },
+  "2022-05-22-CHE-WAT": {
+    "attendance": 32089,
+    "venue": "Stamford Bridge"
+  },
+  "2022-05-22-CRY-MUN": {
+    "attendance": 25434,
+    "venue": "Selhurst Park"
+  },
+  "2022-05-22-LEI-SOU": {
+    "attendance": 32003,
+    "venue": "King Power Stadium"
+  },
+  "2022-05-22-LIV-WOL": {
+    "attendance": 53097,
+    "venue": "Anfield"
+  },
+  "2022-05-22-MCI-AVL": {
+    "attendance": 53395,
+    "venue": "Etihad Stadium"
+  },
+  "2022-05-22-NOR-TOT": {
+    "attendance": 27022,
+    "venue": "Carrow Road"
+  }
+}

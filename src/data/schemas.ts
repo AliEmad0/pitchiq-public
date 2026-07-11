@@ -1,0 +1,418 @@
+import { z } from "zod";
+
+/** Per-season entity row counts. One of these per committed season. */
+export const RowCountsSchema = z.object({
+  standings: z.number().int().nonnegative(),
+  teams: z.number().int().nonnegative(),
+  players: z.number().int().nonnegative(),
+  fixtures: z.number().int().nonnegative(),
+  leaderboards: z.number().int().nonnegative(),
+});
+
+export const MetaSchema = z.object({
+  lastRefresh: z.string(),
+  datasets: z.array(
+    z.object({
+      slug: z.string(),
+      downloadedAt: z.string(),
+    }),
+  ),
+  // Seasons with committed data, newest-first (TASK-701). Powers TASK-702's
+  // getAvailableSeasons() so the switcher only offers seasons that actually exist.
+  seasons: z.array(z.number().int()),
+  // Per-season entity row counts, keyed by the season-string (e.g. "2024").
+  // Was a single flat object pre-TASK-701 (single committed season).
+  rowCounts: z.record(z.string(), RowCountsSchema),
+});
+
+export const StandingSchema = z.object({
+  rank: z.number().int().positive(),
+  teamId: z.number().int().positive(),
+  teamName: z.string(),
+  played: z.number().int().nonnegative(),
+  won: z.number().int().nonnegative(),
+  drawn: z.number().int().nonnegative(),
+  lost: z.number().int().nonnegative(),
+  goalsFor: z.number().int().nonnegative(),
+  goalsAgainst: z.number().int().nonnegative(),
+  goalsDiff: z.number().int(),
+  points: z.number().int().nonnegative(),
+});
+
+export const TeamSchema = z.object({
+  id: z.number().int().positive(),
+  name: z.string(),
+  code: z.string().length(3),
+  founded: z.number().int().positive(),
+  venue: z.string(),
+  capacity: z.number().int().positive(),
+  logo: z.string(),
+});
+
+const TeamMatchStatsSchema = z.object({
+  shots: z.number().int().nonnegative(),
+  shotsOnTarget: z.number().int().nonnegative(),
+  corners: z.number().int().nonnegative(),
+  fouls: z.number().int().nonnegative(),
+  yellowCards: z.number().int().nonnegative(),
+  redCards: z.number().int().nonnegative(),
+});
+
+export const FixtureSchema = z.object({
+  id: z.string(),
+  date: z.string(),
+  homeTeamId: z.number().int().positive(),
+  awayTeamId: z.number().int().positive(),
+  homeTeamName: z.string(),
+  awayTeamName: z.string(),
+  homeScore: z.number().int().nullable(),
+  awayScore: z.number().int().nullable(),
+  venue: z.string(),
+  teamStats: z
+    .object({
+      home: TeamMatchStatsSchema,
+      away: TeamMatchStatsSchema,
+    })
+    .nullable(),
+  // TASK-1301: half-time score (from 1995-96) + referee (from 2000-01).
+  // Both null when unavailable.
+  halfTime: z
+    .object({
+      home: z.number().int(),
+      away: z.number().int(),
+    })
+    .nullable(),
+  referee: z.string().nullable(),
+});
+
+export const ComparisonMetricsSchema = z.object({
+  appearances: z.number().int().nullable(),
+  // Of which came on as a substitute (TASK-M39, official PL API `total_sub_on`).
+  // Optional so the source transforms that don't set it omit it (the committed
+  // sub-appearances map fills it); a profile shows "35 (2)" when present.
+  subAppearances: z.number().int().nullable().optional(),
+  goals: z.number().int().nullable(),
+  assists: z.number().int().nullable(),
+  passAccuracy: z.number().nullable(),
+  keyPasses: z.number().int().nullable(),
+  tackles: z.number().int().nullable(),
+  interceptions: z.number().int().nullable(),
+  duelsWon: z.number().int().nullable(),
+  dribblesCompleted: z.number().int().nullable(),
+  shotsOnTarget: z.number().int().nullable(),
+  yellowCards: z.number().int().nullable(),
+  redCards: z.number().int().nullable(),
+  // TASK-M20: expected goals + expected assists. Optional/additive + non-int
+  // (floats, 1dp) — null for the eras whose data carries no xG.
+  xg: z.number().nullable().optional(),
+  xa: z.number().nullable().optional(),
+  // TASK-M18: clean sheets (per-player, ~2000-01+) + GK saves (~2006-07+).
+  // Optional/additive like subAppearances/xg — null where the era has none.
+  // Surfaced on the /leaderboards page.
+  cleanSheets: z.number().int().nullable().optional(),
+  saves: z.number().int().nullable().optional(),
+});
+
+// TASK-M07: one club's slice of a player's season — emitted only for a
+// mid-season transferee (the 2017-24 era carries a row per club).
+// The 5 universal counting stats only; rate metrics (passAccuracy) don't
+// sum per-club and are omitted. Per-split stats sum to the aggregate `metrics`.
+export const PlayerSeasonSplitSchema = z.object({
+  teamId: z.number().int().positive(),
+  teamName: z.string(),
+  appearances: z.number().int().nonnegative().nullable(),
+  goals: z.number().int().nonnegative().nullable(),
+  assists: z.number().int().nonnegative().nullable(),
+  yellowCards: z.number().int().nonnegative().nullable(),
+  redCards: z.number().int().nonnegative().nullable(),
+});
+
+export const PlayerSchema = z.object({
+  id: z.number().int().positive(),
+  name: z.string(),
+  teamId: z.number().int().positive(),
+  teamName: z.string(),
+  position: z.enum(["Goalkeeper", "Defender", "Midfielder", "Forward"]),
+  photo: z.string().nullable(),
+  // TASK-M15: birth + nationality. All optional/additive — existing committed
+  // files validate unchanged. `birthDate` (full ISO) is present where a bio
+  // match succeeds; `birthYear` is the universal age fallback.
+  birthDate: z.string().nullable().optional(),
+  birthYear: z.number().int().nullable().optional(),
+  nationality: z.string().nullable().optional(),
+  nationalityCode: z.string().nullable().optional(),
+  // TASK-M40: ISO date of death, null/absent for living players. Drives the
+  // "until death" age + the deceased visual.
+  dateOfDeath: z.string().nullable().optional(),
+  metrics: ComparisonMetricsSchema,
+  // TASK-M07: per-club breakdown for a mid-season transferee (2017-24 era);
+  // undefined for single-club seasons. Additive — aggregate `metrics`/`teamId`
+  // and the id registry are unchanged.
+  splits: z.array(PlayerSeasonSplitSchema).optional(),
+});
+
+export const LeaderboardEntrySchema = z.object({
+  rank: z.number().int().positive(),
+  playerId: z.number().int().positive(),
+  playerName: z.string(),
+  teamId: z.number().int().positive(),
+  teamName: z.string(),
+  value: z.number(),
+});
+
+export const LeaderboardsSchema = z.object({
+  topScorers: z.array(LeaderboardEntrySchema),
+  topAssists: z.array(LeaderboardEntrySchema),
+  topYellowCards: z.array(LeaderboardEntrySchema),
+  topRedCards: z.array(LeaderboardEntrySchema),
+});
+
+// === Lineups + match events (Phase 10 — TheSportsDB) ====================
+
+const LineupPlayerRawSchema = z.object({
+  id: z.number().int(), // TheSportsDB idPlayer (numeric, unique within a match)
+  name: z.string(),
+  number: z.number().int().nullable(),
+  pos: z.string().nullable(),
+  grid: z.string().nullable(), // "row:col" synthesized from pos; null → bench
+  isCaptain: z.boolean().optional(), // TASK-M21 — emitted only when true (armband)
+});
+
+const TeamLineupRawSchema = z.object({
+  teamId: z.number().int().positive(), // OUR team id
+  formation: z.string(), // "" when indeterminate
+  startXI: z.array(LineupPlayerRawSchema),
+  substitutes: z.array(LineupPlayerRawSchema),
+  manager: z.string().nullable().optional(), // TASK-M21 — SDP era only; legacy omits
+});
+
+export const FixtureLineupsSchema = z.object({
+  home: TeamLineupRawSchema,
+  away: TeamLineupRawSchema,
+});
+
+/** lineups-<season>.json: keyed by fixture id. */
+export const LineupsFileSchema = z.record(z.string(), FixtureLineupsSchema);
+
+export const MatchEventRawSchema = z.object({
+  type: z.enum(["Goal", "Card", "subst", "Var"]),
+  detail: z.string(),
+  minute: z.number().int().nonnegative(),
+  extra: z.number().int().nullable(),
+  teamId: z.number().int().positive(), // OUR team id
+  player: z.string().nullable(),
+  assist: z.string().nullable(),
+});
+
+/** events-<season>.json: keyed by fixture id → ordered event list. */
+export const EventsFileSchema = z.record(z.string(), z.array(MatchEventRawSchema));
+
+// === Cross-season search index (TASK-M08) ===============================
+
+/**
+ * search-index.json: one entry per stable id across ALL committed seasons, so
+ * the global ⌘K search finds historical players/clubs regardless of the active
+ * season. Each entry carries the NEWEST season the entity appears in (its latest
+ * name/club/photo) — the link target so the result lands on a season with data.
+ */
+export const SearchIndexSchema = z.object({
+  players: z.array(
+    z.object({
+      id: z.number().int().positive(),
+      name: z.string(),
+      teamId: z.number().int().positive(),
+      teamName: z.string(),
+      photo: z.string().nullable(),
+      latestSeason: z.number().int(),
+      // Prominence signals for search ranking (TASK-M29), summed across ALL the
+      // player's seasons: `ga` = goals + assists (primary), `apps` = appearances
+      // (tiebreak — keeps famous defenders/keepers near the top despite low g+a).
+      ga: z.number().int().nonnegative(),
+      apps: z.number().int().nonnegative(),
+      // Curated search nicknames (TASK-M30) — optional + omitted for the ~5,000
+      // players without one, so the committed index stays lean. Initials (kdb,
+      // rvp) are derived at query time and NOT stored here.
+      aliases: z.array(z.string()).optional(),
+      // TASK-1606: Arabic display name (present only when a `names-ar` map covers
+      // this id) — lets ⌘K match Arabic queries + render Arabic on /ar.
+      nameAr: z.string().optional(),
+    }),
+  ),
+  teams: z.array(
+    z.object({
+      id: z.number().int().positive(),
+      name: z.string(),
+      latestSeason: z.number().int(),
+      nameAr: z.string().optional(),
+    }),
+  ),
+  // Managers in the cross-season palette (TASK-M51 follow-up). Manager ids are
+  // STRINGS (numeric PL id for modern managers, `lm-<slug>` for legacy-only ones)
+  // — distinct from the numeric player/team ids above. `.default([])` keeps an
+  // older committed index (built before this field existed) parseable.
+  managers: z
+    .array(
+      z.object({
+        id: z.string(),
+        name: z.string(),
+        photo: z.string().nullable(),
+        latestSeason: z.number().int(),
+        nameAr: z.string().optional(),
+      }),
+    )
+    .default([]),
+});
+
+// TASK-1606: an Arabic-name sidecar map — stable id (string) → Arabic name.
+// One file per entity type under `data/i18n/names-ar/`; applied by active locale.
+export const ArNameMapSchema = z.record(z.string(), z.string());
+export type ArNameMap = z.infer<typeof ArNameMapSchema>;
+
+// === TASK-M26: committed per-player goal-attribution map ==================
+// Built offline by `pnpm sync:data:goal-attribution` from events-*/fixtures-*.
+// `players[id].opponents` = teamId -> goals scored against that club (career);
+// `teams` = teamId -> club name (for opponent labels). hatTricks/multiGoalGames
+// are precomputed per-(player,fixture) goal-count rollups.
+export const GoalAttributionPlayerSchema = z.object({
+  opponents: z.record(z.string(), z.number().int().nonnegative()),
+  hatTricks: z.number().int().nonnegative(),
+  multiGoalGames: z.number().int().nonnegative(),
+});
+
+export const GoalAttributionSchema = z.object({
+  teams: z.record(z.string(), z.string()),
+  players: z.record(z.string(), GoalAttributionPlayerSchema),
+});
+
+export type GoalAttribution = z.infer<typeof GoalAttributionSchema>;
+export type GoalAttributionPlayer = z.infer<typeof GoalAttributionPlayerSchema>;
+
+// TASK-M41: committed `captains.json` — season (string) → our teamId (string) →
+// the stable player id of that team's most-frequent captain that season,
+// derived from the lineup armband data (SDP `isCaptain` / legacy `captain`).
+export const CaptainsFileSchema = z.record(
+  z.string(),
+  z.record(z.string(), z.number().int().positive()),
+);
+
+/**
+ * managers.json (TASK-M48): season → our teamId → the managers who took charge
+ * that season (most matches first), each with the PL person id (= a PL-CDN photo
+ * code) + display name + match count.
+ */
+export const ManagersFileSchema = z.record(
+  z.string(),
+  z.record(
+    z.string(),
+    z.array(
+      z.object({
+        id: z.string(),
+        name: z.string(),
+        matches: z.number().int().positive(),
+        win: z.number().int().nonnegative(),
+        draw: z.number().int().nonnegative(),
+        loss: z.number().int().nonnegative(),
+        gf: z.number().int().nonnegative(),
+        ga: z.number().int().nonnegative(),
+      }),
+    ),
+  ),
+);
+
+/** manager-bio.json (TASK-M48): normalized-name key → DOB + (optional) date of death. */
+export const ManagerBioFileSchema = z.record(
+  z.string(),
+  z.object({
+    birthDate: z.string().nullable(),
+    dateOfDeath: z.string().nullable(),
+    nationality: z.string().nullable().optional(),
+    nationalityCode: z.string().nullable().optional(),
+    photo: z.string().nullable().optional(),
+  }),
+);
+
+/**
+ * team-colors.json (TASK-M47): our teamId (string key) → the club's home + away
+ * kit colors (hex), used to paint the lineup pitch dots. Curated/committed.
+ */
+export const TeamColorsFileSchema = z.record(
+  z.string(),
+  z.object({
+    home: z.string().regex(/^#[0-9a-fA-F]{6}$/),
+    away: z.string().regex(/^#[0-9a-fA-F]{6}$/),
+  }),
+);
+
+/**
+ * club-logos.json (TASK-M54): our teamId (string key) → the club's HISTORICAL
+ * crest variants, each `{ since, until, file }` (PL season start-years,
+ * inclusive). The current crest is implicit (`public/logos/<teamId>.png`) — any
+ * season past the last range, or a club not in this file, uses it. `file` is a
+ * filename under `public/logos/history/`.
+ */
+export const ClubLogosFileSchema = z.record(
+  z.string(),
+  z.array(
+    z.object({
+      since: z.number().int(),
+      until: z.number().int(),
+      file: z.string().min(1),
+    }),
+  ),
+);
+
+/**
+ * club-metadata.json (TASK-M19): our teamId (string key) → club identity facts
+ * (city + stadium image). Both fields are nullable — a club the pipeline can't
+ * resolve a field for renders it gracefully.
+ */
+export const ClubMetadataFileSchema = z.record(
+  z.string(),
+  z.object({
+    city: z.string().nullable(),
+    stadiumImage: z.string().nullable(),
+  }),
+);
+
+// Convenience array schemas for the output files
+export const StandingsFileSchema = z.array(StandingSchema);
+export const TeamsFileSchema = z.array(TeamSchema);
+export const FixturesFileSchema = z.array(FixtureSchema);
+export const PlayersFileSchema = z.array(PlayerSchema);
+
+// TASK-M16: per-fixture attendance + venue. A committed sidecar map
+// (data/fixture-extras-<season>.json) keyed by OUR fixture id, joined
+// read-time in getFixtureDetail (like captains.json / managers.json). Both
+// fields nullable: a match with no attendance keeps venue; a join miss → omitted.
+export const FixtureExtrasFileSchema = z.record(
+  z.string(),
+  z.object({
+    attendance: z.number().int().nullable(),
+    venue: z.string().nullable(),
+  }),
+);
+
+export type Meta = z.infer<typeof MetaSchema>;
+export type RowCounts = z.infer<typeof RowCountsSchema>;
+export type Standing = z.infer<typeof StandingSchema>;
+export type Team = z.infer<typeof TeamSchema>;
+export type Fixture = z.infer<typeof FixtureSchema>;
+export type Player = z.infer<typeof PlayerSchema>;
+export type PlayerSeasonSplit = z.infer<typeof PlayerSeasonSplitSchema>;
+export type ComparisonMetrics = z.infer<typeof ComparisonMetricsSchema>;
+export type LeaderboardEntry = z.infer<typeof LeaderboardEntrySchema>;
+export type Leaderboards = z.infer<typeof LeaderboardsSchema>;
+export type FixtureExtrasFile = z.infer<typeof FixtureExtrasFileSchema>;
+export type FixtureLineups = z.infer<typeof FixtureLineupsSchema>;
+export type TeamLineupRaw = z.infer<typeof TeamLineupRawSchema>;
+export type LineupPlayerRaw = z.infer<typeof LineupPlayerRawSchema>;
+export type MatchEventRaw = z.infer<typeof MatchEventRawSchema>;
+export type LineupsFile = z.infer<typeof LineupsFileSchema>;
+export type EventsFile = z.infer<typeof EventsFileSchema>;
+export type SearchIndex = z.infer<typeof SearchIndexSchema>;
+export type CaptainsFile = z.infer<typeof CaptainsFileSchema>;
+export type ClubMetadataFile = z.infer<typeof ClubMetadataFileSchema>;
+export type TeamColorsFile = z.infer<typeof TeamColorsFileSchema>;
+export type ClubLogosFile = z.infer<typeof ClubLogosFileSchema>;
+export type ManagersFile = z.infer<typeof ManagersFileSchema>;
+export type ManagerBioFile = z.infer<typeof ManagerBioFileSchema>;

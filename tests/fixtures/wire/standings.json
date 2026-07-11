@@ -1,0 +1,131 @@
+{
+  "get": "standings",
+  "parameters": { "league": "39", "season": "2024" },
+  "errors": [],
+  "results": 1,
+  "paging": { "current": 1, "total": 1 },
+  "response": [
+    {
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "flag": "https://media.api-sports.io/flags/gb.svg",
+        "season": 2024,
+        "standings": [
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 50,
+                "name": "Manchester City",
+                "logo": "https://media.api-sports.io/football/teams/50.png"
+              },
+              "points": 28,
+              "goalsDiff": 18,
+              "group": "Premier League",
+              "form": "WWWWW",
+              "status": "same",
+              "description": "Promotion - Champions League (Group Stage)",
+              "all": {
+                "played": 10,
+                "win": 9,
+                "draw": 1,
+                "lose": 0,
+                "goals": { "for": 25, "against": 7 }
+              },
+              "home": {
+                "played": 5,
+                "win": 5,
+                "draw": 0,
+                "lose": 0,
+                "goals": { "for": 14, "against": 3 }
+              },
+              "away": {
+                "played": 5,
+                "win": 4,
+                "draw": 1,
+                "lose": 0,
+                "goals": { "for": 11, "against": 4 }
+              },
+              "update": "2024-10-27T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 42,
+                "name": "Arsenal",
+                "logo": "https://media.api-sports.io/football/teams/42.png"
+              },
+              "points": 25,
+              "goalsDiff": 15,
+              "group": "Premier League",
+              "form": "WWWLW",
+              "status": "same",
+              "description": "Promotion - Champions League (Group Stage)",
+              "all": {
+                "played": 10,
+                "win": 8,
+                "draw": 1,
+                "lose": 1,
+                "goals": { "for": 23, "against": 8 }
+              },
+              "home": {
+                "played": 5,
+                "win": 5,
+                "draw": 0,
+                "lose": 0,
+                "goals": { "for": 13, "against": 3 }
+              },
+              "away": {
+                "played": 5,
+                "win": 3,
+                "draw": 1,
+                "lose": 1,
+                "goals": { "for": 10, "against": 5 }
+              },
+              "update": "2024-10-27T00:00:00+00:00"
+            },
+            {
+              "rank": 20,
+              "team": {
+                "id": 35,
+                "name": "Bournemouth",
+                "logo": "https://media.api-sports.io/football/teams/35.png"
+              },
+              "points": 4,
+              "goalsDiff": -12,
+              "group": "Premier League",
+              "form": "LLDLL",
+              "status": "same",
+              "description": "Relegation - Championship",
+              "all": {
+                "played": 10,
+                "win": 1,
+                "draw": 1,
+                "lose": 8,
+                "goals": { "for": 6, "against": 18 }
+              },
+              "home": {
+                "played": 5,
+                "win": 1,
+                "draw": 0,
+                "lose": 4,
+                "goals": { "for": 4, "against": 10 }
+              },
+              "away": {
+                "played": 5,
+                "win": 0,
+                "draw": 1,
+                "lose": 4,
+                "goals": { "for": 2, "against": 8 }
+              },
+              "update": "2024-10-27T00:00:00+00:00"
+            }
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,982 @@
+{
+  "25": {
+    "birthDate": "1959-02-07",
+    "dateOfDeath": null,
+    "nationality": "Republic of Ireland",
+    "nationalityCode": "ie",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Mick%20McCarthy%20Wolverhampton%20Wanderers%20Manager%20%28cropped%29.jpg"
+  },
+  "36": {
+    "birthDate": null,
+    "dateOfDeath": null,
+    "nationality": "Spain",
+    "nationalityCode": "es",
+    "photo": null
+  },
+  "39": {
+    "birthDate": "1947-09-03",
+    "dateOfDeath": "2020-12-14",
+    "nationality": "France",
+    "nationalityCode": "fr",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/G%C3%A9rard%20Houllier%20%28cropped%29.jpg"
+  },
+  "51": {
+    "birthDate": "1949-10-22",
+    "dateOfDeath": null,
+    "nationality": "France",
+    "nationalityCode": "fr",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/25th%20Laureus%20World%20Sports%20Awards%20-%20Red%20Carpet%20-%20Ars%C3%A8ne%20Wenger%20-%20240422%20192850%20%28cropped%29.jpg"
+  },
+  "58": {
+    "birthDate": "1941-12-31",
+    "dateOfDeath": null,
+    "nationality": "Scotland",
+    "nationalityCode": "gb-sct",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Alex%20Ferguson.jpg"
+  },
+  "80": {
+    "birthDate": "1951-10-20",
+    "dateOfDeath": null,
+    "nationality": "Italy",
+    "nationalityCode": "it",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Claudio%20Ranieri%20Inter%20%28cropped%29.jpg"
+  },
+  "81": {
+    "birthDate": "1960-12-31",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Steve%20Bruce.jpg"
+  },
+  "83": {
+    "birthDate": "1954-10-19",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Big%20Sam%20Allardyce%20signs%20autographs%20for%20fans%20October%202014.jpg"
+  },
+  "84": {
+    "birthDate": "1957-11-08",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/AlanCurbishley.JPG"
+  },
+  "85": {
+    "birthDate": "1963-04-25",
+    "dateOfDeath": null,
+    "nationality": "Scotland",
+    "nationalityCode": "gb-sct",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/David%20Moyes%202025.jpg"
+  },
+  "87": {
+    "birthDate": "1951-02-14",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kevin%20keegan%20panini%20card%20%28cropped%29.jpg"
+  },
+  "88": {
+    "birthDate": "1961-05-03",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Steve%20McClaren%202012%201%20%28cropped%29.jpg"
+  },
+  "114": {
+    "birthDate": "1954-09-25",
+    "dateOfDeath": null,
+    "nationality": "Spain",
+    "nationalityCode": "es",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Juande%20Ramos-ua.jpeg"
+  },
+  "127": {
+    "birthDate": "1947-03-02",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Harry%20Redknapp%202011%20%28cropped%29.jpg"
+  },
+  "134": {
+    "birthDate": "1963-01-26",
+    "dateOfDeath": null,
+    "nationality": "Portugal",
+    "nationalityCode": "pt",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Jos%C3%A9%20Mourinho%2020250206%20%281%29.jpg"
+  },
+  "157": {
+    "birthDate": "1952-03-01",
+    "dateOfDeath": null,
+    "nationality": "Northern Ireland",
+    "nationalityCode": "gb-nir",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Martin%20O%27Neill%20%28cropped%29.jpg"
+  },
+  "163": {
+    "birthDate": "1963-11-01",
+    "dateOfDeath": null,
+    "nationality": "Wales",
+    "nationalityCode": "gb-wls",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/1%20mark%20hughes%202015.jpg"
+  },
+  "164": {
+    "birthDate": "1956-01-16",
+    "dateOfDeath": null,
+    "nationality": "Netherlands",
+    "nationalityCode": "nl",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Martin%20Jol%202010.jpg"
+  },
+  "166": {
+    "birthDate": "1946-12-27",
+    "dateOfDeath": "2024-04-07",
+    "nationality": "Republic of Ireland",
+    "nationalityCode": "ie",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Joe%20Kinnear%20Hull%20City%20v.%20Newcastle%20United%201.png"
+  },
+  "168": {
+    "birthDate": "1961-07-18",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Alanpardew.jpg"
+  },
+  "171": {
+    "birthDate": "1965-01-09",
+    "dateOfDeath": null,
+    "nationality": "Northern Ireland",
+    "nationalityCode": "gb-nir",
+    "photo": null
+  },
+  "183": {
+    "birthDate": "1948-12-01",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/20111023214701%21Warnock%20with%20a%20fan%20during%20Pre-Season%202011%20cropped.jpg"
+  },
+  "195": {
+    "birthDate": "1959-01-21",
+    "dateOfDeath": null,
+    "nationality": "Scotland",
+    "nationalityCode": "gb-sct",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexmcleish2012.jpg"
+  },
+  "1280": {
+    "birthDate": "1947-08-09",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/RoyH.JPG"
+  },
+  "1339": {
+    "birthDate": "1964-11-12",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "37254": {
+    "birthDate": "1970-09-03",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Southgate%202023.jpg"
+  },
+  "37335": {
+    "birthDate": "1971-08-10",
+    "dateOfDeath": null,
+    "nationality": "Republic of Ireland",
+    "nationalityCode": "ie",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Roy%20keane%202014.jpg"
+  },
+  "37367": {
+    "birthDate": "1949-05-29",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Brian%20Kidd%20%28cropped%29.JPG"
+  },
+  "37369": {
+    "birthDate": "1951-03-04",
+    "dateOfDeath": null,
+    "nationality": "Scotland",
+    "nationalityCode": "gb-sct",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kenny%20Dalglish%202009%20Singapore.jpg"
+  },
+  "37372": {
+    "birthDate": "1958-12-11",
+    "dateOfDeath": null,
+    "nationality": "Republic of Ireland",
+    "nationalityCode": "ie",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chris%20Hughton%20July%202015.jpg"
+  },
+  "37376": {
+    "birthDate": "1963-08-29",
+    "dateOfDeath": null,
+    "nationality": "Scotland",
+    "nationalityCode": "gb-sct",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Steve%20Clarke%202019.jpg"
+  },
+  "37377": {
+    "birthDate": "1965-01-16",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/John%20Carver%202014.jpg"
+  },
+  "37398": {
+    "birthDate": "1963-08-21",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nigel%20Pearson%202013.jpg"
+  },
+  "37459": {
+    "birthDate": "1959-05-02",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "37484": {
+    "birthDate": "1960-12-22",
+    "dateOfDeath": null,
+    "nationality": "Scotland",
+    "nationalityCode": "gb-sct",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/MacDonald%2C%20Kevin%20%28cropped%29.jpg"
+  },
+  "37488": {
+    "birthDate": "1951-12-15",
+    "dateOfDeath": null,
+    "nationality": "Scotland",
+    "nationalityCode": "gb-sct",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Joe%20Jordan.jpg"
+  },
+  "37698": {
+    "birthDate": "1955-02-06",
+    "dateOfDeath": null,
+    "nationality": "Israel",
+    "nationalityCode": "il",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Avram%20Grant%202012.jpg"
+  },
+  "37764": {
+    "birthDate": "1963-10-01",
+    "dateOfDeath": null,
+    "nationality": "Scotland",
+    "nationalityCode": "gb-sct",
+    "photo": null
+  },
+  "lm-aidy-boothroyd": {
+    "birthDate": "1971-02-08",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B0%20U-21%20-%20%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D1%8F%20U-21%200-2.%2010%20%D0%BD%D0%BE%D1%8F%D0%B1%D1%80%D1%8F%202017%20%D0%B3%D0%BE%D0%B4%D0%B0%20%E2%80%94%20811620.jpg"
+  },
+  "lm-alain-perrin": {
+    "birthDate": "1956-10-07",
+    "dateOfDeath": null,
+    "nationality": "France",
+    "nationalityCode": "fr",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Alain%20Perrin%20al%20khor.jpg"
+  },
+  "lm-alan-ball": {
+    "birthDate": null,
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "lm-alan-smith": {
+    "birthDate": null,
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Rsz%20Alansmith%2020040727.jpg"
+  },
+  "lm-archie-knox": {
+    "birthDate": "1947-05-01",
+    "dateOfDeath": null,
+    "nationality": "Scotland",
+    "nationalityCode": "gb-sct",
+    "photo": null
+  },
+  "lm-attilio-lombardo": {
+    "birthDate": "1966-01-06",
+    "dateOfDeath": null,
+    "nationality": "Italy",
+    "nationalityCode": "it",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Attilio%20Lombardo.JPG"
+  },
+  "lm-billy-bonds": {
+    "birthDate": "1946-09-17",
+    "dateOfDeath": "2025-11-30",
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/BillyBonds.JPG"
+  },
+  "lm-billy-davies": {
+    "birthDate": "1964-05-31",
+    "dateOfDeath": null,
+    "nationality": "Scotland",
+    "nationalityCode": "gb-sct",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Billy%20Davies%20clipped.jpg"
+  },
+  "lm-billy-mcewan": {
+    "birthDate": "1951-06-20",
+    "dateOfDeath": "2022-02-17",
+    "nationality": "Scotland",
+    "nationalityCode": "gb-sct",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Billy%20mac%2007.jpg"
+  },
+  "lm-bobby-gould": {
+    "birthDate": "1946-06-12",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "lm-bobby-robson": {
+    "birthDate": "1933-02-18",
+    "dateOfDeath": "2009-07-31",
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bobby%20Robson%20Cropped.jpg"
+  },
+  "lm-brian-clough": {
+    "birthDate": "1935-03-21",
+    "dateOfDeath": "2004-09-20",
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Aankomst%20Nottingham%20Forrest%20op%20Schiphol%2C%20Ajax%201%20tegenstanders%20voor%20de%20Europa%20Cup%2C%20Bestanddeelnr%20930-7831.jpg"
+  },
+  "lm-brian-horton": {
+    "birthDate": "1949-02-04",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "lm-brian-little": {
+    "birthDate": "1953-11-25",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Little%2C%20Brian.jpg"
+  },
+  "lm-bruce-rioch": {
+    "birthDate": "1947-09-06",
+    "dateOfDeath": null,
+    "nationality": "Scotland",
+    "nationalityCode": "gb-sct",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bruce%20Rioch.jpg"
+  },
+  "lm-bryan-robson": {
+    "birthDate": "1957-01-11",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bryan%20Robson%20Thailand%202009-11-01%20%282%29.jpg"
+  },
+  "lm-chris-coleman": {
+    "birthDate": "1970-06-10",
+    "dateOfDeath": null,
+    "nationality": "Wales",
+    "nationalityCode": "gb-wls",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/AUT%20vs.%20WAL%202016-10-06%20%28097%29.jpg"
+  },
+  "lm-chris-hutchings": {
+    "birthDate": "1957-07-05",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "lm-christian-gross": {
+    "birthDate": "1954-08-14",
+    "dateOfDeath": null,
+    "nationality": "Switzerland",
+    "nationalityCode": "ch",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Christian-gross.jpg"
+  },
+  "lm-colin-todd": {
+    "birthDate": "1948-12-12",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20Cup%201972-73%20-%20Juventus%20v%20Derby%20County%20-%20Colin%20Todd%20%28cropped%29.jpg"
+  },
+  "lm-danny-wilson": {
+    "birthDate": "1960-01-01",
+    "dateOfDeath": null,
+    "nationality": "Northern Ireland",
+    "nationalityCode": "gb-nir",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Wilson%2C%20Danny.jpg"
+  },
+  "lm-dave-bassett": {
+    "birthDate": "1944-09-04",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "lm-dave-jones": {
+    "birthDate": "1956-08-17",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dave%20Jones.jpg"
+  },
+  "lm-dave-merrington": {
+    "birthDate": null,
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "lm-dave-watson": {
+    "birthDate": "1961-11-20",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "lm-david-o-leary": {
+    "birthDate": "1958-05-02",
+    "dateOfDeath": null,
+    "nationality": "Republic of Ireland",
+    "nationalityCode": "ie",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/David%20O%27Leary%20%281981%29.jpg"
+  },
+  "lm-david-pleat": {
+    "birthDate": "1945-01-15",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "lm-david-webb": {
+    "birthDate": "1946-04-09",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "lm-doug-livermore": {
+    "birthDate": "1947-12-27",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Doug%20Livermore%201993.JPG"
+  },
+  "lm-eddie-gray": {
+    "birthDate": "1948-01-17",
+    "dateOfDeath": null,
+    "nationality": "Scotland",
+    "nationalityCode": "gb-sct",
+    "photo": null
+  },
+  "lm-egil-olsen": {
+    "birthDate": null,
+    "dateOfDeath": null,
+    "nationality": "Norway",
+    "nationalityCode": "no",
+    "photo": null
+  },
+  "lm-frank-barlow": {
+    "birthDate": "1946-10-15",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "lm-frank-burrows": {
+    "birthDate": "1944-01-30",
+    "dateOfDeath": "2021-11-24",
+    "nationality": "Scotland",
+    "nationalityCode": "gb-sct",
+    "photo": null
+  },
+  "lm-frank-clark": {
+    "birthDate": "1943-09-09",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "lm-george-burley": {
+    "birthDate": "1956-06-03",
+    "dateOfDeath": null,
+    "nationality": "Scotland",
+    "nationalityCode": "gb-sct",
+    "photo": null
+  },
+  "lm-george-graham": {
+    "birthDate": "1944-11-30",
+    "dateOfDeath": null,
+    "nationality": "Scotland",
+    "nationalityCode": "gb-sct",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/George%20Graham%20%281970%29.png"
+  },
+  "lm-gerry-francis": {
+    "birthDate": "1951-12-06",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerry%20Francis%2020092025%20%282%29.jpg"
+  },
+  "lm-gianluca-vialli": {
+    "birthDate": "1964-07-09",
+    "dateOfDeath": "2023-01-06",
+    "nationality": "Italy",
+    "nationalityCode": "it",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gianluca%20Vialli.jpg"
+  },
+  "lm-glenn-hoddle": {
+    "birthDate": "1957-10-27",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Glenn%20Hoddle2.jpg"
+  },
+  "lm-glenn-roeder": {
+    "birthDate": "1955-12-13",
+    "dateOfDeath": "2021-02-28",
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "lm-gordon-strachan": {
+    "birthDate": "1957-02-09",
+    "dateOfDeath": null,
+    "nationality": "Scotland",
+    "nationalityCode": "gb-sct",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gordon%20David%20Strachan.jpg"
+  },
+  "lm-graeme-souness": {
+    "birthDate": "1953-05-06",
+    "dateOfDeath": null,
+    "nationality": "Scotland",
+    "nationalityCode": "gb-sct",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Souness%20%28retouched%29.jpg"
+  },
+  "lm-graham-rix": {
+    "birthDate": "1957-10-23",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "lm-graham-taylor": {
+    "birthDate": "1944-09-15",
+    "dateOfDeath": "2017-01-12",
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Graham%20Taylor.jpg"
+  },
+  "lm-howard-kendall": {
+    "birthDate": "1946-05-22",
+    "dateOfDeath": "2015-10-17",
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Statue%20of%20Howard%20Kendall%2C%20Everton%27s%20Holy%20Trinity.jpg"
+  },
+  "lm-howard-wilkinson": {
+    "birthDate": "1943-11-13",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "lm-ian-branfoot": {
+    "birthDate": "1947-01-26",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "lm-ian-porterfield": {
+    "birthDate": "1946-02-11",
+    "dateOfDeath": "2007-09-11",
+    "nationality": "Scotland",
+    "nationalityCode": "gb-sct",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Ianporterfieldgoal.jpg"
+  },
+  "lm-jacques-santini": {
+    "birthDate": "1952-04-25",
+    "dateOfDeath": null,
+    "nationality": "France",
+    "nationalityCode": "fr",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Jacques%20Santini%20en%201974.jpg"
+  },
+  "lm-jean-tigana": {
+    "birthDate": "1955-06-23",
+    "dateOfDeath": null,
+    "nationality": "France",
+    "nationalityCode": "fr",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Tigana%20cropped.jpg"
+  },
+  "lm-jim-barron": {
+    "birthDate": "1943-10-19",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "lm-jim-jefferies": {
+    "birthDate": "1950-11-22",
+    "dateOfDeath": null,
+    "nationality": "Scotland",
+    "nationalityCode": "gb-sct",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Jim%20Jefferies%20-%20Hearts.jpg"
+  },
+  "lm-jim-smith": {
+    "birthDate": "1940-10-17",
+    "dateOfDeath": "2019-12-10",
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/JimSmith.png"
+  },
+  "lm-jimmy-gabriel": {
+    "birthDate": "1940-10-10",
+    "dateOfDeath": "2021-07-10",
+    "nationality": "Scotland",
+    "nationalityCode": "gb-sct",
+    "photo": null
+  },
+  "lm-joe-royle": {
+    "birthDate": "1949-04-08",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "lm-john-deehan": {
+    "birthDate": "1957-08-06",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "lm-john-gorman": {
+    "birthDate": "1949-08-16",
+    "dateOfDeath": null,
+    "nationality": "Scotland",
+    "nationalityCode": "gb-sct",
+    "photo": null
+  },
+  "lm-john-gregory": {
+    "birthDate": "1954-05-11",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gregory%2C%20John.jpg"
+  },
+  "lm-john-lyall": {
+    "birthDate": "1940-02-24",
+    "dateOfDeath": "2006-04-18",
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "lm-lawrie-sanchez": {
+    "birthDate": "1959-10-22",
+    "dateOfDeath": null,
+    "nationality": "Northern Ireland",
+    "nationalityCode": "gb-nir",
+    "photo": null
+  },
+  "lm-lennie-lawrence": {
+    "birthDate": "1947-12-12",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "lm-les-reed": {
+    "birthDate": "1952-12-12",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Les%20Reed.jpg"
+  },
+  "lm-mark-mcghee": {
+    "birthDate": "1957-05-25",
+    "dateOfDeath": null,
+    "nationality": "Scotland",
+    "nationalityCode": "gb-sct",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Mark%20McGhee%20%28cropped%29.jpg"
+  },
+  "lm-micky-adams": {
+    "birthDate": "1961-11-08",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Micky%20Adams1.JPG"
+  },
+  "lm-mike-walker": {
+    "birthDate": "1945-11-28",
+    "dateOfDeath": null,
+    "nationality": "Wales",
+    "nationalityCode": "gb-wls",
+    "photo": null
+  },
+  "lm-nigel-worthington": {
+    "birthDate": "1961-11-04",
+    "dateOfDeath": null,
+    "nationality": "Northern Ireland",
+    "nationalityCode": "gb-nir",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nigel%20Worthington%2007-09-2013%201.jpg"
+  },
+  "lm-ossie-ardiles": {
+    "birthDate": null,
+    "dateOfDeath": null,
+    "nationality": "Argentina",
+    "nationalityCode": "ar",
+    "photo": null
+  },
+  "lm-pat-rice": {
+    "birthDate": "1949-03-17",
+    "dateOfDeath": null,
+    "nationality": "Northern Ireland",
+    "nationalityCode": "gb-nir",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Pat%20Rice%202015.jpg"
+  },
+  "lm-paul-goddard": {
+    "birthDate": "1959-10-12",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "lm-paul-jewell": {
+    "birthDate": "1964-09-28",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "lm-paul-sturrock": {
+    "birthDate": "1956-10-10",
+    "dateOfDeath": null,
+    "nationality": "Scotland",
+    "nationalityCode": "gb-sct",
+    "photo": null
+  },
+  "lm-peter-reid": {
+    "birthDate": "1956-06-20",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Peter%20Reid%20Sunderland%201998small.jpg"
+  },
+  "lm-peter-shreeves": {
+    "birthDate": "1940-11-30",
+    "dateOfDeath": null,
+    "nationality": "Wales",
+    "nationalityCode": "gb-wls",
+    "photo": null
+  },
+  "lm-peter-taylor": {
+    "birthDate": "1953-01-03",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Peter%20Taylor%202011.jpg"
+  },
+  "lm-phil-neal": {
+    "birthDate": "1951-02-20",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Phil-neal-1338116110.jpg"
+  },
+  "lm-phil-thompson": {
+    "birthDate": "1954-01-21",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Phil%20Thompson.jpg"
+  },
+  "lm-ray-harford": {
+    "birthDate": "1945-06-01",
+    "dateOfDeath": "2003-08-09",
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "lm-ray-lewington": {
+    "birthDate": "1956-09-07",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Ray%20Lewington.JPG"
+  },
+  "lm-ray-wilkins": {
+    "birthDate": "1956-09-14",
+    "dateOfDeath": "2018-04-04",
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Ray%20Wilkins%2018-10-2008%201.jpg"
+  },
+  "lm-ron-atkinson": {
+    "birthDate": "1939-03-18",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/RonAtkinson.JPG"
+  },
+  "lm-ron-noades": {
+    "birthDate": "1937-06-22",
+    "dateOfDeath": "2013-12-24",
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "lm-roy-evans": {
+    "birthDate": "1948-10-04",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Roy%20Evans%20%28cropped%29.JPG"
+  },
+  "lm-roy-mcfarland": {
+    "birthDate": "1948-04-05",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/RoyMcFarland03.jpg"
+  },
+  "lm-ruud-gullit": {
+    "birthDate": "1962-09-01",
+    "dateOfDeath": null,
+    "nationality": "Netherlands",
+    "nationalityCode": "nl",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/25th%20Laureus%20World%20Sports%20Awards%20-%20Ruud%20Gullit%20-%20240422%20131911%20%28cropped%29.jpg"
+  },
+  "lm-sammy-lee": {
+    "birthDate": "1959-02-07",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sammy%20Lee.jpg"
+  },
+  "lm-steve-coppell": {
+    "birthDate": "1955-07-09",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Steve%20coppell%202006%20promotion%20celebration%20cropped.JPG"
+  },
+  "lm-steve-perryman": {
+    "birthDate": "1951-12-21",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Steve%20Perryman%20%281981%29.jpg"
+  },
+  "lm-steve-wigley": {
+    "birthDate": "1961-10-15",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "lm-stewart-houston": {
+    "birthDate": "1949-08-20",
+    "dateOfDeath": null,
+    "nationality": "Scotland",
+    "nationalityCode": "gb-sct",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Coppa%20UEFA%201976-77%20-%20Juventus%20vs%20Manchester%20Utd%20-%20Stewart%20Houston%20e%20Roberto%20Boninsegna.jpg"
+  },
+  "lm-stuart-gray": {
+    "birthDate": "1960-04-19",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "lm-stuart-mccall": {
+    "birthDate": "1964-06-10",
+    "dateOfDeath": null,
+    "nationality": "Scotland",
+    "nationalityCode": "gb-sct",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Stuart%20mccall.jpg"
+  },
+  "lm-stuart-pearce": {
+    "birthDate": "1962-04-24",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Stuart%20Pearce.jpg"
+  },
+  "lm-sven-goran-eriksson": {
+    "birthDate": "1948-02-05",
+    "dateOfDeath": "2024-08-26",
+    "nationality": "Sweden",
+    "nationalityCode": "se",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sven-Goran%20Eriksson%202012.jpg"
+  },
+  "lm-terry-burton": {
+    "birthDate": "1952-11-08",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "lm-terry-mcdermott": {
+    "birthDate": "1951-12-08",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Amsterdam%20702%20voetbaltoernooi%20Ajax%20tegen%20Liverpool%2C%20Geels%20springt%20mee%20met%20doelm%2C%20Bestanddeelnr%20929-2965%20%28Terry%20McDermott%29.jpg"
+  },
+  "lm-terry-venables": {
+    "birthDate": "1943-01-06",
+    "dateOfDeath": "2023-11-25",
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Venables%20%281964%29%2C%20Bestanddeelnr%20917-2185.jpg"
+  },
+  "lm-tony-book": {
+    "birthDate": "1934-09-04",
+    "dateOfDeath": "2025-01-13",
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "lm-tony-parkes": {
+    "birthDate": "1949-05-05",
+    "dateOfDeath": "2026-04-22",
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null
+  },
+  "lm-trevor-brooking": {
+    "birthDate": "1948-10-02",
+    "dateOfDeath": null,
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Trevorbrooking.jpg"
+  },
+  "lm-trevor-francis": {
+    "birthDate": "1954-04-19",
+    "dateOfDeath": "2023-07-24",
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nottingham%20Forest%20FC%20%28Amsterdam%2C%201980%29%20-%20Trevor%20Francis.jpg"
+  },
+  "lm-velimir-zajec": {
+    "birthDate": "1956-02-12",
+    "dateOfDeath": null,
+    "nationality": "Croatia",
+    "nationalityCode": "hr",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Velimir%20Zajec.jpg"
+  },
+  "lm-walter-smith": {
+    "birthDate": "1948-02-24",
+    "dateOfDeath": "2021-10-26",
+    "nationality": "Scotland",
+    "nationalityCode": "gb-sct",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Walter%20Smith%20statue%202.jpg"
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "topAssists": [
+    {
+      "playerId": 1003033,
+      "playerName": "Steven Gerrard",
+      "rank": 1,
+      "teamId": 40,
+      "teamName": "Liverpool",
+      "value": 13
+    },
+    {
+      "playerId": 1002627,
+      "playerName": "Luis Suarez",
+      "rank": 2,
+      "teamId": 40,
+      "teamName": "Liverpool",
+      "value": 12
+    },
+    {
+      "playerId": 1001555,
+      "playerName": "Wayne Rooney",
+      "rank": 3,
+      "teamId": 33,
+      "teamName": "Manchester United",
+      "value": 10
+    },
+    {
+      "playerId": 1002897,
+      "playerName": "Rickie Lambert",
+      "rank": 4,
+      "teamId": 41,
+      "teamName": "Southampton",
+      "value": 10
+    },
+    {
+      "playerId": 1000363,
+      "playerName": "David Silva",
+      "rank": 5,
+      "teamId": 50,
+      "teamName": "Manchester City",
+      "value": 9
+    },
+    {
+      "playerId": 1001090,
+      "playerName": "Mesut Özil",
+      "rank": 6,
+      "teamId": 42,
+      "teamName": "Arsenal",
+      "value": 9
+    },
+    {
+      "playerId": 1001595,
+      "playerName": "Yaya Touré",
+      "rank": 7,
+      "teamId": 50,
+      "teamName": "Manchester City",
+      "value": 9
+    },
+    {
+      "playerId": 1000006,
+      "playerName": "Aaron Ramsey",
+      "rank": 8,
+      "teamId": 42,
+      "teamName": "Arsenal",
+      "value": 8
+    },
+    {
+      "playerId": 1000274,
+      "playerName": "Christian Eriksen",
+      "rank": 9,
+      "teamId": 47,
+      "teamName": "Tottenham Hotspur",
+      "value": 8
+    },
+    {
+      "playerId": 1000872,
+      "playerName": "Kevin Mirallas",
+      "rank": 10,
+      "teamId": 45,
+      "teamName": "Everton",
+      "value": 8
+    }
+  ],
+  "topRedCards": [
+    {
+      "playerId": 1003111,
+      "playerName": "Wes Brown",
+      "rank": 1,
+      "teamId": 746,
+      "teamName": "Sunderland",
+      "value": 3
+    },
+    {
+      "playerId": 1001603,
+      "playerName": "Younes Kaboul",
+      "rank": 2,
+      "teamId": 47,
+      "teamName": "Tottenham Hotspur",
+      "value": 2
+    },
+    {
+      "playerId": 1001957,
+      "playerName": "Allan McGregor",
+      "rank": 3,
+      "teamId": 64,
+      "teamName": "Hull City",
+      "value": 2
+    },
+    {
+      "playerId": 1002567,
+      "playerName": "Kevin Nolan",
+      "rank": 4,
+      "teamId": 48,
+      "teamName": "West Ham United",
+      "value": 2
+    },
+    {
+      "playerId": 1000104,
+      "playerName": "Andy Carroll",
+      "rank": 5,
+      "teamId": 48,
+      "teamName": "West Ham United",
+      "value": 1
+    },
+    {
+      "playerId": 1000340,
+      "playerName": "Danny Rose",
+      "rank": 6,
+      "teamId": 47,
+      "teamName": "Tottenham Hotspur",
+      "value": 1
+    },
+    {
+      "playerId": 1000777,
+      "playerName": "Jonathan Walters",
+      "rank": 7,
+      "teamId": 75,
+      "teamName": "Stoke City",
+      "value": 1
+    },
+    {
+      "playerId": 1000785,
+      "playerName": "Jordan Henderson",
+      "rank": 8,
+      "teamId": 40,
+      "teamName": "Liverpool",
+      "value": 1
+    },
+    {
+      "playerId": 1000881,
+      "playerName": "Kieran Gibbs",
+      "rank": 9,
+      "teamId": 42,
+      "teamName": "Arsenal",
+      "value": 1
+    },
+    {
+      "playerId": 1001103,
+      "playerName": "Michel Vorm",
+      "rank": 10,
+      "teamId": 76,
+      "teamName": "Swansea City",
+      "value": 1
+    }
+  ],
+  "topScorers": [
+    {
+      "playerId": 1002627,
+      "playerName": "Luis Suarez",
+      "rank": 1,
+      "teamId": 40,
+      "teamName": "Liverpool",
+      "value": 31
+    },
+    {
+      "playerId": 1000335,
+      "playerName": "Daniel Sturridge",
+      "rank": 2,
+      "teamId": 40,
+      "teamName": "Liverpool",
+      "value": 21
+    },
+    {
+      "playerId": 1001595,
+      "playerName": "Yaya Touré",
+      "rank": 3,
+      "teamId": 50,
+      "teamName": "Manchester City",
+      "value": 20
+    },
+    {
+      "playerId": 1001412,
+      "playerName": "Sergio Agüero",
+      "rank": 4,
+      "teamId": 50,
+      "teamName": "Manchester City",
+      "value": 17
+    },
+    {
+      "playerId": 1001555,
+      "playerName": "Wayne Rooney",
+      "rank": 5,
+      "teamId": 33,
+      "teamName": "Manchester United",
+      "value": 17
+    },
+    {
+      "playerId": 1001210,
+      "playerName": "Olivier Giroud",
+      "rank": 6,
+      "teamId": 42,
+      "teamName": "Arsenal",
+      "value": 16
+    },
+    {
+      "playerId": 1001566,
+      "playerName": "Wilfried Bony",
+      "rank": 7,
+      "teamId": 76,
+      "teamName": "Swansea City",
+      "value": 16
+    },
+    {
+      "playerId": 1002220,
+      "playerName": "Edin Dzeko",
+      "rank": 8,
+      "teamId": 50,
+      "teamName": "Manchester City",
+      "value": 16
+    },
+    {
+      "playerId": 1000699,
+      "playerName": "Jay Rodriguez",
+      "rank": 9,
+      "teamId": 41,
+      "teamName": "Southampton",
+      "value": 15
+    },
+    {
+      "playerId": 1001338,
+      "playerName": "Romelu Lukaku",
+      "rank": 10,
+      "teamId": 45,
+      "teamName": "Everton",
+      "value": 15
+    }
+  ],
+  "topYellowCards": [
+    {
+      "playerId": 1001234,
+      "playerName": "Pablo Zabaleta",
+      "rank": 1,
+      "teamId": 50,
+      "teamName": "Manchester City",
+      "value": 11
+    },
+    {
+      "playerId": 1000519,
+      "playerName": "Gareth Barry",
+      "rank": 2,
+      "teamId": 45,
+      "teamName": "Everton",
+      "value": 10
+    },
+    {
+      "playerId": 1002082,
+      "playerName": "Cheick Tioté",
+      "rank": 3,
+      "teamId": 34,
+      "teamName": "Newcastle United",
+      "value": 10
+    },
+    {
+      "playerId": 1002485,
+      "playerName": "Jonas Olsson",
+      "rank": 4,
+      "teamId": 60,
+      "teamName": "West Bromwich Albion",
+      "value": 10
+    },
+    {
+      "playerId": 1000318,
+      "playerName": "Damien Delaney",
+      "rank": 5,
+      "teamId": 52,
+      "teamName": "Crystal Palace",
+      "value": 9
+    },
+    {
+      "playerId": 1001263,
+      "playerName": "Phil Bardsley",
+      "rank": 6,
+      "teamId": 746,
+      "teamName": "Sunderland",
+      "value": 9
+    },
+    {
+      "playerId": 1002684,
+      "playerName": "Marouane Chamakh",
+      "rank": 7,
+      "teamId": 52,
+      "teamName": "Crystal Palace",
+      "value": 9
+    },
+    {
+      "playerId": 1000109,
+      "playerName": "Angel Rangel",
+      "rank": 8,
+      "teamId": 76,
+      "teamName": "Swansea City",
+      "value": 8
+    },
+    {
+      "playerId": 1000124,
+      "playerName": "Luis Antonio Valencia",
+      "rank": 9,
+      "teamId": 33,
+      "teamName": "Manchester United",
+      "value": 8
+    },
+    {
+      "playerId": 1000204,
+      "playerName": "Branislav Ivanovic",
+      "rank": 10,
+      "teamId": 49,
+      "teamName": "Chelsea",
+      "value": 8
+    }
+  ]
+}

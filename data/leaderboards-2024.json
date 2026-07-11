@@ -1,0 +1,330 @@
+{
+  "topAssists": [
+    {
+      "playerId": 1001119,
+      "playerName": "Mohamed Salah",
+      "rank": 1,
+      "teamId": 40,
+      "teamName": "Liverpool",
+      "value": 18
+    },
+    {
+      "playerId": 1000643,
+      "playerName": "Jacob Murphy",
+      "rank": 2,
+      "teamId": 34,
+      "teamName": "Newcastle Utd",
+      "value": 12
+    },
+    {
+      "playerId": 1000115,
+      "playerName": "Anthony Elanga",
+      "rank": 3,
+      "teamId": 65,
+      "teamName": "Nott'ham Forest",
+      "value": 11
+    },
+    {
+      "playerId": 1000120,
+      "playerName": "Antonee Robinson",
+      "rank": 4,
+      "teamId": 36,
+      "teamName": "Fulham",
+      "value": 10
+    },
+    {
+      "playerId": 1000208,
+      "playerName": "Bruno Fernandes",
+      "rank": 5,
+      "teamId": 33,
+      "teamName": "Manchester Utd",
+      "value": 10
+    },
+    {
+      "playerId": 1000215,
+      "playerName": "Bukayo Saka",
+      "rank": 6,
+      "teamId": 42,
+      "teamName": "Arsenal",
+      "value": 10
+    },
+    {
+      "playerId": 1001112,
+      "playerName": "Mikkel Damsgaard",
+      "rank": 7,
+      "teamId": 55,
+      "teamName": "Brentford",
+      "value": 10
+    },
+    {
+      "playerId": 1001127,
+      "playerName": "Morgan Rogers",
+      "rank": 8,
+      "teamId": 66,
+      "teamName": "Aston Villa",
+      "value": 10
+    },
+    {
+      "playerId": 1001436,
+      "playerName": "Son Heung-min",
+      "rank": 9,
+      "teamId": 47,
+      "teamName": "Tottenham",
+      "value": 9
+    },
+    {
+      "playerId": 1000292,
+      "playerName": "Cole Palmer",
+      "rank": 10,
+      "teamId": 49,
+      "teamName": "Chelsea",
+      "value": 8
+    }
+  ],
+  "topRedCards": [
+    {
+      "playerId": 1000208,
+      "playerName": "Bruno Fernandes",
+      "rank": 1,
+      "teamId": 33,
+      "teamName": "Manchester Utd",
+      "value": 2
+    },
+    {
+      "playerId": 1000637,
+      "playerName": "Jack Stephens",
+      "rank": 2,
+      "teamId": 41,
+      "teamName": "Southampton",
+      "value": 2
+    },
+    {
+      "playerId": 1001140,
+      "playerName": "Myles Lewis-Skelly",
+      "rank": 3,
+      "teamId": 42,
+      "teamName": "Arsenal",
+      "value": 2
+    },
+    {
+      "playerId": 1000011,
+      "playerName": "Abdoulaye Doucouré",
+      "rank": 4,
+      "teamId": 45,
+      "teamName": "Everton",
+      "value": 1
+    },
+    {
+      "playerId": 1000098,
+      "playerName": "Andrew Robertson",
+      "rank": 5,
+      "teamId": 40,
+      "teamName": "Liverpool",
+      "value": 1
+    },
+    {
+      "playerId": 1000141,
+      "playerName": "Ashley Young",
+      "rank": 6,
+      "teamId": 45,
+      "teamName": "Everton",
+      "value": 1
+    },
+    {
+      "playerId": 1000145,
+      "playerName": "Axel Tuanzebe",
+      "rank": 7,
+      "teamId": 57,
+      "teamName": "Ipswich Town",
+      "value": 1
+    },
+    {
+      "playerId": 1000162,
+      "playerName": "Ben Johnson",
+      "rank": 8,
+      "teamId": 57,
+      "teamName": "Ipswich Town",
+      "value": 1
+    },
+    {
+      "playerId": 1000234,
+      "playerName": "Carlos Baleba",
+      "rank": 9,
+      "teamId": 51,
+      "teamName": "Brighton",
+      "value": 1
+    },
+    {
+      "playerId": 1000269,
+      "playerName": "Chris Richards",
+      "rank": 10,
+      "teamId": 52,
+      "teamName": "Crystal Palace",
+      "value": 1
+    }
+  ],
+  "topScorers": [
+    {
+      "playerId": 1001119,
+      "playerName": "Mohamed Salah",
+      "rank": 1,
+      "teamId": 40,
+      "teamName": "Liverpool",
+      "value": 29
+    },
+    {
+      "playerId": 1000054,
+      "playerName": "Alexander Isak",
+      "rank": 2,
+      "teamId": 34,
+      "teamName": "Newcastle Utd",
+      "value": 23
+    },
+    {
+      "playerId": 1000457,
+      "playerName": "Erling Haaland",
+      "rank": 3,
+      "teamId": 50,
+      "teamName": "Manchester City",
+      "value": 22
+    },
+    {
+      "playerId": 1000214,
+      "playerName": "Bryan Mbeumo",
+      "rank": 4,
+      "teamId": 55,
+      "teamName": "Brentford",
+      "value": 20
+    },
+    {
+      "playerId": 1000271,
+      "playerName": "Chris Wood",
+      "rank": 5,
+      "teamId": 65,
+      "teamName": "Nott'ham Forest",
+      "value": 20
+    },
+    {
+      "playerId": 1001599,
+      "playerName": "Yoane Wissa",
+      "rank": 6,
+      "teamId": 55,
+      "teamName": "Brentford",
+      "value": 19
+    },
+    {
+      "playerId": 1001211,
+      "playerName": "Ollie Watkins",
+      "rank": 7,
+      "teamId": 66,
+      "teamName": "Aston Villa",
+      "value": 16
+    },
+    {
+      "playerId": 1000292,
+      "playerName": "Cole Palmer",
+      "rank": 8,
+      "teamId": 49,
+      "teamName": "Chelsea",
+      "value": 15
+    },
+    {
+      "playerId": 1001048,
+      "playerName": "Matheus Cunha",
+      "rank": 9,
+      "teamId": 39,
+      "teamName": "Wolves",
+      "value": 15
+    },
+    {
+      "playerId": 1000624,
+      "playerName": "Jørgen Strand Larsen",
+      "rank": 10,
+      "teamId": 39,
+      "teamName": "Wolves",
+      "value": 14
+    }
+  ],
+  "topYellowCards": [
+    {
+      "playerId": 1000498,
+      "playerName": "Flynn Downes",
+      "rank": 1,
+      "teamId": 41,
+      "teamName": "Southampton",
+      "value": 12
+    },
+    {
+      "playerId": 1000943,
+      "playerName": "Liam Delap",
+      "rank": 2,
+      "teamId": 57,
+      "teamName": "Ipswich Town",
+      "value": 12
+    },
+    {
+      "playerId": 1001392,
+      "playerName": "Saša Lukić",
+      "rank": 3,
+      "teamId": 36,
+      "teamName": "Fulham",
+      "value": 12
+    },
+    {
+      "playerId": 1000319,
+      "playerName": "Dan Burn",
+      "rank": 4,
+      "teamId": 34,
+      "teamName": "Newcastle Utd",
+      "value": 11
+    },
+    {
+      "playerId": 1000737,
+      "playerName": "João Gomes",
+      "rank": 5,
+      "teamId": 39,
+      "teamName": "Wolves",
+      "value": 11
+    },
+    {
+      "playerId": 1000995,
+      "playerName": "Manuel Ugarte",
+      "rank": 6,
+      "teamId": 33,
+      "teamName": "Manchester Utd",
+      "value": 11
+    },
+    {
+      "playerId": 1001123,
+      "playerName": "Moisés Caicedo",
+      "rank": 7,
+      "teamId": 49,
+      "teamName": "Chelsea",
+      "value": 11
+    },
+    {
+      "playerId": 1001126,
+      "playerName": "Morgan Gibbs-White",
+      "rank": 8,
+      "teamId": 65,
+      "teamName": "Nott'ham Forest",
+      "value": 11
+    },
+    {
+      "playerId": 1001571,
+      "playerName": "Will Hughes",
+      "rank": 9,
+      "teamId": 52,
+      "teamName": "Crystal Palace",
+      "value": 11
+    },
+    {
+      "playerId": 1000333,
+      "playerName": "Daniel Muñoz",
+      "rank": 10,
+      "teamId": 52,
+      "teamName": "Crystal Palace",
+      "value": 10
+    }
+  ]
+}

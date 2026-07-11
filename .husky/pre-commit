@@ -1,0 +1,9 @@
+# `CI=true` tells pnpm 9+ to skip its "is node_modules in sync with the
+# lockfile" check before running scripts. When the project's node_modules
+# was installed from one platform (WSL Linux) and the hook fires from
+# another (Windows git's sh.exe), pnpm sees platform-specific subdeps
+# and tries to reconcile via an interactive prompt that the hook can't
+# satisfy — aborts with ERR_PNPM_ABORTED_REMOVE_MODULES_DIR_NO_TTY.
+# CI=true short-circuits that path. Lint-staged itself doesn't change
+# behaviour under CI=true at the hook's call site.
+CI=true pnpm exec lint-staged

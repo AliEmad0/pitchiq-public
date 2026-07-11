@@ -1,0 +1,182 @@
+[
+  {
+    "capacity": 60704,
+    "code": "ARS",
+    "founded": 1886,
+    "id": 42,
+    "logo": "/logos/42.png",
+    "name": "Arsenal",
+    "venue": "Emirates Stadium"
+  },
+  {
+    "capacity": 42682,
+    "code": "AVL",
+    "founded": 1874,
+    "id": 66,
+    "logo": "/logos/66.png",
+    "name": "Aston Villa",
+    "venue": "Villa Park"
+  },
+  {
+    "capacity": 21944,
+    "code": "BUR",
+    "founded": 1882,
+    "id": 44,
+    "logo": "/logos/44.png",
+    "name": "Burnley",
+    "venue": "Turf Moor"
+  },
+  {
+    "capacity": 40173,
+    "code": "CHE",
+    "founded": 1905,
+    "id": 49,
+    "logo": "/logos/49.png",
+    "name": "Chelsea",
+    "venue": "Stamford Bridge"
+  },
+  {
+    "capacity": 25486,
+    "code": "CRY",
+    "founded": 1905,
+    "id": 52,
+    "logo": "/logos/52.png",
+    "name": "Crystal Palace",
+    "venue": "Selhurst Park"
+  },
+  {
+    "capacity": 39572,
+    "code": "EVE",
+    "founded": 1878,
+    "id": 45,
+    "logo": "/logos/45.png",
+    "name": "Everton",
+    "venue": "Goodison Park"
+  },
+  {
+    "capacity": 25586,
+    "code": "HUL",
+    "founded": 1904,
+    "id": 64,
+    "logo": "/logos/64.png",
+    "name": "Hull City",
+    "venue": "MKM Stadium"
+  },
+  {
+    "capacity": 32261,
+    "code": "LEI",
+    "founded": 1884,
+    "id": 46,
+    "logo": "/logos/46.png",
+    "name": "Leicester City",
+    "venue": "King Power Stadium"
+  },
+  {
+    "capacity": 61276,
+    "code": "LIV",
+    "founded": 1892,
+    "id": 40,
+    "logo": "/logos/40.png",
+    "name": "Liverpool",
+    "venue": "Anfield"
+  },
+  {
+    "capacity": 53400,
+    "code": "MCI",
+    "founded": 1880,
+    "id": 50,
+    "logo": "/logos/50.png",
+    "name": "Manchester City",
+    "venue": "Etihad Stadium"
+  },
+  {
+    "capacity": 74310,
+    "code": "MUN",
+    "founded": 1878,
+    "id": 33,
+    "logo": "/logos/33.png",
+    "name": "Manchester United",
+    "venue": "Old Trafford"
+  },
+  {
+    "capacity": 52305,
+    "code": "NEW",
+    "founded": 1892,
+    "id": 34,
+    "logo": "/logos/34.png",
+    "name": "Newcastle United",
+    "venue": "St James' Park"
+  },
+  {
+    "capacity": 18439,
+    "code": "QPR",
+    "founded": 1882,
+    "id": 72,
+    "logo": "/logos/72.png",
+    "name": "Queens Park Rangers",
+    "venue": "Loftus Road"
+  },
+  {
+    "capacity": 32384,
+    "code": "SOU",
+    "founded": 1885,
+    "id": 41,
+    "logo": "/logos/41.png",
+    "name": "Southampton",
+    "venue": "St Mary's Stadium"
+  },
+  {
+    "capacity": 30089,
+    "code": "STK",
+    "founded": 1863,
+    "id": 75,
+    "logo": "/logos/75.png",
+    "name": "Stoke City",
+    "venue": "bet365 Stadium"
+  },
+  {
+    "capacity": 49000,
+    "code": "SUN",
+    "founded": 1879,
+    "id": 746,
+    "logo": "/logos/746.png",
+    "name": "Sunderland",
+    "venue": "Stadium of Light"
+  },
+  {
+    "capacity": 21088,
+    "code": "SWA",
+    "founded": 1912,
+    "id": 76,
+    "logo": "/logos/76.png",
+    "name": "Swansea City",
+    "venue": "Liberty Stadium"
+  },
+  {
+    "capacity": 62850,
+    "code": "TOT",
+    "founded": 1882,
+    "id": 47,
+    "logo": "/logos/47.png",
+    "name": "Tottenham Hotspur",
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  {
+    "capacity": 26688,
+    "code": "WBA",
+    "founded": 1878,
+    "id": 60,
+    "logo": "/logos/60.png",
+    "name": "West Bromwich Albion",
+    "venue": "The Hawthorns"
+  },
+  {
+    "capacity": 62500,
+    "code": "WHU",
+    "founded": 1895,
+    "id": 48,
+    "logo": "/logos/48.png",
+    "name": "West Ham United",
+    "venue": "London Stadium"
+  }
+]

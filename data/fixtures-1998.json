@@ -1,0 +1,6462 @@
+[
+  {
+    "awayScore": 0,
+    "awayTeamId": 69,
+    "awayTeamName": "Derby",
+    "date": "1998-08-15T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 67,
+    "homeTeamName": "Blackburn",
+    "id": "1998-08-15-BLB-DER",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Ewood Park"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 49,
+    "awayTeamName": "Chelsea",
+    "date": "1998-08-15T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 2
+    },
+    "homeScore": 2,
+    "homeTeamId": 1346,
+    "homeTeamName": "Coventry",
+    "id": "1998-08-15-COV-CHE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Coventry Building Society Arena"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 66,
+    "awayTeamName": "Aston Villa",
+    "date": "1998-08-15T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 45,
+    "homeTeamName": "Everton",
+    "id": "1998-08-15-EVE-AVL",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Goodison Park"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 46,
+    "awayTeamName": "Leicester",
+    "date": "1998-08-15T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 2,
+    "homeTeamId": 33,
+    "homeTeamName": "Man United",
+    "id": "1998-08-15-MUN-LEI",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Old Trafford"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 63,
+    "awayTeamName": "Leeds",
+    "date": "1998-08-15T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 70,
+    "homeTeamName": "Middlesbrough",
+    "id": "1998-08-15-MID-LEE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Riverside Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 1335,
+    "awayTeamName": "Charlton",
+    "date": "1998-08-15T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 34,
+    "homeTeamName": "Newcastle",
+    "id": "1998-08-15-NEW-CHA",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St James' Park"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 48,
+    "awayTeamName": "West Ham",
+    "date": "1998-08-15T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 74,
+    "homeTeamName": "Sheffield Weds",
+    "id": "1998-08-15-SHW-WHU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Hillsborough"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 47,
+    "awayTeamName": "Tottenham",
+    "date": "1998-08-15T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 3,
+    "homeTeamId": 1333,
+    "homeTeamName": "Wimbledon",
+    "id": "1998-08-15-WIM-TOT",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Plough Lane"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 40,
+    "awayTeamName": "Liverpool",
+    "date": "1998-08-16T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 41,
+    "homeTeamName": "Southampton",
+    "id": "1998-08-16-SOU-LIV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St Mary's Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 65,
+    "awayTeamName": "Nott'm Forest",
+    "date": "1998-08-17T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 2,
+    "homeTeamId": 42,
+    "homeTeamName": "Arsenal",
+    "id": "1998-08-17-ARS-NFO",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Emirates Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 41,
+    "awayTeamName": "Southampton",
+    "date": "1998-08-22T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 5,
+    "homeTeamId": 1335,
+    "homeTeamName": "Charlton",
+    "id": "1998-08-22-CHA-SOU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The Valley"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 34,
+    "awayTeamName": "Newcastle",
+    "date": "1998-08-22T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 49,
+    "homeTeamName": "Chelsea",
+    "id": "1998-08-22-CHE-NEW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Stamford Bridge"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 1333,
+    "awayTeamName": "Wimbledon",
+    "date": "1998-08-22T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 69,
+    "homeTeamName": "Derby",
+    "id": "1998-08-22-DER-WIM",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Pride Park Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 45,
+    "awayTeamName": "Everton",
+    "date": "1998-08-22T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 2,
+    "homeTeamId": 46,
+    "homeTeamName": "Leicester",
+    "id": "1998-08-22-LEI-EVE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "King Power Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 42,
+    "awayTeamName": "Arsenal",
+    "date": "1998-08-22T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 40,
+    "homeTeamName": "Liverpool",
+    "id": "1998-08-22-LIV-ARS",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Anfield"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 1346,
+    "awayTeamName": "Coventry",
+    "date": "1998-08-22T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 65,
+    "homeTeamName": "Nott'm Forest",
+    "id": "1998-08-22-NFO-COV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The City Ground"
+  },
+  {
+    "awayScore": 3,
+    "awayTeamId": 74,
+    "awayTeamName": "Sheffield Weds",
+    "date": "1998-08-22T00:00:00Z",
+    "halfTime": {
+      "away": 2,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 47,
+    "homeTeamName": "Tottenham",
+    "id": "1998-08-22-TOT-SHW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 33,
+    "awayTeamName": "Man United",
+    "date": "1998-08-22T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 48,
+    "homeTeamName": "West Ham",
+    "id": "1998-08-22-WHU-MUN",
+    "referee": null,
+    "teamStats": null,
+    "venue": "London Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 70,
+    "awayTeamName": "Middlesbrough",
+    "date": "1998-08-23T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 3,
+    "homeTeamId": 66,
+    "homeTeamName": "Aston Villa",
+    "id": "1998-08-23-AVL-MID",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Villa Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 67,
+    "awayTeamName": "Blackburn",
+    "date": "1998-08-24T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 63,
+    "homeTeamName": "Leeds",
+    "id": "1998-08-24-LEE-BLB",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Elland Road"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 1335,
+    "awayTeamName": "Charlton",
+    "date": "1998-08-29T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 42,
+    "homeTeamName": "Arsenal",
+    "id": "1998-08-29-ARS-CHA",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Emirates Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 46,
+    "awayTeamName": "Leicester",
+    "date": "1998-08-29T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 67,
+    "homeTeamName": "Blackburn",
+    "id": "1998-08-29-BLB-LEI",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Ewood Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 48,
+    "awayTeamName": "West Ham",
+    "date": "1998-08-29T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 1346,
+    "homeTeamName": "Coventry",
+    "id": "1998-08-29-COV-WHU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Coventry Building Society Arena"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 47,
+    "awayTeamName": "Tottenham",
+    "date": "1998-08-29T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 45,
+    "homeTeamName": "Everton",
+    "id": "1998-08-29-EVE-TOT",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Goodison Park"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 69,
+    "awayTeamName": "Derby",
+    "date": "1998-08-29T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 70,
+    "homeTeamName": "Middlesbrough",
+    "id": "1998-08-29-MID-DER",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Riverside Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 66,
+    "awayTeamName": "Aston Villa",
+    "date": "1998-08-29T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 74,
+    "homeTeamName": "Sheffield Weds",
+    "id": "1998-08-29-SHW-AVL",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Hillsborough"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 65,
+    "awayTeamName": "Nott'm Forest",
+    "date": "1998-08-29T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 41,
+    "homeTeamName": "Southampton",
+    "id": "1998-08-29-SOU-NFO",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St Mary's Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 63,
+    "awayTeamName": "Leeds",
+    "date": "1998-08-29T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 1333,
+    "homeTeamName": "Wimbledon",
+    "id": "1998-08-29-WIM-LEE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Plough Lane"
+  },
+  {
+    "awayScore": 4,
+    "awayTeamId": 40,
+    "awayTeamName": "Liverpool",
+    "date": "1998-08-30T00:00:00Z",
+    "halfTime": {
+      "away": 4,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 34,
+    "homeTeamName": "Newcastle",
+    "id": "1998-08-30-NEW-LIV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St James' Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 41,
+    "awayTeamName": "Southampton",
+    "date": "1998-09-08T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 3,
+    "homeTeamId": 63,
+    "homeTeamName": "Leeds",
+    "id": "1998-09-08-LEE-SOU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Elland Road"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 45,
+    "awayTeamName": "Everton",
+    "date": "1998-09-08T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 65,
+    "homeTeamName": "Nott'm Forest",
+    "id": "1998-09-08-NFO-EVE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The City Ground"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 34,
+    "awayTeamName": "Newcastle",
+    "date": "1998-09-09T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 66,
+    "homeTeamName": "Aston Villa",
+    "id": "1998-09-09-AVL-NEW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Villa Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 42,
+    "awayTeamName": "Arsenal",
+    "date": "1998-09-09T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 49,
+    "homeTeamName": "Chelsea",
+    "id": "1998-09-09-CHE-ARS",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Stamford Bridge"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 74,
+    "awayTeamName": "Sheffield Weds",
+    "date": "1998-09-09T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 69,
+    "homeTeamName": "Derby",
+    "id": "1998-09-09-DER-SHW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Pride Park Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 70,
+    "awayTeamName": "Middlesbrough",
+    "date": "1998-09-09T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 46,
+    "homeTeamName": "Leicester",
+    "id": "1998-09-09-LEI-MID",
+    "referee": null,
+    "teamStats": null,
+    "venue": "King Power Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 1346,
+    "awayTeamName": "Coventry",
+    "date": "1998-09-09T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 40,
+    "homeTeamName": "Liverpool",
+    "id": "1998-09-09-LIV-COV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Anfield"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 1335,
+    "awayTeamName": "Charlton",
+    "date": "1998-09-09T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 2
+    },
+    "homeScore": 4,
+    "homeTeamId": 33,
+    "homeTeamName": "Man United",
+    "id": "1998-09-09-MUN-CHA",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Old Trafford"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 67,
+    "awayTeamName": "Blackburn",
+    "date": "1998-09-09T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 47,
+    "homeTeamName": "Tottenham",
+    "id": "1998-09-09-TOT-BLB",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  {
+    "awayScore": 4,
+    "awayTeamId": 1333,
+    "awayTeamName": "Wimbledon",
+    "date": "1998-09-09T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 3
+    },
+    "homeScore": 3,
+    "homeTeamId": 48,
+    "homeTeamName": "West Ham",
+    "id": "1998-09-09-WHU-WIM",
+    "referee": null,
+    "teamStats": null,
+    "venue": "London Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 1333,
+    "awayTeamName": "Wimbledon",
+    "date": "1998-09-12T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 66,
+    "homeTeamName": "Aston Villa",
+    "id": "1998-09-12-AVL-WIM",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Villa Park"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 69,
+    "awayTeamName": "Derby",
+    "date": "1998-09-12T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 1335,
+    "homeTeamName": "Charlton",
+    "id": "1998-09-12-CHA-DER",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The Valley"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 65,
+    "awayTeamName": "Nott'm Forest",
+    "date": "1998-09-12T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 2,
+    "homeTeamId": 49,
+    "homeTeamName": "Chelsea",
+    "id": "1998-09-12-CHE-NFO",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Stamford Bridge"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 63,
+    "awayTeamName": "Leeds",
+    "date": "1998-09-12T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 45,
+    "homeTeamName": "Everton",
+    "id": "1998-09-12-EVE-LEE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Goodison Park"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 42,
+    "awayTeamName": "Arsenal",
+    "date": "1998-09-12T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 46,
+    "homeTeamName": "Leicester",
+    "id": "1998-09-12-LEI-ARS",
+    "referee": null,
+    "teamStats": null,
+    "venue": "King Power Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 1346,
+    "awayTeamName": "Coventry",
+    "date": "1998-09-12T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 33,
+    "homeTeamName": "Man United",
+    "id": "1998-09-12-MUN-COV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Old Trafford"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 41,
+    "awayTeamName": "Southampton",
+    "date": "1998-09-12T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 4,
+    "homeTeamId": 34,
+    "homeTeamName": "Newcastle",
+    "id": "1998-09-12-NEW-SOU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St James' Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 67,
+    "awayTeamName": "Blackburn",
+    "date": "1998-09-12T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 3,
+    "homeTeamId": 74,
+    "homeTeamName": "Sheffield Weds",
+    "id": "1998-09-12-SHW-BLB",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Hillsborough"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 40,
+    "awayTeamName": "Liverpool",
+    "date": "1998-09-12T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 48,
+    "homeTeamName": "West Ham",
+    "id": "1998-09-12-WHU-LIV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "London Stadium"
+  },
+  {
+    "awayScore": 3,
+    "awayTeamId": 70,
+    "awayTeamName": "Middlesbrough",
+    "date": "1998-09-13T00:00:00Z",
+    "halfTime": {
+      "away": 2,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 47,
+    "homeTeamName": "Tottenham",
+    "id": "1998-09-13-TOT-MID",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  {
+    "awayScore": 5,
+    "awayTeamId": 34,
+    "awayTeamName": "Newcastle",
+    "date": "1998-09-19T00:00:00Z",
+    "halfTime": {
+      "away": 3,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 1346,
+    "homeTeamName": "Coventry",
+    "id": "1998-09-19-COV-NEW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Coventry Building Society Arena"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 46,
+    "awayTeamName": "Leicester",
+    "date": "1998-09-19T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 69,
+    "homeTeamName": "Derby",
+    "id": "1998-09-19-DER-LEI",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Pride Park Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 66,
+    "awayTeamName": "Aston Villa",
+    "date": "1998-09-19T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 63,
+    "homeTeamName": "Leeds",
+    "id": "1998-09-19-LEE-AVL",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Elland Road"
+  },
+  {
+    "awayScore": 3,
+    "awayTeamId": 1335,
+    "awayTeamName": "Charlton",
+    "date": "1998-09-19T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 3,
+    "homeTeamId": 40,
+    "homeTeamName": "Liverpool",
+    "id": "1998-09-19-LIV-CHA",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Anfield"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 45,
+    "awayTeamName": "Everton",
+    "date": "1998-09-19T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 2,
+    "homeTeamId": 70,
+    "homeTeamName": "Middlesbrough",
+    "id": "1998-09-19-MID-EVE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Riverside Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 48,
+    "awayTeamName": "West Ham",
+    "date": "1998-09-19T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 65,
+    "homeTeamName": "Nott'm Forest",
+    "id": "1998-09-19-NFO-WHU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The City Ground"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 47,
+    "awayTeamName": "Tottenham",
+    "date": "1998-09-19T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 41,
+    "homeTeamName": "Southampton",
+    "id": "1998-09-19-SOU-TOT",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St Mary's Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 74,
+    "awayTeamName": "Sheffield Weds",
+    "date": "1998-09-19T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 1333,
+    "homeTeamName": "Wimbledon",
+    "id": "1998-09-19-WIM-SHW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Plough Lane"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 33,
+    "awayTeamName": "Man United",
+    "date": "1998-09-20T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 3,
+    "homeTeamId": 42,
+    "homeTeamName": "Arsenal",
+    "id": "1998-09-20-ARS-MUN",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Emirates Stadium"
+  },
+  {
+    "awayScore": 4,
+    "awayTeamId": 49,
+    "awayTeamName": "Chelsea",
+    "date": "1998-09-21T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 3,
+    "homeTeamId": 67,
+    "homeTeamName": "Blackburn",
+    "id": "1998-09-21-BLB-CHE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Ewood Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 40,
+    "awayTeamName": "Liverpool",
+    "date": "1998-09-24T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 33,
+    "homeTeamName": "Man United",
+    "id": "1998-09-24-MUN-LIV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Old Trafford"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 69,
+    "awayTeamName": "Derby",
+    "date": "1998-09-26T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 66,
+    "homeTeamName": "Aston Villa",
+    "id": "1998-09-26-AVL-DER",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Villa Park"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 1346,
+    "awayTeamName": "Coventry",
+    "date": "1998-09-26T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 1335,
+    "homeTeamName": "Charlton",
+    "id": "1998-09-26-CHA-COV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The Valley"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 70,
+    "awayTeamName": "Middlesbrough",
+    "date": "1998-09-26T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 2,
+    "homeTeamId": 49,
+    "homeTeamName": "Chelsea",
+    "id": "1998-09-26-CHE-MID",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Stamford Bridge"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 67,
+    "awayTeamName": "Blackburn",
+    "date": "1998-09-26T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 45,
+    "homeTeamName": "Everton",
+    "id": "1998-09-26-EVE-BLB",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Goodison Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 65,
+    "awayTeamName": "Nott'm Forest",
+    "date": "1998-09-26T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 34,
+    "homeTeamName": "Newcastle",
+    "id": "1998-09-26-NEW-NFO",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St James' Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 42,
+    "awayTeamName": "Arsenal",
+    "date": "1998-09-26T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 74,
+    "homeTeamName": "Sheffield Weds",
+    "id": "1998-09-26-SHW-ARS",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Hillsborough"
+  },
+  {
+    "awayScore": 3,
+    "awayTeamId": 63,
+    "awayTeamName": "Leeds",
+    "date": "1998-09-26T00:00:00Z",
+    "halfTime": {
+      "away": 2,
+      "home": 1
+    },
+    "homeScore": 3,
+    "homeTeamId": 47,
+    "homeTeamName": "Tottenham",
+    "id": "1998-09-26-TOT-LEE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 1333,
+    "awayTeamName": "Wimbledon",
+    "date": "1998-09-27T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 46,
+    "homeTeamName": "Leicester",
+    "id": "1998-09-27-LEI-WIM",
+    "referee": null,
+    "teamStats": null,
+    "venue": "King Power Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 41,
+    "awayTeamName": "Southampton",
+    "date": "1998-09-28T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 48,
+    "homeTeamName": "West Ham",
+    "id": "1998-09-28-WHU-SOU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "London Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 48,
+    "awayTeamName": "West Ham",
+    "date": "1998-10-03T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 3,
+    "homeTeamId": 67,
+    "homeTeamName": "Blackburn",
+    "id": "1998-10-03-BLB-WHU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Ewood Park"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 66,
+    "awayTeamName": "Aston Villa",
+    "date": "1998-10-03T00:00:00Z",
+    "halfTime": {
+      "away": 2,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 1346,
+    "homeTeamName": "Coventry",
+    "id": "1998-10-03-COV-AVL",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Coventry Building Society Arena"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 47,
+    "awayTeamName": "Tottenham",
+    "date": "1998-10-03T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 69,
+    "homeTeamName": "Derby",
+    "id": "1998-10-03-DER-TOT",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Pride Park Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 46,
+    "awayTeamName": "Leicester",
+    "date": "1998-10-03T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 63,
+    "homeTeamName": "Leeds",
+    "id": "1998-10-03-LEE-LEI",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Elland Road"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 74,
+    "awayTeamName": "Sheffield Weds",
+    "date": "1998-10-03T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 4,
+    "homeTeamId": 70,
+    "homeTeamName": "Middlesbrough",
+    "id": "1998-10-03-MID-SHW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Riverside Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 1335,
+    "awayTeamName": "Charlton",
+    "date": "1998-10-03T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 65,
+    "homeTeamName": "Nott'm Forest",
+    "id": "1998-10-03-NFO-CHA",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The City Ground"
+  },
+  {
+    "awayScore": 3,
+    "awayTeamId": 33,
+    "awayTeamName": "Man United",
+    "date": "1998-10-03T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 41,
+    "homeTeamName": "Southampton",
+    "id": "1998-10-03-SOU-MUN",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St Mary's Stadium"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 45,
+    "awayTeamName": "Everton",
+    "date": "1998-10-03T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 1333,
+    "homeTeamName": "Wimbledon",
+    "id": "1998-10-03-WIM-EVE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Plough Lane"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 34,
+    "awayTeamName": "Newcastle",
+    "date": "1998-10-04T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 3,
+    "homeTeamId": 42,
+    "homeTeamName": "Arsenal",
+    "id": "1998-10-04-ARS-NEW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Emirates Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 49,
+    "awayTeamName": "Chelsea",
+    "date": "1998-10-04T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 40,
+    "homeTeamName": "Liverpool",
+    "id": "1998-10-04-LIV-CHE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Anfield"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 41,
+    "awayTeamName": "Southampton",
+    "date": "1998-10-17T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 42,
+    "homeTeamName": "Arsenal",
+    "id": "1998-10-17-ARS-SOU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Emirates Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 1335,
+    "awayTeamName": "Charlton",
+    "date": "1998-10-17T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 49,
+    "homeTeamName": "Chelsea",
+    "id": "1998-10-17-CHE-CHA",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Stamford Bridge"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 40,
+    "awayTeamName": "Liverpool",
+    "date": "1998-10-17T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 45,
+    "homeTeamName": "Everton",
+    "id": "1998-10-17-EVE-LIV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Goodison Park"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 1333,
+    "awayTeamName": "Wimbledon",
+    "date": "1998-10-17T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 2
+    },
+    "homeScore": 5,
+    "homeTeamId": 33,
+    "homeTeamName": "Man United",
+    "id": "1998-10-17-MUN-WIM",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Old Trafford"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 67,
+    "awayTeamName": "Blackburn",
+    "date": "1998-10-17T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 2,
+    "homeTeamId": 70,
+    "homeTeamName": "Middlesbrough",
+    "id": "1998-10-17-MID-BLB",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Riverside Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 69,
+    "awayTeamName": "Derby",
+    "date": "1998-10-17T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 2,
+    "homeTeamId": 34,
+    "homeTeamName": "Newcastle",
+    "id": "1998-10-17-NEW-DER",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St James' Park"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 63,
+    "awayTeamName": "Leeds",
+    "date": "1998-10-17T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 65,
+    "homeTeamName": "Nott'm Forest",
+    "id": "1998-10-17-NFO-LEE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The City Ground"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 66,
+    "awayTeamName": "Aston Villa",
+    "date": "1998-10-17T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 48,
+    "homeTeamName": "West Ham",
+    "id": "1998-10-17-WHU-AVL",
+    "referee": null,
+    "teamStats": null,
+    "venue": "London Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 74,
+    "awayTeamName": "Sheffield Weds",
+    "date": "1998-10-18T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 1346,
+    "homeTeamName": "Coventry",
+    "id": "1998-10-18-COV-SHW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Coventry Building Society Arena"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 47,
+    "awayTeamName": "Tottenham",
+    "date": "1998-10-19T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 46,
+    "homeTeamName": "Leicester",
+    "id": "1998-10-19-LEI-TOT",
+    "referee": null,
+    "teamStats": null,
+    "venue": "King Power Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 46,
+    "awayTeamName": "Leicester",
+    "date": "1998-10-24T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 66,
+    "homeTeamName": "Aston Villa",
+    "id": "1998-10-24-AVL-LEI",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Villa Park"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 48,
+    "awayTeamName": "West Ham",
+    "date": "1998-10-24T00:00:00Z",
+    "halfTime": {
+      "away": 2,
+      "home": 1
+    },
+    "homeScore": 4,
+    "homeTeamId": 1335,
+    "homeTeamName": "Charlton",
+    "id": "1998-10-24-CHA-WHU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The Valley"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 33,
+    "awayTeamName": "Man United",
+    "date": "1998-10-24T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 69,
+    "homeTeamName": "Derby",
+    "id": "1998-10-24-DER-MUN",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Pride Park Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 65,
+    "awayTeamName": "Nott'm Forest",
+    "date": "1998-10-24T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 3
+    },
+    "homeScore": 5,
+    "homeTeamId": 40,
+    "homeTeamName": "Liverpool",
+    "id": "1998-10-24-LIV-NFO",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Anfield"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 45,
+    "awayTeamName": "Everton",
+    "date": "1998-10-24T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 74,
+    "homeTeamName": "Sheffield Weds",
+    "id": "1998-10-24-SHW-EVE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Hillsborough"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 1346,
+    "awayTeamName": "Coventry",
+    "date": "1998-10-24T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 2,
+    "homeTeamId": 41,
+    "homeTeamName": "Southampton",
+    "id": "1998-10-24-SOU-COV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St Mary's Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 34,
+    "awayTeamName": "Newcastle",
+    "date": "1998-10-24T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 47,
+    "homeTeamName": "Tottenham",
+    "id": "1998-10-24-TOT-NEW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 70,
+    "awayTeamName": "Middlesbrough",
+    "date": "1998-10-24T00:00:00Z",
+    "halfTime": {
+      "away": 2,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 1333,
+    "homeTeamName": "Wimbledon",
+    "id": "1998-10-24-WIM-MID",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Plough Lane"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 42,
+    "awayTeamName": "Arsenal",
+    "date": "1998-10-25T00:00:00Z",
+    "halfTime": {
+      "away": 2,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 67,
+    "homeTeamName": "Blackburn",
+    "id": "1998-10-25-BLB-ARS",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Ewood Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 49,
+    "awayTeamName": "Chelsea",
+    "date": "1998-10-25T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 63,
+    "homeTeamName": "Leeds",
+    "id": "1998-10-25-LEE-CHE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Elland Road"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 42,
+    "awayTeamName": "Arsenal",
+    "date": "1998-10-31T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 1346,
+    "homeTeamName": "Coventry",
+    "id": "1998-10-31-COV-ARS",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Coventry Building Society Arena"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 63,
+    "awayTeamName": "Leeds",
+    "date": "1998-10-31T00:00:00Z",
+    "halfTime": {
+      "away": 2,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 69,
+    "homeTeamName": "Derby",
+    "id": "1998-10-31-DER-LEE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Pride Park Stadium"
+  },
+  {
+    "awayScore": 4,
+    "awayTeamId": 33,
+    "awayTeamName": "Man United",
+    "date": "1998-10-31T00:00:00Z",
+    "halfTime": {
+      "away": 2,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 45,
+    "homeTeamName": "Everton",
+    "id": "1998-10-31-EVE-MUN",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Goodison Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 40,
+    "awayTeamName": "Liverpool",
+    "date": "1998-10-31T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 46,
+    "homeTeamName": "Leicester",
+    "id": "1998-10-31-LEI-LIV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "King Power Stadium"
+  },
+  {
+    "awayScore": 3,
+    "awayTeamId": 48,
+    "awayTeamName": "West Ham",
+    "date": "1998-10-31T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 34,
+    "homeTeamName": "Newcastle",
+    "id": "1998-10-31-NEW-WHU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St James' Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 41,
+    "awayTeamName": "Southampton",
+    "date": "1998-10-31T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 74,
+    "homeTeamName": "Sheffield Weds",
+    "id": "1998-10-31-SHW-SOU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Hillsborough"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 67,
+    "awayTeamName": "Blackburn",
+    "date": "1998-10-31T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 1333,
+    "homeTeamName": "Wimbledon",
+    "id": "1998-10-31-WIM-BLB",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Plough Lane"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 65,
+    "awayTeamName": "Nott'm Forest",
+    "date": "1998-11-01T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 70,
+    "homeTeamName": "Middlesbrough",
+    "id": "1998-11-01-MID-NFO",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Riverside Stadium"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 1335,
+    "awayTeamName": "Charlton",
+    "date": "1998-11-02T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 2,
+    "homeTeamId": 47,
+    "homeTeamName": "Tottenham",
+    "id": "1998-11-02-TOT-CHA",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 47,
+    "awayTeamName": "Tottenham",
+    "date": "1998-11-07T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 3,
+    "homeTeamId": 66,
+    "homeTeamName": "Aston Villa",
+    "id": "1998-11-07-AVL-TOT",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Villa Park"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 1346,
+    "awayTeamName": "Coventry",
+    "date": "1998-11-07T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 67,
+    "homeTeamName": "Blackburn",
+    "id": "1998-11-07-BLB-COV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Ewood Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 46,
+    "awayTeamName": "Leicester",
+    "date": "1998-11-07T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 1335,
+    "homeTeamName": "Charlton",
+    "id": "1998-11-07-CHA-LEI",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The Valley"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 69,
+    "awayTeamName": "Derby",
+    "date": "1998-11-07T00:00:00Z",
+    "halfTime": {
+      "away": 2,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 40,
+    "homeTeamName": "Liverpool",
+    "id": "1998-11-07-LIV-DER",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Anfield"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 1333,
+    "awayTeamName": "Wimbledon",
+    "date": "1998-11-07T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 65,
+    "homeTeamName": "Nott'm Forest",
+    "id": "1998-11-07-NFO-WIM",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The City Ground"
+  },
+  {
+    "awayScore": 3,
+    "awayTeamId": 70,
+    "awayTeamName": "Middlesbrough",
+    "date": "1998-11-07T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 3,
+    "homeTeamId": 41,
+    "homeTeamName": "Southampton",
+    "id": "1998-11-07-SOU-MID",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St Mary's Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 45,
+    "awayTeamName": "Everton",
+    "date": "1998-11-08T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 42,
+    "homeTeamName": "Arsenal",
+    "id": "1998-11-08-ARS-EVE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Emirates Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 74,
+    "awayTeamName": "Sheffield Weds",
+    "date": "1998-11-08T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 63,
+    "homeTeamName": "Leeds",
+    "id": "1998-11-08-LEE-SHW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Elland Road"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 34,
+    "awayTeamName": "Newcastle",
+    "date": "1998-11-08T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 33,
+    "homeTeamName": "Man United",
+    "id": "1998-11-08-MUN-NEW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Old Trafford"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 49,
+    "awayTeamName": "Chelsea",
+    "date": "1998-11-08T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 48,
+    "homeTeamName": "West Ham",
+    "id": "1998-11-08-WHU-CHE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "London Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 47,
+    "awayTeamName": "Tottenham",
+    "date": "1998-11-14T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 42,
+    "homeTeamName": "Arsenal",
+    "id": "1998-11-14-ARS-TOT",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Emirates Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 70,
+    "awayTeamName": "Middlesbrough",
+    "date": "1998-11-14T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 1335,
+    "homeTeamName": "Charlton",
+    "id": "1998-11-14-CHA-MID",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The Valley"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 1333,
+    "awayTeamName": "Wimbledon",
+    "date": "1998-11-14T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 3,
+    "homeTeamId": 49,
+    "homeTeamName": "Chelsea",
+    "id": "1998-11-14-CHE-WIM",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Stamford Bridge"
+  },
+  {
+    "awayScore": 3,
+    "awayTeamId": 63,
+    "awayTeamName": "Leeds",
+    "date": "1998-11-14T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 40,
+    "homeTeamName": "Liverpool",
+    "id": "1998-11-14-LIV-LEE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Anfield"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 67,
+    "awayTeamName": "Blackburn",
+    "date": "1998-11-14T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 3,
+    "homeTeamId": 33,
+    "homeTeamName": "Man United",
+    "id": "1998-11-14-MUN-BLB",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Old Trafford"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 74,
+    "awayTeamName": "Sheffield Weds",
+    "date": "1998-11-14T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 34,
+    "homeTeamName": "Newcastle",
+    "id": "1998-11-14-NEW-SHW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St James' Park"
+  },
+  {
+    "awayScore": 4,
+    "awayTeamId": 66,
+    "awayTeamName": "Aston Villa",
+    "date": "1998-11-14T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 41,
+    "homeTeamName": "Southampton",
+    "id": "1998-11-14-SOU-AVL",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St Mary's Stadium"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 46,
+    "awayTeamName": "Leicester",
+    "date": "1998-11-14T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 3,
+    "homeTeamId": 48,
+    "homeTeamName": "West Ham",
+    "id": "1998-11-14-WHU-LEI",
+    "referee": null,
+    "teamStats": null,
+    "venue": "London Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 45,
+    "awayTeamName": "Everton",
+    "date": "1998-11-15T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 3,
+    "homeTeamId": 1346,
+    "homeTeamName": "Coventry",
+    "id": "1998-11-15-COV-EVE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Coventry Building Society Arena"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 69,
+    "awayTeamName": "Derby",
+    "date": "1998-11-16T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 2,
+    "homeTeamId": 65,
+    "homeTeamName": "Nott'm Forest",
+    "id": "1998-11-16-NFO-DER",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The City Ground"
+  },
+  {
+    "awayScore": 4,
+    "awayTeamId": 40,
+    "awayTeamName": "Liverpool",
+    "date": "1998-11-21T00:00:00Z",
+    "halfTime": {
+      "away": 2,
+      "home": 0
+    },
+    "homeScore": 2,
+    "homeTeamId": 66,
+    "homeTeamName": "Aston Villa",
+    "id": "1998-11-21-AVL-LIV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Villa Park"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 41,
+    "awayTeamName": "Southampton",
+    "date": "1998-11-21T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 67,
+    "homeTeamName": "Blackburn",
+    "id": "1998-11-21-BLB-SOU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Ewood Park"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 1335,
+    "awayTeamName": "Charlton",
+    "date": "1998-11-21T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 4,
+    "homeTeamId": 63,
+    "homeTeamName": "Leeds",
+    "id": "1998-11-21-LEE-CHA",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Elland Road"
+  },
+  {
+    "awayScore": 4,
+    "awayTeamId": 49,
+    "awayTeamName": "Chelsea",
+    "date": "1998-11-21T00:00:00Z",
+    "halfTime": {
+      "away": 2,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 46,
+    "homeTeamName": "Leicester",
+    "id": "1998-11-21-LEI-CHE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "King Power Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 1346,
+    "awayTeamName": "Coventry",
+    "date": "1998-11-21T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 2,
+    "homeTeamId": 70,
+    "homeTeamName": "Middlesbrough",
+    "id": "1998-11-21-MID-COV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Riverside Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 33,
+    "awayTeamName": "Man United",
+    "date": "1998-11-21T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 3,
+    "homeTeamId": 74,
+    "homeTeamName": "Sheffield Weds",
+    "id": "1998-11-21-SHW-MUN",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Hillsborough"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 65,
+    "awayTeamName": "Nott'm Forest",
+    "date": "1998-11-21T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 2,
+    "homeTeamId": 47,
+    "homeTeamName": "Tottenham",
+    "id": "1998-11-21-TOT-NFO",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 42,
+    "awayTeamName": "Arsenal",
+    "date": "1998-11-21T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 1333,
+    "homeTeamName": "Wimbledon",
+    "id": "1998-11-21-WIM-ARS",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Plough Lane"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 48,
+    "awayTeamName": "West Ham",
+    "date": "1998-11-22T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 69,
+    "homeTeamName": "Derby",
+    "id": "1998-11-22-DER-WHU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Pride Park Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 34,
+    "awayTeamName": "Newcastle",
+    "date": "1998-11-23T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 45,
+    "homeTeamName": "Everton",
+    "id": "1998-11-23-EVE-NEW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Goodison Park"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 45,
+    "awayTeamName": "Everton",
+    "date": "1998-11-28T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 1335,
+    "homeTeamName": "Charlton",
+    "id": "1998-11-28-CHA-EVE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The Valley"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 74,
+    "awayTeamName": "Sheffield Weds",
+    "date": "1998-11-28T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 49,
+    "homeTeamName": "Chelsea",
+    "id": "1998-11-28-CHE-SHW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Stamford Bridge"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 46,
+    "awayTeamName": "Leicester",
+    "date": "1998-11-28T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 1346,
+    "homeTeamName": "Coventry",
+    "id": "1998-11-28-COV-LEI",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Coventry Building Society Arena"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 1333,
+    "awayTeamName": "Wimbledon",
+    "date": "1998-11-28T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 3,
+    "homeTeamId": 34,
+    "homeTeamName": "Newcastle",
+    "id": "1998-11-28-NEW-WIM",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St James' Park"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 66,
+    "awayTeamName": "Aston Villa",
+    "date": "1998-11-28T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 2,
+    "homeTeamId": 65,
+    "homeTeamName": "Nott'm Forest",
+    "id": "1998-11-28-NFO-AVL",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The City Ground"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 69,
+    "awayTeamName": "Derby",
+    "date": "1998-11-28T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 41,
+    "homeTeamName": "Southampton",
+    "id": "1998-11-28-SOU-DER",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St Mary's Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 47,
+    "awayTeamName": "Tottenham",
+    "date": "1998-11-28T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 48,
+    "homeTeamName": "West Ham",
+    "id": "1998-11-28-WHU-TOT",
+    "referee": null,
+    "teamStats": null,
+    "venue": "London Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 70,
+    "awayTeamName": "Middlesbrough",
+    "date": "1998-11-29T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 42,
+    "homeTeamName": "Arsenal",
+    "id": "1998-11-29-ARS-MID",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Emirates Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 67,
+    "awayTeamName": "Blackburn",
+    "date": "1998-11-29T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 2,
+    "homeTeamId": 40,
+    "homeTeamName": "Liverpool",
+    "id": "1998-11-29-LIV-BLB",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Anfield"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 63,
+    "awayTeamName": "Leeds",
+    "date": "1998-11-29T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 3,
+    "homeTeamId": 33,
+    "homeTeamName": "Man United",
+    "id": "1998-11-29-MUN-LEE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Old Trafford"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 33,
+    "awayTeamName": "Man United",
+    "date": "1998-12-05T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 66,
+    "homeTeamName": "Aston Villa",
+    "id": "1998-12-05-AVL-MUN",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Villa Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 1335,
+    "awayTeamName": "Charlton",
+    "date": "1998-12-05T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 67,
+    "homeTeamName": "Blackburn",
+    "id": "1998-12-05-BLB-CHA",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Ewood Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 42,
+    "awayTeamName": "Arsenal",
+    "date": "1998-12-05T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 69,
+    "homeTeamName": "Derby",
+    "id": "1998-12-05-DER-ARS",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Pride Park Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 49,
+    "awayTeamName": "Chelsea",
+    "date": "1998-12-05T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 45,
+    "homeTeamName": "Everton",
+    "id": "1998-12-05-EVE-CHE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Goodison Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 48,
+    "awayTeamName": "West Ham",
+    "date": "1998-12-05T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 4,
+    "homeTeamId": 63,
+    "homeTeamName": "Leeds",
+    "id": "1998-12-05-LEE-WHU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Elland Road"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 41,
+    "awayTeamName": "Southampton",
+    "date": "1998-12-05T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 2,
+    "homeTeamId": 46,
+    "homeTeamName": "Leicester",
+    "id": "1998-12-05-LEI-SOU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "King Power Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 40,
+    "awayTeamName": "Liverpool",
+    "date": "1998-12-05T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 47,
+    "homeTeamName": "Tottenham",
+    "id": "1998-12-05-TOT-LIV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 1346,
+    "awayTeamName": "Coventry",
+    "date": "1998-12-05T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 2,
+    "homeTeamId": 1333,
+    "homeTeamName": "Wimbledon",
+    "id": "1998-12-05-WIM-COV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Plough Lane"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 34,
+    "awayTeamName": "Newcastle",
+    "date": "1998-12-06T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 70,
+    "homeTeamName": "Middlesbrough",
+    "id": "1998-12-06-MID-NEW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Riverside Stadium"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 65,
+    "awayTeamName": "Nott'm Forest",
+    "date": "1998-12-07T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 3,
+    "homeTeamId": 74,
+    "homeTeamName": "Sheffield Weds",
+    "id": "1998-12-07-SHW-NFO",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Hillsborough"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 66,
+    "awayTeamName": "Aston Villa",
+    "date": "1998-12-09T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 49,
+    "homeTeamName": "Chelsea",
+    "id": "1998-12-09-CHE-AVL",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Stamford Bridge"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 34,
+    "awayTeamName": "Newcastle",
+    "date": "1998-12-12T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 67,
+    "homeTeamName": "Blackburn",
+    "id": "1998-12-12-BLB-NEW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Ewood Park"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 49,
+    "awayTeamName": "Chelsea",
+    "date": "1998-12-12T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 69,
+    "homeTeamName": "Derby",
+    "id": "1998-12-12-DER-CHE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Pride Park Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 41,
+    "awayTeamName": "Southampton",
+    "date": "1998-12-12T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 45,
+    "homeTeamName": "Everton",
+    "id": "1998-12-12-EVE-SOU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Goodison Park"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 65,
+    "awayTeamName": "Nott'm Forest",
+    "date": "1998-12-12T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 3,
+    "homeTeamId": 46,
+    "homeTeamName": "Leicester",
+    "id": "1998-12-12-LEI-NFO",
+    "referee": null,
+    "teamStats": null,
+    "venue": "King Power Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 48,
+    "awayTeamName": "West Ham",
+    "date": "1998-12-12T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 70,
+    "homeTeamName": "Middlesbrough",
+    "id": "1998-12-12-MID-WHU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Riverside Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 1335,
+    "awayTeamName": "Charlton",
+    "date": "1998-12-12T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 3,
+    "homeTeamId": 74,
+    "homeTeamName": "Sheffield Weds",
+    "id": "1998-12-12-SHW-CHA",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Hillsborough"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 33,
+    "awayTeamName": "Man United",
+    "date": "1998-12-12T00:00:00Z",
+    "halfTime": {
+      "away": 2,
+      "home": 0
+    },
+    "homeScore": 2,
+    "homeTeamId": 47,
+    "homeTeamName": "Tottenham",
+    "id": "1998-12-12-TOT-MUN",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 42,
+    "awayTeamName": "Arsenal",
+    "date": "1998-12-13T00:00:00Z",
+    "halfTime": {
+      "away": 2,
+      "home": 0
+    },
+    "homeScore": 3,
+    "homeTeamId": 66,
+    "homeTeamName": "Aston Villa",
+    "id": "1998-12-13-AVL-ARS",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Villa Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 40,
+    "awayTeamName": "Liverpool",
+    "date": "1998-12-13T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 1333,
+    "homeTeamName": "Wimbledon",
+    "id": "1998-12-13-WIM-LIV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Plough Lane"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 1346,
+    "awayTeamName": "Coventry",
+    "date": "1998-12-14T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 63,
+    "homeTeamName": "Leeds",
+    "id": "1998-12-14-LEE-COV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Elland Road"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 49,
+    "awayTeamName": "Chelsea",
+    "date": "1998-12-16T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 33,
+    "homeTeamName": "Man United",
+    "id": "1998-12-16-MUN-CHE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Old Trafford"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 47,
+    "awayTeamName": "Tottenham",
+    "date": "1998-12-19T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 2,
+    "homeTeamId": 49,
+    "homeTeamName": "Chelsea",
+    "id": "1998-12-19-CHE-TOT",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Stamford Bridge"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 69,
+    "awayTeamName": "Derby",
+    "date": "1998-12-19T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 1346,
+    "homeTeamName": "Coventry",
+    "id": "1998-12-19-COV-DER",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Coventry Building Society Arena"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 74,
+    "awayTeamName": "Sheffield Weds",
+    "date": "1998-12-19T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 2,
+    "homeTeamId": 40,
+    "homeTeamName": "Liverpool",
+    "id": "1998-12-19-LIV-SHW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Anfield"
+  },
+  {
+    "awayScore": 3,
+    "awayTeamId": 70,
+    "awayTeamName": "Middlesbrough",
+    "date": "1998-12-19T00:00:00Z",
+    "halfTime": {
+      "away": 2,
+      "home": 0
+    },
+    "homeScore": 2,
+    "homeTeamId": 33,
+    "homeTeamName": "Man United",
+    "id": "1998-12-19-MUN-MID",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Old Trafford"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 46,
+    "awayTeamName": "Leicester",
+    "date": "1998-12-19T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 34,
+    "homeTeamName": "Newcastle",
+    "id": "1998-12-19-NEW-LEI",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St James' Park"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 67,
+    "awayTeamName": "Blackburn",
+    "date": "1998-12-19T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 2,
+    "homeTeamId": 65,
+    "homeTeamName": "Nott'm Forest",
+    "id": "1998-12-19-NFO-BLB",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The City Ground"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 1333,
+    "awayTeamName": "Wimbledon",
+    "date": "1998-12-19T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 3,
+    "homeTeamId": 41,
+    "homeTeamName": "Southampton",
+    "id": "1998-12-19-SOU-WIM",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St Mary's Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 45,
+    "awayTeamName": "Everton",
+    "date": "1998-12-19T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 48,
+    "homeTeamName": "West Ham",
+    "id": "1998-12-19-WHU-EVE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "London Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 63,
+    "awayTeamName": "Leeds",
+    "date": "1998-12-20T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 3,
+    "homeTeamId": 42,
+    "homeTeamName": "Arsenal",
+    "id": "1998-12-20-ARS-LEE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Emirates Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 66,
+    "awayTeamName": "Aston Villa",
+    "date": "1998-12-21T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 1335,
+    "homeTeamName": "Charlton",
+    "id": "1998-12-21-CHA-AVL",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The Valley"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 48,
+    "awayTeamName": "West Ham",
+    "date": "1998-12-26T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 42,
+    "homeTeamName": "Arsenal",
+    "id": "1998-12-26-ARS-WHU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Emirates Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 66,
+    "awayTeamName": "Aston Villa",
+    "date": "1998-12-26T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 67,
+    "homeTeamName": "Blackburn",
+    "id": "1998-12-26-BLB-AVL",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Ewood Park"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 47,
+    "awayTeamName": "Tottenham",
+    "date": "1998-12-26T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 1346,
+    "homeTeamName": "Coventry",
+    "id": "1998-12-26-COV-TOT",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Coventry Building Society Arena"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 69,
+    "awayTeamName": "Derby",
+    "date": "1998-12-26T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 45,
+    "homeTeamName": "Everton",
+    "id": "1998-12-26-EVE-DER",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Goodison Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 65,
+    "awayTeamName": "Nott'm Forest",
+    "date": "1998-12-26T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 3,
+    "homeTeamId": 33,
+    "homeTeamName": "Man United",
+    "id": "1998-12-26-MUN-NFO",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Old Trafford"
+  },
+  {
+    "awayScore": 3,
+    "awayTeamId": 40,
+    "awayTeamName": "Liverpool",
+    "date": "1998-12-26T00:00:00Z",
+    "halfTime": {
+      "away": 2,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 70,
+    "homeTeamName": "Middlesbrough",
+    "id": "1998-12-26-MID-LIV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Riverside Stadium"
+  },
+  {
+    "awayScore": 3,
+    "awayTeamId": 63,
+    "awayTeamName": "Leeds",
+    "date": "1998-12-26T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 34,
+    "homeTeamName": "Newcastle",
+    "id": "1998-12-26-NEW-LEE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St James' Park"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 46,
+    "awayTeamName": "Leicester",
+    "date": "1998-12-26T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 74,
+    "homeTeamName": "Sheffield Weds",
+    "id": "1998-12-26-SHW-LEI",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Hillsborough"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 49,
+    "awayTeamName": "Chelsea",
+    "date": "1998-12-26T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 41,
+    "homeTeamName": "Southampton",
+    "id": "1998-12-26-SOU-CHE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St Mary's Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 1335,
+    "awayTeamName": "Charlton",
+    "date": "1998-12-26T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 1333,
+    "homeTeamName": "Wimbledon",
+    "id": "1998-12-26-WIM-CHA",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Plough Lane"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 74,
+    "awayTeamName": "Sheffield Weds",
+    "date": "1998-12-28T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 66,
+    "homeTeamName": "Aston Villa",
+    "id": "1998-12-28-AVL-SHW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Villa Park"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 42,
+    "awayTeamName": "Arsenal",
+    "date": "1998-12-28T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 1335,
+    "homeTeamName": "Charlton",
+    "id": "1998-12-28-CHA-ARS",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The Valley"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 70,
+    "awayTeamName": "Middlesbrough",
+    "date": "1998-12-28T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 69,
+    "homeTeamName": "Derby",
+    "id": "1998-12-28-DER-MID",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Pride Park Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 67,
+    "awayTeamName": "Blackburn",
+    "date": "1998-12-28T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 46,
+    "homeTeamName": "Leicester",
+    "id": "1998-12-28-LEI-BLB",
+    "referee": null,
+    "teamStats": null,
+    "venue": "King Power Stadium"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 34,
+    "awayTeamName": "Newcastle",
+    "date": "1998-12-28T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 4,
+    "homeTeamId": 40,
+    "homeTeamName": "Liverpool",
+    "id": "1998-12-28-LIV-NEW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Anfield"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 41,
+    "awayTeamName": "Southampton",
+    "date": "1998-12-28T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 65,
+    "homeTeamName": "Nott'm Forest",
+    "id": "1998-12-28-NFO-SOU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The City Ground"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 45,
+    "awayTeamName": "Everton",
+    "date": "1998-12-28T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 4,
+    "homeTeamId": 47,
+    "homeTeamName": "Tottenham",
+    "id": "1998-12-28-TOT-EVE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 1346,
+    "awayTeamName": "Coventry",
+    "date": "1998-12-28T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 48,
+    "homeTeamName": "West Ham",
+    "id": "1998-12-28-WHU-COV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "London Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 33,
+    "awayTeamName": "Man United",
+    "date": "1998-12-29T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 49,
+    "homeTeamName": "Chelsea",
+    "id": "1998-12-29-CHE-MUN",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Stamford Bridge"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 1333,
+    "awayTeamName": "Wimbledon",
+    "date": "1998-12-29T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 63,
+    "homeTeamName": "Leeds",
+    "id": "1998-12-29-LEE-WIM",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Elland Road"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 40,
+    "awayTeamName": "Liverpool",
+    "date": "1999-01-09T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 42,
+    "homeTeamName": "Arsenal",
+    "id": "1999-01-09-ARS-LIV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Emirates Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 63,
+    "awayTeamName": "Leeds",
+    "date": "1999-01-09T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 67,
+    "homeTeamName": "Blackburn",
+    "id": "1999-01-09-BLB-LEE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Ewood Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 65,
+    "awayTeamName": "Nott'm Forest",
+    "date": "1999-01-09T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 4,
+    "homeTeamId": 1346,
+    "homeTeamName": "Coventry",
+    "id": "1999-01-09-COV-NFO",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Coventry Building Society Arena"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 46,
+    "awayTeamName": "Leicester",
+    "date": "1999-01-09T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 45,
+    "homeTeamName": "Everton",
+    "id": "1999-01-09-EVE-LEI",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Goodison Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 66,
+    "awayTeamName": "Aston Villa",
+    "date": "1999-01-09T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 70,
+    "homeTeamName": "Middlesbrough",
+    "id": "1999-01-09-MID-AVL",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Riverside Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 49,
+    "awayTeamName": "Chelsea",
+    "date": "1999-01-09T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 34,
+    "homeTeamName": "Newcastle",
+    "id": "1999-01-09-NEW-CHE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St James' Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 47,
+    "awayTeamName": "Tottenham",
+    "date": "1999-01-09T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 74,
+    "homeTeamName": "Sheffield Weds",
+    "id": "1999-01-09-SHW-TOT",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Hillsborough"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 1335,
+    "awayTeamName": "Charlton",
+    "date": "1999-01-09T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 3,
+    "homeTeamId": 41,
+    "homeTeamName": "Southampton",
+    "id": "1999-01-09-SOU-CHA",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St Mary's Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 69,
+    "awayTeamName": "Derby",
+    "date": "1999-01-09T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 1333,
+    "homeTeamName": "Wimbledon",
+    "id": "1999-01-09-WIM-DER",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Plough Lane"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 48,
+    "awayTeamName": "West Ham",
+    "date": "1999-01-10T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 4,
+    "homeTeamId": 33,
+    "homeTeamName": "Man United",
+    "id": "1999-01-10-MUN-WHU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Old Trafford"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 1346,
+    "awayTeamName": "Coventry",
+    "date": "1999-01-16T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 49,
+    "homeTeamName": "Chelsea",
+    "id": "1999-01-16-CHE-COV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Stamford Bridge"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 67,
+    "awayTeamName": "Blackburn",
+    "date": "1999-01-16T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 69,
+    "homeTeamName": "Derby",
+    "id": "1999-01-16-DER-BLB",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Pride Park Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 70,
+    "awayTeamName": "Middlesbrough",
+    "date": "1999-01-16T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 2,
+    "homeTeamId": 63,
+    "homeTeamName": "Leeds",
+    "id": "1999-01-16-LEE-MID",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Elland Road"
+  },
+  {
+    "awayScore": 6,
+    "awayTeamId": 33,
+    "awayTeamName": "Man United",
+    "date": "1999-01-16T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 46,
+    "homeTeamName": "Leicester",
+    "id": "1999-01-16-LEI-MUN",
+    "referee": null,
+    "teamStats": null,
+    "venue": "King Power Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 41,
+    "awayTeamName": "Southampton",
+    "date": "1999-01-16T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 3
+    },
+    "homeScore": 7,
+    "homeTeamId": 40,
+    "homeTeamName": "Liverpool",
+    "id": "1999-01-16-LIV-SOU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Anfield"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 42,
+    "awayTeamName": "Arsenal",
+    "date": "1999-01-16T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 65,
+    "homeTeamName": "Nott'm Forest",
+    "id": "1999-01-16-NFO-ARS",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The City Ground"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 1333,
+    "awayTeamName": "Wimbledon",
+    "date": "1999-01-16T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 47,
+    "homeTeamName": "Tottenham",
+    "id": "1999-01-16-TOT-WIM",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  {
+    "awayScore": 4,
+    "awayTeamId": 74,
+    "awayTeamName": "Sheffield Weds",
+    "date": "1999-01-16T00:00:00Z",
+    "halfTime": {
+      "away": 2,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 48,
+    "homeTeamName": "West Ham",
+    "id": "1999-01-16-WHU-SHW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "London Stadium"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 34,
+    "awayTeamName": "Newcastle",
+    "date": "1999-01-17T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 2,
+    "homeTeamId": 1335,
+    "homeTeamName": "Charlton",
+    "id": "1999-01-17-CHA-NEW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The Valley"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 45,
+    "awayTeamName": "Everton",
+    "date": "1999-01-18T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 3,
+    "homeTeamId": 66,
+    "homeTeamName": "Aston Villa",
+    "id": "1999-01-18-AVL-EVE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Villa Park"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 47,
+    "awayTeamName": "Tottenham",
+    "date": "1999-01-30T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 67,
+    "homeTeamName": "Blackburn",
+    "id": "1999-01-30-BLB-TOT",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Ewood Park"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 40,
+    "awayTeamName": "Liverpool",
+    "date": "1999-01-30T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 2,
+    "homeTeamId": 1346,
+    "homeTeamName": "Coventry",
+    "id": "1999-01-30-COV-LIV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Coventry Building Society Arena"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 65,
+    "awayTeamName": "Nott'm Forest",
+    "date": "1999-01-30T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 45,
+    "homeTeamName": "Everton",
+    "id": "1999-01-30-EVE-NFO",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Goodison Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 46,
+    "awayTeamName": "Leicester",
+    "date": "1999-01-30T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 70,
+    "homeTeamName": "Middlesbrough",
+    "id": "1999-01-30-MID-LEI",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Riverside Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 66,
+    "awayTeamName": "Aston Villa",
+    "date": "1999-01-30T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 2,
+    "homeTeamId": 34,
+    "homeTeamName": "Newcastle",
+    "id": "1999-01-30-NEW-AVL",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St James' Park"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 69,
+    "awayTeamName": "Derby",
+    "date": "1999-01-30T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 74,
+    "homeTeamName": "Sheffield Weds",
+    "id": "1999-01-30-SHW-DER",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Hillsborough"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 63,
+    "awayTeamName": "Leeds",
+    "date": "1999-01-30T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 3,
+    "homeTeamId": 41,
+    "homeTeamName": "Southampton",
+    "id": "1999-01-30-SOU-LEE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St Mary's Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 48,
+    "awayTeamName": "West Ham",
+    "date": "1999-01-30T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 1333,
+    "homeTeamName": "Wimbledon",
+    "id": "1999-01-30-WIM-WHU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Plough Lane"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 49,
+    "awayTeamName": "Chelsea",
+    "date": "1999-01-31T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 42,
+    "homeTeamName": "Arsenal",
+    "id": "1999-01-31-ARS-CHE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Emirates Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 33,
+    "awayTeamName": "Man United",
+    "date": "1999-01-31T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 1335,
+    "homeTeamName": "Charlton",
+    "id": "1999-01-31-CHA-MUN",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The Valley"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 69,
+    "awayTeamName": "Derby",
+    "date": "1999-02-02T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 33,
+    "homeTeamName": "Man United",
+    "id": "1999-02-02-MUN-DER",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Old Trafford"
+  },
+  {
+    "awayScore": 3,
+    "awayTeamId": 67,
+    "awayTeamName": "Blackburn",
+    "date": "1999-02-06T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 66,
+    "homeTeamName": "Aston Villa",
+    "id": "1999-02-06-AVL-BLB",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Villa Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 41,
+    "awayTeamName": "Southampton",
+    "date": "1999-02-06T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 49,
+    "homeTeamName": "Chelsea",
+    "id": "1999-02-06-CHE-SOU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Stamford Bridge"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 34,
+    "awayTeamName": "Newcastle",
+    "date": "1999-02-06T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 63,
+    "homeTeamName": "Leeds",
+    "id": "1999-02-06-LEE-NEW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Elland Road"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 74,
+    "awayTeamName": "Sheffield Weds",
+    "date": "1999-02-06T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 46,
+    "homeTeamName": "Leicester",
+    "id": "1999-02-06-LEI-SHW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "King Power Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 70,
+    "awayTeamName": "Middlesbrough",
+    "date": "1999-02-06T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 3
+    },
+    "homeScore": 3,
+    "homeTeamId": 40,
+    "homeTeamName": "Liverpool",
+    "id": "1999-02-06-LIV-MID",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Anfield"
+  },
+  {
+    "awayScore": 8,
+    "awayTeamId": 33,
+    "awayTeamName": "Man United",
+    "date": "1999-02-06T00:00:00Z",
+    "halfTime": {
+      "away": 2,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 65,
+    "homeTeamName": "Nott'm Forest",
+    "id": "1999-02-06-NFO-MUN",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The City Ground"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 1346,
+    "awayTeamName": "Coventry",
+    "date": "1999-02-06T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 47,
+    "homeTeamName": "Tottenham",
+    "id": "1999-02-06-TOT-COV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  {
+    "awayScore": 4,
+    "awayTeamId": 42,
+    "awayTeamName": "Arsenal",
+    "date": "1999-02-06T00:00:00Z",
+    "halfTime": {
+      "away": 2,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 48,
+    "homeTeamName": "West Ham",
+    "id": "1999-02-06-WHU-ARS",
+    "referee": null,
+    "teamStats": null,
+    "venue": "London Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 45,
+    "awayTeamName": "Everton",
+    "date": "1999-02-07T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 2,
+    "homeTeamId": 69,
+    "homeTeamName": "Derby",
+    "id": "1999-02-07-DER-EVE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Pride Park Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 1333,
+    "awayTeamName": "Wimbledon",
+    "date": "1999-02-08T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 1335,
+    "homeTeamName": "Charlton",
+    "id": "1999-02-08-CHA-WIM",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The Valley"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 40,
+    "awayTeamName": "Liverpool",
+    "date": "1999-02-13T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 1335,
+    "homeTeamName": "Charlton",
+    "id": "1999-02-13-CHA-LIV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The Valley"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 65,
+    "awayTeamName": "Nott'm Forest",
+    "date": "1999-02-13T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 2,
+    "homeTeamId": 48,
+    "homeTeamName": "West Ham",
+    "id": "1999-02-13-WHU-NFO",
+    "referee": null,
+    "teamStats": null,
+    "venue": "London Stadium"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 63,
+    "awayTeamName": "Leeds",
+    "date": "1999-02-17T00:00:00Z",
+    "halfTime": {
+      "away": 2,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 66,
+    "homeTeamName": "Aston Villa",
+    "id": "1999-02-17-AVL-LEE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Villa Park"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 67,
+    "awayTeamName": "Blackburn",
+    "date": "1999-02-17T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 49,
+    "homeTeamName": "Chelsea",
+    "id": "1999-02-17-CHE-BLB",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Stamford Bridge"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 70,
+    "awayTeamName": "Middlesbrough",
+    "date": "1999-02-17T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 5,
+    "homeTeamId": 45,
+    "homeTeamName": "Everton",
+    "id": "1999-02-17-EVE-MID",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Goodison Park"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 42,
+    "awayTeamName": "Arsenal",
+    "date": "1999-02-17T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 33,
+    "homeTeamName": "Man United",
+    "id": "1999-02-17-MUN-ARS",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Old Trafford"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 1346,
+    "awayTeamName": "Coventry",
+    "date": "1999-02-17T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 4,
+    "homeTeamId": 34,
+    "homeTeamName": "Newcastle",
+    "id": "1999-02-17-NEW-COV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St James' Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 46,
+    "awayTeamName": "Leicester",
+    "date": "1999-02-20T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 4
+    },
+    "homeScore": 5,
+    "homeTeamId": 42,
+    "homeTeamName": "Arsenal",
+    "id": "1999-02-20-ARS-LEI",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Emirates Stadium"
+  },
+  {
+    "awayScore": 4,
+    "awayTeamId": 74,
+    "awayTeamName": "Sheffield Weds",
+    "date": "1999-02-20T00:00:00Z",
+    "halfTime": {
+      "away": 3,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 67,
+    "homeTeamName": "Blackburn",
+    "id": "1999-02-20-BLB-SHW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Ewood Park"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 33,
+    "awayTeamName": "Man United",
+    "date": "1999-02-20T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 1346,
+    "homeTeamName": "Coventry",
+    "id": "1999-02-20-COV-MUN",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Coventry Building Society Arena"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 1335,
+    "awayTeamName": "Charlton",
+    "date": "1999-02-20T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 69,
+    "homeTeamName": "Derby",
+    "id": "1999-02-20-DER-CHA",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Pride Park Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 45,
+    "awayTeamName": "Everton",
+    "date": "1999-02-20T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 63,
+    "homeTeamName": "Leeds",
+    "id": "1999-02-20-LEE-EVE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Elland Road"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 48,
+    "awayTeamName": "West Ham",
+    "date": "1999-02-20T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 2
+    },
+    "homeScore": 2,
+    "homeTeamId": 40,
+    "homeTeamName": "Liverpool",
+    "id": "1999-02-20-LIV-WHU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Anfield"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 47,
+    "awayTeamName": "Tottenham",
+    "date": "1999-02-20T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 70,
+    "homeTeamName": "Middlesbrough",
+    "id": "1999-02-20-MID-TOT",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Riverside Stadium"
+  },
+  {
+    "awayScore": 3,
+    "awayTeamId": 49,
+    "awayTeamName": "Chelsea",
+    "date": "1999-02-20T00:00:00Z",
+    "halfTime": {
+      "away": 2,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 65,
+    "homeTeamName": "Nott'm Forest",
+    "id": "1999-02-20-NFO-CHE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The City Ground"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 34,
+    "awayTeamName": "Newcastle",
+    "date": "1999-02-20T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 2,
+    "homeTeamId": 41,
+    "homeTeamName": "Southampton",
+    "id": "1999-02-20-SOU-NEW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St Mary's Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 66,
+    "awayTeamName": "Aston Villa",
+    "date": "1999-02-21T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 1333,
+    "homeTeamName": "Wimbledon",
+    "id": "1999-02-21-WIM-AVL",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Plough Lane"
+  },
+  {
+    "awayScore": 4,
+    "awayTeamId": 1346,
+    "awayTeamName": "Coventry",
+    "date": "1999-02-27T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 66,
+    "homeTeamName": "Aston Villa",
+    "id": "1999-02-27-AVL-COV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Villa Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 65,
+    "awayTeamName": "Nott'm Forest",
+    "date": "1999-02-27T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 1335,
+    "homeTeamName": "Charlton",
+    "id": "1999-02-27-CHA-NFO",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The Valley"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 40,
+    "awayTeamName": "Liverpool",
+    "date": "1999-02-27T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 2,
+    "homeTeamId": 49,
+    "homeTeamName": "Chelsea",
+    "id": "1999-02-27-CHE-LIV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Stamford Bridge"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 1333,
+    "awayTeamName": "Wimbledon",
+    "date": "1999-02-27T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 45,
+    "homeTeamName": "Everton",
+    "id": "1999-02-27-EVE-WIM",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Goodison Park"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 41,
+    "awayTeamName": "Southampton",
+    "date": "1999-02-27T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 2,
+    "homeTeamId": 33,
+    "homeTeamName": "Man United",
+    "id": "1999-02-27-MUN-SOU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Old Trafford"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 70,
+    "awayTeamName": "Middlesbrough",
+    "date": "1999-02-27T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 3,
+    "homeTeamId": 74,
+    "homeTeamName": "Sheffield Weds",
+    "id": "1999-02-27-SHW-MID",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Hillsborough"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 69,
+    "awayTeamName": "Derby",
+    "date": "1999-02-27T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 47,
+    "homeTeamName": "Tottenham",
+    "id": "1999-02-27-TOT-DER",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 67,
+    "awayTeamName": "Blackburn",
+    "date": "1999-02-27T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 2,
+    "homeTeamId": 48,
+    "homeTeamName": "West Ham",
+    "id": "1999-02-27-WHU-BLB",
+    "referee": null,
+    "teamStats": null,
+    "venue": "London Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 42,
+    "awayTeamName": "Arsenal",
+    "date": "1999-02-28T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 34,
+    "homeTeamName": "Newcastle",
+    "id": "1999-02-28-NEW-ARS",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St James' Park"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 63,
+    "awayTeamName": "Leeds",
+    "date": "1999-03-01T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 46,
+    "homeTeamName": "Leicester",
+    "id": "1999-03-01-LEI-LEE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "King Power Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 41,
+    "awayTeamName": "Southampton",
+    "date": "1999-03-02T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 3,
+    "homeTeamId": 47,
+    "homeTeamName": "Tottenham",
+    "id": "1999-03-02-TOT-SOU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 1333,
+    "awayTeamName": "Wimbledon",
+    "date": "1999-03-03T00:00:00Z",
+    "halfTime": {
+      "away": 2,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 74,
+    "homeTeamName": "Sheffield Weds",
+    "id": "1999-03-03-SHW-WIM",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Hillsborough"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 1335,
+    "awayTeamName": "Charlton",
+    "date": "1999-03-06T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 2,
+    "homeTeamId": 1346,
+    "homeTeamName": "Coventry",
+    "id": "1999-03-06-COV-CHA",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Coventry Building Society Arena"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 48,
+    "awayTeamName": "West Ham",
+    "date": "1999-03-06T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 41,
+    "homeTeamName": "Southampton",
+    "id": "1999-03-06-SOU-WHU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St Mary's Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 46,
+    "awayTeamName": "Leicester",
+    "date": "1999-03-06T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 1333,
+    "homeTeamName": "Wimbledon",
+    "id": "1999-03-06-WIM-LEI",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Plough Lane"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 74,
+    "awayTeamName": "Sheffield Weds",
+    "date": "1999-03-09T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 3,
+    "homeTeamId": 42,
+    "homeTeamName": "Arsenal",
+    "id": "1999-03-09-ARS-SHW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Emirates Stadium"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 45,
+    "awayTeamName": "Everton",
+    "date": "1999-03-10T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 67,
+    "homeTeamName": "Blackburn",
+    "id": "1999-03-10-BLB-EVE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Ewood Park"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 66,
+    "awayTeamName": "Aston Villa",
+    "date": "1999-03-10T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 2
+    },
+    "homeScore": 2,
+    "homeTeamId": 69,
+    "homeTeamName": "Derby",
+    "id": "1999-03-10-DER-AVL",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Pride Park Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 47,
+    "awayTeamName": "Tottenham",
+    "date": "1999-03-10T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 63,
+    "homeTeamName": "Leeds",
+    "id": "1999-03-10-LEE-TOT",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Elland Road"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 34,
+    "awayTeamName": "Newcastle",
+    "date": "1999-03-10T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 65,
+    "homeTeamName": "Nott'm Forest",
+    "id": "1999-03-10-NFO-NEW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The City Ground"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 48,
+    "awayTeamName": "West Ham",
+    "date": "1999-03-13T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 49,
+    "homeTeamName": "Chelsea",
+    "id": "1999-03-13-CHE-WHU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Stamford Bridge"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 67,
+    "awayTeamName": "Blackburn",
+    "date": "1999-03-13T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 1346,
+    "homeTeamName": "Coventry",
+    "id": "1999-03-13-COV-BLB",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Coventry Building Society Arena"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 40,
+    "awayTeamName": "Liverpool",
+    "date": "1999-03-13T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 2
+    },
+    "homeScore": 3,
+    "homeTeamId": 69,
+    "homeTeamName": "Derby",
+    "id": "1999-03-13-DER-LIV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Pride Park Stadium"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 42,
+    "awayTeamName": "Arsenal",
+    "date": "1999-03-13T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 45,
+    "homeTeamName": "Everton",
+    "id": "1999-03-13-EVE-ARS",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Goodison Park"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 1335,
+    "awayTeamName": "Charlton",
+    "date": "1999-03-13T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 46,
+    "homeTeamName": "Leicester",
+    "id": "1999-03-13-LEI-CHA",
+    "referee": null,
+    "teamStats": null,
+    "venue": "King Power Stadium"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 33,
+    "awayTeamName": "Man United",
+    "date": "1999-03-13T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 34,
+    "homeTeamName": "Newcastle",
+    "id": "1999-03-13-NEW-MUN",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St James' Park"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 63,
+    "awayTeamName": "Leeds",
+    "date": "1999-03-13T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 74,
+    "homeTeamName": "Sheffield Weds",
+    "id": "1999-03-13-SHW-LEE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Hillsborough"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 66,
+    "awayTeamName": "Aston Villa",
+    "date": "1999-03-13T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 47,
+    "homeTeamName": "Tottenham",
+    "id": "1999-03-13-TOT-AVL",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  {
+    "awayScore": 3,
+    "awayTeamId": 65,
+    "awayTeamName": "Nott'm Forest",
+    "date": "1999-03-13T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 1333,
+    "homeTeamName": "Wimbledon",
+    "id": "1999-03-13-WIM-NFO",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Plough Lane"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 41,
+    "awayTeamName": "Southampton",
+    "date": "1999-03-14T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 3,
+    "homeTeamId": 70,
+    "homeTeamName": "Middlesbrough",
+    "id": "1999-03-14-MID-SOU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Riverside Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 1346,
+    "awayTeamName": "Coventry",
+    "date": "1999-03-20T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 42,
+    "homeTeamName": "Arsenal",
+    "id": "1999-03-20-ARS-COV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Emirates Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 1333,
+    "awayTeamName": "Wimbledon",
+    "date": "1999-03-20T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 3
+    },
+    "homeScore": 3,
+    "homeTeamId": 67,
+    "homeTeamName": "Blackburn",
+    "id": "1999-03-20-BLB-WIM",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Ewood Park"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 69,
+    "awayTeamName": "Derby",
+    "date": "1999-03-20T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 3
+    },
+    "homeScore": 4,
+    "homeTeamId": 63,
+    "homeTeamName": "Leeds",
+    "id": "1999-03-20-LEE-DER",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Elland Road"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 70,
+    "awayTeamName": "Middlesbrough",
+    "date": "1999-03-20T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 65,
+    "homeTeamName": "Nott'm Forest",
+    "id": "1999-03-20-NFO-MID",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The City Ground"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 74,
+    "awayTeamName": "Sheffield Weds",
+    "date": "1999-03-20T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 41,
+    "homeTeamName": "Southampton",
+    "id": "1999-03-20-SOU-SHW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St Mary's Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 34,
+    "awayTeamName": "Newcastle",
+    "date": "1999-03-20T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 48,
+    "homeTeamName": "West Ham",
+    "id": "1999-03-20-WHU-NEW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "London Stadium"
+  },
+  {
+    "awayScore": 3,
+    "awayTeamId": 49,
+    "awayTeamName": "Chelsea",
+    "date": "1999-03-21T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 66,
+    "homeTeamName": "Aston Villa",
+    "id": "1999-03-21-AVL-CHE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Villa Park"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 45,
+    "awayTeamName": "Everton",
+    "date": "1999-03-21T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 3,
+    "homeTeamId": 33,
+    "homeTeamName": "Man United",
+    "id": "1999-03-21-MUN-EVE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Old Trafford"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 48,
+    "awayTeamName": "West Ham",
+    "date": "1999-04-02T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 66,
+    "homeTeamName": "Aston Villa",
+    "id": "1999-04-02-AVL-WHU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Villa Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 70,
+    "awayTeamName": "Middlesbrough",
+    "date": "1999-04-03T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 67,
+    "homeTeamName": "Blackburn",
+    "id": "1999-04-03-BLB-MID",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Ewood Park"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 49,
+    "awayTeamName": "Chelsea",
+    "date": "1999-04-03T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 1335,
+    "homeTeamName": "Charlton",
+    "id": "1999-04-03-CHA-CHE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The Valley"
+  },
+  {
+    "awayScore": 4,
+    "awayTeamId": 34,
+    "awayTeamName": "Newcastle",
+    "date": "1999-04-03T00:00:00Z",
+    "halfTime": {
+      "away": 3,
+      "home": 2
+    },
+    "homeScore": 3,
+    "homeTeamId": 69,
+    "homeTeamName": "Derby",
+    "id": "1999-04-03-DER-NEW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Pride Park Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 65,
+    "awayTeamName": "Nott'm Forest",
+    "date": "1999-04-03T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 3,
+    "homeTeamId": 63,
+    "homeTeamName": "Leeds",
+    "id": "1999-04-03-LEE-NFO",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Elland Road"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 45,
+    "awayTeamName": "Everton",
+    "date": "1999-04-03T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 2
+    },
+    "homeScore": 3,
+    "homeTeamId": 40,
+    "homeTeamName": "Liverpool",
+    "id": "1999-04-03-LIV-EVE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Anfield"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 1346,
+    "awayTeamName": "Coventry",
+    "date": "1999-04-03T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 74,
+    "homeTeamName": "Sheffield Weds",
+    "id": "1999-04-03-SHW-COV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Hillsborough"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 42,
+    "awayTeamName": "Arsenal",
+    "date": "1999-04-03T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 41,
+    "homeTeamName": "Southampton",
+    "id": "1999-04-03-SOU-ARS",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St Mary's Stadium"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 46,
+    "awayTeamName": "Leicester",
+    "date": "1999-04-03T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 47,
+    "homeTeamName": "Tottenham",
+    "id": "1999-04-03-TOT-LEI",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 33,
+    "awayTeamName": "Man United",
+    "date": "1999-04-03T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 1333,
+    "homeTeamName": "Wimbledon",
+    "id": "1999-04-03-WIM-MUN",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Plough Lane"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 41,
+    "awayTeamName": "Southampton",
+    "date": "1999-04-05T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 1346,
+    "homeTeamName": "Coventry",
+    "id": "1999-04-05-COV-SOU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Coventry Building Society Arena"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 74,
+    "awayTeamName": "Sheffield Weds",
+    "date": "1999-04-05T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 45,
+    "homeTeamName": "Everton",
+    "id": "1999-04-05-EVE-SHW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Goodison Park"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 1333,
+    "awayTeamName": "Wimbledon",
+    "date": "1999-04-05T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 3
+    },
+    "homeScore": 3,
+    "homeTeamId": 70,
+    "homeTeamName": "Middlesbrough",
+    "id": "1999-04-05-MID-WIM",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Riverside Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 47,
+    "awayTeamName": "Tottenham",
+    "date": "1999-04-05T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 34,
+    "homeTeamName": "Newcastle",
+    "id": "1999-04-05-NEW-TOT",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St James' Park"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 40,
+    "awayTeamName": "Liverpool",
+    "date": "1999-04-05T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 2,
+    "homeTeamId": 65,
+    "homeTeamName": "Nott'm Forest",
+    "id": "1999-04-05-NFO-LIV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The City Ground"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 1335,
+    "awayTeamName": "Charlton",
+    "date": "1999-04-05T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 48,
+    "homeTeamName": "West Ham",
+    "id": "1999-04-05-WHU-CHA",
+    "referee": null,
+    "teamStats": null,
+    "venue": "London Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 67,
+    "awayTeamName": "Blackburn",
+    "date": "1999-04-06T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 42,
+    "homeTeamName": "Arsenal",
+    "id": "1999-04-06-ARS-BLB",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Emirates Stadium"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 66,
+    "awayTeamName": "Aston Villa",
+    "date": "1999-04-06T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 2,
+    "homeTeamId": 46,
+    "homeTeamName": "Leicester",
+    "id": "1999-04-06-LEI-AVL",
+    "referee": null,
+    "teamStats": null,
+    "venue": "King Power Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 41,
+    "awayTeamName": "Southampton",
+    "date": "1999-04-10T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 3,
+    "homeTeamId": 66,
+    "homeTeamName": "Aston Villa",
+    "id": "1999-04-10-AVL-SOU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Villa Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 65,
+    "awayTeamName": "Nott'm Forest",
+    "date": "1999-04-10T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 69,
+    "homeTeamName": "Derby",
+    "id": "1999-04-10-DER-NFO",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Pride Park Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 48,
+    "awayTeamName": "West Ham",
+    "date": "1999-04-10T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 46,
+    "homeTeamName": "Leicester",
+    "id": "1999-04-10-LEI-WHU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "King Power Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 1335,
+    "awayTeamName": "Charlton",
+    "date": "1999-04-10T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 70,
+    "homeTeamName": "Middlesbrough",
+    "id": "1999-04-10-MID-CHA",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Riverside Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 1346,
+    "awayTeamName": "Coventry",
+    "date": "1999-04-11T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 45,
+    "homeTeamName": "Everton",
+    "id": "1999-04-11-EVE-COV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Goodison Park"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 49,
+    "awayTeamName": "Chelsea",
+    "date": "1999-04-11T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 1333,
+    "homeTeamName": "Wimbledon",
+    "id": "1999-04-11-WIM-CHE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Plough Lane"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 40,
+    "awayTeamName": "Liverpool",
+    "date": "1999-04-12T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 63,
+    "homeTeamName": "Leeds",
+    "id": "1999-04-12-LEE-LIV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Elland Road"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 49,
+    "awayTeamName": "Chelsea",
+    "date": "1999-04-14T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 70,
+    "homeTeamName": "Middlesbrough",
+    "id": "1999-04-14-MID-CHE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Riverside Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 63,
+    "awayTeamName": "Leeds",
+    "date": "1999-04-17T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 1335,
+    "homeTeamName": "Charlton",
+    "id": "1999-04-17-CHA-LEE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The Valley"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 70,
+    "awayTeamName": "Middlesbrough",
+    "date": "1999-04-17T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 1346,
+    "homeTeamName": "Coventry",
+    "id": "1999-04-17-COV-MID",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Coventry Building Society Arena"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 66,
+    "awayTeamName": "Aston Villa",
+    "date": "1999-04-17T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 40,
+    "homeTeamName": "Liverpool",
+    "id": "1999-04-17-LIV-AVL",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Anfield"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 74,
+    "awayTeamName": "Sheffield Weds",
+    "date": "1999-04-17T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 3,
+    "homeTeamId": 33,
+    "homeTeamName": "Man United",
+    "id": "1999-04-17-MUN-SHW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Old Trafford"
+  },
+  {
+    "awayScore": 3,
+    "awayTeamId": 45,
+    "awayTeamName": "Everton",
+    "date": "1999-04-17T00:00:00Z",
+    "halfTime": {
+      "away": 2,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 34,
+    "homeTeamName": "Newcastle",
+    "id": "1999-04-17-NEW-EVE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St James' Park"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 47,
+    "awayTeamName": "Tottenham",
+    "date": "1999-04-17T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 65,
+    "homeTeamName": "Nott'm Forest",
+    "id": "1999-04-17-NFO-TOT",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The City Ground"
+  },
+  {
+    "awayScore": 3,
+    "awayTeamId": 67,
+    "awayTeamName": "Blackburn",
+    "date": "1999-04-17T00:00:00Z",
+    "halfTime": {
+      "away": 2,
+      "home": 1
+    },
+    "homeScore": 3,
+    "homeTeamId": 41,
+    "homeTeamName": "Southampton",
+    "id": "1999-04-17-SOU-BLB",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St Mary's Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 69,
+    "awayTeamName": "Derby",
+    "date": "1999-04-17T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 5,
+    "homeTeamId": 48,
+    "homeTeamName": "West Ham",
+    "id": "1999-04-17-WHU-DER",
+    "referee": null,
+    "teamStats": null,
+    "venue": "London Stadium"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 46,
+    "awayTeamName": "Leicester",
+    "date": "1999-04-18T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 49,
+    "homeTeamName": "Chelsea",
+    "id": "1999-04-18-CHE-LEI",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Stamford Bridge"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 1333,
+    "awayTeamName": "Wimbledon",
+    "date": "1999-04-19T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 5,
+    "homeTeamId": 42,
+    "homeTeamName": "Arsenal",
+    "id": "1999-04-19-ARS-WIM",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Emirates Stadium"
+  },
+  {
+    "awayScore": 4,
+    "awayTeamId": 47,
+    "awayTeamName": "Tottenham",
+    "date": "1999-04-20T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 1335,
+    "homeTeamName": "Charlton",
+    "id": "1999-04-20-CHA-TOT",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The Valley"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 46,
+    "awayTeamName": "Leicester",
+    "date": "1999-04-21T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 40,
+    "homeTeamName": "Liverpool",
+    "id": "1999-04-21-LIV-LEI",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Anfield"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 34,
+    "awayTeamName": "Newcastle",
+    "date": "1999-04-21T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 74,
+    "homeTeamName": "Sheffield Weds",
+    "id": "1999-04-21-SHW-NEW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Hillsborough"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 65,
+    "awayTeamName": "Nott'm Forest",
+    "date": "1999-04-24T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 66,
+    "homeTeamName": "Aston Villa",
+    "id": "1999-04-24-AVL-NFO",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Villa Park"
+  },
+  {
+    "awayScore": 3,
+    "awayTeamId": 40,
+    "awayTeamName": "Liverpool",
+    "date": "1999-04-24T00:00:00Z",
+    "halfTime": {
+      "away": 3,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 67,
+    "homeTeamName": "Blackburn",
+    "id": "1999-04-24-BLB-LIV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Ewood Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 41,
+    "awayTeamName": "Southampton",
+    "date": "1999-04-24T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 69,
+    "homeTeamName": "Derby",
+    "id": "1999-04-24-DER-SOU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Pride Park Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 1335,
+    "awayTeamName": "Charlton",
+    "date": "1999-04-24T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 4,
+    "homeTeamId": 45,
+    "homeTeamName": "Everton",
+    "id": "1999-04-24-EVE-CHA",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Goodison Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 1346,
+    "awayTeamName": "Coventry",
+    "date": "1999-04-24T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 46,
+    "homeTeamName": "Leicester",
+    "id": "1999-04-24-LEI-COV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "King Power Stadium"
+  },
+  {
+    "awayScore": 6,
+    "awayTeamId": 42,
+    "awayTeamName": "Arsenal",
+    "date": "1999-04-24T00:00:00Z",
+    "halfTime": {
+      "away": 3,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 70,
+    "homeTeamName": "Middlesbrough",
+    "id": "1999-04-24-MID-ARS",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Riverside Stadium"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 48,
+    "awayTeamName": "West Ham",
+    "date": "1999-04-24T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 47,
+    "homeTeamName": "Tottenham",
+    "id": "1999-04-24-TOT-WHU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 34,
+    "awayTeamName": "Newcastle",
+    "date": "1999-04-24T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 1333,
+    "homeTeamName": "Wimbledon",
+    "id": "1999-04-24-WIM-NEW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Plough Lane"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 33,
+    "awayTeamName": "Man United",
+    "date": "1999-04-25T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 63,
+    "homeTeamName": "Leeds",
+    "id": "1999-04-25-LEE-MUN",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Elland Road"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 49,
+    "awayTeamName": "Chelsea",
+    "date": "1999-04-25T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 74,
+    "homeTeamName": "Sheffield Weds",
+    "id": "1999-04-25-SHW-CHE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Hillsborough"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 67,
+    "awayTeamName": "Blackburn",
+    "date": "1999-05-01T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 1335,
+    "homeTeamName": "Charlton",
+    "id": "1999-05-01-CHA-BLB",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The Valley"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 45,
+    "awayTeamName": "Everton",
+    "date": "1999-05-01T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 3,
+    "homeTeamId": 49,
+    "homeTeamName": "Chelsea",
+    "id": "1999-05-01-CHE-EVE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Stamford Bridge"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 1333,
+    "awayTeamName": "Wimbledon",
+    "date": "1999-05-01T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 2,
+    "homeTeamId": 1346,
+    "homeTeamName": "Coventry",
+    "id": "1999-05-01-COV-WIM",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Coventry Building Society Arena"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 47,
+    "awayTeamName": "Tottenham",
+    "date": "1999-05-01T00:00:00Z",
+    "halfTime": {
+      "away": 2,
+      "home": 0
+    },
+    "homeScore": 3,
+    "homeTeamId": 40,
+    "homeTeamName": "Liverpool",
+    "id": "1999-05-01-LIV-TOT",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Anfield"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 66,
+    "awayTeamName": "Aston Villa",
+    "date": "1999-05-01T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 33,
+    "homeTeamName": "Man United",
+    "id": "1999-05-01-MUN-AVL",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Old Trafford"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 70,
+    "awayTeamName": "Middlesbrough",
+    "date": "1999-05-01T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 34,
+    "homeTeamName": "Newcastle",
+    "id": "1999-05-01-NEW-MID",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St James' Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 74,
+    "awayTeamName": "Sheffield Weds",
+    "date": "1999-05-01T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 2,
+    "homeTeamId": 65,
+    "homeTeamName": "Nott'm Forest",
+    "id": "1999-05-01-NFO-SHW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The City Ground"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 46,
+    "awayTeamName": "Leicester",
+    "date": "1999-05-01T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 41,
+    "homeTeamName": "Southampton",
+    "id": "1999-05-01-SOU-LEI",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St Mary's Stadium"
+  },
+  {
+    "awayScore": 5,
+    "awayTeamId": 63,
+    "awayTeamName": "Leeds",
+    "date": "1999-05-01T00:00:00Z",
+    "halfTime": {
+      "away": 2,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 48,
+    "homeTeamName": "West Ham",
+    "id": "1999-05-01-WHU-LEE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "London Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 69,
+    "awayTeamName": "Derby",
+    "date": "1999-05-02T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 42,
+    "homeTeamName": "Arsenal",
+    "id": "1999-05-02-ARS-DER",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Emirates Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 63,
+    "awayTeamName": "Leeds",
+    "date": "1999-05-05T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 49,
+    "homeTeamName": "Chelsea",
+    "id": "1999-05-05-CHE-LEE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Stamford Bridge"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 69,
+    "awayTeamName": "Derby",
+    "date": "1999-05-05T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 46,
+    "homeTeamName": "Leicester",
+    "id": "1999-05-05-LEI-DER",
+    "referee": null,
+    "teamStats": null,
+    "venue": "King Power Stadium"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 33,
+    "awayTeamName": "Man United",
+    "date": "1999-05-05T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 2,
+    "homeTeamId": 40,
+    "homeTeamName": "Liverpool",
+    "id": "1999-05-05-LIV-MUN",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Anfield"
+  },
+  {
+    "awayScore": 3,
+    "awayTeamId": 42,
+    "awayTeamName": "Arsenal",
+    "date": "1999-05-05T00:00:00Z",
+    "halfTime": {
+      "away": 2,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 47,
+    "homeTeamName": "Tottenham",
+    "id": "1999-05-05-TOT-ARS",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  {
+    "awayScore": 4,
+    "awayTeamId": 1335,
+    "awayTeamName": "Charlton",
+    "date": "1999-05-08T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 3,
+    "homeTeamId": 66,
+    "homeTeamName": "Aston Villa",
+    "id": "1999-05-08-AVL-CHA",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Villa Park"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 65,
+    "awayTeamName": "Nott'm Forest",
+    "date": "1999-05-08T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 1,
+    "homeTeamId": 67,
+    "homeTeamName": "Blackburn",
+    "id": "1999-05-08-BLB-NFO",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Ewood Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 1346,
+    "awayTeamName": "Coventry",
+    "date": "1999-05-08T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 69,
+    "homeTeamName": "Derby",
+    "id": "1999-05-08-DER-COV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Pride Park Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 48,
+    "awayTeamName": "West Ham",
+    "date": "1999-05-08T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 3
+    },
+    "homeScore": 6,
+    "homeTeamId": 45,
+    "homeTeamName": "Everton",
+    "id": "1999-05-08-EVE-WHU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Goodison Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 34,
+    "awayTeamName": "Newcastle",
+    "date": "1999-05-08T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 2,
+    "homeTeamId": 46,
+    "homeTeamName": "Leicester",
+    "id": "1999-05-08-LEI-NEW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "King Power Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 40,
+    "awayTeamName": "Liverpool",
+    "date": "1999-05-08T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 74,
+    "homeTeamName": "Sheffield Weds",
+    "id": "1999-05-08-SHW-LIV",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Hillsborough"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 41,
+    "awayTeamName": "Southampton",
+    "date": "1999-05-08T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 1333,
+    "homeTeamName": "Wimbledon",
+    "id": "1999-05-08-WIM-SOU",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Plough Lane"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 33,
+    "awayTeamName": "Man United",
+    "date": "1999-05-09T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 70,
+    "homeTeamName": "Middlesbrough",
+    "id": "1999-05-09-MID-MUN",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Riverside Stadium"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 49,
+    "awayTeamName": "Chelsea",
+    "date": "1999-05-10T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 47,
+    "homeTeamName": "Tottenham",
+    "id": "1999-05-10-TOT-CHE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 42,
+    "awayTeamName": "Arsenal",
+    "date": "1999-05-11T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 63,
+    "homeTeamName": "Leeds",
+    "id": "1999-05-11-LEE-ARS",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Elland Road"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 33,
+    "awayTeamName": "Man United",
+    "date": "1999-05-12T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 67,
+    "homeTeamName": "Blackburn",
+    "id": "1999-05-12-BLB-MUN",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Ewood Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 66,
+    "awayTeamName": "Aston Villa",
+    "date": "1999-05-16T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 42,
+    "homeTeamName": "Arsenal",
+    "id": "1999-05-16-ARS-AVL",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Emirates Stadium"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 74,
+    "awayTeamName": "Sheffield Weds",
+    "date": "1999-05-16T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 0,
+    "homeTeamId": 1335,
+    "homeTeamName": "Charlton",
+    "id": "1999-05-16-CHA-SHW",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The Valley"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 69,
+    "awayTeamName": "Derby",
+    "date": "1999-05-16T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 49,
+    "homeTeamName": "Chelsea",
+    "id": "1999-05-16-CHE-DER",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Stamford Bridge"
+  },
+  {
+    "awayScore": 2,
+    "awayTeamId": 63,
+    "awayTeamName": "Leeds",
+    "date": "1999-05-16T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 2,
+    "homeTeamId": 1346,
+    "homeTeamName": "Coventry",
+    "id": "1999-05-16-COV-LEE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Coventry Building Society Arena"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 1333,
+    "awayTeamName": "Wimbledon",
+    "date": "1999-05-16T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 3,
+    "homeTeamId": 40,
+    "homeTeamName": "Liverpool",
+    "id": "1999-05-16-LIV-WIM",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Anfield"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 47,
+    "awayTeamName": "Tottenham",
+    "date": "1999-05-16T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 33,
+    "homeTeamName": "Man United",
+    "id": "1999-05-16-MUN-TOT",
+    "referee": null,
+    "teamStats": null,
+    "venue": "Old Trafford"
+  },
+  {
+    "awayScore": 1,
+    "awayTeamId": 67,
+    "awayTeamName": "Blackburn",
+    "date": "1999-05-16T00:00:00Z",
+    "halfTime": {
+      "away": 1,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 34,
+    "homeTeamName": "Newcastle",
+    "id": "1999-05-16-NEW-BLB",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St James' Park"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 46,
+    "awayTeamName": "Leicester",
+    "date": "1999-05-16T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 0
+    },
+    "homeScore": 1,
+    "homeTeamId": 65,
+    "homeTeamName": "Nott'm Forest",
+    "id": "1999-05-16-NFO-LEI",
+    "referee": null,
+    "teamStats": null,
+    "venue": "The City Ground"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 45,
+    "awayTeamName": "Everton",
+    "date": "1999-05-16T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 1
+    },
+    "homeScore": 2,
+    "homeTeamId": 41,
+    "homeTeamName": "Southampton",
+    "id": "1999-05-16-SOU-EVE",
+    "referee": null,
+    "teamStats": null,
+    "venue": "St Mary's Stadium"
+  },
+  {
+    "awayScore": 0,
+    "awayTeamId": 70,
+    "awayTeamName": "Middlesbrough",
+    "date": "1999-05-16T00:00:00Z",
+    "halfTime": {
+      "away": 0,
+      "home": 2
+    },
+    "homeScore": 4,
+    "homeTeamId": 48,
+    "homeTeamName": "West Ham",
+    "id": "1999-05-16-WHU-MID",
+    "referee": null,
+    "teamStats": null,
+    "venue": "London Stadium"
+  }
+]

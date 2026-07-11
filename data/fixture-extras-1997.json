@@ -1,0 +1,1522 @@
+{
+  "1997-08-09-BAR-WHU": {
+    "attendance": 18667,
+    "venue": "Oakwell"
+  },
+  "1997-08-09-BLB-DER": {
+    "attendance": 23557,
+    "venue": "Ewood Park"
+  },
+  "1997-08-09-COV-CHE": {
+    "attendance": 22686,
+    "venue": "Highfield Road"
+  },
+  "1997-08-09-EVE-CRY": {
+    "attendance": 35716,
+    "venue": "Goodison Park"
+  },
+  "1997-08-09-LEE-ARS": {
+    "attendance": 37993,
+    "venue": "Elland Road"
+  },
+  "1997-08-09-LEI-AVL": {
+    "attendance": 20304,
+    "venue": "Filbert Street"
+  },
+  "1997-08-09-NEW-SHW": {
+    "attendance": 36711,
+    "venue": "St. James' Park"
+  },
+  "1997-08-09-SOU-BOL": {
+    "attendance": 15206,
+    "venue": "The Dell"
+  },
+  "1997-08-09-WIM-LIV": {
+    "attendance": 26106,
+    "venue": "Selhurst Park"
+  },
+  "1997-08-10-TOT-MUN": {
+    "attendance": 26359,
+    "venue": "White Hart Lane"
+  },
+  "1997-08-11-ARS-COV": {
+    "attendance": 37324,
+    "venue": "Highbury"
+  },
+  "1997-08-12-CRY-BAR": {
+    "attendance": 21547,
+    "venue": "Selhurst Park"
+  },
+  "1997-08-13-AVL-BLB": {
+    "attendance": 37112,
+    "venue": "Villa Park"
+  },
+  "1997-08-13-LIV-LEI": {
+    "attendance": 35007,
+    "venue": "Anfield"
+  },
+  "1997-08-13-MUN-SOU": {
+    "attendance": 55008,
+    "venue": "Old Trafford"
+  },
+  "1997-08-13-SHW-LEE": {
+    "attendance": 31520,
+    "venue": "Hillsborough"
+  },
+  "1997-08-13-WHU-TOT": {
+    "attendance": 25354,
+    "venue": "Boleyn Ground"
+  },
+  "1997-08-23-BLB-LIV": {
+    "attendance": 30187,
+    "venue": "Ewood Park"
+  },
+  "1997-08-23-COV-BOL": {
+    "attendance": 16640,
+    "venue": "Highfield Road"
+  },
+  "1997-08-23-EVE-WHU": {
+    "attendance": 34356,
+    "venue": "Goodison Park"
+  },
+  "1997-08-23-LEE-CRY": {
+    "attendance": 29076,
+    "venue": "Elland Road"
+  },
+  "1997-08-23-LEI-MUN": {
+    "attendance": 21221,
+    "venue": "Filbert Street"
+  },
+  "1997-08-23-NEW-AVL": {
+    "attendance": 36783,
+    "venue": "St. James' Park"
+  },
+  "1997-08-23-SOU-ARS": {
+    "attendance": 15246,
+    "venue": "The Dell"
+  },
+  "1997-08-23-TOT-DER": {
+    "attendance": 25886,
+    "venue": "White Hart Lane"
+  },
+  "1997-08-23-WIM-SHW": {
+    "attendance": 11503,
+    "venue": "Selhurst Park"
+  },
+  "1997-08-24-BAR-CHE": {
+    "attendance": 18170,
+    "venue": "Oakwell"
+  },
+  "1997-08-25-BLB-SHW": {
+    "attendance": 19618,
+    "venue": "Ewood Park"
+  },
+  "1997-08-26-LEE-LIV": {
+    "attendance": 39775,
+    "venue": "Elland Road"
+  },
+  "1997-08-27-BAR-BOL": {
+    "attendance": 18661,
+    "venue": "Oakwell"
+  },
+  "1997-08-27-COV-WHU": {
+    "attendance": 18289,
+    "venue": "Highfield Road"
+  },
+  "1997-08-27-EVE-MUN": {
+    "attendance": 40079,
+    "venue": "Goodison Park"
+  },
+  "1997-08-27-LEI-ARS": {
+    "attendance": 21089,
+    "venue": "Filbert Street"
+  },
+  "1997-08-27-SOU-CRY": {
+    "attendance": 15032,
+    "venue": "The Dell"
+  },
+  "1997-08-27-TOT-AVL": {
+    "attendance": 26317,
+    "venue": "White Hart Lane"
+  },
+  "1997-08-27-WIM-CHE": {
+    "attendance": 22237,
+    "venue": "Selhurst Park"
+  },
+  "1997-08-30-ARS-TOT": {
+    "attendance": 38102,
+    "venue": "Highbury"
+  },
+  "1997-08-30-AVL-LEE": {
+    "attendance": 39027,
+    "venue": "Villa Park"
+  },
+  "1997-08-30-CHE-SOU": {
+    "attendance": 30008,
+    "venue": "Stamford Bridge"
+  },
+  "1997-08-30-CRY-BLB": {
+    "attendance": 20849,
+    "venue": "Selhurst Park"
+  },
+  "1997-08-30-DER-BAR": {
+    "attendance": 27232,
+    "venue": "Pride Park"
+  },
+  "1997-08-30-MUN-COV": {
+    "attendance": 55074,
+    "venue": "Old Trafford"
+  },
+  "1997-08-30-SHW-LEI": {
+    "attendance": 24851,
+    "venue": "Hillsborough"
+  },
+  "1997-08-30-WHU-WIM": {
+    "attendance": 24516,
+    "venue": "Boleyn Ground"
+  },
+  "1997-09-01-BOL-EVE": {
+    "attendance": 23131,
+    "venue": "Macron Stadium"
+  },
+  "1997-09-13-ARS-BOL": {
+    "attendance": 38138,
+    "venue": "Highbury"
+  },
+  "1997-09-13-BAR-AVL": {
+    "attendance": 18649,
+    "venue": "Oakwell"
+  },
+  "1997-09-13-COV-SOU": {
+    "attendance": 18659,
+    "venue": "Highfield Road"
+  },
+  "1997-09-13-CRY-CHE": {
+    "attendance": 26186,
+    "venue": "Selhurst Park"
+  },
+  "1997-09-13-DER-EVE": {
+    "attendance": 27828,
+    "venue": "Pride Park"
+  },
+  "1997-09-13-LEI-TOT": {
+    "attendance": 20683,
+    "venue": "Filbert Street"
+  },
+  "1997-09-13-LIV-SHW": {
+    "attendance": 34705,
+    "venue": "Anfield"
+  },
+  "1997-09-13-MUN-WHU": {
+    "attendance": 55068,
+    "venue": "Old Trafford"
+  },
+  "1997-09-13-NEW-WIM": {
+    "attendance": 36526,
+    "venue": "St. James' Park"
+  },
+  "1997-09-14-BLB-LEE": {
+    "attendance": 21956,
+    "venue": "Ewood Park"
+  },
+  "1997-09-20-AVL-DER": {
+    "attendance": 35444,
+    "venue": "Villa Park"
+  },
+  "1997-09-20-BOL-MUN": {
+    "attendance": 25000,
+    "venue": "Macron Stadium"
+  },
+  "1997-09-20-EVE-BAR": {
+    "attendance": 32659,
+    "venue": "Goodison Park"
+  },
+  "1997-09-20-LEE-LEI": {
+    "attendance": 29620,
+    "venue": "Elland Road"
+  },
+  "1997-09-20-SHW-COV": {
+    "attendance": 21087,
+    "venue": "Hillsborough"
+  },
+  "1997-09-20-SOU-LIV": {
+    "attendance": 15252,
+    "venue": "The Dell"
+  },
+  "1997-09-20-TOT-BLB": {
+    "attendance": 26573,
+    "venue": "White Hart Lane"
+  },
+  "1997-09-20-WHU-NEW": {
+    "attendance": 25884,
+    "venue": "Boleyn Ground"
+  },
+  "1997-09-20-WIM-CRY": {
+    "attendance": 16747,
+    "venue": "Selhurst Park"
+  },
+  "1997-09-21-CHE-ARS": {
+    "attendance": 33012,
+    "venue": "Stamford Bridge"
+  },
+  "1997-09-22-LIV-AVL": {
+    "attendance": 34843,
+    "venue": "Anfield"
+  },
+  "1997-09-23-BOL-TOT": {
+    "attendance": 23433,
+    "venue": "Macron Stadium"
+  },
+  "1997-09-23-WIM-BAR": {
+    "attendance": 7668,
+    "venue": "Selhurst Park"
+  },
+  "1997-09-24-ARS-WHU": {
+    "attendance": 38012,
+    "venue": "Highbury"
+  },
+  "1997-09-24-COV-CRY": {
+    "attendance": 15900,
+    "venue": "Highfield Road"
+  },
+  "1997-09-24-LEI-BLB": {
+    "attendance": 19921,
+    "venue": "Filbert Street"
+  },
+  "1997-09-24-MUN-CHE": {
+    "attendance": 55163,
+    "venue": "Old Trafford"
+  },
+  "1997-09-24-NEW-EVE": {
+    "attendance": 36705,
+    "venue": "St. James' Park"
+  },
+  "1997-09-24-SHW-DER": {
+    "attendance": 22391,
+    "venue": "Hillsborough"
+  },
+  "1997-09-24-SOU-LEE": {
+    "attendance": 15102,
+    "venue": "The Dell"
+  },
+  "1997-09-27-AVL-SHW": {
+    "attendance": 32044,
+    "venue": "Villa Park"
+  },
+  "1997-09-27-BAR-LEI": {
+    "attendance": 18660,
+    "venue": "Oakwell"
+  },
+  "1997-09-27-CHE-NEW": {
+    "attendance": 31563,
+    "venue": "Stamford Bridge"
+  },
+  "1997-09-27-CRY-BOL": {
+    "attendance": 17134,
+    "venue": "Selhurst Park"
+  },
+  "1997-09-27-DER-SOU": {
+    "attendance": 25625,
+    "venue": "Pride Park"
+  },
+  "1997-09-27-EVE-ARS": {
+    "attendance": 35457,
+    "venue": "Goodison Park"
+  },
+  "1997-09-27-LEE-MUN": {
+    "attendance": 39952,
+    "venue": "Elland Road"
+  },
+  "1997-09-27-TOT-WIM": {
+    "attendance": 26261,
+    "venue": "White Hart Lane"
+  },
+  "1997-09-27-WHU-LIV": {
+    "attendance": 25908,
+    "venue": "Boleyn Ground"
+  },
+  "1997-09-28-BLB-COV": {
+    "attendance": 19086,
+    "venue": "Ewood Park"
+  },
+  "1997-10-04-ARS-BAR": {
+    "attendance": 38049,
+    "venue": "Highbury"
+  },
+  "1997-10-04-BOL-AVL": {
+    "attendance": 24186,
+    "venue": "Macron Stadium"
+  },
+  "1997-10-04-COV-LEE": {
+    "attendance": 17770,
+    "venue": "Highfield Road"
+  },
+  "1997-10-04-MUN-CRY": {
+    "attendance": 55143,
+    "venue": "Old Trafford"
+  },
+  "1997-10-04-NEW-TOT": {
+    "attendance": 36709,
+    "venue": "St. James' Park"
+  },
+  "1997-10-04-SHW-EVE": {
+    "attendance": 24486,
+    "venue": "Hillsborough"
+  },
+  "1997-10-04-SOU-WHU": {
+    "attendance": 15212,
+    "venue": "The Dell"
+  },
+  "1997-10-04-WIM-BLB": {
+    "attendance": 15600,
+    "venue": "Selhurst Park"
+  },
+  "1997-10-05-LIV-CHE": {
+    "attendance": 36647,
+    "venue": "Anfield"
+  },
+  "1997-10-06-LEI-DER": {
+    "attendance": 19585,
+    "venue": "Filbert Street"
+  },
+  "1997-10-18-AVL-WIM": {
+    "attendance": 32087,
+    "venue": "Villa Park"
+  },
+  "1997-10-18-BLB-SOU": {
+    "attendance": 24130,
+    "venue": "Ewood Park"
+  },
+  "1997-10-18-CHE-LEI": {
+    "attendance": 33356,
+    "venue": "Stamford Bridge"
+  },
+  "1997-10-18-CRY-ARS": {
+    "attendance": 26180,
+    "venue": "Selhurst Park"
+  },
+  "1997-10-18-DER-MUN": {
+    "attendance": 30014,
+    "venue": "Pride Park"
+  },
+  "1997-10-18-EVE-LIV": {
+    "attendance": 40112,
+    "venue": "Goodison Park"
+  },
+  "1997-10-18-LEE-NEW": {
+    "attendance": 39834,
+    "venue": "Elland Road"
+  },
+  "1997-10-18-WHU-BOL": {
+    "attendance": 24864,
+    "venue": "Boleyn Ground"
+  },
+  "1997-10-19-TOT-SHW": {
+    "attendance": 25097,
+    "venue": "White Hart Lane"
+  },
+  "1997-10-20-BAR-COV": {
+    "attendance": 17463,
+    "venue": "Oakwell"
+  },
+  "1997-10-22-DER-WIM": {
+    "attendance": 28595,
+    "venue": "Pride Park"
+  },
+  "1997-10-25-COV-EVE": {
+    "attendance": 18760,
+    "venue": "Highfield Road"
+  },
+  "1997-10-25-LIV-DER": {
+    "attendance": 38017,
+    "venue": "Anfield"
+  },
+  "1997-10-25-MUN-BAR": {
+    "attendance": 55142,
+    "venue": "Old Trafford"
+  },
+  "1997-10-25-NEW-BLB": {
+    "attendance": 36716,
+    "venue": "St. James' Park"
+  },
+  "1997-10-25-SHW-CRY": {
+    "attendance": 22072,
+    "venue": "Hillsborough"
+  },
+  "1997-10-25-SOU-TOT": {
+    "attendance": 15255,
+    "venue": "The Dell"
+  },
+  "1997-10-25-WIM-LEE": {
+    "attendance": 15718,
+    "venue": "Selhurst Park"
+  },
+  "1997-10-26-ARS-AVL": {
+    "attendance": 38061,
+    "venue": "Highbury"
+  },
+  "1997-10-26-BOL-CHE": {
+    "attendance": 24080,
+    "venue": "Macron Stadium"
+  },
+  "1997-10-27-LEI-WHU": {
+    "attendance": 20201,
+    "venue": "Filbert Street"
+  },
+  "1997-11-01-AVL-CHE": {
+    "attendance": 39372,
+    "venue": "Villa Park"
+  },
+  "1997-11-01-BAR-BLB": {
+    "attendance": 18665,
+    "venue": "Oakwell"
+  },
+  "1997-11-01-BOL-LIV": {
+    "attendance": 25000,
+    "venue": "Macron Stadium"
+  },
+  "1997-11-01-DER-ARS": {
+    "attendance": 30004,
+    "venue": "Pride Park"
+  },
+  "1997-11-01-MUN-SHW": {
+    "attendance": 55295,
+    "venue": "Old Trafford"
+  },
+  "1997-11-01-NEW-LEI": {
+    "attendance": 36754,
+    "venue": "St. James' Park"
+  },
+  "1997-11-01-TOT-LEE": {
+    "attendance": 26441,
+    "venue": "White Hart Lane"
+  },
+  "1997-11-01-WIM-COV": {
+    "attendance": 11201,
+    "venue": "Selhurst Park"
+  },
+  "1997-11-02-EVE-SOU": {
+    "attendance": 29565,
+    "venue": "Goodison Park"
+  },
+  "1997-11-08-BLB-EVE": {
+    "attendance": 25397,
+    "venue": "Ewood Park"
+  },
+  "1997-11-08-COV-NEW": {
+    "attendance": 22679,
+    "venue": "Highfield Road"
+  },
+  "1997-11-08-CRY-AVL": {
+    "attendance": 21097,
+    "venue": "Selhurst Park"
+  },
+  "1997-11-08-LEE-DER": {
+    "attendance": 33572,
+    "venue": "Elland Road"
+  },
+  "1997-11-08-LIV-TOT": {
+    "attendance": 38006,
+    "venue": "Anfield"
+  },
+  "1997-11-08-SHW-BOL": {
+    "attendance": 25027,
+    "venue": "Hillsborough"
+  },
+  "1997-11-08-SOU-BAR": {
+    "attendance": 15018,
+    "venue": "The Dell"
+  },
+  "1997-11-09-ARS-MUN": {
+    "attendance": 38205,
+    "venue": "Highbury"
+  },
+  "1997-11-09-CHE-WHU": {
+    "attendance": 34382,
+    "venue": "Stamford Bridge"
+  },
+  "1997-11-10-LEI-WIM": {
+    "attendance": 18553,
+    "venue": "Filbert Street"
+  },
+  "1997-11-22-AVL-EVE": {
+    "attendance": 36389,
+    "venue": "Villa Park"
+  },
+  "1997-11-22-BLB-CHE": {
+    "attendance": 27683,
+    "venue": "Ewood Park"
+  },
+  "1997-11-22-DER-COV": {
+    "attendance": 29351,
+    "venue": "Pride Park"
+  },
+  "1997-11-22-LEI-BOL": {
+    "attendance": 20464,
+    "venue": "Filbert Street"
+  },
+  "1997-11-22-LIV-BAR": {
+    "attendance": 41011,
+    "venue": "Anfield"
+  },
+  "1997-11-22-NEW-SOU": {
+    "attendance": 36759,
+    "venue": "St. James' Park"
+  },
+  "1997-11-22-SHW-ARS": {
+    "attendance": 34373,
+    "venue": "Hillsborough"
+  },
+  "1997-11-22-WIM-MUN": {
+    "attendance": 26309,
+    "venue": "Selhurst Park"
+  },
+  "1997-11-23-LEE-WHU": {
+    "attendance": 30031,
+    "venue": "Elland Road"
+  },
+  "1997-11-24-TOT-CRY": {
+    "attendance": 25634,
+    "venue": "White Hart Lane"
+  },
+  "1997-11-26-CHE-EVE": {
+    "attendance": 34148,
+    "venue": "Stamford Bridge"
+  },
+  "1997-11-29-BAR-LEE": {
+    "attendance": 18690,
+    "venue": "Oakwell"
+  },
+  "1997-11-29-BOL-WIM": {
+    "attendance": 22703,
+    "venue": "Macron Stadium"
+  },
+  "1997-11-29-CHE-DER": {
+    "attendance": 34544,
+    "venue": "Stamford Bridge"
+  },
+  "1997-11-29-COV-LEI": {
+    "attendance": 18309,
+    "venue": "Highfield Road"
+  },
+  "1997-11-29-CRY-NEW": {
+    "attendance": 26085,
+    "venue": "Selhurst Park"
+  },
+  "1997-11-29-EVE-TOT": {
+    "attendance": 36670,
+    "venue": "Goodison Park"
+  },
+  "1997-11-29-SOU-SHW": {
+    "attendance": 15244,
+    "venue": "The Dell"
+  },
+  "1997-11-29-WHU-AVL": {
+    "attendance": 24976,
+    "venue": "Boleyn Ground"
+  },
+  "1997-11-30-ARS-LIV": {
+    "attendance": 38094,
+    "venue": "Highbury"
+  },
+  "1997-11-30-MUN-BLB": {
+    "attendance": 55175,
+    "venue": "Old Trafford"
+  },
+  "1997-12-01-BOL-NEW": {
+    "attendance": 24494,
+    "venue": "Macron Stadium"
+  },
+  "1997-12-03-WHU-CRY": {
+    "attendance": 23335,
+    "venue": "Boleyn Ground"
+  },
+  "1997-12-06-AVL-COV": {
+    "attendance": 33250,
+    "venue": "Villa Park"
+  },
+  "1997-12-06-BLB-BOL": {
+    "attendance": 25503,
+    "venue": "Ewood Park"
+  },
+  "1997-12-06-DER-WHU": {
+    "attendance": 29300,
+    "venue": "Pride Park"
+  },
+  "1997-12-06-LEE-EVE": {
+    "attendance": 34869,
+    "venue": "Elland Road"
+  },
+  "1997-12-06-LEI-CRY": {
+    "attendance": 19191,
+    "venue": "Filbert Street"
+  },
+  "1997-12-06-LIV-MUN": {
+    "attendance": 41027,
+    "venue": "Anfield"
+  },
+  "1997-12-06-NEW-ARS": {
+    "attendance": 36751,
+    "venue": "St. James' Park"
+  },
+  "1997-12-06-TOT-CHE": {
+    "attendance": 28476,
+    "venue": "White Hart Lane"
+  },
+  "1997-12-07-WIM-SOU": {
+    "attendance": 12009,
+    "venue": "Selhurst Park"
+  },
+  "1997-12-08-SHW-BAR": {
+    "attendance": 29086,
+    "venue": "Hillsborough"
+  },
+  "1997-12-13-ARS-BLB": {
+    "attendance": 38147,
+    "venue": "Highbury"
+  },
+  "1997-12-13-BAR-NEW": {
+    "attendance": 18687,
+    "venue": "Oakwell"
+  },
+  "1997-12-13-CHE-LEE": {
+    "attendance": 34690,
+    "venue": "Stamford Bridge"
+  },
+  "1997-12-13-COV-TOT": {
+    "attendance": 19499,
+    "venue": "Highfield Road"
+  },
+  "1997-12-13-CRY-LIV": {
+    "attendance": 25790,
+    "venue": "Selhurst Park"
+  },
+  "1997-12-13-EVE-WIM": {
+    "attendance": 28533,
+    "venue": "Goodison Park"
+  },
+  "1997-12-13-SOU-LEI": {
+    "attendance": 15121,
+    "venue": "The Dell"
+  },
+  "1997-12-13-WHU-SHW": {
+    "attendance": 24344,
+    "venue": "Boleyn Ground"
+  },
+  "1997-12-14-BOL-DER": {
+    "attendance": 23027,
+    "venue": "Macron Stadium"
+  },
+  "1997-12-15-MUN-AVL": {
+    "attendance": 55151,
+    "venue": "Old Trafford"
+  },
+  "1997-12-17-NEW-DER": {
+    "attendance": 36289,
+    "venue": "St. James' Park"
+  },
+  "1997-12-20-AVL-SOU": {
+    "attendance": 29343,
+    "venue": "Villa Park"
+  },
+  "1997-12-20-BLB-WHU": {
+    "attendance": 21653,
+    "venue": "Ewood Park"
+  },
+  "1997-12-20-DER-CRY": {
+    "attendance": 26590,
+    "venue": "Pride Park"
+  },
+  "1997-12-20-LEE-BOL": {
+    "attendance": 31184,
+    "venue": "Elland Road"
+  },
+  "1997-12-20-LEI-EVE": {
+    "attendance": 20628,
+    "venue": "Filbert Street"
+  },
+  "1997-12-20-LIV-COV": {
+    "attendance": 39707,
+    "venue": "Anfield"
+  },
+  "1997-12-20-SHW-CHE": {
+    "attendance": 28334,
+    "venue": "Hillsborough"
+  },
+  "1997-12-20-TOT-BAR": {
+    "attendance": 28232,
+    "venue": "White Hart Lane"
+  },
+  "1997-12-21-NEW-MUN": {
+    "attendance": 36763,
+    "venue": "St. James' Park"
+  },
+  "1997-12-26-ARS-LEI": {
+    "attendance": 38023,
+    "venue": "Highbury"
+  },
+  "1997-12-26-AVL-TOT": {
+    "attendance": 38644,
+    "venue": "Villa Park"
+  },
+  "1997-12-26-BOL-BAR": {
+    "attendance": 25000,
+    "venue": "Macron Stadium"
+  },
+  "1997-12-26-CHE-WIM": {
+    "attendance": 34100,
+    "venue": "Stamford Bridge"
+  },
+  "1997-12-26-CRY-SOU": {
+    "attendance": 22853,
+    "venue": "Selhurst Park"
+  },
+  "1997-12-26-DER-NEW": {
+    "attendance": 30232,
+    "venue": "Pride Park"
+  },
+  "1997-12-26-LIV-LEE": {
+    "attendance": 43854,
+    "venue": "Anfield"
+  },
+  "1997-12-26-MUN-EVE": {
+    "attendance": 55167,
+    "venue": "Old Trafford"
+  },
+  "1997-12-26-SHW-BLB": {
+    "attendance": 33502,
+    "venue": "Hillsborough"
+  },
+  "1997-12-26-WHU-COV": {
+    "attendance": 24532,
+    "venue": "Boleyn Ground"
+  },
+  "1997-12-28-BAR-DER": {
+    "attendance": 18686,
+    "venue": "Oakwell"
+  },
+  "1997-12-28-BLB-CRY": {
+    "attendance": 23872,
+    "venue": "Ewood Park"
+  },
+  "1997-12-28-COV-MUN": {
+    "attendance": 23054,
+    "venue": "Highfield Road"
+  },
+  "1997-12-28-EVE-BOL": {
+    "attendance": 37149,
+    "venue": "Goodison Park"
+  },
+  "1997-12-28-LEE-AVL": {
+    "attendance": 36287,
+    "venue": "Elland Road"
+  },
+  "1997-12-28-LEI-SHW": {
+    "attendance": 20800,
+    "venue": "Filbert Street"
+  },
+  "1997-12-28-NEW-LIV": {
+    "attendance": 36702,
+    "venue": "St. James' Park"
+  },
+  "1997-12-28-TOT-ARS": {
+    "attendance": 29610,
+    "venue": "White Hart Lane"
+  },
+  "1997-12-28-WIM-WHU": {
+    "attendance": 22087,
+    "venue": "Selhurst Park"
+  },
+  "1997-12-29-SOU-CHE": {
+    "attendance": 15231,
+    "venue": "The Dell"
+  },
+  "1998-01-10-ARS-LEE": {
+    "attendance": 38018,
+    "venue": "Highbury"
+  },
+  "1998-01-10-AVL-LEI": {
+    "attendance": 36429,
+    "venue": "Villa Park"
+  },
+  "1998-01-10-BOL-SOU": {
+    "attendance": 23333,
+    "venue": "Macron Stadium"
+  },
+  "1998-01-10-CHE-COV": {
+    "attendance": 34647,
+    "venue": "Stamford Bridge"
+  },
+  "1998-01-10-CRY-EVE": {
+    "attendance": 23311,
+    "venue": "Selhurst Park"
+  },
+  "1998-01-10-LIV-WIM": {
+    "attendance": 38011,
+    "venue": "Anfield"
+  },
+  "1998-01-10-MUN-TOT": {
+    "attendance": 55281,
+    "venue": "Old Trafford"
+  },
+  "1998-01-10-SHW-NEW": {
+    "attendance": 29446,
+    "venue": "Hillsborough"
+  },
+  "1998-01-10-WHU-BAR": {
+    "attendance": 23714,
+    "venue": "Boleyn Ground"
+  },
+  "1998-01-11-DER-BLB": {
+    "attendance": 27823,
+    "venue": "Pride Park"
+  },
+  "1998-01-17-BAR-CRY": {
+    "attendance": 17819,
+    "venue": "Oakwell"
+  },
+  "1998-01-17-BLB-AVL": {
+    "attendance": 24834,
+    "venue": "Ewood Park"
+  },
+  "1998-01-17-COV-ARS": {
+    "attendance": 22864,
+    "venue": "Highfield Road"
+  },
+  "1998-01-17-LEE-SHW": {
+    "attendance": 33166,
+    "venue": "Elland Road"
+  },
+  "1998-01-17-LEI-LIV": {
+    "attendance": 21633,
+    "venue": "Filbert Street"
+  },
+  "1998-01-17-NEW-BOL": {
+    "attendance": 36767,
+    "venue": "St. James' Park"
+  },
+  "1998-01-17-TOT-WHU": {
+    "attendance": 30284,
+    "venue": "White Hart Lane"
+  },
+  "1998-01-17-WIM-DER": {
+    "attendance": 13031,
+    "venue": "Selhurst Park"
+  },
+  "1998-01-18-EVE-CHE": {
+    "attendance": 32355,
+    "venue": "Goodison Park"
+  },
+  "1998-01-19-SOU-MUN": {
+    "attendance": 15241,
+    "venue": "The Dell"
+  },
+  "1998-01-20-LIV-NEW": {
+    "attendance": 42791,
+    "venue": "Anfield"
+  },
+  "1998-01-31-ARS-SOU": {
+    "attendance": 38056,
+    "venue": "Highbury"
+  },
+  "1998-01-31-BOL-COV": {
+    "attendance": 25000,
+    "venue": "Macron Stadium"
+  },
+  "1998-01-31-CHE-BAR": {
+    "attendance": 34442,
+    "venue": "Stamford Bridge"
+  },
+  "1998-01-31-CRY-LEE": {
+    "attendance": 25248,
+    "venue": "Selhurst Park"
+  },
+  "1998-01-31-DER-TOT": {
+    "attendance": 30187,
+    "venue": "Pride Park"
+  },
+  "1998-01-31-LIV-BLB": {
+    "attendance": 43890,
+    "venue": "Anfield"
+  },
+  "1998-01-31-MUN-LEI": {
+    "attendance": 55156,
+    "venue": "Old Trafford"
+  },
+  "1998-01-31-SHW-WIM": {
+    "attendance": 22655,
+    "venue": "Hillsborough"
+  },
+  "1998-01-31-WHU-EVE": {
+    "attendance": 25909,
+    "venue": "Boleyn Ground"
+  },
+  "1998-02-01-AVL-NEW": {
+    "attendance": 38266,
+    "venue": "Villa Park"
+  },
+  "1998-02-07-BAR-EVE": {
+    "attendance": 18672,
+    "venue": "Oakwell"
+  },
+  "1998-02-07-BLB-TOT": {
+    "attendance": 30388,
+    "venue": "Ewood Park"
+  },
+  "1998-02-07-COV-SHW": {
+    "attendance": 18375,
+    "venue": "Highfield Road"
+  },
+  "1998-02-07-DER-AVL": {
+    "attendance": 30251,
+    "venue": "Pride Park"
+  },
+  "1998-02-07-LEI-LEE": {
+    "attendance": 21244,
+    "venue": "Filbert Street"
+  },
+  "1998-02-07-LIV-SOU": {
+    "attendance": 43550,
+    "venue": "Anfield"
+  },
+  "1998-02-07-MUN-BOL": {
+    "attendance": 55156,
+    "venue": "Old Trafford"
+  },
+  "1998-02-07-NEW-WHU": {
+    "attendance": 36736,
+    "venue": "St. James' Park"
+  },
+  "1998-02-08-ARS-CHE": {
+    "attendance": 38083,
+    "venue": "Highbury"
+  },
+  "1998-02-09-CRY-WIM": {
+    "attendance": 14410,
+    "venue": "Selhurst Park"
+  },
+  "1998-02-14-EVE-DER": {
+    "attendance": 34876,
+    "venue": "Goodison Park"
+  },
+  "1998-02-14-SHW-LIV": {
+    "attendance": 35405,
+    "venue": "Hillsborough"
+  },
+  "1998-02-14-TOT-LEI": {
+    "attendance": 28355,
+    "venue": "White Hart Lane"
+  },
+  "1998-02-18-AVL-MUN": {
+    "attendance": 39372,
+    "venue": "Villa Park"
+  },
+  "1998-02-18-SOU-COV": {
+    "attendance": 15091,
+    "venue": "The Dell"
+  },
+  "1998-02-21-ARS-CRY": {
+    "attendance": 38094,
+    "venue": "Highbury"
+  },
+  "1998-02-21-BOL-WHU": {
+    "attendance": 25000,
+    "venue": "Macron Stadium"
+  },
+  "1998-02-21-COV-BAR": {
+    "attendance": 20265,
+    "venue": "Highfield Road"
+  },
+  "1998-02-21-LEI-CHE": {
+    "attendance": 21335,
+    "venue": "Filbert Street"
+  },
+  "1998-02-21-MUN-DER": {
+    "attendance": 55170,
+    "venue": "Old Trafford"
+  },
+  "1998-02-21-SHW-TOT": {
+    "attendance": 29871,
+    "venue": "Hillsborough"
+  },
+  "1998-02-21-SOU-BLB": {
+    "attendance": 15162,
+    "venue": "The Dell"
+  },
+  "1998-02-21-WIM-AVL": {
+    "attendance": 13131,
+    "venue": "Selhurst Park"
+  },
+  "1998-02-22-NEW-LEE": {
+    "attendance": 36511,
+    "venue": "St. James' Park"
+  },
+  "1998-02-23-LIV-EVE": {
+    "attendance": 44501,
+    "venue": "Anfield"
+  },
+  "1998-02-28-AVL-LIV": {
+    "attendance": 39377,
+    "venue": "Villa Park"
+  },
+  "1998-02-28-BAR-WIM": {
+    "attendance": 17102,
+    "venue": "Oakwell"
+  },
+  "1998-02-28-BLB-LEI": {
+    "attendance": 24854,
+    "venue": "Ewood Park"
+  },
+  "1998-02-28-CHE-MUN": {
+    "attendance": 34511,
+    "venue": "Stamford Bridge"
+  },
+  "1998-02-28-CRY-COV": {
+    "attendance": 21810,
+    "venue": "Selhurst Park"
+  },
+  "1998-02-28-DER-SHW": {
+    "attendance": 30203,
+    "venue": "Pride Park"
+  },
+  "1998-02-28-EVE-NEW": {
+    "attendance": 37972,
+    "venue": "Goodison Park"
+  },
+  "1998-02-28-LEE-SOU": {
+    "attendance": 28791,
+    "venue": "Elland Road"
+  },
+  "1998-03-01-TOT-BOL": {
+    "attendance": 29032,
+    "venue": "White Hart Lane"
+  },
+  "1998-03-02-WHU-ARS": {
+    "attendance": 25717,
+    "venue": "Boleyn Ground"
+  },
+  "1998-03-04-LEE-TOT": {
+    "attendance": 31394,
+    "venue": "Elland Road"
+  },
+  "1998-03-07-LIV-BOL": {
+    "attendance": 44532,
+    "venue": "Anfield"
+  },
+  "1998-03-07-SHW-MUN": {
+    "attendance": 39427,
+    "venue": "Hillsborough"
+  },
+  "1998-03-07-SOU-EVE": {
+    "attendance": 15102,
+    "venue": "The Dell"
+  },
+  "1998-03-08-CHE-AVL": {
+    "attendance": 33018,
+    "venue": "Stamford Bridge"
+  },
+  "1998-03-11-AVL-BAR": {
+    "attendance": 29519,
+    "venue": "Villa Park"
+  },
+  "1998-03-11-CHE-CRY": {
+    "attendance": 31917,
+    "venue": "Stamford Bridge"
+  },
+  "1998-03-11-LEE-BLB": {
+    "attendance": 32933,
+    "venue": "Elland Road"
+  },
+  "1998-03-11-WHU-MUN": {
+    "attendance": 25892,
+    "venue": "Boleyn Ground"
+  },
+  "1998-03-11-WIM-ARS": {
+    "attendance": 22291,
+    "venue": "Selhurst Park"
+  },
+  "1998-03-14-AVL-CRY": {
+    "attendance": 33781,
+    "venue": "Villa Park"
+  },
+  "1998-03-14-BAR-SOU": {
+    "attendance": 18368,
+    "venue": "Oakwell"
+  },
+  "1998-03-14-BOL-SHW": {
+    "attendance": 24847,
+    "venue": "Macron Stadium"
+  },
+  "1998-03-14-EVE-BLB": {
+    "attendance": 33423,
+    "venue": "Goodison Park"
+  },
+  "1998-03-14-MUN-ARS": {
+    "attendance": 55174,
+    "venue": "Old Trafford"
+  },
+  "1998-03-14-NEW-COV": {
+    "attendance": 36767,
+    "venue": "St. James' Park"
+  },
+  "1998-03-14-TOT-LIV": {
+    "attendance": 30245,
+    "venue": "White Hart Lane"
+  },
+  "1998-03-14-WHU-CHE": {
+    "attendance": 25829,
+    "venue": "Boleyn Ground"
+  },
+  "1998-03-14-WIM-LEI": {
+    "attendance": 13229,
+    "venue": "Selhurst Park"
+  },
+  "1998-03-15-DER-LEE": {
+    "attendance": 30217,
+    "venue": "Pride Park"
+  },
+  "1998-03-18-NEW-CRY": {
+    "attendance": 36565,
+    "venue": "St. James' Park"
+  },
+  "1998-03-28-ARS-SHW": {
+    "attendance": 38087,
+    "venue": "Highbury"
+  },
+  "1998-03-28-BAR-LIV": {
+    "attendance": 18684,
+    "venue": "Oakwell"
+  },
+  "1998-03-28-BOL-LEI": {
+    "attendance": 25000,
+    "venue": "Macron Stadium"
+  },
+  "1998-03-28-COV-DER": {
+    "attendance": 18705,
+    "venue": "Highfield Road"
+  },
+  "1998-03-28-CRY-TOT": {
+    "attendance": 26116,
+    "venue": "Selhurst Park"
+  },
+  "1998-03-28-EVE-AVL": {
+    "attendance": 36471,
+    "venue": "Goodison Park"
+  },
+  "1998-03-28-MUN-WIM": {
+    "attendance": 55306,
+    "venue": "Old Trafford"
+  },
+  "1998-03-28-SOU-NEW": {
+    "attendance": 15251,
+    "venue": "The Dell"
+  },
+  "1998-03-30-WHU-LEE": {
+    "attendance": 24107,
+    "venue": "Boleyn Ground"
+  },
+  "1998-03-31-BLB-BAR": {
+    "attendance": 24179,
+    "venue": "Ewood Park"
+  },
+  "1998-03-31-BOL-ARS": {
+    "attendance": 25000,
+    "venue": "Macron Stadium"
+  },
+  "1998-03-31-WIM-NEW": {
+    "attendance": 15478,
+    "venue": "Selhurst Park"
+  },
+  "1998-04-04-AVL-WHU": {
+    "attendance": 39372,
+    "venue": "Villa Park"
+  },
+  "1998-04-04-LEE-BAR": {
+    "attendance": 37749,
+    "venue": "Elland Road"
+  },
+  "1998-04-04-LEI-COV": {
+    "attendance": 21137,
+    "venue": "Filbert Street"
+  },
+  "1998-04-04-SHW-SOU": {
+    "attendance": 29677,
+    "venue": "Hillsborough"
+  },
+  "1998-04-04-TOT-EVE": {
+    "attendance": 35624,
+    "venue": "White Hart Lane"
+  },
+  "1998-04-04-WIM-BOL": {
+    "attendance": 11356,
+    "venue": "Selhurst Park"
+  },
+  "1998-04-05-DER-CHE": {
+    "attendance": 30062,
+    "venue": "Pride Park"
+  },
+  "1998-04-06-BLB-MUN": {
+    "attendance": 30547,
+    "venue": "Ewood Park"
+  },
+  "1998-04-08-LEE-CHE": {
+    "attendance": 37276,
+    "venue": "Elland Road"
+  },
+  "1998-04-10-MUN-LIV": {
+    "attendance": 55171,
+    "venue": "Old Trafford"
+  },
+  "1998-04-11-ARS-NEW": {
+    "attendance": 38102,
+    "venue": "Highbury"
+  },
+  "1998-04-11-BAR-SHW": {
+    "attendance": 18692,
+    "venue": "Oakwell"
+  },
+  "1998-04-11-BOL-BLB": {
+    "attendance": 25000,
+    "venue": "Macron Stadium"
+  },
+  "1998-04-11-CHE-TOT": {
+    "attendance": 34149,
+    "venue": "Stamford Bridge"
+  },
+  "1998-04-11-COV-AVL": {
+    "attendance": 22792,
+    "venue": "Highfield Road"
+  },
+  "1998-04-11-CRY-LEI": {
+    "attendance": 18771,
+    "venue": "Selhurst Park"
+  },
+  "1998-04-11-EVE-LEE": {
+    "attendance": 37099,
+    "venue": "Goodison Park"
+  },
+  "1998-04-11-SOU-WIM": {
+    "attendance": 14815,
+    "venue": "The Dell"
+  },
+  "1998-04-11-WHU-DER": {
+    "attendance": 25155,
+    "venue": "Boleyn Ground"
+  },
+  "1998-04-13-BLB-ARS": {
+    "attendance": 28212,
+    "venue": "Ewood Park"
+  },
+  "1998-04-13-DER-BOL": {
+    "attendance": 29126,
+    "venue": "Pride Park"
+  },
+  "1998-04-13-LIV-CRY": {
+    "attendance": 43007,
+    "venue": "Anfield"
+  },
+  "1998-04-13-NEW-BAR": {
+    "attendance": 36534,
+    "venue": "St. James' Park"
+  },
+  "1998-04-13-SHW-WHU": {
+    "attendance": 28036,
+    "venue": "Hillsborough"
+  },
+  "1998-04-13-TOT-COV": {
+    "attendance": 33463,
+    "venue": "White Hart Lane"
+  },
+  "1998-04-13-WIM-EVE": {
+    "attendance": 15131,
+    "venue": "Selhurst Park"
+  },
+  "1998-04-14-LEI-SOU": {
+    "attendance": 20708,
+    "venue": "Filbert Street"
+  },
+  "1998-04-18-ARS-WIM": {
+    "attendance": 38024,
+    "venue": "Highbury"
+  },
+  "1998-04-18-BAR-TOT": {
+    "attendance": 18692,
+    "venue": "Oakwell"
+  },
+  "1998-04-18-BOL-LEE": {
+    "attendance": 25000,
+    "venue": "Macron Stadium"
+  },
+  "1998-04-18-CRY-DER": {
+    "attendance": 18101,
+    "venue": "Selhurst Park"
+  },
+  "1998-04-18-EVE-LEI": {
+    "attendance": 33642,
+    "venue": "Goodison Park"
+  },
+  "1998-04-18-MUN-NEW": {
+    "attendance": 55194,
+    "venue": "Old Trafford"
+  },
+  "1998-04-18-SOU-AVL": {
+    "attendance": 15238,
+    "venue": "The Dell"
+  },
+  "1998-04-18-WHU-BLB": {
+    "attendance": 24733,
+    "venue": "Boleyn Ground"
+  },
+  "1998-04-19-CHE-SHW": {
+    "attendance": 29075,
+    "venue": "Stamford Bridge"
+  },
+  "1998-04-19-COV-LIV": {
+    "attendance": 22721,
+    "venue": "Highfield Road"
+  },
+  "1998-04-25-AVL-BOL": {
+    "attendance": 38392,
+    "venue": "Villa Park"
+  },
+  "1998-04-25-BAR-ARS": {
+    "attendance": 18691,
+    "venue": "Oakwell"
+  },
+  "1998-04-25-BLB-WIM": {
+    "attendance": 24848,
+    "venue": "Ewood Park"
+  },
+  "1998-04-25-CHE-LIV": {
+    "attendance": 34639,
+    "venue": "Stamford Bridge"
+  },
+  "1998-04-25-EVE-SHW": {
+    "attendance": 35497,
+    "venue": "Goodison Park"
+  },
+  "1998-04-25-LEE-COV": {
+    "attendance": 36522,
+    "venue": "Elland Road"
+  },
+  "1998-04-25-TOT-NEW": {
+    "attendance": 35847,
+    "venue": "White Hart Lane"
+  },
+  "1998-04-25-WHU-SOU": {
+    "attendance": 25878,
+    "venue": "Boleyn Ground"
+  },
+  "1998-04-26-DER-LEI": {
+    "attendance": 29855,
+    "venue": "Pride Park"
+  },
+  "1998-04-27-CRY-MUN": {
+    "attendance": 26180,
+    "venue": "Selhurst Park"
+  },
+  "1998-04-29-ARS-DER": {
+    "attendance": 38121,
+    "venue": "Highbury"
+  },
+  "1998-04-29-CHE-BLB": {
+    "attendance": 33311,
+    "venue": "Stamford Bridge"
+  },
+  "1998-04-29-COV-WIM": {
+    "attendance": 17968,
+    "venue": "Highfield Road"
+  },
+  "1998-04-29-LEI-NEW": {
+    "attendance": 21699,
+    "venue": "Filbert Street"
+  },
+  "1998-05-02-BOL-CRY": {
+    "attendance": 24449,
+    "venue": "Macron Stadium"
+  },
+  "1998-05-02-COV-BLB": {
+    "attendance": 18794,
+    "venue": "Highfield Road"
+  },
+  "1998-05-02-LEI-BAR": {
+    "attendance": 21293,
+    "venue": "Filbert Street"
+  },
+  "1998-05-02-LIV-WHU": {
+    "attendance": 44414,
+    "venue": "Anfield"
+  },
+  "1998-05-02-NEW-CHE": {
+    "attendance": 36710,
+    "venue": "St. James' Park"
+  },
+  "1998-05-02-SHW-AVL": {
+    "attendance": 34177,
+    "venue": "Hillsborough"
+  },
+  "1998-05-02-SOU-DER": {
+    "attendance": 15202,
+    "venue": "The Dell"
+  },
+  "1998-05-02-WIM-TOT": {
+    "attendance": 25820,
+    "venue": "Selhurst Park"
+  },
+  "1998-05-03-ARS-EVE": {
+    "attendance": 38269,
+    "venue": "Highbury"
+  },
+  "1998-05-04-MUN-LEE": {
+    "attendance": 55167,
+    "venue": "Old Trafford"
+  },
+  "1998-05-05-CRY-WHU": {
+    "attendance": 19129,
+    "venue": "Selhurst Park"
+  },
+  "1998-05-06-LIV-ARS": {
+    "attendance": 44417,
+    "venue": "Anfield"
+  },
+  "1998-05-10-AVL-ARS": {
+    "attendance": 37372,
+    "venue": "Villa Park"
+  },
+  "1998-05-10-BAR-MUN": {
+    "attendance": 18694,
+    "venue": "Oakwell"
+  },
+  "1998-05-10-BLB-NEW": {
+    "attendance": 29300,
+    "venue": "Ewood Park"
+  },
+  "1998-05-10-CHE-BOL": {
+    "attendance": 34845,
+    "venue": "Stamford Bridge"
+  },
+  "1998-05-10-CRY-SHW": {
+    "attendance": 16876,
+    "venue": "Selhurst Park"
+  },
+  "1998-05-10-DER-LIV": {
+    "attendance": 30492,
+    "venue": "Pride Park"
+  },
+  "1998-05-10-EVE-COV": {
+    "attendance": 40109,
+    "venue": "Goodison Park"
+  },
+  "1998-05-10-LEE-WIM": {
+    "attendance": 38172,
+    "venue": "Elland Road"
+  },
+  "1998-05-10-TOT-SOU": {
+    "attendance": 35995,
+    "venue": "White Hart Lane"
+  },
+  "1998-05-10-WHU-LEI": {
+    "attendance": 25781,
+    "venue": "Boleyn Ground"
+  }
+}

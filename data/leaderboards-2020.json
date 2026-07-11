@@ -1,0 +1,330 @@
+{
+  "topAssists": [
+    {
+      "playerId": 1000572,
+      "playerName": "Harry Kane",
+      "rank": 1,
+      "teamId": 47,
+      "teamName": "Tottenham",
+      "value": 14
+    },
+    {
+      "playerId": 1000208,
+      "playerName": "Bruno Fernandes",
+      "rank": 2,
+      "teamId": 33,
+      "teamName": "Manchester Utd",
+      "value": 12
+    },
+    {
+      "playerId": 1000868,
+      "playerName": "Kevin De Bruyne",
+      "rank": 3,
+      "teamId": 50,
+      "teamName": "Manchester City",
+      "value": 12
+    },
+    {
+      "playerId": 1000629,
+      "playerName": "Jack Grealish",
+      "rank": 4,
+      "teamId": 66,
+      "teamName": "Aston Villa",
+      "value": 10
+    },
+    {
+      "playerId": 1001436,
+      "playerName": "Son Heung-min",
+      "rank": 5,
+      "teamId": 47,
+      "teamName": "Tottenham",
+      "value": 10
+    },
+    {
+      "playerId": 1000684,
+      "playerName": "Jamie Vardy",
+      "rank": 6,
+      "teamId": 46,
+      "teamName": "Leicester City",
+      "value": 9
+    },
+    {
+      "playerId": 1001012,
+      "playerName": "Marcus Rashford",
+      "rank": 7,
+      "teamId": 33,
+      "teamName": "Manchester Utd",
+      "value": 9
+    },
+    {
+      "playerId": 1001285,
+      "playerName": "Raphinha",
+      "rank": 8,
+      "teamId": 63,
+      "teamName": "Leeds United",
+      "value": 9
+    },
+    {
+      "playerId": 1000001,
+      "playerName": "Aaron Cresswell",
+      "rank": 9,
+      "teamId": 48,
+      "teamName": "West Ham",
+      "value": 8
+    },
+    {
+      "playerId": 1000630,
+      "playerName": "Jack Harrison",
+      "rank": 10,
+      "teamId": 63,
+      "teamName": "Leeds United",
+      "value": 8
+    }
+  ],
+  "topRedCards": [
+    {
+      "playerId": 1000935,
+      "playerName": "Lewis Dunk",
+      "rank": 1,
+      "teamId": 51,
+      "teamName": "Brighton",
+      "value": 2
+    },
+    {
+      "playerId": 1000014,
+      "playerName": "Aboubakar Kamara",
+      "rank": 2,
+      "teamId": 36,
+      "teamName": "Fulham",
+      "value": 1
+    },
+    {
+      "playerId": 1000057,
+      "playerName": "Alexandre Jankewitz",
+      "rank": 3,
+      "teamId": 41,
+      "teamName": "Southampton",
+      "value": 1
+    },
+    {
+      "playerId": 1000093,
+      "playerName": "Andreas Christensen",
+      "rank": 4,
+      "teamId": 49,
+      "teamName": "Chelsea",
+      "value": 1
+    },
+    {
+      "playerId": 1000118,
+      "playerName": "Anthony Martial",
+      "rank": 5,
+      "teamId": 33,
+      "teamName": "Manchester Utd",
+      "value": 1
+    },
+    {
+      "playerId": 1000120,
+      "playerName": "Antonee Robinson",
+      "rank": 6,
+      "teamId": 36,
+      "teamName": "Fulham",
+      "value": 1
+    },
+    {
+      "playerId": 1000168,
+      "playerName": "Ben White",
+      "rank": 7,
+      "teamId": 51,
+      "teamName": "Brighton",
+      "value": 1
+    },
+    {
+      "playerId": 1000183,
+      "playerName": "Bernd Leno",
+      "rank": 8,
+      "teamId": 42,
+      "teamName": "Arsenal",
+      "value": 1
+    },
+    {
+      "playerId": 1000246,
+      "playerName": "César Azpilicueta",
+      "rank": 9,
+      "teamId": 49,
+      "teamName": "Chelsea",
+      "value": 1
+    },
+    {
+      "playerId": 1000273,
+      "playerName": "Christian Benteke",
+      "rank": 10,
+      "teamId": 52,
+      "teamName": "Crystal Palace",
+      "value": 1
+    }
+  ],
+  "topScorers": [
+    {
+      "playerId": 1000572,
+      "playerName": "Harry Kane",
+      "rank": 1,
+      "teamId": 47,
+      "teamName": "Tottenham",
+      "value": 23
+    },
+    {
+      "playerId": 1001119,
+      "playerName": "Mohamed Salah",
+      "rank": 2,
+      "teamId": 40,
+      "teamName": "Liverpool",
+      "value": 22
+    },
+    {
+      "playerId": 1000208,
+      "playerName": "Bruno Fernandes",
+      "rank": 3,
+      "teamId": 33,
+      "teamName": "Manchester Utd",
+      "value": 18
+    },
+    {
+      "playerId": 1001240,
+      "playerName": "Patrick Bamford",
+      "rank": 4,
+      "teamId": 63,
+      "teamName": "Leeds United",
+      "value": 17
+    },
+    {
+      "playerId": 1001436,
+      "playerName": "Son Heung-min",
+      "rank": 5,
+      "teamId": 47,
+      "teamName": "Tottenham",
+      "value": 17
+    },
+    {
+      "playerId": 1000404,
+      "playerName": "Dominic Calvert-Lewin",
+      "rank": 6,
+      "teamId": 45,
+      "teamName": "Everton",
+      "value": 16
+    },
+    {
+      "playerId": 1000684,
+      "playerName": "Jamie Vardy",
+      "rank": 7,
+      "teamId": 46,
+      "teamName": "Leicester City",
+      "value": 15
+    },
+    {
+      "playerId": 1001211,
+      "playerName": "Ollie Watkins",
+      "rank": 8,
+      "teamId": 66,
+      "teamName": "Aston Villa",
+      "value": 14
+    },
+    {
+      "playerId": 1000058,
+      "playerName": "Alexandre Lacazette",
+      "rank": 9,
+      "teamId": 42,
+      "teamName": "Arsenal",
+      "value": 13
+    },
+    {
+      "playerId": 1000605,
+      "playerName": "İlkay Gündoğan",
+      "rank": 10,
+      "teamId": 50,
+      "teamName": "Manchester City",
+      "value": 13
+    }
+  ],
+  "topYellowCards": [
+    {
+      "playerId": 1000769,
+      "playerName": "John McGinn",
+      "rank": 1,
+      "teamId": 66,
+      "teamName": "Aston Villa",
+      "value": 12
+    },
+    {
+      "playerId": 1000302,
+      "playerName": "Conor Gallagher",
+      "rank": 2,
+      "teamId": 60,
+      "teamName": "West Brom",
+      "value": 11
+    },
+    {
+      "playerId": 1000573,
+      "playerName": "Harry Maguire",
+      "rank": 3,
+      "teamId": 33,
+      "teamName": "Manchester Utd",
+      "value": 11
+    },
+    {
+      "playerId": 1000411,
+      "playerName": "Douglas Luiz",
+      "rank": 4,
+      "teamId": 66,
+      "teamName": "Aston Villa",
+      "value": 10
+    },
+    {
+      "playerId": 1000844,
+      "playerName": "Kalvin Phillips",
+      "rank": 5,
+      "teamId": 63,
+      "teamName": "Leeds United",
+      "value": 10
+    },
+    {
+      "playerId": 1001038,
+      "playerName": "Mason Holgate",
+      "rank": 6,
+      "teamId": 45,
+      "teamName": "Everton",
+      "value": 9
+    },
+    {
+      "playerId": 1001270,
+      "playerName": "Pierre Højbjerg",
+      "rank": 7,
+      "teamId": 47,
+      "teamName": "Tottenham",
+      "value": 9
+    },
+    {
+      "playerId": 1000583,
+      "playerName": "Hector Bellerin",
+      "rank": 8,
+      "teamId": 42,
+      "teamName": "Arsenal",
+      "value": 8
+    },
+    {
+      "playerId": 1000611,
+      "playerName": "Isaac Hayden",
+      "rank": 9,
+      "teamId": 34,
+      "teamName": "Newcastle Utd",
+      "value": 8
+    },
+    {
+      "playerId": 1000768,
+      "playerName": "John Lundstram",
+      "rank": 10,
+      "teamId": 62,
+      "teamName": "Sheffield Utd",
+      "value": 8
+    }
+  ]
+}

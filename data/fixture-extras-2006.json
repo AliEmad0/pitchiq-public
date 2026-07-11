@@ -1,0 +1,1522 @@
+{
+  "2006-08-19-ARS-AVL": {
+    "attendance": 60023,
+    "venue": "Emirates Stadium"
+  },
+  "2006-08-19-BOL-TOT": {
+    "attendance": 22899,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2006-08-19-EVE-WAT": {
+    "attendance": 39691,
+    "venue": "Goodison Park"
+  },
+  "2006-08-19-NEW-WIG": {
+    "attendance": 52227,
+    "venue": "Sports Direct Arena"
+  },
+  "2006-08-19-POR-BLB": {
+    "attendance": 19502,
+    "venue": "Fratton Park"
+  },
+  "2006-08-19-REA-MID": {
+    "attendance": 23802,
+    "venue": "Madejski Stadium"
+  },
+  "2006-08-19-SHU-LIV": {
+    "attendance": 31726,
+    "venue": "Bramall Lane"
+  },
+  "2006-08-19-WHU-CHA": {
+    "attendance": 34704,
+    "venue": "Boleyn Ground"
+  },
+  "2006-08-20-CHE-MCI": {
+    "attendance": 41814,
+    "venue": "Stamford Bridge"
+  },
+  "2006-08-20-MUN-FUL": {
+    "attendance": 75115,
+    "venue": "Old Trafford"
+  },
+  "2006-08-22-TOT-SHU": {
+    "attendance": 35287,
+    "venue": "White Hart Lane"
+  },
+  "2006-08-22-WAT-WHU": {
+    "attendance": 18344,
+    "venue": "Vicarage Road"
+  },
+  "2006-08-23-AVL-REA": {
+    "attendance": 37329,
+    "venue": "Villa Park"
+  },
+  "2006-08-23-BLB-EVE": {
+    "attendance": 22015,
+    "venue": "Ewood Park"
+  },
+  "2006-08-23-CHA-MUN": {
+    "attendance": 25412,
+    "venue": "The Valley"
+  },
+  "2006-08-23-FUL-BOL": {
+    "attendance": 18559,
+    "venue": "Craven Cottage"
+  },
+  "2006-08-23-MCI-POR": {
+    "attendance": 37214,
+    "venue": "Etihad Stadium"
+  },
+  "2006-08-23-MID-CHE": {
+    "attendance": 29269,
+    "venue": "Riverside Stadium"
+  },
+  "2006-08-26-CHA-BOL": {
+    "attendance": 23673,
+    "venue": "The Valley"
+  },
+  "2006-08-26-FUL-SHU": {
+    "attendance": 18312,
+    "venue": "Craven Cottage"
+  },
+  "2006-08-26-LIV-WHU": {
+    "attendance": 45262,
+    "venue": "Anfield"
+  },
+  "2006-08-26-MCI-ARS": {
+    "attendance": 40699,
+    "venue": "Etihad Stadium"
+  },
+  "2006-08-26-TOT-EVE": {
+    "attendance": 35540,
+    "venue": "White Hart Lane"
+  },
+  "2006-08-26-WAT-MUN": {
+    "attendance": 19453,
+    "venue": "Vicarage Road"
+  },
+  "2006-08-26-WIG-REA": {
+    "attendance": 14834,
+    "venue": "The Brick Community Stadium"
+  },
+  "2006-08-27-AVL-NEW": {
+    "attendance": 35141,
+    "venue": "Villa Park"
+  },
+  "2006-08-27-BLB-CHE": {
+    "attendance": 19398,
+    "venue": "Ewood Park"
+  },
+  "2006-08-28-MID-POR": {
+    "attendance": 24834,
+    "venue": "Riverside Stadium"
+  },
+  "2006-09-09-ARS-MID": {
+    "attendance": 60007,
+    "venue": "Emirates Stadium"
+  },
+  "2006-09-09-BOL-WAT": {
+    "attendance": 21140,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2006-09-09-CHE-CHA": {
+    "attendance": 41194,
+    "venue": "Stamford Bridge"
+  },
+  "2006-09-09-EVE-LIV": {
+    "attendance": 40004,
+    "venue": "Goodison Park"
+  },
+  "2006-09-09-MUN-TOT": {
+    "attendance": 75453,
+    "venue": "Old Trafford"
+  },
+  "2006-09-09-NEW-FUL": {
+    "attendance": 51398,
+    "venue": "Sports Direct Arena"
+  },
+  "2006-09-09-POR-WIG": {
+    "attendance": 19539,
+    "venue": "Fratton Park"
+  },
+  "2006-09-09-SHU-BLB": {
+    "attendance": 29876,
+    "venue": "Bramall Lane"
+  },
+  "2006-09-10-WHU-AVL": {
+    "attendance": 34211,
+    "venue": "Boleyn Ground"
+  },
+  "2006-09-11-REA-MCI": {
+    "attendance": 23924,
+    "venue": "Madejski Stadium"
+  },
+  "2006-09-16-BOL-MID": {
+    "attendance": 21164,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2006-09-16-CHA-POR": {
+    "attendance": 26145,
+    "venue": "The Valley"
+  },
+  "2006-09-16-EVE-WIG": {
+    "attendance": 37117,
+    "venue": "Goodison Park"
+  },
+  "2006-09-16-SHU-REA": {
+    "attendance": 28288,
+    "venue": "Bramall Lane"
+  },
+  "2006-09-16-WAT-AVL": {
+    "attendance": 18620,
+    "venue": "Vicarage Road"
+  },
+  "2006-09-17-BLB-MCI": {
+    "attendance": 18403,
+    "venue": "Ewood Park"
+  },
+  "2006-09-17-CHE-LIV": {
+    "attendance": 41882,
+    "venue": "Stamford Bridge"
+  },
+  "2006-09-17-MUN-ARS": {
+    "attendance": 75595,
+    "venue": "Old Trafford"
+  },
+  "2006-09-17-TOT-FUL": {
+    "attendance": 36131,
+    "venue": "White Hart Lane"
+  },
+  "2006-09-17-WHU-NEW": {
+    "attendance": 34623,
+    "venue": "Boleyn Ground"
+  },
+  "2006-09-20-LIV-NEW": {
+    "attendance": 45114,
+    "venue": "Anfield"
+  },
+  "2006-09-23-ARS-SHU": {
+    "attendance": 59912,
+    "venue": "Emirates Stadium"
+  },
+  "2006-09-23-AVL-CHA": {
+    "attendance": 35513,
+    "venue": "Villa Park"
+  },
+  "2006-09-23-FUL-CHE": {
+    "attendance": 24290,
+    "venue": "Craven Cottage"
+  },
+  "2006-09-23-LIV-TOT": {
+    "attendance": 45121,
+    "venue": "Anfield"
+  },
+  "2006-09-23-MCI-WHU": {
+    "attendance": 41073,
+    "venue": "Etihad Stadium"
+  },
+  "2006-09-23-MID-BLB": {
+    "attendance": 24959,
+    "venue": "Riverside Stadium"
+  },
+  "2006-09-23-REA-MUN": {
+    "attendance": 24152,
+    "venue": "Madejski Stadium"
+  },
+  "2006-09-23-WIG-WAT": {
+    "attendance": 17111,
+    "venue": "The Brick Community Stadium"
+  },
+  "2006-09-24-NEW-EVE": {
+    "attendance": 50414,
+    "venue": "Sports Direct Arena"
+  },
+  "2006-09-25-POR-BOL": {
+    "attendance": 19093,
+    "venue": "Fratton Park"
+  },
+  "2006-09-30-BOL-LIV": {
+    "attendance": 25061,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2006-09-30-CHA-ARS": {
+    "attendance": 26720,
+    "venue": "The Valley"
+  },
+  "2006-09-30-CHE-AVL": {
+    "attendance": 41949,
+    "venue": "Stamford Bridge"
+  },
+  "2006-09-30-EVE-MCI": {
+    "attendance": 38250,
+    "venue": "Goodison Park"
+  },
+  "2006-09-30-SHU-MID": {
+    "attendance": 27483,
+    "venue": "Bramall Lane"
+  },
+  "2006-10-01-BLB-WIG": {
+    "attendance": 17864,
+    "venue": "Ewood Park"
+  },
+  "2006-10-01-MUN-NEW": {
+    "attendance": 75664,
+    "venue": "Old Trafford"
+  },
+  "2006-10-01-TOT-POR": {
+    "attendance": 36063,
+    "venue": "White Hart Lane"
+  },
+  "2006-10-01-WHU-REA": {
+    "attendance": 34592,
+    "venue": "Boleyn Ground"
+  },
+  "2006-10-02-WAT-FUL": {
+    "attendance": 17982,
+    "venue": "Vicarage Road"
+  },
+  "2006-10-14-ARS-WAT": {
+    "attendance": 60018,
+    "venue": "Emirates Stadium"
+  },
+  "2006-10-14-AVL-TOT": {
+    "attendance": 42551,
+    "venue": "Villa Park"
+  },
+  "2006-10-14-LIV-BLB": {
+    "attendance": 44900,
+    "venue": "Anfield"
+  },
+  "2006-10-14-MCI-SHU": {
+    "attendance": 42192,
+    "venue": "Etihad Stadium"
+  },
+  "2006-10-14-MID-EVE": {
+    "attendance": 27156,
+    "venue": "Riverside Stadium"
+  },
+  "2006-10-14-POR-WHU": {
+    "attendance": 20142,
+    "venue": "Fratton Park"
+  },
+  "2006-10-14-REA-CHE": {
+    "attendance": 24026,
+    "venue": "Madejski Stadium"
+  },
+  "2006-10-14-WIG-MUN": {
+    "attendance": 20726,
+    "venue": "The Brick Community Stadium"
+  },
+  "2006-10-15-NEW-BOL": {
+    "attendance": 48747,
+    "venue": "Sports Direct Arena"
+  },
+  "2006-10-16-FUL-CHA": {
+    "attendance": 19179,
+    "venue": "Craven Cottage"
+  },
+  "2006-10-21-AVL-FUL": {
+    "attendance": 30919,
+    "venue": "Villa Park"
+  },
+  "2006-10-21-CHA-WAT": {
+    "attendance": 27011,
+    "venue": "The Valley"
+  },
+  "2006-10-21-CHE-POR": {
+    "attendance": 41891,
+    "venue": "Stamford Bridge"
+  },
+  "2006-10-21-EVE-SHU": {
+    "attendance": 37900,
+    "venue": "Goodison Park"
+  },
+  "2006-10-21-WIG-MCI": {
+    "attendance": 16522,
+    "venue": "The Brick Community Stadium"
+  },
+  "2006-10-22-BLB-BOL": {
+    "attendance": 27724,
+    "venue": "Ewood Park"
+  },
+  "2006-10-22-MID-NEW": {
+    "attendance": 30036,
+    "venue": "Riverside Stadium"
+  },
+  "2006-10-22-MUN-LIV": {
+    "attendance": 75828,
+    "venue": "Old Trafford"
+  },
+  "2006-10-22-REA-ARS": {
+    "attendance": 24004,
+    "venue": "Madejski Stadium"
+  },
+  "2006-10-22-TOT-WHU": {
+    "attendance": 36162,
+    "venue": "White Hart Lane"
+  },
+  "2006-10-28-ARS-EVE": {
+    "attendance": 60047,
+    "venue": "Emirates Stadium"
+  },
+  "2006-10-28-BOL-MUN": {
+    "attendance": 27229,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2006-10-28-FUL-WIG": {
+    "attendance": 22882,
+    "venue": "Craven Cottage"
+  },
+  "2006-10-28-LIV-AVL": {
+    "attendance": 45018,
+    "venue": "Anfield"
+  },
+  "2006-10-28-NEW-CHA": {
+    "attendance": 49642,
+    "venue": "Sports Direct Arena"
+  },
+  "2006-10-28-POR-REA": {
+    "attendance": 20110,
+    "venue": "Fratton Park"
+  },
+  "2006-10-28-SHU-CHE": {
+    "attendance": 32321,
+    "venue": "Bramall Lane"
+  },
+  "2006-10-28-WAT-TOT": {
+    "attendance": 19660,
+    "venue": "Vicarage Road"
+  },
+  "2006-10-29-WHU-BLB": {
+    "attendance": 33607,
+    "venue": "Boleyn Ground"
+  },
+  "2006-10-30-MCI-MID": {
+    "attendance": 36720,
+    "venue": "Etihad Stadium"
+  },
+  "2006-11-04-BOL-WIG": {
+    "attendance": 21255,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2006-11-04-CHA-MCI": {
+    "attendance": 26011,
+    "venue": "The Valley"
+  },
+  "2006-11-04-FUL-EVE": {
+    "attendance": 23327,
+    "venue": "Craven Cottage"
+  },
+  "2006-11-04-LIV-REA": {
+    "attendance": 45070,
+    "venue": "Anfield"
+  },
+  "2006-11-04-MUN-POR": {
+    "attendance": 76004,
+    "venue": "Old Trafford"
+  },
+  "2006-11-04-NEW-SHU": {
+    "attendance": 50189,
+    "venue": "Sports Direct Arena"
+  },
+  "2006-11-04-WAT-MID": {
+    "attendance": 18951,
+    "venue": "Vicarage Road"
+  },
+  "2006-11-05-AVL-BLB": {
+    "attendance": 30089,
+    "venue": "Villa Park"
+  },
+  "2006-11-05-TOT-CHE": {
+    "attendance": 36070,
+    "venue": "White Hart Lane"
+  },
+  "2006-11-05-WHU-ARS": {
+    "attendance": 34912,
+    "venue": "Boleyn Ground"
+  },
+  "2006-11-11-BLB-MUN": {
+    "attendance": 25898,
+    "venue": "Ewood Park"
+  },
+  "2006-11-11-CHE-WAT": {
+    "attendance": 41935,
+    "venue": "Stamford Bridge"
+  },
+  "2006-11-11-EVE-AVL": {
+    "attendance": 36376,
+    "venue": "Goodison Park"
+  },
+  "2006-11-11-MCI-NEW": {
+    "attendance": 40571,
+    "venue": "Etihad Stadium"
+  },
+  "2006-11-11-MID-WHU": {
+    "attendance": 25898,
+    "venue": "Riverside Stadium"
+  },
+  "2006-11-11-POR-FUL": {
+    "attendance": 19309,
+    "venue": "Fratton Park"
+  },
+  "2006-11-11-SHU-BOL": {
+    "attendance": 28294,
+    "venue": "Bramall Lane"
+  },
+  "2006-11-11-WIG-CHA": {
+    "attendance": 16648,
+    "venue": "The Brick Community Stadium"
+  },
+  "2006-11-12-ARS-LIV": {
+    "attendance": 60110,
+    "venue": "Emirates Stadium"
+  },
+  "2006-11-12-REA-TOT": {
+    "attendance": 24042,
+    "venue": "Madejski Stadium"
+  },
+  "2006-11-18-ARS-NEW": {
+    "attendance": 60058,
+    "venue": "Emirates Stadium"
+  },
+  "2006-11-18-CHE-WHU": {
+    "attendance": 41948,
+    "venue": "Stamford Bridge"
+  },
+  "2006-11-18-EVE-BOL": {
+    "attendance": 34414,
+    "venue": "Goodison Park"
+  },
+  "2006-11-18-MCI-FUL": {
+    "attendance": 35776,
+    "venue": "Etihad Stadium"
+  },
+  "2006-11-18-MID-LIV": {
+    "attendance": 31424,
+    "venue": "Riverside Stadium"
+  },
+  "2006-11-18-POR-WAT": {
+    "attendance": 19728,
+    "venue": "Fratton Park"
+  },
+  "2006-11-18-REA-CHA": {
+    "attendance": 24093,
+    "venue": "Madejski Stadium"
+  },
+  "2006-11-18-SHU-MUN": {
+    "attendance": 32584,
+    "venue": "Bramall Lane"
+  },
+  "2006-11-19-BLB-TOT": {
+    "attendance": 18083,
+    "venue": "Ewood Park"
+  },
+  "2006-11-19-WIG-AVL": {
+    "attendance": 18728,
+    "venue": "The Brick Community Stadium"
+  },
+  "2006-11-25-AVL-MID": {
+    "attendance": 33612,
+    "venue": "Villa Park"
+  },
+  "2006-11-25-BOL-ARS": {
+    "attendance": 24409,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2006-11-25-CHA-EVE": {
+    "attendance": 26435,
+    "venue": "The Valley"
+  },
+  "2006-11-25-FUL-REA": {
+    "attendance": 22673,
+    "venue": "Craven Cottage"
+  },
+  "2006-11-25-LIV-MCI": {
+    "attendance": 45071,
+    "venue": "Anfield"
+  },
+  "2006-11-25-WHU-SHU": {
+    "attendance": 34242,
+    "venue": "Boleyn Ground"
+  },
+  "2006-11-26-MUN-CHE": {
+    "attendance": 75948,
+    "venue": "Old Trafford"
+  },
+  "2006-11-26-NEW-POR": {
+    "attendance": 48834,
+    "venue": "Sports Direct Arena"
+  },
+  "2006-11-26-TOT-WIG": {
+    "attendance": 35205,
+    "venue": "White Hart Lane"
+  },
+  "2006-11-28-WAT-SHU": {
+    "attendance": 18887,
+    "venue": "Vicarage Road"
+  },
+  "2006-11-29-AVL-MCI": {
+    "attendance": 30124,
+    "venue": "Villa Park"
+  },
+  "2006-11-29-BOL-CHE": {
+    "attendance": 23381,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2006-11-29-FUL-ARS": {
+    "attendance": 24510,
+    "venue": "Craven Cottage"
+  },
+  "2006-11-29-LIV-POR": {
+    "attendance": 44141,
+    "venue": "Anfield"
+  },
+  "2006-11-29-MUN-EVE": {
+    "attendance": 75723,
+    "venue": "Old Trafford"
+  },
+  "2006-12-02-ARS-TOT": {
+    "attendance": 60119,
+    "venue": "Emirates Stadium"
+  },
+  "2006-12-02-BLB-FUL": {
+    "attendance": 16799,
+    "venue": "Ewood Park"
+  },
+  "2006-12-02-MID-MUN": {
+    "attendance": 31238,
+    "venue": "Riverside Stadium"
+  },
+  "2006-12-02-POR-AVL": {
+    "attendance": 20042,
+    "venue": "Fratton Park"
+  },
+  "2006-12-02-REA-BOL": {
+    "attendance": 23556,
+    "venue": "Madejski Stadium"
+  },
+  "2006-12-02-SHU-CHA": {
+    "attendance": 27368,
+    "venue": "Bramall Lane"
+  },
+  "2006-12-02-WIG-LIV": {
+    "attendance": 22326,
+    "venue": "The Brick Community Stadium"
+  },
+  "2006-12-03-EVE-WHU": {
+    "attendance": 32968,
+    "venue": "Goodison Park"
+  },
+  "2006-12-04-MCI-WAT": {
+    "attendance": 35915,
+    "venue": "Etihad Stadium"
+  },
+  "2006-12-05-CHA-BLB": {
+    "attendance": 23423,
+    "venue": "The Valley"
+  },
+  "2006-12-05-TOT-MID": {
+    "attendance": 34154,
+    "venue": "White Hart Lane"
+  },
+  "2006-12-06-NEW-REA": {
+    "attendance": 48363,
+    "venue": "Sports Direct Arena"
+  },
+  "2006-12-06-WHU-WIG": {
+    "attendance": 33468,
+    "venue": "Boleyn Ground"
+  },
+  "2006-12-09-BLB-NEW": {
+    "attendance": 19225,
+    "venue": "Ewood Park"
+  },
+  "2006-12-09-BOL-WHU": {
+    "attendance": 22283,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2006-12-09-LIV-FUL": {
+    "attendance": 44907,
+    "venue": "Anfield"
+  },
+  "2006-12-09-MID-WIG": {
+    "attendance": 23638,
+    "venue": "Riverside Stadium"
+  },
+  "2006-12-09-MUN-MCI": {
+    "attendance": 75858,
+    "venue": "Old Trafford"
+  },
+  "2006-12-09-POR-EVE": {
+    "attendance": 19526,
+    "venue": "Fratton Park"
+  },
+  "2006-12-09-TOT-CHA": {
+    "attendance": 36781,
+    "venue": "White Hart Lane"
+  },
+  "2006-12-09-WAT-REA": {
+    "attendance": 19223,
+    "venue": "Vicarage Road"
+  },
+  "2006-12-10-CHE-ARS": {
+    "attendance": 41945,
+    "venue": "Stamford Bridge"
+  },
+  "2006-12-11-SHU-AVL": {
+    "attendance": 30957,
+    "venue": "Bramall Lane"
+  },
+  "2006-12-13-CHE-NEW": {
+    "attendance": 41944,
+    "venue": "Stamford Bridge"
+  },
+  "2006-12-13-WIG-ARS": {
+    "attendance": 15506,
+    "venue": "The Brick Community Stadium"
+  },
+  "2006-12-16-ARS-POR": {
+    "attendance": 60037,
+    "venue": "Emirates Stadium"
+  },
+  "2006-12-16-AVL-BOL": {
+    "attendance": 27450,
+    "venue": "Villa Park"
+  },
+  "2006-12-16-CHA-LIV": {
+    "attendance": 27111,
+    "venue": "The Valley"
+  },
+  "2006-12-16-NEW-WAT": {
+    "attendance": 49640,
+    "venue": "Sports Direct Arena"
+  },
+  "2006-12-16-REA-BLB": {
+    "attendance": 23074,
+    "venue": "Madejski Stadium"
+  },
+  "2006-12-16-WIG-SHU": {
+    "attendance": 16445,
+    "venue": "The Brick Community Stadium"
+  },
+  "2006-12-17-EVE-CHE": {
+    "attendance": 33970,
+    "venue": "Goodison Park"
+  },
+  "2006-12-17-MCI-TOT": {
+    "attendance": 39285,
+    "venue": "Etihad Stadium"
+  },
+  "2006-12-17-WHU-MUN": {
+    "attendance": 34989,
+    "venue": "Boleyn Ground"
+  },
+  "2006-12-18-FUL-MID": {
+    "attendance": 16323,
+    "venue": "Craven Cottage"
+  },
+  "2006-12-23-ARS-BLB": {
+    "attendance": 59913,
+    "venue": "Emirates Stadium"
+  },
+  "2006-12-23-AVL-MUN": {
+    "attendance": 42551,
+    "venue": "Villa Park"
+  },
+  "2006-12-23-FUL-WHU": {
+    "attendance": 22452,
+    "venue": "Craven Cottage"
+  },
+  "2006-12-23-LIV-WAT": {
+    "attendance": 44639,
+    "venue": "Anfield"
+  },
+  "2006-12-23-MCI-BOL": {
+    "attendance": 40157,
+    "venue": "Etihad Stadium"
+  },
+  "2006-12-23-MID-CHA": {
+    "attendance": 32013,
+    "venue": "Riverside Stadium"
+  },
+  "2006-12-23-NEW-TOT": {
+    "attendance": 52093,
+    "venue": "Sports Direct Arena"
+  },
+  "2006-12-23-POR-SHU": {
+    "attendance": 20168,
+    "venue": "Fratton Park"
+  },
+  "2006-12-23-REA-EVE": {
+    "attendance": 23120,
+    "venue": "Madejski Stadium"
+  },
+  "2006-12-23-WIG-CHE": {
+    "attendance": 22304,
+    "venue": "The Brick Community Stadium"
+  },
+  "2006-12-26-BLB-LIV": {
+    "attendance": 29342,
+    "venue": "Ewood Park"
+  },
+  "2006-12-26-BOL-NEW": {
+    "attendance": 26255,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2006-12-26-CHE-REA": {
+    "attendance": 41923,
+    "venue": "Stamford Bridge"
+  },
+  "2006-12-26-EVE-MID": {
+    "attendance": 38126,
+    "venue": "Goodison Park"
+  },
+  "2006-12-26-MUN-WIG": {
+    "attendance": 76018,
+    "venue": "Old Trafford"
+  },
+  "2006-12-26-SHU-MCI": {
+    "attendance": 32591,
+    "venue": "Bramall Lane"
+  },
+  "2006-12-26-TOT-AVL": {
+    "attendance": 35293,
+    "venue": "White Hart Lane"
+  },
+  "2006-12-26-WAT-ARS": {
+    "attendance": 19750,
+    "venue": "Vicarage Road"
+  },
+  "2006-12-26-WHU-POR": {
+    "attendance": 34886,
+    "venue": "Boleyn Ground"
+  },
+  "2006-12-27-CHA-FUL": {
+    "attendance": 25203,
+    "venue": "The Valley"
+  },
+  "2006-12-30-BLB-MID": {
+    "attendance": 22653,
+    "venue": "Ewood Park"
+  },
+  "2006-12-30-BOL-POR": {
+    "attendance": 22616,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2006-12-30-CHA-AVL": {
+    "attendance": 26699,
+    "venue": "The Valley"
+  },
+  "2006-12-30-CHE-FUL": {
+    "attendance": 41934,
+    "venue": "Stamford Bridge"
+  },
+  "2006-12-30-EVE-NEW": {
+    "attendance": 38682,
+    "venue": "Goodison Park"
+  },
+  "2006-12-30-MUN-REA": {
+    "attendance": 75910,
+    "venue": "Old Trafford"
+  },
+  "2006-12-30-SHU-ARS": {
+    "attendance": 32086,
+    "venue": "Bramall Lane"
+  },
+  "2006-12-30-TOT-LIV": {
+    "attendance": 36170,
+    "venue": "White Hart Lane"
+  },
+  "2006-12-30-WHU-MCI": {
+    "attendance": 34552,
+    "venue": "Boleyn Ground"
+  },
+  "2007-01-01-FUL-WAT": {
+    "attendance": 19698,
+    "venue": "Craven Cottage"
+  },
+  "2007-01-01-LIV-BOL": {
+    "attendance": 44290,
+    "venue": "Anfield"
+  },
+  "2007-01-01-MCI-EVE": {
+    "attendance": 39836,
+    "venue": "Etihad Stadium"
+  },
+  "2007-01-01-MID-SHU": {
+    "attendance": 27963,
+    "venue": "Riverside Stadium"
+  },
+  "2007-01-01-NEW-MUN": {
+    "attendance": 52302,
+    "venue": "Sports Direct Arena"
+  },
+  "2007-01-01-POR-TOT": {
+    "attendance": 20185,
+    "venue": "Fratton Park"
+  },
+  "2007-01-01-REA-WHU": {
+    "attendance": 23992,
+    "venue": "Madejski Stadium"
+  },
+  "2007-01-01-WIG-BLB": {
+    "attendance": 15039,
+    "venue": "The Brick Community Stadium"
+  },
+  "2007-01-02-ARS-CHA": {
+    "attendance": 60057,
+    "venue": "Emirates Stadium"
+  },
+  "2007-01-02-AVL-CHE": {
+    "attendance": 41006,
+    "venue": "Villa Park"
+  },
+  "2007-01-13-BLB-ARS": {
+    "attendance": 21852,
+    "venue": "Ewood Park"
+  },
+  "2007-01-13-BOL-MCI": {
+    "attendance": 21938,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2007-01-13-CHA-MID": {
+    "attendance": 26384,
+    "venue": "The Valley"
+  },
+  "2007-01-13-CHE-WIG": {
+    "attendance": 40845,
+    "venue": "Stamford Bridge"
+  },
+  "2007-01-13-MUN-AVL": {
+    "attendance": 76073,
+    "venue": "Old Trafford"
+  },
+  "2007-01-13-SHU-POR": {
+    "attendance": 30269,
+    "venue": "Bramall Lane"
+  },
+  "2007-01-13-WAT-LIV": {
+    "attendance": 19740,
+    "venue": "Vicarage Road"
+  },
+  "2007-01-13-WHU-FUL": {
+    "attendance": 34552,
+    "venue": "Boleyn Ground"
+  },
+  "2007-01-14-EVE-REA": {
+    "attendance": 34722,
+    "venue": "Goodison Park"
+  },
+  "2007-01-14-TOT-NEW": {
+    "attendance": 35942,
+    "venue": "White Hart Lane"
+  },
+  "2007-01-20-AVL-WAT": {
+    "attendance": 35892,
+    "venue": "Villa Park"
+  },
+  "2007-01-20-FUL-TOT": {
+    "attendance": 23580,
+    "venue": "Craven Cottage"
+  },
+  "2007-01-20-LIV-CHE": {
+    "attendance": 44969,
+    "venue": "Anfield"
+  },
+  "2007-01-20-MCI-BLB": {
+    "attendance": 36950,
+    "venue": "Etihad Stadium"
+  },
+  "2007-01-20-MID-BOL": {
+    "attendance": 24634,
+    "venue": "Riverside Stadium"
+  },
+  "2007-01-20-NEW-WHU": {
+    "attendance": 52096,
+    "venue": "Sports Direct Arena"
+  },
+  "2007-01-20-POR-CHA": {
+    "attendance": 19508,
+    "venue": "Fratton Park"
+  },
+  "2007-01-20-REA-SHU": {
+    "attendance": 23956,
+    "venue": "Madejski Stadium"
+  },
+  "2007-01-21-ARS-MUN": {
+    "attendance": 60128,
+    "venue": "Emirates Stadium"
+  },
+  "2007-01-21-WIG-EVE": {
+    "attendance": 18346,
+    "venue": "The Brick Community Stadium"
+  },
+  "2007-01-23-WAT-BLB": {
+    "attendance": 16455,
+    "venue": "Vicarage Road"
+  },
+  "2007-01-30-POR-MID": {
+    "attendance": 19820,
+    "venue": "Fratton Park"
+  },
+  "2007-01-30-REA-WIG": {
+    "attendance": 21954,
+    "venue": "Madejski Stadium"
+  },
+  "2007-01-30-SHU-FUL": {
+    "attendance": 27540,
+    "venue": "Bramall Lane"
+  },
+  "2007-01-30-WHU-LIV": {
+    "attendance": 35278,
+    "venue": "Boleyn Ground"
+  },
+  "2007-01-31-BOL-CHA": {
+    "attendance": 22357,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2007-01-31-CHE-BLB": {
+    "attendance": 37967,
+    "venue": "Stamford Bridge"
+  },
+  "2007-01-31-MUN-WAT": {
+    "attendance": 76032,
+    "venue": "Old Trafford"
+  },
+  "2007-01-31-NEW-AVL": {
+    "attendance": 49438,
+    "venue": "Sports Direct Arena"
+  },
+  "2007-02-03-AVL-WHU": {
+    "attendance": 41202,
+    "venue": "Villa Park"
+  },
+  "2007-02-03-BLB-SHU": {
+    "attendance": 20918,
+    "venue": "Ewood Park"
+  },
+  "2007-02-03-CHA-CHE": {
+    "attendance": 27111,
+    "venue": "The Valley"
+  },
+  "2007-02-03-FUL-NEW": {
+    "attendance": 24340,
+    "venue": "Craven Cottage"
+  },
+  "2007-02-03-LIV-EVE": {
+    "attendance": 44957,
+    "venue": "Anfield"
+  },
+  "2007-02-03-MCI-REA": {
+    "attendance": 38676,
+    "venue": "Etihad Stadium"
+  },
+  "2007-02-03-MID-ARS": {
+    "attendance": 31122,
+    "venue": "Riverside Stadium"
+  },
+  "2007-02-03-WAT-BOL": {
+    "attendance": 18722,
+    "venue": "Vicarage Road"
+  },
+  "2007-02-03-WIG-POR": {
+    "attendance": 15295,
+    "venue": "The Brick Community Stadium"
+  },
+  "2007-02-04-TOT-MUN": {
+    "attendance": 36146,
+    "venue": "White Hart Lane"
+  },
+  "2007-02-10-CHE-MID": {
+    "attendance": 41709,
+    "venue": "Stamford Bridge"
+  },
+  "2007-02-10-EVE-BLB": {
+    "attendance": 35593,
+    "venue": "Goodison Park"
+  },
+  "2007-02-10-MUN-CHA": {
+    "attendance": 75883,
+    "venue": "Old Trafford"
+  },
+  "2007-02-10-NEW-LIV": {
+    "attendance": 52305,
+    "venue": "Sports Direct Arena"
+  },
+  "2007-02-10-POR-MCI": {
+    "attendance": 19330,
+    "venue": "Fratton Park"
+  },
+  "2007-02-10-REA-AVL": {
+    "attendance": 24122,
+    "venue": "Madejski Stadium"
+  },
+  "2007-02-10-SHU-TOT": {
+    "attendance": 32144,
+    "venue": "Bramall Lane"
+  },
+  "2007-02-10-WHU-WAT": {
+    "attendance": 34521,
+    "venue": "Boleyn Ground"
+  },
+  "2007-02-11-ARS-WIG": {
+    "attendance": 60049,
+    "venue": "Emirates Stadium"
+  },
+  "2007-02-11-BOL-FUL": {
+    "attendance": 24919,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2007-02-21-EVE-TOT": {
+    "attendance": 34121,
+    "venue": "Goodison Park"
+  },
+  "2007-02-21-WAT-WIG": {
+    "attendance": 18338,
+    "venue": "Vicarage Road"
+  },
+  "2007-02-24-CHA-WHU": {
+    "attendance": 27111,
+    "venue": "The Valley"
+  },
+  "2007-02-24-FUL-MUN": {
+    "attendance": 24459,
+    "venue": "Craven Cottage"
+  },
+  "2007-02-24-LIV-SHU": {
+    "attendance": 45072,
+    "venue": "Anfield"
+  },
+  "2007-02-24-MID-REA": {
+    "attendance": 26412,
+    "venue": "Riverside Stadium"
+  },
+  "2007-02-24-WAT-EVE": {
+    "attendance": 18761,
+    "venue": "Vicarage Road"
+  },
+  "2007-02-25-BLB-POR": {
+    "attendance": 17434,
+    "venue": "Ewood Park"
+  },
+  "2007-02-25-TOT-BOL": {
+    "attendance": 35747,
+    "venue": "White Hart Lane"
+  },
+  "2007-02-25-WIG-NEW": {
+    "attendance": 22019,
+    "venue": "The Brick Community Stadium"
+  },
+  "2007-03-03-ARS-REA": {
+    "attendance": 60132,
+    "venue": "Emirates Stadium"
+  },
+  "2007-03-03-FUL-AVL": {
+    "attendance": 24552,
+    "venue": "Craven Cottage"
+  },
+  "2007-03-03-LIV-MUN": {
+    "attendance": 44887,
+    "venue": "Anfield"
+  },
+  "2007-03-03-MCI-WIG": {
+    "attendance": 39923,
+    "venue": "Etihad Stadium"
+  },
+  "2007-03-03-NEW-MID": {
+    "attendance": 52303,
+    "venue": "Sports Direct Arena"
+  },
+  "2007-03-03-POR-CHE": {
+    "attendance": 20219,
+    "venue": "Fratton Park"
+  },
+  "2007-03-03-SHU-EVE": {
+    "attendance": 32019,
+    "venue": "Bramall Lane"
+  },
+  "2007-03-03-WAT-CHA": {
+    "attendance": 19782,
+    "venue": "Vicarage Road"
+  },
+  "2007-03-04-BOL-BLB": {
+    "attendance": 22272,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2007-03-04-WHU-TOT": {
+    "attendance": 34967,
+    "venue": "Boleyn Ground"
+  },
+  "2007-03-14-AVL-ARS": {
+    "attendance": 39968,
+    "venue": "Villa Park"
+  },
+  "2007-03-14-MCI-CHE": {
+    "attendance": 39429,
+    "venue": "Etihad Stadium"
+  },
+  "2007-03-17-BLB-WHU": {
+    "attendance": 18586,
+    "venue": "Ewood Park"
+  },
+  "2007-03-17-CHE-SHU": {
+    "attendance": 41908,
+    "venue": "Stamford Bridge"
+  },
+  "2007-03-17-MID-MCI": {
+    "attendance": 26341,
+    "venue": "Riverside Stadium"
+  },
+  "2007-03-17-MUN-BOL": {
+    "attendance": 76058,
+    "venue": "Old Trafford"
+  },
+  "2007-03-17-REA-POR": {
+    "attendance": 24087,
+    "venue": "Madejski Stadium"
+  },
+  "2007-03-17-TOT-WAT": {
+    "attendance": 36051,
+    "venue": "White Hart Lane"
+  },
+  "2007-03-17-WIG-FUL": {
+    "attendance": 16753,
+    "venue": "The Brick Community Stadium"
+  },
+  "2007-03-18-AVL-LIV": {
+    "attendance": 42551,
+    "venue": "Villa Park"
+  },
+  "2007-03-18-CHA-NEW": {
+    "attendance": 27028,
+    "venue": "The Valley"
+  },
+  "2007-03-18-EVE-ARS": {
+    "attendance": 37162,
+    "venue": "Goodison Park"
+  },
+  "2007-03-31-BOL-SHU": {
+    "attendance": 24481,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2007-03-31-CHA-WIG": {
+    "attendance": 26500,
+    "venue": "The Valley"
+  },
+  "2007-03-31-FUL-POR": {
+    "attendance": 22806,
+    "venue": "Craven Cottage"
+  },
+  "2007-03-31-LIV-ARS": {
+    "attendance": 44845,
+    "venue": "Anfield"
+  },
+  "2007-03-31-MUN-BLB": {
+    "attendance": 76004,
+    "venue": "Old Trafford"
+  },
+  "2007-03-31-NEW-MCI": {
+    "attendance": 52320,
+    "venue": "Sports Direct Arena"
+  },
+  "2007-03-31-WAT-CHE": {
+    "attendance": 19793,
+    "venue": "Vicarage Road"
+  },
+  "2007-03-31-WHU-MID": {
+    "attendance": 34854,
+    "venue": "Boleyn Ground"
+  },
+  "2007-04-01-TOT-REA": {
+    "attendance": 36067,
+    "venue": "White Hart Lane"
+  },
+  "2007-04-02-AVL-EVE": {
+    "attendance": 36407,
+    "venue": "Villa Park"
+  },
+  "2007-04-06-EVE-FUL": {
+    "attendance": 35612,
+    "venue": "Goodison Park"
+  },
+  "2007-04-06-MCI-CHA": {
+    "attendance": 41424,
+    "venue": "Etihad Stadium"
+  },
+  "2007-04-07-ARS-WHU": {
+    "attendance": 60098,
+    "venue": "Emirates Stadium"
+  },
+  "2007-04-07-BLB-AVL": {
+    "attendance": 24148,
+    "venue": "Ewood Park"
+  },
+  "2007-04-07-CHE-TOT": {
+    "attendance": 41869,
+    "venue": "Stamford Bridge"
+  },
+  "2007-04-07-MID-WAT": {
+    "attendance": 25534,
+    "venue": "Riverside Stadium"
+  },
+  "2007-04-07-POR-MUN": {
+    "attendance": 20223,
+    "venue": "Fratton Park"
+  },
+  "2007-04-07-REA-LIV": {
+    "attendance": 24121,
+    "venue": "Madejski Stadium"
+  },
+  "2007-04-07-SHU-NEW": {
+    "attendance": 32572,
+    "venue": "Bramall Lane"
+  },
+  "2007-04-07-WIG-BOL": {
+    "attendance": 18768,
+    "venue": "The Brick Community Stadium"
+  },
+  "2007-04-09-AVL-WIG": {
+    "attendance": 31920,
+    "venue": "Villa Park"
+  },
+  "2007-04-09-BOL-EVE": {
+    "attendance": 25179,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2007-04-09-CHA-REA": {
+    "attendance": 26271,
+    "venue": "The Valley"
+  },
+  "2007-04-09-FUL-MCI": {
+    "attendance": 22435,
+    "venue": "Craven Cottage"
+  },
+  "2007-04-09-NEW-ARS": {
+    "attendance": 52299,
+    "venue": "Sports Direct Arena"
+  },
+  "2007-04-09-WAT-POR": {
+    "attendance": 18119,
+    "venue": "Vicarage Road"
+  },
+  "2007-04-14-ARS-BOL": {
+    "attendance": 60101,
+    "venue": "Emirates Stadium"
+  },
+  "2007-04-14-MCI-LIV": {
+    "attendance": 45883,
+    "venue": "Etihad Stadium"
+  },
+  "2007-04-14-MID-AVL": {
+    "attendance": 26959,
+    "venue": "Riverside Stadium"
+  },
+  "2007-04-14-POR-NEW": {
+    "attendance": 20165,
+    "venue": "Fratton Park"
+  },
+  "2007-04-14-REA-FUL": {
+    "attendance": 24082,
+    "venue": "Madejski Stadium"
+  },
+  "2007-04-14-SHU-WHU": {
+    "attendance": 31593,
+    "venue": "Bramall Lane"
+  },
+  "2007-04-15-EVE-CHA": {
+    "attendance": 34028,
+    "venue": "Goodison Park"
+  },
+  "2007-04-15-WIG-TOT": {
+    "attendance": 16654,
+    "venue": "The Brick Community Stadium"
+  },
+  "2007-04-17-ARS-MCI": {
+    "attendance": 59913,
+    "venue": "Emirates Stadium"
+  },
+  "2007-04-17-MUN-SHU": {
+    "attendance": 75540,
+    "venue": "Old Trafford"
+  },
+  "2007-04-18-BLB-WAT": {
+    "attendance": 16031,
+    "venue": "Ewood Park"
+  },
+  "2007-04-18-LIV-MID": {
+    "attendance": 43247,
+    "venue": "Anfield"
+  },
+  "2007-04-18-WHU-CHE": {
+    "attendance": 35156,
+    "venue": "Boleyn Ground"
+  },
+  "2007-04-21-BOL-REA": {
+    "attendance": 23533,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2007-04-21-CHA-SHU": {
+    "attendance": 27111,
+    "venue": "The Valley"
+  },
+  "2007-04-21-FUL-BLB": {
+    "attendance": 23652,
+    "venue": "Craven Cottage"
+  },
+  "2007-04-21-LIV-WIG": {
+    "attendance": 45047,
+    "venue": "Anfield"
+  },
+  "2007-04-21-MUN-MID": {
+    "attendance": 75967,
+    "venue": "Old Trafford"
+  },
+  "2007-04-21-TOT-ARS": {
+    "attendance": 36054,
+    "venue": "White Hart Lane"
+  },
+  "2007-04-21-WAT-MCI": {
+    "attendance": 18537,
+    "venue": "Vicarage Road"
+  },
+  "2007-04-21-WHU-EVE": {
+    "attendance": 34896,
+    "venue": "Boleyn Ground"
+  },
+  "2007-04-22-AVL-POR": {
+    "attendance": 31745,
+    "venue": "Villa Park"
+  },
+  "2007-04-22-NEW-CHE": {
+    "attendance": 52056,
+    "venue": "Sports Direct Arena"
+  },
+  "2007-04-28-BLB-CHA": {
+    "attendance": 24921,
+    "venue": "Ewood Park"
+  },
+  "2007-04-28-CHE-BOL": {
+    "attendance": 41125,
+    "venue": "Stamford Bridge"
+  },
+  "2007-04-28-EVE-MUN": {
+    "attendance": 39682,
+    "venue": "Goodison Park"
+  },
+  "2007-04-28-MCI-AVL": {
+    "attendance": 40799,
+    "venue": "Etihad Stadium"
+  },
+  "2007-04-28-MID-TOT": {
+    "attendance": 27861,
+    "venue": "Riverside Stadium"
+  },
+  "2007-04-28-POR-LIV": {
+    "attendance": 20218,
+    "venue": "Fratton Park"
+  },
+  "2007-04-28-SHU-WAT": {
+    "attendance": 30613,
+    "venue": "Bramall Lane"
+  },
+  "2007-04-28-WIG-WHU": {
+    "attendance": 24832,
+    "venue": "The Brick Community Stadium"
+  },
+  "2007-04-29-ARS-FUL": {
+    "attendance": 60043,
+    "venue": "Emirates Stadium"
+  },
+  "2007-04-30-REA-NEW": {
+    "attendance": 24109,
+    "venue": "Madejski Stadium"
+  },
+  "2007-05-05-AVL-SHU": {
+    "attendance": 42551,
+    "venue": "Villa Park"
+  },
+  "2007-05-05-EVE-POR": {
+    "attendance": 39619,
+    "venue": "Goodison Park"
+  },
+  "2007-05-05-FUL-LIV": {
+    "attendance": 24554,
+    "venue": "Craven Cottage"
+  },
+  "2007-05-05-MCI-MUN": {
+    "attendance": 47244,
+    "venue": "Etihad Stadium"
+  },
+  "2007-05-05-NEW-BLB": {
+    "attendance": 51840,
+    "venue": "Sports Direct Arena"
+  },
+  "2007-05-05-REA-WAT": {
+    "attendance": 23294,
+    "venue": "Madejski Stadium"
+  },
+  "2007-05-05-WHU-BOL": {
+    "attendance": 34125,
+    "venue": "Boleyn Ground"
+  },
+  "2007-05-05-WIG-MID": {
+    "attendance": 21448,
+    "venue": "The Brick Community Stadium"
+  },
+  "2007-05-06-ARS-CHE": {
+    "attendance": 60102,
+    "venue": "Emirates Stadium"
+  },
+  "2007-05-07-CHA-TOT": {
+    "attendance": 26339,
+    "venue": "The Valley"
+  },
+  "2007-05-09-CHE-MUN": {
+    "attendance": 41868,
+    "venue": "Stamford Bridge"
+  },
+  "2007-05-10-TOT-BLB": {
+    "attendance": 35974,
+    "venue": "White Hart Lane"
+  },
+  "2007-05-13-BLB-REA": {
+    "attendance": 22675,
+    "venue": "Ewood Park"
+  },
+  "2007-05-13-BOL-AVL": {
+    "attendance": 25769,
+    "venue": "Toughsheet Community Stadium"
+  },
+  "2007-05-13-CHE-EVE": {
+    "attendance": 41818,
+    "venue": "Stamford Bridge"
+  },
+  "2007-05-13-LIV-CHA": {
+    "attendance": 44657,
+    "venue": "Anfield"
+  },
+  "2007-05-13-MID-FUL": {
+    "attendance": 29556,
+    "venue": "Riverside Stadium"
+  },
+  "2007-05-13-MUN-WHU": {
+    "attendance": 75927,
+    "venue": "Old Trafford"
+  },
+  "2007-05-13-POR-ARS": {
+    "attendance": 20188,
+    "venue": "Fratton Park"
+  },
+  "2007-05-13-SHU-WIG": {
+    "attendance": 32604,
+    "venue": "Bramall Lane"
+  },
+  "2007-05-13-TOT-MCI": {
+    "attendance": 35415,
+    "venue": "White Hart Lane"
+  },
+  "2007-05-13-WAT-NEW": {
+    "attendance": 19830,
+    "venue": "Vicarage Road"
+  }
+}

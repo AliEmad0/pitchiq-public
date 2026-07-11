@@ -1,0 +1,1522 @@
+{
+  "2018-08-10-MUN-LEI": {
+    "attendance": 74439,
+    "venue": "Old Trafford"
+  },
+  "2018-08-11-BOU-CAR": {
+    "attendance": 10353,
+    "venue": "Vitality Stadium"
+  },
+  "2018-08-11-FUL-CRY": {
+    "attendance": 24821,
+    "venue": "Craven Cottage"
+  },
+  "2018-08-11-HUD-CHE": {
+    "attendance": 24121,
+    "venue": "Accu Stadium"
+  },
+  "2018-08-11-NEW-TOT": {
+    "attendance": 51749,
+    "venue": "St. James' Park"
+  },
+  "2018-08-11-WAT-BHA": {
+    "attendance": 20051,
+    "venue": "Vicarage Road"
+  },
+  "2018-08-11-WOL-EVE": {
+    "attendance": 31231,
+    "venue": "Molineux Stadium"
+  },
+  "2018-08-12-ARS-MCI": {
+    "attendance": 59934,
+    "venue": "Emirates Stadium"
+  },
+  "2018-08-12-LIV-WHU": {
+    "attendance": 53235,
+    "venue": "Anfield"
+  },
+  "2018-08-12-SOU-BUR": {
+    "attendance": 30784,
+    "venue": "St. Mary's Stadium"
+  },
+  "2018-08-18-CAR-NEW": {
+    "attendance": 30720,
+    "venue": "Cardiff City Stadium"
+  },
+  "2018-08-18-CHE-ARS": {
+    "attendance": 40491,
+    "venue": "Stamford Bridge"
+  },
+  "2018-08-18-EVE-SOU": {
+    "attendance": 38601,
+    "venue": "Goodison Park"
+  },
+  "2018-08-18-LEI-WOL": {
+    "attendance": 32043,
+    "venue": "King Power Stadium"
+  },
+  "2018-08-18-TOT-FUL": {
+    "attendance": 58297,
+    "venue": "Wembley Stadium"
+  },
+  "2018-08-18-WHU-BOU": {
+    "attendance": 56888,
+    "venue": "London Stadium"
+  },
+  "2018-08-19-BHA-MUN": {
+    "attendance": 30592,
+    "venue": "American Express Stadium"
+  },
+  "2018-08-19-BUR-WAT": {
+    "attendance": 18822,
+    "venue": "Turf Moor"
+  },
+  "2018-08-19-MCI-HUD": {
+    "attendance": 54021,
+    "venue": "Etihad Stadium"
+  },
+  "2018-08-20-CRY-LIV": {
+    "attendance": 25750,
+    "venue": "Selhurst Park"
+  },
+  "2018-08-25-ARS-WHU": {
+    "attendance": 59830,
+    "venue": "Emirates Stadium"
+  },
+  "2018-08-25-BOU-EVE": {
+    "attendance": 10654,
+    "venue": "Vitality Stadium"
+  },
+  "2018-08-25-HUD-CAR": {
+    "attendance": 21193,
+    "venue": "Accu Stadium"
+  },
+  "2018-08-25-LIV-BHA": {
+    "attendance": 53294,
+    "venue": "Anfield"
+  },
+  "2018-08-25-SOU-LEI": {
+    "attendance": 29925,
+    "venue": "St. Mary's Stadium"
+  },
+  "2018-08-25-WOL-MCI": {
+    "attendance": 31322,
+    "venue": "Molineux Stadium"
+  },
+  "2018-08-26-FUL-BUR": {
+    "attendance": 23438,
+    "venue": "Craven Cottage"
+  },
+  "2018-08-26-NEW-CHE": {
+    "attendance": 51791,
+    "venue": "St. James' Park"
+  },
+  "2018-08-26-WAT-CRY": {
+    "attendance": 20014,
+    "venue": "Vicarage Road"
+  },
+  "2018-08-27-MUN-TOT": {
+    "attendance": 74400,
+    "venue": "Old Trafford"
+  },
+  "2018-09-01-BHA-FUL": {
+    "attendance": 30526,
+    "venue": "American Express Stadium"
+  },
+  "2018-09-01-CHE-BOU": {
+    "attendance": 40178,
+    "venue": "Stamford Bridge"
+  },
+  "2018-09-01-CRY-SOU": {
+    "attendance": 25495,
+    "venue": "Selhurst Park"
+  },
+  "2018-09-01-EVE-HUD": {
+    "attendance": 38767,
+    "venue": "Goodison Park"
+  },
+  "2018-09-01-LEI-LIV": {
+    "attendance": 32149,
+    "venue": "King Power Stadium"
+  },
+  "2018-09-01-MCI-NEW": {
+    "attendance": 53946,
+    "venue": "Etihad Stadium"
+  },
+  "2018-09-01-WHU-WOL": {
+    "attendance": 56947,
+    "venue": "London Stadium"
+  },
+  "2018-09-02-BUR-MUN": {
+    "attendance": 21525,
+    "venue": "Turf Moor"
+  },
+  "2018-09-02-CAR-ARS": {
+    "attendance": 32316,
+    "venue": "Cardiff City Stadium"
+  },
+  "2018-09-02-WAT-TOT": {
+    "attendance": 20141,
+    "venue": "Vicarage Road"
+  },
+  "2018-09-15-BOU-LEI": {
+    "attendance": 10543,
+    "venue": "Vitality Stadium"
+  },
+  "2018-09-15-CHE-CAR": {
+    "attendance": 40499,
+    "venue": "Stamford Bridge"
+  },
+  "2018-09-15-HUD-CRY": {
+    "attendance": 23696,
+    "venue": "Accu Stadium"
+  },
+  "2018-09-15-MCI-FUL": {
+    "attendance": 53307,
+    "venue": "Etihad Stadium"
+  },
+  "2018-09-15-NEW-ARS": {
+    "attendance": 52165,
+    "venue": "St. James' Park"
+  },
+  "2018-09-15-TOT-LIV": {
+    "attendance": 80188,
+    "venue": "Wembley Stadium"
+  },
+  "2018-09-15-WAT-MUN": {
+    "attendance": 20537,
+    "venue": "Vicarage Road"
+  },
+  "2018-09-16-EVE-WHU": {
+    "attendance": 39161,
+    "venue": "Goodison Park"
+  },
+  "2018-09-16-WOL-BUR": {
+    "attendance": 30406,
+    "venue": "Molineux Stadium"
+  },
+  "2018-09-17-SOU-BHA": {
+    "attendance": 28811,
+    "venue": "St. Mary's Stadium"
+  },
+  "2018-09-22-BHA-TOT": {
+    "attendance": 30531,
+    "venue": "American Express Stadium"
+  },
+  "2018-09-22-BUR-BOU": {
+    "attendance": 18636,
+    "venue": "Turf Moor"
+  },
+  "2018-09-22-CAR-MCI": {
+    "attendance": 32321,
+    "venue": "Cardiff City Stadium"
+  },
+  "2018-09-22-CRY-NEW": {
+    "attendance": 25679,
+    "venue": "Selhurst Park"
+  },
+  "2018-09-22-FUL-WAT": {
+    "attendance": 23418,
+    "venue": "Craven Cottage"
+  },
+  "2018-09-22-LEI-HUD": {
+    "attendance": 31676,
+    "venue": "King Power Stadium"
+  },
+  "2018-09-22-LIV-SOU": {
+    "attendance": 50965,
+    "venue": "Anfield"
+  },
+  "2018-09-22-MUN-WOL": {
+    "attendance": 74489,
+    "venue": "Old Trafford"
+  },
+  "2018-09-23-ARS-EVE": {
+    "attendance": 59964,
+    "venue": "Emirates Stadium"
+  },
+  "2018-09-23-WHU-CHE": {
+    "attendance": 56875,
+    "venue": "London Stadium"
+  },
+  "2018-09-29-ARS-WAT": {
+    "attendance": 60019,
+    "venue": "Emirates Stadium"
+  },
+  "2018-09-29-CHE-LIV": {
+    "attendance": 40625,
+    "venue": "Stamford Bridge"
+  },
+  "2018-09-29-EVE-FUL": {
+    "attendance": 38788,
+    "venue": "Goodison Park"
+  },
+  "2018-09-29-HUD-TOT": {
+    "attendance": 23885,
+    "venue": "Accu Stadium"
+  },
+  "2018-09-29-MCI-BHA": {
+    "attendance": 54152,
+    "venue": "Etihad Stadium"
+  },
+  "2018-09-29-NEW-LEI": {
+    "attendance": 51523,
+    "venue": "St. James' Park"
+  },
+  "2018-09-29-WHU-MUN": {
+    "attendance": 56938,
+    "venue": "London Stadium"
+  },
+  "2018-09-29-WOL-SOU": {
+    "attendance": 31147,
+    "venue": "Molineux Stadium"
+  },
+  "2018-09-30-CAR-BUR": {
+    "attendance": 30411,
+    "venue": "Cardiff City Stadium"
+  },
+  "2018-10-01-BOU-CRY": {
+    "attendance": 10199,
+    "venue": "Vitality Stadium"
+  },
+  "2018-10-05-BHA-WHU": {
+    "attendance": 30544,
+    "venue": "American Express Stadium"
+  },
+  "2018-10-06-BUR-HUD": {
+    "attendance": 20533,
+    "venue": "Turf Moor"
+  },
+  "2018-10-06-CRY-WOL": {
+    "attendance": 25715,
+    "venue": "Selhurst Park"
+  },
+  "2018-10-06-LEI-EVE": {
+    "attendance": 32007,
+    "venue": "King Power Stadium"
+  },
+  "2018-10-06-MUN-NEW": {
+    "attendance": 74519,
+    "venue": "Old Trafford"
+  },
+  "2018-10-06-TOT-CAR": {
+    "attendance": 43268,
+    "venue": "Wembley Stadium"
+  },
+  "2018-10-06-WAT-BOU": {
+    "attendance": 20139,
+    "venue": "Vicarage Road"
+  },
+  "2018-10-07-FUL-ARS": {
+    "attendance": 25401,
+    "venue": "Craven Cottage"
+  },
+  "2018-10-07-LIV-MCI": {
+    "attendance": 52117,
+    "venue": "Anfield"
+  },
+  "2018-10-07-SOU-CHE": {
+    "attendance": 27077,
+    "venue": "St. Mary's Stadium"
+  },
+  "2018-10-20-BOU-SOU": {
+    "attendance": 10986,
+    "venue": "Vitality Stadium"
+  },
+  "2018-10-20-CAR-FUL": {
+    "attendance": 29681,
+    "venue": "Cardiff City Stadium"
+  },
+  "2018-10-20-CHE-MUN": {
+    "attendance": 40721,
+    "venue": "Stamford Bridge"
+  },
+  "2018-10-20-HUD-LIV": {
+    "attendance": 24263,
+    "venue": "Accu Stadium"
+  },
+  "2018-10-20-MCI-BUR": {
+    "attendance": 54094,
+    "venue": "Etihad Stadium"
+  },
+  "2018-10-20-NEW-BHA": {
+    "attendance": 50329,
+    "venue": "St. James' Park"
+  },
+  "2018-10-20-WHU-TOT": {
+    "attendance": 56921,
+    "venue": "London Stadium"
+  },
+  "2018-10-20-WOL-WAT": {
+    "attendance": 31144,
+    "venue": "Molineux Stadium"
+  },
+  "2018-10-21-EVE-CRY": {
+    "attendance": 38668,
+    "venue": "Goodison Park"
+  },
+  "2018-10-22-ARS-LEI": {
+    "attendance": 59886,
+    "venue": "Emirates Stadium"
+  },
+  "2018-10-27-BHA-WOL": {
+    "attendance": 30654,
+    "venue": "American Express Stadium"
+  },
+  "2018-10-27-FUL-BOU": {
+    "attendance": 25071,
+    "venue": "Craven Cottage"
+  },
+  "2018-10-27-LEI-WHU": {
+    "attendance": 31848,
+    "venue": "King Power Stadium"
+  },
+  "2018-10-27-LIV-CAR": {
+    "attendance": 53373,
+    "venue": "Anfield"
+  },
+  "2018-10-27-SOU-NEW": {
+    "attendance": 30736,
+    "venue": "St. Mary's Stadium"
+  },
+  "2018-10-27-WAT-HUD": {
+    "attendance": 20457,
+    "venue": "Vicarage Road"
+  },
+  "2018-10-28-BUR-CHE": {
+    "attendance": 21430,
+    "venue": "Turf Moor"
+  },
+  "2018-10-28-CRY-ARS": {
+    "attendance": 25718,
+    "venue": "Selhurst Park"
+  },
+  "2018-10-28-MUN-EVE": {
+    "attendance": 74525,
+    "venue": "Old Trafford"
+  },
+  "2018-10-29-TOT-MCI": {
+    "attendance": 56854,
+    "venue": "Wembley Stadium"
+  },
+  "2018-11-03-ARS-LIV": {
+    "attendance": 59993,
+    "venue": "Emirates Stadium"
+  },
+  "2018-11-03-BOU-MUN": {
+    "attendance": 10792,
+    "venue": "Vitality Stadium"
+  },
+  "2018-11-03-CAR-LEI": {
+    "attendance": 30877,
+    "venue": "Cardiff City Stadium"
+  },
+  "2018-11-03-EVE-BHA": {
+    "attendance": 38966,
+    "venue": "Goodison Park"
+  },
+  "2018-11-03-NEW-WAT": {
+    "attendance": 49157,
+    "venue": "St. James' Park"
+  },
+  "2018-11-03-WHU-BUR": {
+    "attendance": 56862,
+    "venue": "London Stadium"
+  },
+  "2018-11-03-WOL-TOT": {
+    "attendance": 31185,
+    "venue": "Molineux Stadium"
+  },
+  "2018-11-04-CHE-CRY": {
+    "attendance": 40407,
+    "venue": "Stamford Bridge"
+  },
+  "2018-11-04-MCI-SOU": {
+    "attendance": 53916,
+    "venue": "Etihad Stadium"
+  },
+  "2018-11-05-HUD-FUL": {
+    "attendance": 17082,
+    "venue": "Accu Stadium"
+  },
+  "2018-11-10-CAR-BHA": {
+    "attendance": 29402,
+    "venue": "Cardiff City Stadium"
+  },
+  "2018-11-10-CRY-TOT": {
+    "attendance": 25685,
+    "venue": "Selhurst Park"
+  },
+  "2018-11-10-HUD-WHU": {
+    "attendance": 24069,
+    "venue": "Accu Stadium"
+  },
+  "2018-11-10-LEI-BUR": {
+    "attendance": 32184,
+    "venue": "King Power Stadium"
+  },
+  "2018-11-10-NEW-BOU": {
+    "attendance": 49266,
+    "venue": "St. James' Park"
+  },
+  "2018-11-10-SOU-WAT": {
+    "attendance": 28153,
+    "venue": "St. Mary's Stadium"
+  },
+  "2018-11-11-ARS-WOL": {
+    "attendance": 60030,
+    "venue": "Emirates Stadium"
+  },
+  "2018-11-11-CHE-EVE": {
+    "attendance": 40345,
+    "venue": "Stamford Bridge"
+  },
+  "2018-11-11-LIV-FUL": {
+    "attendance": 53128,
+    "venue": "Anfield"
+  },
+  "2018-11-11-MCI-MUN": {
+    "attendance": 54316,
+    "venue": "Etihad Stadium"
+  },
+  "2018-11-24-BHA-LEI": {
+    "attendance": 30553,
+    "venue": "American Express Stadium"
+  },
+  "2018-11-24-EVE-CAR": {
+    "attendance": 39139,
+    "venue": "Goodison Park"
+  },
+  "2018-11-24-FUL-SOU": {
+    "attendance": 24603,
+    "venue": "Craven Cottage"
+  },
+  "2018-11-24-MUN-CRY": {
+    "attendance": 74516,
+    "venue": "Old Trafford"
+  },
+  "2018-11-24-TOT-CHE": {
+    "attendance": 55465,
+    "venue": "Wembley Stadium"
+  },
+  "2018-11-24-WAT-LIV": {
+    "attendance": 20540,
+    "venue": "Vicarage Road"
+  },
+  "2018-11-24-WHU-MCI": {
+    "attendance": 56886,
+    "venue": "London Stadium"
+  },
+  "2018-11-25-BOU-ARS": {
+    "attendance": 10792,
+    "venue": "Vitality Stadium"
+  },
+  "2018-11-25-WOL-HUD": {
+    "attendance": 30130,
+    "venue": "Molineux Stadium"
+  },
+  "2018-11-26-BUR-NEW": {
+    "attendance": 20628,
+    "venue": "Turf Moor"
+  },
+  "2018-11-30-CAR-WOL": {
+    "attendance": 30213,
+    "venue": "Cardiff City Stadium"
+  },
+  "2018-12-01-CRY-BUR": {
+    "attendance": 25098,
+    "venue": "Selhurst Park"
+  },
+  "2018-12-01-HUD-BHA": {
+    "attendance": 22973,
+    "venue": "Accu Stadium"
+  },
+  "2018-12-01-LEI-WAT": {
+    "attendance": 31353,
+    "venue": "King Power Stadium"
+  },
+  "2018-12-01-MCI-BOU": {
+    "attendance": 54409,
+    "venue": "Etihad Stadium"
+  },
+  "2018-12-01-NEW-WHU": {
+    "attendance": 51853,
+    "venue": "St. James' Park"
+  },
+  "2018-12-01-SOU-MUN": {
+    "attendance": 30187,
+    "venue": "St. Mary's Stadium"
+  },
+  "2018-12-02-ARS-TOT": {
+    "attendance": 59973,
+    "venue": "Emirates Stadium"
+  },
+  "2018-12-02-CHE-FUL": {
+    "attendance": 40551,
+    "venue": "Stamford Bridge"
+  },
+  "2018-12-02-LIV-EVE": {
+    "attendance": 51756,
+    "venue": "Anfield"
+  },
+  "2018-12-04-BHA-CRY": {
+    "attendance": 29663,
+    "venue": "American Express Stadium"
+  },
+  "2018-12-04-BOU-HUD": {
+    "attendance": 9980,
+    "venue": "Vitality Stadium"
+  },
+  "2018-12-04-WAT-MCI": {
+    "attendance": 20389,
+    "venue": "Vicarage Road"
+  },
+  "2018-12-04-WHU-CAR": {
+    "attendance": 56811,
+    "venue": "London Stadium"
+  },
+  "2018-12-05-BUR-LIV": {
+    "attendance": 21741,
+    "venue": "Turf Moor"
+  },
+  "2018-12-05-EVE-NEW": {
+    "attendance": 39350,
+    "venue": "Goodison Park"
+  },
+  "2018-12-05-FUL-LEI": {
+    "attendance": 22881,
+    "venue": "Craven Cottage"
+  },
+  "2018-12-05-MUN-ARS": {
+    "attendance": 74507,
+    "venue": "Old Trafford"
+  },
+  "2018-12-05-TOT-SOU": {
+    "attendance": 33012,
+    "venue": "Wembley Stadium"
+  },
+  "2018-12-05-WOL-CHE": {
+    "attendance": 31300,
+    "venue": "Molineux Stadium"
+  },
+  "2018-12-08-ARS-HUD": {
+    "attendance": 59893,
+    "venue": "Emirates Stadium"
+  },
+  "2018-12-08-BOU-LIV": {
+    "attendance": 10752,
+    "venue": "Vitality Stadium"
+  },
+  "2018-12-08-BUR-BHA": {
+    "attendance": 18497,
+    "venue": "Turf Moor"
+  },
+  "2018-12-08-CAR-SOU": {
+    "attendance": 30067,
+    "venue": "Cardiff City Stadium"
+  },
+  "2018-12-08-CHE-MCI": {
+    "attendance": 40571,
+    "venue": "Stamford Bridge"
+  },
+  "2018-12-08-LEI-TOT": {
+    "attendance": 31957,
+    "venue": "King Power Stadium"
+  },
+  "2018-12-08-MUN-FUL": {
+    "attendance": 74523,
+    "venue": "Old Trafford"
+  },
+  "2018-12-08-WHU-CRY": {
+    "attendance": 56995,
+    "venue": "London Stadium"
+  },
+  "2018-12-09-NEW-WOL": {
+    "attendance": 50223,
+    "venue": "St. James' Park"
+  },
+  "2018-12-10-EVE-WAT": {
+    "attendance": 38400,
+    "venue": "Goodison Park"
+  },
+  "2018-12-15-CRY-LEI": {
+    "attendance": 24738,
+    "venue": "Selhurst Park"
+  },
+  "2018-12-15-FUL-WHU": {
+    "attendance": 24081,
+    "venue": "Craven Cottage"
+  },
+  "2018-12-15-HUD-NEW": {
+    "attendance": 24036,
+    "venue": "Accu Stadium"
+  },
+  "2018-12-15-MCI-EVE": {
+    "attendance": 54173,
+    "venue": "Etihad Stadium"
+  },
+  "2018-12-15-TOT-BUR": {
+    "attendance": 41645,
+    "venue": "Wembley Stadium"
+  },
+  "2018-12-15-WAT-CAR": {
+    "attendance": 20032,
+    "venue": "Vicarage Road"
+  },
+  "2018-12-15-WOL-BOU": {
+    "attendance": 30997,
+    "venue": "Molineux Stadium"
+  },
+  "2018-12-16-BHA-CHE": {
+    "attendance": 30645,
+    "venue": "American Express Stadium"
+  },
+  "2018-12-16-LIV-MUN": {
+    "attendance": 52908,
+    "venue": "Anfield"
+  },
+  "2018-12-16-SOU-ARS": {
+    "attendance": 29497,
+    "venue": "St. Mary's Stadium"
+  },
+  "2018-12-21-WOL-LIV": {
+    "attendance": 31358,
+    "venue": "Molineux Stadium"
+  },
+  "2018-12-22-ARS-BUR": {
+    "attendance": 59493,
+    "venue": "Emirates Stadium"
+  },
+  "2018-12-22-BOU-BHA": {
+    "attendance": 10491,
+    "venue": "Vitality Stadium"
+  },
+  "2018-12-22-CAR-MUN": {
+    "attendance": 33028,
+    "venue": "Cardiff City Stadium"
+  },
+  "2018-12-22-CHE-LEI": {
+    "attendance": 40558,
+    "venue": "Stamford Bridge"
+  },
+  "2018-12-22-HUD-SOU": {
+    "attendance": 22384,
+    "venue": "Accu Stadium"
+  },
+  "2018-12-22-MCI-CRY": {
+    "attendance": 54340,
+    "venue": "Etihad Stadium"
+  },
+  "2018-12-22-NEW-FUL": {
+    "attendance": 51237,
+    "venue": "St. James' Park"
+  },
+  "2018-12-22-WHU-WAT": {
+    "attendance": 56833,
+    "venue": "London Stadium"
+  },
+  "2018-12-23-EVE-TOT": {
+    "attendance": 39319,
+    "venue": "Goodison Park"
+  },
+  "2018-12-26-BHA-ARS": {
+    "attendance": 30608,
+    "venue": "American Express Stadium"
+  },
+  "2018-12-26-BUR-EVE": {
+    "attendance": 21484,
+    "venue": "Turf Moor"
+  },
+  "2018-12-26-CRY-CAR": {
+    "attendance": 25206,
+    "venue": "Selhurst Park"
+  },
+  "2018-12-26-FUL-WOL": {
+    "attendance": 24382,
+    "venue": "Craven Cottage"
+  },
+  "2018-12-26-LEI-MCI": {
+    "attendance": 32090,
+    "venue": "King Power Stadium"
+  },
+  "2018-12-26-LIV-NEW": {
+    "attendance": 53318,
+    "venue": "Anfield"
+  },
+  "2018-12-26-MUN-HUD": {
+    "attendance": 74523,
+    "venue": "Old Trafford"
+  },
+  "2018-12-26-TOT-BOU": {
+    "attendance": 45154,
+    "venue": "Wembley Stadium"
+  },
+  "2018-12-26-WAT-CHE": {
+    "attendance": 20415,
+    "venue": "Vicarage Road"
+  },
+  "2018-12-27-SOU-WHU": {
+    "attendance": 31654,
+    "venue": "St. Mary's Stadium"
+  },
+  "2018-12-29-BHA-EVE": {
+    "attendance": 30597,
+    "venue": "American Express Stadium"
+  },
+  "2018-12-29-FUL-HUD": {
+    "attendance": 24423,
+    "venue": "Craven Cottage"
+  },
+  "2018-12-29-LEI-CAR": {
+    "attendance": 32047,
+    "venue": "King Power Stadium"
+  },
+  "2018-12-29-LIV-ARS": {
+    "attendance": 53326,
+    "venue": "Anfield"
+  },
+  "2018-12-29-TOT-WOL": {
+    "attendance": 46356,
+    "venue": "Wembley Stadium"
+  },
+  "2018-12-29-WAT-NEW": {
+    "attendance": 20336,
+    "venue": "Vicarage Road"
+  },
+  "2018-12-30-BUR-WHU": {
+    "attendance": 20933,
+    "venue": "Turf Moor"
+  },
+  "2018-12-30-CRY-CHE": {
+    "attendance": 25781,
+    "venue": "Selhurst Park"
+  },
+  "2018-12-30-MUN-BOU": {
+    "attendance": 74556,
+    "venue": "Old Trafford"
+  },
+  "2018-12-30-SOU-MCI": {
+    "attendance": 31381,
+    "venue": "St. Mary's Stadium"
+  },
+  "2019-01-01-ARS-FUL": {
+    "attendance": 59887,
+    "venue": "Emirates Stadium"
+  },
+  "2019-01-01-CAR-TOT": {
+    "attendance": 32485,
+    "venue": "Cardiff City Stadium"
+  },
+  "2019-01-01-EVE-LEI": {
+    "attendance": 39052,
+    "venue": "Goodison Park"
+  },
+  "2019-01-02-BOU-WAT": {
+    "attendance": 10261,
+    "venue": "Vitality Stadium"
+  },
+  "2019-01-02-CHE-SOU": {
+    "attendance": 40668,
+    "venue": "Stamford Bridge"
+  },
+  "2019-01-02-HUD-BUR": {
+    "attendance": 23715,
+    "venue": "Accu Stadium"
+  },
+  "2019-01-02-NEW-MUN": {
+    "attendance": 52217,
+    "venue": "St. James' Park"
+  },
+  "2019-01-02-WHU-BHA": {
+    "attendance": 59870,
+    "venue": "London Stadium"
+  },
+  "2019-01-02-WOL-CRY": {
+    "attendance": 30666,
+    "venue": "Molineux Stadium"
+  },
+  "2019-01-03-MCI-LIV": {
+    "attendance": 54511,
+    "venue": "Etihad Stadium"
+  },
+  "2019-01-12-BHA-LIV": {
+    "attendance": 30682,
+    "venue": "American Express Stadium"
+  },
+  "2019-01-12-BUR-FUL": {
+    "attendance": 19316,
+    "venue": "Turf Moor"
+  },
+  "2019-01-12-CAR-HUD": {
+    "attendance": 30725,
+    "venue": "Cardiff City Stadium"
+  },
+  "2019-01-12-CHE-NEW": {
+    "attendance": 40491,
+    "venue": "Stamford Bridge"
+  },
+  "2019-01-12-CRY-WAT": {
+    "attendance": 25010,
+    "venue": "Selhurst Park"
+  },
+  "2019-01-12-LEI-SOU": {
+    "attendance": 31491,
+    "venue": "King Power Stadium"
+  },
+  "2019-01-12-WHU-ARS": {
+    "attendance": 59946,
+    "venue": "London Stadium"
+  },
+  "2019-01-13-EVE-BOU": {
+    "attendance": 38113,
+    "venue": "Goodison Park"
+  },
+  "2019-01-13-TOT-MUN": {
+    "attendance": 80062,
+    "venue": "Wembley Stadium"
+  },
+  "2019-01-14-MCI-WOL": {
+    "attendance": 54171,
+    "venue": "Etihad Stadium"
+  },
+  "2019-01-19-ARS-CHE": {
+    "attendance": 59979,
+    "venue": "Emirates Stadium"
+  },
+  "2019-01-19-BOU-WHU": {
+    "attendance": 10495,
+    "venue": "Vitality Stadium"
+  },
+  "2019-01-19-LIV-CRY": {
+    "attendance": 53171,
+    "venue": "Anfield"
+  },
+  "2019-01-19-MUN-BHA": {
+    "attendance": 74532,
+    "venue": "Old Trafford"
+  },
+  "2019-01-19-NEW-CAR": {
+    "attendance": 49864,
+    "venue": "St. James' Park"
+  },
+  "2019-01-19-SOU-EVE": {
+    "attendance": 29989,
+    "venue": "St. Mary's Stadium"
+  },
+  "2019-01-19-WAT-BUR": {
+    "attendance": 19510,
+    "venue": "Vicarage Road"
+  },
+  "2019-01-19-WOL-LEI": {
+    "attendance": 31278,
+    "venue": "Molineux Stadium"
+  },
+  "2019-01-20-FUL-TOT": {
+    "attendance": 24807,
+    "venue": "Craven Cottage"
+  },
+  "2019-01-20-HUD-MCI": {
+    "attendance": 24190,
+    "venue": "Accu Stadium"
+  },
+  "2019-01-29-ARS-CAR": {
+    "attendance": 59933,
+    "venue": "Emirates Stadium"
+  },
+  "2019-01-29-FUL-BHA": {
+    "attendance": 22008,
+    "venue": "Craven Cottage"
+  },
+  "2019-01-29-HUD-EVE": {
+    "attendance": 23699,
+    "venue": "Accu Stadium"
+  },
+  "2019-01-29-MUN-BUR": {
+    "attendance": 74529,
+    "venue": "Old Trafford"
+  },
+  "2019-01-29-NEW-MCI": {
+    "attendance": 50861,
+    "venue": "St. James' Park"
+  },
+  "2019-01-29-WOL-WHU": {
+    "attendance": 31122,
+    "venue": "Molineux Stadium"
+  },
+  "2019-01-30-BOU-CHE": {
+    "attendance": 10227,
+    "venue": "Vitality Stadium"
+  },
+  "2019-01-30-LIV-LEI": {
+    "attendance": 53092,
+    "venue": "Anfield"
+  },
+  "2019-01-30-SOU-CRY": {
+    "attendance": 28339,
+    "venue": "St. Mary's Stadium"
+  },
+  "2019-01-30-TOT-WAT": {
+    "attendance": 29164,
+    "venue": "Wembley Stadium"
+  },
+  "2019-02-02-BHA-WAT": {
+    "attendance": 30414,
+    "venue": "American Express Stadium"
+  },
+  "2019-02-02-BUR-SOU": {
+    "attendance": 19787,
+    "venue": "Turf Moor"
+  },
+  "2019-02-02-CAR-BOU": {
+    "attendance": 31939,
+    "venue": "Cardiff City Stadium"
+  },
+  "2019-02-02-CHE-HUD": {
+    "attendance": 40626,
+    "venue": "Stamford Bridge"
+  },
+  "2019-02-02-CRY-FUL": {
+    "attendance": 25355,
+    "venue": "Selhurst Park"
+  },
+  "2019-02-02-EVE-WOL": {
+    "attendance": 39380,
+    "venue": "Goodison Park"
+  },
+  "2019-02-02-TOT-NEW": {
+    "attendance": 41219,
+    "venue": "Wembley Stadium"
+  },
+  "2019-02-03-LEI-MUN": {
+    "attendance": 32148,
+    "venue": "King Power Stadium"
+  },
+  "2019-02-03-MCI-ARS": {
+    "attendance": 54483,
+    "venue": "Etihad Stadium"
+  },
+  "2019-02-04-WHU-LIV": {
+    "attendance": 59903,
+    "venue": "London Stadium"
+  },
+  "2019-02-06-EVE-MCI": {
+    "attendance": 39322,
+    "venue": "Goodison Park"
+  },
+  "2019-02-09-BHA-BUR": {
+    "attendance": 29323,
+    "venue": "American Express Stadium"
+  },
+  "2019-02-09-CRY-WHU": {
+    "attendance": 25552,
+    "venue": "Selhurst Park"
+  },
+  "2019-02-09-FUL-MUN": {
+    "attendance": 25001,
+    "venue": "Craven Cottage"
+  },
+  "2019-02-09-HUD-ARS": {
+    "attendance": 24182,
+    "venue": "Accu Stadium"
+  },
+  "2019-02-09-LIV-BOU": {
+    "attendance": 53178,
+    "venue": "Anfield"
+  },
+  "2019-02-09-SOU-CAR": {
+    "attendance": 31438,
+    "venue": "St. Mary's Stadium"
+  },
+  "2019-02-09-WAT-EVE": {
+    "attendance": 20333,
+    "venue": "Vicarage Road"
+  },
+  "2019-02-10-MCI-CHE": {
+    "attendance": 54452,
+    "venue": "Etihad Stadium"
+  },
+  "2019-02-10-TOT-LEI": {
+    "attendance": 44154,
+    "venue": "Wembley Stadium"
+  },
+  "2019-02-11-WOL-NEW": {
+    "attendance": 30687,
+    "venue": "Molineux Stadium"
+  },
+  "2019-02-22-CAR-WAT": {
+    "attendance": 30387,
+    "venue": "Cardiff City Stadium"
+  },
+  "2019-02-22-WHU-FUL": {
+    "attendance": 59950,
+    "venue": "London Stadium"
+  },
+  "2019-02-23-BOU-WOL": {
+    "attendance": 10671,
+    "venue": "Vitality Stadium"
+  },
+  "2019-02-23-BUR-TOT": {
+    "attendance": 21338,
+    "venue": "Turf Moor"
+  },
+  "2019-02-23-LEI-CRY": {
+    "attendance": 31778,
+    "venue": "King Power Stadium"
+  },
+  "2019-02-23-NEW-HUD": {
+    "attendance": 52174,
+    "venue": "St. James' Park"
+  },
+  "2019-02-24-ARS-SOU": {
+    "attendance": 59877,
+    "venue": "Emirates Stadium"
+  },
+  "2019-02-24-MUN-LIV": {
+    "attendance": 74519,
+    "venue": "Old Trafford"
+  },
+  "2019-02-26-CAR-EVE": {
+    "attendance": 31849,
+    "venue": "Cardiff City Stadium"
+  },
+  "2019-02-26-HUD-WOL": {
+    "attendance": 22714,
+    "venue": "Accu Stadium"
+  },
+  "2019-02-26-LEI-BHA": {
+    "attendance": 30558,
+    "venue": "King Power Stadium"
+  },
+  "2019-02-26-NEW-BUR": {
+    "attendance": 48323,
+    "venue": "St. James' Park"
+  },
+  "2019-02-27-ARS-BOU": {
+    "attendance": 59618,
+    "venue": "Emirates Stadium"
+  },
+  "2019-02-27-CHE-TOT": {
+    "attendance": 40542,
+    "venue": "Stamford Bridge"
+  },
+  "2019-02-27-CRY-MUN": {
+    "attendance": 25754,
+    "venue": "Selhurst Park"
+  },
+  "2019-02-27-LIV-WAT": {
+    "attendance": 53316,
+    "venue": "Anfield"
+  },
+  "2019-02-27-MCI-WHU": {
+    "attendance": 53528,
+    "venue": "Etihad Stadium"
+  },
+  "2019-02-27-SOU-FUL": {
+    "attendance": 27597,
+    "venue": "St. Mary's Stadium"
+  },
+  "2019-03-02-BHA-HUD": {
+    "attendance": 30182,
+    "venue": "American Express Stadium"
+  },
+  "2019-03-02-BOU-MCI": {
+    "attendance": 10699,
+    "venue": "Vitality Stadium"
+  },
+  "2019-03-02-BUR-CRY": {
+    "attendance": 19223,
+    "venue": "Turf Moor"
+  },
+  "2019-03-02-MUN-SOU": {
+    "attendance": 74459,
+    "venue": "Old Trafford"
+  },
+  "2019-03-02-TOT-ARS": {
+    "attendance": 81332,
+    "venue": "Wembley Stadium"
+  },
+  "2019-03-02-WHU-NEW": {
+    "attendance": 59910,
+    "venue": "London Stadium"
+  },
+  "2019-03-02-WOL-CAR": {
+    "attendance": 31309,
+    "venue": "Molineux Stadium"
+  },
+  "2019-03-03-EVE-LIV": {
+    "attendance": 39335,
+    "venue": "Goodison Park"
+  },
+  "2019-03-03-FUL-CHE": {
+    "attendance": 24900,
+    "venue": "Craven Cottage"
+  },
+  "2019-03-03-WAT-LEI": {
+    "attendance": 20062,
+    "venue": "Vicarage Road"
+  },
+  "2019-03-09-CAR-WHU": {
+    "attendance": 32458,
+    "venue": "Cardiff City Stadium"
+  },
+  "2019-03-09-CRY-BHA": {
+    "attendance": 24972,
+    "venue": "Selhurst Park"
+  },
+  "2019-03-09-HUD-BOU": {
+    "attendance": 22304,
+    "venue": "Accu Stadium"
+  },
+  "2019-03-09-LEI-FUL": {
+    "attendance": 32017,
+    "venue": "King Power Stadium"
+  },
+  "2019-03-09-MCI-WAT": {
+    "attendance": 54104,
+    "venue": "Etihad Stadium"
+  },
+  "2019-03-09-NEW-EVE": {
+    "attendance": 52242,
+    "venue": "St. James' Park"
+  },
+  "2019-03-09-SOU-TOT": {
+    "attendance": 31890,
+    "venue": "St. Mary's Stadium"
+  },
+  "2019-03-10-ARS-MUN": {
+    "attendance": 60000,
+    "venue": "Emirates Stadium"
+  },
+  "2019-03-10-CHE-WOL": {
+    "attendance": 40692,
+    "venue": "Stamford Bridge"
+  },
+  "2019-03-10-LIV-BUR": {
+    "attendance": 53310,
+    "venue": "Anfield"
+  },
+  "2019-03-16-BOU-NEW": {
+    "attendance": 10625,
+    "venue": "Vitality Stadium"
+  },
+  "2019-03-16-BUR-LEI": {
+    "attendance": 20719,
+    "venue": "Turf Moor"
+  },
+  "2019-03-16-WHU-HUD": {
+    "attendance": 59931,
+    "venue": "London Stadium"
+  },
+  "2019-03-17-EVE-CHE": {
+    "attendance": 39356,
+    "venue": "Goodison Park"
+  },
+  "2019-03-17-FUL-LIV": {
+    "attendance": 25043,
+    "venue": "Craven Cottage"
+  },
+  "2019-03-30-BHA-SOU": {
+    "attendance": 30636,
+    "venue": "American Express Stadium"
+  },
+  "2019-03-30-BUR-WOL": {
+    "attendance": 20990,
+    "venue": "Turf Moor"
+  },
+  "2019-03-30-CRY-HUD": {
+    "attendance": 25193,
+    "venue": "Selhurst Park"
+  },
+  "2019-03-30-FUL-MCI": {
+    "attendance": 25001,
+    "venue": "Craven Cottage"
+  },
+  "2019-03-30-LEI-BOU": {
+    "attendance": 31530,
+    "venue": "King Power Stadium"
+  },
+  "2019-03-30-MUN-WAT": {
+    "attendance": 74543,
+    "venue": "Old Trafford"
+  },
+  "2019-03-30-WHU-EVE": {
+    "attendance": 59988,
+    "venue": "London Stadium"
+  },
+  "2019-03-31-CAR-CHE": {
+    "attendance": 32657,
+    "venue": "Cardiff City Stadium"
+  },
+  "2019-03-31-LIV-TOT": {
+    "attendance": 53322,
+    "venue": "Anfield"
+  },
+  "2019-04-01-ARS-NEW": {
+    "attendance": 59869,
+    "venue": "Emirates Stadium"
+  },
+  "2019-04-02-WAT-FUL": {
+    "attendance": 17301,
+    "venue": "Vicarage Road"
+  },
+  "2019-04-02-WOL-MUN": {
+    "attendance": 31302,
+    "venue": "Molineux Stadium"
+  },
+  "2019-04-03-CHE-BHA": {
+    "attendance": 38593,
+    "venue": "Stamford Bridge"
+  },
+  "2019-04-03-MCI-CAR": {
+    "attendance": 53559,
+    "venue": "Etihad Stadium"
+  },
+  "2019-04-03-TOT-CRY": {
+    "attendance": 59215,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2019-04-05-SOU-LIV": {
+    "attendance": 31797,
+    "venue": "St. Mary's Stadium"
+  },
+  "2019-04-06-BOU-BUR": {
+    "attendance": 10446,
+    "venue": "Vitality Stadium"
+  },
+  "2019-04-06-HUD-LEI": {
+    "attendance": 24126,
+    "venue": "Accu Stadium"
+  },
+  "2019-04-06-NEW-CRY": {
+    "attendance": 51926,
+    "venue": "St. James' Park"
+  },
+  "2019-04-07-EVE-ARS": {
+    "attendance": 39400,
+    "venue": "Goodison Park"
+  },
+  "2019-04-08-CHE-WHU": {
+    "attendance": 40537,
+    "venue": "Stamford Bridge"
+  },
+  "2019-04-12-LEI-NEW": {
+    "attendance": 32108,
+    "venue": "King Power Stadium"
+  },
+  "2019-04-13-BHA-BOU": {
+    "attendance": 30460,
+    "venue": "American Express Stadium"
+  },
+  "2019-04-13-BUR-CAR": {
+    "attendance": 21480,
+    "venue": "Turf Moor"
+  },
+  "2019-04-13-FUL-EVE": {
+    "attendance": 24971,
+    "venue": "Craven Cottage"
+  },
+  "2019-04-13-MUN-WHU": {
+    "attendance": 74478,
+    "venue": "Old Trafford"
+  },
+  "2019-04-13-SOU-WOL": {
+    "attendance": 31708,
+    "venue": "St. Mary's Stadium"
+  },
+  "2019-04-13-TOT-HUD": {
+    "attendance": 58308,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2019-04-14-CRY-MCI": {
+    "attendance": 25721,
+    "venue": "Selhurst Park"
+  },
+  "2019-04-14-LIV-CHE": {
+    "attendance": 53279,
+    "venue": "Anfield"
+  },
+  "2019-04-15-WAT-ARS": {
+    "attendance": 20480,
+    "venue": "Vicarage Road"
+  },
+  "2019-04-16-BHA-CAR": {
+    "attendance": 30226,
+    "venue": "American Express Stadium"
+  },
+  "2019-04-20-BOU-FUL": {
+    "attendance": 10511,
+    "venue": "Vitality Stadium"
+  },
+  "2019-04-20-HUD-WAT": {
+    "attendance": 23957,
+    "venue": "Accu Stadium"
+  },
+  "2019-04-20-MCI-TOT": {
+    "attendance": 54489,
+    "venue": "Etihad Stadium"
+  },
+  "2019-04-20-NEW-SOU": {
+    "attendance": 52191,
+    "venue": "St. James' Park"
+  },
+  "2019-04-20-WHU-LEI": {
+    "attendance": 59960,
+    "venue": "London Stadium"
+  },
+  "2019-04-20-WOL-BHA": {
+    "attendance": 31096,
+    "venue": "Molineux Stadium"
+  },
+  "2019-04-21-ARS-CRY": {
+    "attendance": 59929,
+    "venue": "Emirates Stadium"
+  },
+  "2019-04-21-CAR-LIV": {
+    "attendance": 33082,
+    "venue": "Cardiff City Stadium"
+  },
+  "2019-04-21-EVE-MUN": {
+    "attendance": 39395,
+    "venue": "Goodison Park"
+  },
+  "2019-04-22-CHE-BUR": {
+    "attendance": 40642,
+    "venue": "Stamford Bridge"
+  },
+  "2019-04-23-TOT-BHA": {
+    "attendance": 56251,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2019-04-23-WAT-SOU": {
+    "attendance": 19170,
+    "venue": "Vicarage Road"
+  },
+  "2019-04-24-MUN-MCI": {
+    "attendance": 74431,
+    "venue": "Old Trafford"
+  },
+  "2019-04-24-WOL-ARS": {
+    "attendance": 31436,
+    "venue": "Molineux Stadium"
+  },
+  "2019-04-26-LIV-HUD": {
+    "attendance": 53249,
+    "venue": "Anfield"
+  },
+  "2019-04-27-BHA-NEW": {
+    "attendance": 30587,
+    "venue": "American Express Stadium"
+  },
+  "2019-04-27-CRY-EVE": {
+    "attendance": 25789,
+    "venue": "Selhurst Park"
+  },
+  "2019-04-27-FUL-CAR": {
+    "attendance": 23822,
+    "venue": "Craven Cottage"
+  },
+  "2019-04-27-SOU-BOU": {
+    "attendance": 31310,
+    "venue": "St. Mary's Stadium"
+  },
+  "2019-04-27-TOT-WHU": {
+    "attendance": 60043,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2019-04-27-WAT-WOL": {
+    "attendance": 20323,
+    "venue": "Vicarage Road"
+  },
+  "2019-04-28-BUR-MCI": {
+    "attendance": 21605,
+    "venue": "Turf Moor"
+  },
+  "2019-04-28-LEI-ARS": {
+    "attendance": 32037,
+    "venue": "King Power Stadium"
+  },
+  "2019-04-28-MUN-CHE": {
+    "attendance": 74526,
+    "venue": "Old Trafford"
+  },
+  "2019-05-03-EVE-BUR": {
+    "attendance": 39303,
+    "venue": "Goodison Park"
+  },
+  "2019-05-04-BOU-TOT": {
+    "attendance": 10630,
+    "venue": "Vitality Stadium"
+  },
+  "2019-05-04-CAR-CRY": {
+    "attendance": 32133,
+    "venue": "Cardiff City Stadium"
+  },
+  "2019-05-04-NEW-LIV": {
+    "attendance": 52206,
+    "venue": "St. James' Park"
+  },
+  "2019-05-04-WHU-SOU": {
+    "attendance": 59961,
+    "venue": "London Stadium"
+  },
+  "2019-05-04-WOL-FUL": {
+    "attendance": 30456,
+    "venue": "Molineux Stadium"
+  },
+  "2019-05-05-ARS-BHA": {
+    "attendance": 59965,
+    "venue": "Emirates Stadium"
+  },
+  "2019-05-05-CHE-WAT": {
+    "attendance": 40650,
+    "venue": "Stamford Bridge"
+  },
+  "2019-05-05-HUD-MUN": {
+    "attendance": 24263,
+    "venue": "Accu Stadium"
+  },
+  "2019-05-06-MCI-LEI": {
+    "attendance": 54506,
+    "venue": "Etihad Stadium"
+  },
+  "2019-05-12-BHA-MCI": {
+    "attendance": 30662,
+    "venue": "American Express Stadium"
+  },
+  "2019-05-12-BUR-ARS": {
+    "attendance": 21461,
+    "venue": "Turf Moor"
+  },
+  "2019-05-12-CRY-BOU": {
+    "attendance": 25433,
+    "venue": "Selhurst Park"
+  },
+  "2019-05-12-FUL-NEW": {
+    "attendance": 24979,
+    "venue": "Craven Cottage"
+  },
+  "2019-05-12-LEI-CHE": {
+    "attendance": 32140,
+    "venue": "King Power Stadium"
+  },
+  "2019-05-12-LIV-WOL": {
+    "attendance": 53331,
+    "venue": "Anfield"
+  },
+  "2019-05-12-MUN-CAR": {
+    "attendance": 74457,
+    "venue": "Old Trafford"
+  },
+  "2019-05-12-SOU-HUD": {
+    "attendance": 30367,
+    "venue": "St. Mary's Stadium"
+  },
+  "2019-05-12-TOT-EVE": {
+    "attendance": 60124,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2019-05-12-WAT-WHU": {
+    "attendance": 20067,
+    "venue": "Vicarage Road"
+  }
+}

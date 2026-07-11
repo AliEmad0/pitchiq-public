@@ -1,0 +1,1522 @@
+{
+  "2005-08-13-AVL-BOL": {
+    "attendance": 33263,
+    "venue": "Villa Park"
+  },
+  "2005-08-13-EVE-MUN": {
+    "attendance": 38607,
+    "venue": "Goodison Park"
+  },
+  "2005-08-13-FUL-BIR": {
+    "attendance": 16550,
+    "venue": "Craven Cottage"
+  },
+  "2005-08-13-MCI-WBA": {
+    "attendance": 42983,
+    "venue": "Etihad Stadium"
+  },
+  "2005-08-13-MID-LIV": {
+    "attendance": 31908,
+    "venue": "Riverside Stadium"
+  },
+  "2005-08-13-POR-TOT": {
+    "attendance": 20207,
+    "venue": "Fratton Park"
+  },
+  "2005-08-13-SUN-CHA": {
+    "attendance": 34446,
+    "venue": "Stadium of Light"
+  },
+  "2005-08-13-WHU-BLB": {
+    "attendance": 33133,
+    "venue": "Boleyn Ground"
+  },
+  "2005-08-14-ARS-NEW": {
+    "attendance": 38072,
+    "venue": "Highbury"
+  },
+  "2005-08-14-WIG-CHE": {
+    "attendance": 23909,
+    "venue": "DW Stadium"
+  },
+  "2005-08-20-BIR-MCI": {
+    "attendance": 26366,
+    "venue": "St Andrews"
+  },
+  "2005-08-20-BLB-FUL": {
+    "attendance": 16953,
+    "venue": "Ewood Park"
+  },
+  "2005-08-20-CHA-WIG": {
+    "attendance": 23422,
+    "venue": "The Valley"
+  },
+  "2005-08-20-LIV-SUN": {
+    "attendance": 45251,
+    "venue": "Anfield"
+  },
+  "2005-08-20-MUN-AVL": {
+    "attendance": 67934,
+    "venue": "Old Trafford"
+  },
+  "2005-08-20-NEW-WHU": {
+    "attendance": 51644,
+    "venue": "Sports Direct Arena"
+  },
+  "2005-08-20-TOT-MID": {
+    "attendance": 35951,
+    "venue": "White Hart Lane"
+  },
+  "2005-08-20-WBA-POR": {
+    "attendance": 24298,
+    "venue": "The Hawthorns"
+  },
+  "2005-08-21-BOL-EVE": {
+    "attendance": 25608,
+    "venue": "Macron Stadium"
+  },
+  "2005-08-21-CHE-ARS": {
+    "attendance": 42135,
+    "venue": "Stamford Bridge"
+  },
+  "2005-08-23-BIR-MID": {
+    "attendance": 27988,
+    "venue": "St Andrews"
+  },
+  "2005-08-23-POR-AVL": {
+    "attendance": 19787,
+    "venue": "Fratton Park"
+  },
+  "2005-08-23-SUN-MCI": {
+    "attendance": 33357,
+    "venue": "Stadium of Light"
+  },
+  "2005-08-24-ARS-FUL": {
+    "attendance": 37867,
+    "venue": "Highbury"
+  },
+  "2005-08-24-BLB-TOT": {
+    "attendance": 22375,
+    "venue": "Ewood Park"
+  },
+  "2005-08-24-BOL-NEW": {
+    "attendance": 25904,
+    "venue": "Macron Stadium"
+  },
+  "2005-08-24-CHE-WBA": {
+    "attendance": 41218,
+    "venue": "Stamford Bridge"
+  },
+  "2005-08-27-AVL-BLB": {
+    "attendance": 31010,
+    "venue": "Villa Park"
+  },
+  "2005-08-27-FUL-EVE": {
+    "attendance": 17169,
+    "venue": "Craven Cottage"
+  },
+  "2005-08-27-MCI-POR": {
+    "attendance": 41022,
+    "venue": "Etihad Stadium"
+  },
+  "2005-08-27-TOT-CHE": {
+    "attendance": 36077,
+    "venue": "White Hart Lane"
+  },
+  "2005-08-27-WBA-BIR": {
+    "attendance": 23877,
+    "venue": "The Hawthorns"
+  },
+  "2005-08-27-WHU-BOL": {
+    "attendance": 30288,
+    "venue": "Boleyn Ground"
+  },
+  "2005-08-27-WIG-SUN": {
+    "attendance": 17522,
+    "venue": "DW Stadium"
+  },
+  "2005-08-28-MID-CHA": {
+    "attendance": 26206,
+    "venue": "Riverside Stadium"
+  },
+  "2005-08-28-NEW-MUN": {
+    "attendance": 52327,
+    "venue": "Sports Direct Arena"
+  },
+  "2005-09-10-BIR-CHA": {
+    "attendance": 26846,
+    "venue": "St Andrews"
+  },
+  "2005-09-10-CHE-SUN": {
+    "attendance": 41916,
+    "venue": "Stamford Bridge"
+  },
+  "2005-09-10-EVE-POR": {
+    "attendance": 36831,
+    "venue": "Goodison Park"
+  },
+  "2005-09-10-MID-ARS": {
+    "attendance": 28075,
+    "venue": "Riverside Stadium"
+  },
+  "2005-09-10-MUN-MCI": {
+    "attendance": 67839,
+    "venue": "Old Trafford"
+  },
+  "2005-09-10-NEW-FUL": {
+    "attendance": 52208,
+    "venue": "Sports Direct Arena"
+  },
+  "2005-09-10-TOT-LIV": {
+    "attendance": 36148,
+    "venue": "White Hart Lane"
+  },
+  "2005-09-10-WBA-WIG": {
+    "attendance": 25478,
+    "venue": "The Hawthorns"
+  },
+  "2005-09-11-BOL-BLB": {
+    "attendance": 24405,
+    "venue": "Macron Stadium"
+  },
+  "2005-09-12-WHU-AVL": {
+    "attendance": 28849,
+    "venue": "Boleyn Ground"
+  },
+  "2005-09-17-AVL-TOT": {
+    "attendance": 33686,
+    "venue": "Villa Park"
+  },
+  "2005-09-17-CHA-CHE": {
+    "attendance": 27111,
+    "venue": "The Valley"
+  },
+  "2005-09-17-FUL-WHU": {
+    "attendance": 22019,
+    "venue": "Craven Cottage"
+  },
+  "2005-09-17-POR-BIR": {
+    "attendance": 19271,
+    "venue": "Fratton Park"
+  },
+  "2005-09-17-SUN-WBA": {
+    "attendance": 31657,
+    "venue": "Stadium of Light"
+  },
+  "2005-09-18-BLB-NEW": {
+    "attendance": 20725,
+    "venue": "Ewood Park"
+  },
+  "2005-09-18-LIV-MUN": {
+    "attendance": 44961,
+    "venue": "Anfield"
+  },
+  "2005-09-18-MCI-BOL": {
+    "attendance": 43137,
+    "venue": "Etihad Stadium"
+  },
+  "2005-09-18-WIG-MID": {
+    "attendance": 17105,
+    "venue": "DW Stadium"
+  },
+  "2005-09-19-ARS-EVE": {
+    "attendance": 38121,
+    "venue": "Highbury"
+  },
+  "2005-09-24-BIR-LIV": {
+    "attendance": 27733,
+    "venue": "St Andrews"
+  },
+  "2005-09-24-BOL-POR": {
+    "attendance": 23134,
+    "venue": "Macron Stadium"
+  },
+  "2005-09-24-CHE-AVL": {
+    "attendance": 42023,
+    "venue": "Stamford Bridge"
+  },
+  "2005-09-24-EVE-WIG": {
+    "attendance": 37189,
+    "venue": "Goodison Park"
+  },
+  "2005-09-24-MUN-BLB": {
+    "attendance": 67765,
+    "venue": "Old Trafford"
+  },
+  "2005-09-24-NEW-MCI": {
+    "attendance": 52313,
+    "venue": "Sports Direct Arena"
+  },
+  "2005-09-24-WBA-CHA": {
+    "attendance": 23797,
+    "venue": "The Hawthorns"
+  },
+  "2005-09-24-WHU-ARS": {
+    "attendance": 34281,
+    "venue": "Boleyn Ground"
+  },
+  "2005-09-25-MID-SUN": {
+    "attendance": 29583,
+    "venue": "Riverside Stadium"
+  },
+  "2005-09-26-TOT-FUL": {
+    "attendance": 35427,
+    "venue": "White Hart Lane"
+  },
+  "2005-10-01-BLB-WBA": {
+    "attendance": 20721,
+    "venue": "Ewood Park"
+  },
+  "2005-10-01-CHA-TOT": {
+    "attendance": 27111,
+    "venue": "The Valley"
+  },
+  "2005-10-01-FUL-MUN": {
+    "attendance": 21862,
+    "venue": "Craven Cottage"
+  },
+  "2005-10-01-POR-NEW": {
+    "attendance": 20210,
+    "venue": "Fratton Park"
+  },
+  "2005-10-01-SUN-WHU": {
+    "attendance": 31212,
+    "venue": "Stadium of Light"
+  },
+  "2005-10-02-ARS-BIR": {
+    "attendance": 37898,
+    "venue": "Highbury"
+  },
+  "2005-10-02-AVL-MID": {
+    "attendance": 29719,
+    "venue": "Villa Park"
+  },
+  "2005-10-02-LIV-CHE": {
+    "attendance": 45022,
+    "venue": "Anfield"
+  },
+  "2005-10-02-MCI-EVE": {
+    "attendance": 42681,
+    "venue": "Etihad Stadium"
+  },
+  "2005-10-02-WIG-BOL": {
+    "attendance": 20958,
+    "venue": "DW Stadium"
+  },
+  "2005-10-15-CHE-BOL": {
+    "attendance": 41758,
+    "venue": "Stamford Bridge"
+  },
+  "2005-10-15-LIV-BLB": {
+    "attendance": 44900,
+    "venue": "Anfield"
+  },
+  "2005-10-15-MID-POR": {
+    "attendance": 26551,
+    "venue": "Riverside Stadium"
+  },
+  "2005-10-15-SUN-MUN": {
+    "attendance": 39085,
+    "venue": "Stadium of Light"
+  },
+  "2005-10-15-TOT-EVE": {
+    "attendance": 36247,
+    "venue": "White Hart Lane"
+  },
+  "2005-10-15-WBA-ARS": {
+    "attendance": 26443,
+    "venue": "The Hawthorns"
+  },
+  "2005-10-15-WIG-NEW": {
+    "attendance": 22730,
+    "venue": "DW Stadium"
+  },
+  "2005-10-16-BIR-AVL": {
+    "attendance": 29312,
+    "venue": "St Andrews"
+  },
+  "2005-10-16-MCI-WHU": {
+    "attendance": 43647,
+    "venue": "Etihad Stadium"
+  },
+  "2005-10-17-CHA-FUL": {
+    "attendance": 26320,
+    "venue": "The Valley"
+  },
+  "2005-10-22-ARS-MCI": {
+    "attendance": 38189,
+    "venue": "Highbury"
+  },
+  "2005-10-22-AVL-WIG": {
+    "attendance": 32294,
+    "venue": "Villa Park"
+  },
+  "2005-10-22-BLB-BIR": {
+    "attendance": 18341,
+    "venue": "Ewood Park"
+  },
+  "2005-10-22-FUL-LIV": {
+    "attendance": 22480,
+    "venue": "Craven Cottage"
+  },
+  "2005-10-22-MUN-TOT": {
+    "attendance": 67856,
+    "venue": "Old Trafford"
+  },
+  "2005-10-22-POR-CHA": {
+    "attendance": 19030,
+    "venue": "Fratton Park"
+  },
+  "2005-10-23-BOL-WBA": {
+    "attendance": 25151,
+    "venue": "Macron Stadium"
+  },
+  "2005-10-23-EVE-CHE": {
+    "attendance": 36042,
+    "venue": "Goodison Park"
+  },
+  "2005-10-23-NEW-SUN": {
+    "attendance": 52304,
+    "venue": "Sports Direct Arena"
+  },
+  "2005-10-23-WHU-MID": {
+    "attendance": 33428,
+    "venue": "Boleyn Ground"
+  },
+  "2005-10-29-BIR-EVE": {
+    "attendance": 26544,
+    "venue": "St Andrews"
+  },
+  "2005-10-29-CHA-BOL": {
+    "attendance": 26175,
+    "venue": "The Valley"
+  },
+  "2005-10-29-CHE-BLB": {
+    "attendance": 41463,
+    "venue": "Stamford Bridge"
+  },
+  "2005-10-29-LIV-WHU": {
+    "attendance": 45140,
+    "venue": "Anfield"
+  },
+  "2005-10-29-MID-MUN": {
+    "attendance": 30579,
+    "venue": "Riverside Stadium"
+  },
+  "2005-10-29-SUN-POR": {
+    "attendance": 34926,
+    "venue": "Stadium of Light"
+  },
+  "2005-10-29-TOT-ARS": {
+    "attendance": 36154,
+    "venue": "White Hart Lane"
+  },
+  "2005-10-29-WIG-FUL": {
+    "attendance": 17566,
+    "venue": "DW Stadium"
+  },
+  "2005-10-30-WBA-NEW": {
+    "attendance": 26070,
+    "venue": "The Hawthorns"
+  },
+  "2005-10-31-MCI-AVL": {
+    "attendance": 42069,
+    "venue": "Etihad Stadium"
+  },
+  "2005-11-05-ARS-SUN": {
+    "attendance": 38210,
+    "venue": "Highbury"
+  },
+  "2005-11-05-AVL-LIV": {
+    "attendance": 42551,
+    "venue": "Villa Park"
+  },
+  "2005-11-05-BLB-CHA": {
+    "attendance": 17691,
+    "venue": "Ewood Park"
+  },
+  "2005-11-05-FUL-MCI": {
+    "attendance": 22241,
+    "venue": "Craven Cottage"
+  },
+  "2005-11-05-NEW-BIR": {
+    "attendance": 52327,
+    "venue": "Sports Direct Arena"
+  },
+  "2005-11-05-POR-WIG": {
+    "attendance": 19102,
+    "venue": "Fratton Park"
+  },
+  "2005-11-05-WHU-WBA": {
+    "attendance": 33595,
+    "venue": "Boleyn Ground"
+  },
+  "2005-11-06-EVE-MID": {
+    "attendance": 34349,
+    "venue": "Goodison Park"
+  },
+  "2005-11-06-MUN-CHE": {
+    "attendance": 67864,
+    "venue": "Old Trafford"
+  },
+  "2005-11-07-BOL-TOT": {
+    "attendance": 24634,
+    "venue": "Macron Stadium"
+  },
+  "2005-11-19-CHA-MUN": {
+    "attendance": 26705,
+    "venue": "The Valley"
+  },
+  "2005-11-19-CHE-NEW": {
+    "attendance": 42198,
+    "venue": "Stamford Bridge"
+  },
+  "2005-11-19-LIV-POR": {
+    "attendance": 45012,
+    "venue": "Anfield"
+  },
+  "2005-11-19-MCI-BLB": {
+    "attendance": 44032,
+    "venue": "Etihad Stadium"
+  },
+  "2005-11-19-SUN-AVL": {
+    "attendance": 39707,
+    "venue": "Stadium of Light"
+  },
+  "2005-11-19-WBA-EVE": {
+    "attendance": 24673,
+    "venue": "The Hawthorns"
+  },
+  "2005-11-19-WIG-ARS": {
+    "attendance": 25004,
+    "venue": "DW Stadium"
+  },
+  "2005-11-20-MID-FUL": {
+    "attendance": 27599,
+    "venue": "Riverside Stadium"
+  },
+  "2005-11-20-TOT-WHU": {
+    "attendance": 36153,
+    "venue": "White Hart Lane"
+  },
+  "2005-11-26-ARS-BLB": {
+    "attendance": 38192,
+    "venue": "Highbury"
+  },
+  "2005-11-26-AVL-CHA": {
+    "attendance": 30023,
+    "venue": "Villa Park"
+  },
+  "2005-11-26-MCI-LIV": {
+    "attendance": 47105,
+    "venue": "Etihad Stadium"
+  },
+  "2005-11-26-POR-CHE": {
+    "attendance": 20182,
+    "venue": "Fratton Park"
+  },
+  "2005-11-26-SUN-BIR": {
+    "attendance": 32442,
+    "venue": "Stadium of Light"
+  },
+  "2005-11-26-WIG-TOT": {
+    "attendance": 22869,
+    "venue": "DW Stadium"
+  },
+  "2005-11-27-EVE-NEW": {
+    "attendance": 36207,
+    "venue": "Goodison Park"
+  },
+  "2005-11-27-FUL-BOL": {
+    "attendance": 19768,
+    "venue": "Craven Cottage"
+  },
+  "2005-11-27-MID-WBA": {
+    "attendance": 27041,
+    "venue": "Riverside Stadium"
+  },
+  "2005-11-27-WHU-MUN": {
+    "attendance": 34260,
+    "venue": "Boleyn Ground"
+  },
+  "2005-11-30-SUN-LIV": {
+    "attendance": 32697,
+    "venue": "Stadium of Light"
+  },
+  "2005-12-03-BLB-EVE": {
+    "attendance": 22064,
+    "venue": "Ewood Park"
+  },
+  "2005-12-03-BOL-ARS": {
+    "attendance": 26792,
+    "venue": "Macron Stadium"
+  },
+  "2005-12-03-CHE-MID": {
+    "attendance": 41692,
+    "venue": "Stamford Bridge"
+  },
+  "2005-12-03-LIV-WIG": {
+    "attendance": 44898,
+    "venue": "Anfield"
+  },
+  "2005-12-03-MUN-POR": {
+    "attendance": 67684,
+    "venue": "Old Trafford"
+  },
+  "2005-12-03-NEW-AVL": {
+    "attendance": 52269,
+    "venue": "Sports Direct Arena"
+  },
+  "2005-12-03-TOT-SUN": {
+    "attendance": 35427,
+    "venue": "White Hart Lane"
+  },
+  "2005-12-03-WBA-FUL": {
+    "attendance": 23139,
+    "venue": "The Hawthorns"
+  },
+  "2005-12-04-CHA-MCI": {
+    "attendance": 25259,
+    "venue": "The Valley"
+  },
+  "2005-12-05-BIR-WHU": {
+    "attendance": 24010,
+    "venue": "St Andrews"
+  },
+  "2005-12-10-BIR-FUL": {
+    "attendance": 27579,
+    "venue": "St Andrews"
+  },
+  "2005-12-10-BLB-WHU": {
+    "attendance": 20370,
+    "venue": "Ewood Park"
+  },
+  "2005-12-10-BOL-AVL": {
+    "attendance": 23646,
+    "venue": "Macron Stadium"
+  },
+  "2005-12-10-CHA-SUN": {
+    "attendance": 26018,
+    "venue": "The Valley"
+  },
+  "2005-12-10-CHE-WIG": {
+    "attendance": 42088,
+    "venue": "Stamford Bridge"
+  },
+  "2005-12-10-LIV-MID": {
+    "attendance": 43982,
+    "venue": "Anfield"
+  },
+  "2005-12-10-NEW-ARS": {
+    "attendance": 52303,
+    "venue": "Sports Direct Arena"
+  },
+  "2005-12-10-WBA-MCI": {
+    "attendance": 25298,
+    "venue": "The Hawthorns"
+  },
+  "2005-12-11-MUN-EVE": {
+    "attendance": 67831,
+    "venue": "Old Trafford"
+  },
+  "2005-12-12-TOT-POR": {
+    "attendance": 36140,
+    "venue": "White Hart Lane"
+  },
+  "2005-12-14-EVE-WHU": {
+    "attendance": 35074,
+    "venue": "Goodison Park"
+  },
+  "2005-12-14-MUN-WIG": {
+    "attendance": 67793,
+    "venue": "Old Trafford"
+  },
+  "2005-12-17-AVL-MUN": {
+    "attendance": 37128,
+    "venue": "Villa Park"
+  },
+  "2005-12-17-EVE-BOL": {
+    "attendance": 35074,
+    "venue": "Goodison Park"
+  },
+  "2005-12-17-FUL-BLB": {
+    "attendance": 20183,
+    "venue": "Craven Cottage"
+  },
+  "2005-12-17-MCI-BIR": {
+    "attendance": 41343,
+    "venue": "Etihad Stadium"
+  },
+  "2005-12-17-POR-WBA": {
+    "attendance": 20052,
+    "venue": "Fratton Park"
+  },
+  "2005-12-17-WHU-NEW": {
+    "attendance": 34481,
+    "venue": "Boleyn Ground"
+  },
+  "2005-12-17-WIG-CHA": {
+    "attendance": 17426,
+    "venue": "DW Stadium"
+  },
+  "2005-12-18-ARS-CHE": {
+    "attendance": 38347,
+    "venue": "Highbury"
+  },
+  "2005-12-18-MID-TOT": {
+    "attendance": 27614,
+    "venue": "Riverside Stadium"
+  },
+  "2005-12-26-AVL-EVE": {
+    "attendance": 32432,
+    "venue": "Villa Park"
+  },
+  "2005-12-26-CHA-ARS": {
+    "attendance": 26944,
+    "venue": "The Valley"
+  },
+  "2005-12-26-CHE-FUL": {
+    "attendance": 42117,
+    "venue": "Stamford Bridge"
+  },
+  "2005-12-26-LIV-NEW": {
+    "attendance": 45103,
+    "venue": "Anfield"
+  },
+  "2005-12-26-MID-BLB": {
+    "attendance": 29881,
+    "venue": "Riverside Stadium"
+  },
+  "2005-12-26-MUN-WBA": {
+    "attendance": 67972,
+    "venue": "Old Trafford"
+  },
+  "2005-12-26-POR-WHU": {
+    "attendance": 20140,
+    "venue": "Fratton Park"
+  },
+  "2005-12-26-SUN-BOL": {
+    "attendance": 32232,
+    "venue": "Stadium of Light"
+  },
+  "2005-12-26-TOT-BIR": {
+    "attendance": 36045,
+    "venue": "White Hart Lane"
+  },
+  "2005-12-26-WIG-MCI": {
+    "attendance": 25083,
+    "venue": "DW Stadium"
+  },
+  "2005-12-28-ARS-POR": {
+    "attendance": 38223,
+    "venue": "Highbury"
+  },
+  "2005-12-28-BIR-MUN": {
+    "attendance": 28459,
+    "venue": "St Andrews"
+  },
+  "2005-12-28-EVE-LIV": {
+    "attendance": 40158,
+    "venue": "Goodison Park"
+  },
+  "2005-12-28-FUL-AVL": {
+    "attendance": 20446,
+    "venue": "Craven Cottage"
+  },
+  "2005-12-28-MCI-CHE": {
+    "attendance": 46587,
+    "venue": "Etihad Stadium"
+  },
+  "2005-12-28-WBA-TOT": {
+    "attendance": 27314,
+    "venue": "The Hawthorns"
+  },
+  "2005-12-28-WHU-WIG": {
+    "attendance": 33660,
+    "venue": "Boleyn Ground"
+  },
+  "2005-12-31-AVL-ARS": {
+    "attendance": 37114,
+    "venue": "Villa Park"
+  },
+  "2005-12-31-CHA-WHU": {
+    "attendance": 25943,
+    "venue": "The Valley"
+  },
+  "2005-12-31-CHE-BIR": {
+    "attendance": 40722,
+    "venue": "Stamford Bridge"
+  },
+  "2005-12-31-LIV-WBA": {
+    "attendance": 44989,
+    "venue": "Anfield"
+  },
+  "2005-12-31-MID-MCI": {
+    "attendance": 28022,
+    "venue": "Riverside Stadium"
+  },
+  "2005-12-31-MUN-BOL": {
+    "attendance": 67861,
+    "venue": "Old Trafford"
+  },
+  "2005-12-31-POR-FUL": {
+    "attendance": 19305,
+    "venue": "Fratton Park"
+  },
+  "2005-12-31-SUN-EVE": {
+    "attendance": 30576,
+    "venue": "Stadium of Light"
+  },
+  "2005-12-31-TOT-NEW": {
+    "attendance": 36246,
+    "venue": "White Hart Lane"
+  },
+  "2005-12-31-WIG-BLB": {
+    "attendance": 20815,
+    "venue": "DW Stadium"
+  },
+  "2006-01-02-BIR-WIG": {
+    "attendance": 29189,
+    "venue": "St Andrews"
+  },
+  "2006-01-02-BLB-POR": {
+    "attendance": 19521,
+    "venue": "Ewood Park"
+  },
+  "2006-01-02-BOL-LIV": {
+    "attendance": 27604,
+    "venue": "Macron Stadium"
+  },
+  "2006-01-02-EVE-CHA": {
+    "attendance": 34333,
+    "venue": "Goodison Park"
+  },
+  "2006-01-02-FUL-SUN": {
+    "attendance": 19372,
+    "venue": "Craven Cottage"
+  },
+  "2006-01-02-NEW-MID": {
+    "attendance": 52302,
+    "venue": "Sports Direct Arena"
+  },
+  "2006-01-02-WBA-AVL": {
+    "attendance": 26964,
+    "venue": "The Hawthorns"
+  },
+  "2006-01-02-WHU-CHE": {
+    "attendance": 34462,
+    "venue": "Boleyn Ground"
+  },
+  "2006-01-03-ARS-MUN": {
+    "attendance": 38313,
+    "venue": "Highbury"
+  },
+  "2006-01-04-MCI-TOT": {
+    "attendance": 40808,
+    "venue": "Etihad Stadium"
+  },
+  "2006-01-14-ARS-MID": {
+    "attendance": 38186,
+    "venue": "Highbury"
+  },
+  "2006-01-14-AVL-WHU": {
+    "attendance": 36700,
+    "venue": "Villa Park"
+  },
+  "2006-01-14-BLB-BOL": {
+    "attendance": 18180,
+    "venue": "Ewood Park"
+  },
+  "2006-01-14-CHA-BIR": {
+    "attendance": 26298,
+    "venue": "The Valley"
+  },
+  "2006-01-14-FUL-NEW": {
+    "attendance": 21972,
+    "venue": "Craven Cottage"
+  },
+  "2006-01-14-LIV-TOT": {
+    "attendance": 45075,
+    "venue": "Anfield"
+  },
+  "2006-01-14-MCI-MUN": {
+    "attendance": 47192,
+    "venue": "Etihad Stadium"
+  },
+  "2006-01-14-POR-EVE": {
+    "attendance": 20199,
+    "venue": "Fratton Park"
+  },
+  "2006-01-15-SUN-CHE": {
+    "attendance": 32420,
+    "venue": "Stadium of Light"
+  },
+  "2006-01-15-WIG-WBA": {
+    "attendance": 17501,
+    "venue": "DW Stadium"
+  },
+  "2006-01-21-BIR-POR": {
+    "attendance": 29138,
+    "venue": "St Andrews"
+  },
+  "2006-01-21-BOL-MCI": {
+    "attendance": 26466,
+    "venue": "Macron Stadium"
+  },
+  "2006-01-21-EVE-ARS": {
+    "attendance": 36920,
+    "venue": "Goodison Park"
+  },
+  "2006-01-21-MID-WIG": {
+    "attendance": 27208,
+    "venue": "Riverside Stadium"
+  },
+  "2006-01-21-NEW-BLB": {
+    "attendance": 51782,
+    "venue": "Sports Direct Arena"
+  },
+  "2006-01-21-TOT-AVL": {
+    "attendance": 36243,
+    "venue": "White Hart Lane"
+  },
+  "2006-01-21-WBA-SUN": {
+    "attendance": 26294,
+    "venue": "The Hawthorns"
+  },
+  "2006-01-22-CHE-CHA": {
+    "attendance": 41369,
+    "venue": "Stamford Bridge"
+  },
+  "2006-01-22-MUN-LIV": {
+    "attendance": 67874,
+    "venue": "Old Trafford"
+  },
+  "2006-01-23-WHU-FUL": {
+    "attendance": 29395,
+    "venue": "Boleyn Ground"
+  },
+  "2006-01-31-CHA-WBA": {
+    "attendance": 25893,
+    "venue": "The Valley"
+  },
+  "2006-01-31-FUL-TOT": {
+    "attendance": 21081,
+    "venue": "Craven Cottage"
+  },
+  "2006-01-31-SUN-MID": {
+    "attendance": 31675,
+    "venue": "Stadium of Light"
+  },
+  "2006-01-31-WIG-EVE": {
+    "attendance": 21890,
+    "venue": "DW Stadium"
+  },
+  "2006-02-01-ARS-WHU": {
+    "attendance": 38216,
+    "venue": "Highbury"
+  },
+  "2006-02-01-AVL-CHE": {
+    "attendance": 38562,
+    "venue": "Villa Park"
+  },
+  "2006-02-01-BLB-MUN": {
+    "attendance": 25484,
+    "venue": "Ewood Park"
+  },
+  "2006-02-01-LIV-BIR": {
+    "attendance": 44314,
+    "venue": "Anfield"
+  },
+  "2006-02-01-MCI-NEW": {
+    "attendance": 42413,
+    "venue": "Etihad Stadium"
+  },
+  "2006-02-01-POR-BOL": {
+    "attendance": 19212,
+    "venue": "Fratton Park"
+  },
+  "2006-02-04-BIR-ARS": {
+    "attendance": 27075,
+    "venue": "St Andrews"
+  },
+  "2006-02-04-BOL-WIG": {
+    "attendance": 25645,
+    "venue": "Macron Stadium"
+  },
+  "2006-02-04-EVE-MCI": {
+    "attendance": 37827,
+    "venue": "Goodison Park"
+  },
+  "2006-02-04-MID-AVL": {
+    "attendance": 27299,
+    "venue": "Riverside Stadium"
+  },
+  "2006-02-04-MUN-FUL": {
+    "attendance": 67841,
+    "venue": "Old Trafford"
+  },
+  "2006-02-04-NEW-POR": {
+    "attendance": 51724,
+    "venue": "Sports Direct Arena"
+  },
+  "2006-02-04-WBA-BLB": {
+    "attendance": 23878,
+    "venue": "The Hawthorns"
+  },
+  "2006-02-04-WHU-SUN": {
+    "attendance": 34313,
+    "venue": "Boleyn Ground"
+  },
+  "2006-02-05-CHE-LIV": {
+    "attendance": 42185,
+    "venue": "Stamford Bridge"
+  },
+  "2006-02-05-TOT-CHA": {
+    "attendance": 36034,
+    "venue": "White Hart Lane"
+  },
+  "2006-02-08-CHA-LIV": {
+    "attendance": 27003,
+    "venue": "The Valley"
+  },
+  "2006-02-11-ARS-BOL": {
+    "attendance": 38193,
+    "venue": "Highbury"
+  },
+  "2006-02-11-AVL-NEW": {
+    "attendance": 37140,
+    "venue": "Villa Park"
+  },
+  "2006-02-11-EVE-BLB": {
+    "attendance": 35615,
+    "venue": "Goodison Park"
+  },
+  "2006-02-11-FUL-WBA": {
+    "attendance": 21508,
+    "venue": "Craven Cottage"
+  },
+  "2006-02-11-MID-CHE": {
+    "attendance": 31037,
+    "venue": "Riverside Stadium"
+  },
+  "2006-02-11-POR-MUN": {
+    "attendance": 20268,
+    "venue": "Fratton Park"
+  },
+  "2006-02-11-WIG-LIV": {
+    "attendance": 25078,
+    "venue": "DW Stadium"
+  },
+  "2006-02-12-MCI-CHA": {
+    "attendance": 41347,
+    "venue": "Etihad Stadium"
+  },
+  "2006-02-12-SUN-TOT": {
+    "attendance": 34700,
+    "venue": "Stadium of Light"
+  },
+  "2006-02-13-WHU-BIR": {
+    "attendance": 30643,
+    "venue": "Boleyn Ground"
+  },
+  "2006-02-14-LIV-ARS": {
+    "attendance": 45012,
+    "venue": "Anfield"
+  },
+  "2006-02-15-BLB-SUN": {
+    "attendance": 18220,
+    "venue": "Ewood Park"
+  },
+  "2006-02-19-TOT-WIG": {
+    "attendance": 35676,
+    "venue": "White Hart Lane"
+  },
+  "2006-02-22-NEW-CHA": {
+    "attendance": 51545,
+    "venue": "Sports Direct Arena"
+  },
+  "2006-02-25-BIR-SUN": {
+    "attendance": 29257,
+    "venue": "St Andrews"
+  },
+  "2006-02-25-BLB-ARS": {
+    "attendance": 22504,
+    "venue": "Ewood Park"
+  },
+  "2006-02-25-CHA-AVL": {
+    "attendance": 26587,
+    "venue": "The Valley"
+  },
+  "2006-02-25-CHE-POR": {
+    "attendance": 42269,
+    "venue": "Stamford Bridge"
+  },
+  "2006-02-25-NEW-EVE": {
+    "attendance": 51916,
+    "venue": "Sports Direct Arena"
+  },
+  "2006-02-26-BOL-FUL": {
+    "attendance": 23104,
+    "venue": "Macron Stadium"
+  },
+  "2006-02-26-LIV-MCI": {
+    "attendance": 45061,
+    "venue": "Anfield"
+  },
+  "2006-02-26-WBA-MID": {
+    "attendance": 23954,
+    "venue": "The Hawthorns"
+  },
+  "2006-03-04-AVL-POR": {
+    "attendance": 30194,
+    "venue": "Villa Park"
+  },
+  "2006-03-04-FUL-ARS": {
+    "attendance": 22397,
+    "venue": "Craven Cottage"
+  },
+  "2006-03-04-LIV-CHA": {
+    "attendance": 44923,
+    "venue": "Anfield"
+  },
+  "2006-03-04-MID-BIR": {
+    "attendance": 28141,
+    "venue": "Riverside Stadium"
+  },
+  "2006-03-04-NEW-BOL": {
+    "attendance": 52046,
+    "venue": "Sports Direct Arena"
+  },
+  "2006-03-04-WBA-CHE": {
+    "attendance": 26444,
+    "venue": "The Hawthorns"
+  },
+  "2006-03-04-WHU-EVE": {
+    "attendance": 34688,
+    "venue": "Boleyn Ground"
+  },
+  "2006-03-05-MCI-SUN": {
+    "attendance": 42200,
+    "venue": "Etihad Stadium"
+  },
+  "2006-03-05-TOT-BLB": {
+    "attendance": 36080,
+    "venue": "White Hart Lane"
+  },
+  "2006-03-06-WIG-MUN": {
+    "attendance": 23798,
+    "venue": "DW Stadium"
+  },
+  "2006-03-11-BIR-WBA": {
+    "attendance": 28041,
+    "venue": "St Andrews"
+  },
+  "2006-03-11-BLB-AVL": {
+    "attendance": 21932,
+    "venue": "Ewood Park"
+  },
+  "2006-03-11-BOL-WHU": {
+    "attendance": 24461,
+    "venue": "Macron Stadium"
+  },
+  "2006-03-11-CHE-TOT": {
+    "attendance": 42237,
+    "venue": "Stamford Bridge"
+  },
+  "2006-03-11-EVE-FUL": {
+    "attendance": 36515,
+    "venue": "Goodison Park"
+  },
+  "2006-03-11-POR-MCI": {
+    "attendance": 19601,
+    "venue": "Fratton Park"
+  },
+  "2006-03-11-SUN-WIG": {
+    "attendance": 31194,
+    "venue": "Stadium of Light"
+  },
+  "2006-03-12-ARS-LIV": {
+    "attendance": 38221,
+    "venue": "Highbury"
+  },
+  "2006-03-12-CHA-MID": {
+    "attendance": 24813,
+    "venue": "The Valley"
+  },
+  "2006-03-12-MUN-NEW": {
+    "attendance": 67858,
+    "venue": "Old Trafford"
+  },
+  "2006-03-15-LIV-FUL": {
+    "attendance": 44329,
+    "venue": "Anfield"
+  },
+  "2006-03-18-ARS-CHA": {
+    "attendance": 38223,
+    "venue": "Highbury"
+  },
+  "2006-03-18-BIR-TOT": {
+    "attendance": 26398,
+    "venue": "St Andrews"
+  },
+  "2006-03-18-BLB-MID": {
+    "attendance": 18681,
+    "venue": "Ewood Park"
+  },
+  "2006-03-18-BOL-SUN": {
+    "attendance": 23568,
+    "venue": "Macron Stadium"
+  },
+  "2006-03-18-EVE-AVL": {
+    "attendance": 36507,
+    "venue": "Goodison Park"
+  },
+  "2006-03-18-MCI-WIG": {
+    "attendance": 42444,
+    "venue": "Etihad Stadium"
+  },
+  "2006-03-18-WBA-MUN": {
+    "attendance": 27410,
+    "venue": "The Hawthorns"
+  },
+  "2006-03-18-WHU-POR": {
+    "attendance": 34407,
+    "venue": "Boleyn Ground"
+  },
+  "2006-03-19-FUL-CHE": {
+    "attendance": 22486,
+    "venue": "Craven Cottage"
+  },
+  "2006-03-19-NEW-LIV": {
+    "attendance": 52306,
+    "venue": "Sports Direct Arena"
+  },
+  "2006-03-25-AVL-FUL": {
+    "attendance": 32605,
+    "venue": "Villa Park"
+  },
+  "2006-03-25-CHE-MCI": {
+    "attendance": 42254,
+    "venue": "Stamford Bridge"
+  },
+  "2006-03-25-LIV-EVE": {
+    "attendance": 45070,
+    "venue": "Anfield"
+  },
+  "2006-03-25-SUN-BLB": {
+    "attendance": 29593,
+    "venue": "Stadium of Light"
+  },
+  "2006-03-25-WIG-WHU": {
+    "attendance": 18963,
+    "venue": "DW Stadium"
+  },
+  "2006-03-26-CHA-NEW": {
+    "attendance": 26987,
+    "venue": "The Valley"
+  },
+  "2006-03-26-MID-BOL": {
+    "attendance": 25971,
+    "venue": "Riverside Stadium"
+  },
+  "2006-03-26-MUN-BIR": {
+    "attendance": 69070,
+    "venue": "Old Trafford"
+  },
+  "2006-03-27-TOT-WBA": {
+    "attendance": 36153,
+    "venue": "White Hart Lane"
+  },
+  "2006-03-29-MUN-WHU": {
+    "attendance": 69522,
+    "venue": "Old Trafford"
+  },
+  "2006-04-01-ARS-AVL": {
+    "attendance": 38188,
+    "venue": "Highbury"
+  },
+  "2006-04-01-BIR-CHE": {
+    "attendance": 26364,
+    "venue": "St Andrews"
+  },
+  "2006-04-01-BOL-MUN": {
+    "attendance": 27718,
+    "venue": "Macron Stadium"
+  },
+  "2006-04-01-EVE-SUN": {
+    "attendance": 38093,
+    "venue": "Goodison Park"
+  },
+  "2006-04-01-FUL-POR": {
+    "attendance": 22322,
+    "venue": "Craven Cottage"
+  },
+  "2006-04-01-NEW-TOT": {
+    "attendance": 52304,
+    "venue": "Sports Direct Arena"
+  },
+  "2006-04-01-WBA-LIV": {
+    "attendance": 27371,
+    "venue": "The Hawthorns"
+  },
+  "2006-04-02-MCI-MID": {
+    "attendance": 40256,
+    "venue": "Etihad Stadium"
+  },
+  "2006-04-02-WHU-CHA": {
+    "attendance": 33964,
+    "venue": "Boleyn Ground"
+  },
+  "2006-04-03-BLB-WIG": {
+    "attendance": 20410,
+    "venue": "Ewood Park"
+  },
+  "2006-04-04-BIR-BOL": {
+    "attendance": 26493,
+    "venue": "St Andrews"
+  },
+  "2006-04-08-CHA-EVE": {
+    "attendance": 26925,
+    "venue": "The Valley"
+  },
+  "2006-04-08-POR-BLB": {
+    "attendance": 20203,
+    "venue": "Fratton Park"
+  },
+  "2006-04-08-TOT-MCI": {
+    "attendance": 36168,
+    "venue": "White Hart Lane"
+  },
+  "2006-04-08-WIG-BIR": {
+    "attendance": 18801,
+    "venue": "DW Stadium"
+  },
+  "2006-04-09-AVL-WBA": {
+    "attendance": 33303,
+    "venue": "Villa Park"
+  },
+  "2006-04-09-CHE-WHU": {
+    "attendance": 41823,
+    "venue": "Stamford Bridge"
+  },
+  "2006-04-09-LIV-BOL": {
+    "attendance": 44938,
+    "venue": "Anfield"
+  },
+  "2006-04-09-MID-NEW": {
+    "attendance": 31279,
+    "venue": "Riverside Stadium"
+  },
+  "2006-04-09-MUN-ARS": {
+    "attendance": 70908,
+    "venue": "Old Trafford"
+  },
+  "2006-04-12-POR-ARS": {
+    "attendance": 20230,
+    "venue": "Fratton Park"
+  },
+  "2006-04-14-MUN-SUN": {
+    "attendance": 72519,
+    "venue": "Old Trafford"
+  },
+  "2006-04-15-ARS-WBA": {
+    "attendance": 38167,
+    "venue": "Highbury"
+  },
+  "2006-04-15-BOL-CHE": {
+    "attendance": 27266,
+    "venue": "Macron Stadium"
+  },
+  "2006-04-15-EVE-TOT": {
+    "attendance": 39856,
+    "venue": "Goodison Park"
+  },
+  "2006-04-15-FUL-CHA": {
+    "attendance": 19146,
+    "venue": "Craven Cottage"
+  },
+  "2006-04-15-NEW-WIG": {
+    "attendance": 52309,
+    "venue": "Sports Direct Arena"
+  },
+  "2006-04-15-POR-MID": {
+    "attendance": 20128,
+    "venue": "Fratton Park"
+  },
+  "2006-04-15-WHU-MCI": {
+    "attendance": 33794,
+    "venue": "Boleyn Ground"
+  },
+  "2006-04-16-AVL-BIR": {
+    "attendance": 40158,
+    "venue": "Villa Park"
+  },
+  "2006-04-16-BLB-LIV": {
+    "attendance": 29142,
+    "venue": "Ewood Park"
+  },
+  "2006-04-17-CHA-POR": {
+    "attendance": 25481,
+    "venue": "The Valley"
+  },
+  "2006-04-17-CHE-EVE": {
+    "attendance": 41667,
+    "venue": "Stamford Bridge"
+  },
+  "2006-04-17-MID-WHU": {
+    "attendance": 27658,
+    "venue": "Riverside Stadium"
+  },
+  "2006-04-17-SUN-NEW": {
+    "attendance": 40032,
+    "venue": "Stadium of Light"
+  },
+  "2006-04-17-TOT-MUN": {
+    "attendance": 36141,
+    "venue": "White Hart Lane"
+  },
+  "2006-04-17-WBA-BOL": {
+    "attendance": 23017,
+    "venue": "The Hawthorns"
+  },
+  "2006-04-18-WIG-AVL": {
+    "attendance": 18564,
+    "venue": "DW Stadium"
+  },
+  "2006-04-19-BIR-BLB": {
+    "attendance": 25287,
+    "venue": "St Andrews"
+  },
+  "2006-04-22-ARS-TOT": {
+    "attendance": 38326,
+    "venue": "Highbury"
+  },
+  "2006-04-22-BOL-CHA": {
+    "attendance": 24713,
+    "venue": "Macron Stadium"
+  },
+  "2006-04-22-EVE-BIR": {
+    "attendance": 35420,
+    "venue": "Goodison Park"
+  },
+  "2006-04-22-NEW-WBA": {
+    "attendance": 52311,
+    "venue": "Sports Direct Arena"
+  },
+  "2006-04-22-POR-SUN": {
+    "attendance": 20123,
+    "venue": "Fratton Park"
+  },
+  "2006-04-24-FUL-WIG": {
+    "attendance": 17149,
+    "venue": "Craven Cottage"
+  },
+  "2006-04-25-AVL-MCI": {
+    "attendance": 26422,
+    "venue": "Villa Park"
+  },
+  "2006-04-26-WHU-LIV": {
+    "attendance": 34838,
+    "venue": "Boleyn Ground"
+  },
+  "2006-04-29-BIR-NEW": {
+    "attendance": 28331,
+    "venue": "St Andrews"
+  },
+  "2006-04-29-CHA-BLB": {
+    "attendance": 26249,
+    "venue": "The Valley"
+  },
+  "2006-04-29-CHE-MUN": {
+    "attendance": 42182,
+    "venue": "Stamford Bridge"
+  },
+  "2006-04-29-LIV-AVL": {
+    "attendance": 45064,
+    "venue": "Anfield"
+  },
+  "2006-04-29-MCI-FUL": {
+    "attendance": 41128,
+    "venue": "Etihad Stadium"
+  },
+  "2006-04-29-MID-EVE": {
+    "attendance": 29224,
+    "venue": "Riverside Stadium"
+  },
+  "2006-04-29-WIG-POR": {
+    "attendance": 21254,
+    "venue": "DW Stadium"
+  },
+  "2006-04-30-TOT-BOL": {
+    "attendance": 36179,
+    "venue": "White Hart Lane"
+  },
+  "2006-05-01-MUN-MID": {
+    "attendance": 69531,
+    "venue": "Old Trafford"
+  },
+  "2006-05-01-SUN-ARS": {
+    "attendance": 44003,
+    "venue": "Stadium of Light"
+  },
+  "2006-05-01-WBA-WHU": {
+    "attendance": 23143,
+    "venue": "The Hawthorns"
+  },
+  "2006-05-02-BLB-CHE": {
+    "attendance": 20243,
+    "venue": "Ewood Park"
+  },
+  "2006-05-03-BOL-MID": {
+    "attendance": 22733,
+    "venue": "Macron Stadium"
+  },
+  "2006-05-04-MCI-ARS": {
+    "attendance": 41875,
+    "venue": "Etihad Stadium"
+  },
+  "2006-05-04-SUN-FUL": {
+    "attendance": 28226,
+    "venue": "Stadium of Light"
+  },
+  "2006-05-07-ARS-WIG": {
+    "attendance": 38349,
+    "venue": "Highbury"
+  },
+  "2006-05-07-AVL-SUN": {
+    "attendance": 33820,
+    "venue": "Villa Park"
+  },
+  "2006-05-07-BLB-MCI": {
+    "attendance": 25731,
+    "venue": "Ewood Park"
+  },
+  "2006-05-07-BOL-BIR": {
+    "attendance": 26275,
+    "venue": "Macron Stadium"
+  },
+  "2006-05-07-EVE-WBA": {
+    "attendance": 39671,
+    "venue": "Goodison Park"
+  },
+  "2006-05-07-FUL-MID": {
+    "attendance": 22434,
+    "venue": "Craven Cottage"
+  },
+  "2006-05-07-MUN-CHA": {
+    "attendance": 73006,
+    "venue": "Old Trafford"
+  },
+  "2006-05-07-NEW-CHE": {
+    "attendance": 52309,
+    "venue": "Sports Direct Arena"
+  },
+  "2006-05-07-POR-LIV": {
+    "attendance": 20240,
+    "venue": "Fratton Park"
+  },
+  "2006-05-07-WHU-TOT": {
+    "attendance": 34797,
+    "venue": "Boleyn Ground"
+  }
+}

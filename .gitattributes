@@ -1,0 +1,25 @@
+# Force LF line endings on all text files in the repo. The repo stores
+# LF; checkout produces LF regardless of platform `core.autocrlf` setting.
+# This eliminates the CRLF noise from Windows-side Edit-tool operations
+# that bit TASK-503/504/505 doc-syncs and required defensive sed-stripping
+# every time a `.md` was touched.
+*               text=auto eol=lf
+
+# Husky hook scripts MUST be LF-ended or bash chokes on trailing \r.
+# Kept explicit even with the project-wide rule above so the intent is
+# obvious to readers.
+.husky/*        text eol=lf
+.husky/_/*      text eol=lf
+
+# Common binary file types — be explicit so git's text-detection heuristics
+# don't accidentally normalize them. `* text=auto` is usually right, but
+# this is belt-and-suspenders for files we know are binary.
+*.png           binary
+*.jpg           binary
+*.jpeg          binary
+*.gif           binary
+*.ico           binary
+*.webp          binary
+*.pdf           binary
+*.woff          binary
+*.woff2         binary

@@ -1,0 +1,330 @@
+{
+  "topAssists": [
+    {
+      "playerId": 1005144,
+      "playerName": "Steve McManaman",
+      "rank": 1,
+      "teamId": 40,
+      "teamName": "Liverpool",
+      "value": 15
+    },
+    {
+      "playerId": 1005081,
+      "playerName": "Stan Collymore",
+      "rank": 2,
+      "teamId": 40,
+      "teamName": "Liverpool",
+      "value": 11
+    },
+    {
+      "playerId": 1003713,
+      "playerName": "Dwight Yorke",
+      "rank": 3,
+      "teamId": 66,
+      "teamName": "Aston Villa",
+      "value": 10
+    },
+    {
+      "playerId": 1003744,
+      "playerName": "Eric Cantona",
+      "rank": 4,
+      "teamId": 33,
+      "teamName": "Manchester United",
+      "value": 10
+    },
+    {
+      "playerId": 1003983,
+      "playerName": "Ian Woan",
+      "rank": 5,
+      "teamId": 65,
+      "teamName": "Nottingham Forest",
+      "value": 10
+    },
+    {
+      "playerId": 1004116,
+      "playerName": "John Barnes",
+      "rank": 6,
+      "teamId": 40,
+      "teamName": "Liverpool",
+      "value": 10
+    },
+    {
+      "playerId": 1002939,
+      "playerName": "Ryan Giggs",
+      "rank": 7,
+      "teamId": 33,
+      "teamName": "Manchester United",
+      "value": 9
+    },
+    {
+      "playerId": 1004598,
+      "playerName": "Mike Newell",
+      "rank": 8,
+      "teamId": 67,
+      "teamName": "Blackburn Rovers",
+      "value": 9
+    },
+    {
+      "playerId": 1004826,
+      "playerName": "Peter Beardsley",
+      "rank": 9,
+      "teamId": 34,
+      "teamName": "Newcastle United",
+      "value": 9
+    },
+    {
+      "playerId": 1005185,
+      "playerName": "Stuart Ripley",
+      "rank": 10,
+      "teamId": 67,
+      "teamName": "Blackburn Rovers",
+      "value": 9
+    }
+  ],
+  "topRedCards": [
+    {
+      "playerId": 1005291,
+      "playerName": "Vinnie Jones",
+      "rank": 1,
+      "teamId": 1333,
+      "teamName": "Wimbledon",
+      "value": 3
+    },
+    {
+      "playerId": 1004974,
+      "playerName": "Roy Keane",
+      "rank": 2,
+      "teamId": 33,
+      "teamName": "Manchester United",
+      "value": 2
+    },
+    {
+      "playerId": 1003179,
+      "playerName": "Alan Moore",
+      "rank": 3,
+      "teamId": 70,
+      "teamName": "Middlesbrough",
+      "value": 1
+    },
+    {
+      "playerId": 1003264,
+      "playerName": "Andy Impey",
+      "rank": 4,
+      "teamId": 72,
+      "teamName": "Queens Park Rangers",
+      "value": 1
+    },
+    {
+      "playerId": 1003284,
+      "playerName": "Andy Townsend",
+      "rank": 5,
+      "teamId": 66,
+      "teamName": "Aston Villa",
+      "value": 1
+    },
+    {
+      "playerId": 1003315,
+      "playerName": "Barry Horne",
+      "rank": 6,
+      "teamId": 45,
+      "teamName": "Everton",
+      "value": 1
+    },
+    {
+      "playerId": 1003333,
+      "playerName": "Billy McKinlay",
+      "rank": 7,
+      "teamId": 67,
+      "teamName": "Blackburn Rovers",
+      "value": 1
+    },
+    {
+      "playerId": 1003547,
+      "playerName": "Danny Dichio",
+      "rank": 8,
+      "teamId": 72,
+      "teamName": "Queens Park Rangers",
+      "value": 1
+    },
+    {
+      "playerId": 1003600,
+      "playerName": "Dave Watson",
+      "rank": 9,
+      "teamId": 45,
+      "teamName": "Everton",
+      "value": 1
+    },
+    {
+      "playerId": 1003601,
+      "playerName": "David Bardsley",
+      "rank": 10,
+      "teamId": 72,
+      "teamName": "Queens Park Rangers",
+      "value": 1
+    }
+  ],
+  "topScorers": [
+    {
+      "playerId": 1003185,
+      "playerName": "Alan Shearer",
+      "rank": 1,
+      "teamId": 67,
+      "teamName": "Blackburn Rovers",
+      "value": 31
+    },
+    {
+      "playerId": 1004932,
+      "playerName": "Robbie Fowler",
+      "rank": 2,
+      "teamId": 40,
+      "teamName": "Liverpool",
+      "value": 28
+    },
+    {
+      "playerId": 1004358,
+      "playerName": "Les Ferdinand",
+      "rank": 3,
+      "teamId": 34,
+      "teamName": "Newcastle United",
+      "value": 25
+    },
+    {
+      "playerId": 1003713,
+      "playerName": "Dwight Yorke",
+      "rank": 4,
+      "teamId": 66,
+      "teamName": "Aston Villa",
+      "value": 17
+    },
+    {
+      "playerId": 1005199,
+      "playerName": "Teddy Sheringham",
+      "rank": 5,
+      "teamId": 47,
+      "teamName": "Tottenham Hotspur",
+      "value": 16
+    },
+    {
+      "playerId": 1003239,
+      "playerName": "Andrei Kanchelskis",
+      "rank": 6,
+      "teamId": 45,
+      "teamName": "Everton",
+      "value": 15
+    },
+    {
+      "playerId": 1003422,
+      "playerName": "Chris Armstrong",
+      "rank": 7,
+      "teamId": 47,
+      "teamName": "Tottenham Hotspur",
+      "value": 15
+    },
+    {
+      "playerId": 1003984,
+      "playerName": "Ian Wright",
+      "rank": 8,
+      "teamId": 42,
+      "teamName": "Arsenal",
+      "value": 15
+    },
+    {
+      "playerId": 1003698,
+      "playerName": "Dion Dublin",
+      "rank": 9,
+      "teamId": 1346,
+      "teamName": "Coventry City",
+      "value": 14
+    },
+    {
+      "playerId": 1003744,
+      "playerName": "Eric Cantona",
+      "rank": 10,
+      "teamId": 33,
+      "teamName": "Manchester United",
+      "value": 14
+    }
+  ],
+  "topYellowCards": [
+    {
+      "playerId": 1004453,
+      "playerName": "Mark Hughes",
+      "rank": 1,
+      "teamId": 49,
+      "teamName": "Chelsea",
+      "value": 11
+    },
+    {
+      "playerId": 1003675,
+      "playerName": "Dennis Wise",
+      "rank": 2,
+      "teamId": 49,
+      "teamName": "Chelsea",
+      "value": 10
+    },
+    {
+      "playerId": 1003820,
+      "playerName": "Garry Flitcroft",
+      "rank": 3,
+      "teamId": 50,
+      "teamName": "Manchester City",
+      "value": 10
+    },
+    {
+      "playerId": 1004035,
+      "playerName": "Jamie Pollock",
+      "rank": 4,
+      "teamId": 70,
+      "teamName": "Middlesbrough",
+      "value": 10
+    },
+    {
+      "playerId": 1004813,
+      "playerName": "Paul Williams",
+      "rank": 5,
+      "teamId": 1346,
+      "teamName": "Coventry City",
+      "value": 10
+    },
+    {
+      "playerId": 1003315,
+      "playerName": "Barry Horne",
+      "rank": 6,
+      "teamId": 45,
+      "teamName": "Everton",
+      "value": 9
+    },
+    {
+      "playerId": 1003445,
+      "playerName": "Chris Morris",
+      "rank": 7,
+      "teamId": 70,
+      "teamName": "Middlesbrough",
+      "value": 9
+    },
+    {
+      "playerId": 1003497,
+      "playerName": "Colin Hendry",
+      "rank": 8,
+      "teamId": 67,
+      "teamName": "Blackburn Rovers",
+      "value": 9
+    },
+    {
+      "playerId": 1004108,
+      "playerName": "Joe Parkinson",
+      "rank": 9,
+      "teamId": 45,
+      "teamName": "Everton",
+      "value": 9
+    },
+    {
+      "playerId": 1005223,
+      "playerName": "Tim Sherwood",
+      "rank": 10,
+      "teamId": 67,
+      "teamName": "Blackburn Rovers",
+      "value": 9
+    }
+  ]
+}

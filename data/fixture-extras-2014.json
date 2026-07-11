@@ -1,0 +1,1522 @@
+{
+  "2014-08-16-ARS-CRY": {
+    "attendance": 59962,
+    "venue": "Emirates Stadium"
+  },
+  "2014-08-16-LEI-EVE": {
+    "attendance": 31603,
+    "venue": "King Power Stadium"
+  },
+  "2014-08-16-MUN-SWA": {
+    "attendance": 75339,
+    "venue": "Old Trafford"
+  },
+  "2014-08-16-QPR-HUL": {
+    "attendance": 17603,
+    "venue": "Loftus Road"
+  },
+  "2014-08-16-STK-AVL": {
+    "attendance": 27478,
+    "venue": "Britannia Stadium"
+  },
+  "2014-08-16-WBA-SUN": {
+    "attendance": 25468,
+    "venue": "The Hawthorns"
+  },
+  "2014-08-16-WHU-TOT": {
+    "attendance": 34977,
+    "venue": "Boleyn Ground"
+  },
+  "2014-08-17-LIV-SOU": {
+    "attendance": 44736,
+    "venue": "Anfield"
+  },
+  "2014-08-17-NEW-MCI": {
+    "attendance": 50816,
+    "venue": "St. James' Park"
+  },
+  "2014-08-18-BUR-CHE": {
+    "attendance": 20699,
+    "venue": "Turf Moor"
+  },
+  "2014-08-23-AVL-NEW": {
+    "attendance": 30267,
+    "venue": "Villa Park"
+  },
+  "2014-08-23-CHE-LEI": {
+    "attendance": 41604,
+    "venue": "Stamford Bridge"
+  },
+  "2014-08-23-CRY-WHU": {
+    "attendance": 24242,
+    "venue": "Selhurst Park"
+  },
+  "2014-08-23-EVE-ARS": {
+    "attendance": 39490,
+    "venue": "Goodison Park"
+  },
+  "2014-08-23-SOU-WBA": {
+    "attendance": 27598,
+    "venue": "St. Mary's Stadium"
+  },
+  "2014-08-23-SWA-BUR": {
+    "attendance": 20565,
+    "venue": "Liberty Stadium"
+  },
+  "2014-08-24-HUL-STK": {
+    "attendance": 24348,
+    "venue": "MKM Stadium"
+  },
+  "2014-08-24-SUN-MUN": {
+    "attendance": 43217,
+    "venue": "Stadium of Light"
+  },
+  "2014-08-24-TOT-QPR": {
+    "attendance": 36109,
+    "venue": "White Hart Lane"
+  },
+  "2014-08-25-MCI-LIV": {
+    "attendance": 45471,
+    "venue": "Etihad Stadium"
+  },
+  "2014-08-30-BUR-MUN": {
+    "attendance": 21099,
+    "venue": "Turf Moor"
+  },
+  "2014-08-30-EVE-CHE": {
+    "attendance": 39402,
+    "venue": "Goodison Park"
+  },
+  "2014-08-30-MCI-STK": {
+    "attendance": 45622,
+    "venue": "Etihad Stadium"
+  },
+  "2014-08-30-NEW-CRY": {
+    "attendance": 49226,
+    "venue": "St. James' Park"
+  },
+  "2014-08-30-QPR-SUN": {
+    "attendance": 17930,
+    "venue": "Loftus Road"
+  },
+  "2014-08-30-SWA-WBA": {
+    "attendance": 20318,
+    "venue": "Liberty Stadium"
+  },
+  "2014-08-30-WHU-SOU": {
+    "attendance": 34907,
+    "venue": "Boleyn Ground"
+  },
+  "2014-08-31-AVL-HUL": {
+    "attendance": 28336,
+    "venue": "Villa Park"
+  },
+  "2014-08-31-LEI-ARS": {
+    "attendance": 31535,
+    "venue": "King Power Stadium"
+  },
+  "2014-08-31-TOT-LIV": {
+    "attendance": 36130,
+    "venue": "White Hart Lane"
+  },
+  "2014-09-13-ARS-MCI": {
+    "attendance": 60003,
+    "venue": "Emirates Stadium"
+  },
+  "2014-09-13-CHE-SWA": {
+    "attendance": 41400,
+    "venue": "Stamford Bridge"
+  },
+  "2014-09-13-CRY-BUR": {
+    "attendance": 23829,
+    "venue": "Selhurst Park"
+  },
+  "2014-09-13-LIV-AVL": {
+    "attendance": 44689,
+    "venue": "Anfield"
+  },
+  "2014-09-13-SOU-NEW": {
+    "attendance": 29678,
+    "venue": "St. Mary's Stadium"
+  },
+  "2014-09-13-STK-LEI": {
+    "attendance": 27500,
+    "venue": "Britannia Stadium"
+  },
+  "2014-09-13-SUN-TOT": {
+    "attendance": 40799,
+    "venue": "Stadium of Light"
+  },
+  "2014-09-13-WBA-EVE": {
+    "attendance": 23567,
+    "venue": "The Hawthorns"
+  },
+  "2014-09-14-MUN-QPR": {
+    "attendance": 75355,
+    "venue": "Old Trafford"
+  },
+  "2014-09-15-HUL-WHU": {
+    "attendance": 21275,
+    "venue": "MKM Stadium"
+  },
+  "2014-09-20-AVL-ARS": {
+    "attendance": 40013,
+    "venue": "Villa Park"
+  },
+  "2014-09-20-BUR-SUN": {
+    "attendance": 20026,
+    "venue": "Turf Moor"
+  },
+  "2014-09-20-NEW-HUL": {
+    "attendance": 49119,
+    "venue": "St. James' Park"
+  },
+  "2014-09-20-QPR-STK": {
+    "attendance": 16163,
+    "venue": "Loftus Road"
+  },
+  "2014-09-20-SWA-SOU": {
+    "attendance": 20596,
+    "venue": "Liberty Stadium"
+  },
+  "2014-09-20-WHU-LIV": {
+    "attendance": 34977,
+    "venue": "Boleyn Ground"
+  },
+  "2014-09-21-EVE-CRY": {
+    "attendance": 37574,
+    "venue": "Goodison Park"
+  },
+  "2014-09-21-LEI-MUN": {
+    "attendance": 31784,
+    "venue": "King Power Stadium"
+  },
+  "2014-09-21-MCI-CHE": {
+    "attendance": 45602,
+    "venue": "Etihad Stadium"
+  },
+  "2014-09-21-TOT-WBA": {
+    "attendance": 35861,
+    "venue": "White Hart Lane"
+  },
+  "2014-09-27-ARS-TOT": {
+    "attendance": 59900,
+    "venue": "Emirates Stadium"
+  },
+  "2014-09-27-CHE-AVL": {
+    "attendance": 41616,
+    "venue": "Stamford Bridge"
+  },
+  "2014-09-27-CRY-LEI": {
+    "attendance": 24311,
+    "venue": "Selhurst Park"
+  },
+  "2014-09-27-HUL-MCI": {
+    "attendance": 22859,
+    "venue": "MKM Stadium"
+  },
+  "2014-09-27-LIV-EVE": {
+    "attendance": 44511,
+    "venue": "Anfield"
+  },
+  "2014-09-27-MUN-WHU": {
+    "attendance": 75317,
+    "venue": "Old Trafford"
+  },
+  "2014-09-27-SOU-QPR": {
+    "attendance": 30504,
+    "venue": "St. Mary's Stadium"
+  },
+  "2014-09-27-SUN-SWA": {
+    "attendance": 41325,
+    "venue": "Stadium of Light"
+  },
+  "2014-09-28-WBA-BUR": {
+    "attendance": 24286,
+    "venue": "The Hawthorns"
+  },
+  "2014-09-29-STK-NEW": {
+    "attendance": 26332,
+    "venue": "Britannia Stadium"
+  },
+  "2014-10-04-AVL-MCI": {
+    "attendance": 32964,
+    "venue": "Villa Park"
+  },
+  "2014-10-04-HUL-CRY": {
+    "attendance": 24281,
+    "venue": "MKM Stadium"
+  },
+  "2014-10-04-LEI-BUR": {
+    "attendance": 31448,
+    "venue": "King Power Stadium"
+  },
+  "2014-10-04-LIV-WBA": {
+    "attendance": 44708,
+    "venue": "Anfield"
+  },
+  "2014-10-04-SUN-STK": {
+    "attendance": 42713,
+    "venue": "Stadium of Light"
+  },
+  "2014-10-04-SWA-NEW": {
+    "attendance": 20622,
+    "venue": "Liberty Stadium"
+  },
+  "2014-10-05-CHE-ARS": {
+    "attendance": 41607,
+    "venue": "Stamford Bridge"
+  },
+  "2014-10-05-MUN-EVE": {
+    "attendance": 75294,
+    "venue": "Old Trafford"
+  },
+  "2014-10-05-TOT-SOU": {
+    "attendance": 35564,
+    "venue": "White Hart Lane"
+  },
+  "2014-10-05-WHU-QPR": {
+    "attendance": 34907,
+    "venue": "Boleyn Ground"
+  },
+  "2014-10-18-ARS-HUL": {
+    "attendance": 60004,
+    "venue": "Emirates Stadium"
+  },
+  "2014-10-18-BUR-WHU": {
+    "attendance": 18936,
+    "venue": "Turf Moor"
+  },
+  "2014-10-18-CRY-CHE": {
+    "attendance": 24451,
+    "venue": "Selhurst Park"
+  },
+  "2014-10-18-EVE-AVL": {
+    "attendance": 39505,
+    "venue": "Goodison Park"
+  },
+  "2014-10-18-MCI-TOT": {
+    "attendance": 45549,
+    "venue": "Etihad Stadium"
+  },
+  "2014-10-18-NEW-LEI": {
+    "attendance": 51886,
+    "venue": "St. James' Park"
+  },
+  "2014-10-18-SOU-SUN": {
+    "attendance": 29615,
+    "venue": "St. Mary's Stadium"
+  },
+  "2014-10-19-QPR-LIV": {
+    "attendance": 18069,
+    "venue": "Loftus Road"
+  },
+  "2014-10-19-STK-SWA": {
+    "attendance": 27017,
+    "venue": "Britannia Stadium"
+  },
+  "2014-10-20-WBA-MUN": {
+    "attendance": 25794,
+    "venue": "The Hawthorns"
+  },
+  "2014-10-25-LIV-HUL": {
+    "attendance": 44591,
+    "venue": "Anfield"
+  },
+  "2014-10-25-SOU-STK": {
+    "attendance": 30017,
+    "venue": "St. Mary's Stadium"
+  },
+  "2014-10-25-SUN-ARS": {
+    "attendance": 44449,
+    "venue": "Stadium of Light"
+  },
+  "2014-10-25-SWA-LEI": {
+    "attendance": 20259,
+    "venue": "Liberty Stadium"
+  },
+  "2014-10-25-WBA-CRY": {
+    "attendance": 24738,
+    "venue": "The Hawthorns"
+  },
+  "2014-10-25-WHU-MCI": {
+    "attendance": 34977,
+    "venue": "Boleyn Ground"
+  },
+  "2014-10-26-BUR-EVE": {
+    "attendance": 19927,
+    "venue": "Turf Moor"
+  },
+  "2014-10-26-MUN-CHE": {
+    "attendance": 75327,
+    "venue": "Old Trafford"
+  },
+  "2014-10-26-TOT-NEW": {
+    "attendance": 35650,
+    "venue": "White Hart Lane"
+  },
+  "2014-10-27-QPR-AVL": {
+    "attendance": 18022,
+    "venue": "Loftus Road"
+  },
+  "2014-11-01-ARS-BUR": {
+    "attendance": 60012,
+    "venue": "Emirates Stadium"
+  },
+  "2014-11-01-CHE-QPR": {
+    "attendance": 41486,
+    "venue": "Stamford Bridge"
+  },
+  "2014-11-01-EVE-SWA": {
+    "attendance": 39149,
+    "venue": "Goodison Park"
+  },
+  "2014-11-01-HUL-SOU": {
+    "attendance": 22828,
+    "venue": "MKM Stadium"
+  },
+  "2014-11-01-LEI-WBA": {
+    "attendance": 31819,
+    "venue": "King Power Stadium"
+  },
+  "2014-11-01-NEW-LIV": {
+    "attendance": 52166,
+    "venue": "St. James' Park"
+  },
+  "2014-11-01-STK-WHU": {
+    "attendance": 27174,
+    "venue": "Britannia Stadium"
+  },
+  "2014-11-02-AVL-TOT": {
+    "attendance": 32049,
+    "venue": "Villa Park"
+  },
+  "2014-11-02-MCI-MUN": {
+    "attendance": 45358,
+    "venue": "Etihad Stadium"
+  },
+  "2014-11-03-CRY-SUN": {
+    "attendance": 23212,
+    "venue": "Selhurst Park"
+  },
+  "2014-11-08-BUR-HUL": {
+    "attendance": 16998,
+    "venue": "Turf Moor"
+  },
+  "2014-11-08-LIV-CHE": {
+    "attendance": 44698,
+    "venue": "Anfield"
+  },
+  "2014-11-08-MUN-CRY": {
+    "attendance": 75325,
+    "venue": "Old Trafford"
+  },
+  "2014-11-08-QPR-MCI": {
+    "attendance": 18005,
+    "venue": "Loftus Road"
+  },
+  "2014-11-08-SOU-LEI": {
+    "attendance": 31297,
+    "venue": "St. Mary's Stadium"
+  },
+  "2014-11-08-WHU-AVL": {
+    "attendance": 34857,
+    "venue": "Boleyn Ground"
+  },
+  "2014-11-09-SUN-EVE": {
+    "attendance": 43476,
+    "venue": "Stadium of Light"
+  },
+  "2014-11-09-SWA-ARS": {
+    "attendance": 20812,
+    "venue": "Liberty Stadium"
+  },
+  "2014-11-09-TOT-STK": {
+    "attendance": 35699,
+    "venue": "White Hart Lane"
+  },
+  "2014-11-09-WBA-NEW": {
+    "attendance": 26476,
+    "venue": "The Hawthorns"
+  },
+  "2014-11-22-ARS-MUN": {
+    "attendance": 60074,
+    "venue": "Emirates Stadium"
+  },
+  "2014-11-22-CHE-WBA": {
+    "attendance": 41600,
+    "venue": "Stamford Bridge"
+  },
+  "2014-11-22-EVE-WHU": {
+    "attendance": 39182,
+    "venue": "Goodison Park"
+  },
+  "2014-11-22-LEI-SUN": {
+    "attendance": 31825,
+    "venue": "King Power Stadium"
+  },
+  "2014-11-22-MCI-SWA": {
+    "attendance": 45448,
+    "venue": "Etihad Stadium"
+  },
+  "2014-11-22-NEW-QPR": {
+    "attendance": 51915,
+    "venue": "St. James' Park"
+  },
+  "2014-11-22-STK-BUR": {
+    "attendance": 27018,
+    "venue": "Britannia Stadium"
+  },
+  "2014-11-23-CRY-LIV": {
+    "attendance": 24862,
+    "venue": "Selhurst Park"
+  },
+  "2014-11-23-HUL-TOT": {
+    "attendance": 23561,
+    "venue": "MKM Stadium"
+  },
+  "2014-11-24-AVL-SOU": {
+    "attendance": 25311,
+    "venue": "Villa Park"
+  },
+  "2014-11-29-BUR-AVL": {
+    "attendance": 19910,
+    "venue": "Turf Moor"
+  },
+  "2014-11-29-LIV-STK": {
+    "attendance": 44735,
+    "venue": "Anfield"
+  },
+  "2014-11-29-MUN-HUL": {
+    "attendance": 75345,
+    "venue": "Old Trafford"
+  },
+  "2014-11-29-QPR-LEI": {
+    "attendance": 18054,
+    "venue": "Loftus Road"
+  },
+  "2014-11-29-SUN-CHE": {
+    "attendance": 45232,
+    "venue": "Stadium of Light"
+  },
+  "2014-11-29-SWA-CRY": {
+    "attendance": 20240,
+    "venue": "Liberty Stadium"
+  },
+  "2014-11-29-WBA-ARS": {
+    "attendance": 24228,
+    "venue": "The Hawthorns"
+  },
+  "2014-11-29-WHU-NEW": {
+    "attendance": 34977,
+    "venue": "Boleyn Ground"
+  },
+  "2014-11-30-SOU-MCI": {
+    "attendance": 30919,
+    "venue": "St. Mary's Stadium"
+  },
+  "2014-11-30-TOT-EVE": {
+    "attendance": 35901,
+    "venue": "White Hart Lane"
+  },
+  "2014-12-02-BUR-NEW": {
+    "attendance": 18791,
+    "venue": "Turf Moor"
+  },
+  "2014-12-02-CRY-AVL": {
+    "attendance": 23935,
+    "venue": "Selhurst Park"
+  },
+  "2014-12-02-LEI-LIV": {
+    "attendance": 32000,
+    "venue": "King Power Stadium"
+  },
+  "2014-12-02-MUN-STK": {
+    "attendance": 75388,
+    "venue": "Old Trafford"
+  },
+  "2014-12-02-SWA-QPR": {
+    "attendance": 20145,
+    "venue": "Liberty Stadium"
+  },
+  "2014-12-02-WBA-WHU": {
+    "attendance": 23975,
+    "venue": "The Hawthorns"
+  },
+  "2014-12-03-ARS-SOU": {
+    "attendance": 60025,
+    "venue": "Emirates Stadium"
+  },
+  "2014-12-03-CHE-TOT": {
+    "attendance": 41518,
+    "venue": "Stamford Bridge"
+  },
+  "2014-12-03-EVE-HUL": {
+    "attendance": 34645,
+    "venue": "Goodison Park"
+  },
+  "2014-12-03-SUN-MCI": {
+    "attendance": 41152,
+    "venue": "Stadium of Light"
+  },
+  "2014-12-06-HUL-WBA": {
+    "attendance": 23279,
+    "venue": "MKM Stadium"
+  },
+  "2014-12-06-LIV-SUN": {
+    "attendance": 44716,
+    "venue": "Anfield"
+  },
+  "2014-12-06-MCI-EVE": {
+    "attendance": 45603,
+    "venue": "Etihad Stadium"
+  },
+  "2014-12-06-NEW-CHE": {
+    "attendance": 52019,
+    "venue": "St. James' Park"
+  },
+  "2014-12-06-QPR-BUR": {
+    "attendance": 17785,
+    "venue": "Loftus Road"
+  },
+  "2014-12-06-STK-ARS": {
+    "attendance": 27367,
+    "venue": "Britannia Stadium"
+  },
+  "2014-12-06-TOT-CRY": {
+    "attendance": 35860,
+    "venue": "White Hart Lane"
+  },
+  "2014-12-07-AVL-LEI": {
+    "attendance": 27692,
+    "venue": "Villa Park"
+  },
+  "2014-12-07-WHU-SWA": {
+    "attendance": 34125,
+    "venue": "Boleyn Ground"
+  },
+  "2014-12-08-SOU-MUN": {
+    "attendance": 31420,
+    "venue": "St. Mary's Stadium"
+  },
+  "2014-12-13-ARS-NEW": {
+    "attendance": 59949,
+    "venue": "Emirates Stadium"
+  },
+  "2014-12-13-BUR-SOU": {
+    "attendance": 17287,
+    "venue": "Turf Moor"
+  },
+  "2014-12-13-CHE-HUL": {
+    "attendance": 41626,
+    "venue": "Stamford Bridge"
+  },
+  "2014-12-13-CRY-STK": {
+    "attendance": 23038,
+    "venue": "Selhurst Park"
+  },
+  "2014-12-13-LEI-MCI": {
+    "attendance": 31643,
+    "venue": "King Power Stadium"
+  },
+  "2014-12-13-SUN-WHU": {
+    "attendance": 41694,
+    "venue": "Stadium of Light"
+  },
+  "2014-12-13-WBA-AVL": {
+    "attendance": 24684,
+    "venue": "The Hawthorns"
+  },
+  "2014-12-14-MUN-LIV": {
+    "attendance": 75331,
+    "venue": "Old Trafford"
+  },
+  "2014-12-14-SWA-TOT": {
+    "attendance": 20650,
+    "venue": "Liberty Stadium"
+  },
+  "2014-12-15-EVE-QPR": {
+    "attendance": 34035,
+    "venue": "Goodison Park"
+  },
+  "2014-12-20-AVL-MUN": {
+    "attendance": 41273,
+    "venue": "Villa Park"
+  },
+  "2014-12-20-HUL-SWA": {
+    "attendance": 21913,
+    "venue": "MKM Stadium"
+  },
+  "2014-12-20-MCI-CRY": {
+    "attendance": 45302,
+    "venue": "Etihad Stadium"
+  },
+  "2014-12-20-QPR-WBA": {
+    "attendance": 17560,
+    "venue": "Loftus Road"
+  },
+  "2014-12-20-SOU-EVE": {
+    "attendance": 31475,
+    "venue": "St. Mary's Stadium"
+  },
+  "2014-12-20-TOT-BUR": {
+    "attendance": 35681,
+    "venue": "White Hart Lane"
+  },
+  "2014-12-20-WHU-LEI": {
+    "attendance": 34977,
+    "venue": "Boleyn Ground"
+  },
+  "2014-12-21-LIV-ARS": {
+    "attendance": 44703,
+    "venue": "Anfield"
+  },
+  "2014-12-21-NEW-SUN": {
+    "attendance": 52315,
+    "venue": "St. James' Park"
+  },
+  "2014-12-22-STK-CHE": {
+    "attendance": 27550,
+    "venue": "Britannia Stadium"
+  },
+  "2014-12-26-ARS-QPR": {
+    "attendance": 59947,
+    "venue": "Emirates Stadium"
+  },
+  "2014-12-26-BUR-LIV": {
+    "attendance": 21335,
+    "venue": "Turf Moor"
+  },
+  "2014-12-26-CHE-WHU": {
+    "attendance": 41589,
+    "venue": "Stamford Bridge"
+  },
+  "2014-12-26-CRY-SOU": {
+    "attendance": 24565,
+    "venue": "Selhurst Park"
+  },
+  "2014-12-26-EVE-STK": {
+    "attendance": 39166,
+    "venue": "Goodison Park"
+  },
+  "2014-12-26-LEI-TOT": {
+    "attendance": 31870,
+    "venue": "King Power Stadium"
+  },
+  "2014-12-26-MUN-NEW": {
+    "attendance": 75318,
+    "venue": "Old Trafford"
+  },
+  "2014-12-26-SUN-HUL": {
+    "attendance": 44817,
+    "venue": "Stadium of Light"
+  },
+  "2014-12-26-SWA-AVL": {
+    "attendance": 20683,
+    "venue": "Liberty Stadium"
+  },
+  "2014-12-26-WBA-MCI": {
+    "attendance": 26040,
+    "venue": "The Hawthorns"
+  },
+  "2014-12-28-AVL-SUN": {
+    "attendance": 35436,
+    "venue": "Villa Park"
+  },
+  "2014-12-28-HUL-LEI": {
+    "attendance": 23809,
+    "venue": "MKM Stadium"
+  },
+  "2014-12-28-MCI-BUR": {
+    "attendance": 45608,
+    "venue": "Etihad Stadium"
+  },
+  "2014-12-28-NEW-EVE": {
+    "attendance": 52313,
+    "venue": "St. James' Park"
+  },
+  "2014-12-28-QPR-CRY": {
+    "attendance": 18011,
+    "venue": "Loftus Road"
+  },
+  "2014-12-28-SOU-CHE": {
+    "attendance": 31641,
+    "venue": "St. Mary's Stadium"
+  },
+  "2014-12-28-STK-WBA": {
+    "attendance": 27070,
+    "venue": "Britannia Stadium"
+  },
+  "2014-12-28-TOT-MUN": {
+    "attendance": 35711,
+    "venue": "White Hart Lane"
+  },
+  "2014-12-28-WHU-ARS": {
+    "attendance": 34977,
+    "venue": "Boleyn Ground"
+  },
+  "2014-12-29-LIV-SWA": {
+    "attendance": 44714,
+    "venue": "Anfield"
+  },
+  "2015-01-01-AVL-CRY": {
+    "attendance": 29047,
+    "venue": "Villa Park"
+  },
+  "2015-01-01-HUL-EVE": {
+    "attendance": 23865,
+    "venue": "MKM Stadium"
+  },
+  "2015-01-01-LIV-LEI": {
+    "attendance": 44720,
+    "venue": "Anfield"
+  },
+  "2015-01-01-MCI-SUN": {
+    "attendance": 45367,
+    "venue": "Etihad Stadium"
+  },
+  "2015-01-01-NEW-BUR": {
+    "attendance": 51761,
+    "venue": "St. James' Park"
+  },
+  "2015-01-01-QPR-SWA": {
+    "attendance": 17729,
+    "venue": "Loftus Road"
+  },
+  "2015-01-01-SOU-ARS": {
+    "attendance": 31492,
+    "venue": "St. Mary's Stadium"
+  },
+  "2015-01-01-STK-MUN": {
+    "attendance": 27203,
+    "venue": "Britannia Stadium"
+  },
+  "2015-01-01-TOT-CHE": {
+    "attendance": 35903,
+    "venue": "White Hart Lane"
+  },
+  "2015-01-01-WHU-WBA": {
+    "attendance": 34914,
+    "venue": "Boleyn Ground"
+  },
+  "2015-01-10-BUR-QPR": {
+    "attendance": 17523,
+    "venue": "Turf Moor"
+  },
+  "2015-01-10-CHE-NEW": {
+    "attendance": 41612,
+    "venue": "Stamford Bridge"
+  },
+  "2015-01-10-CRY-TOT": {
+    "attendance": 24193,
+    "venue": "Selhurst Park"
+  },
+  "2015-01-10-EVE-MCI": {
+    "attendance": 39499,
+    "venue": "Goodison Park"
+  },
+  "2015-01-10-LEI-AVL": {
+    "attendance": 31728,
+    "venue": "King Power Stadium"
+  },
+  "2015-01-10-SUN-LIV": {
+    "attendance": 45369,
+    "venue": "Stadium of Light"
+  },
+  "2015-01-10-SWA-WHU": {
+    "attendance": 20745,
+    "venue": "Liberty Stadium"
+  },
+  "2015-01-10-WBA-HUL": {
+    "attendance": 24818,
+    "venue": "The Hawthorns"
+  },
+  "2015-01-11-ARS-STK": {
+    "attendance": 59956,
+    "venue": "Emirates Stadium"
+  },
+  "2015-01-11-MUN-SOU": {
+    "attendance": 75395,
+    "venue": "Old Trafford"
+  },
+  "2015-01-17-AVL-LIV": {
+    "attendance": 39758,
+    "venue": "Villa Park"
+  },
+  "2015-01-17-BUR-CRY": {
+    "attendance": 17782,
+    "venue": "Turf Moor"
+  },
+  "2015-01-17-LEI-STK": {
+    "attendance": 31772,
+    "venue": "King Power Stadium"
+  },
+  "2015-01-17-NEW-SOU": {
+    "attendance": 49307,
+    "venue": "St. James' Park"
+  },
+  "2015-01-17-QPR-MUN": {
+    "attendance": 18098,
+    "venue": "Loftus Road"
+  },
+  "2015-01-17-SWA-CHE": {
+    "attendance": 20785,
+    "venue": "Liberty Stadium"
+  },
+  "2015-01-17-TOT-SUN": {
+    "attendance": 35973,
+    "venue": "White Hart Lane"
+  },
+  "2015-01-18-MCI-ARS": {
+    "attendance": 45596,
+    "venue": "Etihad Stadium"
+  },
+  "2015-01-18-WHU-HUL": {
+    "attendance": 34914,
+    "venue": "Boleyn Ground"
+  },
+  "2015-01-19-EVE-WBA": {
+    "attendance": 34739,
+    "venue": "Goodison Park"
+  },
+  "2015-01-31-CHE-MCI": {
+    "attendance": 41620,
+    "venue": "Stamford Bridge"
+  },
+  "2015-01-31-CRY-EVE": {
+    "attendance": 25197,
+    "venue": "Selhurst Park"
+  },
+  "2015-01-31-HUL-NEW": {
+    "attendance": 23925,
+    "venue": "MKM Stadium"
+  },
+  "2015-01-31-LIV-WHU": {
+    "attendance": 44718,
+    "venue": "Anfield"
+  },
+  "2015-01-31-MUN-LEI": {
+    "attendance": 75329,
+    "venue": "Old Trafford"
+  },
+  "2015-01-31-STK-QPR": {
+    "attendance": 27512,
+    "venue": "Britannia Stadium"
+  },
+  "2015-01-31-SUN-BUR": {
+    "attendance": 44022,
+    "venue": "Stadium of Light"
+  },
+  "2015-01-31-WBA-TOT": {
+    "attendance": 25079,
+    "venue": "The Hawthorns"
+  },
+  "2015-02-01-ARS-AVL": {
+    "attendance": 59958,
+    "venue": "Emirates Stadium"
+  },
+  "2015-02-01-SOU-SWA": {
+    "attendance": 30943,
+    "venue": "St. Mary's Stadium"
+  },
+  "2015-02-07-AVL-CHE": {
+    "attendance": 35969,
+    "venue": "Villa Park"
+  },
+  "2015-02-07-EVE-LIV": {
+    "attendance": 39621,
+    "venue": "Goodison Park"
+  },
+  "2015-02-07-LEI-CRY": {
+    "attendance": 31695,
+    "venue": "King Power Stadium"
+  },
+  "2015-02-07-MCI-HUL": {
+    "attendance": 45233,
+    "venue": "Etihad Stadium"
+  },
+  "2015-02-07-QPR-SOU": {
+    "attendance": 18082,
+    "venue": "Loftus Road"
+  },
+  "2015-02-07-SWA-SUN": {
+    "attendance": 20355,
+    "venue": "Liberty Stadium"
+  },
+  "2015-02-07-TOT-ARS": {
+    "attendance": 35659,
+    "venue": "White Hart Lane"
+  },
+  "2015-02-08-BUR-WBA": {
+    "attendance": 16904,
+    "venue": "Turf Moor"
+  },
+  "2015-02-08-NEW-STK": {
+    "attendance": 47763,
+    "venue": "St. James' Park"
+  },
+  "2015-02-08-WHU-MUN": {
+    "attendance": 34499,
+    "venue": "Boleyn Ground"
+  },
+  "2015-02-10-ARS-LEI": {
+    "attendance": 60032,
+    "venue": "Emirates Stadium"
+  },
+  "2015-02-10-HUL-AVL": {
+    "attendance": 21467,
+    "venue": "MKM Stadium"
+  },
+  "2015-02-10-LIV-TOT": {
+    "attendance": 44577,
+    "venue": "Anfield"
+  },
+  "2015-02-10-SUN-QPR": {
+    "attendance": 39077,
+    "venue": "Stadium of Light"
+  },
+  "2015-02-11-CHE-EVE": {
+    "attendance": 41592,
+    "venue": "Stamford Bridge"
+  },
+  "2015-02-11-CRY-NEW": {
+    "attendance": 25118,
+    "venue": "Selhurst Park"
+  },
+  "2015-02-11-MUN-BUR": {
+    "attendance": 75356,
+    "venue": "Old Trafford"
+  },
+  "2015-02-11-SOU-WHU": {
+    "attendance": 31241,
+    "venue": "St. Mary's Stadium"
+  },
+  "2015-02-11-STK-MCI": {
+    "attendance": 27011,
+    "venue": "Britannia Stadium"
+  },
+  "2015-02-11-WBA-SWA": {
+    "attendance": 23516,
+    "venue": "The Hawthorns"
+  },
+  "2015-02-21-AVL-STK": {
+    "attendance": 31880,
+    "venue": "Villa Park"
+  },
+  "2015-02-21-CHE-BUR": {
+    "attendance": 41629,
+    "venue": "Stamford Bridge"
+  },
+  "2015-02-21-CRY-ARS": {
+    "attendance": 24721,
+    "venue": "Selhurst Park"
+  },
+  "2015-02-21-HUL-QPR": {
+    "attendance": 24466,
+    "venue": "MKM Stadium"
+  },
+  "2015-02-21-MCI-NEW": {
+    "attendance": 45602,
+    "venue": "Etihad Stadium"
+  },
+  "2015-02-21-SUN-WBA": {
+    "attendance": 40943,
+    "venue": "Stadium of Light"
+  },
+  "2015-02-21-SWA-MUN": {
+    "attendance": 20809,
+    "venue": "Liberty Stadium"
+  },
+  "2015-02-22-EVE-LEI": {
+    "attendance": 38904,
+    "venue": "Goodison Park"
+  },
+  "2015-02-22-SOU-LIV": {
+    "attendance": 31723,
+    "venue": "St. Mary's Stadium"
+  },
+  "2015-02-22-TOT-WHU": {
+    "attendance": 35837,
+    "venue": "White Hart Lane"
+  },
+  "2015-02-28-BUR-SWA": {
+    "attendance": 17388,
+    "venue": "Turf Moor"
+  },
+  "2015-02-28-MUN-SUN": {
+    "attendance": 75344,
+    "venue": "Old Trafford"
+  },
+  "2015-02-28-NEW-AVL": {
+    "attendance": 51573,
+    "venue": "St. James' Park"
+  },
+  "2015-02-28-STK-HUL": {
+    "attendance": 26473,
+    "venue": "Britannia Stadium"
+  },
+  "2015-02-28-WBA-SOU": {
+    "attendance": 25303,
+    "venue": "The Hawthorns"
+  },
+  "2015-02-28-WHU-CRY": {
+    "attendance": 34857,
+    "venue": "Boleyn Ground"
+  },
+  "2015-03-01-ARS-EVE": {
+    "attendance": 59925,
+    "venue": "Emirates Stadium"
+  },
+  "2015-03-01-LIV-MCI": {
+    "attendance": 44590,
+    "venue": "Anfield"
+  },
+  "2015-03-03-AVL-WBA": {
+    "attendance": 31272,
+    "venue": "Villa Park"
+  },
+  "2015-03-03-HUL-SUN": {
+    "attendance": 23017,
+    "venue": "MKM Stadium"
+  },
+  "2015-03-03-SOU-CRY": {
+    "attendance": 28351,
+    "venue": "St. Mary's Stadium"
+  },
+  "2015-03-04-LIV-BUR": {
+    "attendance": 44717,
+    "venue": "Anfield"
+  },
+  "2015-03-04-MCI-LEI": {
+    "attendance": 45000,
+    "venue": "Etihad Stadium"
+  },
+  "2015-03-04-NEW-MUN": {
+    "attendance": 49801,
+    "venue": "St. James' Park"
+  },
+  "2015-03-04-QPR-ARS": {
+    "attendance": 17977,
+    "venue": "Loftus Road"
+  },
+  "2015-03-04-STK-EVE": {
+    "attendance": 26431,
+    "venue": "Britannia Stadium"
+  },
+  "2015-03-04-TOT-SWA": {
+    "attendance": 34008,
+    "venue": "White Hart Lane"
+  },
+  "2015-03-04-WHU-CHE": {
+    "attendance": 34927,
+    "venue": "Boleyn Ground"
+  },
+  "2015-03-07-QPR-TOT": {
+    "attendance": 17992,
+    "venue": "Loftus Road"
+  },
+  "2015-03-14-ARS-WHU": {
+    "attendance": 60002,
+    "venue": "Emirates Stadium"
+  },
+  "2015-03-14-BUR-MCI": {
+    "attendance": 21216,
+    "venue": "Turf Moor"
+  },
+  "2015-03-14-CRY-QPR": {
+    "attendance": 24886,
+    "venue": "Selhurst Park"
+  },
+  "2015-03-14-LEI-HUL": {
+    "attendance": 31456,
+    "venue": "King Power Stadium"
+  },
+  "2015-03-14-SUN-AVL": {
+    "attendance": 45746,
+    "venue": "Stadium of Light"
+  },
+  "2015-03-14-WBA-STK": {
+    "attendance": 24323,
+    "venue": "The Hawthorns"
+  },
+  "2015-03-15-CHE-SOU": {
+    "attendance": 41624,
+    "venue": "Stamford Bridge"
+  },
+  "2015-03-15-EVE-NEW": {
+    "attendance": 38806,
+    "venue": "Goodison Park"
+  },
+  "2015-03-15-MUN-TOT": {
+    "attendance": 75112,
+    "venue": "Old Trafford"
+  },
+  "2015-03-16-SWA-LIV": {
+    "attendance": 20828,
+    "venue": "Liberty Stadium"
+  },
+  "2015-03-21-AVL-SWA": {
+    "attendance": 35598,
+    "venue": "Villa Park"
+  },
+  "2015-03-21-MCI-WBA": {
+    "attendance": 45018,
+    "venue": "Etihad Stadium"
+  },
+  "2015-03-21-NEW-ARS": {
+    "attendance": 50544,
+    "venue": "St. James' Park"
+  },
+  "2015-03-21-SOU-BUR": {
+    "attendance": 30864,
+    "venue": "St. Mary's Stadium"
+  },
+  "2015-03-21-STK-CRY": {
+    "attendance": 27532,
+    "venue": "Britannia Stadium"
+  },
+  "2015-03-21-TOT-LEI": {
+    "attendance": 35950,
+    "venue": "White Hart Lane"
+  },
+  "2015-03-21-WHU-SUN": {
+    "attendance": 34914,
+    "venue": "Boleyn Ground"
+  },
+  "2015-03-22-HUL-CHE": {
+    "attendance": 24598,
+    "venue": "MKM Stadium"
+  },
+  "2015-03-22-LIV-MUN": {
+    "attendance": 44405,
+    "venue": "Anfield"
+  },
+  "2015-03-22-QPR-EVE": {
+    "attendance": 17706,
+    "venue": "Loftus Road"
+  },
+  "2015-04-04-ARS-LIV": {
+    "attendance": 60081,
+    "venue": "Emirates Stadium"
+  },
+  "2015-04-04-CHE-STK": {
+    "attendance": 41098,
+    "venue": "Stamford Bridge"
+  },
+  "2015-04-04-EVE-SOU": {
+    "attendance": 39390,
+    "venue": "Goodison Park"
+  },
+  "2015-04-04-LEI-WHU": {
+    "attendance": 31863,
+    "venue": "King Power Stadium"
+  },
+  "2015-04-04-MUN-AVL": {
+    "attendance": 75397,
+    "venue": "Old Trafford"
+  },
+  "2015-04-04-SWA-HUL": {
+    "attendance": 20333,
+    "venue": "Liberty Stadium"
+  },
+  "2015-04-04-WBA-QPR": {
+    "attendance": 25735,
+    "venue": "The Hawthorns"
+  },
+  "2015-04-05-BUR-TOT": {
+    "attendance": 18829,
+    "venue": "Turf Moor"
+  },
+  "2015-04-05-SUN-NEW": {
+    "attendance": 47563,
+    "venue": "Stadium of Light"
+  },
+  "2015-04-06-CRY-MCI": {
+    "attendance": 24718,
+    "venue": "Selhurst Park"
+  },
+  "2015-04-07-AVL-QPR": {
+    "attendance": 33708,
+    "venue": "Villa Park"
+  },
+  "2015-04-11-BUR-ARS": {
+    "attendance": 20615,
+    "venue": "Turf Moor"
+  },
+  "2015-04-11-SOU-HUL": {
+    "attendance": 30359,
+    "venue": "St. Mary's Stadium"
+  },
+  "2015-04-11-SUN-CRY": {
+    "attendance": 42073,
+    "venue": "Stadium of Light"
+  },
+  "2015-04-11-SWA-EVE": {
+    "attendance": 20468,
+    "venue": "Liberty Stadium"
+  },
+  "2015-04-11-TOT-AVL": {
+    "attendance": 35687,
+    "venue": "White Hart Lane"
+  },
+  "2015-04-11-WBA-LEI": {
+    "attendance": 26768,
+    "venue": "The Hawthorns"
+  },
+  "2015-04-11-WHU-STK": {
+    "attendance": 34946,
+    "venue": "Boleyn Ground"
+  },
+  "2015-04-12-MUN-MCI": {
+    "attendance": 75313,
+    "venue": "Old Trafford"
+  },
+  "2015-04-12-QPR-CHE": {
+    "attendance": 17939,
+    "venue": "Loftus Road"
+  },
+  "2015-04-13-LIV-NEW": {
+    "attendance": 44611,
+    "venue": "Anfield"
+  },
+  "2015-04-18-CHE-MUN": {
+    "attendance": 41422,
+    "venue": "Stamford Bridge"
+  },
+  "2015-04-18-CRY-WBA": {
+    "attendance": 24765,
+    "venue": "Selhurst Park"
+  },
+  "2015-04-18-EVE-BUR": {
+    "attendance": 39496,
+    "venue": "Goodison Park"
+  },
+  "2015-04-18-LEI-SWA": {
+    "attendance": 31121,
+    "venue": "King Power Stadium"
+  },
+  "2015-04-18-STK-SOU": {
+    "attendance": 26467,
+    "venue": "Britannia Stadium"
+  },
+  "2015-04-19-MCI-WHU": {
+    "attendance": 45041,
+    "venue": "Etihad Stadium"
+  },
+  "2015-04-19-NEW-TOT": {
+    "attendance": 47427,
+    "venue": "St. James' Park"
+  },
+  "2015-04-25-BUR-LEI": {
+    "attendance": 19582,
+    "venue": "Turf Moor"
+  },
+  "2015-04-25-CRY-HUL": {
+    "attendance": 23876,
+    "venue": "Selhurst Park"
+  },
+  "2015-04-25-MCI-AVL": {
+    "attendance": 45036,
+    "venue": "Etihad Stadium"
+  },
+  "2015-04-25-NEW-SWA": {
+    "attendance": 46884,
+    "venue": "St. James' Park"
+  },
+  "2015-04-25-QPR-WHU": {
+    "attendance": 18036,
+    "venue": "Loftus Road"
+  },
+  "2015-04-25-SOU-TOT": {
+    "attendance": 31622,
+    "venue": "St. Mary's Stadium"
+  },
+  "2015-04-25-STK-SUN": {
+    "attendance": 26706,
+    "venue": "Britannia Stadium"
+  },
+  "2015-04-25-WBA-LIV": {
+    "attendance": 26663,
+    "venue": "The Hawthorns"
+  },
+  "2015-04-26-ARS-CHE": {
+    "attendance": 60066,
+    "venue": "Emirates Stadium"
+  },
+  "2015-04-26-EVE-MUN": {
+    "attendance": 39497,
+    "venue": "Goodison Park"
+  },
+  "2015-04-28-HUL-LIV": {
+    "attendance": 24843,
+    "venue": "MKM Stadium"
+  },
+  "2015-04-29-LEI-CHE": {
+    "attendance": 32021,
+    "venue": "King Power Stadium"
+  },
+  "2015-05-02-AVL-EVE": {
+    "attendance": 37859,
+    "venue": "Villa Park"
+  },
+  "2015-05-02-LEI-NEW": {
+    "attendance": 31576,
+    "venue": "King Power Stadium"
+  },
+  "2015-05-02-LIV-QPR": {
+    "attendance": 44707,
+    "venue": "Anfield"
+  },
+  "2015-05-02-MUN-WBA": {
+    "attendance": 75454,
+    "venue": "Old Trafford"
+  },
+  "2015-05-02-SUN-SOU": {
+    "attendance": 39613,
+    "venue": "Stadium of Light"
+  },
+  "2015-05-02-SWA-STK": {
+    "attendance": 20661,
+    "venue": "Liberty Stadium"
+  },
+  "2015-05-02-WHU-BUR": {
+    "attendance": 34946,
+    "venue": "Boleyn Ground"
+  },
+  "2015-05-03-CHE-CRY": {
+    "attendance": 41566,
+    "venue": "Stamford Bridge"
+  },
+  "2015-05-03-TOT-MCI": {
+    "attendance": 35784,
+    "venue": "White Hart Lane"
+  },
+  "2015-05-04-HUL-ARS": {
+    "attendance": 23628,
+    "venue": "MKM Stadium"
+  },
+  "2015-05-09-AVL-WHU": {
+    "attendance": 39294,
+    "venue": "Villa Park"
+  },
+  "2015-05-09-CRY-MUN": {
+    "attendance": 25009,
+    "venue": "Selhurst Park"
+  },
+  "2015-05-09-EVE-SUN": {
+    "attendance": 38246,
+    "venue": "Goodison Park"
+  },
+  "2015-05-09-HUL-BUR": {
+    "attendance": 24877,
+    "venue": "MKM Stadium"
+  },
+  "2015-05-09-LEI-SOU": {
+    "attendance": 31939,
+    "venue": "King Power Stadium"
+  },
+  "2015-05-09-NEW-WBA": {
+    "attendance": 47894,
+    "venue": "St. James' Park"
+  },
+  "2015-05-09-STK-TOT": {
+    "attendance": 27104,
+    "venue": "Britannia Stadium"
+  },
+  "2015-05-10-CHE-LIV": {
+    "attendance": 41547,
+    "venue": "Stamford Bridge"
+  },
+  "2015-05-10-MCI-QPR": {
+    "attendance": 44564,
+    "venue": "Etihad Stadium"
+  },
+  "2015-05-11-ARS-SWA": {
+    "attendance": 59989,
+    "venue": "Emirates Stadium"
+  },
+  "2015-05-16-BUR-STK": {
+    "attendance": 18636,
+    "venue": "Turf Moor"
+  },
+  "2015-05-16-LIV-CRY": {
+    "attendance": 44673,
+    "venue": "Anfield"
+  },
+  "2015-05-16-QPR-NEW": {
+    "attendance": 17608,
+    "venue": "Loftus Road"
+  },
+  "2015-05-16-SOU-AVL": {
+    "attendance": 31636,
+    "venue": "St. Mary's Stadium"
+  },
+  "2015-05-16-SUN-LEI": {
+    "attendance": 46705,
+    "venue": "Stadium of Light"
+  },
+  "2015-05-16-TOT-HUL": {
+    "attendance": 35857,
+    "venue": "White Hart Lane"
+  },
+  "2015-05-16-WHU-EVE": {
+    "attendance": 34977,
+    "venue": "Boleyn Ground"
+  },
+  "2015-05-17-MUN-ARS": {
+    "attendance": 75323,
+    "venue": "Old Trafford"
+  },
+  "2015-05-17-SWA-MCI": {
+    "attendance": 20669,
+    "venue": "Liberty Stadium"
+  },
+  "2015-05-18-WBA-CHE": {
+    "attendance": 24750,
+    "venue": "The Hawthorns"
+  },
+  "2015-05-20-ARS-SUN": {
+    "attendance": 59987,
+    "venue": "Emirates Stadium"
+  },
+  "2015-05-24-ARS-WBA": {
+    "attendance": 59971,
+    "venue": "Emirates Stadium"
+  },
+  "2015-05-24-AVL-BUR": {
+    "attendance": 40792,
+    "venue": "Villa Park"
+  },
+  "2015-05-24-CHE-SUN": {
+    "attendance": 41620,
+    "venue": "Stamford Bridge"
+  },
+  "2015-05-24-CRY-SWA": {
+    "attendance": 25076,
+    "venue": "Selhurst Park"
+  },
+  "2015-05-24-EVE-TOT": {
+    "attendance": 39365,
+    "venue": "Goodison Park"
+  },
+  "2015-05-24-HUL-MUN": {
+    "attendance": 24745,
+    "venue": "MKM Stadium"
+  },
+  "2015-05-24-LEI-QPR": {
+    "attendance": 31467,
+    "venue": "King Power Stadium"
+  },
+  "2015-05-24-MCI-SOU": {
+    "attendance": 45919,
+    "venue": "Etihad Stadium"
+  },
+  "2015-05-24-NEW-WHU": {
+    "attendance": 52094,
+    "venue": "St. James' Park"
+  },
+  "2015-05-24-STK-LIV": {
+    "attendance": 27602,
+    "venue": "Britannia Stadium"
+  }
+}

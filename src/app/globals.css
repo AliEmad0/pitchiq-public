@@ -1,0 +1,879 @@
+@import "tailwindcss";
+/* TASK-M15: country flags for player nationality (squad cards + player page). */
+@import "flag-icons/css/flag-icons.min.css";
+
+/* next-themes toggles the `.dark` class on <html> (ThemeProvider attribute="class").
+   Tailwind v4 otherwise defaults the `dark:` variant to `prefers-color-scheme`,
+   which decouples every `dark:` utility from the toggle and binds it to the OS
+   setting instead — so e.g. the dark-only standings row tint (`dark:bg-blue-950/40`)
+   leaks into light mode whenever the OS is in dark mode. Bind `dark:` to the class
+   so all dark utilities follow the in-app theme toggle, not the OS. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Light theme — PL-purple palette (TASK-909). Was the Shadcn neutral OKLCH base;
+   now hex for the brand palette. Structure unchanged. */
+:root {
+  --background: #fafafa;
+  --foreground: #0c0a14;
+  --card: #ffffff;
+  --card-foreground: #0c0a14;
+  --popover: #ffffff;
+  --popover-foreground: #0c0a14;
+  --primary: #a3179a; /* deeper magenta so white text clears AA on light */
+  --primary-foreground: #ffffff;
+  --secondary: #f5f4f7;
+  --secondary-foreground: #0c0a14;
+  --muted: #f5f4f7;
+  --muted-foreground: #52525b;
+  --accent: #f5f4f7;
+  --accent-foreground: #0c0a14;
+  --destructive: #dc2626;
+  --border: #e7e5ea;
+  --input: #d4d1d8;
+  --ring: #a3179a;
+  --radius: 0.625rem;
+
+  /* Status + chart tokens (TASK-908 structure; TASK-909 values).
+     --chart-* are read at runtime by <ComparisonRadar>; kept theme-invariant
+     (same in :root and .dark) so they don't go stale on a theme toggle. */
+  --success: #059669;
+  --success-foreground: #ffffff;
+  --destructive-foreground: #ffffff;
+  --chart-1: #c91dbb; /* radar series A — magenta */
+  --chart-2: #fbbf24; /* radar series B — amber */
+}
+
+/* Dark theme — PL-purple palette (TASK-909), applied via .dark class. The
+   headline visual change: purple-undertone darks + magenta accent, replacing
+   the cold neutral slate. */
+.dark {
+  --background: #0c0a14;
+  --foreground: #fafafa;
+  --card: #1a1726;
+  --card-foreground: #fafafa;
+  --popover: #252134;
+  --popover-foreground: #fafafa;
+  --primary: #c91dbb; /* PL magenta — white text ≈ 4.8:1 */
+  --primary-foreground: #ffffff;
+  --secondary: #252134;
+  --secondary-foreground: #fafafa;
+  --muted: #1a1726;
+  --muted-foreground: #a1a1aa;
+  --accent: #252134;
+  --accent-foreground: #fafafa;
+  --destructive: #ef4444;
+  --border: #252134;
+  --input: #3a3548;
+  --ring: #c91dbb;
+
+  /* Status + chart tokens (chart-* theme-invariant — see :root). */
+  --success: #10b981;
+  --success-foreground: #052e16;
+  --destructive-foreground: #ffffff;
+  --chart-1: #c91dbb;
+  --chart-2: #fbbf24;
+}
+
+/* Map CSS variables → Tailwind v4 utility classes (`bg-primary`, `text-muted-foreground`, etc.) */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* Motion tokens (TASK-1701) — the Phase-17 foundation, era-invariant.
+   CSS owns the VALUES; src/utils/motion.ts mirrors them for JS-driven motion
+   and tests/unit/motion-tokens.test.ts enforces parity. Durations are plain
+   custom props (Tailwind v4 has no themed duration namespace — use
+   `duration-(--motion-duration-base)` where a utility is needed); easings sit
+   in a plain @theme block (NOT the inline one) so Tailwind both emits the
+   runtime var for plain CSS `animation:` declarations AND generates the
+   `ease-out-soft` / `ease-in-out-soft` / `ease-pop` utilities. */
+:root {
+  --motion-duration-fast: 150ms; /* hover/press, color/opacity */
+  --motion-duration-base: 300ms; /* entrances, slides */
+  --motion-duration-slow: 600ms; /* emphasis pulses, loader beats */
+}
+
+@theme {
+  --ease-out-soft: cubic-bezier(0.25, 1, 0.5, 1); /* decelerating entrance */
+  --ease-in-out-soft: cubic-bezier(0.45, 0, 0.55, 1); /* symmetric move */
+  --ease-pop: cubic-bezier(0.34, 1.56, 0.64, 1); /* slight overshoot, playful */
+}
+
+/* TASK-1702 — neon wordmark-draw boot loader (owner pick #20 of 20).
+   SSR-painted pure CSS on the motion tokens so it animates before hydration
+   and self-dismisses (boot-exit ... forwards -> visibility:hidden) even if JS
+   never runs. Era + theme aware via --background/--primary; GPU-friendly
+   (opacity/transform/stroke). Timeline: stroke draws 0-1.8s -> accent floods
+   the letters 1.8-2.4s -> rail completes ~2.85s -> exit fade 3-3.6s. */
+.boot-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: var(--background);
+  /* Purely decorative — NEVER intercepts input (an intercepting fading
+     overlay swallows clicks on slow CI runners). Scroll is locked separately
+     via .boot-lock on <html>. */
+  pointer-events: none;
+  animation: boot-exit var(--motion-duration-slow) var(--ease-out-soft) 3s forwards;
+}
+
+/* While the boot plays: no scrollbar, no scrolling. Added pre-paint by the
+   gate script in LoadingScreen.tsx, removed on boot-exit animationend (with a
+   timeout fallback) — never added when JS is unavailable. */
+.boot-lock {
+  overflow: hidden;
+}
+
+@keyframes boot-exit {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+/* Repeat document load in the same session: the inline gate script stamps
+   <html data-booted> before first paint → the overlay never shows. */
+:root[data-booted] .boot-loader {
+  display: none;
+  animation: none;
+}
+
+.boot-neon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  width: min(78vw, 520px);
+}
+
+.boot-neon-svg {
+  width: 100%;
+  overflow: visible;
+}
+
+.boot-neon-text {
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  font-size: 64px;
+  font-weight: 800;
+  fill: transparent;
+  stroke: var(--primary);
+  stroke-width: 1.6;
+  stroke-dasharray: 640;
+  stroke-dashoffset: 640;
+  animation: boot-draw 3s var(--ease-in-out-soft) forwards;
+}
+
+/* The neon glow lives on the SVG (a filter on a tspan is unreliable — the
+   /ar two-tone puts the animated class on tspans). */
+.boot-neon-svg {
+  filter: drop-shadow(0 0 10px color-mix(in srgb, var(--primary) 60%, transparent));
+}
+
+/* /ar draws the header's Nastaliq lockup (owner pick): the <text> carries the
+   calligraphic face + sizing (tall ascenders/descenders → smaller size, roomy
+   viewBox), the two tspans carry the animation — بيتش flood/stroke in the
+   foreground tone via --boot-fill, آي كيو stays on the accent default. */
+.boot-neon-ar {
+  font-family: var(--font-nastaliq), var(--font-arabic), serif;
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.boot-tone-fg {
+  --boot-fill: var(--foreground);
+  stroke: var(--foreground);
+}
+
+@keyframes boot-draw {
+  0% {
+    stroke-dashoffset: 640;
+    fill: transparent;
+  }
+  60% {
+    stroke-dashoffset: 0;
+    fill: transparent;
+  }
+  80%,
+  100% {
+    stroke-dashoffset: 0;
+    fill: var(--boot-fill, var(--primary));
+  }
+}
+
+.boot-rail {
+  width: 64%;
+  height: 4px;
+  border-radius: 2px;
+  background: color-mix(in srgb, var(--foreground) 15%, transparent);
+  overflow: hidden;
+}
+
+/* scaleX, NOT width (TASK-1706 audit): a width animation re-lays-out every
+   frame; the transform stays on the compositor. Origin pins the fill to the
+   reading-direction start edge. */
+.boot-rail-fill {
+  height: 100%;
+  width: 100%;
+  background: var(--primary);
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  animation: boot-rail-grow 3s var(--ease-in-out-soft) forwards;
+}
+
+[dir="rtl"] .boot-rail-fill {
+  transform-origin: 100% 50%;
+}
+
+@keyframes boot-rail-grow {
+  0% {
+    transform: scaleX(0);
+  }
+  60% {
+    transform: scaleX(0.58);
+  }
+  95%,
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+/* TASK-1703 — zoom-fade route transitions (owner pick #5 of 20). Scoped to
+   NAVIGATION view transitions via <html data-vt="nav"> (stamped by
+   TransitionLink, removed on finished) — the TASK-910 compare slot-fill morph
+   also runs view transitions and must NOT zoom the page. Reduced motion is
+   covered twice: the JS gate never intercepts, and the global
+   ::view-transition-* kill applies regardless. */
+[data-vt="nav"]::view-transition-old(root) {
+  animation: vt-zoom-out var(--motion-duration-base) var(--ease-out-soft) both;
+}
+
+[data-vt="nav"]::view-transition-new(root) {
+  animation: vt-zoom-in var(--motion-duration-base) var(--ease-out-soft) both;
+}
+
+@keyframes vt-zoom-out {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes vt-zoom-in {
+  from {
+    opacity: 0;
+    transform: scale(0.93);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Reduced motion: a short STATIC branded frame — filled wordmark + full rail
+   shown immediately, no movement, quicker dismiss (total ≈ 1s). */
+@media (prefers-reduced-motion: reduce) {
+  .boot-loader {
+    animation: boot-exit var(--motion-duration-base) ease 0.7s forwards;
+  }
+  .boot-neon-text {
+    animation: none;
+    stroke-dashoffset: 0;
+    fill: var(--boot-fill, var(--primary));
+  }
+  .boot-rail-fill {
+    animation: none;
+    transform: scaleX(1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  }
+}
+
+@layer utilities {
+  /* Single source of truth for page gutter + max content width. Adopted by
+     Header, Footer, and every page-level content surface so the horizontal
+     alignment of chrome and content matches pixel-for-pixel. */
+  .container-page {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+  }
+}
+
+/* TASK-910 — compare slot-fill polish; retokened + era-aware in TASK-1701.
+   The just-filled pulse flashes the ERA ACCENT (--primary via color-mix, so
+   retro pulses claret, golden cyan, modern magenta) around a slot the moment
+   it's populated. The 0%-mix end stop keeps the hue while fading to
+   transparent (mirrors the original rgba(...,0)). Reduced-motion disables the
+   pulse AND any native View Transition animation (belt-and-suspenders with
+   the JS gate in src/utils/motion.ts). */
+@keyframes slot-filled-pulse {
+  0% {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--primary) 45%, transparent);
+  }
+  100% {
+    box-shadow: 0 0 0 12px color-mix(in srgb, var(--primary) 0%, transparent);
+  }
+}
+
+[data-just-filled="true"] {
+  animation: slot-filled-pulse var(--motion-duration-slow) var(--ease-out-soft);
+}
+
+/* TASK-1102 — trivia card: each new fact slides up as it mounts (re-triggered by
+   the `key={fact.id}` change on shuffle). Pure CSS, no animation library. */
+@keyframes trivia-slide-up {
+  from {
+    transform: translateY(8px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.trivia-fact {
+  animation: trivia-slide-up var(--motion-duration-base) var(--ease-out-soft);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .trivia-fact {
+    animation: none;
+  }
+  [data-just-filled="true"] {
+    animation: none;
+  }
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
+}
+
+/* TASK-1704 — soft-rise entrance/scroll reveal (owner pick #1 of 20).
+   Attribute names live in src/utils/reveal.ts. The hidden state is scoped
+   under :root[data-reveal-ready] — stamped PRE-PAINT by the gate script in
+   the layout only when JS runs, IntersectionObserver exists, and reduced
+   motion is off — so a no-JS/reduced-motion visit never hides content.
+   `data-revealed` is set via the DOM by <RevealController> (never rendered
+   by React). ANIMATION (not transition) on purpose: a persistent transition
+   on transform would hijack the cards' own hover transforms with the stagger
+   delay, and a one-shot animation self-cleans (no lingering transform →
+   position:sticky descendants are safe once the reveal ends). Stagger =
+   45ms/step via --rvi, capped at 12. */
+:root[data-reveal-ready] [data-reveal]:not([data-revealed]) {
+  opacity: 0;
+}
+
+:root[data-reveal-ready] [data-reveal][data-revealed] {
+  animation: reveal-rise var(--motion-duration-base) var(--ease-out-soft)
+    calc(min(var(--rvi, 0), 12) * 45ms) both;
+}
+
+/* Failsafe (the 1702 "CSS can never brick the app" rule): the gate stamped
+   but hydration died before the controller mounted (`data-reveal-live`
+   missing) → auto-play the same rise at 2.8s. Same animation-name on
+   purpose: if hydration lands late, changing the delay does NOT restart a
+   running/finished animation, so nothing double-plays. */
+:root[data-reveal-ready]:not([data-reveal-live]) [data-reveal]:not([data-revealed]) {
+  animation: reveal-rise var(--motion-duration-base) var(--ease-out-soft)
+    calc(2.8s + min(var(--rvi, 0), 12) * 45ms) both;
+}
+
+@keyframes reveal-rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+}
+
+/* Belt-and-braces with the gate script: if the preference flips to reduce
+   mid-session, show everything and stop animating. */
+@media (prefers-reduced-motion: reduce) {
+  :root[data-reveal-ready] [data-reveal] {
+    opacity: 1 !important;
+    animation: none !important;
+  }
+}
+
+/* TASK-1705 — "Neon glow" micro-interactions (owner pick #4 of 20).
+   The app-wide interaction language on the 1701 tokens: hovering an
+   interactive surface lights an era-accent halo + tints its border toward
+   the accent (boot-loader kin — magenta modern, cyan golden, claret retro);
+   presses compress slightly; dropdowns pop in on the fast token. A surface
+   with its own accent (the teams-index club cards) overrides the halo colour
+   via --ix-glow. Colours ride --primary → re-skin per era automatically. */
+.ix-glow {
+  transition:
+    box-shadow var(--motion-duration-fast) var(--ease-out-soft),
+    border-color var(--motion-duration-fast) var(--ease-out-soft),
+    background-color var(--motion-duration-fast) var(--ease-out-soft),
+    color var(--motion-duration-fast) var(--ease-out-soft),
+    transform var(--motion-duration-fast) var(--ease-out-soft);
+}
+
+/* `:root` + the doubled class lift the specificity to (0,4,0) so the hover
+   glow beats the golden era's gel-card bevel — `:root:not(.dark)[data-era=
+   "goldenMillennium"] :where(.bg-card)` at (0,3,0), which sits LATER in this
+   file (era overrides live at the end) and would otherwise win the
+   box-shadow. The bevel yields only while hovered. */
+:root .ix-glow.ix-glow:hover {
+  box-shadow: 0 0 14px -2px var(--ix-glow, color-mix(in srgb, var(--primary) 55%, transparent));
+  border-color: color-mix(in srgb, var(--primary) 45%, var(--border));
+}
+
+.ix-press:active {
+  transform: scale(0.98);
+}
+
+/* Standings row hover (ticket item): a wash across the WHOLE row. Painted on
+   the CELLS (not the <tr>) so it also covers the sticky #/Club/Pts columns,
+   whose opaque bg-card would otherwise mask a row-level background. */
+.ix-row :is(td, th) {
+  transition: background-color var(--motion-duration-fast) var(--ease-out-soft);
+}
+
+/* `:root` beats the golden gel gradient's (0,3,0) — `background-image: none`
+   included so the wash reads uniformly across sticky + middle cells there. */
+:root .ix-row:hover :is(td, th) {
+  background-color: color-mix(in srgb, var(--primary) 8%, var(--card));
+  background-image: none;
+}
+
+/* Tab triggers (the fixture pill tabs + squad position tabs): hover glow +
+   a standing glow on the active pill. */
+.ix-tab:hover {
+  box-shadow: 0 0 10px -2px color-mix(in srgb, var(--primary) 45%, transparent);
+}
+
+.ix-tab[data-state="active"] {
+  box-shadow: 0 0 12px -2px color-mix(in srgb, var(--primary) 60%, transparent);
+}
+
+/* Standing halo for the ⌘K command dialog — the neon frame. */
+.ix-halo {
+  box-shadow: 0 0 28px -6px color-mix(in srgb, var(--primary) 45%, transparent);
+}
+
+/* Dropdown/panel entrance (search results, popovers that opt in). */
+@keyframes ix-pop {
+  from {
+    opacity: 0;
+    transform: translateY(-2px) scale(0.98);
+  }
+}
+
+.ix-pop {
+  transform-origin: top;
+  animation: ix-pop var(--motion-duration-fast) var(--ease-out-soft);
+}
+
+/* Reduced motion: the transform press + the pop entrance are motion → off.
+   The glow itself is a colour/shadow change on the fast token — the policy
+   (docs/motion.md) allows it to persist. */
+@media (prefers-reduced-motion: reduce) {
+  .ix-press:active {
+    transform: none;
+  }
+  .ix-pop {
+    animation: none;
+  }
+}
+
+/* TASK-1706 closeout — the remaining reduced-motion gates the audit found:
+   the Shadcn overlay entrances (zoom/slide transforms via tw-animate) and the
+   autoplaying skeleton pulse (policy: autoplay must stop; a static block
+   still communicates loading). Radix presence checks the COMPUTED
+   animation-name, so `none` makes exits unmount instantly instead of hanging
+   on a missing animationend. */
+@media (prefers-reduced-motion: reduce) {
+  [data-slot="dialog-content"],
+  [data-slot="dialog-overlay"],
+  [data-slot="sheet-content"],
+  [data-slot="sheet-overlay"],
+  [data-slot="select-content"],
+  [data-slot="dropdown-menu-content"],
+  [data-slot="dropdown-menu-sub-content"],
+  [data-slot="popover-content"],
+  [data-slot="tooltip-content"] {
+    animation: none !important;
+  }
+  .animate-pulse {
+    animation: none;
+  }
+}
+
+/* ============================================================================
+   TASK-M25 — Time-Machine Mode: era-scoped theme overrides.
+   Layered on the TASK-908/909 token system. `:root:not(.dark)[data-era=…]`
+   overrides light-mode tokens, `.dark[data-era=…]` overrides dark-mode tokens;
+   both out-specify the base :root / .dark blocks, and `:not(.dark)` keeps light
+   values out of dark mode. Modern sets no `data-era`, so its blocks never match.
+   ========================================================================== */
+
+/* --- Retro 90s — light (cream newsprint) --- */
+:root:not(.dark)[data-era="retro90s"] {
+  --background: #e9e0cb;
+  --foreground: #241f16;
+  --card: #e3d8bc;
+  --card-foreground: #241f16;
+  --popover: #e3d8bc;
+  --popover-foreground: #241f16;
+  --primary: #8f2b25;
+  --primary-foreground: #f1e6cd;
+  --secondary: #ddd0b1;
+  --secondary-foreground: #241f16;
+  --muted: #ddd0b1;
+  --muted-foreground: #5c503a;
+  --accent: #ddd0b1;
+  --accent-foreground: #241f16;
+  --destructive: #a5322b;
+  --destructive-foreground: #f1e6cd;
+  --border: #c3b288;
+  --input: #b8a576;
+  --ring: #8f2b25;
+  --success: #3f7d3a;
+  --success-foreground: #eaf4e4;
+  --font-era-display: var(--font-oswald);
+  --era-grid: #c3b288;
+  --era-texture: repeating-linear-gradient(
+    0deg,
+    rgba(90, 68, 34, 0.045) 0 1px,
+    transparent 1px 4px
+  );
+}
+
+/* --- Retro 90s — dark (floodlit-night programme) --- */
+.dark[data-era="retro90s"] {
+  --background: #211c15;
+  --foreground: #ece0c4;
+  --card: #2a2418;
+  --card-foreground: #ece0c4;
+  --popover: #2a2418;
+  --popover-foreground: #ece0c4;
+  --primary: #d2554c;
+  --primary-foreground: #1a0b07;
+  --secondary: #2e2618;
+  --secondary-foreground: #ece0c4;
+  --muted: #2e2618;
+  --muted-foreground: #b3a585;
+  --accent: #2e2618;
+  --accent-foreground: #ece0c4;
+  --destructive: #d2554c;
+  --destructive-foreground: #1a0b07;
+  --border: #3a3328;
+  --input: #4a4031;
+  --ring: #d2554c;
+  --success: #4a8f44;
+  --success-foreground: #0c1f0a;
+  --font-era-display: var(--font-oswald);
+  --era-grid: #3a3328;
+  --era-texture: repeating-linear-gradient(
+    0deg,
+    rgba(210, 180, 120, 0.04) 0 1px,
+    transparent 1px 4px
+  );
+}
+
+/* --- Golden Millennium — light (glossy silver Web 2.0) --- */
+:root:not(.dark)[data-era="goldenMillennium"] {
+  --background: #e9f0f7;
+  --foreground: #14243a;
+  --card: #ffffff;
+  --card-foreground: #14243a;
+  --popover: #ffffff;
+  --popover-foreground: #14243a;
+  --primary: #11647c;
+  --primary-foreground: #ffffff;
+  --secondary: #dce6f0;
+  --secondary-foreground: #14243a;
+  --muted: #dce6f0;
+  --muted-foreground: #51688a;
+  --accent: #dce6f0;
+  --accent-foreground: #14243a;
+  --destructive: #b83b3b;
+  --destructive-foreground: #ffffff;
+  --border: #cfdcea;
+  --input: #b9c8d8;
+  --ring: #11647c;
+  --success: #16855a;
+  --success-foreground: #ffffff;
+  --font-era-display: var(--font-rajdhani);
+  --font-sans: var(--font-titillium);
+  --era-grid: #cfdcea;
+  --era-texture: none;
+}
+
+/* --- Golden Millennium — dark (navy gel) --- */
+.dark[data-era="goldenMillennium"] {
+  --background: #0b1422;
+  --foreground: #eaf2fb;
+  --card: #0e1a2c;
+  --card-foreground: #eaf2fb;
+  --popover: #102740;
+  --popover-foreground: #eaf2fb;
+  --primary: #2fd4ec;
+  --primary-foreground: #03222b;
+  --secondary: #16314e;
+  --secondary-foreground: #eaf2fb;
+  --muted: #13243c;
+  --muted-foreground: #8fb0d2;
+  --accent: #16314e;
+  --accent-foreground: #eaf2fb;
+  --destructive: #e25b5b;
+  --destructive-foreground: #20090a;
+  --border: #1c2c44;
+  --input: #2c3e5a;
+  --ring: #2fd4ec;
+  --success: #27b97e;
+  --success-foreground: #06301f;
+  --font-era-display: var(--font-rajdhani);
+  --font-sans: var(--font-titillium);
+  --era-grid: #1c2c44;
+  --era-texture: repeating-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.022) 0 1px,
+    transparent 1px 3px
+  );
+}
+
+/* Era headings take the display font (Modern has no data-era → unaffected). */
+[data-era] :is(h1, h2, h3, h4) {
+  font-family: var(--font-era-display), system-ui, sans-serif;
+}
+
+/* Era surface texture / scanline painted over the page background. */
+[data-era] body {
+  background-image: var(--era-texture, none);
+}
+
+/* --- Golden Millennium glossy chrome (TASK-M25, approved enhancement) ---
+   Era-scoped, CSS-only: a silver/navy gradient header band, beveled gel cards,
+   and gel buttons — the Web 2.0 look. Targets the real <header> + .bg-card
+   surfaces (no component edits). AA holds: text stays navy-on-silver (light) /
+   light-on-steel (dark). */
+
+/* Gel primary buttons/pills (both modes): sheen overlay + top highlight. */
+[data-era="goldenMillennium"] :where(.bg-primary) {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0));
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+/* Glossy header band — the sticky NAV header only (`header.sticky`), not the
+   page-hero <header> elements (which would otherwise get a stray gradient). */
+:root:not(.dark)[data-era="goldenMillennium"] header.sticky {
+  background-image: linear-gradient(#dbe8f4, #aec3d8);
+  border-bottom-color: #8ea6bd;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+.dark[data-era="goldenMillennium"] header.sticky {
+  background-image: linear-gradient(#1c3c55, #0d2236);
+  border-bottom-color: #07101b;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22);
+}
+
+/* Beveled gel cards. */
+:root:not(.dark)[data-era="goldenMillennium"] :where(.bg-card) {
+  background-image: linear-gradient(#ffffff, #eef4fa);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9);
+}
+.dark[data-era="goldenMillennium"] :where(.bg-card) {
+  background-image: linear-gradient(#13283f, #0c1726);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.13);
+}
+
+/* Soft cyan glow on the wordmark IQ (dark only — the CRT accent). */
+.dark[data-era="goldenMillennium"] header.sticky .text-primary {
+  text-shadow: 0 0 8px rgba(47, 212, 236, 0.55);
+}
+
+/* Retro 90s Ceefax/teletext strip — hidden by default, shown only in the era. */
+.era-ceefax {
+  display: none;
+}
+[data-era="retro90s"] .era-ceefax {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  background: #0a0a0a;
+  color: #43d9e6;
+  font-family: var(--font-vt323), monospace;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  padding: 3px 1rem;
+}
+[data-era="retro90s"] .era-ceefax .cfx-page {
+  color: #f2e84b;
+}
+
+/* Smooth cross-fade of the themed colors on a season change; reduced-motion
+   users get an instant swap. :where() keeps zero specificity. */
+@media (prefers-reduced-motion: no-preference) {
+  :where(
+    body,
+    [class~="bg-background"],
+    [class~="bg-card"],
+    [class~="bg-muted"],
+    [class~="bg-secondary"],
+    [class~="bg-popover"],
+    [class~="border-border"]
+  ) {
+    transition:
+      background-color 0.22s ease,
+      border-color 0.22s ease,
+      color 0.22s ease;
+  }
+}
+
+/* /map club markers (TASK-M27). The badge glow reads `--primary` (era-aware),
+   so the markers re-skin with the page. `--kit` is the club's home colour. */
+.club-marker {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  /* Re-enable clicks: the marker layer is pointer-events-none so clicks on
+     empty land reach the region paths beneath (TASK-M27 region modals). */
+  pointer-events: auto;
+  /* Absent clubs sit BELOW active ones so the season's clubs read on top. */
+  z-index: 1;
+}
+.club-marker[data-active="true"] {
+  z-index: 2;
+}
+/* Clickable map regions (TASK-M27 follow-up). */
+.uk-region {
+  cursor: pointer;
+  outline: none;
+  transition: fill var(--motion-duration-fast) ease;
+}
+.uk-region:hover,
+.uk-region:focus-visible {
+  fill: color-mix(in oklch, var(--primary) 16%, var(--muted));
+}
+.uk-region:focus-visible {
+  stroke: var(--primary);
+  stroke-width: 2px;
+}
+.club-marker__badge {
+  width: 34px;
+  height: 34px;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--card);
+  border: 2px solid var(--kit, var(--border));
+  transition:
+    box-shadow 0.35s ease,
+    filter 0.35s ease,
+    transform 0.2s ease;
+}
+.club-marker__crest {
+  object-fit: contain;
+  width: 27px;
+  height: 27px;
+}
+.club-marker[data-active="false"] .club-marker__badge {
+  filter: grayscale(1);
+  opacity: 0.38;
+}
+.club-marker[data-active="true"] .club-marker__badge {
+  box-shadow: 0 0 0 3px color-mix(in oklch, var(--primary) 38%, transparent);
+}
+.club-marker:hover,
+.club-marker:focus-visible {
+  z-index: 3;
+}
+.club-marker:hover .club-marker__badge,
+.club-marker:focus-visible .club-marker__badge {
+  transform: scale(1.18);
+}
+.club-marker__name {
+  margin-top: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--foreground);
+  background: var(--card);
+  padding: 1px 5px;
+  border-radius: 4px;
+  opacity: 0;
+  pointer-events: none;
+  white-space: nowrap;
+  transition: opacity var(--motion-duration-fast) ease;
+}
+.club-marker:hover .club-marker__name,
+.club-marker:focus-visible .club-marker__name {
+  opacity: 1;
+}
+@media (prefers-reduced-motion: reduce) {
+  .club-marker__badge,
+  .club-marker:hover .club-marker__badge,
+  .club-marker:focus-visible .club-marker__badge,
+  .club-marker__name {
+    transition: none;
+  }
+}
+
+/* --- Arabic typography (TASK-1602) ---
+   The Latin display fonts (Geist, and the era faces Oswald/Rajdhani/Titillium/
+   VT323) carry no Arabic glyphs, so under `lang="ar"` we render body + headings
+   with the Arabic webfont (`--font-arabic`, Noto Sans Arabic). Placed at the end
+   of the file so it wins over the era heading/body rules by source order, giving
+   one consistent, readable Arabic face across all three eras (the era THEME —
+   colours/chrome/textures — still applies). */
+[lang="ar"] body {
+  font-family: var(--font-arabic), system-ui, sans-serif;
+}
+[lang="ar"] :is(h1, h2, h3, h4) {
+  font-family: var(--font-arabic), system-ui, sans-serif;
+}

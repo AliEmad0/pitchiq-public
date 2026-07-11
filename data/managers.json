@@ -1,0 +1,6108 @@
+{
+  "2008": {
+    "33": [
+      {
+        "draw": 6,
+        "ga": 24,
+        "gf": 68,
+        "id": "58",
+        "loss": 4,
+        "matches": 38,
+        "name": "Alex Ferguson",
+        "win": 28
+      }
+    ],
+    "34": [
+      {
+        "draw": 10,
+        "ga": 38,
+        "gf": 31,
+        "id": "166",
+        "loss": 9,
+        "matches": 24,
+        "name": "Joe Kinnear",
+        "win": 5
+      },
+      {
+        "draw": 2,
+        "ga": 10,
+        "gf": 4,
+        "id": "38467",
+        "loss": 5,
+        "matches": 8,
+        "name": "Alan Shearer",
+        "win": 1
+      },
+      {
+        "draw": 0,
+        "ga": 7,
+        "gf": 3,
+        "id": "37372",
+        "loss": 3,
+        "matches": 3,
+        "name": "Chris Hughton",
+        "win": 0
+      },
+      {
+        "draw": 1,
+        "ga": 4,
+        "gf": 2,
+        "id": "87",
+        "loss": 1,
+        "matches": 3,
+        "name": "Kevin Keegan",
+        "win": 1
+      }
+    ],
+    "36": [
+      {
+        "draw": 11,
+        "ga": 34,
+        "gf": 39,
+        "id": "1280",
+        "loss": 13,
+        "matches": 38,
+        "name": "Roy Hodgson",
+        "win": 14
+      }
+    ],
+    "40": [
+      {
+        "draw": 11,
+        "ga": 27,
+        "gf": 77,
+        "id": "36",
+        "loss": 2,
+        "matches": 38,
+        "name": "Rafael Benitez",
+        "win": 25
+      }
+    ],
+    "42": [
+      {
+        "draw": 12,
+        "ga": 37,
+        "gf": 68,
+        "id": "51",
+        "loss": 6,
+        "matches": 38,
+        "name": "Arsène Wenger",
+        "win": 20
+      }
+    ],
+    "45": [
+      {
+        "draw": 12,
+        "ga": 37,
+        "gf": 55,
+        "id": "85",
+        "loss": 9,
+        "matches": 38,
+        "name": "David Moyes",
+        "win": 17
+      }
+    ],
+    "47": [
+      {
+        "draw": 7,
+        "ga": 33,
+        "gf": 40,
+        "id": "127",
+        "loss": 9,
+        "matches": 30,
+        "name": "Harry Redknapp",
+        "win": 14
+      },
+      {
+        "draw": 2,
+        "ga": 12,
+        "gf": 5,
+        "id": "114",
+        "loss": 6,
+        "matches": 8,
+        "name": "Juande Ramos",
+        "win": 0
+      }
+    ],
+    "48": [
+      {
+        "draw": 9,
+        "ga": 37,
+        "gf": 34,
+        "id": "38149",
+        "loss": 13,
+        "matches": 34,
+        "name": "Gianfranco Zola",
+        "win": 12
+      },
+      {
+        "draw": 0,
+        "ga": 5,
+        "gf": 6,
+        "id": "84",
+        "loss": 1,
+        "matches": 3,
+        "name": "Alan Curbishley",
+        "win": 2
+      },
+      {
+        "draw": 0,
+        "ga": 3,
+        "gf": 2,
+        "id": "38141",
+        "loss": 1,
+        "matches": 1,
+        "name": "Kevin Keen",
+        "win": 0
+      }
+    ],
+    "49": [
+      {
+        "draw": 7,
+        "ga": 15,
+        "gf": 44,
+        "id": "18",
+        "loss": 4,
+        "matches": 25,
+        "name": "Felipe Scolari",
+        "win": 14
+      },
+      {
+        "draw": 1,
+        "ga": 9,
+        "gf": 24,
+        "id": "5",
+        "loss": 1,
+        "matches": 13,
+        "name": "Guus Hiddink",
+        "win": 11
+      }
+    ],
+    "50": [
+      {
+        "draw": 5,
+        "ga": 50,
+        "gf": 58,
+        "id": "163",
+        "loss": 18,
+        "matches": 38,
+        "name": "Mark Hughes",
+        "win": 15
+      }
+    ],
+    "60": [
+      {
+        "draw": 8,
+        "ga": 67,
+        "gf": 36,
+        "id": "190",
+        "loss": 22,
+        "matches": 38,
+        "name": "Tony Mowbray",
+        "win": 8
+      }
+    ],
+    "61": [
+      {
+        "draw": 9,
+        "ga": 45,
+        "gf": 34,
+        "id": "81",
+        "loss": 17,
+        "matches": 38,
+        "name": "Steve Bruce",
+        "win": 12
+      }
+    ],
+    "64": [
+      {
+        "draw": 11,
+        "ga": 64,
+        "gf": 39,
+        "id": "37618",
+        "loss": 19,
+        "matches": 38,
+        "name": "Phil Brown",
+        "win": 8
+      }
+    ],
+    "66": [
+      {
+        "draw": 11,
+        "ga": 48,
+        "gf": 54,
+        "id": "157",
+        "loss": 10,
+        "matches": 38,
+        "name": "Martin O'Neill",
+        "win": 17
+      }
+    ],
+    "67": [
+      {
+        "draw": 7,
+        "ga": 26,
+        "gf": 23,
+        "id": "83",
+        "loss": 7,
+        "matches": 21,
+        "name": "Sam Allardyce",
+        "win": 7
+      },
+      {
+        "draw": 4,
+        "ga": 34,
+        "gf": 17,
+        "id": "37435",
+        "loss": 10,
+        "matches": 17,
+        "name": "Paul Ince",
+        "win": 3
+      }
+    ],
+    "68": [
+      {
+        "draw": 8,
+        "ga": 53,
+        "gf": 41,
+        "id": "37459",
+        "loss": 19,
+        "matches": 38,
+        "name": "Gary Megson",
+        "win": 11
+      }
+    ],
+    "70": [
+      {
+        "draw": 11,
+        "ga": 57,
+        "gf": 28,
+        "id": "37254",
+        "loss": 20,
+        "matches": 38,
+        "name": "Gareth Southgate",
+        "win": 7
+      }
+    ],
+    "75": [
+      {
+        "draw": 9,
+        "ga": 55,
+        "gf": 38,
+        "id": "233",
+        "loss": 17,
+        "matches": 38,
+        "name": "Tony Pulis",
+        "win": 12
+      }
+    ],
+    "746": [
+      {
+        "draw": 6,
+        "ga": 30,
+        "gf": 21,
+        "id": "37724",
+        "loss": 12,
+        "matches": 23,
+        "name": "Ricky Sbragia",
+        "win": 5
+      },
+      {
+        "draw": 3,
+        "ga": 24,
+        "gf": 13,
+        "id": "37335",
+        "loss": 8,
+        "matches": 15,
+        "name": "Roy Keane",
+        "win": 4
+      }
+    ],
+    "1355": [
+      {
+        "draw": 4,
+        "ga": 27,
+        "gf": 15,
+        "id": "38183",
+        "loss": 9,
+        "matches": 15,
+        "name": "Tony Adams",
+        "win": 2
+      },
+      {
+        "draw": 5,
+        "ga": 16,
+        "gf": 13,
+        "id": "174",
+        "loss": 5,
+        "matches": 14,
+        "name": "Paul Hart",
+        "win": 4
+      },
+      {
+        "draw": 1,
+        "ga": 13,
+        "gf": 9,
+        "id": "127",
+        "loss": 3,
+        "matches": 8,
+        "name": "Harry Redknapp",
+        "win": 4
+      },
+      {
+        "draw": 1,
+        "ga": 1,
+        "gf": 1,
+        "id": "37488",
+        "loss": 0,
+        "matches": 1,
+        "name": "Joe Jordan",
+        "win": 0
+      }
+    ]
+  },
+  "2009": {
+    "33": [
+      {
+        "draw": 4,
+        "ga": 28,
+        "gf": 86,
+        "id": "58",
+        "loss": 7,
+        "matches": 38,
+        "name": "Alex Ferguson",
+        "win": 27
+      }
+    ],
+    "36": [
+      {
+        "draw": 10,
+        "ga": 46,
+        "gf": 39,
+        "id": "1280",
+        "loss": 16,
+        "matches": 38,
+        "name": "Roy Hodgson",
+        "win": 12
+      }
+    ],
+    "39": [
+      {
+        "draw": 11,
+        "ga": 56,
+        "gf": 32,
+        "id": "25",
+        "loss": 18,
+        "matches": 38,
+        "name": "Mick McCarthy",
+        "win": 9
+      }
+    ],
+    "40": [
+      {
+        "draw": 9,
+        "ga": 35,
+        "gf": 61,
+        "id": "36",
+        "loss": 11,
+        "matches": 38,
+        "name": "Rafael Benitez",
+        "win": 18
+      }
+    ],
+    "42": [
+      {
+        "draw": 6,
+        "ga": 41,
+        "gf": 83,
+        "id": "51",
+        "loss": 9,
+        "matches": 38,
+        "name": "Arsène Wenger",
+        "win": 23
+      }
+    ],
+    "44": [
+      {
+        "draw": 5,
+        "ga": 40,
+        "gf": 22,
+        "id": "37403",
+        "loss": 10,
+        "matches": 20,
+        "name": "Owen Coyle",
+        "win": 5
+      },
+      {
+        "draw": 1,
+        "ga": 42,
+        "gf": 20,
+        "id": "216",
+        "loss": 14,
+        "matches": 18,
+        "name": "Brian Laws",
+        "win": 3
+      }
+    ],
+    "45": [
+      {
+        "draw": 13,
+        "ga": 49,
+        "gf": 60,
+        "id": "85",
+        "loss": 9,
+        "matches": 38,
+        "name": "David Moyes",
+        "win": 16
+      }
+    ],
+    "47": [
+      {
+        "draw": 7,
+        "ga": 41,
+        "gf": 67,
+        "id": "127",
+        "loss": 10,
+        "matches": 38,
+        "name": "Harry Redknapp",
+        "win": 21
+      }
+    ],
+    "48": [
+      {
+        "draw": 11,
+        "ga": 66,
+        "gf": 47,
+        "id": "38149",
+        "loss": 19,
+        "matches": 38,
+        "name": "Gianfranco Zola",
+        "win": 8
+      }
+    ],
+    "49": [
+      {
+        "draw": 5,
+        "ga": 32,
+        "gf": 103,
+        "id": "50",
+        "loss": 6,
+        "matches": 38,
+        "name": "Carlo Ancelotti",
+        "win": 27
+      }
+    ],
+    "50": [
+      {
+        "draw": 5,
+        "ga": 18,
+        "gf": 40,
+        "id": "96",
+        "loss": 5,
+        "matches": 21,
+        "name": "Roberto Mancini",
+        "win": 11
+      },
+      {
+        "draw": 8,
+        "ga": 27,
+        "gf": 33,
+        "id": "163",
+        "loss": 2,
+        "matches": 17,
+        "name": "Mark Hughes",
+        "win": 7
+      }
+    ],
+    "54": [
+      {
+        "draw": 11,
+        "ga": 47,
+        "gf": 38,
+        "id": "195",
+        "loss": 14,
+        "matches": 38,
+        "name": "Alex McLeish",
+        "win": 13
+      }
+    ],
+    "61": [
+      {
+        "draw": 9,
+        "ga": 79,
+        "gf": 37,
+        "id": "37455",
+        "loss": 20,
+        "matches": 38,
+        "name": "Roberto Martinez",
+        "win": 9
+      }
+    ],
+    "64": [
+      {
+        "draw": 9,
+        "ga": 61,
+        "gf": 27,
+        "id": "37618",
+        "loss": 15,
+        "matches": 29,
+        "name": "Phil Brown",
+        "win": 5
+      },
+      {
+        "draw": 3,
+        "ga": 14,
+        "gf": 7,
+        "id": "171",
+        "loss": 5,
+        "matches": 9,
+        "name": "Iain Dowie",
+        "win": 1
+      }
+    ],
+    "66": [
+      {
+        "draw": 13,
+        "ga": 39,
+        "gf": 52,
+        "id": "157",
+        "loss": 8,
+        "matches": 38,
+        "name": "Martin O'Neill",
+        "win": 17
+      }
+    ],
+    "67": [
+      {
+        "draw": 11,
+        "ga": 55,
+        "gf": 41,
+        "id": "83",
+        "loss": 14,
+        "matches": 38,
+        "name": "Sam Allardyce",
+        "win": 13
+      }
+    ],
+    "68": [
+      {
+        "draw": 3,
+        "ga": 31,
+        "gf": 16,
+        "id": "37403",
+        "loss": 11,
+        "matches": 20,
+        "name": "Owen Coyle",
+        "win": 6
+      },
+      {
+        "draw": 6,
+        "ga": 36,
+        "gf": 26,
+        "id": "37459",
+        "loss": 8,
+        "matches": 18,
+        "name": "Gary Megson",
+        "win": 4
+      }
+    ],
+    "75": [
+      {
+        "draw": 14,
+        "ga": 48,
+        "gf": 34,
+        "id": "233",
+        "loss": 13,
+        "matches": 38,
+        "name": "Tony Pulis",
+        "win": 11
+      }
+    ],
+    "746": [
+      {
+        "draw": 11,
+        "ga": 56,
+        "gf": 48,
+        "id": "81",
+        "loss": 16,
+        "matches": 38,
+        "name": "Steve Bruce",
+        "win": 11
+      }
+    ],
+    "1355": [
+      {
+        "draw": 6,
+        "ga": 47,
+        "gf": 24,
+        "id": "37698",
+        "loss": 14,
+        "matches": 25,
+        "name": "Avram Grant",
+        "win": 5
+      },
+      {
+        "draw": 1,
+        "ga": 19,
+        "gf": 10,
+        "id": "174",
+        "loss": 10,
+        "matches": 13,
+        "name": "Paul Hart",
+        "win": 2
+      }
+    ]
+  },
+  "2010": {
+    "33": [
+      {
+        "draw": 11,
+        "ga": 37,
+        "gf": 78,
+        "id": "58",
+        "loss": 4,
+        "matches": 38,
+        "name": "Alex Ferguson",
+        "win": 23
+      }
+    ],
+    "34": [
+      {
+        "draw": 9,
+        "ga": 32,
+        "gf": 32,
+        "id": "168",
+        "loss": 7,
+        "matches": 22,
+        "name": "Alan Pardew",
+        "win": 6
+      },
+      {
+        "draw": 4,
+        "ga": 25,
+        "gf": 24,
+        "id": "37372",
+        "loss": 7,
+        "matches": 16,
+        "name": "Chris Hughton",
+        "win": 5
+      }
+    ],
+    "36": [
+      {
+        "draw": 16,
+        "ga": 43,
+        "gf": 49,
+        "id": "163",
+        "loss": 11,
+        "matches": 38,
+        "name": "Mark Hughes",
+        "win": 11
+      }
+    ],
+    "39": [
+      {
+        "draw": 7,
+        "ga": 66,
+        "gf": 46,
+        "id": "25",
+        "loss": 20,
+        "matches": 38,
+        "name": "Mick McCarthy",
+        "win": 11
+      }
+    ],
+    "40": [
+      {
+        "draw": 4,
+        "ga": 27,
+        "gf": 24,
+        "id": "1280",
+        "loss": 9,
+        "matches": 20,
+        "name": "Roy Hodgson",
+        "win": 7
+      },
+      {
+        "draw": 3,
+        "ga": 17,
+        "gf": 35,
+        "id": "37369",
+        "loss": 5,
+        "matches": 18,
+        "name": "Kenny Dalglish",
+        "win": 10
+      }
+    ],
+    "42": [
+      {
+        "draw": 11,
+        "ga": 43,
+        "gf": 72,
+        "id": "51",
+        "loss": 8,
+        "matches": 38,
+        "name": "Arsène Wenger",
+        "win": 19
+      }
+    ],
+    "45": [
+      {
+        "draw": 15,
+        "ga": 45,
+        "gf": 51,
+        "id": "85",
+        "loss": 10,
+        "matches": 38,
+        "name": "David Moyes",
+        "win": 13
+      }
+    ],
+    "47": [
+      {
+        "draw": 14,
+        "ga": 46,
+        "gf": 55,
+        "id": "127",
+        "loss": 8,
+        "matches": 38,
+        "name": "Harry Redknapp",
+        "win": 16
+      }
+    ],
+    "48": [
+      {
+        "draw": 12,
+        "ga": 67,
+        "gf": 43,
+        "id": "37698",
+        "loss": 18,
+        "matches": 37,
+        "name": "Avram Grant",
+        "win": 7
+      },
+      {
+        "draw": 0,
+        "ga": 3,
+        "gf": 0,
+        "id": "38141",
+        "loss": 1,
+        "matches": 1,
+        "name": "Kevin Keen",
+        "win": 0
+      }
+    ],
+    "49": [
+      {
+        "draw": 8,
+        "ga": 33,
+        "gf": 69,
+        "id": "50",
+        "loss": 9,
+        "matches": 38,
+        "name": "Carlo Ancelotti",
+        "win": 21
+      }
+    ],
+    "50": [
+      {
+        "draw": 8,
+        "ga": 33,
+        "gf": 60,
+        "id": "96",
+        "loss": 9,
+        "matches": 38,
+        "name": "Roberto Mancini",
+        "win": 21
+      }
+    ],
+    "54": [
+      {
+        "draw": 15,
+        "ga": 58,
+        "gf": 37,
+        "id": "195",
+        "loss": 15,
+        "matches": 38,
+        "name": "Alex McLeish",
+        "win": 8
+      }
+    ],
+    "60": [
+      {
+        "draw": 5,
+        "ga": 48,
+        "gf": 31,
+        "id": "38058",
+        "loss": 13,
+        "matches": 25,
+        "name": "Roberto Di Matteo",
+        "win": 7
+      },
+      {
+        "draw": 5,
+        "ga": 20,
+        "gf": 22,
+        "id": "1280",
+        "loss": 2,
+        "matches": 12,
+        "name": "Roy Hodgson",
+        "win": 5
+      },
+      {
+        "draw": 1,
+        "ga": 3,
+        "gf": 3,
+        "id": "40462",
+        "loss": 0,
+        "matches": 1,
+        "name": "Michael Appleton",
+        "win": 0
+      }
+    ],
+    "61": [
+      {
+        "draw": 15,
+        "ga": 61,
+        "gf": 40,
+        "id": "37455",
+        "loss": 14,
+        "matches": 38,
+        "name": "Roberto Martinez",
+        "win": 9
+      }
+    ],
+    "66": [
+      {
+        "draw": 11,
+        "ga": 50,
+        "gf": 42,
+        "id": "39",
+        "loss": 12,
+        "matches": 33,
+        "name": "Gerard Houllier",
+        "win": 10
+      },
+      {
+        "draw": 1,
+        "ga": 9,
+        "gf": 6,
+        "id": "37484",
+        "loss": 2,
+        "matches": 5,
+        "name": "Kevin MacDonald",
+        "win": 2
+      }
+    ],
+    "67": [
+      {
+        "draw": 7,
+        "ga": 32,
+        "gf": 24,
+        "id": "40392",
+        "loss": 9,
+        "matches": 21,
+        "name": "Steve Kean",
+        "win": 5
+      },
+      {
+        "draw": 3,
+        "ga": 27,
+        "gf": 22,
+        "id": "83",
+        "loss": 8,
+        "matches": 17,
+        "name": "Sam Allardyce",
+        "win": 6
+      }
+    ],
+    "68": [
+      {
+        "draw": 10,
+        "ga": 56,
+        "gf": 52,
+        "id": "37403",
+        "loss": 16,
+        "matches": 38,
+        "name": "Owen Coyle",
+        "win": 12
+      }
+    ],
+    "75": [
+      {
+        "draw": 7,
+        "ga": 48,
+        "gf": 46,
+        "id": "233",
+        "loss": 18,
+        "matches": 38,
+        "name": "Tony Pulis",
+        "win": 13
+      }
+    ],
+    "746": [
+      {
+        "draw": 11,
+        "ga": 56,
+        "gf": 45,
+        "id": "81",
+        "loss": 15,
+        "matches": 38,
+        "name": "Steve Bruce",
+        "win": 12
+      }
+    ],
+    "1356": [
+      {
+        "draw": 9,
+        "ga": 78,
+        "gf": 55,
+        "id": "186",
+        "loss": 19,
+        "matches": 38,
+        "name": "Ian Holloway",
+        "win": 10
+      }
+    ]
+  },
+  "2011": {
+    "33": [
+      {
+        "draw": 5,
+        "ga": 33,
+        "gf": 89,
+        "id": "58",
+        "loss": 5,
+        "matches": 38,
+        "name": "Alex Ferguson",
+        "win": 28
+      }
+    ],
+    "34": [
+      {
+        "draw": 8,
+        "ga": 51,
+        "gf": 56,
+        "id": "168",
+        "loss": 11,
+        "matches": 38,
+        "name": "Alan Pardew",
+        "win": 19
+      }
+    ],
+    "36": [
+      {
+        "draw": 10,
+        "ga": 51,
+        "gf": 48,
+        "id": "164",
+        "loss": 14,
+        "matches": 38,
+        "name": "Martin Jol",
+        "win": 14
+      }
+    ],
+    "39": [
+      {
+        "draw": 6,
+        "ga": 49,
+        "gf": 28,
+        "id": "25",
+        "loss": 14,
+        "matches": 25,
+        "name": "Mick McCarthy",
+        "win": 5
+      },
+      {
+        "draw": 4,
+        "ga": 33,
+        "gf": 12,
+        "id": "41392",
+        "loss": 9,
+        "matches": 13,
+        "name": "Terry Connor",
+        "win": 0
+      }
+    ],
+    "40": [
+      {
+        "draw": 10,
+        "ga": 40,
+        "gf": 47,
+        "id": "37369",
+        "loss": 14,
+        "matches": 38,
+        "name": "Kenny Dalglish",
+        "win": 14
+      }
+    ],
+    "42": [
+      {
+        "draw": 7,
+        "ga": 49,
+        "gf": 74,
+        "id": "51",
+        "loss": 10,
+        "matches": 38,
+        "name": "Arsène Wenger",
+        "win": 21
+      }
+    ],
+    "45": [
+      {
+        "draw": 11,
+        "ga": 40,
+        "gf": 50,
+        "id": "85",
+        "loss": 12,
+        "matches": 38,
+        "name": "David Moyes",
+        "win": 15
+      }
+    ],
+    "47": [
+      {
+        "draw": 9,
+        "ga": 41,
+        "gf": 66,
+        "id": "127",
+        "loss": 9,
+        "matches": 38,
+        "name": "Harry Redknapp",
+        "win": 20
+      }
+    ],
+    "49": [
+      {
+        "draw": 7,
+        "ga": 32,
+        "gf": 47,
+        "id": "39358",
+        "loss": 7,
+        "matches": 27,
+        "name": "Andre Villas-Boas",
+        "win": 13
+      },
+      {
+        "draw": 3,
+        "ga": 14,
+        "gf": 18,
+        "id": "38058",
+        "loss": 3,
+        "matches": 11,
+        "name": "Roberto Di Matteo",
+        "win": 5
+      }
+    ],
+    "50": [
+      {
+        "draw": 5,
+        "ga": 29,
+        "gf": 93,
+        "id": "96",
+        "loss": 5,
+        "matches": 38,
+        "name": "Roberto Mancini",
+        "win": 28
+      }
+    ],
+    "60": [
+      {
+        "draw": 8,
+        "ga": 52,
+        "gf": 45,
+        "id": "1280",
+        "loss": 17,
+        "matches": 38,
+        "name": "Roy Hodgson",
+        "win": 13
+      }
+    ],
+    "61": [
+      {
+        "draw": 10,
+        "ga": 62,
+        "gf": 42,
+        "id": "37455",
+        "loss": 17,
+        "matches": 38,
+        "name": "Roberto Martinez",
+        "win": 11
+      }
+    ],
+    "66": [
+      {
+        "draw": 17,
+        "ga": 53,
+        "gf": 37,
+        "id": "195",
+        "loss": 14,
+        "matches": 38,
+        "name": "Alex McLeish",
+        "win": 7
+      }
+    ],
+    "67": [
+      {
+        "draw": 7,
+        "ga": 78,
+        "gf": 48,
+        "id": "40392",
+        "loss": 23,
+        "matches": 38,
+        "name": "Steve Kean",
+        "win": 8
+      }
+    ],
+    "68": [
+      {
+        "draw": 6,
+        "ga": 77,
+        "gf": 46,
+        "id": "37403",
+        "loss": 22,
+        "matches": 38,
+        "name": "Owen Coyle",
+        "win": 10
+      }
+    ],
+    "71": [
+      {
+        "draw": 11,
+        "ga": 66,
+        "gf": 52,
+        "id": "37630",
+        "loss": 15,
+        "matches": 38,
+        "name": "Paul Lambert",
+        "win": 12
+      }
+    ],
+    "72": [
+      {
+        "draw": 5,
+        "ga": 35,
+        "gf": 19,
+        "id": "183",
+        "loss": 11,
+        "matches": 20,
+        "name": "Neil Warnock",
+        "win": 4
+      },
+      {
+        "draw": 2,
+        "ga": 31,
+        "gf": 24,
+        "id": "163",
+        "loss": 10,
+        "matches": 18,
+        "name": "Mark Hughes",
+        "win": 6
+      }
+    ],
+    "75": [
+      {
+        "draw": 12,
+        "ga": 53,
+        "gf": 36,
+        "id": "233",
+        "loss": 15,
+        "matches": 38,
+        "name": "Tony Pulis",
+        "win": 11
+      }
+    ],
+    "76": [
+      {
+        "draw": 11,
+        "ga": 51,
+        "gf": 44,
+        "id": "38197",
+        "loss": 15,
+        "matches": 38,
+        "name": "Brendan Rodgers",
+        "win": 12
+      }
+    ],
+    "746": [
+      {
+        "draw": 7,
+        "ga": 29,
+        "gf": 29,
+        "id": "157",
+        "loss": 8,
+        "matches": 24,
+        "name": "Martin O'Neill",
+        "win": 9
+      },
+      {
+        "draw": 5,
+        "ga": 15,
+        "gf": 15,
+        "id": "81",
+        "loss": 6,
+        "matches": 13,
+        "name": "Steve Bruce",
+        "win": 2
+      },
+      {
+        "draw": 0,
+        "ga": 2,
+        "gf": 1,
+        "id": "37764",
+        "loss": 1,
+        "matches": 1,
+        "name": "Eric Black",
+        "win": 0
+      }
+    ]
+  },
+  "2012": {
+    "33": [
+      {
+        "draw": 5,
+        "ga": 43,
+        "gf": 86,
+        "id": "58",
+        "loss": 5,
+        "matches": 38,
+        "name": "Alex Ferguson",
+        "win": 28
+      }
+    ],
+    "34": [
+      {
+        "draw": 8,
+        "ga": 68,
+        "gf": 45,
+        "id": "168",
+        "loss": 19,
+        "matches": 38,
+        "name": "Alan Pardew",
+        "win": 11
+      }
+    ],
+    "36": [
+      {
+        "draw": 10,
+        "ga": 60,
+        "gf": 50,
+        "id": "164",
+        "loss": 17,
+        "matches": 38,
+        "name": "Martin Jol",
+        "win": 11
+      }
+    ],
+    "40": [
+      {
+        "draw": 13,
+        "ga": 43,
+        "gf": 71,
+        "id": "38197",
+        "loss": 9,
+        "matches": 38,
+        "name": "Brendan Rodgers",
+        "win": 16
+      }
+    ],
+    "41": [
+      {
+        "draw": 7,
+        "ga": 40,
+        "gf": 30,
+        "id": "37445",
+        "loss": 10,
+        "matches": 22,
+        "name": "Nigel Adkins",
+        "win": 5
+      },
+      {
+        "draw": 7,
+        "ga": 20,
+        "gf": 19,
+        "id": "38223",
+        "loss": 5,
+        "matches": 16,
+        "name": "Mauricio Pochettino",
+        "win": 4
+      }
+    ],
+    "42": [
+      {
+        "draw": 10,
+        "ga": 37,
+        "gf": 72,
+        "id": "51",
+        "loss": 7,
+        "matches": 38,
+        "name": "Arsène Wenger",
+        "win": 21
+      }
+    ],
+    "45": [
+      {
+        "draw": 15,
+        "ga": 40,
+        "gf": 55,
+        "id": "85",
+        "loss": 7,
+        "matches": 38,
+        "name": "David Moyes",
+        "win": 16
+      }
+    ],
+    "47": [
+      {
+        "draw": 9,
+        "ga": 46,
+        "gf": 66,
+        "id": "39358",
+        "loss": 8,
+        "matches": 38,
+        "name": "Andre Villas-Boas",
+        "win": 21
+      }
+    ],
+    "48": [
+      {
+        "draw": 10,
+        "ga": 53,
+        "gf": 45,
+        "id": "83",
+        "loss": 16,
+        "matches": 38,
+        "name": "Sam Allardyce",
+        "win": 12
+      }
+    ],
+    "49": [
+      {
+        "draw": 6,
+        "ga": 26,
+        "gf": 51,
+        "id": "36",
+        "loss": 5,
+        "matches": 26,
+        "name": "Rafael Benítez",
+        "win": 15
+      },
+      {
+        "draw": 3,
+        "ga": 13,
+        "gf": 24,
+        "id": "38058",
+        "loss": 2,
+        "matches": 12,
+        "name": "Roberto Di Matteo",
+        "win": 7
+      }
+    ],
+    "50": [
+      {
+        "draw": 9,
+        "ga": 31,
+        "gf": 62,
+        "id": "96",
+        "loss": 5,
+        "matches": 36,
+        "name": "Roberto Mancini",
+        "win": 22
+      },
+      {
+        "draw": 0,
+        "ga": 3,
+        "gf": 4,
+        "id": "37367",
+        "loss": 1,
+        "matches": 2,
+        "name": "Brian Kidd",
+        "win": 1
+      }
+    ],
+    "53": [
+      {
+        "draw": 8,
+        "ga": 56,
+        "gf": 35,
+        "id": "39417",
+        "loss": 16,
+        "matches": 29,
+        "name": "Brian McDermott",
+        "win": 5
+      },
+      {
+        "draw": 2,
+        "ga": 16,
+        "gf": 8,
+        "id": "37445",
+        "loss": 5,
+        "matches": 8,
+        "name": "Nigel Adkins",
+        "win": 1
+      },
+      {
+        "draw": 0,
+        "ga": 1,
+        "gf": 0,
+        "id": "42248",
+        "loss": 1,
+        "matches": 1,
+        "name": "Eamonn Dolan",
+        "win": 0
+      }
+    ],
+    "60": [
+      {
+        "draw": 7,
+        "ga": 57,
+        "gf": 53,
+        "id": "37376",
+        "loss": 17,
+        "matches": 38,
+        "name": "Steve Clarke",
+        "win": 14
+      }
+    ],
+    "61": [
+      {
+        "draw": 9,
+        "ga": 73,
+        "gf": 47,
+        "id": "37455",
+        "loss": 20,
+        "matches": 38,
+        "name": "Roberto Martinez",
+        "win": 9
+      }
+    ],
+    "66": [
+      {
+        "draw": 11,
+        "ga": 69,
+        "gf": 47,
+        "id": "37630",
+        "loss": 17,
+        "matches": 38,
+        "name": "Paul Lambert",
+        "win": 10
+      }
+    ],
+    "71": [
+      {
+        "draw": 14,
+        "ga": 58,
+        "gf": 41,
+        "id": "37372",
+        "loss": 14,
+        "matches": 38,
+        "name": "Chris Hughton",
+        "win": 10
+      }
+    ],
+    "72": [
+      {
+        "draw": 9,
+        "ga": 34,
+        "gf": 20,
+        "id": "127",
+        "loss": 12,
+        "matches": 25,
+        "name": "Harry Redknapp",
+        "win": 4
+      },
+      {
+        "draw": 4,
+        "ga": 23,
+        "gf": 9,
+        "id": "163",
+        "loss": 8,
+        "matches": 12,
+        "name": "Mark Hughes",
+        "win": 0
+      },
+      {
+        "draw": 0,
+        "ga": 3,
+        "gf": 1,
+        "id": "41978",
+        "loss": 1,
+        "matches": 1,
+        "name": "Mark Bowen",
+        "win": 0
+      }
+    ],
+    "75": [
+      {
+        "draw": 15,
+        "ga": 45,
+        "gf": 34,
+        "id": "233",
+        "loss": 14,
+        "matches": 38,
+        "name": "Tony Pulis",
+        "win": 9
+      }
+    ],
+    "76": [
+      {
+        "draw": 13,
+        "ga": 51,
+        "gf": 47,
+        "id": "37659",
+        "loss": 14,
+        "matches": 38,
+        "name": "Michael Laudrup",
+        "win": 11
+      }
+    ],
+    "746": [
+      {
+        "draw": 10,
+        "ga": 43,
+        "gf": 33,
+        "id": "157",
+        "loss": 14,
+        "matches": 31,
+        "name": "Martin O'Neill",
+        "win": 7
+      },
+      {
+        "draw": 2,
+        "ga": 11,
+        "gf": 8,
+        "id": "40742",
+        "loss": 3,
+        "matches": 7,
+        "name": "Paolo Di Canio",
+        "win": 2
+      }
+    ]
+  },
+  "2013": {
+    "33": [
+      {
+        "draw": 6,
+        "ga": 40,
+        "gf": 56,
+        "id": "85",
+        "loss": 11,
+        "matches": 34,
+        "name": "David Moyes",
+        "win": 17
+      },
+      {
+        "draw": 1,
+        "ga": 3,
+        "gf": 8,
+        "id": "44107",
+        "loss": 1,
+        "matches": 4,
+        "name": "Ryan Giggs",
+        "win": 2
+      }
+    ],
+    "34": [
+      {
+        "draw": 4,
+        "ga": 59,
+        "gf": 43,
+        "id": "168",
+        "loss": 19,
+        "matches": 38,
+        "name": "Alan Pardew",
+        "win": 15
+      }
+    ],
+    "36": [
+      {
+        "draw": 1,
+        "ga": 24,
+        "gf": 11,
+        "id": "164",
+        "loss": 9,
+        "matches": 13,
+        "name": "Martin Jol",
+        "win": 3
+      },
+      {
+        "draw": 1,
+        "ga": 34,
+        "gf": 15,
+        "id": "42905",
+        "loss": 9,
+        "matches": 13,
+        "name": "Rene Meulensteen",
+        "win": 3
+      },
+      {
+        "draw": 3,
+        "ga": 27,
+        "gf": 14,
+        "id": "67",
+        "loss": 6,
+        "matches": 12,
+        "name": "Felix Magath",
+        "win": 3
+      }
+    ],
+    "40": [
+      {
+        "draw": 6,
+        "ga": 50,
+        "gf": 101,
+        "id": "38197",
+        "loss": 6,
+        "matches": 38,
+        "name": "Brendan Rodgers",
+        "win": 26
+      }
+    ],
+    "41": [
+      {
+        "draw": 11,
+        "ga": 46,
+        "gf": 54,
+        "id": "38223",
+        "loss": 12,
+        "matches": 38,
+        "name": "Mauricio Pochettino",
+        "win": 15
+      }
+    ],
+    "42": [
+      {
+        "draw": 7,
+        "ga": 41,
+        "gf": 68,
+        "id": "51",
+        "loss": 7,
+        "matches": 38,
+        "name": "Arsène Wenger",
+        "win": 24
+      }
+    ],
+    "43": [
+      {
+        "draw": 5,
+        "ga": 28,
+        "gf": 13,
+        "id": "38187",
+        "loss": 9,
+        "matches": 18,
+        "name": "Malky Mackay",
+        "win": 4
+      },
+      {
+        "draw": 3,
+        "ga": 42,
+        "gf": 17,
+        "id": "40342",
+        "loss": 12,
+        "matches": 18,
+        "name": "Ole Gunnar Solskjaer",
+        "win": 3
+      },
+      {
+        "draw": 1,
+        "ga": 4,
+        "gf": 2,
+        "id": "42458",
+        "loss": 1,
+        "matches": 2,
+        "name": "David Kerslake",
+        "win": 0
+      }
+    ],
+    "45": [
+      {
+        "draw": 9,
+        "ga": 39,
+        "gf": 61,
+        "id": "37455",
+        "loss": 8,
+        "matches": 38,
+        "name": "Roberto Martinez",
+        "win": 21
+      }
+    ],
+    "47": [
+      {
+        "draw": 3,
+        "ga": 30,
+        "gf": 40,
+        "id": "43745",
+        "loss": 6,
+        "matches": 22,
+        "name": "Tim Sherwood",
+        "win": 13
+      },
+      {
+        "draw": 3,
+        "ga": 21,
+        "gf": 15,
+        "id": "39358",
+        "loss": 5,
+        "matches": 16,
+        "name": "Andre Villas-Boas",
+        "win": 8
+      }
+    ],
+    "48": [
+      {
+        "draw": 7,
+        "ga": 51,
+        "gf": 40,
+        "id": "83",
+        "loss": 20,
+        "matches": 38,
+        "name": "Sam Allardyce",
+        "win": 11
+      }
+    ],
+    "49": [
+      {
+        "draw": 7,
+        "ga": 27,
+        "gf": 71,
+        "id": "134",
+        "loss": 6,
+        "matches": 38,
+        "name": "José Mourinho",
+        "win": 25
+      }
+    ],
+    "50": [
+      {
+        "draw": 5,
+        "ga": 37,
+        "gf": 102,
+        "id": "257",
+        "loss": 6,
+        "matches": 38,
+        "name": "Manuel Pellegrini",
+        "win": 27
+      }
+    ],
+    "52": [
+      {
+        "draw": 5,
+        "ga": 27,
+        "gf": 26,
+        "id": "233",
+        "loss": 10,
+        "matches": 26,
+        "name": "Tony Pulis",
+        "win": 11
+      },
+      {
+        "draw": 0,
+        "ga": 17,
+        "gf": 6,
+        "id": "186",
+        "loss": 7,
+        "matches": 8,
+        "name": "Ian Holloway",
+        "win": 1
+      },
+      {
+        "draw": 1,
+        "ga": 4,
+        "gf": 1,
+        "id": "39690",
+        "loss": 2,
+        "matches": 4,
+        "name": "Keith Millen",
+        "win": 1
+      }
+    ],
+    "60": [
+      {
+        "draw": 6,
+        "ga": 31,
+        "gf": 20,
+        "id": "39293",
+        "loss": 8,
+        "matches": 17,
+        "name": "Pepe Mel",
+        "win": 3
+      },
+      {
+        "draw": 6,
+        "ga": 22,
+        "gf": 17,
+        "id": "37376",
+        "loss": 7,
+        "matches": 16,
+        "name": "Steve Clarke",
+        "win": 3
+      },
+      {
+        "draw": 3,
+        "ga": 6,
+        "gf": 6,
+        "id": "37706",
+        "loss": 1,
+        "matches": 5,
+        "name": "Keith Downing",
+        "win": 1
+      }
+    ],
+    "64": [
+      {
+        "draw": 7,
+        "ga": 53,
+        "gf": 38,
+        "id": "81",
+        "loss": 21,
+        "matches": 38,
+        "name": "Steve Bruce",
+        "win": 10
+      }
+    ],
+    "66": [
+      {
+        "draw": 8,
+        "ga": 61,
+        "gf": 39,
+        "id": "37630",
+        "loss": 20,
+        "matches": 38,
+        "name": "Paul Lambert",
+        "win": 10
+      }
+    ],
+    "71": [
+      {
+        "draw": 8,
+        "ga": 52,
+        "gf": 26,
+        "id": "37372",
+        "loss": 17,
+        "matches": 33,
+        "name": "Chris Hughton",
+        "win": 8
+      },
+      {
+        "draw": 1,
+        "ga": 10,
+        "gf": 2,
+        "id": "44078",
+        "loss": 4,
+        "matches": 5,
+        "name": "Neil Adams",
+        "win": 0
+      }
+    ],
+    "75": [
+      {
+        "draw": 11,
+        "ga": 52,
+        "gf": 45,
+        "id": "163",
+        "loss": 14,
+        "matches": 38,
+        "name": "Mark Hughes",
+        "win": 13
+      }
+    ],
+    "76": [
+      {
+        "draw": 6,
+        "ga": 35,
+        "gf": 29,
+        "id": "37659",
+        "loss": 12,
+        "matches": 24,
+        "name": "Michael Laudrup",
+        "win": 6
+      },
+      {
+        "draw": 3,
+        "ga": 19,
+        "gf": 25,
+        "id": "43865",
+        "loss": 6,
+        "matches": 14,
+        "name": "Garry Monk",
+        "win": 5
+      }
+    ],
+    "746": [
+      {
+        "draw": 7,
+        "ga": 44,
+        "gf": 36,
+        "id": "39389",
+        "loss": 14,
+        "matches": 31,
+        "name": "Gus Poyet",
+        "win": 10
+      },
+      {
+        "draw": 1,
+        "ga": 11,
+        "gf": 3,
+        "id": "40742",
+        "loss": 4,
+        "matches": 5,
+        "name": "Paolo Di Canio",
+        "win": 0
+      },
+      {
+        "draw": 0,
+        "ga": 5,
+        "gf": 2,
+        "id": "1339",
+        "loss": 2,
+        "matches": 2,
+        "name": "Kevin Ball",
+        "win": 0
+      }
+    ]
+  },
+  "2014": {
+    "33": [
+      {
+        "draw": 10,
+        "ga": 37,
+        "gf": 62,
+        "id": "61",
+        "loss": 8,
+        "matches": 38,
+        "name": "Louis van Gaal",
+        "win": 20
+      }
+    ],
+    "34": [
+      {
+        "draw": 5,
+        "ga": 28,
+        "gf": 22,
+        "id": "168",
+        "loss": 7,
+        "matches": 19,
+        "name": "Alan Pardew",
+        "win": 7
+      },
+      {
+        "draw": 4,
+        "ga": 35,
+        "gf": 18,
+        "id": "37377",
+        "loss": 12,
+        "matches": 19,
+        "name": "John Carver",
+        "win": 3
+      }
+    ],
+    "40": [
+      {
+        "draw": 8,
+        "ga": 48,
+        "gf": 52,
+        "id": "38197",
+        "loss": 12,
+        "matches": 38,
+        "name": "Brendan Rodgers",
+        "win": 18
+      }
+    ],
+    "41": [
+      {
+        "draw": 6,
+        "ga": 33,
+        "gf": 54,
+        "id": "52",
+        "loss": 14,
+        "matches": 38,
+        "name": "Ronald Koeman",
+        "win": 18
+      }
+    ],
+    "42": [
+      {
+        "draw": 9,
+        "ga": 36,
+        "gf": 71,
+        "id": "51",
+        "loss": 7,
+        "matches": 38,
+        "name": "Arsène Wenger",
+        "win": 22
+      }
+    ],
+    "44": [
+      {
+        "draw": 12,
+        "ga": 53,
+        "gf": 28,
+        "id": "40853",
+        "loss": 19,
+        "matches": 38,
+        "name": "Sean Dyche",
+        "win": 7
+      }
+    ],
+    "45": [
+      {
+        "draw": 11,
+        "ga": 50,
+        "gf": 48,
+        "id": "37455",
+        "loss": 15,
+        "matches": 38,
+        "name": "Roberto Martinez",
+        "win": 12
+      }
+    ],
+    "46": [
+      {
+        "draw": 8,
+        "ga": 55,
+        "gf": 46,
+        "id": "37398",
+        "loss": 19,
+        "matches": 38,
+        "name": "Nigel Pearson",
+        "win": 11
+      }
+    ],
+    "47": [
+      {
+        "draw": 7,
+        "ga": 53,
+        "gf": 58,
+        "id": "38223",
+        "loss": 12,
+        "matches": 38,
+        "name": "Mauricio Pochettino",
+        "win": 19
+      }
+    ],
+    "48": [
+      {
+        "draw": 11,
+        "ga": 47,
+        "gf": 44,
+        "id": "83",
+        "loss": 15,
+        "matches": 38,
+        "name": "Sam Allardyce",
+        "win": 12
+      }
+    ],
+    "49": [
+      {
+        "draw": 9,
+        "ga": 32,
+        "gf": 73,
+        "id": "134",
+        "loss": 3,
+        "matches": 38,
+        "name": "José Mourinho",
+        "win": 26
+      }
+    ],
+    "50": [
+      {
+        "draw": 7,
+        "ga": 38,
+        "gf": 83,
+        "id": "257",
+        "loss": 7,
+        "matches": 38,
+        "name": "Manuel Pellegrini",
+        "win": 24
+      }
+    ],
+    "52": [
+      {
+        "draw": 1,
+        "ga": 21,
+        "gf": 27,
+        "id": "168",
+        "loss": 7,
+        "matches": 18,
+        "name": "Alan Pardew",
+        "win": 10
+      },
+      {
+        "draw": 6,
+        "ga": 25,
+        "gf": 18,
+        "id": "183",
+        "loss": 7,
+        "matches": 16,
+        "name": "Neil Warnock",
+        "win": 3
+      },
+      {
+        "draw": 2,
+        "ga": 5,
+        "gf": 2,
+        "id": "39690",
+        "loss": 2,
+        "matches": 4,
+        "name": "Keith Millen",
+        "win": 0
+      }
+    ],
+    "60": [
+      {
+        "draw": 5,
+        "ga": 28,
+        "gf": 18,
+        "id": "37769",
+        "loss": 10,
+        "matches": 19,
+        "name": "Alan Irvine",
+        "win": 4
+      },
+      {
+        "draw": 5,
+        "ga": 22,
+        "gf": 19,
+        "id": "233",
+        "loss": 6,
+        "matches": 18,
+        "name": "Tony Pulis",
+        "win": 7
+      },
+      {
+        "draw": 1,
+        "ga": 1,
+        "gf": 1,
+        "id": "37396",
+        "loss": 0,
+        "matches": 1,
+        "name": "Rob Kelly",
+        "win": 0
+      }
+    ],
+    "64": [
+      {
+        "draw": 11,
+        "ga": 51,
+        "gf": 33,
+        "id": "81",
+        "loss": 19,
+        "matches": 38,
+        "name": "Steve Bruce",
+        "win": 8
+      }
+    ],
+    "66": [
+      {
+        "draw": 7,
+        "ga": 34,
+        "gf": 12,
+        "id": "37630",
+        "loss": 13,
+        "matches": 25,
+        "name": "Paul Lambert",
+        "win": 5
+      },
+      {
+        "draw": 1,
+        "ga": 23,
+        "gf": 19,
+        "id": "43745",
+        "loss": 7,
+        "matches": 13,
+        "name": "Tim Sherwood",
+        "win": 5
+      }
+    ],
+    "72": [
+      {
+        "draw": 4,
+        "ga": 42,
+        "gf": 24,
+        "id": "127",
+        "loss": 14,
+        "matches": 23,
+        "name": "Harry Redknapp",
+        "win": 5
+      },
+      {
+        "draw": 2,
+        "ga": 30,
+        "gf": 16,
+        "id": "45261",
+        "loss": 9,
+        "matches": 13,
+        "name": "Chris Ramsey",
+        "win": 2
+      },
+      {
+        "draw": 0,
+        "ga": 1,
+        "gf": 2,
+        "id": "37434",
+        "loss": 1,
+        "matches": 2,
+        "name": "Kevin Bond",
+        "win": 1
+      }
+    ],
+    "75": [
+      {
+        "draw": 9,
+        "ga": 45,
+        "gf": 48,
+        "id": "163",
+        "loss": 14,
+        "matches": 38,
+        "name": "Mark Hughes",
+        "win": 15
+      }
+    ],
+    "76": [
+      {
+        "draw": 8,
+        "ga": 49,
+        "gf": 46,
+        "id": "43865",
+        "loss": 14,
+        "matches": 38,
+        "name": "Garry Monk",
+        "win": 16
+      }
+    ],
+    "746": [
+      {
+        "draw": 14,
+        "ga": 43,
+        "gf": 23,
+        "id": "39389",
+        "loss": 11,
+        "matches": 29,
+        "name": "Gus Poyet",
+        "win": 4
+      },
+      {
+        "draw": 3,
+        "ga": 10,
+        "gf": 8,
+        "id": "273",
+        "loss": 3,
+        "matches": 9,
+        "name": "Dick Advocaat",
+        "win": 3
+      }
+    ]
+  },
+  "2015": {
+    "33": [
+      {
+        "draw": 9,
+        "ga": 35,
+        "gf": 49,
+        "id": "61",
+        "loss": 10,
+        "matches": 38,
+        "name": "Louis van Gaal",
+        "win": 19
+      }
+    ],
+    "34": [
+      {
+        "draw": 6,
+        "ga": 53,
+        "gf": 28,
+        "id": "88",
+        "loss": 16,
+        "matches": 28,
+        "name": "Steve McClaren",
+        "win": 6
+      },
+      {
+        "draw": 4,
+        "ga": 12,
+        "gf": 16,
+        "id": "36",
+        "loss": 3,
+        "matches": 10,
+        "name": "Rafael Benítez",
+        "win": 3
+      }
+    ],
+    "35": [
+      {
+        "draw": 9,
+        "ga": 67,
+        "gf": 45,
+        "id": "38216",
+        "loss": 18,
+        "matches": 38,
+        "name": "Eddie Howe",
+        "win": 11
+      }
+    ],
+    "38": [
+      {
+        "draw": 9,
+        "ga": 50,
+        "gf": 40,
+        "id": "261",
+        "loss": 17,
+        "matches": 38,
+        "name": "Enrique Sánchez Flores",
+        "win": 12
+      }
+    ],
+    "40": [
+      {
+        "draw": 9,
+        "ga": 40,
+        "gf": 55,
+        "id": "279",
+        "loss": 8,
+        "matches": 30,
+        "name": "Jürgen Klopp",
+        "win": 13
+      },
+      {
+        "draw": 3,
+        "ga": 10,
+        "gf": 8,
+        "id": "38197",
+        "loss": 2,
+        "matches": 8,
+        "name": "Brendan Rodgers",
+        "win": 3
+      }
+    ],
+    "41": [
+      {
+        "draw": 9,
+        "ga": 41,
+        "gf": 59,
+        "id": "52",
+        "loss": 11,
+        "matches": 38,
+        "name": "Ronald Koeman",
+        "win": 18
+      }
+    ],
+    "42": [
+      {
+        "draw": 11,
+        "ga": 36,
+        "gf": 65,
+        "id": "51",
+        "loss": 7,
+        "matches": 38,
+        "name": "Arsène Wenger",
+        "win": 20
+      }
+    ],
+    "45": [
+      {
+        "draw": 14,
+        "ga": 55,
+        "gf": 56,
+        "id": "37455",
+        "loss": 13,
+        "matches": 37,
+        "name": "Roberto Martinez",
+        "win": 10
+      },
+      {
+        "draw": 0,
+        "ga": 0,
+        "gf": 3,
+        "id": "40404",
+        "loss": 0,
+        "matches": 1,
+        "name": "David Unsworth",
+        "win": 1
+      }
+    ],
+    "46": [
+      {
+        "draw": 12,
+        "ga": 36,
+        "gf": 68,
+        "id": "80",
+        "loss": 3,
+        "matches": 38,
+        "name": "Claudio Ranieri",
+        "win": 23
+      }
+    ],
+    "47": [
+      {
+        "draw": 13,
+        "ga": 35,
+        "gf": 69,
+        "id": "38223",
+        "loss": 6,
+        "matches": 38,
+        "name": "Mauricio Pochettino",
+        "win": 19
+      }
+    ],
+    "48": [
+      {
+        "draw": 14,
+        "ga": 51,
+        "gf": 65,
+        "id": "37510",
+        "loss": 8,
+        "matches": 38,
+        "name": "Slaven Bilic",
+        "win": 16
+      }
+    ],
+    "49": [
+      {
+        "draw": 11,
+        "ga": 26,
+        "gf": 38,
+        "id": "5",
+        "loss": 3,
+        "matches": 21,
+        "name": "Guus Hiddink",
+        "win": 7
+      },
+      {
+        "draw": 3,
+        "ga": 26,
+        "gf": 18,
+        "id": "134",
+        "loss": 9,
+        "matches": 16,
+        "name": "José Mourinho",
+        "win": 4
+      },
+      {
+        "draw": 0,
+        "ga": 1,
+        "gf": 3,
+        "id": "46352",
+        "loss": 0,
+        "matches": 1,
+        "name": "Eddie Newton",
+        "win": 1
+      }
+    ],
+    "50": [
+      {
+        "draw": 9,
+        "ga": 41,
+        "gf": 71,
+        "id": "257",
+        "loss": 10,
+        "matches": 38,
+        "name": "Manuel Pellegrini",
+        "win": 19
+      }
+    ],
+    "52": [
+      {
+        "draw": 9,
+        "ga": 51,
+        "gf": 39,
+        "id": "168",
+        "loss": 18,
+        "matches": 38,
+        "name": "Alan Pardew",
+        "win": 11
+      }
+    ],
+    "60": [
+      {
+        "draw": 13,
+        "ga": 48,
+        "gf": 34,
+        "id": "233",
+        "loss": 15,
+        "matches": 38,
+        "name": "Tony Pulis",
+        "win": 10
+      }
+    ],
+    "66": [
+      {
+        "draw": 6,
+        "ga": 38,
+        "gf": 12,
+        "id": "38349",
+        "loss": 12,
+        "matches": 20,
+        "name": "Rémi Garde",
+        "win": 2
+      },
+      {
+        "draw": 1,
+        "ga": 17,
+        "gf": 9,
+        "id": "43745",
+        "loss": 8,
+        "matches": 10,
+        "name": "Tim Sherwood",
+        "win": 1
+      },
+      {
+        "draw": 1,
+        "ga": 18,
+        "gf": 5,
+        "id": "37764",
+        "loss": 6,
+        "matches": 7,
+        "name": "Eric Black",
+        "win": 0
+      },
+      {
+        "draw": 0,
+        "ga": 3,
+        "gf": 1,
+        "id": "37484",
+        "loss": 1,
+        "matches": 1,
+        "name": "Kevin MacDonald",
+        "win": 0
+      }
+    ],
+    "71": [
+      {
+        "draw": 7,
+        "ga": 67,
+        "gf": 39,
+        "id": "42291",
+        "loss": 22,
+        "matches": 38,
+        "name": "Alex Neil",
+        "win": 9
+      }
+    ],
+    "75": [
+      {
+        "draw": 9,
+        "ga": 55,
+        "gf": 41,
+        "id": "163",
+        "loss": 15,
+        "matches": 38,
+        "name": "Mark Hughes",
+        "win": 14
+      }
+    ],
+    "76": [
+      {
+        "draw": 4,
+        "ga": 22,
+        "gf": 22,
+        "id": "141",
+        "loss": 5,
+        "matches": 16,
+        "name": "Francesco Guidolin",
+        "win": 7
+      },
+      {
+        "draw": 5,
+        "ga": 22,
+        "gf": 14,
+        "id": "43865",
+        "loss": 7,
+        "matches": 15,
+        "name": "Garry Monk",
+        "win": 3
+      },
+      {
+        "draw": 2,
+        "ga": 8,
+        "gf": 6,
+        "id": "43888",
+        "loss": 3,
+        "matches": 7,
+        "name": "Alan Curtis",
+        "win": 2
+      }
+    ],
+    "746": [
+      {
+        "draw": 9,
+        "ga": 44,
+        "gf": 40,
+        "id": "83",
+        "loss": 12,
+        "matches": 30,
+        "name": "Sam Allardyce",
+        "win": 9
+      },
+      {
+        "draw": 3,
+        "ga": 18,
+        "gf": 8,
+        "id": "273",
+        "loss": 5,
+        "matches": 8,
+        "name": "Dick Advocaat",
+        "win": 0
+      }
+    ]
+  },
+  "2016": {
+    "33": [
+      {
+        "draw": 15,
+        "ga": 29,
+        "gf": 54,
+        "id": "134",
+        "loss": 5,
+        "matches": 38,
+        "name": "José Mário dos Santos Mourinho Félix",
+        "win": 18
+      }
+    ],
+    "35": [
+      {
+        "draw": 10,
+        "ga": 67,
+        "gf": 55,
+        "id": "38216",
+        "loss": 16,
+        "matches": 38,
+        "name": "Eddie Howe",
+        "win": 12
+      }
+    ],
+    "38": [
+      {
+        "draw": 7,
+        "ga": 68,
+        "gf": 40,
+        "id": "147",
+        "loss": 20,
+        "matches": 38,
+        "name": "Walter Mazzarri",
+        "win": 11
+      }
+    ],
+    "40": [
+      {
+        "draw": 10,
+        "ga": 42,
+        "gf": 78,
+        "id": "279",
+        "loss": 6,
+        "matches": 38,
+        "name": "Jürgen Klopp",
+        "win": 22
+      }
+    ],
+    "41": [
+      {
+        "draw": 10,
+        "ga": 48,
+        "gf": 41,
+        "id": "1061",
+        "loss": 16,
+        "matches": 38,
+        "name": "Claude Puel",
+        "win": 12
+      }
+    ],
+    "42": [
+      {
+        "draw": 6,
+        "ga": 44,
+        "gf": 77,
+        "id": "51",
+        "loss": 9,
+        "matches": 38,
+        "name": "Arsène Wenger",
+        "win": 23
+      }
+    ],
+    "44": [
+      {
+        "draw": 7,
+        "ga": 55,
+        "gf": 39,
+        "id": "40853",
+        "loss": 20,
+        "matches": 38,
+        "name": "Sean Dyche",
+        "win": 11
+      }
+    ],
+    "45": [
+      {
+        "draw": 10,
+        "ga": 44,
+        "gf": 62,
+        "id": "52",
+        "loss": 11,
+        "matches": 38,
+        "name": "Ronald Koeman",
+        "win": 17
+      }
+    ],
+    "46": [
+      {
+        "draw": 6,
+        "ga": 43,
+        "gf": 24,
+        "id": "80",
+        "loss": 14,
+        "matches": 25,
+        "name": "Claudio Ranieri",
+        "win": 5
+      },
+      {
+        "draw": 2,
+        "ga": 20,
+        "gf": 24,
+        "id": "44439",
+        "loss": 4,
+        "matches": 13,
+        "name": "Craig Shakespeare",
+        "win": 7
+      }
+    ],
+    "47": [
+      {
+        "draw": 8,
+        "ga": 26,
+        "gf": 86,
+        "id": "38223",
+        "loss": 4,
+        "matches": 38,
+        "name": "Mauricio Pochettino",
+        "win": 26
+      }
+    ],
+    "48": [
+      {
+        "draw": 9,
+        "ga": 64,
+        "gf": 47,
+        "id": "37510",
+        "loss": 17,
+        "matches": 38,
+        "name": "Slaven Bilic",
+        "win": 12
+      }
+    ],
+    "49": [
+      {
+        "draw": 3,
+        "ga": 33,
+        "gf": 85,
+        "id": "37788",
+        "loss": 5,
+        "matches": 38,
+        "name": "Antonio Conte",
+        "win": 30
+      }
+    ],
+    "50": [
+      {
+        "draw": 9,
+        "ga": 39,
+        "gf": 80,
+        "id": "37974",
+        "loss": 6,
+        "matches": 38,
+        "name": "Pep Guardiola",
+        "win": 23
+      }
+    ],
+    "52": [
+      {
+        "draw": 2,
+        "ga": 31,
+        "gf": 22,
+        "id": "83",
+        "loss": 11,
+        "matches": 21,
+        "name": "Sam Allardyce",
+        "win": 8
+      },
+      {
+        "draw": 3,
+        "ga": 32,
+        "gf": 28,
+        "id": "168",
+        "loss": 10,
+        "matches": 17,
+        "name": "Alan Pardew",
+        "win": 4
+      }
+    ],
+    "60": [
+      {
+        "draw": 9,
+        "ga": 51,
+        "gf": 43,
+        "id": "233",
+        "loss": 17,
+        "matches": 38,
+        "name": "Tony Pulis",
+        "win": 12
+      }
+    ],
+    "64": [
+      {
+        "draw": 4,
+        "ga": 44,
+        "gf": 17,
+        "id": "38331",
+        "loss": 13,
+        "matches": 20,
+        "name": "Mike Phelan",
+        "win": 3
+      },
+      {
+        "draw": 3,
+        "ga": 36,
+        "gf": 20,
+        "id": "41801",
+        "loss": 9,
+        "matches": 18,
+        "name": "Marco Silva",
+        "win": 6
+      }
+    ],
+    "70": [
+      {
+        "draw": 10,
+        "ga": 30,
+        "gf": 19,
+        "id": "43618",
+        "loss": 13,
+        "matches": 27,
+        "name": "Aitor Karanka",
+        "win": 4
+      },
+      {
+        "draw": 3,
+        "ga": 23,
+        "gf": 8,
+        "id": "40295",
+        "loss": 7,
+        "matches": 11,
+        "name": "Steve Agnew",
+        "win": 1
+      }
+    ],
+    "75": [
+      {
+        "draw": 11,
+        "ga": 56,
+        "gf": 41,
+        "id": "163",
+        "loss": 16,
+        "matches": 38,
+        "name": "Mark Hughes",
+        "win": 11
+      }
+    ],
+    "76": [
+      {
+        "draw": 2,
+        "ga": 26,
+        "gf": 24,
+        "id": "45602",
+        "loss": 8,
+        "matches": 19,
+        "name": "Paul Clement",
+        "win": 9
+      },
+      {
+        "draw": 2,
+        "ga": 29,
+        "gf": 15,
+        "id": "37551",
+        "loss": 7,
+        "matches": 11,
+        "name": "Bob Bradley",
+        "win": 2
+      },
+      {
+        "draw": 1,
+        "ga": 12,
+        "gf": 6,
+        "id": "141",
+        "loss": 5,
+        "matches": 7,
+        "name": "Francesco Guidolin",
+        "win": 1
+      },
+      {
+        "draw": 0,
+        "ga": 3,
+        "gf": 0,
+        "id": "43888",
+        "loss": 1,
+        "matches": 1,
+        "name": "Alan Curtis",
+        "win": 0
+      }
+    ],
+    "746": [
+      {
+        "draw": 6,
+        "ga": 69,
+        "gf": 29,
+        "id": "85",
+        "loss": 26,
+        "matches": 38,
+        "name": "David Moyes",
+        "win": 6
+      }
+    ]
+  },
+  "2017": {
+    "33": [
+      {
+        "draw": 6,
+        "ga": 28,
+        "gf": 68,
+        "id": "134",
+        "loss": 7,
+        "matches": 38,
+        "name": "José Mourinho",
+        "win": 25
+      }
+    ],
+    "34": [
+      {
+        "draw": 8,
+        "ga": 47,
+        "gf": 39,
+        "id": "36",
+        "loss": 18,
+        "matches": 38,
+        "name": "Rafael Benítez",
+        "win": 12
+      }
+    ],
+    "35": [
+      {
+        "draw": 11,
+        "ga": 61,
+        "gf": 45,
+        "id": "38216",
+        "loss": 16,
+        "matches": 38,
+        "name": "Eddie Howe",
+        "win": 11
+      }
+    ],
+    "37": [
+      {
+        "draw": 10,
+        "ga": 58,
+        "gf": 28,
+        "id": "41681",
+        "loss": 19,
+        "matches": 38,
+        "name": "David Wagner",
+        "win": 9
+      }
+    ],
+    "38": [
+      {
+        "draw": 5,
+        "ga": 44,
+        "gf": 33,
+        "id": "41801",
+        "loss": 12,
+        "matches": 24,
+        "name": "Marco Silva",
+        "win": 7
+      },
+      {
+        "draw": 3,
+        "ga": 20,
+        "gf": 11,
+        "id": "40824",
+        "loss": 7,
+        "matches": 14,
+        "name": "Javier Gracia",
+        "win": 4
+      }
+    ],
+    "40": [
+      {
+        "draw": 12,
+        "ga": 38,
+        "gf": 84,
+        "id": "279",
+        "loss": 5,
+        "matches": 38,
+        "name": "Jürgen Klopp",
+        "win": 21
+      }
+    ],
+    "41": [
+      {
+        "draw": 13,
+        "ga": 44,
+        "gf": 29,
+        "id": "41736",
+        "loss": 12,
+        "matches": 30,
+        "name": "Mauricio Pellegrino",
+        "win": 5
+      },
+      {
+        "draw": 2,
+        "ga": 12,
+        "gf": 8,
+        "id": "163",
+        "loss": 4,
+        "matches": 8,
+        "name": "Mark Hughes",
+        "win": 2
+      }
+    ],
+    "42": [
+      {
+        "draw": 6,
+        "ga": 51,
+        "gf": 74,
+        "id": "51",
+        "loss": 13,
+        "matches": 38,
+        "name": "Arsène Wenger",
+        "win": 19
+      }
+    ],
+    "44": [
+      {
+        "draw": 12,
+        "ga": 39,
+        "gf": 36,
+        "id": "40853",
+        "loss": 12,
+        "matches": 38,
+        "name": "Sean Dyche",
+        "win": 14
+      }
+    ],
+    "45": [
+      {
+        "draw": 7,
+        "ga": 30,
+        "gf": 27,
+        "id": "83",
+        "loss": 8,
+        "matches": 24,
+        "name": "Sam Allardyce",
+        "win": 9
+      },
+      {
+        "draw": 2,
+        "ga": 18,
+        "gf": 7,
+        "id": "52",
+        "loss": 5,
+        "matches": 9,
+        "name": "Ronald Koeman",
+        "win": 2
+      },
+      {
+        "draw": 1,
+        "ga": 10,
+        "gf": 10,
+        "id": "40404",
+        "loss": 2,
+        "matches": 5,
+        "name": "David Unsworth",
+        "win": 2
+      }
+    ],
+    "46": [
+      {
+        "draw": 8,
+        "ga": 46,
+        "gf": 44,
+        "id": "1061",
+        "loss": 11,
+        "matches": 29,
+        "name": "Claude Puel",
+        "win": 10
+      },
+      {
+        "draw": 3,
+        "ga": 13,
+        "gf": 10,
+        "id": "44439",
+        "loss": 4,
+        "matches": 8,
+        "name": "Craig Shakespeare",
+        "win": 1
+      },
+      {
+        "draw": 0,
+        "ga": 1,
+        "gf": 2,
+        "id": "40462",
+        "loss": 0,
+        "matches": 1,
+        "name": "Michael Appleton",
+        "win": 1
+      }
+    ],
+    "47": [
+      {
+        "draw": 8,
+        "ga": 36,
+        "gf": 74,
+        "id": "38223",
+        "loss": 7,
+        "matches": 38,
+        "name": "Mauricio Pochettino",
+        "win": 23
+      }
+    ],
+    "48": [
+      {
+        "draw": 9,
+        "ga": 45,
+        "gf": 37,
+        "id": "85",
+        "loss": 10,
+        "matches": 27,
+        "name": "David Moyes",
+        "win": 8
+      },
+      {
+        "draw": 3,
+        "ga": 23,
+        "gf": 11,
+        "id": "37510",
+        "loss": 6,
+        "matches": 11,
+        "name": "Slaven Bilic",
+        "win": 2
+      }
+    ],
+    "49": [
+      {
+        "draw": 7,
+        "ga": 38,
+        "gf": 62,
+        "id": "37788",
+        "loss": 10,
+        "matches": 38,
+        "name": "Antonio Conte",
+        "win": 21
+      }
+    ],
+    "50": [
+      {
+        "draw": 4,
+        "ga": 27,
+        "gf": 106,
+        "id": "37974",
+        "loss": 2,
+        "matches": 38,
+        "name": "Josep Guardiola",
+        "win": 32
+      }
+    ],
+    "51": [
+      {
+        "draw": 13,
+        "ga": 54,
+        "gf": 34,
+        "id": "37372",
+        "loss": 16,
+        "matches": 38,
+        "name": "Chris Hughton",
+        "win": 9
+      }
+    ],
+    "52": [
+      {
+        "draw": 11,
+        "ga": 48,
+        "gf": 45,
+        "id": "1280",
+        "loss": 12,
+        "matches": 34,
+        "name": "Roy Hodgson",
+        "win": 11
+      },
+      {
+        "draw": 0,
+        "ga": 7,
+        "gf": 0,
+        "id": "40385",
+        "loss": 4,
+        "matches": 4,
+        "name": "Frank de Boer",
+        "win": 0
+      }
+    ],
+    "60": [
+      {
+        "draw": 5,
+        "ga": 30,
+        "gf": 13,
+        "id": "168",
+        "loss": 12,
+        "matches": 18,
+        "name": "Alan Pardew",
+        "win": 1
+      },
+      {
+        "draw": 4,
+        "ga": 18,
+        "gf": 9,
+        "id": "233",
+        "loss": 6,
+        "matches": 12,
+        "name": "Tony Pulis",
+        "win": 2
+      },
+      {
+        "draw": 2,
+        "ga": 5,
+        "gf": 6,
+        "id": "49927",
+        "loss": 1,
+        "matches": 6,
+        "name": "Darren Moore",
+        "win": 3
+      },
+      {
+        "draw": 2,
+        "ga": 3,
+        "gf": 3,
+        "id": "37459",
+        "loss": 0,
+        "matches": 2,
+        "name": "Gary Megson",
+        "win": 0
+      }
+    ],
+    "75": [
+      {
+        "draw": 5,
+        "ga": 47,
+        "gf": 23,
+        "id": "163",
+        "loss": 12,
+        "matches": 22,
+        "name": "Mark Hughes",
+        "win": 5
+      },
+      {
+        "draw": 7,
+        "ga": 18,
+        "gf": 12,
+        "id": "37630",
+        "loss": 6,
+        "matches": 15,
+        "name": "Paul Lambert",
+        "win": 2
+      },
+      {
+        "draw": 0,
+        "ga": 3,
+        "gf": 0,
+        "id": "49639",
+        "loss": 1,
+        "matches": 1,
+        "name": "Eddie Niedzwiecki",
+        "win": 0
+      }
+    ],
+    "76": [
+      {
+        "draw": 5,
+        "ga": 25,
+        "gf": 17,
+        "id": "37411",
+        "loss": 8,
+        "matches": 18,
+        "name": "Carlos Carvalhal",
+        "win": 5
+      },
+      {
+        "draw": 3,
+        "ga": 25,
+        "gf": 10,
+        "id": "45602",
+        "loss": 12,
+        "matches": 18,
+        "name": "Paul Clement",
+        "win": 3
+      },
+      {
+        "draw": 1,
+        "ga": 6,
+        "gf": 1,
+        "id": "49582",
+        "loss": 1,
+        "matches": 2,
+        "name": "Leon Britton",
+        "win": 0
+      }
+    ]
+  },
+  "2018": {
+    "33": [
+      {
+        "draw": 4,
+        "ga": 25,
+        "gf": 36,
+        "id": "40342",
+        "loss": 5,
+        "matches": 21,
+        "name": "Ole Gunnar Solskjær",
+        "win": 12
+      },
+      {
+        "draw": 5,
+        "ga": 29,
+        "gf": 29,
+        "id": "134",
+        "loss": 5,
+        "matches": 17,
+        "name": "José Mourinho",
+        "win": 7
+      }
+    ],
+    "34": [
+      {
+        "draw": 9,
+        "ga": 48,
+        "gf": 42,
+        "id": "36",
+        "loss": 17,
+        "matches": 38,
+        "name": "Rafael Benítez",
+        "win": 12
+      }
+    ],
+    "35": [
+      {
+        "draw": 6,
+        "ga": 70,
+        "gf": 56,
+        "id": "38216",
+        "loss": 19,
+        "matches": 38,
+        "name": "Eddie Howe",
+        "win": 13
+      }
+    ],
+    "36": [
+      {
+        "draw": 3,
+        "ga": 32,
+        "gf": 15,
+        "id": "80",
+        "loss": 10,
+        "matches": 16,
+        "name": "Claudio Ranieri",
+        "win": 3
+      },
+      {
+        "draw": 2,
+        "ga": 31,
+        "gf": 11,
+        "id": "38162",
+        "loss": 9,
+        "matches": 12,
+        "name": "Slavisa Jokanovic",
+        "win": 1
+      },
+      {
+        "draw": 0,
+        "ga": 18,
+        "gf": 8,
+        "id": "49243",
+        "loss": 7,
+        "matches": 10,
+        "name": "Scott Parker",
+        "win": 3
+      }
+    ],
+    "37": [
+      {
+        "draw": 5,
+        "ga": 37,
+        "gf": 13,
+        "id": "41681",
+        "loss": 15,
+        "matches": 22,
+        "name": "David Wagner",
+        "win": 2
+      },
+      {
+        "draw": 2,
+        "ga": 36,
+        "gf": 9,
+        "id": "45662",
+        "loss": 12,
+        "matches": 15,
+        "name": "Jan Siewert",
+        "win": 1
+      },
+      {
+        "draw": 0,
+        "ga": 3,
+        "gf": 0,
+        "id": "51572",
+        "loss": 1,
+        "matches": 1,
+        "name": "Mark Hudson",
+        "win": 0
+      }
+    ],
+    "38": [
+      {
+        "draw": 8,
+        "ga": 59,
+        "gf": 52,
+        "id": "40824",
+        "loss": 16,
+        "matches": 38,
+        "name": "Javier Gracia",
+        "win": 14
+      }
+    ],
+    "39": [
+      {
+        "draw": 9,
+        "ga": 46,
+        "gf": 47,
+        "id": "41809",
+        "loss": 13,
+        "matches": 38,
+        "name": "Nuno Espírito Santo",
+        "win": 16
+      }
+    ],
+    "40": [
+      {
+        "draw": 7,
+        "ga": 22,
+        "gf": 89,
+        "id": "279",
+        "loss": 1,
+        "matches": 38,
+        "name": "Jürgen Klopp",
+        "win": 30
+      }
+    ],
+    "41": [
+      {
+        "draw": 6,
+        "ga": 36,
+        "gf": 32,
+        "id": "560",
+        "loss": 9,
+        "matches": 23,
+        "name": "Ralph Hasenhüttl",
+        "win": 8
+      },
+      {
+        "draw": 6,
+        "ga": 26,
+        "gf": 12,
+        "id": "163",
+        "loss": 7,
+        "matches": 14,
+        "name": "Mark Hughes",
+        "win": 1
+      },
+      {
+        "draw": 0,
+        "ga": 3,
+        "gf": 1,
+        "id": "51396",
+        "loss": 1,
+        "matches": 1,
+        "name": "Kelvin Davis",
+        "win": 0
+      }
+    ],
+    "42": [
+      {
+        "draw": 7,
+        "ga": 51,
+        "gf": 73,
+        "id": "37569",
+        "loss": 10,
+        "matches": 38,
+        "name": "Unai Emery",
+        "win": 21
+      }
+    ],
+    "43": [
+      {
+        "draw": 4,
+        "ga": 69,
+        "gf": 34,
+        "id": "183",
+        "loss": 24,
+        "matches": 38,
+        "name": "Neil Warnock",
+        "win": 10
+      }
+    ],
+    "44": [
+      {
+        "draw": 7,
+        "ga": 68,
+        "gf": 45,
+        "id": "40853",
+        "loss": 20,
+        "matches": 38,
+        "name": "Sean Dyche",
+        "win": 11
+      }
+    ],
+    "45": [
+      {
+        "draw": 9,
+        "ga": 46,
+        "gf": 54,
+        "id": "41801",
+        "loss": 14,
+        "matches": 38,
+        "name": "Marco Silva",
+        "win": 15
+      }
+    ],
+    "46": [
+      {
+        "draw": 5,
+        "ga": 38,
+        "gf": 32,
+        "id": "1061",
+        "loss": 13,
+        "matches": 27,
+        "name": "Claude Puel",
+        "win": 9
+      },
+      {
+        "draw": 2,
+        "ga": 9,
+        "gf": 17,
+        "id": "38197",
+        "loss": 3,
+        "matches": 10,
+        "name": "Brendan Rodgers",
+        "win": 5
+      },
+      {
+        "draw": 0,
+        "ga": 1,
+        "gf": 2,
+        "id": "40245",
+        "loss": 0,
+        "matches": 1,
+        "name": "Mike Stowell",
+        "win": 1
+      }
+    ],
+    "47": [
+      {
+        "draw": 2,
+        "ga": 39,
+        "gf": 67,
+        "id": "38223",
+        "loss": 13,
+        "matches": 38,
+        "name": "Mauricio Pochettino",
+        "win": 23
+      }
+    ],
+    "48": [
+      {
+        "draw": 7,
+        "ga": 55,
+        "gf": 52,
+        "id": "257",
+        "loss": 16,
+        "matches": 38,
+        "name": "Manuel Pellegrini",
+        "win": 15
+      }
+    ],
+    "49": [
+      {
+        "draw": 9,
+        "ga": 39,
+        "gf": 63,
+        "id": "37673",
+        "loss": 8,
+        "matches": 38,
+        "name": "Maurizio Sarri",
+        "win": 21
+      }
+    ],
+    "50": [
+      {
+        "draw": 2,
+        "ga": 23,
+        "gf": 95,
+        "id": "37974",
+        "loss": 4,
+        "matches": 38,
+        "name": "Josep Guardiola",
+        "win": 32
+      }
+    ],
+    "51": [
+      {
+        "draw": 9,
+        "ga": 60,
+        "gf": 35,
+        "id": "37372",
+        "loss": 20,
+        "matches": 38,
+        "name": "Chris Hughton",
+        "win": 9
+      }
+    ],
+    "52": [
+      {
+        "draw": 7,
+        "ga": 53,
+        "gf": 51,
+        "id": "1280",
+        "loss": 17,
+        "matches": 38,
+        "name": "Roy Hodgson",
+        "win": 14
+      }
+    ]
+  },
+  "2019": {
+    "33": [
+      {
+        "draw": 12,
+        "ga": 36,
+        "gf": 66,
+        "id": "40342",
+        "loss": 8,
+        "matches": 38,
+        "name": "Ole Gunnar Solskjær",
+        "win": 18
+      }
+    ],
+    "34": [
+      {
+        "draw": 11,
+        "ga": 58,
+        "gf": 38,
+        "id": "81",
+        "loss": 16,
+        "matches": 38,
+        "name": "Steve Bruce",
+        "win": 11
+      }
+    ],
+    "35": [
+      {
+        "draw": 7,
+        "ga": 65,
+        "gf": 40,
+        "id": "38216",
+        "loss": 22,
+        "matches": 38,
+        "name": "Eddie Howe",
+        "win": 9
+      }
+    ],
+    "38": [
+      {
+        "draw": 4,
+        "ga": 27,
+        "gf": 25,
+        "id": "37398",
+        "loss": 9,
+        "matches": 20,
+        "name": "Nigel Pearson",
+        "win": 7
+      },
+      {
+        "draw": 4,
+        "ga": 20,
+        "gf": 7,
+        "id": "261",
+        "loss": 5,
+        "matches": 10,
+        "name": "Enrique Sánchez Flores",
+        "win": 1
+      },
+      {
+        "draw": 1,
+        "ga": 8,
+        "gf": 2,
+        "id": "40824",
+        "loss": 3,
+        "matches": 4,
+        "name": "Javier Gracia",
+        "win": 0
+      },
+      {
+        "draw": 1,
+        "ga": 9,
+        "gf": 2,
+        "id": "53028",
+        "loss": 3,
+        "matches": 4,
+        "name": "Hayden Mullins",
+        "win": 0
+      }
+    ],
+    "39": [
+      {
+        "draw": 14,
+        "ga": 40,
+        "gf": 51,
+        "id": "41809",
+        "loss": 9,
+        "matches": 38,
+        "name": "Nuno Herlander Simões Espírito Santo",
+        "win": 15
+      }
+    ],
+    "40": [
+      {
+        "draw": 3,
+        "ga": 33,
+        "gf": 85,
+        "id": "279",
+        "loss": 3,
+        "matches": 38,
+        "name": "Jürgen Klopp",
+        "win": 32
+      }
+    ],
+    "41": [
+      {
+        "draw": 7,
+        "ga": 60,
+        "gf": 51,
+        "id": "560",
+        "loss": 16,
+        "matches": 38,
+        "name": "Ralph Hasenhüttl",
+        "win": 15
+      }
+    ],
+    "42": [
+      {
+        "draw": 6,
+        "ga": 21,
+        "gf": 32,
+        "id": "51018",
+        "loss": 5,
+        "matches": 20,
+        "name": "Mikel Arteta",
+        "win": 9
+      },
+      {
+        "draw": 6,
+        "ga": 19,
+        "gf": 18,
+        "id": "37569",
+        "loss": 3,
+        "matches": 13,
+        "name": "Unai Emery",
+        "win": 4
+      },
+      {
+        "draw": 2,
+        "ga": 8,
+        "gf": 6,
+        "id": "48076",
+        "loss": 2,
+        "matches": 5,
+        "name": "Fredrik Ljungberg",
+        "win": 1
+      }
+    ],
+    "44": [
+      {
+        "draw": 9,
+        "ga": 50,
+        "gf": 43,
+        "id": "40853",
+        "loss": 14,
+        "matches": 38,
+        "name": "Sean Dyche",
+        "win": 15
+      }
+    ],
+    "45": [
+      {
+        "draw": 6,
+        "ga": 27,
+        "gf": 24,
+        "id": "50",
+        "loss": 6,
+        "matches": 20,
+        "name": "Carlo Ancelotti",
+        "win": 8
+      },
+      {
+        "draw": 2,
+        "ga": 27,
+        "gf": 16,
+        "id": "41801",
+        "loss": 9,
+        "matches": 15,
+        "name": "Marco Silva",
+        "win": 4
+      },
+      {
+        "draw": 2,
+        "ga": 2,
+        "gf": 4,
+        "id": "53049",
+        "loss": 0,
+        "matches": 3,
+        "name": "Duncan Ferguson",
+        "win": 1
+      }
+    ],
+    "46": [
+      {
+        "draw": 8,
+        "ga": 41,
+        "gf": 67,
+        "id": "38197",
+        "loss": 12,
+        "matches": 38,
+        "name": "Brendan Rodgers",
+        "win": 18
+      }
+    ],
+    "47": [
+      {
+        "draw": 6,
+        "ga": 30,
+        "gf": 43,
+        "id": "134",
+        "loss": 7,
+        "matches": 26,
+        "name": "José Mourinho",
+        "win": 13
+      },
+      {
+        "draw": 5,
+        "ga": 17,
+        "gf": 18,
+        "id": "38223",
+        "loss": 4,
+        "matches": 12,
+        "name": "Mauricio Pochettino",
+        "win": 3
+      }
+    ],
+    "48": [
+      {
+        "draw": 4,
+        "ga": 32,
+        "gf": 21,
+        "id": "257",
+        "loss": 10,
+        "matches": 19,
+        "name": "Manuel Pellegrini",
+        "win": 5
+      },
+      {
+        "draw": 5,
+        "ga": 30,
+        "gf": 28,
+        "id": "85",
+        "loss": 9,
+        "matches": 19,
+        "name": "David Moyes",
+        "win": 5
+      }
+    ],
+    "49": [
+      {
+        "draw": 6,
+        "ga": 54,
+        "gf": 69,
+        "id": "50167",
+        "loss": 12,
+        "matches": 38,
+        "name": "Frank Lampard",
+        "win": 20
+      }
+    ],
+    "50": [
+      {
+        "draw": 3,
+        "ga": 35,
+        "gf": 102,
+        "id": "37974",
+        "loss": 9,
+        "matches": 38,
+        "name": "Josep Guardiola",
+        "win": 26
+      }
+    ],
+    "51": [
+      {
+        "draw": 14,
+        "ga": 54,
+        "gf": 39,
+        "id": "46436",
+        "loss": 15,
+        "matches": 38,
+        "name": "Graham Potter",
+        "win": 9
+      }
+    ],
+    "52": [
+      {
+        "draw": 10,
+        "ga": 50,
+        "gf": 31,
+        "id": "1280",
+        "loss": 17,
+        "matches": 38,
+        "name": "Roy Hodgson",
+        "win": 11
+      }
+    ],
+    "62": [
+      {
+        "draw": 12,
+        "ga": 39,
+        "gf": 39,
+        "id": "39183",
+        "loss": 12,
+        "matches": 38,
+        "name": "Chris Wilder",
+        "win": 14
+      }
+    ],
+    "66": [
+      {
+        "draw": 8,
+        "ga": 67,
+        "gf": 41,
+        "id": "40412",
+        "loss": 21,
+        "matches": 38,
+        "name": "Dean Smith",
+        "win": 9
+      }
+    ],
+    "71": [
+      {
+        "draw": 6,
+        "ga": 75,
+        "gf": 26,
+        "id": "42856",
+        "loss": 27,
+        "matches": 38,
+        "name": "Daniel Farke",
+        "win": 5
+      }
+    ]
+  },
+  "2020": {
+    "33": [
+      {
+        "draw": 11,
+        "ga": 44,
+        "gf": 73,
+        "id": "40342",
+        "loss": 6,
+        "matches": 38,
+        "name": "Ole Gunnar Solskjær",
+        "win": 21
+      }
+    ],
+    "34": [
+      {
+        "draw": 9,
+        "ga": 62,
+        "gf": 46,
+        "id": "81",
+        "loss": 17,
+        "matches": 38,
+        "name": "Steve Bruce",
+        "win": 12
+      }
+    ],
+    "36": [
+      {
+        "draw": 13,
+        "ga": 53,
+        "gf": 27,
+        "id": "49243",
+        "loss": 20,
+        "matches": 38,
+        "name": "Scott Parker",
+        "win": 5
+      }
+    ],
+    "39": [
+      {
+        "draw": 9,
+        "ga": 52,
+        "gf": 36,
+        "id": "41809",
+        "loss": 17,
+        "matches": 38,
+        "name": "Nuno Espírito Santo",
+        "win": 12
+      }
+    ],
+    "40": [
+      {
+        "draw": 9,
+        "ga": 42,
+        "gf": 68,
+        "id": "279",
+        "loss": 9,
+        "matches": 38,
+        "name": "Jürgen Klopp",
+        "win": 20
+      }
+    ],
+    "41": [
+      {
+        "draw": 7,
+        "ga": 68,
+        "gf": 47,
+        "id": "560",
+        "loss": 19,
+        "matches": 38,
+        "name": "Ralph Hasenhüttl",
+        "win": 12
+      }
+    ],
+    "42": [
+      {
+        "draw": 7,
+        "ga": 39,
+        "gf": 55,
+        "id": "51018",
+        "loss": 13,
+        "matches": 38,
+        "name": "Mikel Arteta",
+        "win": 18
+      }
+    ],
+    "44": [
+      {
+        "draw": 9,
+        "ga": 55,
+        "gf": 33,
+        "id": "40853",
+        "loss": 19,
+        "matches": 38,
+        "name": "Sean Dyche",
+        "win": 10
+      }
+    ],
+    "45": [
+      {
+        "draw": 8,
+        "ga": 48,
+        "gf": 47,
+        "id": "50",
+        "loss": 13,
+        "matches": 38,
+        "name": "Carlo Ancelotti",
+        "win": 17
+      }
+    ],
+    "46": [
+      {
+        "draw": 6,
+        "ga": 50,
+        "gf": 68,
+        "id": "38197",
+        "loss": 12,
+        "matches": 38,
+        "name": "Brendan Rodgers",
+        "win": 20
+      }
+    ],
+    "47": [
+      {
+        "draw": 8,
+        "ga": 37,
+        "gf": 54,
+        "id": "134",
+        "loss": 10,
+        "matches": 32,
+        "name": "José Mourinho",
+        "win": 14
+      },
+      {
+        "draw": 0,
+        "ga": 8,
+        "gf": 14,
+        "id": "55227",
+        "loss": 2,
+        "matches": 6,
+        "name": "Ryan Mason",
+        "win": 4
+      }
+    ],
+    "48": [
+      {
+        "draw": 8,
+        "ga": 47,
+        "gf": 62,
+        "id": "85",
+        "loss": 11,
+        "matches": 38,
+        "name": "David Moyes",
+        "win": 19
+      }
+    ],
+    "49": [
+      {
+        "draw": 5,
+        "ga": 13,
+        "gf": 25,
+        "id": "39237",
+        "loss": 3,
+        "matches": 19,
+        "name": "Thomas Tuchel",
+        "win": 11
+      },
+      {
+        "draw": 5,
+        "ga": 23,
+        "gf": 33,
+        "id": "50167",
+        "loss": 6,
+        "matches": 19,
+        "name": "Frank Lampard",
+        "win": 8
+      }
+    ],
+    "50": [
+      {
+        "draw": 5,
+        "ga": 32,
+        "gf": 83,
+        "id": "37974",
+        "loss": 6,
+        "matches": 38,
+        "name": "Josep Guardiola",
+        "win": 27
+      }
+    ],
+    "51": [
+      {
+        "draw": 14,
+        "ga": 46,
+        "gf": 40,
+        "id": "46436",
+        "loss": 15,
+        "matches": 38,
+        "name": "Graham Potter",
+        "win": 9
+      }
+    ],
+    "52": [
+      {
+        "draw": 8,
+        "ga": 66,
+        "gf": 41,
+        "id": "1280",
+        "loss": 18,
+        "matches": 38,
+        "name": "Roy Hodgson",
+        "win": 12
+      }
+    ],
+    "60": [
+      {
+        "draw": 7,
+        "ga": 50,
+        "gf": 25,
+        "id": "83",
+        "loss": 14,
+        "matches": 25,
+        "name": "Sam Allardyce",
+        "win": 4
+      },
+      {
+        "draw": 4,
+        "ga": 26,
+        "gf": 10,
+        "id": "37510",
+        "loss": 8,
+        "matches": 13,
+        "name": "Slaven Bilic",
+        "win": 1
+      }
+    ],
+    "62": [
+      {
+        "draw": 2,
+        "ga": 45,
+        "gf": 16,
+        "id": "39183",
+        "loss": 22,
+        "matches": 28,
+        "name": "Chris Wilder",
+        "win": 4
+      },
+      {
+        "draw": 0,
+        "ga": 18,
+        "gf": 4,
+        "id": "45287",
+        "loss": 7,
+        "matches": 10,
+        "name": "Paul Heckingbottom",
+        "win": 3
+      }
+    ],
+    "63": [
+      {
+        "draw": 5,
+        "ga": 54,
+        "gf": 62,
+        "id": "26",
+        "loss": 15,
+        "matches": 38,
+        "name": "Marcelo Bielsa",
+        "win": 18
+      }
+    ],
+    "66": [
+      {
+        "draw": 7,
+        "ga": 46,
+        "gf": 55,
+        "id": "40412",
+        "loss": 15,
+        "matches": 38,
+        "name": "Dean Smith",
+        "win": 16
+      }
+    ]
+  },
+  "2021": {
+    "33": [
+      {
+        "draw": 7,
+        "ga": 33,
+        "gf": 33,
+        "id": "77",
+        "loss": 7,
+        "matches": 24,
+        "name": "Ralf Rangnick",
+        "win": 10
+      },
+      {
+        "draw": 2,
+        "ga": 21,
+        "gf": 20,
+        "id": "40342",
+        "loss": 5,
+        "matches": 12,
+        "name": "Ole Gunnar Solskjær",
+        "win": 5
+      },
+      {
+        "draw": 1,
+        "ga": 3,
+        "gf": 4,
+        "id": "56407",
+        "loss": 0,
+        "matches": 2,
+        "name": "Michael Carrick",
+        "win": 1
+      }
+    ],
+    "34": [
+      {
+        "draw": 5,
+        "ga": 38,
+        "gf": 32,
+        "id": "38216",
+        "loss": 9,
+        "matches": 27,
+        "name": "Eddie Howe",
+        "win": 13
+      },
+      {
+        "draw": 3,
+        "ga": 19,
+        "gf": 10,
+        "id": "81",
+        "loss": 5,
+        "matches": 8,
+        "name": "Steve Bruce",
+        "win": 0
+      },
+      {
+        "draw": 2,
+        "ga": 5,
+        "gf": 2,
+        "id": "42713",
+        "loss": 1,
+        "matches": 3,
+        "name": "Graeme Jones",
+        "win": 0
+      }
+    ],
+    "38": [
+      {
+        "draw": 3,
+        "ga": 37,
+        "gf": 11,
+        "id": "1280",
+        "loss": 13,
+        "matches": 18,
+        "name": "Roy Hodgson",
+        "win": 2
+      },
+      {
+        "draw": 1,
+        "ga": 30,
+        "gf": 16,
+        "id": "80",
+        "loss": 10,
+        "matches": 13,
+        "name": "Claudio Ranieri",
+        "win": 2
+      },
+      {
+        "draw": 1,
+        "ga": 10,
+        "gf": 7,
+        "id": "54143",
+        "loss": 4,
+        "matches": 7,
+        "name": "Francisco Javier Muñoz Llompart",
+        "win": 2
+      }
+    ],
+    "39": [
+      {
+        "draw": 6,
+        "ga": 43,
+        "gf": 38,
+        "id": "51070",
+        "loss": 17,
+        "matches": 38,
+        "name": "Bruno Lage",
+        "win": 15
+      }
+    ],
+    "40": [
+      {
+        "draw": 8,
+        "ga": 26,
+        "gf": 94,
+        "id": "279",
+        "loss": 2,
+        "matches": 38,
+        "name": "Jürgen Klopp",
+        "win": 28
+      }
+    ],
+    "41": [
+      {
+        "draw": 13,
+        "ga": 67,
+        "gf": 43,
+        "id": "560",
+        "loss": 16,
+        "matches": 38,
+        "name": "Ralph Hasenhüttl",
+        "win": 9
+      }
+    ],
+    "42": [
+      {
+        "draw": 3,
+        "ga": 48,
+        "gf": 61,
+        "id": "51018",
+        "loss": 13,
+        "matches": 38,
+        "name": "Mikel Arteta",
+        "win": 22
+      }
+    ],
+    "44": [
+      {
+        "draw": 12,
+        "ga": 44,
+        "gf": 25,
+        "id": "40853",
+        "loss": 14,
+        "matches": 30,
+        "name": "Sean Dyche",
+        "win": 4
+      },
+      {
+        "draw": 2,
+        "ga": 9,
+        "gf": 9,
+        "id": "43840",
+        "loss": 3,
+        "matches": 8,
+        "name": "Michael Jackson",
+        "win": 3
+      }
+    ],
+    "45": [
+      {
+        "draw": 4,
+        "ga": 34,
+        "gf": 24,
+        "id": "36",
+        "loss": 10,
+        "matches": 19,
+        "name": "Rafael Benítez",
+        "win": 5
+      },
+      {
+        "draw": 2,
+        "ga": 31,
+        "gf": 19,
+        "id": "50167",
+        "loss": 10,
+        "matches": 18,
+        "name": "Frank Lampard",
+        "win": 6
+      },
+      {
+        "draw": 0,
+        "ga": 1,
+        "gf": 0,
+        "id": "53049",
+        "loss": 1,
+        "matches": 1,
+        "name": "Duncan Ferguson",
+        "win": 0
+      }
+    ],
+    "46": [
+      {
+        "draw": 10,
+        "ga": 59,
+        "gf": 62,
+        "id": "38197",
+        "loss": 14,
+        "matches": 38,
+        "name": "Brendan Rodgers",
+        "win": 14
+      }
+    ],
+    "47": [
+      {
+        "draw": 5,
+        "ga": 24,
+        "gf": 60,
+        "id": "37788",
+        "loss": 6,
+        "matches": 28,
+        "name": "Antonio Conte",
+        "win": 17
+      },
+      {
+        "draw": 0,
+        "ga": 16,
+        "gf": 9,
+        "id": "41809",
+        "loss": 5,
+        "matches": 10,
+        "name": "Nuno Espírito Santo",
+        "win": 5
+      }
+    ],
+    "48": [
+      {
+        "draw": 8,
+        "ga": 51,
+        "gf": 60,
+        "id": "85",
+        "loss": 14,
+        "matches": 38,
+        "name": "David Moyes",
+        "win": 16
+      }
+    ],
+    "49": [
+      {
+        "draw": 11,
+        "ga": 33,
+        "gf": 76,
+        "id": "39237",
+        "loss": 6,
+        "matches": 38,
+        "name": "Thomas Tuchel",
+        "win": 21
+      }
+    ],
+    "50": [
+      {
+        "draw": 6,
+        "ga": 26,
+        "gf": 99,
+        "id": "37974",
+        "loss": 3,
+        "matches": 38,
+        "name": "Josep Guardiola",
+        "win": 29
+      }
+    ],
+    "51": [
+      {
+        "draw": 15,
+        "ga": 44,
+        "gf": 42,
+        "id": "46436",
+        "loss": 11,
+        "matches": 38,
+        "name": "Graham Potter",
+        "win": 12
+      }
+    ],
+    "52": [
+      {
+        "draw": 15,
+        "ga": 46,
+        "gf": 50,
+        "id": "42921",
+        "loss": 12,
+        "matches": 38,
+        "name": "Patrick Vieira",
+        "win": 11
+      }
+    ],
+    "55": [
+      {
+        "draw": 7,
+        "ga": 56,
+        "gf": 48,
+        "id": "42831",
+        "loss": 18,
+        "matches": 38,
+        "name": "Thomas Frank",
+        "win": 13
+      }
+    ],
+    "63": [
+      {
+        "draw": 8,
+        "ga": 60,
+        "gf": 29,
+        "id": "26",
+        "loss": 13,
+        "matches": 26,
+        "name": "Marcelo Bielsa",
+        "win": 5
+      },
+      {
+        "draw": 3,
+        "ga": 19,
+        "gf": 13,
+        "id": "41387",
+        "loss": 5,
+        "matches": 12,
+        "name": "Jesse Marsch",
+        "win": 4
+      }
+    ],
+    "66": [
+      {
+        "draw": 5,
+        "ga": 34,
+        "gf": 38,
+        "id": "48761",
+        "loss": 12,
+        "matches": 27,
+        "name": "Steven Gerrard",
+        "win": 10
+      },
+      {
+        "draw": 1,
+        "ga": 20,
+        "gf": 14,
+        "id": "40412",
+        "loss": 7,
+        "matches": 11,
+        "name": "Dean Smith",
+        "win": 3
+      }
+    ],
+    "71": [
+      {
+        "draw": 5,
+        "ga": 58,
+        "gf": 18,
+        "id": "40412",
+        "loss": 18,
+        "matches": 27,
+        "name": "Dean Smith",
+        "win": 4
+      },
+      {
+        "draw": 2,
+        "ga": 26,
+        "gf": 5,
+        "id": "42856",
+        "loss": 8,
+        "matches": 11,
+        "name": "Daniel Farke",
+        "win": 1
+      }
+    ]
+  },
+  "2022": {
+    "33": [
+      {
+        "draw": 6,
+        "ga": 43,
+        "gf": 58,
+        "id": "41668",
+        "loss": 9,
+        "matches": 38,
+        "name": "Erik ten Hag",
+        "win": 23
+      }
+    ],
+    "34": [
+      {
+        "draw": 14,
+        "ga": 33,
+        "gf": 68,
+        "id": "38216",
+        "loss": 5,
+        "matches": 38,
+        "name": "Eddie Howe",
+        "win": 19
+      }
+    ],
+    "35": [
+      {
+        "draw": 6,
+        "ga": 55,
+        "gf": 35,
+        "id": "58884",
+        "loss": 18,
+        "matches": 34,
+        "name": "Gary O'Neil",
+        "win": 10
+      },
+      {
+        "draw": 0,
+        "ga": 16,
+        "gf": 2,
+        "id": "49243",
+        "loss": 3,
+        "matches": 4,
+        "name": "Scott Parker",
+        "win": 1
+      }
+    ],
+    "36": [
+      {
+        "draw": 7,
+        "ga": 53,
+        "gf": 55,
+        "id": "41801",
+        "loss": 16,
+        "matches": 38,
+        "name": "Marco Silva",
+        "win": 15
+      }
+    ],
+    "39": [
+      {
+        "draw": 4,
+        "ga": 34,
+        "gf": 23,
+        "id": "42344",
+        "loss": 10,
+        "matches": 23,
+        "name": "Julen Lopetegui",
+        "win": 9
+      },
+      {
+        "draw": 3,
+        "ga": 9,
+        "gf": 3,
+        "id": "51070",
+        "loss": 4,
+        "matches": 8,
+        "name": "Bruno Lage",
+        "win": 1
+      },
+      {
+        "draw": 1,
+        "ga": 15,
+        "gf": 5,
+        "id": "37752",
+        "loss": 5,
+        "matches": 7,
+        "name": "Steve Davis",
+        "win": 1
+      }
+    ],
+    "40": [
+      {
+        "draw": 10,
+        "ga": 47,
+        "gf": 75,
+        "id": "279",
+        "loss": 9,
+        "matches": 38,
+        "name": "Jürgen Klopp",
+        "win": 19
+      }
+    ],
+    "41": [
+      {
+        "draw": 4,
+        "ga": 33,
+        "gf": 18,
+        "id": "59461",
+        "loss": 10,
+        "matches": 16,
+        "name": "Rubén Sellés",
+        "win": 2
+      },
+      {
+        "draw": 3,
+        "ga": 24,
+        "gf": 12,
+        "id": "560",
+        "loss": 8,
+        "matches": 14,
+        "name": "Ralph Hasenhüttl",
+        "win": 3
+      },
+      {
+        "draw": 0,
+        "ga": 16,
+        "gf": 6,
+        "id": "45026",
+        "loss": 7,
+        "matches": 8,
+        "name": "Nathan Jones",
+        "win": 1
+      }
+    ],
+    "42": [
+      {
+        "draw": 6,
+        "ga": 43,
+        "gf": 88,
+        "id": "51018",
+        "loss": 6,
+        "matches": 38,
+        "name": "Mikel Arteta",
+        "win": 26
+      }
+    ],
+    "45": [
+      {
+        "draw": 6,
+        "ga": 28,
+        "gf": 15,
+        "id": "50167",
+        "loss": 11,
+        "matches": 20,
+        "name": "Frank Lampard",
+        "win": 3
+      },
+      {
+        "draw": 6,
+        "ga": 29,
+        "gf": 19,
+        "id": "40853",
+        "loss": 7,
+        "matches": 18,
+        "name": "Sean Dyche",
+        "win": 5
+      }
+    ],
+    "46": [
+      {
+        "draw": 4,
+        "ga": 49,
+        "gf": 39,
+        "id": "38197",
+        "loss": 17,
+        "matches": 28,
+        "name": "Brendan Rodgers",
+        "win": 7
+      },
+      {
+        "draw": 3,
+        "ga": 16,
+        "gf": 11,
+        "id": "40412",
+        "loss": 3,
+        "matches": 8,
+        "name": "Dean Smith",
+        "win": 2
+      },
+      {
+        "draw": 0,
+        "ga": 3,
+        "gf": 1,
+        "id": "60241",
+        "loss": 2,
+        "matches": 2,
+        "name": "Adam Sadler",
+        "win": 0
+      }
+    ],
+    "47": [
+      {
+        "draw": 4,
+        "ga": 40,
+        "gf": 52,
+        "id": "37788",
+        "loss": 9,
+        "matches": 28,
+        "name": "Antonio Conte",
+        "win": 15
+      },
+      {
+        "draw": 1,
+        "ga": 12,
+        "gf": 12,
+        "id": "55227",
+        "loss": 3,
+        "matches": 6,
+        "name": "Ryan Mason",
+        "win": 2
+      },
+      {
+        "draw": 1,
+        "ga": 11,
+        "gf": 6,
+        "id": "53996",
+        "loss": 2,
+        "matches": 4,
+        "name": "Cristian Stellini",
+        "win": 1
+      }
+    ],
+    "48": [
+      {
+        "draw": 7,
+        "ga": 55,
+        "gf": 42,
+        "id": "85",
+        "loss": 20,
+        "matches": 38,
+        "name": "David Moyes",
+        "win": 11
+      }
+    ],
+    "49": [
+      {
+        "draw": 7,
+        "ga": 21,
+        "gf": 21,
+        "id": "46436",
+        "loss": 8,
+        "matches": 22,
+        "name": "Graham Potter",
+        "win": 7
+      },
+      {
+        "draw": 2,
+        "ga": 17,
+        "gf": 9,
+        "id": "50167",
+        "loss": 6,
+        "matches": 9,
+        "name": "Frank Lampard",
+        "win": 1
+      },
+      {
+        "draw": 1,
+        "ga": 9,
+        "gf": 8,
+        "id": "39237",
+        "loss": 2,
+        "matches": 6,
+        "name": "Thomas Tuchel",
+        "win": 3
+      },
+      {
+        "draw": 1,
+        "ga": 0,
+        "gf": 0,
+        "id": "60228",
+        "loss": 0,
+        "matches": 1,
+        "name": "Bruno Saltor",
+        "win": 0
+      }
+    ],
+    "50": [
+      {
+        "draw": 5,
+        "ga": 33,
+        "gf": 94,
+        "id": "37974",
+        "loss": 5,
+        "matches": 38,
+        "name": "Pep Guardiola",
+        "win": 28
+      }
+    ],
+    "51": [
+      {
+        "draw": 7,
+        "ga": 48,
+        "gf": 61,
+        "id": "47376",
+        "loss": 11,
+        "matches": 32,
+        "name": "Roberto De Zerbi",
+        "win": 14
+      },
+      {
+        "draw": 1,
+        "ga": 5,
+        "gf": 11,
+        "id": "46436",
+        "loss": 1,
+        "matches": 6,
+        "name": "Graham Potter",
+        "win": 4
+      }
+    ],
+    "52": [
+      {
+        "draw": 9,
+        "ga": 34,
+        "gf": 21,
+        "id": "42921",
+        "loss": 12,
+        "matches": 27,
+        "name": "Patrick Vieira",
+        "win": 6
+      },
+      {
+        "draw": 3,
+        "ga": 11,
+        "gf": 18,
+        "id": "1280",
+        "loss": 2,
+        "matches": 10,
+        "name": "Roy Hodgson",
+        "win": 5
+      },
+      {
+        "draw": 0,
+        "ga": 4,
+        "gf": 1,
+        "id": "54174",
+        "loss": 1,
+        "matches": 1,
+        "name": "Patrick McCarthy",
+        "win": 0
+      }
+    ],
+    "55": [
+      {
+        "draw": 14,
+        "ga": 46,
+        "gf": 58,
+        "id": "42831",
+        "loss": 9,
+        "matches": 38,
+        "name": "Thomas Frank",
+        "win": 15
+      }
+    ],
+    "63": [
+      {
+        "draw": 6,
+        "ga": 34,
+        "gf": 26,
+        "id": "41387",
+        "loss": 10,
+        "matches": 20,
+        "name": "Jesse Marsch",
+        "win": 4
+      },
+      {
+        "draw": 2,
+        "ga": 28,
+        "gf": 15,
+        "id": "40824",
+        "loss": 6,
+        "matches": 11,
+        "name": "Javier Gracia",
+        "win": 3
+      },
+      {
+        "draw": 1,
+        "ga": 11,
+        "gf": 5,
+        "id": "83",
+        "loss": 3,
+        "matches": 4,
+        "name": "Sam Allardyce",
+        "win": 0
+      },
+      {
+        "draw": 1,
+        "ga": 5,
+        "gf": 2,
+        "id": "58561",
+        "loss": 2,
+        "matches": 3,
+        "name": "Michael Skubala",
+        "win": 0
+      }
+    ],
+    "65": [
+      {
+        "draw": 11,
+        "ga": 68,
+        "gf": 38,
+        "id": "46823",
+        "loss": 18,
+        "matches": 38,
+        "name": "Steve Cooper",
+        "win": 9
+      }
+    ],
+    "66": [
+      {
+        "draw": 4,
+        "ga": 26,
+        "gf": 40,
+        "id": "37569",
+        "loss": 6,
+        "matches": 25,
+        "name": "Unai Emery",
+        "win": 15
+      },
+      {
+        "draw": 3,
+        "ga": 16,
+        "gf": 7,
+        "id": "48761",
+        "loss": 6,
+        "matches": 11,
+        "name": "Steven Gerrard",
+        "win": 2
+      },
+      {
+        "draw": 0,
+        "ga": 4,
+        "gf": 4,
+        "id": "59309",
+        "loss": 1,
+        "matches": 2,
+        "name": "Aaron Danks",
+        "win": 1
+      }
+    ]
+  },
+  "2023": {
+    "33": [
+      {
+        "draw": 6,
+        "ga": 58,
+        "gf": 57,
+        "id": "41668",
+        "loss": 14,
+        "matches": 38,
+        "name": "Erik ten Hag",
+        "win": 18
+      }
+    ],
+    "34": [
+      {
+        "draw": 6,
+        "ga": 62,
+        "gf": 85,
+        "id": "38216",
+        "loss": 14,
+        "matches": 38,
+        "name": "Eddie Howe",
+        "win": 18
+      }
+    ],
+    "35": [
+      {
+        "draw": 9,
+        "ga": 67,
+        "gf": 54,
+        "id": "50428",
+        "loss": 16,
+        "matches": 38,
+        "name": "Andoni Iraola",
+        "win": 13
+      }
+    ],
+    "36": [
+      {
+        "draw": 8,
+        "ga": 61,
+        "gf": 55,
+        "id": "41801",
+        "loss": 17,
+        "matches": 38,
+        "name": "Marco Silva",
+        "win": 13
+      }
+    ],
+    "39": [
+      {
+        "draw": 7,
+        "ga": 65,
+        "gf": 50,
+        "id": "58884",
+        "loss": 18,
+        "matches": 38,
+        "name": "Gary O'Neil",
+        "win": 13
+      }
+    ],
+    "40": [
+      {
+        "draw": 10,
+        "ga": 41,
+        "gf": 86,
+        "id": "279",
+        "loss": 4,
+        "matches": 38,
+        "name": "Jürgen Klopp",
+        "win": 24
+      }
+    ],
+    "42": [
+      {
+        "draw": 5,
+        "ga": 29,
+        "gf": 91,
+        "id": "51018",
+        "loss": 5,
+        "matches": 38,
+        "name": "Mikel Arteta",
+        "win": 28
+      }
+    ],
+    "44": [
+      {
+        "draw": 9,
+        "ga": 78,
+        "gf": 41,
+        "id": "52432",
+        "loss": 24,
+        "matches": 38,
+        "name": "Vincent Kompany",
+        "win": 5
+      }
+    ],
+    "45": [
+      {
+        "draw": 9,
+        "ga": 51,
+        "gf": 40,
+        "id": "40853",
+        "loss": 16,
+        "matches": 38,
+        "name": "Sean Dyche",
+        "win": 13
+      }
+    ],
+    "47": [
+      {
+        "draw": 6,
+        "ga": 61,
+        "gf": 74,
+        "id": "41881",
+        "loss": 12,
+        "matches": 38,
+        "name": "Ange Postecoglou",
+        "win": 20
+      }
+    ],
+    "48": [
+      {
+        "draw": 10,
+        "ga": 74,
+        "gf": 60,
+        "id": "85",
+        "loss": 14,
+        "matches": 38,
+        "name": "David Moyes",
+        "win": 14
+      }
+    ],
+    "49": [
+      {
+        "draw": 9,
+        "ga": 63,
+        "gf": 77,
+        "id": "38223",
+        "loss": 11,
+        "matches": 38,
+        "name": "Mauricio Pochettino",
+        "win": 18
+      }
+    ],
+    "50": [
+      {
+        "draw": 7,
+        "ga": 34,
+        "gf": 96,
+        "id": "37974",
+        "loss": 3,
+        "matches": 38,
+        "name": "Pep Guardiola",
+        "win": 28
+      }
+    ],
+    "51": [
+      {
+        "draw": 12,
+        "ga": 62,
+        "gf": 55,
+        "id": "47376",
+        "loss": 14,
+        "matches": 38,
+        "name": "Roberto De Zerbi",
+        "win": 12
+      }
+    ],
+    "52": [
+      {
+        "draw": 6,
+        "ga": 43,
+        "gf": 27,
+        "id": "1280",
+        "loss": 12,
+        "matches": 24,
+        "name": "Roy Hodgson",
+        "win": 6
+      },
+      {
+        "draw": 3,
+        "ga": 14,
+        "gf": 29,
+        "id": "44410",
+        "loss": 3,
+        "matches": 13,
+        "name": "Oliver Glasner",
+        "win": 7
+      },
+      {
+        "draw": 1,
+        "ga": 1,
+        "gf": 1,
+        "id": "54174",
+        "loss": 0,
+        "matches": 1,
+        "name": "Patrick McCarthy",
+        "win": 0
+      }
+    ],
+    "55": [
+      {
+        "draw": 9,
+        "ga": 65,
+        "gf": 56,
+        "id": "42831",
+        "loss": 19,
+        "matches": 38,
+        "name": "Thomas Frank",
+        "win": 10
+      }
+    ],
+    "62": [
+      {
+        "draw": 5,
+        "ga": 65,
+        "gf": 24,
+        "id": "39183",
+        "loss": 17,
+        "matches": 24,
+        "name": "Chris Wilder",
+        "win": 2
+      },
+      {
+        "draw": 2,
+        "ga": 39,
+        "gf": 11,
+        "id": "45287",
+        "loss": 11,
+        "matches": 14,
+        "name": "Paul Heckingbottom",
+        "win": 1
+      }
+    ],
+    "65": [
+      {
+        "draw": 4,
+        "ga": 37,
+        "gf": 32,
+        "id": "41809",
+        "loss": 11,
+        "matches": 21,
+        "name": "Nuno Espírito Santo",
+        "win": 6
+      },
+      {
+        "draw": 5,
+        "ga": 30,
+        "gf": 17,
+        "id": "46823",
+        "loss": 9,
+        "matches": 17,
+        "name": "Steve Cooper",
+        "win": 3
+      }
+    ],
+    "66": [
+      {
+        "draw": 8,
+        "ga": 61,
+        "gf": 76,
+        "id": "37569",
+        "loss": 10,
+        "matches": 38,
+        "name": "Unai Emery",
+        "win": 20
+      }
+    ],
+    "1359": [
+      {
+        "draw": 8,
+        "ga": 85,
+        "gf": 52,
+        "id": "47628",
+        "loss": 24,
+        "matches": 38,
+        "name": "Rob Edwards",
+        "win": 6
+      }
+    ]
+  },
+  "2024": {
+    "33": [
+      {
+        "draw": 6,
+        "ga": 42,
+        "gf": 32,
+        "id": "53637",
+        "loss": 14,
+        "matches": 27,
+        "name": "Ruben Amorim",
+        "win": 7
+      },
+      {
+        "draw": 2,
+        "ga": 11,
+        "gf": 8,
+        "id": "41668",
+        "loss": 4,
+        "matches": 9,
+        "name": "Erik ten Hag",
+        "win": 3
+      },
+      {
+        "draw": 1,
+        "ga": 1,
+        "gf": 4,
+        "id": "50996",
+        "loss": 0,
+        "matches": 2,
+        "name": "Ruud van Nistelrooij",
+        "win": 1
+      }
+    ],
+    "34": [
+      {
+        "draw": 6,
+        "ga": 47,
+        "gf": 68,
+        "id": "38216",
+        "loss": 12,
+        "matches": 38,
+        "name": "Eddie Howe",
+        "win": 20
+      }
+    ],
+    "35": [
+      {
+        "draw": 11,
+        "ga": 46,
+        "gf": 58,
+        "id": "50428",
+        "loss": 12,
+        "matches": 38,
+        "name": "Andoni Iraola",
+        "win": 15
+      }
+    ],
+    "36": [
+      {
+        "draw": 9,
+        "ga": 54,
+        "gf": 54,
+        "id": "41801",
+        "loss": 14,
+        "matches": 38,
+        "name": "Marco Silva",
+        "win": 15
+      }
+    ],
+    "39": [
+      {
+        "draw": 3,
+        "ga": 29,
+        "gf": 30,
+        "id": "40855",
+        "loss": 9,
+        "matches": 22,
+        "name": "Vítor Pereira",
+        "win": 10
+      },
+      {
+        "draw": 3,
+        "ga": 40,
+        "gf": 24,
+        "id": "58884",
+        "loss": 11,
+        "matches": 16,
+        "name": "Gary O'Neil",
+        "win": 2
+      }
+    ],
+    "40": [
+      {
+        "draw": 9,
+        "ga": 41,
+        "gf": 86,
+        "id": "52174",
+        "loss": 4,
+        "matches": 38,
+        "name": "Arne Slot",
+        "win": 25
+      }
+    ],
+    "41": [
+      {
+        "draw": 2,
+        "ga": 36,
+        "gf": 11,
+        "id": "52917",
+        "loss": 13,
+        "matches": 16,
+        "name": "Russell Martin",
+        "win": 1
+      },
+      {
+        "draw": 1,
+        "ga": 38,
+        "gf": 12,
+        "id": "45654",
+        "loss": 12,
+        "matches": 14,
+        "name": "Ivan Juric",
+        "win": 1
+      },
+      {
+        "draw": 3,
+        "ga": 12,
+        "gf": 3,
+        "id": "47427",
+        "loss": 5,
+        "matches": 8,
+        "name": "Simon Rusk",
+        "win": 0
+      }
+    ],
+    "42": [
+      {
+        "draw": 14,
+        "ga": 34,
+        "gf": 69,
+        "id": "51018",
+        "loss": 4,
+        "matches": 38,
+        "name": "Mikel Arteta",
+        "win": 20
+      }
+    ],
+    "45": [
+      {
+        "draw": 8,
+        "ga": 25,
+        "gf": 15,
+        "id": "40853",
+        "loss": 8,
+        "matches": 19,
+        "name": "Sean Dyche",
+        "win": 3
+      },
+      {
+        "draw": 7,
+        "ga": 19,
+        "gf": 27,
+        "id": "85",
+        "loss": 4,
+        "matches": 19,
+        "name": "David Moyes",
+        "win": 8
+      }
+    ],
+    "46": [
+      {
+        "draw": 3,
+        "ga": 53,
+        "gf": 17,
+        "id": "50996",
+        "loss": 18,
+        "matches": 25,
+        "name": "Ruud van Nistelrooij",
+        "win": 4
+      },
+      {
+        "draw": 4,
+        "ga": 23,
+        "gf": 15,
+        "id": "46823",
+        "loss": 6,
+        "matches": 12,
+        "name": "Steve Cooper",
+        "win": 2
+      },
+      {
+        "draw": 0,
+        "ga": 4,
+        "gf": 1,
+        "id": "49816",
+        "loss": 1,
+        "matches": 1,
+        "name": "Ben Dawson",
+        "win": 0
+      }
+    ],
+    "47": [
+      {
+        "draw": 5,
+        "ga": 65,
+        "gf": 64,
+        "id": "41881",
+        "loss": 22,
+        "matches": 38,
+        "name": "Ange Postecoglou",
+        "win": 11
+      }
+    ],
+    "48": [
+      {
+        "draw": 5,
+        "ga": 39,
+        "gf": 24,
+        "id": "42344",
+        "loss": 9,
+        "matches": 20,
+        "name": "Julen Lopetegui",
+        "win": 6
+      },
+      {
+        "draw": 5,
+        "ga": 23,
+        "gf": 22,
+        "id": "46436",
+        "loss": 8,
+        "matches": 18,
+        "name": "Graham Potter",
+        "win": 5
+      }
+    ],
+    "49": [
+      {
+        "draw": 9,
+        "ga": 43,
+        "gf": 64,
+        "id": "48549",
+        "loss": 9,
+        "matches": 38,
+        "name": "Enzo Maresca",
+        "win": 20
+      }
+    ],
+    "50": [
+      {
+        "draw": 8,
+        "ga": 44,
+        "gf": 72,
+        "id": "37974",
+        "loss": 9,
+        "matches": 38,
+        "name": "Pep Guardiola",
+        "win": 21
+      }
+    ],
+    "51": [
+      {
+        "draw": 13,
+        "ga": 59,
+        "gf": 66,
+        "id": "53902",
+        "loss": 9,
+        "matches": 38,
+        "name": "Fabian Hürzeler",
+        "win": 16
+      }
+    ],
+    "52": [
+      {
+        "draw": 14,
+        "ga": 51,
+        "gf": 51,
+        "id": "44410",
+        "loss": 11,
+        "matches": 38,
+        "name": "Oliver Glasner",
+        "win": 13
+      }
+    ],
+    "55": [
+      {
+        "draw": 8,
+        "ga": 57,
+        "gf": 66,
+        "id": "42831",
+        "loss": 14,
+        "matches": 38,
+        "name": "Thomas Frank",
+        "win": 16
+      }
+    ],
+    "57": [
+      {
+        "draw": 10,
+        "ga": 82,
+        "gf": 36,
+        "id": "47418",
+        "loss": 24,
+        "matches": 38,
+        "name": "Kieran McKenna",
+        "win": 4
+      }
+    ],
+    "65": [
+      {
+        "draw": 8,
+        "ga": 46,
+        "gf": 58,
+        "id": "41809",
+        "loss": 11,
+        "matches": 38,
+        "name": "Nuno Espírito Santo",
+        "win": 19
+      }
+    ],
+    "66": [
+      {
+        "draw": 9,
+        "ga": 51,
+        "gf": 58,
+        "id": "37569",
+        "loss": 10,
+        "matches": 38,
+        "name": "Unai Emery",
+        "win": 19
+      }
+    ]
+  },
+  "2025": {
+    "33": [
+      {
+        "draw": 7,
+        "ga": 30,
+        "gf": 34,
+        "id": "53637",
+        "loss": 5,
+        "matches": 20,
+        "name": "Ruben Amorim",
+        "win": 8
+      },
+      {
+        "draw": 3,
+        "ga": 18,
+        "gf": 33,
+        "id": "56407",
+        "loss": 2,
+        "matches": 17,
+        "name": "Michael Carrick",
+        "win": 12
+      },
+      {
+        "draw": 1,
+        "ga": 2,
+        "gf": 2,
+        "id": "66598",
+        "loss": 0,
+        "matches": 1,
+        "name": "Darren Fletcher",
+        "win": 0
+      }
+    ],
+    "34": [
+      {
+        "draw": 7,
+        "ga": 55,
+        "gf": 53,
+        "id": "38216",
+        "loss": 17,
+        "matches": 38,
+        "name": "Eddie Howe",
+        "win": 14
+      }
+    ],
+    "35": [
+      {
+        "draw": 18,
+        "ga": 54,
+        "gf": 58,
+        "id": "50428",
+        "loss": 7,
+        "matches": 38,
+        "name": "Andoni Iraola",
+        "win": 13
+      }
+    ],
+    "36": [
+      {
+        "draw": 7,
+        "ga": 51,
+        "gf": 47,
+        "id": "41801",
+        "loss": 16,
+        "matches": 38,
+        "name": "Marco Silva",
+        "win": 15
+      }
+    ],
+    "39": [
+      {
+        "draw": 9,
+        "ga": 43,
+        "gf": 20,
+        "id": "47628",
+        "loss": 15,
+        "matches": 27,
+        "name": "Rob Edwards",
+        "win": 3
+      },
+      {
+        "draw": 2,
+        "ga": 22,
+        "gf": 7,
+        "id": "40855",
+        "loss": 8,
+        "matches": 10,
+        "name": "Vítor Pereira",
+        "win": 0
+      },
+      {
+        "draw": 0,
+        "ga": 3,
+        "gf": 0,
+        "id": "53250",
+        "loss": 1,
+        "matches": 1,
+        "name": "James Collins",
+        "win": 0
+      }
+    ],
+    "40": [
+      {
+        "draw": 9,
+        "ga": 53,
+        "gf": 63,
+        "id": "52174",
+        "loss": 12,
+        "matches": 38,
+        "name": "Arne Slot",
+        "win": 17
+      }
+    ],
+    "42": [
+      {
+        "draw": 7,
+        "ga": 27,
+        "gf": 71,
+        "id": "51018",
+        "loss": 5,
+        "matches": 38,
+        "name": "Mikel Arteta",
+        "win": 26
+      }
+    ],
+    "44": [
+      {
+        "draw": 8,
+        "ga": 68,
+        "gf": 34,
+        "id": "49243",
+        "loss": 22,
+        "matches": 34,
+        "name": "Scott Parker",
+        "win": 4
+      },
+      {
+        "draw": 2,
+        "ga": 7,
+        "gf": 4,
+        "id": "43840",
+        "loss": 2,
+        "matches": 4,
+        "name": "Michael Jackson",
+        "win": 0
+      }
+    ],
+    "45": [
+      {
+        "draw": 10,
+        "ga": 50,
+        "gf": 47,
+        "id": "85",
+        "loss": 15,
+        "matches": 38,
+        "name": "David Moyes",
+        "win": 13
+      }
+    ],
+    "47": [
+      {
+        "draw": 8,
+        "ga": 37,
+        "gf": 36,
+        "id": "42831",
+        "loss": 11,
+        "matches": 26,
+        "name": "Thomas Frank",
+        "win": 7
+      },
+      {
+        "draw": 2,
+        "ga": 7,
+        "gf": 8,
+        "id": "47376",
+        "loss": 2,
+        "matches": 7,
+        "name": "Roberto De Zerbi",
+        "win": 3
+      },
+      {
+        "draw": 1,
+        "ga": 13,
+        "gf": 4,
+        "id": "42626",
+        "loss": 4,
+        "matches": 5,
+        "name": "Igor Tudor",
+        "win": 0
+      }
+    ],
+    "48": [
+      {
+        "draw": 9,
+        "ga": 52,
+        "gf": 41,
+        "id": "41809",
+        "loss": 15,
+        "matches": 33,
+        "name": "Nuno Espírito Santo",
+        "win": 9
+      },
+      {
+        "draw": 0,
+        "ga": 13,
+        "gf": 5,
+        "id": "46436",
+        "loss": 4,
+        "matches": 5,
+        "name": "Graham Potter",
+        "win": 1
+      }
+    ],
+    "49": [
+      {
+        "draw": 6,
+        "ga": 21,
+        "gf": 32,
+        "id": "48549",
+        "loss": 5,
+        "matches": 19,
+        "name": "Enzo Maresca",
+        "win": 8
+      },
+      {
+        "draw": 2,
+        "ga": 21,
+        "gf": 19,
+        "id": "54501",
+        "loss": 6,
+        "matches": 13,
+        "name": "Liam Rosenior",
+        "win": 5
+      },
+      {
+        "draw": 2,
+        "ga": 10,
+        "gf": 7,
+        "id": "61136",
+        "loss": 3,
+        "matches": 6,
+        "name": "Calum McFarlane",
+        "win": 1
+      }
+    ],
+    "50": [
+      {
+        "draw": 9,
+        "ga": 35,
+        "gf": 77,
+        "id": "37974",
+        "loss": 6,
+        "matches": 38,
+        "name": "Pep Guardiola",
+        "win": 23
+      }
+    ],
+    "51": [
+      {
+        "draw": 11,
+        "ga": 46,
+        "gf": 52,
+        "id": "53902",
+        "loss": 13,
+        "matches": 38,
+        "name": "Fabian Hürzeler",
+        "win": 14
+      }
+    ],
+    "52": [
+      {
+        "draw": 12,
+        "ga": 51,
+        "gf": 41,
+        "id": "44410",
+        "loss": 15,
+        "matches": 38,
+        "name": "Oliver Glasner",
+        "win": 11
+      }
+    ],
+    "55": [
+      {
+        "draw": 11,
+        "ga": 52,
+        "gf": 55,
+        "id": "66206",
+        "loss": 13,
+        "matches": 38,
+        "name": "Keith Andrews",
+        "win": 14
+      }
+    ],
+    "63": [
+      {
+        "draw": 14,
+        "ga": 56,
+        "gf": 49,
+        "id": "42856",
+        "loss": 13,
+        "matches": 38,
+        "name": "Daniel Farke",
+        "win": 11
+      }
+    ],
+    "65": [
+      {
+        "draw": 4,
+        "ga": 23,
+        "gf": 20,
+        "id": "40853",
+        "loss": 8,
+        "matches": 18,
+        "name": "Sean Dyche",
+        "win": 6
+      },
+      {
+        "draw": 5,
+        "ga": 13,
+        "gf": 23,
+        "id": "40855",
+        "loss": 3,
+        "matches": 12,
+        "name": "Vítor Pereira",
+        "win": 4
+      },
+      {
+        "draw": 1,
+        "ga": 10,
+        "gf": 1,
+        "id": "41881",
+        "loss": 4,
+        "matches": 5,
+        "name": "Ange Postecoglou",
+        "win": 0
+      },
+      {
+        "draw": 1,
+        "ga": 5,
+        "gf": 4,
+        "id": "41809",
+        "loss": 1,
+        "matches": 3,
+        "name": "Nuno Espírito Santo",
+        "win": 1
+      }
+    ],
+    "66": [
+      {
+        "draw": 8,
+        "ga": 49,
+        "gf": 56,
+        "id": "37569",
+        "loss": 11,
+        "matches": 38,
+        "name": "Unai Emery",
+        "win": 19
+      }
+    ],
+    "746": [
+      {
+        "draw": 12,
+        "ga": 48,
+        "gf": 42,
+        "id": "58318",
+        "loss": 12,
+        "matches": 38,
+        "name": "Régis Le Bris",
+        "win": 14
+      }
+    ]
+  }
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "capacity": 60704,
+    "code": "ARS",
+    "founded": 1886,
+    "id": 42,
+    "logo": "/logos/42.png",
+    "name": "Arsenal",
+    "venue": "Emirates Stadium"
+  },
+  {
+    "capacity": 42682,
+    "code": "AVL",
+    "founded": 1874,
+    "id": 66,
+    "logo": "/logos/66.png",
+    "name": "Aston Villa",
+    "venue": "Villa Park"
+  },
+  {
+    "capacity": 25136,
+    "code": "BRA",
+    "founded": 1903,
+    "id": 1343,
+    "logo": "/logos/1343.png",
+    "name": "Bradford City",
+    "venue": "Valley Parade"
+  },
+  {
+    "capacity": 27111,
+    "code": "CHA",
+    "founded": 1905,
+    "id": 1335,
+    "logo": "/logos/1335.png",
+    "name": "Charlton Athletic",
+    "venue": "The Valley"
+  },
+  {
+    "capacity": 40173,
+    "code": "CHE",
+    "founded": 1905,
+    "id": 49,
+    "logo": "/logos/49.png",
+    "name": "Chelsea",
+    "venue": "Stamford Bridge"
+  },
+  {
+    "capacity": 32609,
+    "code": "COV",
+    "founded": 1883,
+    "id": 1346,
+    "logo": "/logos/1346.png",
+    "name": "Coventry City",
+    "venue": "Coventry Building Society Arena"
+  },
+  {
+    "capacity": 33597,
+    "code": "DER",
+    "founded": 1884,
+    "id": 69,
+    "logo": "/logos/69.png",
+    "name": "Derby County",
+    "venue": "Pride Park Stadium"
+  },
+  {
+    "capacity": 39572,
+    "code": "EVE",
+    "founded": 1878,
+    "id": 45,
+    "logo": "/logos/45.png",
+    "name": "Everton",
+    "venue": "Goodison Park"
+  },
+  {
+    "capacity": 30311,
+    "code": "IPS",
+    "founded": 1878,
+    "id": 57,
+    "logo": "/logos/57.png",
+    "name": "Ipswich Town",
+    "venue": "Portman Road"
+  },
+  {
+    "capacity": 37792,
+    "code": "LEE",
+    "founded": 1919,
+    "id": 63,
+    "logo": "/logos/63.png",
+    "name": "Leeds United",
+    "venue": "Elland Road"
+  },
+  {
+    "capacity": 32261,
+    "code": "LEI",
+    "founded": 1884,
+    "id": 46,
+    "logo": "/logos/46.png",
+    "name": "Leicester City",
+    "venue": "King Power Stadium"
+  },
+  {
+    "capacity": 61276,
+    "code": "LIV",
+    "founded": 1892,
+    "id": 40,
+    "logo": "/logos/40.png",
+    "name": "Liverpool",
+    "venue": "Anfield"
+  },
+  {
+    "capacity": 53400,
+    "code": "MCI",
+    "founded": 1880,
+    "id": 50,
+    "logo": "/logos/50.png",
+    "name": "Manchester City",
+    "venue": "Etihad Stadium"
+  },
+  {
+    "capacity": 74310,
+    "code": "MUN",
+    "founded": 1878,
+    "id": 33,
+    "logo": "/logos/33.png",
+    "name": "Manchester United",
+    "venue": "Old Trafford"
+  },
+  {
+    "capacity": 34742,
+    "code": "MID",
+    "founded": 1876,
+    "id": 70,
+    "logo": "/logos/70.png",
+    "name": "Middlesbrough",
+    "venue": "Riverside Stadium"
+  },
+  {
+    "capacity": 52305,
+    "code": "NEW",
+    "founded": 1892,
+    "id": 34,
+    "logo": "/logos/34.png",
+    "name": "Newcastle United",
+    "venue": "St James' Park"
+  },
+  {
+    "capacity": 32384,
+    "code": "SOU",
+    "founded": 1885,
+    "id": 41,
+    "logo": "/logos/41.png",
+    "name": "Southampton",
+    "venue": "St Mary's Stadium"
+  },
+  {
+    "capacity": 49000,
+    "code": "SUN",
+    "founded": 1879,
+    "id": 746,
+    "logo": "/logos/746.png",
+    "name": "Sunderland",
+    "venue": "Stadium of Light"
+  },
+  {
+    "capacity": 62850,
+    "code": "TOT",
+    "founded": 1882,
+    "id": 47,
+    "logo": "/logos/47.png",
+    "name": "Tottenham Hotspur",
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  {
+    "capacity": 62500,
+    "code": "WHU",
+    "founded": 1895,
+    "id": 48,
+    "logo": "/logos/48.png",
+    "name": "West Ham United",
+    "venue": "London Stadium"
+  }
+]

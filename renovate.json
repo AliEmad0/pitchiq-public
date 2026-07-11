@@ -1,0 +1,31 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended", ":dependencyDashboard", ":semanticCommits"],
+  "timezone": "Europe/London",
+  "schedule": ["before 6am on Monday"],
+  "labels": ["renovate"],
+  "rangeStrategy": "bump",
+  "rebaseWhen": "auto",
+  "prHourlyLimit": 4,
+  "prConcurrentLimit": 8,
+  "packageRules": [
+    {
+      "description": "Group all devDependencies into a single weekly PR; auto-merge minor + patch once CI is green.",
+      "matchDepTypes": ["devDependencies"],
+      "groupName": "devDependencies",
+      "automerge": true,
+      "automergeType": "pr",
+      "matchUpdateTypes": ["minor", "patch"]
+    },
+    {
+      "description": "Group all Radix UI packages (the bundled radix-ui meta-package + any future direct @radix-ui/* deps) into one PR.",
+      "matchPackageNames": ["radix-ui", "@radix-ui/**"],
+      "groupName": "Radix UI"
+    },
+    {
+      "description": "Group all @tanstack/* updates (react-query + devtools) into one PR.",
+      "matchPackageNames": ["@tanstack/**"],
+      "groupName": "TanStack"
+    }
+  ]
+}

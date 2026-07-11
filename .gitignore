@@ -1,0 +1,72 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# next.js
+/.next/
+/out/
+
+# production builds
+/build
+/dist
+
+# env files (secrets — NEVER commit)
+.env
+.env.*
+!.env.example
+
+# data sync — cached upstream feeds (re-fetched on demand, never committed)
+/data/.cache/
+
+# testing — vitest
+/coverage
+/.vitest-cache
+
+# testing — playwright
+/test-results
+/playwright-report
+/playwright/.cache
+/blob-report
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# vercel
+.vercel
+
+# debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.log
+
+# IDE / editor
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Claude Code (local agent state — settings + worktree snapshots)
+.claude/
+
+# Throwaway local-only smoke scripts (never committed)
+.sentry-smoke.mjs
+
+# misc
+*.pem

@@ -1,0 +1,1522 @@
+{
+  "2019-08-09-LIV-NOR": {
+    "attendance": 53333,
+    "venue": "Anfield"
+  },
+  "2019-08-10-BOU-SHU": {
+    "attendance": 10714,
+    "venue": "Vitality Stadium"
+  },
+  "2019-08-10-BUR-SOU": {
+    "attendance": 19784,
+    "venue": "Turf Moor"
+  },
+  "2019-08-10-CRY-EVE": {
+    "attendance": 25151,
+    "venue": "Selhurst Park"
+  },
+  "2019-08-10-TOT-AVL": {
+    "attendance": 60407,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2019-08-10-WAT-BHA": {
+    "attendance": 20245,
+    "venue": "Vicarage Road"
+  },
+  "2019-08-10-WHU-MCI": {
+    "attendance": 59870,
+    "venue": "London Stadium"
+  },
+  "2019-08-11-LEI-WOL": {
+    "attendance": 32015,
+    "venue": "King Power Stadium"
+  },
+  "2019-08-11-MUN-CHE": {
+    "attendance": 73620,
+    "venue": "Old Trafford"
+  },
+  "2019-08-11-NEW-ARS": {
+    "attendance": 47635,
+    "venue": "St. James' Park"
+  },
+  "2019-08-17-ARS-BUR": {
+    "attendance": 60214,
+    "venue": "Emirates Stadium"
+  },
+  "2019-08-17-AVL-BOU": {
+    "attendance": 40996,
+    "venue": "Villa Park"
+  },
+  "2019-08-17-BHA-WHU": {
+    "attendance": 30459,
+    "venue": "American Express Stadium"
+  },
+  "2019-08-17-EVE-WAT": {
+    "attendance": 39066,
+    "venue": "Goodison Park"
+  },
+  "2019-08-17-MCI-TOT": {
+    "attendance": 54503,
+    "venue": "Etihad Stadium"
+  },
+  "2019-08-17-NOR-NEW": {
+    "attendance": 27059,
+    "venue": "Carrow Road"
+  },
+  "2019-08-17-SOU-LIV": {
+    "attendance": 31712,
+    "venue": "St. Mary's Stadium"
+  },
+  "2019-08-18-CHE-LEI": {
+    "attendance": 40629,
+    "venue": "Stamford Bridge"
+  },
+  "2019-08-18-SHU-CRY": {
+    "attendance": 30197,
+    "venue": "Bramall Lane"
+  },
+  "2019-08-19-WOL-MUN": {
+    "attendance": 31314,
+    "venue": "Molineux Stadium"
+  },
+  "2019-08-23-AVL-EVE": {
+    "attendance": 41922,
+    "venue": "Villa Park"
+  },
+  "2019-08-24-BHA-SOU": {
+    "attendance": 30019,
+    "venue": "American Express Stadium"
+  },
+  "2019-08-24-LIV-ARS": {
+    "attendance": 53298,
+    "venue": "Anfield"
+  },
+  "2019-08-24-MUN-CRY": {
+    "attendance": 73454,
+    "venue": "Old Trafford"
+  },
+  "2019-08-24-NOR-CHE": {
+    "attendance": 27032,
+    "venue": "Carrow Road"
+  },
+  "2019-08-24-SHU-LEI": {
+    "attendance": 30079,
+    "venue": "Bramall Lane"
+  },
+  "2019-08-24-WAT-WHU": {
+    "attendance": 20035,
+    "venue": "Vicarage Road"
+  },
+  "2019-08-25-BOU-MCI": {
+    "attendance": 10486,
+    "venue": "Vitality Stadium"
+  },
+  "2019-08-25-TOT-NEW": {
+    "attendance": 59245,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2019-08-25-WOL-BUR": {
+    "attendance": 30522,
+    "venue": "Molineux Stadium"
+  },
+  "2019-08-31-BUR-LIV": {
+    "attendance": 21762,
+    "venue": "Turf Moor"
+  },
+  "2019-08-31-CHE-SHU": {
+    "attendance": 40560,
+    "venue": "Stamford Bridge"
+  },
+  "2019-08-31-CRY-AVL": {
+    "attendance": 25248,
+    "venue": "Selhurst Park"
+  },
+  "2019-08-31-LEI-BOU": {
+    "attendance": 31613,
+    "venue": "King Power Stadium"
+  },
+  "2019-08-31-MCI-BHA": {
+    "attendance": 54386,
+    "venue": "Etihad Stadium"
+  },
+  "2019-08-31-NEW-WAT": {
+    "attendance": 44157,
+    "venue": "St. James' Park"
+  },
+  "2019-08-31-SOU-MUN": {
+    "attendance": 30499,
+    "venue": "St. Mary's Stadium"
+  },
+  "2019-08-31-WHU-NOR": {
+    "attendance": 59950,
+    "venue": "London Stadium"
+  },
+  "2019-09-01-ARS-TOT": {
+    "attendance": 60333,
+    "venue": "Emirates Stadium"
+  },
+  "2019-09-01-EVE-WOL": {
+    "attendance": 39374,
+    "venue": "Goodison Park"
+  },
+  "2019-09-14-BHA-BUR": {
+    "attendance": 29398,
+    "venue": "American Express Stadium"
+  },
+  "2019-09-14-LIV-NEW": {
+    "attendance": 51430,
+    "venue": "Anfield"
+  },
+  "2019-09-14-MUN-LEI": {
+    "attendance": 73689,
+    "venue": "Old Trafford"
+  },
+  "2019-09-14-NOR-MCI": {
+    "attendance": 27035,
+    "venue": "Carrow Road"
+  },
+  "2019-09-14-SHU-SOU": {
+    "attendance": 30985,
+    "venue": "Bramall Lane"
+  },
+  "2019-09-14-TOT-CRY": {
+    "attendance": 59812,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2019-09-14-WOL-CHE": {
+    "attendance": 31534,
+    "venue": "Molineux Stadium"
+  },
+  "2019-09-15-BOU-EVE": {
+    "attendance": 10416,
+    "venue": "Vitality Stadium"
+  },
+  "2019-09-15-WAT-ARS": {
+    "attendance": 21360,
+    "venue": "Vicarage Road"
+  },
+  "2019-09-16-AVL-WHU": {
+    "attendance": 42010,
+    "venue": "Villa Park"
+  },
+  "2019-09-20-SOU-BOU": {
+    "attendance": 30168,
+    "venue": "St. Mary's Stadium"
+  },
+  "2019-09-21-BUR-NOR": {
+    "attendance": 19712,
+    "venue": "Turf Moor"
+  },
+  "2019-09-21-EVE-SHU": {
+    "attendance": 39354,
+    "venue": "Goodison Park"
+  },
+  "2019-09-21-LEI-TOT": {
+    "attendance": 32129,
+    "venue": "King Power Stadium"
+  },
+  "2019-09-21-MCI-WAT": {
+    "attendance": 54273,
+    "venue": "Etihad Stadium"
+  },
+  "2019-09-21-NEW-BHA": {
+    "attendance": 43316,
+    "venue": "St. James' Park"
+  },
+  "2019-09-22-ARS-AVL": {
+    "attendance": 60331,
+    "venue": "Emirates Stadium"
+  },
+  "2019-09-22-CHE-LIV": {
+    "attendance": 40638,
+    "venue": "Stamford Bridge"
+  },
+  "2019-09-22-CRY-WOL": {
+    "attendance": 25122,
+    "venue": "Selhurst Park"
+  },
+  "2019-09-22-WHU-MUN": {
+    "attendance": 59936,
+    "venue": "London Stadium"
+  },
+  "2019-09-28-AVL-BUR": {
+    "attendance": 41546,
+    "venue": "Villa Park"
+  },
+  "2019-09-28-BOU-WHU": {
+    "attendance": 10729,
+    "venue": "Vitality Stadium"
+  },
+  "2019-09-28-CHE-BHA": {
+    "attendance": 40683,
+    "venue": "Stamford Bridge"
+  },
+  "2019-09-28-CRY-NOR": {
+    "attendance": 25477,
+    "venue": "Selhurst Park"
+  },
+  "2019-09-28-EVE-MCI": {
+    "attendance": 39222,
+    "venue": "Goodison Park"
+  },
+  "2019-09-28-SHU-LIV": {
+    "attendance": 31774,
+    "venue": "Bramall Lane"
+  },
+  "2019-09-28-TOT-SOU": {
+    "attendance": 59645,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2019-09-28-WOL-WAT": {
+    "attendance": 30711,
+    "venue": "Molineux Stadium"
+  },
+  "2019-09-29-LEI-NEW": {
+    "attendance": 32168,
+    "venue": "King Power Stadium"
+  },
+  "2019-09-30-MUN-ARS": {
+    "attendance": 73201,
+    "venue": "Old Trafford"
+  },
+  "2019-10-05-BHA-TOT": {
+    "attendance": 30610,
+    "venue": "American Express Stadium"
+  },
+  "2019-10-05-BUR-EVE": {
+    "attendance": 20650,
+    "venue": "Turf Moor"
+  },
+  "2019-10-05-LIV-LEI": {
+    "attendance": 53322,
+    "venue": "Anfield"
+  },
+  "2019-10-05-NOR-AVL": {
+    "attendance": 27045,
+    "venue": "Carrow Road"
+  },
+  "2019-10-05-WAT-SHU": {
+    "attendance": 20811,
+    "venue": "Vicarage Road"
+  },
+  "2019-10-05-WHU-CRY": {
+    "attendance": 59912,
+    "venue": "London Stadium"
+  },
+  "2019-10-06-ARS-BOU": {
+    "attendance": 60326,
+    "venue": "Emirates Stadium"
+  },
+  "2019-10-06-MCI-WOL": {
+    "attendance": 54435,
+    "venue": "Etihad Stadium"
+  },
+  "2019-10-06-NEW-MUN": {
+    "attendance": 51198,
+    "venue": "St. James' Park"
+  },
+  "2019-10-06-SOU-CHE": {
+    "attendance": 31473,
+    "venue": "St. Mary's Stadium"
+  },
+  "2019-10-19-AVL-BHA": {
+    "attendance": 41826,
+    "venue": "Villa Park"
+  },
+  "2019-10-19-BOU-NOR": {
+    "attendance": 10669,
+    "venue": "Vitality Stadium"
+  },
+  "2019-10-19-CHE-NEW": {
+    "attendance": 40513,
+    "venue": "Stamford Bridge"
+  },
+  "2019-10-19-CRY-MCI": {
+    "attendance": 25480,
+    "venue": "Selhurst Park"
+  },
+  "2019-10-19-EVE-WHU": {
+    "attendance": 39263,
+    "venue": "Goodison Park"
+  },
+  "2019-10-19-LEI-BUR": {
+    "attendance": 32105,
+    "venue": "King Power Stadium"
+  },
+  "2019-10-19-TOT-WAT": {
+    "attendance": 58754,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2019-10-19-WOL-SOU": {
+    "attendance": 30915,
+    "venue": "Molineux Stadium"
+  },
+  "2019-10-20-MUN-LIV": {
+    "attendance": 73737,
+    "venue": "Old Trafford"
+  },
+  "2019-10-21-SHU-ARS": {
+    "attendance": 30775,
+    "venue": "Bramall Lane"
+  },
+  "2019-10-25-SOU-LEI": {
+    "attendance": 28762,
+    "venue": "St. Mary's Stadium"
+  },
+  "2019-10-26-BHA-EVE": {
+    "attendance": 30529,
+    "venue": "American Express Stadium"
+  },
+  "2019-10-26-BUR-CHE": {
+    "attendance": 20975,
+    "venue": "Turf Moor"
+  },
+  "2019-10-26-MCI-AVL": {
+    "attendance": 54506,
+    "venue": "Etihad Stadium"
+  },
+  "2019-10-26-WAT-BOU": {
+    "attendance": 20821,
+    "venue": "Vicarage Road"
+  },
+  "2019-10-26-WHU-SHU": {
+    "attendance": 59878,
+    "venue": "London Stadium"
+  },
+  "2019-10-27-ARS-CRY": {
+    "attendance": 60345,
+    "venue": "Emirates Stadium"
+  },
+  "2019-10-27-LIV-TOT": {
+    "attendance": 53222,
+    "venue": "Anfield"
+  },
+  "2019-10-27-NEW-WOL": {
+    "attendance": 46019,
+    "venue": "St. James' Park"
+  },
+  "2019-10-27-NOR-MUN": {
+    "attendance": 27108,
+    "venue": "Carrow Road"
+  },
+  "2019-11-02-ARS-WOL": {
+    "attendance": 60383,
+    "venue": "Emirates Stadium"
+  },
+  "2019-11-02-AVL-LIV": {
+    "attendance": 41878,
+    "venue": "Villa Park"
+  },
+  "2019-11-02-BHA-NOR": {
+    "attendance": 30539,
+    "venue": "American Express Stadium"
+  },
+  "2019-11-02-BOU-MUN": {
+    "attendance": 10669,
+    "venue": "Vitality Stadium"
+  },
+  "2019-11-02-MCI-SOU": {
+    "attendance": 53922,
+    "venue": "Etihad Stadium"
+  },
+  "2019-11-02-SHU-BUR": {
+    "attendance": 31131,
+    "venue": "Bramall Lane"
+  },
+  "2019-11-02-WAT-CHE": {
+    "attendance": 21011,
+    "venue": "Vicarage Road"
+  },
+  "2019-11-02-WHU-NEW": {
+    "attendance": 59907,
+    "venue": "London Stadium"
+  },
+  "2019-11-03-CRY-LEI": {
+    "attendance": 25480,
+    "venue": "Selhurst Park"
+  },
+  "2019-11-03-EVE-TOT": {
+    "attendance": 39001,
+    "venue": "Goodison Park"
+  },
+  "2019-11-08-NOR-WAT": {
+    "attendance": 27074,
+    "venue": "Carrow Road"
+  },
+  "2019-11-09-BUR-WHU": {
+    "attendance": 20255,
+    "venue": "Turf Moor"
+  },
+  "2019-11-09-CHE-CRY": {
+    "attendance": 40525,
+    "venue": "Stamford Bridge"
+  },
+  "2019-11-09-LEI-ARS": {
+    "attendance": 32209,
+    "venue": "King Power Stadium"
+  },
+  "2019-11-09-NEW-BOU": {
+    "attendance": 44424,
+    "venue": "St. James' Park"
+  },
+  "2019-11-09-SOU-EVE": {
+    "attendance": 29754,
+    "venue": "St. Mary's Stadium"
+  },
+  "2019-11-09-TOT-SHU": {
+    "attendance": 59781,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2019-11-10-LIV-MCI": {
+    "attendance": 53324,
+    "venue": "Anfield"
+  },
+  "2019-11-10-MUN-BHA": {
+    "attendance": 73556,
+    "venue": "Old Trafford"
+  },
+  "2019-11-10-WOL-AVL": {
+    "attendance": 31607,
+    "venue": "Molineux Stadium"
+  },
+  "2019-11-23-ARS-SOU": {
+    "attendance": 60295,
+    "venue": "Emirates Stadium"
+  },
+  "2019-11-23-BHA-LEI": {
+    "attendance": 30640,
+    "venue": "American Express Stadium"
+  },
+  "2019-11-23-BOU-WOL": {
+    "attendance": 10539,
+    "venue": "Vitality Stadium"
+  },
+  "2019-11-23-CRY-LIV": {
+    "attendance": 25486,
+    "venue": "Selhurst Park"
+  },
+  "2019-11-23-EVE-NOR": {
+    "attendance": 39241,
+    "venue": "Goodison Park"
+  },
+  "2019-11-23-MCI-CHE": {
+    "attendance": 54486,
+    "venue": "Etihad Stadium"
+  },
+  "2019-11-23-WAT-BUR": {
+    "attendance": 19711,
+    "venue": "Vicarage Road"
+  },
+  "2019-11-23-WHU-TOT": {
+    "attendance": 59930,
+    "venue": "London Stadium"
+  },
+  "2019-11-24-SHU-MUN": {
+    "attendance": 32024,
+    "venue": "Bramall Lane"
+  },
+  "2019-11-25-AVL-NEW": {
+    "attendance": 41821,
+    "venue": "Villa Park"
+  },
+  "2019-11-30-BUR-CRY": {
+    "attendance": 19818,
+    "venue": "Turf Moor"
+  },
+  "2019-11-30-CHE-WHU": {
+    "attendance": 40595,
+    "venue": "Stamford Bridge"
+  },
+  "2019-11-30-LIV-BHA": {
+    "attendance": 53319,
+    "venue": "Anfield"
+  },
+  "2019-11-30-NEW-MCI": {
+    "attendance": 49937,
+    "venue": "St. James' Park"
+  },
+  "2019-11-30-SOU-WAT": {
+    "attendance": 26929,
+    "venue": "St. Mary's Stadium"
+  },
+  "2019-11-30-TOT-BOU": {
+    "attendance": 59626,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2019-12-01-LEI-EVE": {
+    "attendance": 32144,
+    "venue": "King Power Stadium"
+  },
+  "2019-12-01-MUN-AVL": {
+    "attendance": 73381,
+    "venue": "Old Trafford"
+  },
+  "2019-12-01-NOR-ARS": {
+    "attendance": 27067,
+    "venue": "Carrow Road"
+  },
+  "2019-12-01-WOL-SHU": {
+    "attendance": 31642,
+    "venue": "Molineux Stadium"
+  },
+  "2019-12-03-BUR-MCI": {
+    "attendance": 20101,
+    "venue": "Turf Moor"
+  },
+  "2019-12-03-CRY-BOU": {
+    "attendance": 23497,
+    "venue": "Selhurst Park"
+  },
+  "2019-12-04-CHE-AVL": {
+    "attendance": 40628,
+    "venue": "Stamford Bridge"
+  },
+  "2019-12-04-LEI-WAT": {
+    "attendance": 31763,
+    "venue": "King Power Stadium"
+  },
+  "2019-12-04-LIV-EVE": {
+    "attendance": 53094,
+    "venue": "Anfield"
+  },
+  "2019-12-04-MUN-TOT": {
+    "attendance": 73252,
+    "venue": "Old Trafford"
+  },
+  "2019-12-04-SOU-NOR": {
+    "attendance": 27019,
+    "venue": "St. Mary's Stadium"
+  },
+  "2019-12-04-WOL-WHU": {
+    "attendance": 31217,
+    "venue": "Molineux Stadium"
+  },
+  "2019-12-05-ARS-BHA": {
+    "attendance": 60164,
+    "venue": "Emirates Stadium"
+  },
+  "2019-12-05-SHU-NEW": {
+    "attendance": 30409,
+    "venue": "Bramall Lane"
+  },
+  "2019-12-07-BOU-LIV": {
+    "attendance": 10832,
+    "venue": "Vitality Stadium"
+  },
+  "2019-12-07-EVE-CHE": {
+    "attendance": 39114,
+    "venue": "Goodison Park"
+  },
+  "2019-12-07-MCI-MUN": {
+    "attendance": 54403,
+    "venue": "Etihad Stadium"
+  },
+  "2019-12-07-TOT-BUR": {
+    "attendance": 58401,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2019-12-07-WAT-CRY": {
+    "attendance": 20070,
+    "venue": "Vicarage Road"
+  },
+  "2019-12-08-AVL-LEI": {
+    "attendance": 41908,
+    "venue": "Villa Park"
+  },
+  "2019-12-08-BHA-WOL": {
+    "attendance": 30189,
+    "venue": "American Express Stadium"
+  },
+  "2019-12-08-NEW-SOU": {
+    "attendance": 42303,
+    "venue": "St. James' Park"
+  },
+  "2019-12-08-NOR-SHU": {
+    "attendance": 26881,
+    "venue": "Carrow Road"
+  },
+  "2019-12-09-WHU-ARS": {
+    "attendance": 59936,
+    "venue": "London Stadium"
+  },
+  "2019-12-14-BUR-NEW": {
+    "attendance": 19798,
+    "venue": "Turf Moor"
+  },
+  "2019-12-14-CHE-BOU": {
+    "attendance": 40243,
+    "venue": "Stamford Bridge"
+  },
+  "2019-12-14-LEI-NOR": {
+    "attendance": 32101,
+    "venue": "King Power Stadium"
+  },
+  "2019-12-14-LIV-WAT": {
+    "attendance": 53311,
+    "venue": "Anfield"
+  },
+  "2019-12-14-SHU-AVL": {
+    "attendance": 30396,
+    "venue": "Bramall Lane"
+  },
+  "2019-12-14-SOU-WHU": {
+    "attendance": 27701,
+    "venue": "St. Mary's Stadium"
+  },
+  "2019-12-15-ARS-MCI": {
+    "attendance": 60031,
+    "venue": "Emirates Stadium"
+  },
+  "2019-12-15-MUN-EVE": {
+    "attendance": 63328,
+    "venue": "Old Trafford"
+  },
+  "2019-12-15-WOL-TOT": {
+    "attendance": 31674,
+    "venue": "Molineux Stadium"
+  },
+  "2019-12-16-CRY-BHA": {
+    "attendance": 24175,
+    "venue": "Selhurst Park"
+  },
+  "2019-12-21-AVL-SOU": {
+    "attendance": 41834,
+    "venue": "Villa Park"
+  },
+  "2019-12-21-BHA-SHU": {
+    "attendance": 30505,
+    "venue": "American Express Stadium"
+  },
+  "2019-12-21-BOU-BUR": {
+    "attendance": 10020,
+    "venue": "Vitality Stadium"
+  },
+  "2019-12-21-EVE-ARS": {
+    "attendance": 39336,
+    "venue": "Goodison Park"
+  },
+  "2019-12-21-MCI-LEI": {
+    "attendance": 54415,
+    "venue": "Etihad Stadium"
+  },
+  "2019-12-21-NEW-CRY": {
+    "attendance": 45453,
+    "venue": "St. James' Park"
+  },
+  "2019-12-21-NOR-WOL": {
+    "attendance": 27053,
+    "venue": "Carrow Road"
+  },
+  "2019-12-22-TOT-CHE": {
+    "attendance": 61104,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2019-12-22-WAT-MUN": {
+    "attendance": 21488,
+    "venue": "Vicarage Road"
+  },
+  "2019-12-26-AVL-NOR": {
+    "attendance": 41289,
+    "venue": "Villa Park"
+  },
+  "2019-12-26-BOU-ARS": {
+    "attendance": 10234,
+    "venue": "Vitality Stadium"
+  },
+  "2019-12-26-CHE-SOU": {
+    "attendance": 40651,
+    "venue": "Stamford Bridge"
+  },
+  "2019-12-26-CRY-WHU": {
+    "attendance": 25462,
+    "venue": "Selhurst Park"
+  },
+  "2019-12-26-EVE-BUR": {
+    "attendance": 39177,
+    "venue": "Goodison Park"
+  },
+  "2019-12-26-LEI-LIV": {
+    "attendance": 32211,
+    "venue": "King Power Stadium"
+  },
+  "2019-12-26-MUN-NEW": {
+    "attendance": 73206,
+    "venue": "Old Trafford"
+  },
+  "2019-12-26-SHU-WAT": {
+    "attendance": 30222,
+    "venue": "Bramall Lane"
+  },
+  "2019-12-26-TOT-BHA": {
+    "attendance": 56308,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2019-12-27-WOL-MCI": {
+    "attendance": 31737,
+    "venue": "Molineux Stadium"
+  },
+  "2019-12-28-BHA-BOU": {
+    "attendance": 30441,
+    "venue": "American Express Stadium"
+  },
+  "2019-12-28-BUR-MUN": {
+    "attendance": 21924,
+    "venue": "Turf Moor"
+  },
+  "2019-12-28-NEW-EVE": {
+    "attendance": 52211,
+    "venue": "St. James' Park"
+  },
+  "2019-12-28-NOR-TOT": {
+    "attendance": 27072,
+    "venue": "Carrow Road"
+  },
+  "2019-12-28-SOU-CRY": {
+    "attendance": 31108,
+    "venue": "St. Mary's Stadium"
+  },
+  "2019-12-28-WAT-AVL": {
+    "attendance": 21348,
+    "venue": "Vicarage Road"
+  },
+  "2019-12-28-WHU-LEI": {
+    "attendance": 59519,
+    "venue": "London Stadium"
+  },
+  "2019-12-29-ARS-CHE": {
+    "attendance": 60309,
+    "venue": "Emirates Stadium"
+  },
+  "2019-12-29-LIV-WOL": {
+    "attendance": 53326,
+    "venue": "Anfield"
+  },
+  "2019-12-29-MCI-SHU": {
+    "attendance": 54512,
+    "venue": "Etihad Stadium"
+  },
+  "2020-01-01-ARS-MUN": {
+    "attendance": 60328,
+    "venue": "Emirates Stadium"
+  },
+  "2020-01-01-BHA-CHE": {
+    "attendance": 30559,
+    "venue": "American Express Stadium"
+  },
+  "2020-01-01-BUR-AVL": {
+    "attendance": 19561,
+    "venue": "Turf Moor"
+  },
+  "2020-01-01-MCI-EVE": {
+    "attendance": 54407,
+    "venue": "Etihad Stadium"
+  },
+  "2020-01-01-NEW-LEI": {
+    "attendance": 52178,
+    "venue": "St. James' Park"
+  },
+  "2020-01-01-NOR-CRY": {
+    "attendance": 27021,
+    "venue": "Carrow Road"
+  },
+  "2020-01-01-SOU-TOT": {
+    "attendance": 30976,
+    "venue": "St. Mary's Stadium"
+  },
+  "2020-01-01-WAT-WOL": {
+    "attendance": 20584,
+    "venue": "Vicarage Road"
+  },
+  "2020-01-01-WHU-BOU": {
+    "attendance": 59917,
+    "venue": "London Stadium"
+  },
+  "2020-01-02-LIV-SHU": {
+    "attendance": 53321,
+    "venue": "Anfield"
+  },
+  "2020-01-10-SHU-WHU": {
+    "attendance": 30124,
+    "venue": "Bramall Lane"
+  },
+  "2020-01-11-CHE-BUR": {
+    "attendance": 40396,
+    "venue": "Stamford Bridge"
+  },
+  "2020-01-11-CRY-ARS": {
+    "attendance": 25468,
+    "venue": "Selhurst Park"
+  },
+  "2020-01-11-EVE-BHA": {
+    "attendance": 38772,
+    "venue": "Goodison Park"
+  },
+  "2020-01-11-LEI-SOU": {
+    "attendance": 32115,
+    "venue": "King Power Stadium"
+  },
+  "2020-01-11-MUN-NOR": {
+    "attendance": 73271,
+    "venue": "Old Trafford"
+  },
+  "2020-01-11-TOT-LIV": {
+    "attendance": 61023,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2020-01-11-WOL-NEW": {
+    "attendance": 31570,
+    "venue": "Molineux Stadium"
+  },
+  "2020-01-12-AVL-MCI": {
+    "attendance": 41823,
+    "venue": "Villa Park"
+  },
+  "2020-01-12-BOU-WAT": {
+    "attendance": 10384,
+    "venue": "Vitality Stadium"
+  },
+  "2020-01-18-ARS-SHU": {
+    "attendance": 60310,
+    "venue": "Emirates Stadium"
+  },
+  "2020-01-18-BHA-AVL": {
+    "attendance": 30551,
+    "venue": "American Express Stadium"
+  },
+  "2020-01-18-MCI-CRY": {
+    "attendance": 54439,
+    "venue": "Etihad Stadium"
+  },
+  "2020-01-18-NEW-CHE": {
+    "attendance": 52217,
+    "venue": "St. James' Park"
+  },
+  "2020-01-18-NOR-BOU": {
+    "attendance": 26781,
+    "venue": "Carrow Road"
+  },
+  "2020-01-18-SOU-WOL": {
+    "attendance": 31152,
+    "venue": "St. Mary's Stadium"
+  },
+  "2020-01-18-WAT-TOT": {
+    "attendance": 21366,
+    "venue": "Vicarage Road"
+  },
+  "2020-01-18-WHU-EVE": {
+    "attendance": 59915,
+    "venue": "London Stadium"
+  },
+  "2020-01-19-BUR-LEI": {
+    "attendance": 19788,
+    "venue": "Turf Moor"
+  },
+  "2020-01-19-LIV-MUN": {
+    "attendance": 52916,
+    "venue": "Anfield"
+  },
+  "2020-01-21-AVL-WAT": {
+    "attendance": 40867,
+    "venue": "Villa Park"
+  },
+  "2020-01-21-BOU-BHA": {
+    "attendance": 10065,
+    "venue": "Vitality Stadium"
+  },
+  "2020-01-21-CHE-ARS": {
+    "attendance": 40577,
+    "venue": "Stamford Bridge"
+  },
+  "2020-01-21-CRY-SOU": {
+    "attendance": 23739,
+    "venue": "Selhurst Park"
+  },
+  "2020-01-21-EVE-NEW": {
+    "attendance": 38822,
+    "venue": "Goodison Park"
+  },
+  "2020-01-21-SHU-MCI": {
+    "attendance": 31285,
+    "venue": "Bramall Lane"
+  },
+  "2020-01-22-LEI-WHU": {
+    "attendance": 31968,
+    "venue": "King Power Stadium"
+  },
+  "2020-01-22-MUN-BUR": {
+    "attendance": 73198,
+    "venue": "Old Trafford"
+  },
+  "2020-01-22-TOT-NOR": {
+    "attendance": 58182,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2020-01-23-WOL-LIV": {
+    "attendance": 31746,
+    "venue": "Molineux Stadium"
+  },
+  "2020-01-29-WHU-LIV": {
+    "attendance": 59959,
+    "venue": "London Stadium"
+  },
+  "2020-02-01-BOU-AVL": {
+    "attendance": 10722,
+    "venue": "Vitality Stadium"
+  },
+  "2020-02-01-CRY-SHU": {
+    "attendance": 25170,
+    "venue": "Selhurst Park"
+  },
+  "2020-02-01-LEI-CHE": {
+    "attendance": 32186,
+    "venue": "King Power Stadium"
+  },
+  "2020-02-01-LIV-SOU": {
+    "attendance": 53291,
+    "venue": "Anfield"
+  },
+  "2020-02-01-MUN-WOL": {
+    "attendance": 73363,
+    "venue": "Old Trafford"
+  },
+  "2020-02-01-NEW-NOR": {
+    "attendance": 52204,
+    "venue": "St. James' Park"
+  },
+  "2020-02-01-WAT-EVE": {
+    "attendance": 21229,
+    "venue": "Vicarage Road"
+  },
+  "2020-02-01-WHU-BHA": {
+    "attendance": 59952,
+    "venue": "London Stadium"
+  },
+  "2020-02-02-BUR-ARS": {
+    "attendance": 21048,
+    "venue": "Turf Moor"
+  },
+  "2020-02-02-TOT-MCI": {
+    "attendance": 61022,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2020-02-08-BHA-WAT": {
+    "attendance": 30443,
+    "venue": "American Express Stadium"
+  },
+  "2020-02-08-EVE-CRY": {
+    "attendance": 38987,
+    "venue": "Goodison Park"
+  },
+  "2020-02-09-SHU-BOU": {
+    "attendance": 30361,
+    "venue": "Bramall Lane"
+  },
+  "2020-02-14-WOL-LEI": {
+    "attendance": 31682,
+    "venue": "Molineux Stadium"
+  },
+  "2020-02-15-NOR-LIV": {
+    "attendance": 27110,
+    "venue": "Carrow Road"
+  },
+  "2020-02-15-SOU-BUR": {
+    "attendance": 26302,
+    "venue": "St. Mary's Stadium"
+  },
+  "2020-02-16-ARS-NEW": {
+    "attendance": 60188,
+    "venue": "Emirates Stadium"
+  },
+  "2020-02-16-AVL-TOT": {
+    "attendance": 41874,
+    "venue": "Villa Park"
+  },
+  "2020-02-17-CHE-MUN": {
+    "attendance": 40504,
+    "venue": "Stamford Bridge"
+  },
+  "2020-02-19-MCI-WHU": {
+    "attendance": 52159,
+    "venue": "Etihad Stadium"
+  },
+  "2020-02-22-BUR-BOU": {
+    "attendance": 18227,
+    "venue": "Turf Moor"
+  },
+  "2020-02-22-CHE-TOT": {
+    "attendance": 40608,
+    "venue": "Stamford Bridge"
+  },
+  "2020-02-22-CRY-NEW": {
+    "attendance": 25486,
+    "venue": "Selhurst Park"
+  },
+  "2020-02-22-LEI-MCI": {
+    "attendance": 32068,
+    "venue": "King Power Stadium"
+  },
+  "2020-02-22-SHU-BHA": {
+    "attendance": 31888,
+    "venue": "Bramall Lane"
+  },
+  "2020-02-22-SOU-AVL": {
+    "attendance": 31478,
+    "venue": "St. Mary's Stadium"
+  },
+  "2020-02-23-ARS-EVE": {
+    "attendance": 60296,
+    "venue": "Emirates Stadium"
+  },
+  "2020-02-23-MUN-WAT": {
+    "attendance": 73347,
+    "venue": "Old Trafford"
+  },
+  "2020-02-23-WOL-NOR": {
+    "attendance": 31046,
+    "venue": "Molineux Stadium"
+  },
+  "2020-02-24-LIV-WHU": {
+    "attendance": 53313,
+    "venue": "Anfield"
+  },
+  "2020-02-28-NOR-LEI": {
+    "attendance": 27010,
+    "venue": "Carrow Road"
+  },
+  "2020-02-29-BHA-CRY": {
+    "attendance": 30124,
+    "venue": "American Express Stadium"
+  },
+  "2020-02-29-BOU-CHE": {
+    "attendance": 10667,
+    "venue": "Vitality Stadium"
+  },
+  "2020-02-29-NEW-BUR": {
+    "attendance": 52219,
+    "venue": "St. James' Park"
+  },
+  "2020-02-29-WAT-LIV": {
+    "attendance": 21634,
+    "venue": "Vicarage Road"
+  },
+  "2020-02-29-WHU-SOU": {
+    "attendance": 59962,
+    "venue": "London Stadium"
+  },
+  "2020-03-01-EVE-MUN": {
+    "attendance": 39374,
+    "venue": "Goodison Park"
+  },
+  "2020-03-01-TOT-WOL": {
+    "attendance": 58064,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2020-03-07-ARS-WHU": {
+    "attendance": 60335,
+    "venue": "Emirates Stadium"
+  },
+  "2020-03-07-BUR-TOT": {
+    "attendance": 20496,
+    "venue": "Turf Moor"
+  },
+  "2020-03-07-CRY-WAT": {
+    "attendance": 25461,
+    "venue": "Selhurst Park"
+  },
+  "2020-03-07-LIV-BOU": {
+    "attendance": 53323,
+    "venue": "Anfield"
+  },
+  "2020-03-07-SHU-NOR": {
+    "attendance": 31379,
+    "venue": "Bramall Lane"
+  },
+  "2020-03-07-SOU-NEW": {
+    "attendance": 30096,
+    "venue": "St. Mary's Stadium"
+  },
+  "2020-03-07-WOL-BHA": {
+    "attendance": 31490,
+    "venue": "Molineux Stadium"
+  },
+  "2020-03-08-CHE-EVE": {
+    "attendance": 40694,
+    "venue": "Stamford Bridge"
+  },
+  "2020-03-08-MUN-MCI": {
+    "attendance": 73288,
+    "venue": "Old Trafford"
+  },
+  "2020-03-09-LEI-AVL": {
+    "attendance": 32125,
+    "venue": "King Power Stadium"
+  },
+  "2020-06-17-AVL-SHU": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2020-06-17-MCI-ARS": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2020-06-19-NOR-SOU": {
+    "attendance": null,
+    "venue": "Carrow Road"
+  },
+  "2020-06-19-TOT-MUN": {
+    "attendance": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2020-06-20-BHA-ARS": {
+    "attendance": null,
+    "venue": "American Express Stadium"
+  },
+  "2020-06-20-BOU-CRY": {
+    "attendance": null,
+    "venue": "Vitality Stadium"
+  },
+  "2020-06-20-WAT-LEI": {
+    "attendance": null,
+    "venue": "Vicarage Road"
+  },
+  "2020-06-20-WHU-WOL": {
+    "attendance": null,
+    "venue": "London Stadium"
+  },
+  "2020-06-21-AVL-CHE": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2020-06-21-EVE-LIV": {
+    "attendance": null,
+    "venue": "Goodison Park"
+  },
+  "2020-06-21-NEW-SHU": {
+    "attendance": null,
+    "venue": "St. James' Park"
+  },
+  "2020-06-22-MCI-BUR": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2020-06-23-LEI-BHA": {
+    "attendance": null,
+    "venue": "King Power Stadium"
+  },
+  "2020-06-23-TOT-WHU": {
+    "attendance": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2020-06-24-LIV-CRY": {
+    "attendance": null,
+    "venue": "Anfield"
+  },
+  "2020-06-24-MUN-SHU": {
+    "attendance": null,
+    "venue": "Old Trafford"
+  },
+  "2020-06-24-NEW-AVL": {
+    "attendance": null,
+    "venue": "St. James' Park"
+  },
+  "2020-06-24-NOR-EVE": {
+    "attendance": null,
+    "venue": "Carrow Road"
+  },
+  "2020-06-24-WOL-BOU": {
+    "attendance": null,
+    "venue": "Molineux Stadium"
+  },
+  "2020-06-25-BUR-WAT": {
+    "attendance": null,
+    "venue": "Turf Moor"
+  },
+  "2020-06-25-CHE-MCI": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2020-06-25-SOU-ARS": {
+    "attendance": null,
+    "venue": "St. Mary's Stadium"
+  },
+  "2020-06-27-AVL-WOL": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2020-06-28-WAT-SOU": {
+    "attendance": null,
+    "venue": "Vicarage Road"
+  },
+  "2020-06-29-CRY-BUR": {
+    "attendance": null,
+    "venue": "Selhurst Park"
+  },
+  "2020-06-30-BHA-MUN": {
+    "attendance": null,
+    "venue": "American Express Stadium"
+  },
+  "2020-07-01-ARS-NOR": {
+    "attendance": null,
+    "venue": "Emirates Stadium"
+  },
+  "2020-07-01-BOU-NEW": {
+    "attendance": null,
+    "venue": "Vitality Stadium"
+  },
+  "2020-07-01-EVE-LEI": {
+    "attendance": null,
+    "venue": "Goodison Park"
+  },
+  "2020-07-01-WHU-CHE": {
+    "attendance": null,
+    "venue": "London Stadium"
+  },
+  "2020-07-02-MCI-LIV": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2020-07-02-SHU-TOT": {
+    "attendance": null,
+    "venue": "Bramall Lane"
+  },
+  "2020-07-04-CHE-WAT": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2020-07-04-LEI-CRY": {
+    "attendance": null,
+    "venue": "King Power Stadium"
+  },
+  "2020-07-04-MUN-BOU": {
+    "attendance": null,
+    "venue": "Old Trafford"
+  },
+  "2020-07-04-NOR-BHA": {
+    "attendance": null,
+    "venue": "Carrow Road"
+  },
+  "2020-07-04-WOL-ARS": {
+    "attendance": null,
+    "venue": "Molineux Stadium"
+  },
+  "2020-07-05-BUR-SHU": {
+    "attendance": null,
+    "venue": "Turf Moor"
+  },
+  "2020-07-05-LIV-AVL": {
+    "attendance": null,
+    "venue": "Anfield"
+  },
+  "2020-07-05-NEW-WHU": {
+    "attendance": null,
+    "venue": "St. James' Park"
+  },
+  "2020-07-05-SOU-MCI": {
+    "attendance": null,
+    "venue": "St. Mary's Stadium"
+  },
+  "2020-07-06-TOT-EVE": {
+    "attendance": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2020-07-07-ARS-LEI": {
+    "attendance": null,
+    "venue": "Emirates Stadium"
+  },
+  "2020-07-07-CRY-CHE": {
+    "attendance": null,
+    "venue": "Selhurst Park"
+  },
+  "2020-07-07-WAT-NOR": {
+    "attendance": null,
+    "venue": "Vicarage Road"
+  },
+  "2020-07-08-BHA-LIV": {
+    "attendance": null,
+    "venue": "American Express Stadium"
+  },
+  "2020-07-08-MCI-NEW": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2020-07-08-SHU-WOL": {
+    "attendance": null,
+    "venue": "Bramall Lane"
+  },
+  "2020-07-08-WHU-BUR": {
+    "attendance": null,
+    "venue": "London Stadium"
+  },
+  "2020-07-09-AVL-MUN": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2020-07-09-BOU-TOT": {
+    "attendance": null,
+    "venue": "Vitality Stadium"
+  },
+  "2020-07-09-EVE-SOU": {
+    "attendance": null,
+    "venue": "Goodison Park"
+  },
+  "2020-07-11-BHA-MCI": {
+    "attendance": null,
+    "venue": "American Express Stadium"
+  },
+  "2020-07-11-LIV-BUR": {
+    "attendance": null,
+    "venue": "Anfield"
+  },
+  "2020-07-11-NOR-WHU": {
+    "attendance": null,
+    "venue": "Carrow Road"
+  },
+  "2020-07-11-SHU-CHE": {
+    "attendance": null,
+    "venue": "Bramall Lane"
+  },
+  "2020-07-11-WAT-NEW": {
+    "attendance": null,
+    "venue": "Vicarage Road"
+  },
+  "2020-07-12-AVL-CRY": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2020-07-12-BOU-LEI": {
+    "attendance": null,
+    "venue": "Vitality Stadium"
+  },
+  "2020-07-12-TOT-ARS": {
+    "attendance": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2020-07-12-WOL-EVE": {
+    "attendance": null,
+    "venue": "Molineux Stadium"
+  },
+  "2020-07-13-MUN-SOU": {
+    "attendance": null,
+    "venue": "Old Trafford"
+  },
+  "2020-07-14-CHE-NOR": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2020-07-15-ARS-LIV": {
+    "attendance": null,
+    "venue": "Emirates Stadium"
+  },
+  "2020-07-15-BUR-WOL": {
+    "attendance": null,
+    "venue": "Turf Moor"
+  },
+  "2020-07-15-MCI-BOU": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2020-07-15-NEW-TOT": {
+    "attendance": null,
+    "venue": "St. James' Park"
+  },
+  "2020-07-16-CRY-MUN": {
+    "attendance": null,
+    "venue": "Selhurst Park"
+  },
+  "2020-07-16-EVE-AVL": {
+    "attendance": null,
+    "venue": "Goodison Park"
+  },
+  "2020-07-16-LEI-SHU": {
+    "attendance": null,
+    "venue": "King Power Stadium"
+  },
+  "2020-07-16-SOU-BHA": {
+    "attendance": null,
+    "venue": "St. Mary's Stadium"
+  },
+  "2020-07-17-WHU-WAT": {
+    "attendance": null,
+    "venue": "London Stadium"
+  },
+  "2020-07-18-NOR-BUR": {
+    "attendance": null,
+    "venue": "Carrow Road"
+  },
+  "2020-07-19-BOU-SOU": {
+    "attendance": null,
+    "venue": "Vitality Stadium"
+  },
+  "2020-07-19-TOT-LEI": {
+    "attendance": null,
+    "venue": "Tottenham Hotspur Stadium"
+  },
+  "2020-07-20-BHA-NEW": {
+    "attendance": null,
+    "venue": "American Express Stadium"
+  },
+  "2020-07-20-SHU-EVE": {
+    "attendance": null,
+    "venue": "Bramall Lane"
+  },
+  "2020-07-20-WOL-CRY": {
+    "attendance": null,
+    "venue": "Molineux Stadium"
+  },
+  "2020-07-21-AVL-ARS": {
+    "attendance": null,
+    "venue": "Villa Park"
+  },
+  "2020-07-21-WAT-MCI": {
+    "attendance": null,
+    "venue": "Vicarage Road"
+  },
+  "2020-07-22-LIV-CHE": {
+    "attendance": null,
+    "venue": "Anfield"
+  },
+  "2020-07-22-MUN-WHU": {
+    "attendance": null,
+    "venue": "Old Trafford"
+  },
+  "2020-07-26-ARS-WAT": {
+    "attendance": null,
+    "venue": "Emirates Stadium"
+  },
+  "2020-07-26-BUR-BHA": {
+    "attendance": null,
+    "venue": "Turf Moor"
+  },
+  "2020-07-26-CHE-WOL": {
+    "attendance": null,
+    "venue": "Stamford Bridge"
+  },
+  "2020-07-26-CRY-TOT": {
+    "attendance": null,
+    "venue": "Selhurst Park"
+  },
+  "2020-07-26-EVE-BOU": {
+    "attendance": null,
+    "venue": "Goodison Park"
+  },
+  "2020-07-26-LEI-MUN": {
+    "attendance": null,
+    "venue": "King Power Stadium"
+  },
+  "2020-07-26-MCI-NOR": {
+    "attendance": null,
+    "venue": "Etihad Stadium"
+  },
+  "2020-07-26-NEW-LIV": {
+    "attendance": null,
+    "venue": "St. James' Park"
+  },
+  "2020-07-26-SOU-SHU": {
+    "attendance": null,
+    "venue": "St. Mary's Stadium"
+  },
+  "2020-07-26-WHU-AVL": {
+    "attendance": null,
+    "venue": "London Stadium"
+  }
+}

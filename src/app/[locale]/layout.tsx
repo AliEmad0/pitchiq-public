@@ -1,0 +1,181 @@
+import { Analytics } from "@vercel/analytics/next";
+import { hasLocale, NextIntlClientProvider } from "next-intl";
+import { getMessages, setRequestLocale } from "next-intl/server";
+import type { Metadata } from "next";
+import {
+  Geist,
+  Geist_Mono,
+  Oswald,
+  VT323,
+  Rajdhani,
+  Titillium_Web,
+  Noto_Sans_Arabic,
+  Noto_Nastaliq_Urdu,
+} from "next/font/google";
+import { notFound } from "next/navigation";
+import { NuqsAdapter } from "nuqs/adapters/next/app";
+import { Suspense } from "react";
+
+import { Footer } from "@/components/layout/Footer";
+import { Header } from "@/components/layout/Header";
+import { LoadingScreen } from "@/components/LoadingScreen";
+import { RevealController } from "@/components/RevealController";
+import { RouteTransitionArrival } from "@/components/RouteTransitionArrival";
+import { ScrollToTop } from "@/components/ScrollToTop";
+import { QueryProvider } from "@/components/providers/QueryProvider";
+import { ThemeProvider } from "@/components/providers/ThemeProvider";
+import { EraController } from "@/components/theme/EraController";
+import { routing } from "@/i18n/routing";
+import { REVEAL_GATE_SCRIPT } from "@/utils/reveal";
+import { getSiteUrl } from "@/utils/site-url";
+
+import "../globals.css";
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+// Era display fonts (TASK-M25), exposed as CSS vars. next/font self-hosts these;
+// the browser only downloads a family when a glyph uses it, so the Modern
+// baseline (which never references them) pays no download cost.
+const oswald = Oswald({ variable: "--font-oswald", subsets: ["latin"], weight: ["500", "700"] });
+const vt323 = VT323({ variable: "--font-vt323", subsets: ["latin"], weight: "400" });
+const rajdhani = Rajdhani({
+  variable: "--font-rajdhani",
+  subsets: ["latin"],
+  weight: ["600", "700"],
+});
+const titillium = Titillium_Web({
+  variable: "--font-titillium",
+  subsets: ["latin"],
+  weight: ["400", "600"],
+});
+
+// TASK-1602 — Arabic webfont. Applied under `[lang="ar"]` in globals.css so
+// Arabic text is always rendered with a proper Arabic face (the Latin era fonts
+// — Oswald/Rajdhani/etc. — carry no Arabic glyphs). One consistent, readable
+// Arabic family across all three eras; the era THEME (colours/chrome) still
+// applies.
+const notoArabic = Noto_Sans_Arabic({
+  variable: "--font-arabic",
+  subsets: ["arabic"],
+  weight: ["400", "500", "700"],
+});
+
+// Nastaliq calligraphic face for the Arabic brand wordmark only (بيتش آي كيو —
+// owner-picked design #6). Scoped to <PitchIQLogo> via --font-nastaliq; the rest
+// of the Arabic UI stays on Noto Sans Arabic.
+const notoNastaliq = Noto_Nastaliq_Urdu({
+  variable: "--font-nastaliq",
+  subsets: ["arabic"],
+  weight: ["400", "700"],
+});
+
+// TASK-M25 — no-flash era script: sets `data-era` on <html> BEFORE first paint
+// so a hard refresh on a 90s/2000s season never flashes the modern theme. The
+// thresholds mirror `eraForSeason` (src/utils/era.ts) — keep in sync. The
+// pathname match tolerates an optional `/ar` locale prefix (TASK-1601).
+const ERA_NO_FLASH_SCRIPT = `(function(){try{
+var p=new URLSearchParams(location.search),s=p.get('season'),y=s?parseInt(s,10):NaN;
+if(isNaN(y)){var m=location.pathname.match(/^\\/(?:ar\\/)?fixtures\\/(\\d{4})-(\\d{2})-\\d{2}-/);if(m){var yr=+m[1],mo=+m[2];y=mo>=8?yr:yr-1;}}
+var e=y<=1999?'retro90s':(y<=2009?'goldenMillennium':null),el=document.documentElement;
+if(e)el.dataset.era=e;else delete el.dataset.era;
+}catch(_){}})();`;
+
+const SITE_DESCRIPTION =
+  "PitchIQ decodes the Premier League — live standings, leaderboards, fixtures, half-time scores, and head-to-head player comparisons across 33 seasons.";
+
+const SITE_TITLE_DEFAULT = "PitchIQ — Premier League, decoded.";
+
+export const metadata: Metadata = {
+  metadataBase: getSiteUrl(),
+  applicationName: "PitchIQ",
+  title: {
+    template: "%s — PitchIQ",
+    default: SITE_TITLE_DEFAULT,
+  },
+  description: SITE_DESCRIPTION,
+  openGraph: {
+    type: "website",
+    siteName: "PitchIQ",
+    locale: "en_GB",
+    title: SITE_TITLE_DEFAULT,
+    description: SITE_DESCRIPTION,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: SITE_TITLE_DEFAULT,
+    description: SITE_DESCRIPTION,
+  },
+};
+
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+
+export default async function LocaleLayout({
+  children,
+  params,
+}: Readonly<{ children: React.ReactNode; params: Promise<{ locale: string }> }>) {
+  const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) notFound();
+  // Enables static rendering for this locale subtree under next-intl — without
+  // it, getMessages()/getTranslations() (used here + in <Footer>) would force
+  // the whole route to render dynamically.
+  setRequestLocale(locale);
+  const messages = await getMessages();
+  const dir = locale === "ar" ? "rtl" : "ltr";
+
+  return (
+    // `suppressHydrationWarning` silences the class-mismatch React would
+    // otherwise log when next-themes injects the resolved theme class on
+    // <html> before hydration completes.
+    <html lang={locale} dir={dir} suppressHydrationWarning>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} ${oswald.variable} ${vt323.variable} ${rajdhani.variable} ${titillium.variable} ${notoArabic.variable} ${notoNastaliq.variable} flex min-h-screen flex-col antialiased`}
+      >
+        <script dangerouslySetInnerHTML={{ __html: ERA_NO_FLASH_SCRIPT }} />
+        {/* TASK-1704 — pre-paint reveal gate: hidden states in globals.css
+            only apply once <html data-reveal-ready> is stamped, so no-JS and
+            reduced-motion visits never see hidden content. */}
+        <script dangerouslySetInnerHTML={{ __html: REVEAL_GATE_SCRIPT }} />
+        <NextIntlClientProvider messages={messages}>
+          {/* TASK-1702 boot loader — inside the intl provider (the wordmark
+              localizes) but outside the theme/query providers it doesn't need.
+              SSR-painted; removes itself once per session via its inline
+              script, else auto-fades via CSS. */}
+          <LoadingScreen />
+          <NuqsAdapter>
+            <ThemeProvider>
+              <QueryProvider>
+                <Suspense fallback={null}>
+                  <EraController />
+                </Suspense>
+                <Suspense fallback={null}>
+                  <RouteTransitionArrival />
+                </Suspense>
+                <ScrollToTop />
+                <RevealController />
+                <Header />
+                <div className="era-ceefax" aria-hidden="true">
+                  <span className="cfx-page">CEEFAX 302</span>
+                  <span>PREMIER LEAGUE</span>
+                  <span className="cfx-page">P302</span>
+                </div>
+                <main className="flex flex-1 flex-col">{children}</main>
+                <Footer />
+              </QueryProvider>
+            </ThemeProvider>
+          </NuqsAdapter>
+        </NextIntlClientProvider>
+        <Analytics />
+      </body>
+    </html>
+  );
+}
