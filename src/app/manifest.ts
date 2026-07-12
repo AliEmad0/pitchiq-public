@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "PitchIQ",
     short_name: "PitchIQ",
     description:
-      "PitchIQ decodes the Premier League — live standings, leaderboards, fixtures, half-time scores, and head-to-head player comparisons across 33 seasons.",
+      "PitchIQ decodes the Premier League — live standings, leaderboards, fixtures, half-time scores, and head-to-head player comparisons across 34 seasons.",
     start_url: "/",
     display: "standalone",
     background_color: "#0c0a14",

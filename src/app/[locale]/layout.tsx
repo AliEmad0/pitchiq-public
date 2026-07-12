@@ -89,9 +89,18 @@ if(e)el.dataset.era=e;else delete el.dataset.era;
 }catch(_){}})();`;
 
 const SITE_DESCRIPTION =
-  "PitchIQ decodes the Premier League — live standings, leaderboards, fixtures, half-time scores, and head-to-head player comparisons across 33 seasons.";
+  "PitchIQ decodes the Premier League — live standings, leaderboards, fixtures, half-time scores, and head-to-head player comparisons across 34 seasons.";
 
 const SITE_TITLE_DEFAULT = "PitchIQ — Premier League, decoded.";
+
+// Search-engine ownership verification. The codes are not secret (they ship in
+// the page HTML), so they live in plain env vars read here at build time — set
+// them in the deploy environment and Next emits the corresponding <meta> tag;
+// leave them unset and no tag is rendered.
+//   GOOGLE_SITE_VERIFICATION → <meta name="google-site-verification">
+//   BING_SITE_VERIFICATION   → <meta name="msvalidate.01">
+const GOOGLE_SITE_VERIFICATION = process.env.GOOGLE_SITE_VERIFICATION;
+const BING_SITE_VERIFICATION = process.env.BING_SITE_VERIFICATION;
 
 export const metadata: Metadata = {
   metadataBase: getSiteUrl(),
@@ -101,6 +110,11 @@ export const metadata: Metadata = {
     default: SITE_TITLE_DEFAULT,
   },
   description: SITE_DESCRIPTION,
+  verification: {
+    // Next omits each tag when its value is undefined.
+    google: GOOGLE_SITE_VERIFICATION,
+    other: BING_SITE_VERIFICATION ? { "msvalidate.01": BING_SITE_VERIFICATION } : {},
+  },
   openGraph: {
     type: "website",
     siteName: "PitchIQ",
