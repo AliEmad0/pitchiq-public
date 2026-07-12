@@ -23,7 +23,7 @@ A phased, ticket-level breakdown of the work required to ship **PitchIQ**. Each 
 | [Phase 10 — Lineup feature](#-phase-10--lineup-feature-research-driven)                           | `TASK-10xx` | Research-driven match lineup + events surface                                 |
 | [Phase 11 — Trivia](#-phase-11--trivia-engagement-layer)                                          | `TASK-11xx` | Trivia engagement layer                                                       |
 | [Phase 12 — 2025-26 season](#-phase-12--2025-26-season-activation-p-b)                            | `TASK-12xx` | Activate the 2025-26 season (P-B) — an external source + upstream data               |
-| [Phase 13 — Match enrich](#-phase-13--an external sourcecouk-match-enrichment-p-c)                     | `TASK-13xx` | an external source half-time scores + referee on fixture detail (P-C)        |
+| [Phase 13 — Match enrich](#-phase-13--match-detail-enrichment-p-c)                                | `TASK-13xx` | Half-time scores + referee on fixture detail (P-C)                           |
 | [Phase 14 — Historical players](#-phase-14--historical-players-p-d)                               | `TASK-14xx` | Player stats + leaderboards for the older seasons (P-D)                       |
 | [Phase 15 — Full redesign](#-phase-15--full-redesign)                                             | `TASK-15xx` | Per-page UI/UX redesign + responsive overhaul + shared shell                  |
 | [Phase 16 — Internationalization](#-phase-16--internationalization)                               | `TASK-16xx` | Multi-language (English + Arabic / RTL) via next-intl                         |
@@ -2362,7 +2362,7 @@ League-wide maxima for the six radar axes (goals, assists, pass accuracy, tackle
 
 ---
 
-## 🔄 Phase 5 — the snapshot Data Migration
+## 🔄 Phase 5 — Data Migration
 
 Goal: replace the the wire live data layer with committed JSON snapshots, refreshed daily via GitHub Actions cron. End state: **MVP-v0.3**.
 
@@ -3545,7 +3545,7 @@ external-data-pipeline player rows carry no persistent id, so the sync assigned 
 
 ---
 
-## 📜 Phase 8 — Ancient history + an external reference photo coverage (1992-93 → 2016-17)
+## 📜 Phase 8 — Ancient history + photo coverage (1992-93 → 2016-17)
 
 Goal: full 33-season Premier League history. an external reference queries (during sync) supply photos for historical players the upstream data doesn't cover. external-data-pipeline player-stats coverage stops at 2017-18, so seasons in this range have standings + fixtures + (partial) squads only — Compare + leaderboards degrade gracefully via TASK-703's cards.
 
@@ -4655,7 +4655,7 @@ TASK-1202 matched 2025-26 the upstream data players to historical ids by **fuzzy
 
 ---
 
-## 🔌 Phase 13 — an external source match enrichment (P-C)
+## 🔌 Phase 13 — Match detail enrichment (P-C)
 
 an external source `E0.csv` carries **half-time scores** (`HTHG`/`HTAG`, present from 1995-96) and the **referee** (present from 2000-01) for every match — fields we currently drop. Surface them on the `/fixtures/[id]` detail page. This is **P-C** of the data-completeness effort. (Team shot-stats are already covered by `<StatComparison>`; the genuinely new data here is HT score + referee.)
 
@@ -5486,7 +5486,7 @@ Closeout: verify every animation honors `prefers-reduced-motion`, audit for jank
 | [TASK-M20](#task-m20) | xG / xA for modern seasons (advanced-stats + the upstream data)                          | ✅ Done | P3       | M   |
 | [TASK-M21](#task-m21) | Manager + captain + shirt numbers on the lineup view              | ✅ Done | P3       | S   |
 | [TASK-M22](#task-m22) | "Data updated X ago" freshness stamp                              | ✅ Done | P3       | XS  |
-| [TASK-M23](#task-m23) | Move the sync/scraper layer to a private repo (hide sources)      | Todo    | P3       | L   |
+| [TASK-M23](#task-m23) | Move the sync/scraper layer to a private repo (hide sources)      | ✅ Done | P3       | L   |
 | [TASK-M24](#task-m24) | Per-player season selection on /compare (+ "All seasons")         | ✅ Done | P2       | L   |
 | [TASK-M25](#task-m25) | Time-Machine Mode — era-specific UI themes by season              | ✅ Done | P3       | L   |
 | [TASK-M26](#task-m26) | Offline pattern-detector → "Did You Know?" insights               | ✅ Done | P3       | XL  |
@@ -6158,7 +6158,9 @@ The committed lineups carry a **formation**, and the pipeline/legacy sources exp
 
 ### TASK-M23
 
-**Move the sync/scraper layer to a private repo (hide sources)** · Todo · `P3` · `L` · Type: Chore / Infra · **future**
+**Move the sync/scraper layer to a private repo (hide sources)** · ✅ Done · `P3` · `L` · Type: Chore / Infra
+
+**Shipped:** the scraper/sync layer now lives in a separate private repo that regenerates the committed `data/**` snapshots and opens auto-merging data-only PRs here (overlay CI); this repo is a fresh, source-scrubbed public snapshot. Production serves this repo; the old repo was retired to a private archive.
 
 **Description**
 The public repo exposes exactly which upstream APIs we use (legacy PL / the pipeline / an external source / the upstream data / an external reference) via `scripts/pipeline/*` + the docs — including that we pull from the official site's internal APIs (against their ToS, an accepted choice for a free portfolio app). **Option B (chosen):** keep the app repo public (portfolio value intact) but move the **scraper/sync layer into a separate private repo**, commit only the resulting `data/*.json` here, and scrub source names from the public docs. Visitors/recruiters still see the app + read-side code, but not how/where the data is sourced.
