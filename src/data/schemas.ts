@@ -268,6 +268,64 @@ export const SearchIndexSchema = z.object({
 export const ArNameMapSchema = z.record(z.string(), z.string());
 export type ArNameMap = z.infer<typeof ArNameMapSchema>;
 
+// === Pipeline-produced override/enrichment maps ===========================
+// These describe committed sidecar maps the external data pipeline uses to
+// bake values into the per-season files. They are part of the shared write-side
+// contract (the pipeline overlays its scripts onto this repo and imports these),
+// so they live here even though the read side doesn't load them directly.
+
+// Official season-metrics override map for the latest season (id → metrics).
+export const OfficialStatsFileSchema = z.record(z.string(), ComparisonMetricsSchema);
+
+// Substitute-appearance counts: season (string) → player id (string) → count.
+export const SubAppearancesFileSchema = z.record(z.string(), z.record(z.string(), z.number().int()));
+
+// Expected goals + expected assists: season → id → { xg, xa }.
+export const PlayerXgFileSchema = z.record(
+  z.string(),
+  z.record(z.string(), z.object({ xg: z.number().nullable(), xa: z.number().nullable() })),
+);
+
+// Clean sheets + saves: season (string) → player id (string) → { cleanSheets, saves }.
+export const GkStatsFileSchema = z.record(
+  z.string(),
+  z.record(
+    z.string(),
+    z.object({
+      cleanSheets: z.number().int().nullable(),
+      saves: z.number().int().nullable(),
+    }),
+  ),
+);
+
+// Player birth date + nationality, keyed by stable player id.
+export const PlayerBioFileSchema = z.record(
+  z.string(),
+  z.object({
+    birthDate: z.string().nullable(),
+    nationality: z.string().nullable(),
+    nationalityCode: z.string().nullable(),
+  }),
+);
+
+// Player date of death, keyed by stable player id (deceased players only).
+export const PlayerDeathsFileSchema = z.record(z.string(), z.string());
+
+// Manual bio corrections that win over the auto bio (name/DOB/nationality/DOD).
+export const PlayerBioOverridesFileSchema = z.record(
+  z.string(),
+  z.object({
+    name: z.string().optional(),
+    birthDate: z.string().optional(),
+    nationality: z.string().optional(),
+    nationalityCode: z.string().optional(),
+    dateOfDeath: z.string().optional(),
+  }),
+);
+
+// Short display-name overrides, keyed by stable player id.
+export const PlayerNamesFileSchema = z.record(z.string(), z.string());
+
 // === TASK-M26: committed per-player goal-attribution map ==================
 // Built offline by `pnpm sync:data:goal-attribution` from events-*/fixtures-*.
 // `players[id].opponents` = teamId -> goals scored against that club (career);
@@ -410,7 +468,13 @@ export type MatchEventRaw = z.infer<typeof MatchEventRawSchema>;
 export type LineupsFile = z.infer<typeof LineupsFileSchema>;
 export type EventsFile = z.infer<typeof EventsFileSchema>;
 export type SearchIndex = z.infer<typeof SearchIndexSchema>;
+export type PlayerBioFile = z.infer<typeof PlayerBioFileSchema>;
+export type PlayerDeathsFile = z.infer<typeof PlayerDeathsFileSchema>;
+export type PlayerBioOverridesFile = z.infer<typeof PlayerBioOverridesFileSchema>;
+export type PlayerNamesFile = z.infer<typeof PlayerNamesFileSchema>;
 export type CaptainsFile = z.infer<typeof CaptainsFileSchema>;
+export type PlayerXgFile = z.infer<typeof PlayerXgFileSchema>;
+export type GkStatsFile = z.infer<typeof GkStatsFileSchema>;
 export type ClubMetadataFile = z.infer<typeof ClubMetadataFileSchema>;
 export type TeamColorsFile = z.infer<typeof TeamColorsFileSchema>;
 export type ClubLogosFile = z.infer<typeof ClubLogosFileSchema>;
