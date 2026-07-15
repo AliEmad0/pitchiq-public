@@ -12729,7 +12729,7 @@
     "name": "Ezra Mayers",
     "nationality": "England",
     "nationalityCode": "gb-eng",
-    "photo": null,
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/1107726-1766482312.jpg",
     "position": "Defender",
     "teamId": 48,
     "teamName": "West Ham United"
@@ -14003,7 +14003,7 @@
     "name": "Bradley Burrowes",
     "nationality": "England",
     "nationalityCode": "gb-eng",
-    "photo": null,
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/1202361-1746642416.jpg",
     "position": "Midfielder",
     "teamId": 66,
     "teamName": "Aston Villa"
@@ -15156,7 +15156,7 @@
     "name": "Lorenzo Lucca",
     "nationality": "Italy",
     "nationalityCode": "it",
-    "photo": null,
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/572265-1725531439.jpg",
     "position": "Forward",
     "teamId": 65,
     "teamName": "Nottingham Forest"
@@ -15310,7 +15310,7 @@
     "name": "Mamadou Sarr",
     "nationality": "Senegal",
     "nationalityCode": "sn",
-    "photo": null,
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/910905-1773787147.jpg",
     "position": "Defender",
     "teamId": 49,
     "teamName": "Chelsea"
@@ -16110,7 +16110,7 @@
     "name": "Tyler Fletcher",
     "nationality": "Scotland",
     "nationalityCode": "gb-sct",
-    "photo": null,
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/1049911-1782339780.jpg",
     "position": "Midfielder",
     "teamId": 33,
     "teamName": "Manchester United"
@@ -16699,7 +16699,7 @@
     "teamName": "Chelsea"
   },
   {
-    "birthDate": null,
+    "birthDate": "2006-07-13",
     "birthYear": 2006,
     "dateOfDeath": null,
     "id": 1005596,
@@ -16718,9 +16718,9 @@
       "yellowCards": 0
     },
     "name": "James Rowswell",
-    "nationality": null,
-    "nationalityCode": null,
-    "photo": "499716",
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/999743-1756231781.jpg",
     "position": "Defender",
     "teamId": 47,
     "teamName": "Tottenham Hotspur"
@@ -16780,7 +16780,7 @@
     "teamName": "Burnley"
   },
   {
-    "birthDate": null,
+    "birthDate": "2006-07-01",
     "birthYear": 2006,
     "dateOfDeath": null,
     "id": 1005599,
@@ -16799,15 +16799,15 @@
       "yellowCards": 0
     },
     "name": "Rio Cardines",
-    "nationality": null,
-    "nationalityCode": null,
-    "photo": "590014",
+    "nationality": "Trinidad and Tobago",
+    "nationalityCode": "tt",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/1047257-1749200047.jpg",
     "position": "Midfielder",
     "teamId": 52,
     "teamName": "Crystal Palace"
   },
   {
-    "birthDate": null,
+    "birthDate": "2007-02-06",
     "birthYear": 2007,
     "dateOfDeath": null,
     "id": 1005600,
@@ -16826,9 +16826,9 @@
       "yellowCards": 0
     },
     "name": "Kaye Furo",
-    "nationality": null,
-    "nationalityCode": null,
-    "photo": "593174",
+    "nationality": "Belgium",
+    "nationalityCode": "be",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/1011936-1754510728.jpg",
     "position": "Forward",
     "teamId": 55,
     "teamName": "Brentford"
@@ -16888,7 +16888,7 @@
     "teamName": "Chelsea"
   },
   {
-    "birthDate": null,
+    "birthDate": "2009-09-16",
     "birthYear": 2009,
     "dateOfDeath": null,
     "id": 1005603,
@@ -16907,9 +16907,9 @@
       "yellowCards": 0
     },
     "name": "Jerome Abbey",
-    "nationality": null,
-    "nationalityCode": null,
-    "photo": "685628",
+    "nationality": "England",
+    "nationalityCode": "gb-eng",
+    "photo": null,
     "position": "Midfielder",
     "teamId": 39,
     "teamName": "Wolverhampton Wanderers"
