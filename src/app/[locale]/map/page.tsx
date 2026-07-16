@@ -8,6 +8,7 @@ import type { MarkerClub } from "@/features/map/components/ClubMarker";
 import { MapExplorer } from "@/features/map/components/MapExplorer";
 import { buildMapData } from "@/features/map/map-data";
 import { championsByRegion } from "@/features/map/region-data";
+import { canonicalPath } from "@/utils/canonical";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -15,7 +16,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("map");
-  return { title: t("metaTitle"), description: t("metaDescription") };
+  return {
+    title: t("metaTitle"),
+    description: t("metaDescription"),
+    alternates: { canonical: canonicalPath(locale, "/map") },
+  };
 }
 
 // Server component: reads the geo reference + every season's standings (the

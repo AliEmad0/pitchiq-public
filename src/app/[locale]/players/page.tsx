@@ -9,6 +9,7 @@ import { getSeasonPlayers } from "@/features/players/players-index.api";
 import { localizeDigits } from "@/utils/format";
 import { revealProps } from "@/utils/reveal";
 import { currentDataSeason, formatSeasonLabel, parseSeason } from "@/utils/season";
+import { canonicalPath } from "@/utils/canonical";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -27,6 +28,7 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
   const t = await getTranslations("players");
   return {
     title: t("pageTitle"),
+    alternates: { canonical: canonicalPath(locale, "/players", season) },
     description: t("metaDescription"),
     openGraph: {
       images: [{ url, width: 1200, height: 630, alt: t("ogAlt") }],

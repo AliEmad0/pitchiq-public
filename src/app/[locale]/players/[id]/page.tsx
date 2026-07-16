@@ -12,6 +12,7 @@ import { PlayerHero } from "@/features/players/components/PlayerHero";
 import { PlayerSeasonStats } from "@/features/players/components/PlayerSeasonStats";
 import { PlayerSeasonSplits } from "@/features/players/components/PlayerSeasonSplits";
 import { TriviaSection } from "@/features/trivia/components/TriviaSection";
+import { canonicalPath } from "@/utils/canonical";
 import { currentDataSeason, formatSeasonLabel, parseSeason } from "@/utils/season";
 
 type Props = {
@@ -49,6 +50,7 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
     },
     twitter: { card: "summary_large_image" as const, images: [url] },
   };
+  const alternates = { canonical: canonicalPath(locale, `/players/${playerId}`, season) };
   // Metadata is generated against the default data season (SSG-time); the
   // page body still honours `?season=` for the rendered stats.
   const profile = await getPlayerProfile(playerId, currentDataSeason());
@@ -61,13 +63,18 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
         position: profile.position,
         team: profile.team.name,
       }),
+      alternates,
       ...og,
     };
   }
   // Historical-only player (not in the current season) — still a real player
   // (TASK-704 stable ids), so title them by name rather than "not found".
+  // A known historical player is a real, indexable page (so it gets a canonical);
+  // an unknown id is effectively not-found and must not declare one.
   const known = await findPlayerSeasons(playerId);
-  return { title: known ? known.name : tNotFound("playerTitle"), ...og };
+  return known
+    ? { title: known.name, alternates, ...og }
+    : { title: tNotFound("playerTitle"), ...og };
 }
 
 export default async function PlayerProfilePage({ params, searchParams }: Props) {

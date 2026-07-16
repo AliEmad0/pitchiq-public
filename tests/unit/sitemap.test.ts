@@ -21,8 +21,10 @@ describe("sitemap", () => {
     expect(urls).toContain("https://pitchiq-pl.vercel.app/");
     expect(urls).toContain("https://pitchiq-pl.vercel.app/teams");
     expect(urls).toContain("https://pitchiq-pl.vercel.app/compare");
-    // TASK-M12: the all-fixtures listing for the current season.
-    expect(urls.some((u) => /\/fixtures\?season=\d+$/.test(u))).toBe(true);
+    // TASK-M12: the all-fixtures listing for the current season — listed bare,
+    // since that is its canonical form (the page defaults to the current season).
+    expect(urls).toContain("https://pitchiq-pl.vercel.app/fixtures");
+    expect(urls.every((u) => !/\/fixtures\?season=/.test(u))).toBe(true);
     expect(urls).toContain("https://pitchiq-pl.vercel.app/teams/42");
     expect(urls).toContain("https://pitchiq-pl.vercel.app/players/1000457");
     expect(urls).toContain("https://pitchiq-pl.vercel.app/fixtures/2025-08-16-MUN-ARS");

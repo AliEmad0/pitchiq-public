@@ -8,6 +8,7 @@ import { ManagersTable } from "@/features/managers/components/ManagersTable";
 import { getSeasonManagers } from "@/features/managers/managers-index.api";
 import { revealProps } from "@/utils/reveal";
 import { currentDataSeason, formatSeasonLabel, parseSeason } from "@/utils/season";
+import { canonicalPath } from "@/utils/canonical";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -26,6 +27,7 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
   const t = await getTranslations("managers");
   return {
     title: t("pageTitle"),
+    alternates: { canonical: canonicalPath(locale, "/managers", season) },
     description: t("metaDescription"),
     openGraph: {
       images: [{ url, width: 1200, height: 630, alt: t("ogAlt") }],

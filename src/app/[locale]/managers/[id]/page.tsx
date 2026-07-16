@@ -10,6 +10,7 @@ import { ManagerHero } from "@/features/managers/components/ManagerHero";
 import { ManagerHonours } from "@/features/managers/components/ManagerHonours";
 import { getManagerProfile } from "@/features/managers/manager-profile.api";
 import { currentDataSeason, parseSeason } from "@/utils/season";
+import { canonicalPath } from "@/utils/canonical";
 
 type Props = {
   params: Promise<{ locale: string; id: string }>;
@@ -41,6 +42,7 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
   const url = managerOgImagePath(id, season);
   return {
     title: profile.name,
+    alternates: { canonical: canonicalPath(locale, `/managers/${id}`, season) },
     description: t("metaDescriptionProfile", { name: profile.name }),
     openGraph: {
       images: [{ url, width: 1200, height: 630, alt: t("profileOgAlt", { name: profile.name }) }],
