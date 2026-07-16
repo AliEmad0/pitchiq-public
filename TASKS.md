@@ -5631,6 +5631,9 @@ A text/stat retro football simulation built **inside PitchIQ** (`src/features/ga
 | [TASK-M59](#task-m59) | Speed Insights observability (Analytics already shipped)          | ✅ Done            | P3       | XS  |
 | [TASK-M60](#task-m60) | Player photo/bio batch (11 portraits + 4 bios + 1 tombstone)      | ✅ Done            | P2       | S   |
 | [TASK-M61](#task-m61) | Self-referencing canonical URLs across every route                | ✅ Done            | P2       | M   |
+| [TASK-M62](#task-m62) | Fix wrong club cities (district → city, e.g. Aston Villa)         | 📋 Ready           | P2       | S   |
+| [TASK-M63](#task-m63) | Audit + correct club stadium names against the official source    | 📋 Ready           | P2       | S   |
+| [TASK-M64](#task-m64) | Add official club website field + surface on the team page        | 📋 Ready           | P2       | M   |
 
 ### TASK-M01
 
@@ -6906,6 +6909,62 @@ Owner-reported batch. 11 players got real portraits (Lucca, Burrowes, Mayers, Ro
 
 **Description**
 Search Console reported "User-declared canonical: N/A" — Next emits none by default. Added a `canonicalPath(locale, path, season?)` helper (13 tests) + `alternates.canonical` on all 12 routes: English un-prefixed / Arabic under `/ar`; the default season dropped (so `/` and `/?season=<current>` don't self-duplicate) but a non-default season kept so historical seasons stay indexable; `/compare` collapses its unbounded `?a=&b=` space; 404/unknown-id branches emit none. Sitemap aligned to list `/fixtures` bare. **PR #7 fix:** Next silently drops a query from any canonical whose pathname is `/` (`pathname === '/' ? origin : href`), so the home page is one canonical entry point per locale — documented + test-locked. Verified on prod, not just unit tests.
+
+---
+
+### TASK-M62
+
+**Fix wrong club cities (district → city)** · 📋 Ready · `P2` · `S` · Type: Data / Pipeline
+
+**Description**
+Several clubs' `city` in the committed club-metadata is a too-narrow locality rather than the city — e.g. **Aston Villa** reads **"Aston"** (a district of Birmingham) instead of **"Birmingham"**. Root cause: `city` is derived from the geo reference behind the committed-data pipeline (Wikidata `P159`), which returns the club's parish/district for some clubs. Fix = re-source `city` from the official league team reference (authoritative city per club) and override the wrong values.
+
+**Scope**
+
+- Audit all 51 clubs' `city` against the official league team reference; correct every mismatch.
+- Apply via the pipeline's club-metadata override map — read-time join, **no team-file regeneration** (club identity is time-invariant).
+- Verify anchors: Aston Villa → Birmingham (not Aston); spot-check other district-vs-city cases.
+
+**Notes**
+
+- Data-only; the team page already renders the "City" field, so no UI change. Full source specifics live in the private pipeline spec.
+
+---
+
+### TASK-M63
+
+**Audit + correct club stadium names** · 📋 Ready · `P2` · `S` · Type: Data / Pipeline
+
+**Description**
+Verify every club's stadium name in the committed club-metadata against the official league club reference and correct any stale/wrong names. The team page already renders the "Stadium" field, so this is a data-accuracy pass with no UI change.
+
+**Scope**
+
+- Diff each club's committed stadium name vs the official league club metadata; correct mismatches via the club-metadata override map.
+- Report-only for genuinely ambiguous cases (renamed / sponsored grounds) → owner decides the canonical display name.
+
+**Notes**
+
+- Data-only. Full source specifics in the private pipeline spec.
+
+---
+
+### TASK-M64
+
+**Add official club website + surface on the team page** · 📋 Ready · `P2` · `M` · Type: Data + UI
+
+**Description**
+Clubs have no official-website link anywhere in the app. Add each club's official website URL (available from the official league club metadata) as a new committed club-metadata field and surface it on `/teams/[id]` (e.g. a link in the team hero's identity block).
+
+**Scope**
+
+- Extend the club-metadata schema/type with an optional `website` field; populate it in the pipeline from the official league club metadata (strip tracking query params down to a clean club URL).
+- Render it on the team page (external link, `rel="noopener noreferrer"`, `target="_blank"`); omit gracefully when absent (defunct / historical clubs).
+- Localize the link label (en/ar) if it carries visible text.
+
+**Notes**
+
+- Additive field → no team-file churn for clubs without a website. Full source specifics in the private pipeline spec.
 
 ---
 
