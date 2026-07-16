@@ -18,6 +18,7 @@ import { TeamStatsTilesSkeleton } from "@/features/teams/components/TeamStatsTil
 import { getPLTeams, getTeam } from "@/features/teams/api";
 import { TriviaSection } from "@/features/trivia/components/TriviaSection";
 import { currentDataSeason, parseSeason } from "@/utils/season";
+import { canonicalPath } from "@/utils/canonical";
 
 type Props = {
   params: Promise<{ locale: string; id: string }>;
@@ -54,6 +55,7 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
   const t = await getTranslations("teams");
   return {
     title: detail.team.name,
+    alternates: { canonical: canonicalPath(locale, `/teams/${teamId}`, season) },
     openGraph: {
       images: [{ url, width: 1200, height: 630, alt: t("teamOgAlt", { name: detail.team.name }) }],
     },

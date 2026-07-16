@@ -30,6 +30,7 @@ import {
   getTopYellowCards,
 } from "@/features/players/leaderboards.api";
 import { dashboardOgImagePath } from "@/app/api/og/ticket";
+import { canonicalPath } from "@/utils/canonical";
 import { isRtl, localizeDigits } from "@/utils/format";
 import { revealProps } from "@/utils/reveal";
 import { currentDataSeason, parseSeason, withSeason } from "@/utils/season";
@@ -49,6 +50,7 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
   const t = await getTranslations("dashboard");
   return {
     title: t("metaTitle"),
+    alternates: { canonical: canonicalPath(locale, "/", season) },
     openGraph: {
       images: [{ url, width: 1200, height: 630, alt: t("ogAlt") }],
     },

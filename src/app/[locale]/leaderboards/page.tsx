@@ -8,6 +8,7 @@ import { StatLeaderboard } from "@/features/players/components/StatLeaderboard";
 import { buildBoards } from "@/features/players/leaderboards-index";
 import { revealProps } from "@/utils/reveal";
 import { currentDataSeason, formatSeasonLabel, parseSeason } from "@/utils/season";
+import { canonicalPath } from "@/utils/canonical";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -26,6 +27,7 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
   const t = await getTranslations("leaderboard");
   return {
     title: t("metaTitle"),
+    alternates: { canonical: canonicalPath(locale, "/leaderboards", season) },
     description: t("metaDescription"),
     openGraph: {
       images: [{ url, width: 1200, height: 630, alt: t("ogAlt") }],

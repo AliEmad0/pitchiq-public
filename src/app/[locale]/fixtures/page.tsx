@@ -10,6 +10,7 @@ import { pickClubAccent } from "@/features/players/players-index.api";
 import { localizeDigits } from "@/utils/format";
 import { revealProps } from "@/utils/reveal";
 import { currentDataSeason, formatSeasonLabel, parseSeason } from "@/utils/season";
+import { canonicalPath } from "@/utils/canonical";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -27,6 +28,7 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
   const t = await getTranslations("fixtures");
   return {
     title: t("metaTitle", { season: formatSeasonLabel(season) }),
+    alternates: { canonical: canonicalPath(locale, "/fixtures", season) },
     openGraph: {
       images: [{ url, width: 1200, height: 630, alt: t("ogAlt") }],
     },

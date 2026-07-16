@@ -13,6 +13,7 @@ import { StatComparison } from "@/features/leagues/components/StatComparison";
 import { getFixtureDetail } from "@/features/leagues/fixture-detail.api";
 import { revealProps } from "@/utils/reveal";
 import { currentDataSeason, seasonFromFixtureId } from "@/utils/season";
+import { canonicalPath } from "@/utils/canonical";
 
 type Props = { params: Promise<{ locale: string; id: string }> };
 
@@ -31,6 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const url = fixtureOgImagePath(id);
   return {
     title: `${home.name} ${scoreOrVs} ${away.name}`,
+    alternates: { canonical: canonicalPath(locale, `/fixtures/${id}`) },
     openGraph: {
       images: [
         {

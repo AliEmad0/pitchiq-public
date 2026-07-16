@@ -32,10 +32,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${base}/`, alternates: langs("/"), changeFrequency: "daily", priority: 1 },
     { url: `${base}/teams`, alternates: langs("/teams"), changeFrequency: "weekly", priority: 0.8 },
     // TASK-M12: the all-fixtures listing for the current season (kept lean —
-    // just the current season, not one per committed season).
+    // just the current season, not one per committed season). Listed bare: the
+    // page defaults to `currentDataSeason()`, so `/fixtures` and
+    // `/fixtures?season=<current>` are the same page and the bare form is the
+    // canonical one (a sitemap must list canonical URLs).
     {
-      url: `${base}/fixtures?season=${season}`,
-      alternates: langs(`/fixtures?season=${season}`),
+      url: `${base}/fixtures`,
+      alternates: langs("/fixtures"),
       changeFrequency: "weekly",
       priority: 0.6,
     },
