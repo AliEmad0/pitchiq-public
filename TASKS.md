@@ -4204,7 +4204,7 @@ Goal: bring `<PitchLineup>` + `<EventTimeline>` back to life with a real (or syn
 | [TASK-1001](#task-1001) | Research free lineup data sources OR synthesize from JSON                   | ✅ Done | P2       | M   |
 | [TASK-1002](#task-1002) | Wire chosen source into `<PitchLineup>` + `<EventTimeline>`                 | ✅ Done | P2       | L   |
 | [TASK-1003](#task-1003) | Backfill lineups + events for 2008-09 + 2009-10 (extend the pipeline floor) | ✅ Done | P3       | S   |
-| [TASK-1004](#task-1004) | Backfill lineups + events for 1992-93 → 2007-08 (legacy PL API)             | ✅ Done | P3       | L   |
+| [TASK-1004](#task-1004) | Backfill lineups + events for 1992-93 → 2007-08 (legacy seasons)            | ✅ Done | P3       | L   |
 
 ### TASK-1001
 
@@ -4309,16 +4309,16 @@ The two seasons just below the current lineup floor (2010-11). The **the pipelin
 
 ### TASK-1004
 
-**Backfill lineups + events for 1992-93 → 2007-08 (legacy PL API)** · `P3` · `L` · Type: Data
+**Backfill lineups + events for 1992-93 → 2007-08 (legacy seasons)** · `P3` · `L` · Type: Data
 
 **Description**
-The pipeline backend has nothing before 2008-09, but the **legacy `the upstream API` backend serves `/fixtures/{id}` match detail with full `teamLists` (XI + subs) + `events` (goals/cards/subs) back to 1992-93** — verified this session (1992-93 Arsenal match → 11 starters/side + 17 events; 2002-03 → 25 events with `personId` + `assistId` + `clock` minute). Same official-PL source + ToS posture as TASK-1402/1403. This fills the remaining 16 seasons → lineups/events span the **complete history 1992-93 → 2025-26**.
+The pipeline backend has nothing before 2008-09, but the **committed-data pipeline's legacy backend serves match detail with full `teamLists` (XI + subs) + `events` (goals/cards/subs) back to 1992-93** — verified this session (1992-93 Arsenal match → 11 starters/side + 17 events; 2002-03 → 25 events with `personId` + `assistId` + `clock` minute). Same source + ToS posture as TASK-1402/1403. This fills the remaining 16 seasons → lineups/events span the **complete history 1992-93 → 2025-26**.
 
 **Engineering notes**
 
 - New `legacy-pl-client` fetcher `fetchFixtureDetail(matchId)` → `{ teamLists, events, matchOfficials, halfTimeScore }`; the fixture ids come from the already-used `fetchSeasonFixtures` (TASK-1403).
 - New transform (mirror `pl-transform.ts`): legacy `teamLists[].lineup`/`substitutes` → our `LineupsFile` shape (player `name` + our id; `matchPosition` → coarse position; **grid synthesized** via `pl-position-grid.assignGrids` — legacy has no formation grid pre-2008, like 2010-15); legacy `events` (type `G`/`B`/`subst` + `personId` + `assistId` + `clock`) → our `EventsFile` shape.
-- **Player id resolution:** legacy `personId`/`playerId` → our registry. Check whether the teamList/event `playerId` matches the ranked `owner.playerId` used in TASK-1402 (`data/player-keys-legacy.json`); if so, reuse that map directly. Otherwise add a `legacyPlayerId → name` join per match (events carry only `personId`; resolve via the match's teamList, like the pipeline path's name-join).
+- **Player id resolution:** legacy `personId`/`playerId` → our registry. Check whether the teamList/event `playerId` matches the committed key used in TASK-1402 (the legacy key map); if so, reuse that map directly. Otherwise add a `legacyPlayerId → name` join per match (events carry only `personId`; resolve via the match's teamList, like the pipeline path's name-join).
 - Keyed by our fixture id (the `(date,home,away)` id `getFixtureDetail` already builds). Standalone backfill (`pnpm sync:data:lineups:legacy` or a `--legacy` mode), cached under `data/.cache/legacy-pl/`; **minified** writes + `.prettierignore`. ~6,000 fixtures (16 seasons) → patient throttle + skip-on-failure + incremental, like the pipeline backfill.
 - The daily cron must not regenerate these static files (same model as TASK-1402's player files).
 
@@ -4746,15 +4746,15 @@ Give the older seasons the player stats + leaderboards they lack. Split by era b
 
 ### TASK-1401 — ✅ Done (Session 21)
 
-**Derived player stats + leaderboards for 2010-11 → 2016-17 from the committed Phase 10 lineups/events** (no new stats source). appearances = started + subbed-on; goals/assists/yellows/reds tallied via a per-match name→id join; position prefers non-Substitute; the 7 advanced-stats-only metrics + photos are `null`. **Identity = canonical `normalizeName|birthYear`**, birth years from the PL the pipeline `/api/v2/players/{id}` DOB endpoint (1,793 free + 6 user-provided), reconciled **additively** to the registry so cross-era players link to their existing id (Rooney 2010==2017) and 2017-2025 ids never change. Two committed cron-safe maps: `player-birthyears-historical.json` + `player-keys-sdp.json` (append-only). the pipeline-only keys hidden from the upstream data reconcile (idempotency). New: `derive-players-from-lineups.ts`, `reconcile-sdp-ids.ts`, `historical-birthyears.ts`, `pl-client.fetchPlayerDetail`; `pnpm sync:data:historical-birthyears`. Spec/plan: `docs/superpowers/{specs,plans}/2026-06-10-derive-historical-players*`.
+**Derived player stats + leaderboards for 2010-11 → 2016-17 from the committed Phase 10 lineups/events** (no new stats source). appearances = started + subbed-on; goals/assists/yellows/reds tallied via a per-match name→id join; position prefers non-Substitute; the 7 advanced-stats-only metrics + photos are `null`. **Identity = canonical `normalizeName|birthYear`**, birth years from the committed-data pipeline's DOB lookup (1,793 free + 6 user-provided), reconciled **additively** to the registry so cross-era players link to their existing id (Rooney 2010==2017) and 2017-2025 ids never change. Two committed cron-safe maps: `player-birthyears-historical.json` + a committed player-key map (append-only). the pipeline-only keys hidden from the upstream data reconcile (idempotency). New: `derive-players-from-lineups.ts`, a per-era id-reconcile module, `historical-birthyears.ts`, `pl-client.fetchPlayerDetail`; `pnpm sync:data:historical-birthyears`. Spec/plan: `docs/superpowers/{specs,plans}/2026-06-10-derive-historical-players*`.
 
 ### TASK-1402 — ✅ Done (Session 22)
 
-**Player stats + leaderboards for 1993-94 → 2009-10 (17 seasons) from the official PL legacy stats API** (`the upstream API`, competition id 1) — the research spike found this older the upstream API backend serves per-player season stats back to 1992/93 (the pipeline backend used by Phase 10 floors at 2008-09). Same official-PL ToS posture already accepted for the pipeline — **no advanced-stats scrape, no the snapshot, no manual birth years**. Standalone backfill `pnpm sync:data:legacy-players` (`scripts/pipeline/legacy-player-fetch.ts`): per season fetches the 5 ranked metrics (goals/goal_assist/appearances/yellow_card/red_card) for season totals + identity (name/DOB/position/opta id) and **per-team ranked-appearances** for team assignment (the `players?teams=` squad endpoint silently drops regulars like Gerrard — the `stats/ranked/...&teams=` filter is authoritative; mid-season transferees go to their most-played club). Fidelity matches TASK-1401: real apps/goals/assists/cards; 7 advanced-stats-only metrics + photo + minutes = `null`. **Identity = `normalizeName|birthYear`**, reconciled **additively** (reuses `reconcileSdpKeys`) into the registry so cross-era players link to their existing 2010+ id (verified: James Milner id `1000673` in both 2009 & 2017; 577 of 2778 legacy players reused an existing id; registry 3138 → 5340, **zero existing ids changed**). Committed append-only `data/player-keys-legacy.json` (legacyId → key) for determinism. Cron-safe: the daily `sync:data` never regenerates these static files — it only reserves their ids (reads the key map into `extendRegistry`) and counts the committed files for `_meta`. Idempotent (byte-identical re-run; full `sync:data` leaves all 34 legacy files untouched). Spot-checks: 1993-94 Golden Boot Andrew Cole 34 ✓, 1995-96 Shearer 31 ✓, Gerrard 2008-09 16 goals ✓. New: `legacy-pl-client.ts`, `legacy-team-map.ts`, `derive-players-from-legacy.ts`, `reconcile-legacy-ids.ts`. Net test delta +25 (746 → 771 + 2 skipped). **Player coverage is now 1993-94 → 2025-26 (every PL season).** Spec/plan: `docs/superpowers/{specs,plans}/2026-06-11-task-1402-historical-players-legacy*`.
+**Player stats + leaderboards for 1993-94 → 2009-10 (17 seasons) from the committed-data pipeline's legacy stats backend** — the research spike found this older backend serves per-player season stats back to 1992/93 (the pipeline backend used by Phase 10 floors at 2008-09). Same ToS posture already accepted for the pipeline — **no advanced-stats scrape, no the snapshot, no manual birth years**. Standalone backfill `pnpm sync:data:legacy-players` (`scripts/pipeline/legacy-player-fetch.ts`): per season fetches the 5 season metrics (goals/goal_assist/appearances/yellow_card/red_card) for season totals + identity (name/DOB/position/opta id) and **per-team appearance counts** for team assignment (the plain squad endpoint silently drops regulars like Gerrard — the per-team-filtered metrics endpoint is authoritative; mid-season transferees go to their most-played club). Fidelity matches TASK-1401: real apps/goals/assists/cards; 7 advanced-stats-only metrics + photo + minutes = `null`. **Identity = `normalizeName|birthYear`**, reconciled **additively** (reuses the shared id-reconcile logic) into the registry so cross-era players link to their existing 2010+ id (verified: James Milner id `1000673` in both 2009 & 2017; 577 of 2778 legacy players reused an existing id; registry 3138 → 5340, **zero existing ids changed**). Committed append-only legacy key map (legacyId → key) for determinism. Cron-safe: the daily `sync:data` never regenerates these static files — it only reserves their ids (reads the key map into `extendRegistry`) and counts the committed files for `_meta`. Idempotent (byte-identical re-run; full `sync:data` leaves all 34 legacy files untouched). Spot-checks: 1993-94 Golden Boot Andrew Cole 34 ✓, 1995-96 Shearer 31 ✓, Gerrard 2008-09 16 goals ✓. New: `legacy-pl-client.ts`, `legacy-team-map.ts`, `derive-players-from-legacy.ts`, the legacy id-reconcile module. Net test delta +25 (746 → 771 + 2 skipped). **Player coverage is now 1993-94 → 2025-26 (every PL season).** Spec/plan: `docs/superpowers/{specs,plans}/2026-06-11-task-1402-historical-players-legacy*`.
 
 ### TASK-1403 — ✅ Done (Session 22)
 
-**Added the inaugural 1992-93 season in full** — the last missing PL season → **complete PL history, 1992-93 → 2025-26 (34 seasons)**. Standings + fixtures + teams come from the **legacy PL API** (the one season in neither external-data-pipeline nor an external source): new `legacy-standings-fixtures.ts` (`fetchSeasonFixtures` on `legacy-pl-client` + `legacyFixturesToRows`) maps legacy fixtures to the ajx row shape, so `transformStandings`/`transformFixtures`/`transformTeams` are reused unchanged (the `csv-external-source.ts` pattern). A new `legacySeason: true` flag on the 1992 `season-range` entry routes the orchestrator's `seasonRows` through `loadLegacyAsRows` (parallel to `fdSeason`; cached → cron-cheap + idempotent). **Players reuse TASK-1402 wholesale** (`legacyPlayers: true` → `sync:data:legacy-players` picks up 1992: 544 players). `EARLIEST_SEASON` lowered 1993 → 1992. **`QUALIFICATION_BY_SEASON[1992]`** web-verified + cross-checked vs the committed standings: CL Man Utd (champions); UEFA Cup Aston Villa + Norwich (3rd — League Cup berth reverted to the league as Arsenal double-won); Cup Winners' Cup Arsenal (FA Cup); relegation Crystal Palace/Middlesbrough/Nottingham Forest. Verified: 22 standings (Man Utd 84 ✓), 462 fixtures, top scorer Sheringham 22 ✓; registry 5339 → 5431, zero existing ids changed; idempotent. fd HT/referee enrichment 404s for 1992 → null (correct, pre-1995). Net test delta +9 (771 → 780 + 2 skipped). **🎉 Phase 14 (P-D) COMPLETE — every PL season now has player stats + leaderboards.** Spec/plan: `docs/superpowers/{specs,plans}/2026-06-11-task-1403-add-1992-93-season*`.
+**Added the inaugural 1992-93 season in full** — the last missing PL season → **complete PL history, 1992-93 → 2025-26 (34 seasons)**. Standings + fixtures + teams come from the **committed-data pipeline's legacy backend** (the one season in neither external-data-pipeline nor an external source): new `legacy-standings-fixtures.ts` (`fetchSeasonFixtures` on `legacy-pl-client` + `legacyFixturesToRows`) maps legacy fixtures to the ajx row shape, so `transformStandings`/`transformFixtures`/`transformTeams` are reused unchanged (the `csv-external-source.ts` pattern). A new `legacySeason: true` flag on the 1992 `season-range` entry routes the orchestrator's `seasonRows` through `loadLegacyAsRows` (parallel to `fdSeason`; cached → cron-cheap + idempotent). **Players reuse TASK-1402 wholesale** (`legacyPlayers: true` → `sync:data:legacy-players` picks up 1992: 544 players). `EARLIEST_SEASON` lowered 1993 → 1992. **`QUALIFICATION_BY_SEASON[1992]`** web-verified + cross-checked vs the committed standings: CL Man Utd (champions); UEFA Cup Aston Villa + Norwich (3rd — League Cup berth reverted to the league as Arsenal double-won); Cup Winners' Cup Arsenal (FA Cup); relegation Crystal Palace/Middlesbrough/Nottingham Forest. Verified: 22 standings (Man Utd 84 ✓), 462 fixtures, top scorer Sheringham 22 ✓; registry 5339 → 5431, zero existing ids changed; idempotent. fd HT/referee enrichment 404s for 1992 → null (correct, pre-1995). Net test delta +9 (771 → 780 + 2 skipped). **🎉 Phase 14 (P-D) COMPLETE — every PL season now has player stats + leaderboards.** Spec/plan: `docs/superpowers/{specs,plans}/2026-06-11-task-1403-add-1992-93-season*`.
 
 ---
 
@@ -6069,7 +6069,7 @@ Rank desc → **top 6**, with a **diversity guard of max 2 matches per club** (s
 **Player age + nationality on profiles & squad cards** · ✅ Done · `P2` · `M` · Type: Feature (data + UI)
 
 **Description**
-Player **age/DOB** and **nationality** are currently omitted everywhere (CLAUDE: "age + nationality omitted — not in committed data"). But we can get both nearly for free: the **legacy PL API ranked `owner`** already returns `birth.date` + `nationalTeam` (we use birthYear only for keying and discard the rest), the upstream data carries it for 2025, and an external reference can backfill. Surface **age + country flag** on the player profile + squad cards.
+Player **age/DOB** and **nationality** are currently omitted everywhere (CLAUDE: "age + nationality omitted — not in committed data"). But we can get both nearly for free: the **committed-data pipeline's player records** already return `birth.date` + `nationalTeam` (we use birthYear only for keying and discard the rest), the upstream data carries it for 2025, and an external reference can backfill. Surface **age + country flag** on the player profile + squad cards.
 
 **Engineering notes**
 
@@ -6090,7 +6090,7 @@ Player **age/DOB** and **nationality** are currently omitted everywhere (CLAUDE:
 
 **Depends on:** nothing hard (additive). Reuses the M38 owner-matcher + the legacy/the pipeline clients already in the repo.
 
-**Implementation notes (as shipped):** DOB + football nationality come from the **PL the upstream API ranked owners** (`owner.birth.date.label` + `owner.nationalTeam.{isoCode,country}`) — the same backend behind the official site, already fetched for 1992-2009 (legacy) + 2025-26 (M38) and reachable for 2010-24 (one ranked-`appearances` call/season). Matched to our stable ids by `normalizeName|birthYear` (the M38 matcher) into a committed id-keyed `data/player-bio.json` (`pnpm sync:data:bio`), applied over every season every sync (cron-safe) like `applyOfficialStats`. `birthYear` is the universal age fallback from reverse-parsing `player-ids.json`. Flags via `flag-icons` (`nationalityCode = isoCode.toLowerCase()`; home nations arrive as `GB-ENG` → `gb-eng`). Coverage: 5083 players, 99.9% nationality, 100% DOB. **Deviations from the ticket:** `birthYear` added alongside `birthDate` (full DOB not universal); two nationality fields (`nationality` + `nationalityCode`) for display + flag; sourced from the PL API (not an external reference / the legacy `nationalTeam`-discard path); `flag-icons` not emoji (broken on Windows).
+**Implementation notes (as shipped):** DOB + football nationality come from the **committed-data pipeline's player records** (`owner.birth.date.label` + `owner.nationalTeam.{isoCode,country}`) — the same backend used throughout the pipeline, already fetched for 1992-2009 (legacy) + 2025-26 (M38) and reachable for 2010-24 (one appearances lookup per season). Matched to our stable ids by `normalizeName|birthYear` (the M38 matcher) into a committed id-keyed `data/player-bio.json` (`pnpm sync:data:bio`), applied over every season every sync (cron-safe) like `applyOfficialStats`. `birthYear` is the universal age fallback from reverse-parsing `player-ids.json`. Flags via `flag-icons` (`nationalityCode = isoCode.toLowerCase()`; home nations arrive as `GB-ENG` → `gb-eng`). Coverage: 5083 players, 99.9% nationality, 100% DOB. **Deviations from the ticket:** `birthYear` added alongside `birthDate` (full DOB not universal); two nationality fields (`nationality` + `nationalityCode`) for display + flag; sourced from the committed-data pipeline (not an external reference / the legacy `nationalTeam`-discard path); `flag-icons` not emoji (broken on Windows).
 
 ---
 
@@ -6099,7 +6099,7 @@ Player **age/DOB** and **nationality** are currently omitted everywhere (CLAUDE:
 **Match page: attendance + stadium + officials** · ✅ Done · `P3` · `M` · Type: Feature (data + UI) · [PR 200](https://github.com/AliEmad0/pitchiq/pull/200)
 
 **Description**
-The legacy fixture-detail endpoint (`/fixtures/{id}`) carries **attendance**, **ground/stadium**, and **matchOfficials** (referee — we already have referee via an external source, but stadium + attendance are new). Surface "75,821 · Old Trafford" on `/fixtures/[id]`.
+The committed-data pipeline's legacy fixture-detail records carry **attendance**, **ground/stadium**, and **matchOfficials** (referee — we already have referee via an external source, but stadium + attendance are new). Surface "75,821 · Old Trafford" on `/fixtures/[id]`.
 
 **Engineering notes**
 
@@ -6116,7 +6116,7 @@ The legacy fixture-detail endpoint (`/fixtures/{id}`) carries **attendance**, **
 
 - `src/data/schemas.ts`, the fixture enrichment pipeline, `FixtureHeader`, regenerated fixtures, tests.
 
-**Depends on:** synergizes with TASK-1004 (both hit the legacy `/fixtures/{id}` detail — fetch once, use for lineups+events+attendance+venue).
+**Depends on:** synergizes with TASK-1004 (both use the same legacy fixture-detail source — fetch once, use for lineups+events+attendance+venue).
 
 ---
 
@@ -6151,12 +6151,12 @@ The legacy fixture-detail endpoint (`/fixtures/{id}`) carries **attendance**, **
 **Expand stat coverage: more ranked metrics + leaderboards** · ✅ Done · `P3` · `M` · Type: Feature (data + UI) · [PR 201](https://github.com/AliEmad0/pitchiq/pull/201)
 
 **Description**
-We currently expose 4 leaderboards (scorers/assists/yellows/reds) and the 6 advanced-stats-only metrics only on the profile/radar. The legacy + the upstream APIs offer many more ranked metrics (clean sheets, saves, passes, big chances, etc.). Add **more leaderboard categories** (at minimum appearances + clean sheets where available) and, where free, fetch the extra ranked metrics.
+We currently expose 4 leaderboards (scorers/assists/yellows/reds) and the 6 advanced-stats-only metrics only on the profile/radar. The committed-data pipeline offers many more metric categories (clean sheets, saves, passes, big chances, etc.). Add **more leaderboard categories** (at minimum appearances + clean sheets where available) and, where free, fetch the extra metrics.
 
 **Engineering notes**
 
 - Read-side first (free): add leaderboard categories for metrics we **already** store (e.g. `appearances`; the advanced-stats-only metrics for 2017-24) — extend `transformLeaderboards` + `LeaderboardsSchema` + the dashboard `<StatLeaderboard>` set.
-- Data-side (optional, more work): fetch additional legacy `stats/ranked/players/{metric}` categories (clean_sheets, saves, …) into the player metrics — era-dependent (modern seasons have more).
+- Data-side (optional, more work): fetch additional legacy metric categories (clean_sheets, saves, …) into the player metrics — era-dependent (modern seasons have more).
 - Keep the dashboard uncluttered: consider a "more" toggle or a dedicated `/leaderboards` page rather than stacking many rails.
 
 **Acceptance criteria**
@@ -6571,15 +6571,15 @@ A single stable player id resolves to **two different physical players** across 
 **Root cause (investigated)**
 
 - `data/player-ids.json` maps the registry key **`"carlos tevez|1984": 1002073`** — the rightful owner is Carlos Tévez (b. 1984), and the **2010-16 derived-from-lineups** era assigns it correctly.
-- `data/player-keys-legacy.json` (the **1992-2009 legacy PL API** era, TASK-1402) contains **`"121095": "carlos tevez|1984"`** — i.e. a _different_ legacy player (Juan Carlos Menseguéz, also b. 1984) was reconciled onto **Tévez's** key → both land on id `1002073`.
-- The identity key is `normalizeName|birthYear`, but the **legacy reconcile** (`reconcile-legacy-ids.ts` / `reconcileSdpKeys`) uses **fuzzy token + birth-year** matching. "Juan **Carlos** Menseguéz" shares the token **"carlos"** + birth year **1984** with "**Carlos** Tévez" → false merge. This is the same fuzzy-collision class the `registryForFpl` filter already guards against in the upstream data reconcile, but it leaked across the **legacy ↔ derived** eras.
+- The committed legacy key map (the **1992-2009 legacy** era, TASK-1402) contains **`"121095": "carlos tevez|1984"`** — i.e. a _different_ legacy player (Juan Carlos Menseguéz, also b. 1984) was reconciled onto **Tévez's** key → both land on id `1002073`.
+- The identity key is `normalizeName|birthYear`, but the **legacy reconcile** (the legacy id-reconcile logic) uses **fuzzy token + birth-year** matching. "Juan **Carlos** Menseguéz" shares the token **"carlos"** + birth year **1984** with "**Carlos** Tévez" → false merge. This is the same fuzzy-collision class the `registryForFpl` filter already guards against in the upstream data reconcile, but it leaked across the **legacy ↔ derived** eras.
 - Secondary symptom to confirm: the map also has **`"121631": "carlos tevez|1984|121631"`** (a disambiguated key) — so the _real_ legacy Tévez may be **split** under a separate id from his 2010+ id `1002073`. Verify whether legacy-era Tévez links to the same id as his modern seasons.
 
 **Engineering notes**
 
 - **Audit first:** add a one-off script (or test) that scans every stable id appearing in ≥2 committed `players-<season>.json` files and flags ids whose `name` (esp. **surname**) differs beyond a threshold across seasons → the candidate-collision set. Don't fix only Tévez blind; find the rest.
 - **Tighten the legacy/the pipeline fuzzy matcher:** require a stronger overlap than "one shared token + same birth year" — e.g. surname match, or a token-set similarity threshold — so distinct people with a shared given name + birth year don't merge. Re-run `pnpm sync:data:legacy-players` and confirm **no id churn except the intended corrections** (the registry is append-only; corrections must be deliberate and reviewed).
-- **Corrections mechanism:** since `player-keys-legacy.json` is committed + append-only, fixing a bad mapping likely needs either a committed **overrides map** (e.g. `data/player-id-overrides.json`, applied last, wins over the fuzzy result) or a careful, reviewed edit to the key map. Menseguéz must get his **own distinct id**; Tévez keeps `1002073` and should be **one id across all eras**.
+- **Corrections mechanism:** since the legacy key map is committed + append-only, fixing a bad mapping likely needs either a committed **overrides map** (e.g. `data/player-id-overrides.json`, applied last, wins over the fuzzy result) or a careful, reviewed edit to the key map. Menseguéz must get his **own distinct id**; Tévez keeps `1002073` and should be **one id across all eras**.
 - Watch idempotency: a full `sync:data` must leave unaffected players' ids byte-identical (verify via the usual sha256 compare).
 
 **Acceptance criteria**
@@ -6591,7 +6591,7 @@ A single stable player id resolves to **two different physical players** across 
 
 **Files touched**
 
-- `scripts/pipeline/reconcile-legacy-ids.ts` (stricter match), a committed corrections/overrides map + its application in the orchestrator, an audit script/test, `data/player-keys-legacy.json` (+ regenerated `players-*.json` / `leaderboards-*.json` for affected ids), tests, CLAUDE.md.
+- the legacy id-reconcile module (stricter match), a committed corrections/overrides map + its application in the orchestrator, an audit script/test, the legacy key map (+ regenerated `players-*.json` / `leaderboards-*.json` for affected ids), tests, CLAUDE.md.
 
 **Depends on:** TASK-704 (stable-id registry) + TASK-1402/1403 (legacy reconcile) — all done. Independent of other open tickets. **P1** because it's user-visible wrong data on the live site.
 
