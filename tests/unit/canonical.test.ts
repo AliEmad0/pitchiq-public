@@ -45,16 +45,22 @@ describe("canonicalPath", () => {
     });
 
     it("keeps a non-default season so each historical season stays indexable", () => {
-      expect(canonicalPath("en", "/", 1998)).toBe("/?season=1998");
       expect(canonicalPath("en", "/fixtures", 1998)).toBe("/fixtures?season=1998");
+      expect(canonicalPath("en", "/leaderboards", 1998)).toBe("/leaderboards?season=1998");
     });
 
     it("combines the Arabic prefix with a non-default season", () => {
       expect(canonicalPath("ar", "/teams/42", 2001)).toBe("/ar/teams/42?season=2001");
     });
 
-    it("keeps the Arabic root with a non-default season", () => {
-      expect(canonicalPath("ar", "/", 1998)).toBe("/ar?season=1998");
+    // Next reduces ANY canonical resolving to pathname "/" down to the bare
+    // origin (`resolveAbsoluteUrlWithPathname`: `pathname === '/' ? origin :
+    // href`), silently dropping the query — so "/?season=1998" is impossible to
+    // emit. The home page is therefore one canonical entry point per locale,
+    // and /ar matches /  so the two locales don't diverge.
+    it("never puts a season on the home page (Next drops a root-path query)", () => {
+      expect(canonicalPath("en", "/", 1998)).toBe("/");
+      expect(canonicalPath("ar", "/", 1998)).toBe("/ar");
     });
   });
 
