@@ -5626,7 +5626,7 @@ A text/stat retro football simulation built **inside PitchIQ** (`src/features/ga
 | [TASK-M54](#task-m54) | Season-accurate club crests (historical logo per era)             | ✅ Done            | P3       | XL  |
 | [TASK-M55](#task-m55) | Returning-player splits (Kepa/Josh King) + auto birth years       | ✅ Done            | P1       | M   |
 | [TASK-M56](#task-m56) | True per-player roles (LB/CB/CDM…) + alt-positions & foot         | 🔴 Blocked-by-data | P2       | L   |
-| [TASK-M57](#task-m57) | Backfill historical advanced player stats (2003/04–2016/17)       | 🔄 In progress     | P2       | M   |
+| [TASK-M57](#task-m57) | Backfill historical advanced player stats (2003/04–2016/17)       | ✅ Done            | P2       | M   |
 | [TASK-M58](#task-m58) | Search-engine verification tags + indexing-friendly metadata      | ✅ Done            | P2       | S   |
 | [TASK-M59](#task-m59) | Speed Insights observability (Analytics already shipped)          | ✅ Done            | P3       | XS  |
 | [TASK-M60](#task-m60) | Player photo/bio batch (11 portraits + 4 bios + 1 tombstone)      | ✅ Done            | P2       | S   |
@@ -6856,9 +6856,9 @@ The committed data cannot supply real player roles: the per-player `position` is
 
 ### TASK-M57
 
-**Backfill historical advanced player stats (2003/04 → 2016/17)** · 🔄 In progress · `P2` · `M` · Type: Data / Pipeline
+**Backfill historical advanced player stats (2003/04 → 2016/17)** · ✅ Done · `P2` · `M` · Type: Data / Pipeline
 
-**✅ Phase 1 shipped (2008/09 → 2016/17, 9 seasons).** The 7 advanced metrics now populate for those seasons, sourced from the official league stats source behind the committed-data pipeline, matched per player and **gated on appearance-count equality** so a mismatched identity is rejected rather than writing the wrong player's stats. Only the advanced fields change (goals/assists/appearances/cards preserved), so leaderboards + search are untouched; unmatched/sparse players stay "—" (never a fabricated 0). Coverage 96–100%/season. Live effect: historical profiles (e.g. N'Golo Kanté 2015-16) now render Tackles/Interceptions/Pass %/Dribbles instead of "—". **⏭ Phase 2 (2003/04 → 2007/08) is the remaining follow-up.**
+**✅ Phase 1 shipped (2008/09 → 2016/17, 9 seasons).** The 7 advanced metrics now populate for those seasons, sourced from the official league stats source behind the committed-data pipeline, matched per player and **gated on appearance-count equality** so a mismatched identity is rejected rather than writing the wrong player's stats. Only the advanced fields change (goals/assists/appearances/cards preserved), so leaderboards + search are untouched; unmatched/sparse players stay "—" (never a fabricated 0). Coverage 96–100%/season. Live effect: historical profiles (e.g. N'Golo Kanté 2015-16) now render Tackles/Interceptions/Pass %/Dribbles instead of "—". **✅ Phase 2 shipped (2003/04 → 2007/08) → 🎉 complete.** The Invincibles era and all of 2003–07 now render advanced stats too — Roy Keane 03/04 (117 tackles, 86.2% pass), Patrick Vieira (149 tackles), Cristiano Ronaldo 06/07 (90 dribbles) — resolved the same way (appearance-gated matching against the official league reference; 98–100%/season). Advanced stats now cover the full **2003/04 → 2016/17** range.
 
 **Description**
 Fourteen seasons of committed player data show **0%** for the advanced metrics (`passAccuracy`, `tackles`, `interceptions`, `duelsWon`, `dribblesCompleted`, `keyPasses`, `shotsOnTarget`) even though the official source behind our committed-data pipeline **has them**. Symptom: historical player profiles (e.g. Thierry Henry 2004-05) render those stat tiles as "—". The gap is scope, not availability — the pipeline's official-stats fetcher already maps every field and is generic over any season; it was only ever wired for the current season.
