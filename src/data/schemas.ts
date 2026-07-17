@@ -85,6 +85,80 @@ export const FixtureSchema = z.object({
   referee: z.string().nullable(),
 });
 
+// TASK-M65: the full SDP v2 payload beyond the flat core — 54 fields the
+// `pitchiq-pipeline` historical crawl lands under `metrics.extended`, grouped by
+// the 10 categories the profile's stat accordion renders. Additive + isolated:
+// the core axes above (the ones /compare, radar, leaderboards + OG cards read)
+// are untouched, and every field is `int | null` (null = the era/source did not
+// measure it, distinct from a real 0). Kept in lockstep with the pipeline's
+// `ExtendedMetrics` (scripts/sync-kaggle-data/sdp-extended-stats.ts).
+const intNull = () => z.number().int().nullable();
+export const ExtendedMetricsSchema = z.object({
+  // Playing time
+  gamesPlayed: intNull(),
+  starts: intNull(),
+  substituteOn: intNull(),
+  substituteOff: intNull(),
+  minutesPlayed: intNull(),
+  // Shooting
+  totalShots: intNull(),
+  shotsOffTarget: intNull(),
+  blockedShots: intNull(),
+  headedGoals: intNull(),
+  leftFootGoals: intNull(),
+  homeGoals: intNull(),
+  awayGoals: intNull(),
+  winningGoals: intNull(),
+  offsides: intNull(),
+  setPieceAttempts: intNull(),
+  // Passing
+  totalPasses: intNull(),
+  openPlayPasses: intNull(),
+  successfulShortPasses: intNull(),
+  unsuccessfulShortPasses: intNull(),
+  successfulLongPasses: intNull(),
+  unsuccessfulLongPasses: intNull(),
+  successfulPassesOwnHalf: intNull(),
+  unsuccessfulPassesOwnHalf: intNull(),
+  successfulPassesOppositionHalf: intNull(),
+  unsuccessfulPasses: intNull(),
+  touches: intNull(),
+  possessionLost: intNull(),
+  throwIns: intNull(),
+  // Crossing & corners
+  successfulCrossesOpenPlay: intNull(),
+  unsuccessfulCrossesOpenPlay: intNull(),
+  successfulCrossesAndCorners: intNull(),
+  unsuccessfulCrossesAndCorners: intNull(),
+  cornersTaken: intNull(),
+  cornersWon: intNull(),
+  // Dribbling
+  unsuccessfulDribbles: intNull(),
+  timesDispossessed: intNull(),
+  // Duels
+  duels: intNull(),
+  duelsLost: intNull(),
+  groundDuels: intNull(),
+  groundDuelsWon: intNull(),
+  groundDuelsLost: intNull(),
+  // Defending
+  tacklesWon: intNull(),
+  tacklesLost: intNull(),
+  clearances: intNull(),
+  blocks: intNull(),
+  foulsWon: intNull(),
+  // Discipline
+  straightRedCards: intNull(),
+  foulsConceded: intNull(),
+  penaltiesConceded: intNull(),
+  handballsConceded: intNull(),
+  // Goals against / GK
+  goalsConceded: intNull(),
+  goalsConcededInsideBox: intNull(),
+  goalsConcededOutsideBox: intNull(),
+  penaltyGoalsConceded: intNull(),
+});
+
 export const ComparisonMetricsSchema = z.object({
   appearances: z.number().int().nullable(),
   // Of which came on as a substitute (TASK-M39, official PL API `total_sub_on`).
@@ -111,6 +185,9 @@ export const ComparisonMetricsSchema = z.object({
   // Surfaced on the /leaderboards page.
   cleanSheets: z.number().int().nullable().optional(),
   saves: z.number().int().nullable().optional(),
+  // TASK-M65: the full 66-field bag for the profile stat accordion. Optional —
+  // present only for the SDP-covered historical seasons the crawl has filled.
+  extended: ExtendedMetricsSchema.optional(),
 });
 
 // TASK-M07: one club's slice of a player's season — emitted only for a
@@ -278,7 +355,10 @@ export type ArNameMap = z.infer<typeof ArNameMapSchema>;
 export const OfficialStatsFileSchema = z.record(z.string(), ComparisonMetricsSchema);
 
 // Substitute-appearance counts: season (string) → player id (string) → count.
-export const SubAppearancesFileSchema = z.record(z.string(), z.record(z.string(), z.number().int()));
+export const SubAppearancesFileSchema = z.record(
+  z.string(),
+  z.record(z.string(), z.number().int()),
+);
 
 // Expected goals + expected assists: season → id → { xg, xa }.
 export const PlayerXgFileSchema = z.record(
@@ -458,6 +538,7 @@ export type Fixture = z.infer<typeof FixtureSchema>;
 export type Player = z.infer<typeof PlayerSchema>;
 export type PlayerSeasonSplit = z.infer<typeof PlayerSeasonSplitSchema>;
 export type ComparisonMetrics = z.infer<typeof ComparisonMetricsSchema>;
+export type ExtendedMetrics = z.infer<typeof ExtendedMetricsSchema>;
 export type LeaderboardEntry = z.infer<typeof LeaderboardEntrySchema>;
 export type Leaderboards = z.infer<typeof LeaderboardsSchema>;
 export type FixtureExtrasFile = z.infer<typeof FixtureExtrasFileSchema>;

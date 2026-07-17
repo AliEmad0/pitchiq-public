@@ -20,7 +20,10 @@ import type { ComparisonMetrics } from "@/types/api";
 // on-page render sites (`/compare`, `<PlayerSeasonStats>`) resolve `t(labelKey)`
 // so the label is localized once, shared across both surfaces (TASK-1603).
 export const COMPARISON_METRICS: Array<{
-  key: Exclude<keyof ComparisonMetrics, "subAppearances" | "xg" | "xa" | "cleanSheets" | "saves">;
+  key: Exclude<
+    keyof ComparisonMetrics,
+    "subAppearances" | "xg" | "xa" | "cleanSheets" | "saves" | "extended"
+  >;
   label: string;
   labelKey: string;
   format?: (n: number) => string;

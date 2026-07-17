@@ -5634,6 +5634,7 @@ A text/stat retro football simulation built **inside PitchIQ** (`src/features/ga
 | [TASK-M62](#task-m62) | Fix wrong club cities (district → city, e.g. Aston Villa)         | 📋 Ready           | P2       | S   |
 | [TASK-M63](#task-m63) | Audit + correct club stadium names against the official source    | 📋 Ready           | P2       | S   |
 | [TASK-M64](#task-m64) | Add official club website field + surface on the team page        | 📋 Ready           | P2       | M   |
+| [TASK-M65](#task-m65) | Surface all 66 player stats — Category Accordion profile view     | 🚧 In progress     | P2       | XL  |
 
 ### TASK-M01
 
@@ -6967,6 +6968,28 @@ Clubs have no official-website link anywhere in the app. Add each club's officia
 **Notes**
 
 - Additive field → no team-file churn for clubs without a website. Full source specifics in the private pipeline spec.
+
+---
+
+### TASK-M65
+
+**Surface all 66 player stats — Category Accordion profile view** · 🚧 In progress · `P2` · `XL` · Type: Data + UI
+
+**Description**
+The player profile (`/players/[id]`) renders only 14 of the 66 stat fields the SDP source carries per player — the flat `<PlayerSeasonStats>` grid (12 core + xG/xA). Ingest the full payload and replace the grid with a **Category Accordion**: ten collapsible category sections (Playing time, Shooting, Creation, Passing, Crossing & corners, Dribbling, Duels, Defending, Discipline, Goals against/GK) covering every field.
+
+**Scope**
+
+- **Pipeline (done):** map the full SDP payload → `metrics.extended` (the 54 non-core fields) in `sdp-extended-stats.ts`; wire it into the historical crawl (`build-official-stats-history.ts`) on the same appearance-gated join. Unit-tested against the Keane 2003/04 fixture.
+- **Schema (done):** additive optional `metrics.extended` on `ComparisonMetricsSchema` + the `ComparisonMetrics` wire type — a nested bag, so the flat core axes (`/compare`, radar, leaderboards, OG cards) are untouched. `extended` excluded from the `COMPARISON_METRICS` key union.
+- **Backfill (pending):** re-run `build-official-stats-history.ts` for 2003–2016 to populate `metrics.extended`. Local/CI run — needs the SDP source + the reconstituted-worktree flow; not runnable in a normal session.
+- **UI (pending):** rebuild `<PlayerSeasonStats>` as the accordion (only categories/fields with data render). Motion: rows stagger-in, the open category's dot pulses, chevron rotate + colour-wash on the header, height-slide on the panel. No headline number, no percentile bars (design decision).
+
+**Notes**
+
+- Additive/optional bag → zero churn for seasons/players without extended data; nothing else that reads `ComparisonMetrics` changes.
+- Extended stats are **SDP-historical (2003–2016)** for now; modern seasons (2017+) draw from different stat sources, so categories fill only where the source has them.
+- Full 10-category → 66-field grouping + the picked design/motion are captured in the session's prototype artifact.
 
 ---
 

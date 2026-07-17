@@ -7,6 +7,12 @@
 // — that would put the types out of sync with what the wire actually
 // returns over the wire.
 
+// TASK-M65: the profile stat-accordion's 66-field bag. Type-only re-export of
+// the loader's inferred shape (defined once as a Zod schema in `@/data/schemas`)
+// so the wire type and the validator can never drift across 54 fields.
+import type { ExtendedMetrics } from "@/data/schemas";
+export type { ExtendedMetrics };
+
 export type ApiResponse<T> = {
   get: string;
   parameters: Record<string, string>;
@@ -401,6 +407,9 @@ export type ComparisonMetrics = {
   // PL ranked endpoint. Optional/additive; null where the era/source has none.
   cleanSheets?: number | null;
   saves?: number | null;
+  // TASK-M65: full 66-field bag for the profile stat accordion. Present only for
+  // SDP-covered historical seasons the crawl has filled; null/absent elsewhere.
+  extended?: ExtendedMetrics | null;
 };
 
 // === Teams + venue (TASK-301 / Phase 3 consumer) ========================
