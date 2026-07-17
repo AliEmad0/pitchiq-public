@@ -527,6 +527,62 @@
   }
 }
 
+/* TASK-M65 — Category Accordion (player profile stat sections). Open-state
+   flourishes keyed off the per-category `--cat-accent`: the section dot pulses
+   while open, and the header colour-washes once on open. The chevron rotate +
+   panel grid-rows height-slide are Tailwind utilities on the component; these
+   two need keyframes / a ::before, so they live here. */
+@keyframes statacc-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--cat-accent) 45%, transparent);
+  }
+  50% {
+    transform: scale(1.25);
+    box-shadow: 0 0 0 6px transparent;
+  }
+}
+.statacc-dot--open {
+  animation: statacc-pulse 1.9s var(--ease-in-out-soft) infinite;
+}
+.statacc-wash::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    90deg,
+    color-mix(in srgb, var(--cat-accent) 22%, transparent),
+    transparent 65%
+  );
+  transform: translateX(-101%);
+}
+.statacc-wash--open::before {
+  animation: statacc-wash var(--motion-duration-slow) var(--ease-out-soft) forwards;
+}
+@keyframes statacc-wash {
+  0% {
+    transform: translateX(-101%);
+  }
+  55% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(101%);
+  }
+}
+/* Reduced motion: the pulse (autoplay) + wash sweep are motion → off; the open
+   state itself stays fully functional (the panel just shows without the slide). */
+@media (prefers-reduced-motion: reduce) {
+  .statacc-dot--open {
+    animation: none;
+  }
+  .statacc-wash::before {
+    display: none;
+  }
+}
+
 /* TASK-1706 closeout — the remaining reduced-motion gates the audit found:
    the Shadcn overlay entrances (zoom/slide transforms via tw-animate) and the
    autoplaying skeleton pulse (policy: autoplay must stop; a static block
