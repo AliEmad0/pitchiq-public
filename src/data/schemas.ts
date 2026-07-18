@@ -378,6 +378,28 @@ export const GkStatsFileSchema = z.record(
   ),
 );
 
+// TASK-M65 (cron-safety): the SDP-derived history stats — season → id → the 7
+// advanced core metrics + the full `extended` bag. The `derivePlayers` seasons
+// (2010-16) regenerate every cron from lineups (base only), so this committed
+// map is re-applied over them (like xG/GK) to keep the advanced + extended stats
+// through a refresh. Built by `sync:data:official-stats-history`.
+export const PlayerHistoryStatsFileSchema = z.record(
+  z.string(),
+  z.record(
+    z.string(),
+    z.object({
+      passAccuracy: z.number().nullable(),
+      keyPasses: z.number().int().nullable(),
+      tackles: z.number().int().nullable(),
+      interceptions: z.number().int().nullable(),
+      duelsWon: z.number().int().nullable(),
+      dribblesCompleted: z.number().int().nullable(),
+      shotsOnTarget: z.number().int().nullable(),
+      extended: ExtendedMetricsSchema,
+    }),
+  ),
+);
+
 // Player birth date + nationality, keyed by stable player id.
 export const PlayerBioFileSchema = z.record(
   z.string(),
