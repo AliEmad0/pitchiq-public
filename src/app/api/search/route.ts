@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 
 import { loadSearchIndex } from "@/data/loaders";
+import { getEntityNames } from "@/features/i18n/entity-names";
 import type { SearchIndex } from "@/data/schemas";
 import { logger } from "@/utils/logger";
 import { nameAcronym } from "@/utils/search-acronym";
@@ -64,7 +65,12 @@ export async function GET(request: Request) {
 
   const needle = query.toLowerCase();
   // TASK-1606: on /ar, match against the Arabic name too + render it.
-  const isAr = (searchParams.get("locale") ?? "en").startsWith("ar");
+  const locale = searchParams.get("locale") ?? "en";
+  const isAr = locale.startsWith("ar");
+  // Resolver for the per-player club label — the index only bakes each entity's
+  // OWN Arabic name (a team's `nameAr`), not a per-player club name, so localize
+  // it here by team id (identity passthrough on /en). Mirrors searchPlayers().
+  const names = await getEntityNames(locale);
 
   // Teams: word-start matches first, then alphabetical.
   const teams = index.teams
@@ -100,9 +106,13 @@ export async function GET(request: Request) {
     .map(({ p }) => ({
       id: p.id,
       name: isAr ? (p.nameAr ?? p.name) : p.name,
-      // The player's club label stays Latin in the index (no per-player team
-      // Arabic name); the team's own search result carries the Arabic name.
-      team: { id: p.teamId, name: p.teamName, logo: `/logos/${p.teamId}.png` },
+      // Club label localized by team id on /ar (identity on /en) — the index
+      // bakes no per-player Arabic club name of its own.
+      team: {
+        id: p.teamId,
+        name: names.team(p.teamId, p.teamName),
+        logo: `/logos/${p.teamId}.png`,
+      },
       photo: p.photo ?? "",
       season: p.latestSeason,
     }));

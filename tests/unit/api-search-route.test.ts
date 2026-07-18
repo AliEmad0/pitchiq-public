@@ -1,6 +1,18 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
 
-vi.mock("@/data/loaders", () => ({ loadSearchIndex: vi.fn() }));
+// getEntityNames() (used to localize the per-player club label on /ar) reads the
+// ar-name maps from @/data/loaders, so they must be mocked alongside the index.
+vi.mock("@/data/loaders", () => ({
+  loadSearchIndex: vi.fn(),
+  loadArTeamNames: vi.fn(async () => ({ "40": "ليفربول" })),
+  loadArPlayerNames: vi.fn(async () => ({})),
+  loadArManagerNames: vi.fn(async () => ({})),
+  loadArVenueNames: vi.fn(async () => ({})),
+  loadArCityNames: vi.fn(async () => ({})),
+  loadArRefereeNames: vi.fn(async () => ({})),
+  loadArPositionNames: vi.fn(async () => ({})),
+  loadArNationalityOverrides: vi.fn(async () => ({})),
+}));
 
 import { GET } from "@/app/api/search/route";
 import { loadSearchIndex } from "@/data/loaders";
@@ -208,6 +220,8 @@ describe("Arabic queries + display (TASK-1606)", () => {
     vi.mocked(loadSearchIndex).mockResolvedValue(AR_INDEX as never);
     const body = await (await GET(reqLoc("صلاح", "ar"))).json();
     expect(body.players[0].name).toBe("محمد صلاح");
+    // TASK-M65 follow-up: the per-player club label is localized by team id on /ar.
+    expect(body.players[0].team.name).toBe("ليفربول");
   });
 
   it("still returns the Latin name (and matches Latin queries) on /en", async () => {
