@@ -8,6 +8,7 @@ import { DataUnavailable } from "@/components/DataUnavailable";
 import { EntitySeasonSwitcher } from "@/components/layout/EntitySeasonSwitcher";
 import { findPlayerSeasons, loadClubLogos, loadPlayers } from "@/data/loaders";
 import { getPlayerProfile } from "@/features/players/api";
+import { getEntityNames } from "@/features/i18n/entity-names";
 import { PlayerHero } from "@/features/players/components/PlayerHero";
 import { PlayerSeasonStats } from "@/features/players/components/PlayerSeasonStats";
 import { PlayerSeasonSplits } from "@/features/players/components/PlayerSeasonSplits";
@@ -73,7 +74,7 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
   // an unknown id is effectively not-found and must not declare one.
   const known = await findPlayerSeasons(playerId);
   return known
-    ? { title: known.name, alternates, ...og }
+    ? { title: (await getEntityNames(locale)).player(playerId, known.name), alternates, ...og }
     : { title: tNotFound("playerTitle"), ...og };
 }
 
@@ -103,12 +104,19 @@ export default async function PlayerProfilePage({ params, searchParams }: Props)
     if (!known) notFound();
     const latestSeason = known.seasons[0];
     const t = await getTranslations("players");
+    // Localize the player name on /ar (TASK-M65 follow-up): the profile hero +
+    // search already resolve the Arabic name, so the empty-state must too — else
+    // the same player reads Latin here and Arabic everywhere else.
+    const displayName = (await getEntityNames(locale)).player(playerId, known.name);
     return (
       <main className="container-page space-y-6 py-6 lg:py-10">
         <DataUnavailable
-          title={t("noSeasonData", { season: formatSeasonLabel(season, locale), name: known.name })}
+          title={t("noSeasonData", {
+            season: formatSeasonLabel(season, locale),
+            name: displayName,
+          })}
           message={t("noSeasonDataMsg", {
-            name: known.name,
+            name: displayName,
             season: formatSeasonLabel(season, locale),
             latest: formatSeasonLabel(latestSeason, locale),
           })}
