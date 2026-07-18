@@ -331,6 +331,15 @@
   * {
     @apply border-border outline-ring/50;
   }
+  /* Never allow a horizontal scroll into empty space. The TASK-1702 boot-loader
+     wordmark's neon-glow ink paints ~2× wider than the viewport; on first load
+     the `.boot-lock` on <html> hides it, but a locale switch re-plays the boot
+     loader via a client nav (no gate script → no `.boot-lock`), which otherwise
+     exposes that ink as a scrollable overflow (the RTL/LTR "stretched page").
+     `clip` (not `hidden`) keeps position:sticky + the normal vertical scroll. */
+  html {
+    overflow-x: clip;
+  }
   body {
     @apply bg-background text-foreground;
     font-family: var(--font-sans), Arial, Helvetica, sans-serif;
