@@ -8,6 +8,14 @@ export default defineConfig({
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
+  // The E2E server is `pnpm dev` (Next dev mode) — the FIRST test to hit a heavy
+  // route (e.g. /compare: search + radar + SSR comparison) pays an on-demand
+  // compile that can exceed Playwright's default 5s `expect` timeout, so the
+  // debounced-search picks + comparison-render assertions flaked on cold CI runs
+  // (green on rerun once the route is warm). Give assertions + the whole test
+  // enough headroom to absorb a cold compile; warm runs are unaffected.
+  timeout: 60_000,
+  expect: { timeout: 12_000 },
   // CI: GitHub Actions annotations on the PR + an HTML report written to
   // `playwright-report/` so the e2e workflow can upload it as an artifact
   // on failure (TASK-002 AC). `open: "never"` stops Playwright from trying
