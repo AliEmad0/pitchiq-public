@@ -15,8 +15,9 @@ import { revealProps } from "@/utils/reveal";
 // modern core-only season collapses to a few sections and a 2003-16 season fills
 // all ten. Multi-open: opening a section never closes the others.
 //
+// Each category header carries a lucide icon tinted with the category accent.
 // Motion (owner picks): rows stagger in on reveal (`revealProps`), the open
-// section's dot pulses + its header colour-washes once, the chevron rotates, and
+// section's icon pulses + its header colour-washes once, the chevron rotates, and
 // the panel height-slides (grid-rows 0fr→1fr). All degrade under reduced motion.
 
 function formatValue(value: number, fmt: StatDef["fmt"], locale: string): string {
@@ -75,10 +76,10 @@ export function PlayerSeasonStats({ metrics }: { metrics: ComparisonMetrics }) {
                   aria-controls={panelId}
                   className={`statacc-wash ${isOpen ? "statacc-wash--open" : ""} focus-visible:ring-ring flex w-full items-center gap-3 px-4 py-3 text-start focus-visible:ring-2 focus-visible:outline-none`}
                 >
-                  <span
+                  <category.icon
                     aria-hidden
-                    className={`size-2.5 shrink-0 rounded-[3px] ${isOpen ? "statacc-dot--open" : ""}`}
-                    style={{ background: "var(--cat-accent)" }}
+                    className={`statacc-icon size-4 shrink-0 ${isOpen ? "statacc-icon--open" : ""}`}
+                    style={{ color: "var(--cat-accent)" }}
                   />
                   <span className="flex-1 text-sm font-semibold tracking-wide uppercase">
                     {tm(category.titleKey)}

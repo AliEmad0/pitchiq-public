@@ -1,3 +1,17 @@
+import type { LucideIcon } from "lucide-react";
+import {
+  Clock,
+  Target,
+  Sparkles,
+  Send,
+  Flag,
+  Footprints,
+  Swords,
+  Shield,
+  Gavel,
+  Hand,
+} from "lucide-react";
+
 import type { ComparisonMetrics, ExtendedMetrics } from "@/types/api";
 
 // TASK-M65 — the 10-category grouping that drives the Category Accordion on
@@ -31,8 +45,10 @@ export interface StatCategory {
   title: string;
   /** `metrics` namespace key for the localized category header. */
   titleKey: string;
-  /** Accent hue (dot / chevron / colour-wash), tuned to read on both themes. */
+  /** Accent hue (icon / chevron / colour-wash), tuned to read on both themes. */
   accent: string;
+  /** Category glyph (lucide) shown in the accordion header, tinted with `accent`. */
+  icon: LucideIcon;
   stats: StatDef[];
 }
 
@@ -55,6 +71,7 @@ export const STAT_CATEGORIES: StatCategory[] = [
     title: "Playing time",
     titleKey: "catPlayingTime",
     accent: "#6366f1",
+    icon: Clock,
     stats: [
       core("appearances", "Appearances"),
       ext("starts", "Starts", "starts"),
@@ -69,6 +86,7 @@ export const STAT_CATEGORIES: StatCategory[] = [
     title: "Shooting",
     titleKey: "catShooting",
     accent: "#e0891b",
+    icon: Target,
     stats: [
       core("goals", "Goals"),
       core("xg", "Expected goals (xG)", "dec"),
@@ -90,6 +108,7 @@ export const STAT_CATEGORIES: StatCategory[] = [
     title: "Creation",
     titleKey: "catCreation",
     accent: "#d1662f",
+    icon: Sparkles,
     stats: [
       core("assists", "Assists"),
       core("xa", "Expected assists (xA)", "dec"),
@@ -101,6 +120,7 @@ export const STAT_CATEGORIES: StatCategory[] = [
     title: "Passing",
     titleKey: "catPassing",
     accent: "#2f7fd1",
+    icon: Send,
     stats: [
       core("passAccuracy", "Pass accuracy", "pct"),
       ext("totalPasses", "Total passes", "totalPasses"),
@@ -123,6 +143,7 @@ export const STAT_CATEGORIES: StatCategory[] = [
     title: "Crossing & corners",
     titleKey: "catCrossing",
     accent: "#8a6fc0",
+    icon: Flag,
     stats: [
       ext("successfulCrossesOpenPlay", "Open-play crosses", "successfulCrossesOpenPlay"),
       ext("unsuccessfulCrossesOpenPlay", "Open-play crosses failed", "unsuccessfulCrossesOpenPlay"),
@@ -141,6 +162,7 @@ export const STAT_CATEGORIES: StatCategory[] = [
     title: "Dribbling",
     titleKey: "catDribbling",
     accent: "#1f9d78",
+    icon: Footprints,
     stats: [
       core("dribblesCompleted", "Dribbles completed"),
       ext("unsuccessfulDribbles", "Dribbles failed", "unsuccessfulDribbles"),
@@ -152,6 +174,7 @@ export const STAT_CATEGORIES: StatCategory[] = [
     title: "Duels",
     titleKey: "catDuels",
     accent: "#b07a4f",
+    icon: Swords,
     stats: [
       core("duelsWon", "Duels won"),
       ext("duels", "Total duels", "duels"),
@@ -166,6 +189,7 @@ export const STAT_CATEGORIES: StatCategory[] = [
     title: "Defending",
     titleKey: "catDefending",
     accent: "#3f9d6a",
+    icon: Shield,
     stats: [
       core("tackles", "Tackles"),
       ext("tacklesWon", "Tackles won", "tacklesWon"),
@@ -181,6 +205,7 @@ export const STAT_CATEGORIES: StatCategory[] = [
     title: "Discipline",
     titleKey: "catDiscipline",
     accent: "#d05650",
+    icon: Gavel,
     stats: [
       core("yellowCards", "Yellow cards"),
       core("redCards", "Red cards"),
@@ -195,6 +220,7 @@ export const STAT_CATEGORIES: StatCategory[] = [
     title: "Goals against / GK",
     titleKey: "catGoalsAgainst",
     accent: "#2f9fb8",
+    icon: Hand,
     stats: [
       core("cleanSheets", "Clean sheets"),
       core("saves", "Saves"),
