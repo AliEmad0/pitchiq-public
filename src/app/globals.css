@@ -545,14 +545,14 @@
   0%,
   100% {
     transform: scale(1);
-    box-shadow: 0 0 0 0 color-mix(in srgb, var(--cat-accent) 45%, transparent);
+    opacity: 1;
   }
   50% {
-    transform: scale(1.25);
-    box-shadow: 0 0 0 6px transparent;
+    transform: scale(1.15);
+    opacity: 0.72;
   }
 }
-.statacc-dot--open {
+.statacc-icon--open {
   animation: statacc-pulse 1.9s var(--ease-in-out-soft) infinite;
 }
 .statacc-wash::before {
@@ -584,7 +584,7 @@
 /* Reduced motion: the pulse (autoplay) + wash sweep are motion → off; the open
    state itself stays fully functional (the panel just shows without the slide). */
 @media (prefers-reduced-motion: reduce) {
-  .statacc-dot--open {
+  .statacc-icon--open {
     animation: none;
   }
   .statacc-wash::before {
