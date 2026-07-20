@@ -581,6 +581,31 @@
     transform: translateX(101%);
   }
 }
+/* RTL (ar): the sweep must enter from the START edge (the right) and the gradient
+   point the other way, so the accent follows the reading direction instead of
+   running backwards across a mirrored header (TASK-M65 fix). */
+[dir="rtl"] .statacc-wash::before {
+  background: linear-gradient(
+    270deg,
+    color-mix(in srgb, var(--cat-accent) 22%, transparent),
+    transparent 65%
+  );
+  transform: translateX(101%);
+}
+[dir="rtl"] .statacc-wash--open::before {
+  animation-name: statacc-wash-rtl;
+}
+@keyframes statacc-wash-rtl {
+  0% {
+    transform: translateX(101%);
+  }
+  55% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-101%);
+  }
+}
 /* Reduced motion: the pulse (autoplay) + wash sweep are motion → off; the open
    state itself stays fully functional (the panel just shows without the slide). */
 @media (prefers-reduced-motion: reduce) {

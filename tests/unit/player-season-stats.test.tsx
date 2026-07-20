@@ -89,4 +89,19 @@ describe("PlayerSeasonStats — Category Accordion (TASK-M65)", () => {
     expect(playing).toHaveAttribute("aria-expanded", "false");
     expect(shooting).toHaveAttribute("aria-expanded", "true");
   });
+
+  it("plays the header wash only after a real toggle, never on mount (locale-switch glow fix)", () => {
+    // Regression: a locale switch remounts this client component and resets
+    // `open` to the default-open first category — the wash must NOT fire from
+    // that (it flashed a glow on en↔ar switch). It fires only on a click.
+    renderWithIntl(<PlayerSeasonStats metrics={metrics({ appearances: 30, goals: 12 })} />);
+    const playing = screen.getByRole("button", { name: /Playing time/i });
+    const shooting = screen.getByRole("button", { name: /Shooting/i });
+    // default-open section is expanded but carries no wash on mount
+    expect(playing).toHaveAttribute("aria-expanded", "true");
+    expect(playing.className).not.toContain("statacc-wash--open");
+    // a section the reader actually opens does wash
+    fireEvent.click(shooting);
+    expect(shooting.className).toContain("statacc-wash--open");
+  });
 });
