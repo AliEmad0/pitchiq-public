@@ -555,56 +555,45 @@
 .statacc-icon--open {
   animation: statacc-pulse 1.9s var(--ease-in-out-soft) infinite;
 }
+/* `position: relative` CONFINES the inset:0 ::before to THIS header row — without
+   it the pseudo-element escapes to the nearest positioned ancestor and paints the
+   full page height from the top of the rows list (the reported bug). */
+.statacc-wash {
+  position: relative;
+}
 .statacc-wash::before {
   content: "";
   position: absolute;
   inset: 0;
   pointer-events: none;
   background: linear-gradient(
-    90deg,
+    var(--wash-angle, 90deg),
     color-mix(in srgb, var(--cat-accent) 22%, transparent),
     transparent 65%
   );
-  transform: translateX(-101%);
+  transform: translateX(calc(var(--wash-sign, 1) * -101%));
 }
 .statacc-wash--open::before {
   animation: statacc-wash var(--motion-duration-slow) var(--ease-out-soft) forwards;
 }
+/* Direction follows the reading order via `--wash-sign` (+1 ltr, -1 rtl) — a CSS
+   VARIABLE, not a separate animation-name. Flipping `dir` on a locale switch then
+   changes the sweep direction WITHOUT restarting the (finished, forwards)
+   animation, so the glow does NOT re-flash on an en↔ar switch. */
 @keyframes statacc-wash {
   0% {
-    transform: translateX(-101%);
+    transform: translateX(calc(var(--wash-sign, 1) * -101%));
   }
   55% {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(101%);
+    transform: translateX(calc(var(--wash-sign, 1) * 101%));
   }
 }
-/* RTL (ar): the sweep must enter from the START edge (the right) and the gradient
-   point the other way, so the accent follows the reading direction instead of
-   running backwards across a mirrored header (TASK-M65 fix). */
-[dir="rtl"] .statacc-wash::before {
-  background: linear-gradient(
-    270deg,
-    color-mix(in srgb, var(--cat-accent) 22%, transparent),
-    transparent 65%
-  );
-  transform: translateX(101%);
-}
-[dir="rtl"] .statacc-wash--open::before {
-  animation-name: statacc-wash-rtl;
-}
-@keyframes statacc-wash-rtl {
-  0% {
-    transform: translateX(101%);
-  }
-  55% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-101%);
-  }
+[dir="rtl"] .statacc-wash {
+  --wash-sign: -1;
+  --wash-angle: 270deg;
 }
 /* Reduced motion: the pulse (autoplay) + wash sweep are motion → off; the open
    state itself stays fully functional (the panel just shows without the slide). */
