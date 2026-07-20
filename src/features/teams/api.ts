@@ -175,7 +175,7 @@ function toTeamDetail(
   team: SnapshotT,
   season: number,
   clubLogos: ClubLogosFile | null,
-  meta?: { city: string | null; stadiumImage: string | null } | null,
+  meta?: { city: string | null; stadiumImage: string | null; website?: string | null } | null,
   names: EntityNames = IDENTITY_NAMES,
 ): TeamDetail {
   return {
@@ -190,6 +190,7 @@ function toTeamDetail(
       country: names.nationality("gb-eng", "England") ?? "England",
       founded: team.founded,
       national: false,
+      website: meta?.website ?? null, // TASK-M64 (detail hero only; index cards omit it)
     },
     venue: {
       id: null,

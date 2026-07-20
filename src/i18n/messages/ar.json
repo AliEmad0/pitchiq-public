@@ -255,6 +255,7 @@
     "stadium": "الملعب",
     "capacity": "السعة",
     "city": "المدينة",
+    "website": "الموقع الرسمي",
     "stadiumAlt": "ملعب {name}",
     "squadUnavailable": "قائمة اللاعبين غير متاحة",
     "squadUnavailableMsg": "لا تتوفّر لدينا بيانات قائمة هذا الفريق في موسم {season}.",
