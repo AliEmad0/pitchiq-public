@@ -38,14 +38,21 @@ export function PlayerSeasonStats({ metrics }: { metrics: ComparisonMetrics }) {
   const [open, setOpen] = useState<Set<string>>(() =>
     categories.length ? new Set([categories[0].category.key]) : new Set(),
   );
+  // The header colour-wash only plays on a section the reader actually toggles —
+  // never on mount or a locale-switch remount (which resets `open` to the
+  // default-open first section and would otherwise flash its glow with no
+  // interaction — the reported bug when switching en↔ar on the player page).
+  const [washed, setWashed] = useState<Set<string>>(() => new Set());
 
-  const toggle = (key: string) =>
+  const toggle = (key: string) => {
+    setWashed((prev) => (prev.has(key) ? prev : new Set(prev).add(key)));
     setOpen((prev) => {
       const next = new Set(prev); // multi-open: only flip THIS section
       if (next.has(key)) next.delete(key);
       else next.add(key);
       return next;
     });
+  };
 
   if (!categories.length) return null;
 
@@ -74,7 +81,7 @@ export function PlayerSeasonStats({ metrics }: { metrics: ComparisonMetrics }) {
                   onClick={() => toggle(category.key)}
                   aria-expanded={isOpen}
                   aria-controls={panelId}
-                  className={`statacc-wash ${isOpen ? "statacc-wash--open" : ""} focus-visible:ring-ring flex w-full items-center gap-3 px-4 py-3 text-start focus-visible:ring-2 focus-visible:outline-none`}
+                  className={`statacc-wash ${isOpen && washed.has(category.key) ? "statacc-wash--open" : ""} focus-visible:ring-ring flex w-full items-center gap-3 px-4 py-3 text-start focus-visible:ring-2 focus-visible:outline-none`}
                 >
                   <category.icon
                     aria-hidden
