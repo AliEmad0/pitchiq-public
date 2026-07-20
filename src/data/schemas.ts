@@ -522,15 +522,16 @@ export const ClubLogosFileSchema = z.record(
 );
 
 /**
- * club-metadata.json (TASK-M19): our teamId (string key) → club identity facts
- * (city + stadium image). Both fields are nullable — a club the pipeline can't
- * resolve a field for renders it gracefully.
+ * club-metadata.json (TASK-M19/M62/M64): our teamId (string key) → club identity
+ * facts (city + stadium image + official website). All fields are nullable — a
+ * club the pipeline can't resolve a field for renders it gracefully.
  */
 export const ClubMetadataFileSchema = z.record(
   z.string(),
   z.object({
     city: z.string().nullable(),
     stadiumImage: z.string().nullable(),
+    website: z.string().nullable(),
   }),
 );
 

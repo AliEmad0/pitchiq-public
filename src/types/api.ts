@@ -432,6 +432,8 @@ export type Team = TeamRef & {
   country: string;
   founded: number | null;
   national: boolean;
+  /** TASK-M64 — official club website (clean origin), or null for defunct sides. */
+  website: string | null;
 };
 
 export type TeamDetail = {

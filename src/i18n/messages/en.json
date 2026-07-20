@@ -255,6 +255,7 @@
     "stadium": "Stadium",
     "capacity": "Capacity",
     "city": "City",
+    "website": "Website",
     "stadiumAlt": "{name} stadium",
     "squadUnavailable": "Squad unavailable",
     "squadUnavailableMsg": "We don't have squad data for this team in the {season} season.",

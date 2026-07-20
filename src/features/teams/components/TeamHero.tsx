@@ -85,6 +85,24 @@ export function TeamHero({ team, venue, rank }: TeamHeroProps) {
                 <dd className="mt-0.5 font-medium">{venue.city}</dd>
               </div>
             )}
+            {team.website && (
+              // TASK-M64 — official club site. External, new tab, noopener.
+              // Omitted for defunct clubs (website null). The dt label is
+              // localized; the link text is the bare domain (Latin, url-safe).
+              <div>
+                <dt className="text-muted-foreground">{t("website")}</dt>
+                <dd className="mt-0.5 font-medium">
+                  <a
+                    href={team.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary underline-offset-4 hover:underline"
+                  >
+                    {team.website.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "")}
+                  </a>
+                </dd>
+              </div>
+            )}
           </dl>
 
           {venue.image && (
