@@ -46,3 +46,9 @@ data/search-index.json
 # writeJsonStable (sorted keys). Prettier must not reformat them (keep the cron's
 # idempotent diff stable).
 data/i18n/names-ar/*.json
+
+# SDP history side-map — written by the one-off build-official-stats-history.ts
+# via writeJsonStable (recursively sorted keys). writeJsonStable owns its
+# formatting; prettier must not touch it, so a builder re-run + commit can never
+# produce a prettier-vs-writer diff (matches the search-index/names-ar policy).
+data/player-history-stats.json
