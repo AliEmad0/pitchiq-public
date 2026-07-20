@@ -5631,10 +5631,12 @@ A text/stat retro football simulation built **inside PitchIQ** (`src/features/ga
 | [TASK-M59](#task-m59) | Speed Insights observability (Analytics already shipped)          | ✅ Done            | P3       | XS  |
 | [TASK-M60](#task-m60) | Player photo/bio batch (11 portraits + 4 bios + 1 tombstone)      | ✅ Done            | P2       | S   |
 | [TASK-M61](#task-m61) | Self-referencing canonical URLs across every route                | ✅ Done            | P2       | M   |
-| [TASK-M62](#task-m62) | Fix wrong club cities (district → city, e.g. Aston Villa)         | 📋 Ready           | P2       | S   |
-| [TASK-M63](#task-m63) | Audit + correct club stadium names against the official source    | 📋 Ready           | P2       | S   |
-| [TASK-M64](#task-m64) | Add official club website field + surface on the team page        | 📋 Ready           | P2       | M   |
+| [TASK-M62](#task-m62) | Fix wrong club cities (district → city, e.g. Aston Villa)         | ✅ Done            | P2       | S   |
+| [TASK-M63](#task-m63) | Audit + correct club stadium names against the official source    | ✅ Done            | P2       | S   |
+| [TASK-M64](#task-m64) | Add official club website field + surface on the team page        | ✅ Done            | P2       | M   |
 | [TASK-M65](#task-m65) | Surface all 66 player stats — Category Accordion profile view     | ✅ Done            | P2       | XL  |
+| [TASK-M66](#task-m66) | Extend the 66-stat history to 2017-18 → 2025-26 (cron-safe)       | ✅ Done            | P2       | L   |
+| [TASK-M67](#task-m67) | Category icons for the stat accordion (replace colored dots)      | ✅ Done            | P3       | S   |
 
 ### TASK-M01
 
@@ -6917,7 +6919,9 @@ Search Console reported "User-declared canonical: N/A" — Next emits none by de
 
 ### TASK-M62
 
-**Fix wrong club cities (district → city)** · 📋 Ready · `P2` · `S` · Type: Data / Pipeline
+**Fix wrong club cities (district → city)** · ✅ Done · `P2` · `S` · Type: Data / Pipeline
+
+**Done** (pitchiq#26 + pipeline): `city` re-sourced from the official league team reference and joined per club — 11 corrections incl. Aston Villa "Aston" → **Birmingham** and a stray geo-id leak → **Bradford**. No team-file regen.
 
 **Description**
 Several clubs' `city` in the committed club-metadata is a too-narrow locality rather than the city — e.g. **Aston Villa** reads **"Aston"** (a district of Birmingham) instead of **"Birmingham"**. Root cause: `city` is derived from the geo reference behind the committed-data pipeline (Wikidata `P159`), which returns the club's parish/district for some clubs. Fix = re-source `city` from the official league team reference (authoritative city per club) and override the wrong values.
@@ -6936,7 +6940,9 @@ Several clubs' `city` in the committed club-metadata is a too-narrow locality ra
 
 ### TASK-M63
 
-**Audit + correct club stadium names** · 📋 Ready · `P2` · `S` · Type: Data / Pipeline
+**Audit + correct club stadium names** · ✅ Done · `P2` · `S` · Type: Data / Pipeline
+
+**Done** (pitchiq#26 + pipeline): the audit found OUR committed venue names are the true/current ones (the official reference was mostly stale or typo'd), so nothing was overwritten **except Everton**, whose ground genuinely moved for 2025-26 (Goodison Park → Hill Dickinson Stadium, capacity 52,888).
 
 **Description**
 Verify every club's stadium name in the committed club-metadata against the official league club reference and correct any stale/wrong names. The team page already renders the "Stadium" field, so this is a data-accuracy pass with no UI change.
@@ -6954,7 +6960,9 @@ Verify every club's stadium name in the committed club-metadata against the offi
 
 ### TASK-M64
 
-**Add official club website + surface on the team page** · 📋 Ready · `P2` · `M` · Type: Data + UI
+**Add official club website + surface on the team page** · ✅ Done · `P2` · `M` · Type: Data + UI
+
+**Done** (pitchiq#26 + pipeline): nullable `website` added to the club-metadata schema + the `Team` wire type, populated per club (tracking params stripped to a clean origin) and surfaced in the team hero as an external link (en/ar "Website" label), omitted for defunct clubs.
 
 **Description**
 Clubs have no official-website link anywhere in the app. Add each club's official website URL (available from the official league club metadata) as a new committed club-metadata field and surface it on `/teams/[id]` (e.g. a link in the team hero's identity block).
@@ -6990,6 +6998,22 @@ The player profile (`/players/[id]`) renders only 14 of the 66 stat fields the S
 - Additive/optional bag → zero churn for seasons/players without extended data; nothing else that reads `ComparisonMetrics` changes.
 - Extended stats now cover **2003–2025** (2003–2016 in this task; 2017–2025 added in TASK-M66, cron-safe via the side-map + fill-null). Categories fill only where the source has them.
 - Full 10-category → 66-field grouping + the picked design/motion are captured in the session's prototype artifact.
+
+---
+
+### TASK-M66
+
+**Extend the 66-stat history to 2017-18 → 2025-26** · ✅ Done · `P2` · `L` · Type: Data / Pipeline
+
+**Done** (pitchiq#20 data + pipeline, cron-safe): the 66-stat `metrics.extended` bag (+ the advanced core) now covers 2017-18 → 2025-26, matching the 2003–2016 range. Applied **fill-null / additive** — existing reported core stats are preserved and only null gaps are filled (28 in 2025-26), so no recent-season value churned. Cron-safe: the stats live in the committed side-map and are re-applied in the `emrey` + FPL sync branches, so the daily refresh can't strip them (a full re-sync regenerates 2017-24 byte-identical). Coverage 93–96%/season.
+
+---
+
+### TASK-M67
+
+**Category icons for the stat accordion** · ✅ Done · `P3` · `S` · Type: UI
+
+**Done** (pitchiq#21): each accordion category header shows a lucide icon tinted with the category accent (Playing time → clock, Shooting → target, …), replacing the plain colored dot. **Follow-up** (pitchiq#27): the header colour-wash now respects RTL and no longer flashes when switching en↔ar on a player page.
 
 ---
 
