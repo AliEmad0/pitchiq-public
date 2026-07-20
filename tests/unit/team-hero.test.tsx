@@ -19,6 +19,7 @@ function makeTeam(overrides: Partial<Team> = {}): Team {
     country: "England",
     founded: 1878,
     national: false,
+    website: null,
     ...overrides,
   };
 }

@@ -26,6 +26,7 @@ function makeEntry(
       country: "England",
       founded,
       national: false,
+      website: null,
     },
     venue: {
       id: null,

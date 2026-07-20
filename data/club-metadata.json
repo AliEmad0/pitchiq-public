@@ -1,206 +1,257 @@
 {
   "33": {
     "city": "Manchester",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/2023_07_31_arne_mueseler_00060-Verbessert-RR_(53106651455).jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/2023_07_31_arne_mueseler_00060-Verbessert-RR_(53106651455).jpg",
+    "website": "https://www.manutd.com/"
   },
   "34": {
-    "city": "Newcastle upon Tyne",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Newcastle%20st-james-park%20stadium.jpg"
+    "city": "Newcastle",
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Newcastle%20st-james-park%20stadium.jpg",
+    "website": "https://www.newcastleunited.com/"
   },
   "35": {
     "city": "Bournemouth",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Deancourt%2014092013%20vblackpool.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Deancourt%2014092013%20vblackpool.jpg",
+    "website": "https://www.afcb.co.uk/"
   },
   "36": {
     "city": "London",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Craven%20Cottage%20Football%20Ground%20-%20geograph.org.uk%20-%20778731.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Craven%20Cottage%20Football%20Ground%20-%20geograph.org.uk%20-%20778731.jpg",
+    "website": "https://www.fulhamfc.com/"
   },
   "37": {
     "city": "Huddersfield",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Hudderslfield%200%20Chelsea%203%20%2830144863978%29.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Hudderslfield%200%20Chelsea%203%20%2830144863978%29.jpg",
+    "website": "https://www.htafc.com/"
   },
   "38": {
     "city": "Watford",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Vicarage%20Road%202015.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Vicarage%20Road%202015.jpg",
+    "website": "https://www.watfordfc.com/"
   },
   "39": {
     "city": "Wolverhampton",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Molineux%20Ground%2C%20Wolverhampton.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Molineux%20Ground%2C%20Wolverhampton.jpg",
+    "website": "https://www.wolves.co.uk/"
   },
   "40": {
     "city": "Liverpool",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Liverpool%20anfield%20road%20stadium.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Liverpool%20anfield%20road%20stadium.jpg",
+    "website": "https://www.liverpoolfc.com/"
   },
   "41": {
     "city": "Southampton",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint%20Mary%27s%20Stadium%20-%20geograph.org.uk%20-%205049881.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint%20Mary%27s%20Stadium%20-%20geograph.org.uk%20-%205049881.jpg",
+    "website": "https://www.southamptonfc.com/"
   },
   "42": {
     "city": "London",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/London%20Emirates%20Stadium%20arsenal.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/London%20Emirates%20Stadium%20arsenal.jpg",
+    "website": "https://www.arsenal.com/"
   },
   "43": {
     "city": "Cardiff",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Cardiff%20City%20Stadium%20Pitch.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Cardiff%20City%20Stadium%20Pitch.jpg",
+    "website": "https://www.cardiffcityfc.co.uk/"
   },
   "44": {
     "city": "Burnley",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Turf%20Moor%20panorama.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Turf%20Moor%20panorama.jpg",
+    "website": "https://www.burnleyfootballclub.com/"
   },
   "45": {
     "city": "Liverpool",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Project%20366%20-217%20040824%20Approaching%20Lift%20Off%20%2853902389448%29.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Project%20366%20-217%20040824%20Approaching%20Lift%20Off%20%2853902389448%29.jpg",
+    "website": "https://www.evertonfc.com/"
   },
   "46": {
     "city": "Leicester",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/King%20Power%20Stadium%20wide%20view.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/King%20Power%20Stadium%20wide%20view.jpg",
+    "website": "https://www.lcfc.com/"
   },
   "47": {
-    "city": "London Borough of Haringey",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/London%20Tottenham%20Hotspur%20Stadium.jpg"
+    "city": "London",
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/London%20Tottenham%20Hotspur%20Stadium.jpg",
+    "website": "https://www.tottenhamhotspur.com/"
   },
   "48": {
-    "city": "London Borough of Newham",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/London%20Olympic%20Stadium%20West%20Ham.jpg"
+    "city": "London",
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/London%20Olympic%20Stadium%20West%20Ham.jpg",
+    "website": "https://www.whufc.com/"
   },
   "49": {
     "city": "London",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/London%20Stamford%20Bridge.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/London%20Stamford%20Bridge.jpg",
+    "website": "https://www.chelseafc.com/"
   },
   "50": {
     "city": "Manchester",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/City%20of%20Manchester%20Stadium%202023%20cropped.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/City%20of%20Manchester%20Stadium%202023%20cropped.jpg",
+    "website": "https://www.mancity.com/"
   },
   "51": {
-    "city": "Brighton and Hove",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Falmer%20Stadium%20-%20night.jpg"
+    "city": "Falmer",
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Falmer%20Stadium%20-%20night.jpg",
+    "website": "https://www.brightonandhovealbion.com/"
   },
   "52": {
     "city": "London",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/London%20Selhurst%20Park%20crystal%20palace%20stadium%20aerialview.JPG"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/London%20Selhurst%20Park%20crystal%20palace%20stadium%20aerialview.JPG",
+    "website": "https://www.cpfc.co.uk/"
   },
   "53": {
     "city": "Reading",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Select%20Car%20Leasing.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Select%20Car%20Leasing.jpg",
+    "website": "https://www.readingfc.co.uk/"
   },
   "54": {
     "city": "Birmingham",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/TiltonRoadEnd01.JPG"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/TiltonRoadEnd01.JPG",
+    "website": "https://www.bcfc.com/"
   },
   "55": {
-    "city": "London",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Griffin%20Park%20aerial%202011.jpg"
+    "city": "Brentford",
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Griffin%20Park%20aerial%202011.jpg",
+    "website": "https://www.brentfordfc.com/"
   },
   "57": {
     "city": "Ipswich",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Cobbold%20Stand%2C%20Ipswich%20Town%20Football%20Club%208418.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Cobbold%20Stand%2C%20Ipswich%20Town%20Football%20Club%208418.jpg",
+    "website": "https://www.itfc.co.uk/"
   },
   "60": {
     "city": "West Bromwich",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/West%20brom%20stadium.JPG"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/West%20brom%20stadium.JPG",
+    "website": "https://www.wba.co.uk/"
   },
   "61": {
     "city": "Wigan",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Wigan%20athletics%20dw%20stadium.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Wigan%20athletics%20dw%20stadium.jpg",
+    "website": "https://wiganathletic.com/"
   },
   "62": {
     "city": "Sheffield",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Sheffield%20united%20bramall%20lane%20stadium.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Sheffield%20united%20bramall%20lane%20stadium.jpg",
+    "website": "https://www.sufc.co.uk/"
   },
   "63": {
     "city": "Leeds",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Elland%20Road%202023%20cropped.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Elland%20Road%202023%20cropped.jpg",
+    "website": "https://www.leedsunited.com/"
   },
   "64": {
-    "city": "Kingston upon Hull",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/KC%20South%20Stand.JPG"
+    "city": "Hull",
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/KC%20South%20Stand.JPG",
+    "website": "https://www.wearehullcity.co.uk/"
   },
   "65": {
-    "city": "West Bridgford",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Nottingham%20the%20city%20ground%20stadium%20forest.jpg"
+    "city": "Nottingham",
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Nottingham%20the%20city%20ground%20stadium%20forest.jpg",
+    "website": "https://www.nottinghamforest.co.uk/"
   },
   "66": {
-    "city": "Aston",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Birmingham%20aston%20villa%20park%20stadium.jpg"
+    "city": "Birmingham",
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Birmingham%20aston%20villa%20park%20stadium.jpg",
+    "website": "https://www.avfc.co.uk/"
   },
   "67": {
     "city": "Blackburn",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Ewood%20Park%202011.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Ewood%20Park%202011.jpg",
+    "website": "https://www.rovers.co.uk/"
   },
   "68": {
-    "city": "Horwich",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Reebokstadium%20inside.jpg"
+    "city": "Bolton",
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Reebokstadium%20inside.jpg",
+    "website": "https://www.bwfc.co.uk/"
   },
   "69": {
     "city": "Derby",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Derby%20pride%20park%20stadium%20derby%20county.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Derby%20pride%20park%20stadium%20derby%20county.jpg",
+    "website": "https://www.dcfc.co.uk/"
   },
   "70": {
     "city": "Middlesbrough",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Middlesbrough%20riverside%20stadium.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Middlesbrough%20riverside%20stadium.jpg",
+    "website": "https://www.mfc.co.uk/"
   },
   "71": {
     "city": "Norwich",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/NCFC%20Geoffrey%20Watling%20City%20Stand%20Apr07.JPG"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/NCFC%20Geoffrey%20Watling%20City%20Stand%20Apr07.JPG",
+    "website": "https://www.canaries.co.uk/"
   },
   "72": {
     "city": "London",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Loftus%20Road%2036.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Loftus%20Road%2036.jpg",
+    "website": "https://www.qpr.co.uk/"
   },
   "74": {
     "city": "Sheffield",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Sheffield%20wednesday%20hillsborough%20stadium.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Sheffield%20wednesday%20hillsborough%20stadium.jpg",
+    "website": "https://www.swfc.co.uk/"
   },
   "75": {
-    "city": "Stoke-on-Trent",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20Bet%20365%20Stadium.jpg"
+    "city": "Stoke",
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20Bet%20365%20Stadium.jpg",
+    "website": "https://www.stokecityfc.com/"
   },
   "76": {
     "city": "Swansea",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/New%20Morfa%20Stadium%20-%20geograph.org.uk%20-%2032243.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/New%20Morfa%20Stadium%20-%20geograph.org.uk%20-%2032243.jpg",
+    "website": "https://www.swanseacity.com/"
   },
   "746": {
     "city": "Sunderland",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunderland%20Stadium%20of%20Light%20aerial.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunderland%20Stadium%20of%20Light%20aerial.jpg",
+    "website": "https://www.safc.com/"
   },
   "747": {
     "city": "Barnsley",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/East%20Stand%2C%20Oakwell%20-%20geograph.org.uk%20-%201494052.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/East%20Stand%2C%20Oakwell%20-%20geograph.org.uk%20-%201494052.jpg",
+    "website": "https://www.barnsleyfc.co.uk/"
   },
   "1333": {
     "city": "London",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Plough%20Lane%2C%2018%20May%202021.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Plough%20Lane%2C%2018%20May%202021.jpg",
+    "website": "https://www.afcwimbledon.co.uk/"
   },
   "1335": {
     "city": "London",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Valley%20North%20and%20West%20Stands.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Valley%20North%20and%20West%20Stands.jpg",
+    "website": "https://www.charltonafc.com/"
   },
   "1343": {
-    "city": "Q22905",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Valley%20Parade%2C%20Bradford.jpg"
+    "city": "Bradford",
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Valley%20Parade%2C%20Bradford.jpg",
+    "website": "https://www.bradfordcityafc.com/"
   },
   "1346": {
     "city": "Coventry",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Ricoh%20Arena%20-%20geograph.org.uk%20-%20901396.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Ricoh%20Arena%20-%20geograph.org.uk%20-%20901396.jpg",
+    "website": "https://www.ccfc.co.uk/"
   },
   "1349": {
     "city": "Oldham",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Boundary%20Park.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Boundary%20Park.jpg",
+    "website": "https://www.oldhamathletic.co.uk/"
   },
   "1353": {
     "city": "Swindon",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Kingswoodstand.JPG"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Kingswoodstand.JPG",
+    "website": "https://www.swindontownfc.co.uk/"
   },
   "1355": {
     "city": "Portsmouth",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Fratton%20Park%20entrance.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Fratton%20Park%20entrance.jpg",
+    "website": "https://www.portsmouthfc.co.uk/"
   },
   "1356": {
     "city": "Blackpool",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Bloomfield%20Road%20PL%20Kickoff-geograph-2039284.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Bloomfield%20Road%20PL%20Kickoff-geograph-2039284.jpg",
+    "website": "https://www.blackpoolfc.co.uk/"
   },
   "1359": {
     "city": "Luton",
-    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Kenilworth%20Road%2C%20Kenilworth%20End.jpg"
+    "stadiumImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Kenilworth%20Road%2C%20Kenilworth%20End.jpg",
+    "website": "https://www.lutontown.co.uk/"
   }
 }

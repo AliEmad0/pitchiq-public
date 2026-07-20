@@ -96,7 +96,7 @@ describe("getTeam", () => {
   it("fills venue.city + venue.image from the club-metadata map (TASK-M19)", async () => {
     vi.mocked(loadTeams).mockResolvedValueOnce([snapshotManU()]);
     vi.mocked(loadClubMetadata).mockResolvedValueOnce({
-      "33": { city: "Manchester", stadiumImage: "https://commons/old-trafford.jpg" },
+      "33": { city: "Manchester", stadiumImage: "https://commons/old-trafford.jpg", website: null },
     });
 
     const result = await getTeam(TEAM_ID);
@@ -111,7 +111,7 @@ describe("getTeam", () => {
   it("leaves venue.city + venue.image null when the club-metadata map lacks the id", async () => {
     vi.mocked(loadTeams).mockResolvedValueOnce([snapshotManU()]);
     vi.mocked(loadClubMetadata).mockResolvedValueOnce({
-      "99": { city: "Nowhere", stadiumImage: "https://x.jpg" },
+      "99": { city: "Nowhere", stadiumImage: "https://x.jpg", website: null },
     });
 
     const result = await getTeam(TEAM_ID);
@@ -436,7 +436,7 @@ describe("getTeam — Arabic entity names on /ar (TASK-1606)", () => {
   it("localizes the club name, venue, city, and country", async () => {
     vi.mocked(loadTeams).mockResolvedValueOnce([snapshotManU()]);
     vi.mocked(loadClubMetadata).mockResolvedValueOnce({
-      "33": { city: "Manchester", stadiumImage: null },
+      "33": { city: "Manchester", stadiumImage: null, website: null },
     });
     vi.mocked(getEntityNames).mockResolvedValueOnce(
       arNames({
