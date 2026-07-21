@@ -204,6 +204,47 @@ export const PlayerSeasonSplitSchema = z.object({
   redCards: z.number().int().nonnegative().nullable(),
 });
 
+// TASK-M56: the true positional role (LB/CB/CDM/…) enriched from Transfermarkt,
+// far finer than the coarse 4-value `position`. A closed vocabulary; the pipeline
+// maps TM's strings onto it (an unmapped TM term is a hard error, never a guess).
+export const PlayerRoleSchema = z.enum([
+  "GK",
+  "RB",
+  "CB",
+  "LB",
+  "CDM",
+  "CM",
+  "CAM",
+  "RM",
+  "LM",
+  "RW",
+  "LW",
+  "SS",
+  "CF",
+]);
+export type PlayerRole = z.infer<typeof PlayerRoleSchema>;
+
+// Provenance of a player-season's role. `enriched` = TM career label (the baseline
+// this ticket ships); `grid` = a per-season 2017+ refinement from the lineup grid;
+// `coarse` = last-resort fallback to the 4-value line. Ships so the game/UI can be
+// honest about where a role came from.
+export const RoleSourceSchema = z.enum(["enriched", "grid", "coarse"]);
+export type RoleSource = z.infer<typeof RoleSourceSchema>;
+
+/**
+ * The ONLY eligibility rule for the game draft (TASK-M56, owner decision): a hard
+ * ban, not a penalty tier. A player may occupy their primary `role` or any of their
+ * `altRoles` — nothing else. A `null` role (unenriched player) is ineligible
+ * everywhere. This is why `altRoles` is correctness-critical, not flavour: an
+ * over-narrow scrape makes a real squad unbuildable.
+ */
+export function canPlay(
+  p: { role: PlayerRole | null; altRoles: PlayerRole[] },
+  slot: PlayerRole,
+): boolean {
+  return p.role === slot || p.altRoles.includes(slot);
+}
+
 export const PlayerSchema = z.object({
   id: z.number().int().positive(),
   name: z.string(),
@@ -226,6 +267,22 @@ export const PlayerSchema = z.object({
   // undefined for single-club seasons. Additive — aggregate `metrics`/`teamId`
   // and the id registry are unchanged.
   splits: z.array(PlayerSeasonSplitSchema).optional(),
+  // TASK-M56: true positional role + alternates + foot, enriched from
+  // Transfermarkt. All optional/additive — a pre-enrichment committed row
+  // validates unchanged; `altRoles` defaults to [] so consumers never see
+  // undefined. `role` null = not yet enriched. Eligibility (canPlay) reads
+  // `role` + `altRoles`.
+  // Optional (not `.default([])`) to stay a pure additive superset — forcing it
+  // required would break every existing Player literal + the mirrored type in
+  // src/types/api.ts. An enriched row always carries it; consumers normalize
+  // `altRoles ?? []` (canPlay takes an already-normalized shape).
+  role: PlayerRoleSchema.nullable().optional(),
+  altRoles: z.array(PlayerRoleSchema).optional(),
+  foot: z.enum(["left", "right", "both"]).nullable().optional(),
+  roleSource: RoleSourceSchema.optional(),
+  // TASK-M56: height in cm, enriched from Transfermarkt alongside the role.
+  // Additive/optional; null when TM lists no height.
+  height: z.number().int().nullable().optional(),
 });
 
 export const LeaderboardEntrySchema = z.object({
