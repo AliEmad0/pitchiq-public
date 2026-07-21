@@ -115,11 +115,13 @@ describe("PlayerSchema — additive role fields", () => {
       altRoles: ["CM", "SS"],
       foot: "right",
       roleSource: "enriched",
+      height: 179,
     });
     expect(p.role).toBe("CAM");
     expect(p.altRoles).toEqual(["CM", "SS"]);
     expect(p.foot).toBe("right");
     expect(p.roleSource).toBe("enriched");
+    expect(p.height).toBe(179);
   });
 
   it("rejects a non-canonical role code on a player row", () => {

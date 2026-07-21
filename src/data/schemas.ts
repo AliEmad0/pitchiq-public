@@ -280,6 +280,9 @@ export const PlayerSchema = z.object({
   altRoles: z.array(PlayerRoleSchema).optional(),
   foot: z.enum(["left", "right", "both"]).nullable().optional(),
   roleSource: RoleSourceSchema.optional(),
+  // TASK-M56: height in cm, enriched from Transfermarkt alongside the role.
+  // Additive/optional; null when TM lists no height.
+  height: z.number().int().nullable().optional(),
 });
 
 export const LeaderboardEntrySchema = z.object({
