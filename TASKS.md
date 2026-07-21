@@ -5637,6 +5637,7 @@ A text/stat retro football simulation built **inside PitchIQ** (`src/features/ga
 | [TASK-M65](#task-m65) | Surface all 66 player stats — Category Accordion profile view     | ✅ Done        | P2       | XL  |
 | [TASK-M66](#task-m66) | Extend the 66-stat history to 2017-18 → 2025-26 (cron-safe)       | ✅ Done        | P2       | L   |
 | [TASK-M67](#task-m67) | Category icons for the stat accordion (replace colored dots)      | ✅ Done        | P3       | S   |
+| [TASK-M68](#task-m68) | Player market value (Transfermarkt) — schema + loader + UI        | 📋 Ready       | P2       | M   |
 
 ### TASK-M01
 
@@ -7016,6 +7017,16 @@ The player profile (`/players/[id]`) renders only 14 of the 66 stat fields the S
 **Category icons for the stat accordion** · ✅ Done · `P3` · `S` · Type: UI
 
 **Done** (pitchiq#21): each accordion category header shows a lucide icon tinted with the category accent (Playing time → clock, Shooting → target, …), replacing the plain colored dot. **Follow-up** (pitchiq#27): the header colour-wash now respects RTL and no longer flashes when switching en↔ar on a player page.
+
+---
+
+### TASK-M68
+
+**Player market value — schema + loader + UI** · 📋 Ready · `P2` · `M` · Type: Data + UI
+
+Surface the Transfermarkt market value produced by the pipeline (TASK-M68 there → committed `data/market-values.json`, `season → ourId → { valueEur, determined }`; the pipeline builds it on top of M56's existing `player-tm-ids.json`). Add `MarketValueFileSchema` to `src/data/schemas.ts` + `loadMarketValues(season)` to `src/data/loaders.ts`, then read-time-join onto: the **player profile** `/players/[id]` (a "Market value €Xm (as of {date})" line + optional MV-history sparkline), the **players index** `/players` (an MV column + a "most valuable by market value" sort — supersedes the M50 goals+assists proxy where a value exists), **compare** `/compare` (an MV `<StatRow>`), and optionally a **"Most valuable" leaderboard**. **Null-graceful** — pre-2004 seasons + unmatched players render "—"/omit (the existing null-metric pattern). EUR formatting is locale-aware (en/ar, RTL-safe). Additive — no churn where a value is absent.
+
+**⚠️ Coverage caveat + ToS/posture: see the pipeline TASK-M68.** TM market values only exist from ~2004 (so our 1992-93 → 2003-04 seasons show no value), and the data is TM's proprietary editorial estimate via their internal API — the owner-approved third-party stance (as with TM photos) needs an **explicit sign-off** before shipping.
 
 ---
 
